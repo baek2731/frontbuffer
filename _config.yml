@@ -3,7 +3,8 @@ description: "Tech and gaming analysis. What's actually happening and why it mat
 url: "https://frontbuffer.net"
 baseurl: ""
 locale: "en-US"
-theme: minimal-mistakes-jekyll
+# theme: minimal-mistakes-jekyll
+remote_theme: mmistakes/minimal-mistakes
 minimal_mistakes_skin: "dark"
 plugins:
   - jekyll-seo-tag
@@ -11,6 +12,7 @@ plugins:
   - jekyll-include-cache
   - jekyll-paginate
   - jekyll-feed
+  - jekyll-remote-theme
 permalink: /:categories/:title/
 paginate: 5
 paginate_path: "/page:num/"
