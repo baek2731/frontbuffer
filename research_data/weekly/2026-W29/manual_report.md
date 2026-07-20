@@ -1,5 +1,5 @@
 # 📦 주간 리서치 리포트 — 2026-W29
-> 수집: 2026-07-20 07:21 UTC
+> 수집: 2026-07-20 07:29 UTC
 > 합계 436건 | 뉴스 (테크) 292건 / 뉴스 (게이밍) 144건
 > 쇼핑/딜 글은 수집 단계에서 이미 제외됨
 > 소스: arstechnica, theverge, techcrunch, tomshardware, 9to5google, eurogamer, rps, pcgamer, digitaltrends, androidauthority, techradar, hackernews
@@ -240,28 +240,28 @@
 - [NYT Connections hints and answers for Monday, July 20 (game #1135)](https://www.techradar.com/gaming/nyt-connections-today-answers-hints-20-july-2026) — techradar
 - [NYT Strands hints and answers for Monday, July 20 (game #869)](https://www.techradar.com/computing/websites-apps/nyt-strands-today-answers-hints-20-july-2026) — techradar
 - [How to watch World Cup final replay – it's spoiler-free](https://www.techradar.com/how-to-watch/football/world-cup-final-replay-its-spoiler-free) — techradar
-- ['6G is going to make all of us into walking cameras' — Quote of the day by Qualcomm CEO Cristiano Amon on the future of wearable tech](https://www.techradar.com/pro/6g-is-going-to-make-all-of-us-into-walking-cameras-quote-of-the-day-by-qualcomm-ceo-cristiano-amon-on-the-future-of-wearable-tech) — techradar
 - [Are you a Necronomicon expert? Prove it by taking on our tricky Evil Dead horror franchise quiz](https://www.techradar.com/streaming/entertainment/are-you-a-necronomicon-expert-prove-it-by-taking-on-our-tricky-evil-dead-horror-franchise-quiz) — techradar
+- ['6G is going to make all of us into walking cameras' — Quote of the day by Qualcomm CEO Cristiano Amon on the future of wearable tech](https://www.techradar.com/pro/6g-is-going-to-make-all-of-us-into-walking-cameras-quote-of-the-day-by-qualcomm-ceo-cristiano-amon-on-the-future-of-wearable-tech) — techradar
 - [Finally, some good news for budget-conscious laptop fans — Lenovo Legion R9000P is the world's first laptop with inkjet-printed OLED](https://www.techradar.com/pro/finally-some-good-news-for-budget-conscious-laptop-fans-lenovo-legion-r9000p-is-the-worlds-first-laptop-with-inkjet-printed-oled) — techradar
 - ['The bypass is still six lines of JavaScript': Security experts warn that Claude for Chrome browser extension could be hijacked, despite it alerting Anthropic several times that something was wrong](https://www.techradar.com/pro/the-bypass-is-still-six-lines-of-javascript-security-experts-warn-that-claude-for-chrome-browser-extension-could-be-hijacked-despite-it-alerting-anthropic-several-times-that-something-was-wrong) — techradar
 - [No more beating around the bush — Arc Search puts AI at the center of your browser experience](https://www.techradar.com/computing/websites-apps/arc-search) — techradar
-- [How to Watch the World Cup 2026 final halftime show: Free Live Streams, TV Channels & Performers](https://www.techradar.com/how-to-watch/football/world-cup-2026-final-halftime-show-free) — techradar
 - [There's a sneaky way to watch World Cup final 2026 for FREE](https://www.techradar.com/how-to-watch/sneaky-way-to-watch-world-cup-2026-final-for-free) — techradar
+- [How to Watch the World Cup 2026 final halftime show: Free Live Streams, TV Channels & Performers](https://www.techradar.com/how-to-watch/football/world-cup-2026-final-halftime-show-free) — techradar
 - [FAA and federal workers forced to install $1.4 million White House app containing Russian-built Elfsight code onto government-issued mobile devices](https://www.techradar.com/pro/faa-and-federal-workers-forced-to-install-usd1-4m-white-house-app-containing-russian-built-elfsight-code-onto-government-issued-mobile-devices) — techradar
 - [How to watch World Cup Final 2026: Free Streams, Team News, TV Channels & Kick-Off time for Spain vs Argentina](https://www.techradar.com/how-to-watch/football/how-to-watch-world-cup-final-2026-free-streams-tv-channels-and-kick-off-time-for-spain-vs-argentina) — techradar
 - [The quiet comeback of boring computing: why ports, keyboards, and repairability matter again](https://www.techradar.com/computing/laptops/the-quiet-comeback-of-boring-computing-why-ports-keyboards-and-repairability-matter-again) — techradar
 - [I've spent weeks testing the Razer Hammerhead V3 HyperSpeed gaming earbuds and it's left me desperate to go back to my SteelSeries Arctis GameBuds](https://www.techradar.com/gaming/razer-hammerhead-v3-hyperspeed-gaming-earbuds-review) — techradar
 - [I'm worried about the future of MacBooks — and these M7 chip rumors are to blame](https://www.techradar.com/computing/macbooks/im-worried-about-the-future-of-macbooks-and-these-m7-chip-rumors-are-to-blame) — techradar
-- [What is the release date for Avatar Aang: The Last Airbender on Paramount+?](https://www.techradar.com/streaming/paramount-plus/avatar-aang-the-last-airbender-release-date-time) — techradar
 - [Think you're the ultimate Tom Holland Spider-Man fan? Put your knowledge to the test against our Marvel mastermind in this tricky MCU quiz](https://www.techradar.com/streaming/entertainment/think-youre-the-ultimate-tom-holland-spider-man-fan-put-your-knowledge-to-the-test-against-our-marvel-mastermind-in-this-tricky-mcu-quiz) — techradar
+- [What is the release date for Avatar Aang: The Last Airbender on Paramount+?](https://www.techradar.com/streaming/paramount-plus/avatar-aang-the-last-airbender-release-date-time) — techradar
 - [Don’t let unreliable free VPNs ruin your World Cup Final watch party – here’s the cheapest way to watch securely](https://www.techradar.com/vpn/dont-let-unreliable-free-vpns-ruin-your-world-cup-final-watch-party-heres-the-cheapest-way-to-watch-securely) — techradar
 - [Which DJI camera should I buy? Here's our essential guide to your options, including the results of our in-depth testing](https://www.techradar.com/home/which-dji-camera-should-i-buy-heres-our-essential-guide-to-your-options-including-the-results-of-our-in-depth-testing) — techradar
 - [I tested the Eufy Omni S2 robotic vacuum — and it's expensive and impressive in equal measure](https://www.techradar.com/home/robot-vacuums/eufy-omni-s2-review) — techradar
 - ['People are choosing to be a walking Flock camera': the smart glasses backlash hits new heights as celebrities blast 'creep goggles' — and activists install fake Meta Glasses ads at London bus stops](https://www.techradar.com/computing/virtual-reality-augmented-reality/people-are-choosing-to-be-a-walking-flock-camera-the-smart-glasses-backlash-hits-new-heights-as-celebrities-blast-creep-goggles-and-activists-install-fake-meta-glasses-ads-at-london-bus-stops) — techradar
 - [The TCL NXTPAPER 70 Pro proved to me that budget smartphones can still be great — but I won't be ditching my aging Samsung just yet](https://www.techradar.com/phones/tcl-nxtpaper-70-pro) — techradar
 - [Chinese company BrainCo unveils first 'brain-to-robot' interface for controlling robots with your thoughts](https://www.techradar.com/ai-platforms-assistants/chinese-company-brainco-unveils-first-brain-to-robot-interface-for-controlling-robots-with-your-thoughts) — techradar
-- [This British farm is running AI on pig muck — and it could lead to a major windfall for farmers energy income, earning ten times more than the grid](https://www.techradar.com/pro/this-british-farm-is-running-ai-on-pig-muck-and-it-could-lead-to-a-major-windfall-for-farmers-energy-income-earning-ten-times-more-than-the-grid) — techradar
 - [Exclusive: ‘The emotion is doubled, it's not reduced’ — the world's most famous referee insists VAR hasn't killed the joy of World Cup goal celebrations](https://www.techradar.com/tech/exclusive-the-emotion-is-doubled-its-not-reduced-the-worlds-most-famous-referee-insists-var-hasnt-killed-the-joy-of-world-cup-goal-celebrations) — techradar
+- [This British farm is running AI on pig muck — and it could lead to a major windfall for farmers energy income, earning ten times more than the grid](https://www.techradar.com/pro/this-british-farm-is-running-ai-on-pig-muck-and-it-could-lead-to-a-major-windfall-for-farmers-energy-income-earning-ten-times-more-than-the-grid) — techradar
 - [The Dimplex FlexBlade Multi-Directional Bladeless Fan looks like it's part of a plane, but despite its propeller-like design it may struggle to cool your aircraft hangar](https://www.techradar.com/home/air-quality/dimplex-flexblade-review) — techradar
 - [I've used foldable phones for years — here's how the Galaxy Z Fold 8 and iPhone Ultra are fixing the form factor in 2026](https://www.techradar.com/phones/ive-used-foldable-phones-for-years-heres-how-the-galaxy-z-fold-8-and-iphone-ultra-are-fixing-the-form-factor-in-2026) — techradar
 - [Quordle hints and answers for Sunday, July 19 (game #1637)](https://www.techradar.com/computing/websites-apps/quordle-today-answers-clues-19-july-2026) — techradar
@@ -291,10 +291,10 @@
 - [Korg PS-3300 is back](https://www.korg.co.uk/blogs/updates/ps3300) — hackernews
 - [Claude Code uses Bun written in Rust now](https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/) — hackernews
 - [Orion Browser by Kagi](https://orionbrowser.com/) — hackernews
+- [Sealed tomb filled with paintings and inscriptions discovered in Egypt](https://www.labrujulaverde.com/en/2026/07/sealed-tomb-of-a-high-official-or-priest-filled-with-paintings-and-inscriptions-discovered-on-luxors-west-bank/) — hackernews
 - [Power companies are using eminent domain to seize land for data centers](https://fortune.com/2026/07/19/data-center-eminent-domain-public-use/) — hackernews
 - [What I learned selling 2,500 MIDI recorders: Hardware is not so hard](https://chipweinberger.com/articles/20260719-hardware-is-not-so-hard) — hackernews
 - [Claude Fable produced a counterexample to the Jacobian Conjecture](https://xcancel.com/__alpoge__/status/2079028340955197566) — hackernews
-- [Sealed tomb filled with paintings and inscriptions discovered in Egypt](https://www.labrujulaverde.com/en/2026/07/sealed-tomb-of-a-high-official-or-priest-filled-with-paintings-and-inscriptions-discovered-on-luxors-west-bank/) — hackernews
 - [The Zen of Parallel Programming](https://smolnero.com/posts/the-zen-of-parallel-programming) — hackernews
 - [Minecraft: Java Edition now uses SDL3](https://www.minecraft.net/en-us/article/minecraft-26-3-snapshot-4) — hackernews
 - [How proprietary formats have become Microsoft’s main tool for lock-in](https://blog.documentfoundation.org/blog/2026/07/17/microsofts-main-tool-for-lock-in/) — hackernews
@@ -429,8 +429,8 @@
 - [Raids just landed in solo 'simulated MMO' Erenshor](https://www.pcgamer.com/games/mmo/raids-just-landed-in-solo-simulated-mmo-erenshor/) — pcgamer
 - [I used videogames to solve my country's politics: Turns out the answer is ultra-mega-communism](https://www.pcgamer.com/games/sim/i-used-videogames-to-solve-my-countrys-politics-turns-out-the-answer-is-ultra-mega-communism/) — pcgamer
 - [I'm not worried about Fallout: New Vegas 2, because Obsidian knows how to make the best out of a bad situation](https://www.pcgamer.com/games/rpg/im-not-worried-about-fallout-new-vegas-2-because-obsidian-knows-how-to-make-the-best-out-of-a-bad-situation/) — pcgamer
-- [The toughest choices in PC games](https://www.pcgamer.com/games/the-toughest-choices-in-pc-games/) — pcgamer
 - [Question time: How long have you been playing MMOs?](https://www.pcgamer.com/games/mmo/question-time-how-long-have-you-been-playing-mmos/) — pcgamer
+- [The toughest choices in PC games](https://www.pcgamer.com/games/the-toughest-choices-in-pc-games/) — pcgamer
 - [For years, survival games have convinced us that chopping down 400 trees is somehow part of the fantasy—Palworld proves them wrong](https://www.pcgamer.com/games/survival-crafting/for-years-survival-games-have-convinced-us-that-chopping-down-400-trees-is-somehow-part-of-the-fantasy-palworld-proves-them-wrong/) — pcgamer
 - [Valve reassures Team Fortress 2 players that it's still working on the Mann vs Machine update it announced last year: 'We promise we're making progress'](https://www.pcgamer.com/games/fps/valve-reassures-team-fortress-2-players-that-its-still-working-on-the-mann-vs-machine-update-it-announced-last-year-we-promise-were-making-progress/) — pcgamer
 - [Glass mouse pads haven't won me over but gamer sleeves are a different story](https://www.pcgamer.com/hardware/gaming-mice/glass-mouse-pads-havent-won-me-over-but-gamer-sleeves-are-a-different-story/) — pcgamer
@@ -499,15 +499,46 @@
 
 ```
 1. trends.google.com → 키워드 검색 → 다운로드(↓)
-   - 시계열:         time_series_{키워드}.csv
-   - 연관검색어(상위):   searched_with_top-{키워드}.csv
-   - 연관검색어(급상승): searched_with_rising-{키워드}.csv
+   파일명 그대로 올리면 돼요 (이름 변경 불필요)
+   - multiTimeline.csv      ← 시계열 데이터
+   - relatedQueries.csv     ← 연관검색어
+   - relatedEntities.csv    ← 연관 주제
+   (geoMap.csv는 무시됨)
 
 2. GitHub → research_data/trends/2026-W29/{폴더명}/ 에 업로드
 
 3. KP CSV (선택): Keyword Planner → 키워드 아이디어 → 다운로드
    → research_data/trends/2026-W29/ 루트에 업로드 (폴더 안 아님)
 ```
+
+---
+
+## 📋 Keyword Planner 입력용 키워드
+
+> 아래 키워드를 **전체 복사**해서 Google Ads Keyword Planner에 붙여넣기하세요.
+> 결과 CSV → `research_data/trends/2026-W29/` 루트에 업로드 (파일명에 'keyword' 포함 필수)
+
+```
+galaxy fold
+fallout vegas
+modern warfare
+assassin's creed
+creed black
+black flag
+amd ryzen
+call duty
+god war
+elder scrolls
+google
+android
+samsung
+pixel
+apple
+launch
+```
+
+> 💡 **KP 검색 팁**: 넓은 hub 키워드로 검색해야 롱테일 발굴 가능해요.
+> LOW 경쟁 + 월 100회 이상 키워드만 자동으로 채택돼요.
 
 ---
 
