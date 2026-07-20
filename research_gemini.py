@@ -307,22 +307,34 @@ def main():
         print(f"      ❌ {s.get('cluster_name')} [{s.get('content_type')}] → 파이프라인 제외")
 
     # Grade C는 status → rejected로 마킹
+    # 단, HUB content_type은 제외 (스포크가 이미 있는 허브는 Trends 무관하게 유지)
     if grade_c:
         try:
             import json as _json2
             _pipe2 = _json2.load(open("content_pipeline.json", encoding="utf-8"))
-            _changed = False
+            _changed  = False
+            _rejected = 0
+            _skipped  = 0
             for week_key, sels in _pipe2.get("weekly_selections", {}).items():
                 for sel in sels:
                     if (sel.get("data_grade") == "C"
                             and sel.get("status") == "candidate"):
+                        # HUB는 보호 — Trends 데이터 없어도 rejected 안 함
+                        if sel.get("content_type", "").upper() == "HUB":
+                            print(f"  🛡️  HUB 보호: {sel.get('cluster_name')} — Grade C지만 candidate 유지")
+                            _skipped += 1
+                            continue
                         sel["status"] = "rejected"
-                        _changed = True
+                        _changed  = True
+                        _rejected += 1
             if _changed:
                 _pipe2["_last_updated"] = datetime.now(timezone.utc).isoformat()
                 _json2.dump(_pipe2, open("content_pipeline.json", "w", encoding="utf-8"),
                             ensure_ascii=False, indent=2)
-                print(f"  ✅ Grade C {len(grade_c)}개 → status: rejected 처리")
+            if _rejected:
+                print(f"  ✅ Grade C {_rejected}개 → status: rejected 처리")
+            if _skipped:
+                print(f"  🛡️  HUB {_skipped}개 → Grade C지만 candidate 유지 (Trends 판정 제외)")
         except Exception as e:
             print(f"  ⚠️ rejected 마킹 실패: {e}")
 
