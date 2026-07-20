@@ -73,8 +73,8 @@
   "collect": {
     "window_days": 7,
     "max_items_per_source": 50,
-    "reddit_enabled": false,
-    "reddit_delay_seconds": 4,
+    "reddit_enabled": true,
+    "reddit_delay_seconds": 8,
     "low_queue_threshold": 3
   },
   "news_rss_sources": [
@@ -143,12 +143,9 @@
   ],
   "reddit_subs": [
     "technology",
-    "gadgets",
     "gaming",
-    "games",
     "buildapc",
-    "pcgaming",
-    "hardware"
+    "pcgaming"
   ],
   "frequency": {
     "min_word_count": 2,
