@@ -1,0 +1,95 @@
+name: "Step 2 — Gemini 1차 호출 → 기획안 생성"
+
+on:
+  workflow_dispatch:   # 수동 트리거
+    inputs:
+      week_tag:
+        description: "주차 태그 (비워두면 자동: 2026-W29)"
+        required: false
+        default: ""
+
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: "📥 리포 체크아웃"
+        uses: actions/checkout@v4
+
+      - name: "🐍 Python 세팅"
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+          cache: "pip"
+
+      - name: "📦 패키지 설치"
+        run: |
+          pip install requests
+
+      - name: "🔍 Step 1 완료 여부 확인"
+        run: |
+          WEEK="${{ github.event.inputs.week_tag }}"
+          if [ -z "$WEEK" ]; then
+            WEEK=$(python -c "from datetime import datetime,timezone; print(datetime.now(timezone.utc).strftime('%Y-W%W'))")
+          fi
+          echo "WEEK_TAG=$WEEK" >> $GITHUB_ENV
+
+          if [ ! -f "research_data/weekly/$WEEK/prompt.txt" ]; then
+            echo "❌ prompt.txt 없음 — Step 1을 먼저 실행하세요."
+            exit 1
+          fi
+          echo "✅ prompt.txt 확인: research_data/weekly/$WEEK/prompt.txt"
+          wc -c "research_data/weekly/$WEEK/prompt.txt"
+
+      - name: "🤖 Gemini 1차 호출 — 기획안 생성"
+        run: python research_gemini.py ${{ env.WEEK_TAG }}
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL:   "gemini-2.5-flash"
+
+      - name: "📊 결과 확인"
+        run: |
+          echo "=== ai_result_latest.json ==="
+          if [ -f "research_data/ai_result_latest.json" ]; then
+            python -c "
+          import json
+          data = json.load(open('research_data/ai_result_latest.json', encoding='utf-8'))
+          print(f'기획안 총 {len(data)}개')
+          grades = {}
+          for d in data:
+              g = d.get('data_grade','?')
+              grades[g] = grades.get(g,0) + 1
+          for g,c in sorted(grades.items()):
+              print(f'  Grade {g}: {c}개')
+          print()
+          for d in data:
+              print(f\"  [{d.get('data_grade','?')}] [{d.get('content_type','')}] {d.get('suggested_title','')}\")
+          "
+          else
+            echo "❌ ai_result_latest.json 없음"
+            exit 1
+          fi
+
+          echo ""
+          echo "=== content_pipeline.json weekly_selections ==="
+          python -c "
+          import json
+          pipe = json.load(open('content_pipeline.json', encoding='utf-8'))
+          for week, sels in sorted(pipe.get('weekly_selections',{}).items(), reverse=True)[:1]:
+              print(f'{week}: {len(sels)}개')
+              for s in sels:
+                  print(f\"  [{s.get('data_grade','?')}] [{s.get('content_type','')}] {s.get('cluster_name','')}\")
+          "
+
+      - name: "💾 결과 커밋"
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add research_data/ai_result_latest.json
+          git add research_data/weekly/
+          git add content_pipeline.json
+          git diff --cached --quiet || git commit -m "chore: Step2 기획안 생성 완료 ${{ env.WEEK_TAG }}"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

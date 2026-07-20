@@ -1,0 +1,63 @@
+name: "Step 1 — RSS 수집 + 리서치 데이터 확인"
+
+on:
+  workflow_dispatch:   # 수동 트리거
+    inputs:
+      week_tag:
+        description: "주차 태그 (비워두면 자동: 2026-W29)"
+        required: false
+        default: ""
+
+jobs:
+  research:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: "📥 리포 체크아웃"
+        uses: actions/checkout@v4
+
+      - name: "🐍 Python 세팅"
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+          cache: "pip"
+
+      - name: "📦 패키지 설치"
+        run: |
+          pip install requests beautifulsoup4 lxml
+
+      - name: "📊 RSS 수집 실행"
+        run: python research.py
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+
+      - name: "🔍 생성 파일 확인"
+        run: |
+          echo "=== weekly/ 폴더 현황 ==="
+          find research_data/weekly -type f | sort
+
+          echo ""
+          echo "=== 이번 주 prompt.txt 크기 ==="
+          WEEK=$(python -c "from datetime import datetime,timezone; print(datetime.now(timezone.utc).strftime('%Y-W%W'))")
+          if [ -f "research_data/weekly/$WEEK/prompt.txt" ]; then
+            wc -c "research_data/weekly/$WEEK/prompt.txt"
+            echo "✅ prompt.txt 생성 확인"
+          else
+            echo "❌ prompt.txt 없음 — research.py 실패 가능성"
+            exit 1
+          fi
+
+          echo ""
+          echo "=== Trends CSV 현황 ==="
+          find research_data/trends -name "*.csv" 2>/dev/null | sort || echo "Trends CSV 없음"
+
+      - name: "💾 결과 커밋"
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add research_data/weekly/
+          git diff --cached --quiet || git commit -m "chore: Step1 RSS 수집 완료 $(date -u +%Y-%m-%d)"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
