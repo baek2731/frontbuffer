@@ -1,9 +1,13 @@
 ---
+# Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/dark";
 @import "minimal-mistakes";
 
 .site-logo img {
-  max-height: 40px;
+  max-height: 40px !important;
+  width: auto !important;
 }
