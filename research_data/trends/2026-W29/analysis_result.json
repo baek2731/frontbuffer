@@ -1,0 +1,61 @@
+{
+  "week_tag": "2026-W29",
+  "week_dir": "research_data/trends/2026-W29",
+  "clusters": [
+    {
+      "cluster_name": "Google Chrome Manifest V2 Migration",
+      "slug": "google-chrome-manifest-v2-migration",
+      "folder": null,
+      "trends_pattern": "UNKNOWN",
+      "trends_stats": {},
+      "trends_keyword": "",
+      "rising_queries": [],
+      "verified_keywords": [],
+      "grade": "C",
+      "warnings": [],
+      "grade_reasons": [
+        "Trends ❌ 시계열 데이터 없음 또는 UNKNOWN",
+        "KP ❌ 클러스터 관련 키워드 없음",
+        "→ Grade C: 검증 데이터 없음 — 발행 보류 권장"
+      ]
+    },
+    {
+      "cluster_name": "Steam Machine Hardware Management",
+      "slug": "steam-machine-hardware-management",
+      "folder": null,
+      "trends_pattern": "UNKNOWN",
+      "trends_stats": {},
+      "trends_keyword": "",
+      "rising_queries": [],
+      "verified_keywords": [],
+      "grade": "C",
+      "warnings": [],
+      "grade_reasons": [
+        "Trends ❌ 시계열 데이터 없음 또는 UNKNOWN",
+        "KP ❌ 클러스터 관련 키워드 없음",
+        "→ Grade C: 검증 데이터 없음 — 발행 보류 권장"
+      ]
+    },
+    {
+      "cluster_name": "Samsung Health Data Ecosystem",
+      "slug": "samsung-health-data-ecosystem",
+      "folder": null,
+      "trends_pattern": "UNKNOWN",
+      "trends_stats": {},
+      "trends_keyword": "",
+      "rising_queries": [],
+      "verified_keywords": [],
+      "grade": "C",
+      "warnings": [],
+      "grade_reasons": [
+        "Trends ❌ 시계열 데이터 없음 또는 UNKNOWN",
+        "KP ❌ 클러스터 관련 키워드 없음",
+        "→ Grade C: 검증 데이터 없음 — 발행 보류 권장"
+      ]
+    }
+  ],
+  "kp_parsed": 0,
+  "kp_error": null,
+  "unassigned_keywords": [],
+  "updated": true
+}

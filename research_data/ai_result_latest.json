@@ -1,0 +1,25 @@
+[
+  {
+    "cluster_name": "Android Ecosystem & Google Services",
+    "content_type": "EXPLAINER",
+    "suggested_title": "How Android Backup Data Counts Towards Google Drive Storage Limits Explained",
+    "hub_keyword": "Android Backup",
+    "parent_hub": "Android Ecosystem",
+    "spoke_keywords": [
+      "android backup data storage limits",
+      "google drive storage android",
+      "manage android cloud backup"
+    ],
+    "evergreen_score": 90,
+    "competition_level": "MEDIUM",
+    "affiliate_potential": "LOW",
+    "timing": "NOW",
+    "verifiability": "HIGH",
+    "trends_queries": [
+      "android backup data storage",
+      "google drive storage policy"
+    ],
+    "reasoning": "사용자들이 Google Drive 저장 공간 정책 변경에 따라 안드로이드 백업 데이터를 효율적으로 관리하는 방법을 이해하는 데 도움이 되는 정보성 콘텐츠입니다.",
+    "data_grade": "A"
+  }
+]
