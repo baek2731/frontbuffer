@@ -477,7 +477,7 @@ OUTPUT FORMAT — respond ONLY with a raw JSON array, no markdown fences, no oth
     "timing": "NOW / WAIT",
     "verifiability": "HIGH / MEDIUM",
     "trends_queries": ["...", "..."],
-    "reasoning": "1-2 sentences in Korean — why this is evergreen and rankable"
+    "reasoning": "1-2 sentences in English — why this is evergreen and rankable (no quotes or special chars)"
   }}
 ]
 
@@ -495,6 +495,7 @@ CRITICAL RULES:
 - If COVERED TOPICS exist: suggest different content_type for same cluster
 - evergreen_score above 70 = serious candidate
 - Output raw JSON only — no explanation, no preamble
+- CRITICAL JSON SAFETY: All string values must use only ASCII-safe characters. No Korean, no curly quotes, no apostrophes inside string values. Use only straight double quotes for JSON structure.
 
 GAMING CONTENT EXCLUSION RULES (apply strictly):
 These gaming topics are NOT evergreen and must be EXCLUDED:
