@@ -1,7 +1,7 @@
-name: "Step 2 — Gemini 1차 호출 → 기획안 생성"
+name: "Step 2 — Gemini 1차 호출 → 기획안 생성 + Grade 판정"
 
 on:
-  workflow_dispatch:   # 수동 트리거
+  workflow_dispatch:
     inputs:
       week_tag:
         description: "주차 태그 (비워두면 자동: 2026-W29)"
@@ -11,7 +11,7 @@ on:
 jobs:
   plan:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
 
     steps:
       - name: "📥 리포 체크아웃"
@@ -23,8 +23,7 @@ jobs:
           python-version: "3.10"
 
       - name: "📦 패키지 설치"
-        run: |
-          pip install requests
+        run: pip install requests beautifulsoup4 lxml
 
       - name: "🔍 Step 1 완료 여부 확인"
         run: |
@@ -41,44 +40,84 @@ jobs:
           echo "✅ prompt.txt 확인: research_data/weekly/$WEEK/prompt.txt"
           wc -c "research_data/weekly/$WEEK/prompt.txt"
 
-      - name: "🤖 Gemini 1차 호출 — 기획안 생성"
+      - name: "📈 Trends/KP CSV 현황 확인 (없으면 중단)"
+        run: |
+          echo "=== Trends 폴더 현황 ==="
+          TRENDS_DIR="research_data/trends/${{ env.WEEK_TAG }}"
+          if [ -d "$TRENDS_DIR" ]; then
+            find "$TRENDS_DIR" -name "*.csv" | sort | while read f; do
+              SIZE=$(wc -c < "$f")
+              echo "  ✅ $f ($SIZE bytes)"
+            done
+            CSV_COUNT=$(find "$TRENDS_DIR" -name "*.csv" | wc -l)
+            echo ""
+            echo "총 CSV 파일: ${CSV_COUNT}개"
+            if [ "$CSV_COUNT" -eq 0 ]; then
+              echo ""
+              echo "❌ Trends/KP CSV 없음 — Step 2를 중단합니다."
+              echo ""
+              echo "📋 다음 순서로 진행하세요:"
+              echo "  1. GitHub → research_data/weekly/${{ env.WEEK_TAG }}/manual_report.md 열기"
+              echo "  2. '🔍 Google Trends 검색 추천' 섹션에서 키워드 확인"
+              echo "  3. Trends 링크 클릭 → CSV 다운로드"
+              echo "  4. GitHub → research_data/trends/${{ env.WEEK_TAG }}/{폴더명}/ 에 업로드"
+              echo "  5. (선택) KP CSV → research_data/trends/${{ env.WEEK_TAG }}/ 루트에 업로드"
+              echo "  6. Step 2 다시 실행"
+              exit 1
+            fi
+          else
+            echo "❌ Trends 폴더 없음 ($TRENDS_DIR)"
+            echo "   Step 1을 먼저 실행하세요."
+            exit 1
+          fi
+
+      - name: "🤖 Gemini 1차 호출 — 기획안 생성 + Grade 판정"
         run: python research_gemini.py ${{ env.WEEK_TAG }}
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_MODEL:   "gemini-2.5-flash"
 
-      - name: "📊 결과 확인"
+      - name: "📊 결과 확인 — 기획안 Grade별 요약"
         run: |
-          echo "=== ai_result_latest.json ==="
-          if [ -f "research_data/ai_result_latest.json" ]; then
-            python -c "
+          echo "=== ai_result_latest.json Grade 분포 ==="
+          python -c "
           import json
           data = json.load(open('research_data/ai_result_latest.json', encoding='utf-8'))
-          print(f'기획안 총 {len(data)}개')
-          grades = {}
+          grades = {'A': [], 'B': [], 'C': []}
           for d in data:
-              g = d.get('data_grade','?')
-              grades[g] = grades.get(g,0) + 1
-          for g,c in sorted(grades.items()):
-              print(f'  Grade {g}: {c}개')
+              g = d.get('data_grade', 'C')
+              grades.get(g, grades['C']).append(d)
+
+          print(f'총 기획안: {len(data)}개')
           print()
-          for d in data:
-              print(f\"  [{d.get('data_grade','?')}] [{d.get('content_type','')}] {d.get('suggested_title','')}\")
+          print(f'✅ Grade A (발행 확정): {len(grades[\"A\"])}개')
+          for d in grades['A']:
+              print(f'   [{d.get(\"content_type\",\"?\")}] {d.get(\"suggested_title\",\"\")}')
+          print()
+          print(f'🔶 Grade B (발행 가능): {len(grades[\"B\"])}개')
+          for d in grades['B']:
+              print(f'   [{d.get(\"content_type\",\"?\")}] {d.get(\"suggested_title\",\"\")}')
+          print()
+          print(f'❌ Grade C (폐기): {len(grades[\"C\"])}개')
+          for d in grades['C']:
+              print(f'   [{d.get(\"content_type\",\"?\")}] {d.get(\"cluster_name\",\"\")}')
           "
-          else
-            echo "❌ ai_result_latest.json 없음"
-            exit 1
-          fi
 
           echo ""
-          echo "=== content_pipeline.json weekly_selections ==="
+          echo "=== content_pipeline.json 등록 현황 ==="
           python -c "
           import json
           pipe = json.load(open('content_pipeline.json', encoding='utf-8'))
-          for week, sels in sorted(pipe.get('weekly_selections',{}).items(), reverse=True)[:1]:
-              print(f'{week}: {len(sels)}개')
-              for s in sels:
-                  print(f\"  [{s.get('data_grade','?')}] [{s.get('content_type','')}] {s.get('cluster_name','')}\")
+          week = '${{ env.WEEK_TAG }}'
+          sels = pipe.get('weekly_selections', {}).get(week, [])
+          candidates = [s for s in sels if s.get('status') == 'candidate']
+          rejected   = [s for s in sels if s.get('status') == 'rejected']
+          print(f'candidate (발행 대기): {len(candidates)}개')
+          for s in candidates:
+              print(f'  [{s.get(\"data_grade\",\"?\")}] [{s.get(\"content_type\",\"?\")}] {s.get(\"cluster_name\",\"\")}')
+          print(f'rejected (폐기): {len(rejected)}개')
+          for s in rejected:
+              print(f'  [C] {s.get(\"cluster_name\",\"\")}')
           "
 
       - name: "💾 결과 커밋"
@@ -87,8 +126,9 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add research_data/ai_result_latest.json
           git add research_data/weekly/
+          git add research_data/trends/
           git add content_pipeline.json
-          git diff --cached --quiet || git commit -m "chore: Step2 기획안 생성 완료 ${{ env.WEEK_TAG }}"
+          git diff --cached --quiet || git commit -m "chore: Step2 기획안 생성+Grade판정 완료 ${{ env.WEEK_TAG }}"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
