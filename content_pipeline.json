@@ -1,7 +1,7 @@
 {
   "_version": "1.3",
   "_description": "콘텐츠 파이프라인 — 클러스터 단위 관리",
-  "_last_updated": "2026-07-20T05:11:27.637796+00:00",
+  "_last_updated": "2026-07-20T08:05:00.387270+00:00",
   "hub_clusters": {
     "Steam Machine": {
       "hub_keyword": "Steam Machine",
@@ -66,6 +66,39 @@
         "https://frontbuffer.net/tech/best-manifest-v3-alternatives-for-older-chrome-extensions/",
         "https://frontbuffer.net/tech/what-is-chrome-manifest-v3-and-why-extensions-break/"
       ]
+    },
+    "Fallout Series": {
+      "hub_keyword": "Fallout Series",
+      "hub_status": "PENDING",
+      "hub_title": "",
+      "hub_url": "",
+      "spokes": [
+        "Fallout Series"
+      ],
+      "spoke_urls": {},
+      "internal_links": []
+    },
+    "Android Ecosystem": {
+      "hub_keyword": "Android Ecosystem",
+      "hub_status": "PENDING",
+      "hub_title": "",
+      "hub_url": "",
+      "spokes": [
+        "Android Ecosystem"
+      ],
+      "spoke_urls": {},
+      "internal_links": []
+    },
+    "Portable Gaming": {
+      "hub_keyword": "Portable Gaming",
+      "hub_status": "PENDING",
+      "hub_title": "",
+      "hub_url": "",
+      "spokes": [
+        "Portable Gaming"
+      ],
+      "spoke_urls": {},
+      "internal_links": []
     }
   },
   "covered_clusters": {
@@ -157,6 +190,69 @@
       ],
       "competition_level": "LOW",
       "affiliate_potential": "LOW",
+      "trends_pattern": "UNKNOWN",
+      "trends_keyword": "",
+      "notes": ""
+    },
+    "Fallout Series": {
+      "types_done": [],
+      "last_week": "2026-W29",
+      "suggest_next": [
+        "COMPARISON",
+        "GUIDE",
+        "EXPLAINER",
+        "LISTICLE"
+      ],
+      "hub_keyword": "Fallout Lore",
+      "parent_hub": "Fallout Series",
+      "spoke_keywords": [
+        "fallout new vegas remaster features",
+        "fallout 3 remaster official changes"
+      ],
+      "competition_level": "MEDIUM",
+      "affiliate_potential": "LOW",
+      "trends_pattern": "UNKNOWN",
+      "trends_keyword": "",
+      "notes": ""
+    },
+    "Android Ecosystem": {
+      "types_done": [],
+      "last_week": "2026-W29",
+      "suggest_next": [
+        "COMPARISON",
+        "GUIDE",
+        "EXPLAINER",
+        "LISTICLE"
+      ],
+      "hub_keyword": "Android Auto",
+      "parent_hub": "Android Ecosystem",
+      "spoke_keywords": [
+        "samsung secure folder features",
+        "google files safe folder privacy"
+      ],
+      "competition_level": "LOW",
+      "affiliate_potential": "LOW",
+      "trends_pattern": "UNKNOWN",
+      "trends_keyword": "",
+      "notes": ""
+    },
+    "Portable Gaming": {
+      "types_done": [],
+      "last_week": "2026-W29",
+      "suggest_next": [
+        "COMPARISON",
+        "GUIDE",
+        "EXPLAINER",
+        "LISTICLE"
+      ],
+      "hub_keyword": "Steam Deck",
+      "parent_hub": "Portable Gaming",
+      "spoke_keywords": [
+        "ayaneo steam deck performance",
+        "portable gaming handheld comparison"
+      ],
+      "competition_level": "MEDIUM",
+      "affiliate_potential": "HIGH",
       "trends_pattern": "UNKNOWN",
       "trends_keyword": "",
       "notes": ""
@@ -642,7 +738,7 @@
         "trends_keyword": "",
         "trends_opportunities": [],
         "verifiability": "HIGH",
-        "data_grade": "A",
+        "data_grade": "C",
         "verified_keywords": [],
         "status": "published",
         "selected_at": "2026-07-20T04:28:32.401611+00:00",
@@ -663,7 +759,7 @@
         "trends_keyword": "",
         "trends_opportunities": [],
         "verifiability": "HIGH",
-        "data_grade": "A",
+        "data_grade": "C",
         "verified_keywords": [],
         "status": "candidate",
         "selected_at": "2026-07-20T04:28:32.401611+00:00"
@@ -683,10 +779,240 @@
         "trends_keyword": "",
         "trends_opportunities": [],
         "verifiability": "HIGH",
-        "data_grade": "A",
+        "data_grade": "C",
         "verified_keywords": [],
         "status": "candidate",
         "selected_at": "2026-07-20T04:28:32.401611+00:00"
+      },
+      {
+        "cluster_name": "Fallout Series",
+        "content_type": "COMPARISON",
+        "suggested_title": "Fallout New Vegas vs Fallout 3 Remaster: Official Feature Comparison",
+        "hub_keyword": "Fallout Remasters",
+        "hub_keyword_raw": "Fallout Remasters",
+        "parent_hub": "Fallout Series",
+        "spoke_keywords": [
+          "fallout new vegas remaster features",
+          "fallout 3 remaster official changes"
+        ],
+        "competition_level": "MEDIUM",
+        "timing": "NOW",
+        "affiliate_potential": "LOW",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "status": "candidate",
+        "selected_at": "2026-07-20T08:05:00.387164+00:00"
+      },
+      {
+        "cluster_name": "Fallout Series",
+        "content_type": "GUIDE",
+        "suggested_title": "Fallout New Vegas Modding Guide: Essential Quality of Life and Content Mods",
+        "hub_keyword": "Fallout Mods",
+        "hub_keyword_raw": "Fallout Mods",
+        "parent_hub": "Fallout Series",
+        "spoke_keywords": [
+          "fallout new vegas essential mods",
+          "fallout new vegas quality of life mods"
+        ],
+        "competition_level": "MEDIUM",
+        "timing": "NOW",
+        "affiliate_potential": "LOW",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "status": "candidate",
+        "selected_at": "2026-07-20T08:05:00.387164+00:00"
+      },
+      {
+        "cluster_name": "Fallout Series",
+        "content_type": "EXPLAINER",
+        "suggested_title": "Fallout New Vegas Endings Explained: How Player Choices Impact the Mojave",
+        "hub_keyword": "Fallout Lore",
+        "hub_keyword_raw": "Fallout Lore",
+        "parent_hub": "Fallout Series",
+        "spoke_keywords": [
+          "fallout new vegas player choice impact",
+          "fallout new vegas all endings explained"
+        ],
+        "competition_level": "MEDIUM",
+        "timing": "NOW",
+        "affiliate_potential": "LOW",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "status": "candidate",
+        "selected_at": "2026-07-20T08:05:00.387164+00:00"
+      },
+      {
+        "cluster_name": "Android Ecosystem",
+        "content_type": "COMPARISON",
+        "suggested_title": "Samsung Secure Folder vs Google Files Safe Folder: Privacy Features Comparison",
+        "hub_keyword": "Android Privacy",
+        "hub_keyword_raw": "Android Privacy",
+        "parent_hub": "Android Ecosystem",
+        "spoke_keywords": [
+          "samsung secure folder features",
+          "google files safe folder privacy"
+        ],
+        "competition_level": "LOW",
+        "timing": "NOW",
+        "affiliate_potential": "LOW",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "status": "candidate",
+        "selected_at": "2026-07-20T08:05:00.387164+00:00"
+      },
+      {
+        "cluster_name": "Android Ecosystem",
+        "content_type": "GUIDE",
+        "suggested_title": "How to Backup Samsung Health Data Before Switching Android Phones",
+        "hub_keyword": "Samsung Health",
+        "hub_keyword_raw": "Samsung Health",
+        "parent_hub": "Android Ecosystem",
+        "spoke_keywords": [
+          "samsung health data transfer",
+          "backup health data android"
+        ],
+        "competition_level": "MEDIUM",
+        "timing": "NOW",
+        "affiliate_potential": "LOW",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "status": "candidate",
+        "selected_at": "2026-07-20T08:05:00.387164+00:00"
+      },
+      {
+        "cluster_name": "Android Ecosystem",
+        "content_type": "EXPLAINER",
+        "suggested_title": "Google Photos Free Storage Policy Changes Explained: Impact on Existing Libraries",
+        "hub_keyword": "Google Photos",
+        "hub_keyword_raw": "Google Photos",
+        "parent_hub": "Android Ecosystem",
+        "spoke_keywords": [
+          "google photos storage policy",
+          "google photos existing library changes"
+        ],
+        "competition_level": "MEDIUM",
+        "timing": "NOW",
+        "affiliate_potential": "LOW",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "status": "candidate",
+        "selected_at": "2026-07-20T08:05:00.387164+00:00"
+      },
+      {
+        "cluster_name": "Portable Gaming",
+        "content_type": "COMPARISON",
+        "suggested_title": "AYANEO Handhelds vs Steam Deck: Performance and Portability Comparison",
+        "hub_keyword": "Gaming Handhelds",
+        "hub_keyword_raw": "Gaming Handhelds",
+        "parent_hub": "Portable Gaming",
+        "spoke_keywords": [
+          "ayaneo steam deck performance",
+          "portable gaming handheld comparison"
+        ],
+        "competition_level": "MEDIUM",
+        "timing": "NOW",
+        "affiliate_potential": "HIGH",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "status": "candidate",
+        "selected_at": "2026-07-20T08:05:00.387164+00:00"
+      },
+      {
+        "cluster_name": "Portable Gaming",
+        "content_type": "GUIDE",
+        "suggested_title": "How to Stream PC Games to Android Tablets using Moonshine App",
+        "hub_keyword": "Game Streaming",
+        "hub_keyword_raw": "Game Streaming",
+        "parent_hub": "Portable Gaming",
+        "spoke_keywords": [
+          "moonshine app pc game stream",
+          "android tablet game streaming guide"
+        ],
+        "competition_level": "LOW",
+        "timing": "NOW",
+        "affiliate_potential": "LOW",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "status": "candidate",
+        "selected_at": "2026-07-20T08:05:00.387164+00:00"
+      },
+      {
+        "cluster_name": "Portable Gaming",
+        "content_type": "EXPLAINER",
+        "suggested_title": "Steam Deck Verified Games: Understanding Compatibility and Performance Ratings",
+        "hub_keyword": "Steam Deck",
+        "hub_keyword_raw": "Steam Deck",
+        "parent_hub": "Portable Gaming",
+        "spoke_keywords": [
+          "steam deck verified meaning",
+          "steam deck game compatibility explained"
+        ],
+        "competition_level": "MEDIUM",
+        "timing": "NOW",
+        "affiliate_potential": "LOW",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "status": "candidate",
+        "selected_at": "2026-07-20T08:05:00.387164+00:00"
+      },
+      {
+        "cluster_name": "Android Ecosystem",
+        "content_type": "GUIDE",
+        "suggested_title": "Android Auto Speedometer Feature: How to Enable and Customize Settings",
+        "hub_keyword": "Android Auto",
+        "hub_keyword_raw": "Android Auto",
+        "parent_hub": "Android Ecosystem",
+        "spoke_keywords": [
+          "android auto speedometer activate",
+          "customize android auto speed display"
+        ],
+        "competition_level": "LOW",
+        "timing": "NOW",
+        "affiliate_potential": "LOW",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "B",
+        "verified_keywords": [],
+        "status": "candidate",
+        "selected_at": "2026-07-20T08:05:00.387164+00:00"
       }
     ]
   },
