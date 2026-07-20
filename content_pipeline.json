@@ -1,0 +1,767 @@
+{
+  "_version": "1.3",
+  "_description": "콘텐츠 파이프라인 — 클러스터 단위 관리",
+  "_last_updated": "2026-07-20T05:11:27.637796+00:00",
+  "hub_clusters": {
+    "Steam Machine": {
+      "hub_keyword": "Steam Machine",
+      "hub_status": "READY",
+      "hub_title": "",
+      "hub_url": "",
+      "spokes": [
+        "Steam Machine Hardware Management"
+      ],
+      "spoke_urls": {
+        "Steam Machine Hardware Management (GUIDE)": "/drafts/steam-machine-hardware-management-guide",
+        "Steam Machine Hardware Management (COMPARISON)": "/drafts/steam-machine-hardware-management-comparison"
+      },
+      "internal_links": [
+        "/drafts/steam-machine-hardware-management-guide",
+        "/drafts/steam-machine-hardware-management-comparison"
+      ]
+    },
+    "Samsung Health": {
+      "hub_keyword": "Samsung Health",
+      "hub_status": "READY",
+      "hub_title": "",
+      "hub_url": "",
+      "spokes": [
+        "Samsung Health Data Ecosystem"
+      ],
+      "spoke_urls": {
+        "Samsung Health Data Ecosystem (GUIDE)": "/drafts/samsung-health-data-ecosystem-guide",
+        "Samsung Health Data Ecosystem (COMPARISON)": "/drafts/samsung-health-data-ecosystem-comparison"
+      },
+      "internal_links": [
+        "/drafts/samsung-health-data-ecosystem-guide",
+        "/drafts/samsung-health-data-ecosystem-comparison"
+      ]
+    },
+    "Black Flag Resynced": {
+      "hub_keyword": "Black Flag Resynced",
+      "hub_status": "PENDING",
+      "hub_title": "",
+      "hub_url": "",
+      "spokes": [
+        "Assassin's Creed Black Flag Resynced Modding"
+      ],
+      "spoke_urls": {},
+      "internal_links": []
+    },
+    "Chrome Extensions": {
+      "hub_keyword": "Chrome Extensions",
+      "hub_status": "PUBLISHED",
+      "hub_title": "",
+      "hub_url": "",
+      "spokes": [
+        "Google Chrome Manifest V2 Migration"
+      ],
+      "spoke_urls": {
+        "Google Chrome Manifest V2 Migration (GUIDE)": "https://frontbuffer.net/tech/how-to-check-if-chrome-extensions-use-manifest-v2/",
+        "Google Chrome Manifest V2 Migration (LISTICLE)": "https://frontbuffer.net/tech/best-manifest-v3-alternatives-for-older-chrome-extensions/",
+        "Google Chrome Manifest V2 Migration (EXPLAINER)": "https://frontbuffer.net/tech/what-is-chrome-manifest-v3-and-why-extensions-break/"
+      },
+      "internal_links": [
+        "https://frontbuffer.net/tech/how-to-check-if-chrome-extensions-use-manifest-v2/",
+        "https://frontbuffer.net/tech/best-manifest-v3-alternatives-for-older-chrome-extensions/",
+        "https://frontbuffer.net/tech/what-is-chrome-manifest-v3-and-why-extensions-break/"
+      ]
+    }
+  },
+  "covered_clusters": {
+    "Steam Machine Hardware Management": {
+      "types_done": [
+        "GUIDE"
+      ],
+      "last_week": "2026-W29",
+      "suggest_next": [
+        "COMPARISON",
+        "EXPLAINER",
+        "LISTICLE"
+      ],
+      "hub_keyword": "Steam Machine",
+      "parent_hub": "Steam Machine",
+      "spoke_keywords": [
+        "steam machine red light fix",
+        "steam machine overheating troubleshooting",
+        "how to stop steam machine from overheating"
+      ],
+      "competition_level": "LOW",
+      "affiliate_potential": "LOW",
+      "trends_pattern": "UNKNOWN",
+      "trends_keyword": "",
+      "notes": ""
+    },
+    "Samsung Health Data Ecosystem": {
+      "types_done": [
+        "GUIDE",
+        "COMPARISON"
+      ],
+      "last_week": "2026-W29",
+      "suggest_next": [
+        "EXPLAINER",
+        "LISTICLE"
+      ],
+      "hub_keyword": "Samsung Health",
+      "parent_hub": "Samsung Health",
+      "spoke_keywords": [
+        "how to export samsung health data",
+        "backup samsung health to google fit",
+        "prevent samsung health data loss"
+      ],
+      "competition_level": "LOW",
+      "affiliate_potential": "LOW",
+      "trends_pattern": "UNKNOWN",
+      "trends_keyword": "",
+      "notes": ""
+    },
+    "Assassin's Creed Black Flag Resynced Modding": {
+      "types_done": [],
+      "last_week": "2026-W28",
+      "suggest_next": [
+        "COMPARISON",
+        "GUIDE",
+        "EXPLAINER",
+        "LISTICLE"
+      ],
+      "hub_keyword": "Black Flag Resynced",
+      "parent_hub": "Black Flag Resynced",
+      "spoke_keywords": [
+        "assassins creed black flag resynced offline play",
+        "play black flag resynced without internet",
+        "ubisoft launcher offline mode guide"
+      ],
+      "competition_level": "LOW",
+      "affiliate_potential": "LOW",
+      "trends_pattern": "RISING",
+      "trends_keyword": "",
+      "notes": ""
+    },
+    "Google Chrome Manifest V2 Migration": {
+      "types_done": [
+        "GUIDE",
+        "LISTICLE",
+        "EXPLAINER",
+        "HUB"
+      ],
+      "last_week": "2026-W29",
+      "suggest_next": [
+        "COMPARISON"
+      ],
+      "hub_keyword": "Chrome Extensions",
+      "parent_hub": "Chrome Extensions",
+      "spoke_keywords": [
+        "check chrome extension manifest version",
+        "how to find manifest v2 extensions",
+        "chrome extension developer mode check"
+      ],
+      "competition_level": "LOW",
+      "affiliate_potential": "LOW",
+      "trends_pattern": "UNKNOWN",
+      "trends_keyword": "",
+      "notes": ""
+    }
+  },
+  "weekly_selections": {
+    "2026-W28": [
+      {
+        "cluster_name": "Steam Machine Hardware Management",
+        "content_type": "GUIDE",
+        "suggested_title": "How to Troubleshoot Steam Machine Overheating and Red Light Issues",
+        "hub_keyword": "Steam Machine",
+        "hub_keyword_raw": "Steam Machine",
+        "parent_hub": "Steam Machine",
+        "spoke_keywords": [
+          "steam machine red light fix",
+          "steam machine overheating troubleshooting",
+          "how to stop steam machine from overheating"
+        ],
+        "competition_level": "LOW",
+        "timing": "NOW",
+        "affiliate_potential": "LOW",
+        "trends_pattern": "RISING",
+        "trends_keyword": "Steam Machine",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [
+          {
+            "keyword": "steam machine",
+            "monthly_searches": 500000,
+            "competition": "LOW",
+            "competition_index": 2
+          }
+        ],
+        "status": "published",
+        "selected_at": "2026-07-14T06:40:05.824006+00:00",
+        "url": "/drafts/steam-machine-hardware-management-guide"
+      },
+      {
+        "cluster_name": "Steam Machine Hardware Management",
+        "content_type": "COMPARISON",
+        "suggested_title": "Steam Machine vs Steam Deck Performance and Price Comparison",
+        "hub_keyword": "Steam Machine",
+        "hub_keyword_raw": "Steam Machine",
+        "parent_hub": "Steam Machine",
+        "spoke_keywords": [
+          "steam machine vs steam deck",
+          "steam machine performance vs steam deck",
+          "steam deck or steam machine buy"
+        ],
+        "competition_level": "MEDIUM",
+        "timing": "NOW",
+        "affiliate_potential": "MEDIUM",
+        "trends_pattern": "RISING",
+        "trends_keyword": "Steam Machine",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [
+          {
+            "keyword": "steam machine",
+            "monthly_searches": 500000,
+            "competition": "LOW",
+            "competition_index": 2
+          }
+        ],
+        "status": "published",
+        "selected_at": "2026-07-14T06:40:05.824006+00:00",
+        "url": "/drafts/steam-machine-hardware-management-comparison"
+      },
+      {
+        "cluster_name": "Steam Machine Hardware Management",
+        "content_type": "EXPLAINER",
+        "suggested_title": "What is Steam Machine Verified Medal and How It Works",
+        "hub_keyword": "Steam Machine",
+        "hub_keyword_raw": "Steam Machine",
+        "parent_hub": "Steam Machine",
+        "spoke_keywords": [
+          "steam machine verified games list",
+          "what is steam machine verified",
+          "how to check steam machine compatibility"
+        ],
+        "competition_level": "LOW",
+        "timing": "NOW",
+        "affiliate_potential": "LOW",
+        "trends_pattern": "RISING",
+        "trends_keyword": "Steam Machine",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [
+          {
+            "keyword": "steam machine",
+            "monthly_searches": 500000,
+            "competition": "LOW",
+            "competition_index": 2
+          }
+        ],
+        "status": "discarded",
+        "selected_at": "2026-07-14T06:40:05.824006+00:00",
+        "discarded_at": "2026-07-15T05:07:39.360986+00:00",
+        "discard_reason": "품질 게이트 실패 — 수동 폐기"
+      },
+      {
+        "cluster_name": "Samsung Health Data Ecosystem",
+        "content_type": "GUIDE",
+        "suggested_title": "How to Backup Samsung Health Data Before Account Deletion",
+        "hub_keyword": "Samsung Health",
+        "hub_keyword_raw": "Samsung Health",
+        "parent_hub": "Samsung Health",
+        "spoke_keywords": [
+          "how to export samsung health data",
+          "backup samsung health to google fit",
+          "prevent samsung health data loss"
+        ],
+        "competition_level": "LOW",
+        "timing": "NOW",
+        "affiliate_potential": "LOW",
+        "trends_pattern": "RISING",
+        "trends_keyword": "Samsung Health",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [
+          {
+            "keyword": "samsung health web",
+            "monthly_searches": 500,
+            "competition": "LOW",
+            "competition_index": 1
+          },
+          {
+            "keyword": "samsung health",
+            "monthly_searches": 50000,
+            "competition": "LOW",
+            "competition_index": 2
+          }
+        ],
+        "status": "published",
+        "selected_at": "2026-07-14T06:40:05.824006+00:00",
+        "url": "/drafts/samsung-health-data-ecosystem-guide"
+      },
+      {
+        "cluster_name": "Samsung Health Data Ecosystem",
+        "content_type": "COMPARISON",
+        "suggested_title": "Samsung Health vs Google Health Connect Feature Comparison",
+        "hub_keyword": "Samsung Health",
+        "hub_keyword_raw": "Samsung Health",
+        "parent_hub": "Samsung Health",
+        "spoke_keywords": [
+          "samsung health vs google health connect",
+          "samsung health data sync problems",
+          "best android health app syncing"
+        ],
+        "competition_level": "MEDIUM",
+        "timing": "NOW",
+        "affiliate_potential": "LOW",
+        "trends_pattern": "RISING",
+        "trends_keyword": "Samsung Health",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [
+          {
+            "keyword": "samsung health web",
+            "monthly_searches": 500,
+            "competition": "LOW",
+            "competition_index": 1
+          },
+          {
+            "keyword": "samsung health",
+            "monthly_searches": 50000,
+            "competition": "LOW",
+            "competition_index": 2
+          }
+        ],
+        "status": "published",
+        "selected_at": "2026-07-14T06:40:05.824006+00:00",
+        "url": "/drafts/samsung-health-data-ecosystem-comparison"
+      },
+      {
+        "cluster_name": "Assassin's Creed Black Flag Resynced Modding",
+        "content_type": "GUIDE",
+        "suggested_title": "How to Enable Offline Mode in AC Black Flag Resynced",
+        "hub_keyword": "Black Flag Resynced",
+        "hub_keyword_raw": "Black Flag Resynced",
+        "parent_hub": "Black Flag Resynced",
+        "spoke_keywords": [
+          "assassins creed black flag resynced offline play",
+          "play black flag resynced without internet",
+          "ubisoft launcher offline mode guide"
+        ],
+        "competition_level": "LOW",
+        "timing": "NOW",
+        "affiliate_potential": "LOW",
+        "trends_pattern": "RISING",
+        "trends_keyword": "Black Flag Resynced",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [
+          {
+            "keyword": "black flag resynced",
+            "monthly_searches": 50000,
+            "competition": "LOW",
+            "competition_index": 7
+          }
+        ],
+        "status": "discarded",
+        "selected_at": "2026-07-14T06:40:05.824006+00:00",
+        "discarded_at": "2026-07-14T07:23:22.232775+00:00",
+        "discard_reason": "품질 게이트 실패 — 수동 폐기"
+      },
+      {
+        "cluster_name": "Assassin's Creed Black Flag Resynced Modding",
+        "content_type": "COMPARISON",
+        "suggested_title": "AC Black Flag Resynced Standard vs Deluxe Edition Differences",
+        "hub_keyword": "Black Flag Resynced",
+        "hub_keyword_raw": "Black Flag Resynced",
+        "parent_hub": "Black Flag Resynced",
+        "spoke_keywords": [
+          "black flag resynced standard vs deluxe",
+          "is black flag resynced deluxe worth it",
+          "black flag resynced dlc content list"
+        ],
+        "competition_level": "LOW",
+        "timing": "NOW",
+        "affiliate_potential": "HIGH",
+        "trends_pattern": "RISING",
+        "trends_keyword": "Black Flag Resynced",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [
+          {
+            "keyword": "black flag resynced",
+            "monthly_searches": 50000,
+            "competition": "LOW",
+            "competition_index": 7
+          }
+        ],
+        "status": "discarded",
+        "selected_at": "2026-07-14T06:40:05.824006+00:00",
+        "discarded_at": "2026-07-14T07:23:22.232775+00:00",
+        "discard_reason": "품질 게이트 실패 — 수동 폐기"
+      },
+      {
+        "cluster_name": "Google Chrome Manifest V2 Migration",
+        "content_type": "GUIDE",
+        "suggested_title": "How to Check If Chrome Extensions Use Manifest V2",
+        "hub_keyword": "Chrome Extensions",
+        "hub_keyword_raw": "Chrome Extensions",
+        "parent_hub": "Chrome Extensions",
+        "spoke_keywords": [
+          "check chrome extension manifest version",
+          "how to find manifest v2 extensions",
+          "chrome extension developer mode check"
+        ],
+        "competition_level": "LOW",
+        "timing": "NOW",
+        "affiliate_potential": "LOW",
+        "trends_pattern": "RISING",
+        "trends_keyword": "Chrome Extensions",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [
+          {
+            "keyword": "chrome extensions opera",
+            "monthly_searches": 500,
+            "competition": "LOW",
+            "competition_index": 0
+          },
+          {
+            "keyword": "developer extension chrome",
+            "monthly_searches": 500,
+            "competition": "LOW",
+            "competition_index": 3
+          },
+          {
+            "keyword": "extension chrome facebook",
+            "monthly_searches": 500,
+            "competition": "LOW",
+            "competition_index": 0
+          },
+          {
+            "keyword": "extension chrome ios",
+            "monthly_searches": 500,
+            "competition": "LOW",
+            "competition_index": 0
+          },
+          {
+            "keyword": "extension chrome youtube",
+            "monthly_searches": 500,
+            "competition": "LOW",
+            "competition_index": 1
+          },
+          {
+            "keyword": "extension refresh chrome",
+            "monthly_searches": 500,
+            "competition": "LOW",
+            "competition_index": 3
+          },
+          {
+            "keyword": "extensions google chrome android",
+            "monthly_searches": 500,
+            "competition": "LOW",
+            "competition_index": 1
+          },
+          {
+            "keyword": "opera extension chrome",
+            "monthly_searches": 500,
+            "competition": "LOW",
+            "competition_index": 0
+          }
+        ],
+        "status": "published",
+        "selected_at": "2026-07-14T06:40:05.824006+00:00",
+        "url": "/drafts/google-chrome-manifest-v2-migration-guide"
+      },
+      {
+        "cluster_name": "Google Chrome Manifest V2 Migration",
+        "content_type": "LISTICLE",
+        "suggested_title": "Best Manifest V3 Alternatives for Older Chrome Extensions",
+        "hub_keyword": "Chrome Extensions",
+        "hub_keyword_raw": "Chrome Extensions",
+        "parent_hub": "Chrome Extensions",
+        "spoke_keywords": [
+          "manifest v3 ad blocker alternatives",
+          "best chrome extensions manifest v3",
+          "replace broken chrome extensions 2026"
+        ],
+        "competition_level": "MEDIUM",
+        "timing": "NOW",
+        "affiliate_potential": "LOW",
+        "trends_pattern": "RISING",
+        "trends_keyword": "Chrome Extensions",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [
+          {
+            "keyword": "chrome extensions opera",
+            "monthly_searches": 500,
+            "competition": "LOW",
+            "competition_index": 0
+          },
+          {
+            "keyword": "developer extension chrome",
+            "monthly_searches": 500,
+            "competition": "LOW",
+            "competition_index": 3
+          },
+          {
+            "keyword": "extension chrome facebook",
+            "monthly_searches": 500,
+            "competition": "LOW",
+            "competition_index": 0
+          },
+          {
+            "keyword": "extension chrome ios",
+            "monthly_searches": 500,
+            "competition": "LOW",
+            "competition_index": 0
+          },
+          {
+            "keyword": "extension chrome youtube",
+            "monthly_searches": 500,
+            "competition": "LOW",
+            "competition_index": 1
+          },
+          {
+            "keyword": "extension refresh chrome",
+            "monthly_searches": 500,
+            "competition": "LOW",
+            "competition_index": 3
+          },
+          {
+            "keyword": "extensions google chrome android",
+            "monthly_searches": 500,
+            "competition": "LOW",
+            "competition_index": 1
+          },
+          {
+            "keyword": "opera extension chrome",
+            "monthly_searches": 500,
+            "competition": "LOW",
+            "competition_index": 0
+          }
+        ],
+        "status": "published",
+        "selected_at": "2026-07-14T06:40:05.824006+00:00",
+        "url": "/drafts/google-chrome-manifest-v2-migration-listicle"
+      },
+      {
+        "cluster_name": "Google Chrome Manifest V2 Migration",
+        "content_type": "EXPLAINER",
+        "suggested_title": "What is Chrome Manifest V3 and Why Extensions Break",
+        "hub_keyword": "Chrome Extensions",
+        "hub_keyword_raw": "Chrome Extensions",
+        "parent_hub": "Chrome Extensions",
+        "spoke_keywords": [
+          "why chrome extensions stop working",
+          "what is chrome manifest v3 upgrade",
+          "difference between manifest v2 and v3"
+        ],
+        "competition_level": "MEDIUM",
+        "timing": "NOW",
+        "affiliate_potential": "LOW",
+        "trends_pattern": "RISING",
+        "trends_keyword": "Chrome Extensions",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [
+          {
+            "keyword": "chrome extensions opera",
+            "monthly_searches": 500,
+            "competition": "LOW",
+            "competition_index": 0
+          },
+          {
+            "keyword": "developer extension chrome",
+            "monthly_searches": 500,
+            "competition": "LOW",
+            "competition_index": 3
+          },
+          {
+            "keyword": "extension chrome facebook",
+            "monthly_searches": 500,
+            "competition": "LOW",
+            "competition_index": 0
+          },
+          {
+            "keyword": "extension chrome ios",
+            "monthly_searches": 500,
+            "competition": "LOW",
+            "competition_index": 0
+          },
+          {
+            "keyword": "extension chrome youtube",
+            "monthly_searches": 500,
+            "competition": "LOW",
+            "competition_index": 1
+          },
+          {
+            "keyword": "extension refresh chrome",
+            "monthly_searches": 500,
+            "competition": "LOW",
+            "competition_index": 3
+          },
+          {
+            "keyword": "extensions google chrome android",
+            "monthly_searches": 500,
+            "competition": "LOW",
+            "competition_index": 1
+          },
+          {
+            "keyword": "opera extension chrome",
+            "monthly_searches": 500,
+            "competition": "LOW",
+            "competition_index": 0
+          }
+        ],
+        "status": "published",
+        "selected_at": "2026-07-14T06:40:05.824006+00:00",
+        "url": "/drafts/google-chrome-manifest-v2-migration-explainer"
+      }
+    ],
+    "2026-W29": [
+      {
+        "cluster_name": "Google Chrome Manifest V2 Migration",
+        "content_type": "HUB",
+        "suggested_title": "Chrome Manifest V2 Deprecation: The Complete Guide for Users and Developers",
+        "hub_keyword": "Chrome Extensions",
+        "hub_keyword_raw": "Chrome Extensions",
+        "parent_hub": "Chrome Extensions",
+        "spoke_keywords": [],
+        "competition_level": "LOW",
+        "timing": "NOW",
+        "affiliate_potential": "LOW",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "status": "published",
+        "selected_at": "2026-07-20T04:28:32.401611+00:00",
+        "url": "/drafts/google-chrome-manifest-v2-migration-hub"
+      },
+      {
+        "cluster_name": "Steam Machine Hardware Management",
+        "content_type": "HUB",
+        "suggested_title": "Steam Machine (2026) Hardware Troubleshooting: The Complete Guide",
+        "hub_keyword": "Steam Machine",
+        "hub_keyword_raw": "Steam Machine",
+        "parent_hub": "Steam Machine",
+        "spoke_keywords": [],
+        "competition_level": "LOW",
+        "timing": "NOW",
+        "affiliate_potential": "HIGH",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "status": "candidate",
+        "selected_at": "2026-07-20T04:28:32.401611+00:00"
+      },
+      {
+        "cluster_name": "Samsung Health Data Ecosystem",
+        "content_type": "HUB",
+        "suggested_title": "Samsung Health Data Management: Backup, Export, and Health Connect Guide",
+        "hub_keyword": "Samsung Health",
+        "hub_keyword_raw": "Samsung Health",
+        "parent_hub": "Samsung Health",
+        "spoke_keywords": [],
+        "competition_level": "LOW",
+        "timing": "NOW",
+        "affiliate_potential": "LOW",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "status": "candidate",
+        "selected_at": "2026-07-20T04:28:32.401611+00:00"
+      }
+    ]
+  },
+  "published": [
+    {
+      "cluster_name": "Steam Machine Hardware Management",
+      "content_type": "GUIDE",
+      "title": "How to Troubleshoot Steam Machine Overheating and Red Light Issues",
+      "url": "/drafts/steam-machine-hardware-management-guide",
+      "hub_cluster": "Steam Machine",
+      "week_tag": "2026-W28",
+      "published_at": "2026-07-14T00:00:00+00:00"
+    },
+    {
+      "cluster_name": "Steam Machine Hardware Management",
+      "content_type": "COMPARISON",
+      "title": "Steam Machine LED Error Codes: What Each Warning Light Actually Means",
+      "url": "/drafts/steam-machine-hardware-management-comparison",
+      "hub_cluster": "Steam Machine",
+      "week_tag": "2026-W28",
+      "published_at": "2026-07-15T00:00:00+00:00"
+    },
+    {
+      "cluster_name": "Samsung Health Data Ecosystem",
+      "title": "How to Backup Samsung Health Data Before Account Deletion",
+      "url": "/drafts/samsung-health-data-ecosystem-guide",
+      "content_type": "GUIDE",
+      "week_tag": "2026-W28",
+      "published_at": "2026-07-15T08:23:18.465617+00:00",
+      "hub_cluster": "Samsung Health"
+    },
+    {
+      "cluster_name": "Samsung Health Data Ecosystem",
+      "title": "Samsung Health vs Google Health Connect Feature Comparison",
+      "url": "/drafts/samsung-health-data-ecosystem-comparison",
+      "content_type": "COMPARISON",
+      "week_tag": "2026-W28",
+      "published_at": "2026-07-15T08:37:48.433108+00:00",
+      "hub_cluster": "Samsung Health"
+    },
+    {
+      "cluster_name": "Google Chrome Manifest V2 Migration",
+      "title": "How to Check If Chrome Extensions Use Manifest V2",
+      "url": "/drafts/google-chrome-manifest-v2-migration-guide",
+      "content_type": "GUIDE",
+      "week_tag": "2026-W28",
+      "published_at": "2026-07-16T01:29:40.890376+00:00",
+      "hub_cluster": "Chrome Extensions"
+    },
+    {
+      "cluster_name": "Google Chrome Manifest V2 Migration",
+      "title": "Best Manifest V3 Alternatives for Older Chrome Extensions",
+      "url": "/drafts/google-chrome-manifest-v2-migration-listicle",
+      "content_type": "LISTICLE",
+      "week_tag": "2026-W28",
+      "published_at": "2026-07-16T01:45:32.767460+00:00",
+      "hub_cluster": "Chrome Extensions"
+    },
+    {
+      "cluster_name": "Google Chrome Manifest V2 Migration",
+      "title": "What is Chrome Manifest V3 and Why Extensions Break",
+      "url": "/drafts/google-chrome-manifest-v2-migration-explainer",
+      "content_type": "EXPLAINER",
+      "week_tag": "2026-W28",
+      "published_at": "2026-07-16T01:51:10.996820+00:00",
+      "hub_cluster": "Chrome Extensions"
+    },
+    {
+      "cluster_name": "Google Chrome Manifest V2 Migration",
+      "title": "Chrome Manifest V2 Deprecation: The Complete Guide for Users and Developers",
+      "url": "/drafts/google-chrome-manifest-v2-migration-hub",
+      "content_type": "HUB",
+      "week_tag": "2026-W29",
+      "published_at": "2026-07-20T05:11:27.637796+00:00",
+      "hub_cluster": "Chrome Extensions"
+    }
+  ]
+}

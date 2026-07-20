@@ -1,0 +1,185 @@
+{
+  "_comment": "Frontbuffer Editorial 리서치 시스템 설정 파일 — 코드 수정 없이 여기서 조정",
+  "youtube_api_key": "",
+  "cluster_domains": {
+    "_comment": "클러스터별 추가 공식 도메인 + 직접 fetch URL — hub_keyword에 키가 포함되면 자동 적용",
+    "Chrome": {
+      "domains": [
+        "developer.chrome.com",
+        "chromium.org",
+        "blog.chromium.org",
+        "chromewebstore.google.com"
+      ],
+      "direct_urls": [
+        "https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv2-deprecation",
+        "https://developer.chrome.com/docs/extensions/develop/migrate",
+        "https://developer.chrome.com/docs/extensions/mv3/intro/"
+      ]
+    },
+    "Firefox": {
+      "domains": [
+        "developer.mozilla.org",
+        "support.mozilla.org",
+        "addons.mozilla.org"
+      ],
+      "direct_urls": []
+    },
+    "Samsung": {
+      "domains": [
+        "samsung.com",
+        "developer.samsung.com"
+      ],
+      "direct_urls": []
+    },
+    "Steam": {
+      "domains": [
+        "store.steampowered.com",
+        "valvesoftware.com",
+        "partner.steamgames.com"
+      ],
+      "direct_urls": []
+    },
+    "Apple": {
+      "domains": [
+        "developer.apple.com",
+        "support.apple.com"
+      ],
+      "direct_urls": []
+    },
+    "Google": {
+      "domains": [
+        "developers.google.com",
+        "support.google.com",
+        "blog.google.com"
+      ],
+      "direct_urls": []
+    },
+    "Android": {
+      "domains": [
+        "developer.android.com",
+        "support.google.com"
+      ],
+      "direct_urls": []
+    },
+    "Microsoft": {
+      "domains": [
+        "support.microsoft.com",
+        "docs.microsoft.com",
+        "learn.microsoft.com"
+      ],
+      "direct_urls": []
+    }
+  },
+  "collect": {
+    "window_days": 7,
+    "max_items_per_source": 50,
+    "reddit_enabled": false,
+    "reddit_delay_seconds": 4,
+    "low_queue_threshold": 3
+  },
+  "news_rss_sources": [
+    {
+      "url": "https://feeds.arstechnica.com/arstechnica/index",
+      "source": "arstechnica",
+      "category": "tech"
+    },
+    {
+      "url": "https://www.theverge.com/rss/index.xml",
+      "source": "theverge",
+      "category": "tech"
+    },
+    {
+      "url": "https://techcrunch.com/feed/",
+      "source": "techcrunch",
+      "category": "tech"
+    },
+    {
+      "url": "https://www.tomshardware.com/feeds/all",
+      "source": "tomshardware",
+      "category": "tech"
+    },
+    {
+      "url": "https://9to5google.com/feed/",
+      "source": "9to5google",
+      "category": "tech"
+    },
+    {
+      "url": "https://www.eurogamer.net/feed",
+      "source": "eurogamer",
+      "category": "gaming"
+    },
+    {
+      "url": "https://www.rockpapershotgun.com/feed",
+      "source": "rps",
+      "category": "gaming"
+    },
+    {
+      "url": "https://www.pcgamer.com/rss/",
+      "source": "pcgamer",
+      "category": "gaming"
+    },
+    {
+      "url": "https://www.digitaltrends.com/feed/",
+      "source": "digitaltrends",
+      "category": "tech"
+    },
+    {
+      "url": "https://www.androidauthority.com/feed/",
+      "source": "androidauthority",
+      "category": "tech"
+    },
+    {
+      "url": "https://www.techradar.com/rss",
+      "source": "techradar",
+      "category": "tech"
+    }
+  ],
+  "community_rss_sources": [
+    {
+      "url": "https://news.ycombinator.com/rss",
+      "source": "hackernews",
+      "category": "tech"
+    }
+  ],
+  "reddit_subs": [
+    "technology",
+    "gadgets",
+    "gaming",
+    "games",
+    "buildapc",
+    "pcgaming",
+    "hardware"
+  ],
+  "frequency": {
+    "min_word_count": 2,
+    "min_bigram_count": 2,
+    "top_words": 60,
+    "top_bigrams": 40
+  },
+  "monthly": {
+    "weeks_to_aggregate": 4,
+    "min_weeks_to_qualify": 3
+  },
+  "output_dir": "research_data",
+  "source_tiers": {
+    "_comment": "Jina 원문 수집 가능 여부 등급. write.py가 참조함.",
+    "open": [
+      "arstechnica",
+      "9to5google",
+      "rps",
+      "digitaltrends",
+      "androidauthority",
+      "techradar"
+    ],
+    "paywall": [
+      "tomshardware",
+      "theverge",
+      "techcrunch",
+      "pcgamer",
+      "eurogamer"
+    ],
+    "title_only": [
+      "hackernews"
+    ]
+  }
+}

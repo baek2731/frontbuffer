@@ -1,0 +1,177 @@
+{
+  "_version": "1.0",
+  "_description": "발행된 글 전체 목록 — 허브+스포크 연결 관리",
+  "posts": [
+    {
+      "id": "how-to-troubleshoot-steam-machine-overheating-and-red-light-",
+      "title": "How to Troubleshoot Steam Machine Overheating and Red Light Issues",
+      "slug": "how-to-troubleshoot-steam-machine-overheating-and-red-light-",
+      "cluster_slug": "steam-machine-hardware-management",
+      "url": "/gaming/how-to-troubleshoot-steam-machine-overheating-and-red-light-issues/",
+      "live_url": "/gaming/how-to-troubleshoot-steam-machine-overheating-and-red-light-issues/",
+      "published_date": "2026-07-14",
+      "content_type": "GUIDE",
+      "hub_cluster": "Steam Machine",
+      "hub_keyword": "Steam Machine",
+      "verified_keywords": [
+        "steam machine"
+      ],
+      "data_grade": "A",
+      "internal_links_needed": [],
+      "internal_links_resolved": {},
+      "status": "live"
+    },
+    {
+      "id": "steam-machine-led-error-codes-what-each-warning-light-actual",
+      "title": "Steam Machine LED Error Codes: What Each Warning Light Actually Means",
+      "slug": "steam-machine-led-error-codes-what-each-warning-light-actual",
+      "cluster_slug": "steam-machine-hardware-management",
+      "url": "/gaming/steam-machine-led-error-codes-what-each-warning-light-actually-means/",
+      "live_url": "/gaming/steam-machine-led-error-codes-what-each-warning-light-actually-means/",
+      "published_date": "2026-07-15",
+      "content_type": "COMPARISON",
+      "hub_cluster": "Steam Machine",
+      "hub_keyword": "Steam Machine",
+      "verified_keywords": [
+        "steam machine"
+      ],
+      "data_grade": "A",
+      "internal_links_needed": [
+        "[INTERNAL LINK: SteamOS System Recovery]"
+      ],
+      "internal_links_resolved": {},
+      "status": "live"
+    },
+    {
+      "id": "how-to-backup-samsung-health-data-before-account-deletion",
+      "title": "How to Backup Samsung Health Data Before Account Deletion",
+      "slug": "how-to-backup-samsung-health-data-before-account-deletion",
+      "cluster_slug": "samsung-health-data-ecosystem",
+      "url": "/tech/how-to-backup-samsung-health-data-before-account-deletion/",
+      "live_url": "/tech/how-to-backup-samsung-health-data-before-account-deletion/",
+      "published_date": "2026-07-15",
+      "content_type": "GUIDE",
+      "hub_cluster": "Samsung Health",
+      "hub_keyword": "Samsung Health",
+      "verified_keywords": [
+        "samsung health web",
+        "samsung health"
+      ],
+      "data_grade": "A",
+      "internal_links_needed": [
+        "[INTERNAL LINK: Google Health Connect]"
+      ],
+      "internal_links_resolved": {},
+      "status": "live"
+    },
+    {
+      "id": "samsung-health-vs-google-health-connect-feature-comparison",
+      "title": "Samsung Health vs Google Health Connect Feature Comparison",
+      "slug": "samsung-health-vs-google-health-connect-feature-comparison",
+      "cluster_slug": "samsung-health-data-ecosystem",
+      "url": "/tech/samsung-health-vs-google-health-connect-feature-comparison/",
+      "live_url": "/tech/samsung-health-vs-google-health-connect-feature-comparison/",
+      "published_date": "2026-07-15",
+      "content_type": "COMPARISON",
+      "hub_cluster": "Samsung Health",
+      "hub_keyword": "Samsung Health",
+      "verified_keywords": [
+        "samsung health web",
+        "samsung health"
+      ],
+      "data_grade": "A",
+      "internal_links_needed": [
+        "[INTERNAL LINK: Google Health Connect]"
+      ],
+      "internal_links_resolved": {},
+      "status": "live"
+    },
+    {
+      "id": "how-to-check-if-chrome-extensions-use-manifest-v2",
+      "title": "How to Check If Chrome Extensions Use Manifest V2",
+      "slug": "how-to-check-if-chrome-extensions-use-manifest-v2",
+      "cluster_slug": "google-chrome-manifest-v2-migration",
+      "url": "/tech/how-to-check-if-chrome-extensions-use-manifest-v2/",
+      "live_url": "/tech/how-to-check-if-chrome-extensions-use-manifest-v2/",
+      "published_date": "2026-07-16",
+      "content_type": "GUIDE",
+      "hub_cluster": "Chrome Extensions",
+      "hub_keyword": "Chrome Extensions",
+      "verified_keywords": [
+        "chrome extensions opera",
+        "developer extension chrome",
+        "extension chrome facebook",
+        "extension chrome ios",
+        "extension chrome youtube"
+      ],
+      "data_grade": "A",
+      "internal_links_needed": [],
+      "internal_links_resolved": {},
+      "status": "live"
+    },
+    {
+      "id": "best-manifest-v3-alternatives-for-older-chrome-extensions",
+      "title": "Best Manifest V3 Alternatives for Older Chrome Extensions",
+      "slug": "best-manifest-v3-alternatives-for-older-chrome-extensions",
+      "cluster_slug": "google-chrome-manifest-v2-migration",
+      "url": "/tech/best-manifest-v3-alternatives-for-older-chrome-extensions/",
+      "live_url": "/tech/best-manifest-v3-alternatives-for-older-chrome-extensions/",
+      "published_date": "2026-07-16",
+      "content_type": "LISTICLE",
+      "hub_cluster": "Chrome Extensions",
+      "hub_keyword": "Chrome Extensions",
+      "verified_keywords": [
+        "chrome extensions opera",
+        "developer extension chrome",
+        "extension chrome facebook",
+        "extension chrome ios",
+        "extension chrome youtube"
+      ],
+      "data_grade": "A",
+      "internal_links_needed": [],
+      "internal_links_resolved": {},
+      "status": "live"
+    },
+    {
+      "id": "what-is-chrome-manifest-v3-and-why-extensions-break",
+      "title": "What is Chrome Manifest V3 and Why Extensions Break",
+      "slug": "what-is-chrome-manifest-v3-and-why-extensions-break",
+      "cluster_slug": "google-chrome-manifest-v2-migration",
+      "url": "/tech/what-is-chrome-manifest-v3-and-why-extensions-break/",
+      "live_url": "/tech/what-is-chrome-manifest-v3-and-why-extensions-break/",
+      "published_date": "2026-07-16",
+      "content_type": "EXPLAINER",
+      "hub_cluster": "Chrome Extensions",
+      "hub_keyword": "Chrome Extensions",
+      "verified_keywords": [
+        "chrome extensions opera",
+        "developer extension chrome",
+        "extension chrome facebook",
+        "extension chrome ios",
+        "extension chrome youtube"
+      ],
+      "data_grade": "A",
+      "internal_links_needed": [],
+      "internal_links_resolved": {},
+      "status": "live"
+    },
+    {
+      "id": "chrome-manifest-v2-deprecation-the-complete-guide-for-users-",
+      "title": "Chrome Manifest V2 Deprecation: The Complete Guide for Users and Developers",
+      "slug": "chrome-manifest-v2-deprecation-the-complete-guide-for-users-",
+      "cluster_slug": "google-chrome-manifest-v2-migration",
+      "url": "https://frontbuffer.net/tech/chrome-manifest-v2-deprecation-complete-guide/",
+      "live_url": "https://frontbuffer.net/tech/chrome-manifest-v2-deprecation-complete-guide/",
+      "published_date": "2026-07-20",
+      "content_type": "HUB",
+      "hub_cluster": "Chrome Extensions",
+      "hub_keyword": "Chrome Extensions",
+      "verified_keywords": [],
+      "data_grade": "A",
+      "internal_links_needed": [],
+      "internal_links_resolved": {},
+      "status": "live"
+    }
+  ],
+  "_last_updated": "2026-07-20T05:11:27.649540+00:00"
+}
