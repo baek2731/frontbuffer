@@ -425,12 +425,12 @@ test hardware, or use products directly. Therefore:
 {kw_bi_lines}
 {title_sections}
 TASKS:
-1. Identify 3-5 HUB CLUSTERS from the news data.
+1. Identify 2-3 HUB CLUSTERS from the news data.
    News headlines = signal for WHICH topics are hot right now.
    News content itself = NOT used directly in articles.
-   A hub cluster = one broad topic area with 3-4 evergreen rankable angles.
+   A hub cluster = one broad topic area with 2-3 evergreen rankable angles.
 
-2. For each hub cluster, generate 3-4 EVERGREEN SPOKES:
+2. For each hub cluster, generate 2-3 EVERGREEN SPOKES:
    - ALL spokes must be 100% evergreen (searchable 6+ months from now)
    - Use the news as a discovery signal only — do NOT write news articles
    - Re-frame news triggers into timeless search queries:
@@ -442,7 +442,7 @@ TASKS:
 
 3. Output each spoke as a SEPARATE JSON object in the array.
    Each object = one article to write.
-   Total output: 9-20 spokes across 3-5 hubs.
+   Total output: 5-8 spokes across 2-3 hubs. STRICT LIMIT — do not exceed 8 spokes total.
 
 EVERGREEN SPOKE RULES:
 - Must remain valid and searchable 6+ months from now regardless of patches/updates
