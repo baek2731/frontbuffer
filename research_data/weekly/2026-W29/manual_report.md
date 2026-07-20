@@ -1,5 +1,5 @@
 # 📦 주간 리서치 리포트 — 2026-W29
-> 수집: 2026-07-20 06:56 UTC
+> 수집: 2026-07-20 07:21 UTC
 > 합계 436건 | 뉴스 (테크) 292건 / 뉴스 (게이밍) 144건
 > 쇼핑/딜 글은 수집 단계에서 이미 제외됨
 > 소스: arstechnica, theverge, techcrunch, tomshardware, 9to5google, eurogamer, rps, pcgamer, digitaltrends, androidauthority, techradar, hackernews
@@ -157,6 +157,7 @@
 - [Full Galaxy Z Fold 8 and Ultra specs leak, showing how different the wide one is](https://9to5google.com/2026/07/15/samsung-galaxy-z-fold-8-specs-leak-2/) — 9to5google
 - [Samsung teases Galaxy Z Fold 8’s ‘new shape’ in Spider-Man: Brand New Day ad [Video]](https://9to5google.com/2026/07/15/samsung-teases-galaxy-z-fold-8-spider-man-ad/) — 9to5google
 - [Holy crap, someone else finally made an Android phone with Qi2 magnets built-in](https://9to5google.com/2026/07/15/android-qi2-magnets-motorola-edge-70-max/) — 9to5google
+- [New X phishing scam uses fake login alerts to steal your account](https://www.digitaltrends.com/social-media/new-x-phishing-scam-uses-fake-login-alerts-to-steal-your-account/) — digitaltrends
 - [The Mac Pro nearly received an M3 Extreme chip twice as powerful as M3 Ultra](https://www.digitaltrends.com/computing/the-mac-pro-nearly-received-an-m3-extreme-chip-twice-as-powerful-as-m3-ultra/) — digitaltrends
 - [Hidden prompts can secretly rewrite an AI’s memory, and researchers say that’s a serious problem](https://www.digitaltrends.com/computing/hidden-prompts-can-secretly-rewrite-an-ais-memory-and-researchers-say-thats-a-serious-problem/) — digitaltrends
 - [Your future AR glasses might finally stop making the real world look weird](https://www.digitaltrends.com/cool-tech/your-future-ar-glasses-might-finally-stop-making-the-real-world-look-weird/) — digitaltrends
@@ -186,7 +187,6 @@
 - [Google’s AI just recreated the best goal ever by Pele that was never actually filmed](https://www.digitaltrends.com/computing/google-gemini-just-recreated-the-best-goal-ever-by-pele-that-was-never-actually-filmed/) — digitaltrends
 - [After YouTube, TikTok is testing its own AI likeness detection tool](https://www.digitaltrends.com/social-media/after-youtube-tiktok-is-testing-its-own-ai-likeness-detection-tool/) — digitaltrends
 - [Samsung Galaxy Z Flip 8: Everything we know about the upcoming clamshell folding phone](https://www.digitaltrends.com/phones/samsung-galaxy-z-flip-8-all-the-leaks-and-rumors-about-the-upcoming-clamshell-folding-phone/) — digitaltrends
-- [What Features Matter Most in a Printer for a Small Business or Home Office?](https://www.digitaltrends.com/brc/what-features-matter-most-in-a-printer-for-a-small-business-or-home-office/) — digitaltrends
 - [Google starts informing Android users about a major backup storage change](https://www.androidauthority.com/google-android-backup-new-storage-policy-email-3689091/) — androidauthority
 - [Revealed: Here’s what powers these intriguing Game Boy-style handhelds](https://www.androidauthority.com/mangmi-air-y-series-chips-3689059/) — androidauthority
 - [Claude is ending the Fable 5 access chaos once and for all](https://www.androidauthority.com/claude-fable-5-access-3689068/) — androidauthority
@@ -252,16 +252,16 @@
 - [The quiet comeback of boring computing: why ports, keyboards, and repairability matter again](https://www.techradar.com/computing/laptops/the-quiet-comeback-of-boring-computing-why-ports-keyboards-and-repairability-matter-again) — techradar
 - [I've spent weeks testing the Razer Hammerhead V3 HyperSpeed gaming earbuds and it's left me desperate to go back to my SteelSeries Arctis GameBuds](https://www.techradar.com/gaming/razer-hammerhead-v3-hyperspeed-gaming-earbuds-review) — techradar
 - [I'm worried about the future of MacBooks — and these M7 chip rumors are to blame](https://www.techradar.com/computing/macbooks/im-worried-about-the-future-of-macbooks-and-these-m7-chip-rumors-are-to-blame) — techradar
-- [Think you're the ultimate Tom Holland Spider-Man fan? Put your knowledge to the test against our Marvel mastermind in this tricky MCU quiz](https://www.techradar.com/streaming/entertainment/think-youre-the-ultimate-tom-holland-spider-man-fan-put-your-knowledge-to-the-test-against-our-marvel-mastermind-in-this-tricky-mcu-quiz) — techradar
 - [What is the release date for Avatar Aang: The Last Airbender on Paramount+?](https://www.techradar.com/streaming/paramount-plus/avatar-aang-the-last-airbender-release-date-time) — techradar
-- [Which DJI camera should I buy? Here's our essential guide to your options, including the results of our in-depth testing](https://www.techradar.com/home/which-dji-camera-should-i-buy-heres-our-essential-guide-to-your-options-including-the-results-of-our-in-depth-testing) — techradar
+- [Think you're the ultimate Tom Holland Spider-Man fan? Put your knowledge to the test against our Marvel mastermind in this tricky MCU quiz](https://www.techradar.com/streaming/entertainment/think-youre-the-ultimate-tom-holland-spider-man-fan-put-your-knowledge-to-the-test-against-our-marvel-mastermind-in-this-tricky-mcu-quiz) — techradar
 - [Don’t let unreliable free VPNs ruin your World Cup Final watch party – here’s the cheapest way to watch securely](https://www.techradar.com/vpn/dont-let-unreliable-free-vpns-ruin-your-world-cup-final-watch-party-heres-the-cheapest-way-to-watch-securely) — techradar
+- [Which DJI camera should I buy? Here's our essential guide to your options, including the results of our in-depth testing](https://www.techradar.com/home/which-dji-camera-should-i-buy-heres-our-essential-guide-to-your-options-including-the-results-of-our-in-depth-testing) — techradar
 - [I tested the Eufy Omni S2 robotic vacuum — and it's expensive and impressive in equal measure](https://www.techradar.com/home/robot-vacuums/eufy-omni-s2-review) — techradar
 - ['People are choosing to be a walking Flock camera': the smart glasses backlash hits new heights as celebrities blast 'creep goggles' — and activists install fake Meta Glasses ads at London bus stops](https://www.techradar.com/computing/virtual-reality-augmented-reality/people-are-choosing-to-be-a-walking-flock-camera-the-smart-glasses-backlash-hits-new-heights-as-celebrities-blast-creep-goggles-and-activists-install-fake-meta-glasses-ads-at-london-bus-stops) — techradar
 - [The TCL NXTPAPER 70 Pro proved to me that budget smartphones can still be great — but I won't be ditching my aging Samsung just yet](https://www.techradar.com/phones/tcl-nxtpaper-70-pro) — techradar
 - [Chinese company BrainCo unveils first 'brain-to-robot' interface for controlling robots with your thoughts](https://www.techradar.com/ai-platforms-assistants/chinese-company-brainco-unveils-first-brain-to-robot-interface-for-controlling-robots-with-your-thoughts) — techradar
-- [Exclusive: ‘The emotion is doubled, it's not reduced’ — the world's most famous referee insists VAR hasn't killed the joy of World Cup goal celebrations](https://www.techradar.com/tech/exclusive-the-emotion-is-doubled-its-not-reduced-the-worlds-most-famous-referee-insists-var-hasnt-killed-the-joy-of-world-cup-goal-celebrations) — techradar
 - [This British farm is running AI on pig muck — and it could lead to a major windfall for farmers energy income, earning ten times more than the grid](https://www.techradar.com/pro/this-british-farm-is-running-ai-on-pig-muck-and-it-could-lead-to-a-major-windfall-for-farmers-energy-income-earning-ten-times-more-than-the-grid) — techradar
+- [Exclusive: ‘The emotion is doubled, it's not reduced’ — the world's most famous referee insists VAR hasn't killed the joy of World Cup goal celebrations](https://www.techradar.com/tech/exclusive-the-emotion-is-doubled-its-not-reduced-the-worlds-most-famous-referee-insists-var-hasnt-killed-the-joy-of-world-cup-goal-celebrations) — techradar
 - [The Dimplex FlexBlade Multi-Directional Bladeless Fan looks like it's part of a plane, but despite its propeller-like design it may struggle to cool your aircraft hangar](https://www.techradar.com/home/air-quality/dimplex-flexblade-review) — techradar
 - [I've used foldable phones for years — here's how the Galaxy Z Fold 8 and iPhone Ultra are fixing the form factor in 2026](https://www.techradar.com/phones/ive-used-foldable-phones-for-years-heres-how-the-galaxy-z-fold-8-and-iphone-ultra-are-fixing-the-form-factor-in-2026) — techradar
 - [Quordle hints and answers for Sunday, July 19 (game #1637)](https://www.techradar.com/computing/websites-apps/quordle-today-answers-clues-19-july-2026) — techradar
@@ -284,31 +284,31 @@
 - [How to watch South Africa vs Wales for FREE: Live streams, TV channels, team news for Nations Championship 2026](https://www.techradar.com/how-to-watch/rugby/south-africa-vs-wales-nations-championship-2026-free) — techradar
 - ['It almost defied belief': here are the 5 best OnePlus phones ever, as the 'flagship killer' leaves the US and Europe](https://www.techradar.com/phones/oneplus-phones/it-almost-defied-belief-here-are-the-5-best-oneplus-phones-ever-as-the-flagship-killer-leaves-the-us-and-europe) — techradar
 - [How to watch Fiji vs Scotland: FREE streams, TV channels for Nations Championship 2026](https://www.techradar.com/how-to-watch/rugby/fiji-vs-scotland-nations-championship-2026-free) — techradar
+- [Xiaomi-Robotics-1](https://robotics.xiaomi.com/xiaomi-robotics-1.html) — hackernews
 - [LoRA Speedrun – a public wall-clock leaderboard for fine-tuning techniques](https://github.com/Saivineeth147/lora-speedrun) — hackernews
 - [Show HN: I replaced a $120k bowling center system with $1,600 in ESP32s](https://news.ycombinator.com/item?id=48968606) — hackernews
-- [Xiaomi-Robotics-1](https://robotics.xiaomi.com/xiaomi-robotics-1.html) — hackernews
 - [Moonshine: Lets you stream games from your PC to any device running Moonlight](https://github.com/hgaiser/moonshine) — hackernews
-- [Claude Code uses Bun written in Rust now](https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/) — hackernews
 - [Korg PS-3300 is back](https://www.korg.co.uk/blogs/updates/ps3300) — hackernews
+- [Claude Code uses Bun written in Rust now](https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/) — hackernews
 - [Orion Browser by Kagi](https://orionbrowser.com/) — hackernews
-- [What I learned selling 2,500 MIDI recorders: Hardware is not so hard](https://chipweinberger.com/articles/20260719-hardware-is-not-so-hard) — hackernews
 - [Power companies are using eminent domain to seize land for data centers](https://fortune.com/2026/07/19/data-center-eminent-domain-public-use/) — hackernews
-- [The Zen of Parallel Programming](https://smolnero.com/posts/the-zen-of-parallel-programming) — hackernews
+- [What I learned selling 2,500 MIDI recorders: Hardware is not so hard](https://chipweinberger.com/articles/20260719-hardware-is-not-so-hard) — hackernews
 - [Claude Fable produced a counterexample to the Jacobian Conjecture](https://xcancel.com/__alpoge__/status/2079028340955197566) — hackernews
+- [Sealed tomb filled with paintings and inscriptions discovered in Egypt](https://www.labrujulaverde.com/en/2026/07/sealed-tomb-of-a-high-official-or-priest-filled-with-paintings-and-inscriptions-discovered-on-luxors-west-bank/) — hackernews
+- [The Zen of Parallel Programming](https://smolnero.com/posts/the-zen-of-parallel-programming) — hackernews
 - [Minecraft: Java Edition now uses SDL3](https://www.minecraft.net/en-us/article/minecraft-26-3-snapshot-4) — hackernews
-- [Who Is America's Homer?](https://www.plough.com/articles/who-is-americas-homer) — hackernews
-- [Bananas sprout in Rayleigh Garden UK after 15 years](https://www.bbc.com/news/articles/cvg8edqq5g5o) — hackernews
-- [11,700 Free Photos from John Margolies' Archive of Americana Architecture](https://www.openculture.com/2026/07/free-photos-from-john-margolies-archive-of-americana-architecture.html) — hackernews
-- [Biggest Probabilistic Computer Turns Noise into Answers](https://spectrum.ieee.org/biggest-probabilistic-computer) — hackernews
-- [Qwen 3.8](https://twitter.com/Alibaba_Qwen/status/2078759124914098291) — hackernews
-- [Sealed Tomb Filled with Paintings and Inscriptions Discovered in Egypt](https://www.labrujulaverde.com/en/2026/07/sealed-tomb-of-a-high-official-or-priest-filled-with-paintings-and-inscriptions-discovered-on-luxors-west-bank/) — hackernews
-- [HomeLab #1: MikroTik as a Home Router](https://justsomebody.dev/blog/mikrotik-home-router) — hackernews
-- [A new Intel Itanium (IA-64) emulator that boots Windows](https://raymii.org/s/blog/Intel_Itanium_IA-64-Emulator_that_boots_Windows.html) — hackernews
-- [Talk: The Art of Braiding Algorithms](https://pgadey.ca/notes/talk-relatorium-2026/) — hackernews
-- [I joined the IndieWeb, here's what I learned](https://en.andros.dev/blog/0b8e451e/i-joined-the-indieweb-heres-what-i-learned/) — hackernews
-- [C64 Basic Dungeon Crawler: Goblin Attack (C64 Basic Part 8)](https://retrogamecoders.com/c64-basic-dungeon-part8/) — hackernews
 - [How proprietary formats have become Microsoft’s main tool for lock-in](https://blog.documentfoundation.org/blog/2026/07/17/microsofts-main-tool-for-lock-in/) — hackernews
+- [Bananas sprout in Rayleigh Garden UK after 15 years](https://www.bbc.com/news/articles/cvg8edqq5g5o) — hackernews
+- [HomeLab #1: MikroTik as a Home Router](https://justsomebody.dev/blog/mikrotik-home-router) — hackernews
+- [11,700 Free Photos from John Margolies' Archive of Americana Architecture](https://www.openculture.com/2026/07/free-photos-from-john-margolies-archive-of-americana-architecture.html) — hackernews
+- [Qwen 3.8](https://twitter.com/Alibaba_Qwen/status/2078759124914098291) — hackernews
+- [Biggest Probabilistic Computer Turns Noise into Answers](https://spectrum.ieee.org/biggest-probabilistic-computer) — hackernews
+- [Who Is America's Homer?](https://www.plough.com/articles/who-is-americas-homer) — hackernews
+- [A new Intel Itanium (IA-64) emulator that boots Windows](https://raymii.org/s/blog/Intel_Itanium_IA-64-Emulator_that_boots_Windows.html) — hackernews
+- [I joined the IndieWeb, here's what I learned](https://en.andros.dev/blog/0b8e451e/i-joined-the-indieweb-heres-what-i-learned/) — hackernews
+- [Talk: The Art of Braiding Algorithms](https://pgadey.ca/notes/talk-relatorium-2026/) — hackernews
 - [I burned all my tokens researching how to save tokens](https://quesma.com/blog/custom-deep-research-pipeline/) — hackernews
+- [C64 Basic Dungeon Crawler: Goblin Attack (C64 Basic Part 8)](https://retrogamecoders.com/c64-basic-dungeon-part8/) — hackernews
 - [HMD Touch 4G](https://www.hmd.com/en_int/hmd-touch-4g) — hackernews
 - [Dupes took over the world](https://www.vox.com/podcasts/493930/dupe-culture-fender-ugg-quince-tiktok-amazon-online-shopping) — hackernews
 - [Terence McKenna's Mega Bad Trip (2025)](https://psychedelics.community/cultural-icons/terence-mckennas-mega-bad-trip) — hackernews

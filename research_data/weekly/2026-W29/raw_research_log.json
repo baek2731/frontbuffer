@@ -1,6 +1,6 @@
 {
   "week_tag": "2026-W29",
-  "collected_at": "2026-07-20T06:55:52.364617+00:00",
+  "collected_at": "2026-07-20T07:21:42.561045+00:00",
   "sources": [
     "arstechnica",
     "theverge",
@@ -2266,6 +2266,14 @@
       "pub_date": "2026-07-17T14:49:25+00:00"
     },
     {
+      "title": "New X phishing scam uses fake login alerts to steal your account",
+      "link": "https://www.digitaltrends.com/social-media/new-x-phishing-scam-uses-fake-login-alerts-to-steal-your-account/",
+      "source": "digitaltrends",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-07-20T07:07:35+00:00"
+    },
+    {
       "title": "The Mac Pro nearly received an M3 Extreme chip twice as powerful as M3 Ultra",
       "link": "https://www.digitaltrends.com/computing/the-mac-pro-nearly-received-an-m3-extreme-chip-twice-as-powerful-as-m3-ultra/",
       "source": "digitaltrends",
@@ -2496,14 +2504,6 @@
       "source_category": "tech",
       "kind": "tech",
       "pub_date": "2026-07-17T22:07:31+00:00"
-    },
-    {
-      "title": "What Features Matter Most in a Printer for a Small Business or Home Office?",
-      "link": "https://www.digitaltrends.com/brc/what-features-matter-most-in-a-printer-for-a-small-business-or-home-office/",
-      "source": "digitaltrends",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-07-17T22:04:15+00:00"
     },
     {
       "title": "Google starts informing Android users about a major backup storage change",
@@ -3026,14 +3026,6 @@
       "pub_date": "2026-07-19T14:00:00+00:00"
     },
     {
-      "title": "Think you're the ultimate Tom Holland Spider-Man fan? Put your knowledge to the test against our Marvel mastermind in this tricky MCU quiz",
-      "link": "https://www.techradar.com/streaming/entertainment/think-youre-the-ultimate-tom-holland-spider-man-fan-put-your-knowledge-to-the-test-against-our-marvel-mastermind-in-this-tricky-mcu-quiz",
-      "source": "techradar",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-07-19T13:00:00+00:00"
-    },
-    {
       "title": "What is the release date for Avatar Aang: The Last Airbender on Paramount+?",
       "link": "https://www.techradar.com/streaming/paramount-plus/avatar-aang-the-last-airbender-release-date-time",
       "source": "techradar",
@@ -3042,8 +3034,8 @@
       "pub_date": "2026-07-19T13:00:00+00:00"
     },
     {
-      "title": "Which DJI camera should I buy? Here's our essential guide to your options, including the results of our in-depth testing",
-      "link": "https://www.techradar.com/home/which-dji-camera-should-i-buy-heres-our-essential-guide-to-your-options-including-the-results-of-our-in-depth-testing",
+      "title": "Think you're the ultimate Tom Holland Spider-Man fan? Put your knowledge to the test against our Marvel mastermind in this tricky MCU quiz",
+      "link": "https://www.techradar.com/streaming/entertainment/think-youre-the-ultimate-tom-holland-spider-man-fan-put-your-knowledge-to-the-test-against-our-marvel-mastermind-in-this-tricky-mcu-quiz",
       "source": "techradar",
       "source_category": "tech",
       "kind": "tech",
@@ -3052,6 +3044,14 @@
     {
       "title": "Don’t let unreliable free VPNs ruin your World Cup Final watch party – here’s the cheapest way to watch securely",
       "link": "https://www.techradar.com/vpn/dont-let-unreliable-free-vpns-ruin-your-world-cup-final-watch-party-heres-the-cheapest-way-to-watch-securely",
+      "source": "techradar",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-07-19T13:00:00+00:00"
+    },
+    {
+      "title": "Which DJI camera should I buy? Here's our essential guide to your options, including the results of our in-depth testing",
+      "link": "https://www.techradar.com/home/which-dji-camera-should-i-buy-heres-our-essential-guide-to-your-options-including-the-results-of-our-in-depth-testing",
       "source": "techradar",
       "source_category": "tech",
       "kind": "tech",
@@ -3090,16 +3090,16 @@
       "pub_date": "2026-07-19T09:30:00+00:00"
     },
     {
-      "title": "Exclusive: ‘The emotion is doubled, it's not reduced’ — the world's most famous referee insists VAR hasn't killed the joy of World Cup goal celebrations",
-      "link": "https://www.techradar.com/tech/exclusive-the-emotion-is-doubled-its-not-reduced-the-worlds-most-famous-referee-insists-var-hasnt-killed-the-joy-of-world-cup-goal-celebrations",
+      "title": "This British farm is running AI on pig muck — and it could lead to a major windfall for farmers energy income, earning ten times more than the grid",
+      "link": "https://www.techradar.com/pro/this-british-farm-is-running-ai-on-pig-muck-and-it-could-lead-to-a-major-windfall-for-farmers-energy-income-earning-ten-times-more-than-the-grid",
       "source": "techradar",
       "source_category": "tech",
       "kind": "tech",
       "pub_date": "2026-07-19T09:00:00+00:00"
     },
     {
-      "title": "This British farm is running AI on pig muck — and it could lead to a major windfall for farmers energy income, earning ten times more than the grid",
-      "link": "https://www.techradar.com/pro/this-british-farm-is-running-ai-on-pig-muck-and-it-could-lead-to-a-major-windfall-for-farmers-energy-income-earning-ten-times-more-than-the-grid",
+      "title": "Exclusive: ‘The emotion is doubled, it's not reduced’ — the world's most famous referee insists VAR hasn't killed the joy of World Cup goal celebrations",
+      "link": "https://www.techradar.com/tech/exclusive-the-emotion-is-doubled-its-not-reduced-the-worlds-most-famous-referee-insists-var-hasnt-killed-the-joy-of-world-cup-goal-celebrations",
       "source": "techradar",
       "source_category": "tech",
       "kind": "tech",
@@ -3282,6 +3282,14 @@
       "pub_date": "2026-07-18T11:00:00+00:00"
     },
     {
+      "title": "Xiaomi-Robotics-1",
+      "link": "https://robotics.xiaomi.com/xiaomi-robotics-1.html",
+      "source": "hackernews",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-07-20T04:45:15+00:00"
+    },
+    {
       "title": "LoRA Speedrun – a public wall-clock leaderboard for fine-tuning techniques",
       "link": "https://github.com/Saivineeth147/lora-speedrun",
       "source": "hackernews",
@@ -3298,28 +3306,12 @@
       "pub_date": "2026-07-19T14:41:16+00:00"
     },
     {
-      "title": "Xiaomi-Robotics-1",
-      "link": "https://robotics.xiaomi.com/xiaomi-robotics-1.html",
-      "source": "hackernews",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-07-20T04:45:15+00:00"
-    },
-    {
       "title": "Moonshine: Lets you stream games from your PC to any device running Moonlight",
       "link": "https://github.com/hgaiser/moonshine",
       "source": "hackernews",
       "source_category": "tech",
       "kind": "tech",
       "pub_date": "2026-07-20T00:16:50+00:00"
-    },
-    {
-      "title": "Claude Code uses Bun written in Rust now",
-      "link": "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/",
-      "source": "hackernews",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-07-19T10:03:23+00:00"
     },
     {
       "title": "Korg PS-3300 is back",
@@ -3330,20 +3322,20 @@
       "pub_date": "2026-07-14T14:33:32+00:00"
     },
     {
+      "title": "Claude Code uses Bun written in Rust now",
+      "link": "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/",
+      "source": "hackernews",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-07-19T10:03:23+00:00"
+    },
+    {
       "title": "Orion Browser by Kagi",
       "link": "https://orionbrowser.com/",
       "source": "hackernews",
       "source_category": "tech",
       "kind": "tech",
       "pub_date": "2026-07-19T19:13:29+00:00"
-    },
-    {
-      "title": "What I learned selling 2,500 MIDI recorders: Hardware is not so hard",
-      "link": "https://chipweinberger.com/articles/20260719-hardware-is-not-so-hard",
-      "source": "hackernews",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-07-19T10:34:58+00:00"
     },
     {
       "title": "Power companies are using eminent domain to seize land for data centers",
@@ -3354,12 +3346,12 @@
       "pub_date": "2026-07-20T04:19:22+00:00"
     },
     {
-      "title": "The Zen of Parallel Programming",
-      "link": "https://smolnero.com/posts/the-zen-of-parallel-programming",
+      "title": "What I learned selling 2,500 MIDI recorders: Hardware is not so hard",
+      "link": "https://chipweinberger.com/articles/20260719-hardware-is-not-so-hard",
       "source": "hackernews",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-07-14T14:23:26+00:00"
+      "pub_date": "2026-07-19T10:34:58+00:00"
     },
     {
       "title": "Claude Fable produced a counterexample to the Jacobian Conjecture",
@@ -3370,55 +3362,7 @@
       "pub_date": "2026-07-20T02:51:16+00:00"
     },
     {
-      "title": "Minecraft: Java Edition now uses SDL3",
-      "link": "https://www.minecraft.net/en-us/article/minecraft-26-3-snapshot-4",
-      "source": "hackernews",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-07-19T11:48:18+00:00"
-    },
-    {
-      "title": "Who Is America's Homer?",
-      "link": "https://www.plough.com/articles/who-is-americas-homer",
-      "source": "hackernews",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-07-14T22:19:13+00:00"
-    },
-    {
-      "title": "Bananas sprout in Rayleigh Garden UK after 15 years",
-      "link": "https://www.bbc.com/news/articles/cvg8edqq5g5o",
-      "source": "hackernews",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-07-19T13:29:29+00:00"
-    },
-    {
-      "title": "11,700 Free Photos from John Margolies' Archive of Americana Architecture",
-      "link": "https://www.openculture.com/2026/07/free-photos-from-john-margolies-archive-of-americana-architecture.html",
-      "source": "hackernews",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-07-15T23:44:59+00:00"
-    },
-    {
-      "title": "Biggest Probabilistic Computer Turns Noise into Answers",
-      "link": "https://spectrum.ieee.org/biggest-probabilistic-computer",
-      "source": "hackernews",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-07-19T21:42:12+00:00"
-    },
-    {
-      "title": "Qwen 3.8",
-      "link": "https://twitter.com/Alibaba_Qwen/status/2078759124914098291",
-      "source": "hackernews",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-07-19T08:44:57+00:00"
-    },
-    {
-      "title": "Sealed Tomb Filled with Paintings and Inscriptions Discovered in Egypt",
+      "title": "Sealed tomb filled with paintings and inscriptions discovered in Egypt",
       "link": "https://www.labrujulaverde.com/en/2026/07/sealed-tomb-of-a-high-official-or-priest-filled-with-paintings-and-inscriptions-discovered-on-luxors-west-bank/",
       "source": "hackernews",
       "source_category": "tech",
@@ -3426,44 +3370,20 @@
       "pub_date": "2026-07-15T08:35:46+00:00"
     },
     {
-      "title": "HomeLab #1: MikroTik as a Home Router",
-      "link": "https://justsomebody.dev/blog/mikrotik-home-router",
+      "title": "The Zen of Parallel Programming",
+      "link": "https://smolnero.com/posts/the-zen-of-parallel-programming",
       "source": "hackernews",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-07-19T18:57:01+00:00"
+      "pub_date": "2026-07-14T14:23:26+00:00"
     },
     {
-      "title": "A new Intel Itanium (IA-64) emulator that boots Windows",
-      "link": "https://raymii.org/s/blog/Intel_Itanium_IA-64-Emulator_that_boots_Windows.html",
+      "title": "Minecraft: Java Edition now uses SDL3",
+      "link": "https://www.minecraft.net/en-us/article/minecraft-26-3-snapshot-4",
       "source": "hackernews",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-07-19T20:50:42+00:00"
-    },
-    {
-      "title": "Talk: The Art of Braiding Algorithms",
-      "link": "https://pgadey.ca/notes/talk-relatorium-2026/",
-      "source": "hackernews",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-07-15T13:31:44+00:00"
-    },
-    {
-      "title": "I joined the IndieWeb, here's what I learned",
-      "link": "https://en.andros.dev/blog/0b8e451e/i-joined-the-indieweb-heres-what-i-learned/",
-      "source": "hackernews",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-07-19T11:14:38+00:00"
-    },
-    {
-      "title": "C64 Basic Dungeon Crawler: Goblin Attack (C64 Basic Part 8)",
-      "link": "https://retrogamecoders.com/c64-basic-dungeon-part8/",
-      "source": "hackernews",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-07-19T15:20:22+00:00"
+      "pub_date": "2026-07-19T11:48:18+00:00"
     },
     {
       "title": "How proprietary formats have become Microsoft’s main tool for lock-in",
@@ -3474,12 +3394,92 @@
       "pub_date": "2026-07-20T04:49:47+00:00"
     },
     {
+      "title": "Bananas sprout in Rayleigh Garden UK after 15 years",
+      "link": "https://www.bbc.com/news/articles/cvg8edqq5g5o",
+      "source": "hackernews",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-07-19T13:29:29+00:00"
+    },
+    {
+      "title": "HomeLab #1: MikroTik as a Home Router",
+      "link": "https://justsomebody.dev/blog/mikrotik-home-router",
+      "source": "hackernews",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-07-19T18:57:01+00:00"
+    },
+    {
+      "title": "11,700 Free Photos from John Margolies' Archive of Americana Architecture",
+      "link": "https://www.openculture.com/2026/07/free-photos-from-john-margolies-archive-of-americana-architecture.html",
+      "source": "hackernews",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-07-15T23:44:59+00:00"
+    },
+    {
+      "title": "Qwen 3.8",
+      "link": "https://twitter.com/Alibaba_Qwen/status/2078759124914098291",
+      "source": "hackernews",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-07-19T08:44:57+00:00"
+    },
+    {
+      "title": "Biggest Probabilistic Computer Turns Noise into Answers",
+      "link": "https://spectrum.ieee.org/biggest-probabilistic-computer",
+      "source": "hackernews",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-07-19T21:42:12+00:00"
+    },
+    {
+      "title": "Who Is America's Homer?",
+      "link": "https://www.plough.com/articles/who-is-americas-homer",
+      "source": "hackernews",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-07-14T22:19:13+00:00"
+    },
+    {
+      "title": "A new Intel Itanium (IA-64) emulator that boots Windows",
+      "link": "https://raymii.org/s/blog/Intel_Itanium_IA-64-Emulator_that_boots_Windows.html",
+      "source": "hackernews",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-07-19T20:50:42+00:00"
+    },
+    {
+      "title": "I joined the IndieWeb, here's what I learned",
+      "link": "https://en.andros.dev/blog/0b8e451e/i-joined-the-indieweb-heres-what-i-learned/",
+      "source": "hackernews",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-07-19T11:14:38+00:00"
+    },
+    {
+      "title": "Talk: The Art of Braiding Algorithms",
+      "link": "https://pgadey.ca/notes/talk-relatorium-2026/",
+      "source": "hackernews",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-07-15T13:31:44+00:00"
+    },
+    {
       "title": "I burned all my tokens researching how to save tokens",
       "link": "https://quesma.com/blog/custom-deep-research-pipeline/",
       "source": "hackernews",
       "source_category": "tech",
       "kind": "tech",
       "pub_date": "2026-07-19T12:01:53+00:00"
+    },
+    {
+      "title": "C64 Basic Dungeon Crawler: Goblin Attack (C64 Basic Part 8)",
+      "link": "https://retrogamecoders.com/c64-basic-dungeon-part8/",
+      "source": "hackernews",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-07-19T15:20:22+00:00"
     },
     {
       "title": "HMD Touch 4G",
