@@ -630,9 +630,11 @@ def build_human_report(top_uni, top_bi, items, week_tag, prompt_filename):
         "",
         "```",
         "1. trends.google.com → 키워드 검색 → 다운로드(↓)",
-        "   - 시계열:         time_series_{키워드}.csv",
-        "   - 연관검색어(상위):   searched_with_top-{키워드}.csv",
-        "   - 연관검색어(급상승): searched_with_rising-{키워드}.csv",
+        "   파일명 그대로 올리면 돼요 (이름 변경 불필요)",
+        "   - multiTimeline.csv      ← 시계열 데이터",
+        "   - relatedQueries.csv     ← 연관검색어",
+        "   - relatedEntities.csv    ← 연관 주제",
+        "   (geoMap.csv는 무시됨)",
         "",
         f"2. GitHub → {trends_folder_base}/{{폴더명}}/ 에 업로드",
         "",
@@ -641,7 +643,38 @@ def build_human_report(top_uni, top_bi, items, week_tag, prompt_filename):
         "```",
         "",
     ]
+
+    # ── KP 입력용 키워드 복사 섹션 ──────────────────────────────────
+    # hub_keyword 기준으로 중복 제거 후 KP 검색용 키워드 목록 생성
+    kp_keywords_for_copy = list(dict.fromkeys(
+        phrase for phrase, _ in evergreen_bi
+    ))
+    # 단일 키워드도 추가 (에버그린 단어 중 4자 이상)
+    for w, _ in evergreen_uni:
+        if w not in " ".join(kp_keywords_for_copy):
+            kp_keywords_for_copy.append(w)
+
+    trends_lines_kp = [
+        "---",
+        "",
+        "## 📋 Keyword Planner 입력용 키워드",
+        "",
+        "> 아래 키워드를 **전체 복사**해서 Google Ads Keyword Planner에 붙여넣기하세요.",
+        f"> 결과 CSV → `{trends_folder_base}/` 루트에 업로드 (파일명에 'keyword' 포함 필수)",
+        "",
+        "```",
+    ]
+    for kw in kp_keywords_for_copy:
+        trends_lines_kp.append(kw)
+    trends_lines_kp += [
+        "```",
+        "",
+        "> 💡 **KP 검색 팁**: 넓은 hub 키워드로 검색해야 롱테일 발굴 가능해요.",
+        "> LOW 경쟁 + 월 100회 이상 키워드만 자동으로 채택돼요.",
+        "",
+    ]
     lines += trends_lines
+    lines += trends_lines_kp
 
     lines += [
         "---",
