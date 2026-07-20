@@ -14,7 +14,7 @@ plugins:
   - jekyll-feed
   - jekyll-remote-theme
 permalink: /:categories/:title/
-paginate: 5
+paginate: 10
 paginate_path: "/page:num/"
 timezone: "Asia/Seoul"
 include:
@@ -30,7 +30,7 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: true
       share: true
       related: true
@@ -49,6 +49,7 @@ tag_archive:
   path: /tags/
 search: false
 logo: "/favicon.ico"
+entries_layout: list
 analytics:
   provider: "google-gtag"
   google:
