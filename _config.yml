@@ -48,7 +48,7 @@ tag_archive:
   type: liquid
   path: /tags/
 search: false
-logo: "/favicon.png"
+logo: "/favicon.ico"
 analytics:
   provider: "google-gtag"
   google:
