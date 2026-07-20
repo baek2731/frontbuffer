@@ -1,5 +1,5 @@
 # 📦 주간 리서치 리포트 — 2026-W29
-> 수집: 2026-07-20 06:22 UTC
+> 수집: 2026-07-20 06:36 UTC
 > 합계 436건 | 뉴스 (테크) 292건 / 뉴스 (게이밍) 144건
 > 쇼핑/딜 글은 수집 단계에서 이미 제외됨
 > 소스: arstechnica, theverge, techcrunch, tomshardware, 9to5google, eurogamer, rps, pcgamer, digitaltrends, androidauthority, techradar, hackernews
@@ -77,8 +77,8 @@
 - [Samsung cuts hundreds of US consumer electronics jobs ahead of Texas HQ move — 739 roles affected in New Jersey as chip division posts record profit](https://www.tomshardware.com/tech-industry/samsung-cuts-hundreds-of-us-consumer-electronics-jobs-ahead-of-texas-hq-move) — tomshardware
 - [Russian drones spotted using screwed-on magnetic compasses as navigation aids — the on-board camera can occasionally tilt down to check bearings if satellite comms are lost](https://www.tomshardware.com/tech-industry/drones/russian-drones-spotted-using-screwed-on-magnetic-compasses-as-navigation-aids-the-on-board-camera-can-occasionally-tilt-down-to-check-bearings-if-satellite-comms-are-lost) — tomshardware
 - [Coil whine can be musical, demonstrates engineering student — this usually hated noise can make some people happy](https://www.tomshardware.com/pc-components/coil-whine-can-be-musical-demonstrates-engineering-student-this-usually-hated-noise-can-make-some-people-happy) — tomshardware
-- [Crazed enthusiast runs PC on 192 AA batteries, successfully boots into Hannah Montana Linux — System is stable during stress testing and even plays FreeDoom](https://www.tomshardware.com/desktops/pc-building/crazed-enthusiast-runs-pc-on-192-aa-batteries-successfully-boots-into-hannah-montana-linux-system-is-stable-during-stress-testing-and-even-plays-freedoom) — tomshardware
 - [Clever hacker fits 537,000 domains in a tiny $5 ESP32 ad-blocking dongle — firmware uses only around 50KB of RAM and can answer blocked lookups in 10 milliseconds](https://www.tomshardware.com/networking/clever-hacker-fits-537-000-domains-in-a-tiny-usd5-esp32-ad-blocking-dongle-firmware-uses-only-around-50kb-of-ram-and-can-answer-blocked-lookups-in-10-milliseconds) — tomshardware
+- [Crazed enthusiast runs PC on 192 AA batteries, successfully boots into Hannah Montana Linux — System is stable during stress testing and even plays FreeDoom](https://www.tomshardware.com/desktops/pc-building/crazed-enthusiast-runs-pc-on-192-aa-batteries-successfully-boots-into-hannah-montana-linux-system-is-stable-during-stress-testing-and-even-plays-freedoom) — tomshardware
 - [GTA 3 and Vice City are now playable inside San Andreas — a mod lets you revisit Liberty City and Vice City without leaving San Andreas](https://www.tomshardware.com/video-games/pc-gaming/gta-3-and-vice-city-are-now-playable-inside-san-andreas-a-mod-lets-you-revisit-liberty-city-and-vice-city-without-leaving-san-andreas) — tomshardware
 - [AMD’s new Ryzen 7 7700X3D plummets to $279 days after launch — the X3D chip rules the mid-range at its discounted price](https://www.tomshardware.com/pc-components/cpus/amds-new-ryzen-7-7700x3d-plummets-to-usd279-days-after-launch-the-x3d-chip-rules-the-mid-range-at-its-discounted-price) — tomshardware
 - [Strapping 11 fans and a 360mm AIO to an RTX 3080 sounds crazy until you see the 30°C temp drop — modded GPU delivered less than 5 FPS uplift at turbojet noise levels](https://www.tomshardware.com/pc-components/cooling/strapping-11-fans-and-a-360mm-aio-to-an-rtx-3080-sounds-crazy-until-you-see-the-30-c-temp-drop-modded-gpu-delivered-less-than-5-fps-uplift) — tomshardware
@@ -187,6 +187,7 @@
 - [After YouTube, TikTok is testing its own AI likeness detection tool](https://www.digitaltrends.com/social-media/after-youtube-tiktok-is-testing-its-own-ai-likeness-detection-tool/) — digitaltrends
 - [Samsung Galaxy Z Flip 8: Everything we know about the upcoming clamshell folding phone](https://www.digitaltrends.com/phones/samsung-galaxy-z-flip-8-all-the-leaks-and-rumors-about-the-upcoming-clamshell-folding-phone/) — digitaltrends
 - [What Features Matter Most in a Printer for a Small Business or Home Office?](https://www.digitaltrends.com/brc/what-features-matter-most-in-a-printer-for-a-small-business-or-home-office/) — digitaltrends
+- [Revealed: Here’s what powers these intriguing Game Boy-style handhelds](https://www.androidauthority.com/mangmi-air-y-series-chips-3689059/) — androidauthority
 - [Claude is ending the Fable 5 access chaos once and for all](https://www.androidauthority.com/claude-fable-5-access-3689068/) — androidauthority
 - [Massive Galaxy Watch 9 and Watch Ultra 2 leak reveals colors, specs, and more](https://www.androidauthority.com/galaxy-watch-9-ultra-2-leak-color-specs-health-features-3689062/) — androidauthority
 - [5 things Gemini still can’t do that keep me paying for ChatGPT](https://www.androidauthority.com/things-gemini-still-cant-do-vs-chatgpt-3687922/) — androidauthority
@@ -234,7 +235,6 @@
 - [Google Vids just became a far more capable video maker with Gemini Omni](https://www.androidauthority.com/google-vids-gets-gemini-omni-3688502/) — androidauthority
 - [Google’s next flagship Gemini model reportedly stuck months behind schedule](https://www.androidauthority.com/google-gemini-3-5-pro-launch-delayed-3688434/) — androidauthority
 - [Google is working on a fix for those annoying Pixel Watch permissions errors](https://www.androidauthority.com/pixel-watch-permissions-errors-3688428/) — androidauthority
-- [Gemini gets ready to let you fine-tune its voice models](https://www.androidauthority.com/gemini-voice-customization-3688391/) — androidauthority
 - [‘The world of work is changing fast': Barely any workers think their job is safe as worries about AI refuse to go away](https://www.techradar.com/pro/the-world-of-work-is-changing-fast-barely-any-workers-think-their-job-is-safe-as-worries-about-ai-refuse-to-go-away) — techradar
 - [Quordle hints and answers for Monday, July 20 (game #1638)](https://www.techradar.com/computing/websites-apps/quordle-today-answers-clues-20-july-2026) — techradar
 - [NYT Connections hints and answers for Monday, July 20 (game #1135)](https://www.techradar.com/gaming/nyt-connections-today-answers-hints-20-july-2026) — techradar
@@ -252,16 +252,16 @@
 - [The quiet comeback of boring computing: why ports, keyboards, and repairability matter again](https://www.techradar.com/computing/laptops/the-quiet-comeback-of-boring-computing-why-ports-keyboards-and-repairability-matter-again) — techradar
 - [I've spent weeks testing the Razer Hammerhead V3 HyperSpeed gaming earbuds and it's left me desperate to go back to my SteelSeries Arctis GameBuds](https://www.techradar.com/gaming/razer-hammerhead-v3-hyperspeed-gaming-earbuds-review) — techradar
 - [I'm worried about the future of MacBooks — and these M7 chip rumors are to blame](https://www.techradar.com/computing/macbooks/im-worried-about-the-future-of-macbooks-and-these-m7-chip-rumors-are-to-blame) — techradar
-- [Think you're the ultimate Tom Holland Spider-Man fan? Put your knowledge to the test against our Marvel mastermind in this tricky MCU quiz](https://www.techradar.com/streaming/entertainment/think-youre-the-ultimate-tom-holland-spider-man-fan-put-your-knowledge-to-the-test-against-our-marvel-mastermind-in-this-tricky-mcu-quiz) — techradar
 - [What is the release date for Avatar Aang: The Last Airbender on Paramount+?](https://www.techradar.com/streaming/paramount-plus/avatar-aang-the-last-airbender-release-date-time) — techradar
-- [Which DJI camera should I buy? Here's our essential guide to your options, including the results of our in-depth testing](https://www.techradar.com/home/which-dji-camera-should-i-buy-heres-our-essential-guide-to-your-options-including-the-results-of-our-in-depth-testing) — techradar
+- [Think you're the ultimate Tom Holland Spider-Man fan? Put your knowledge to the test against our Marvel mastermind in this tricky MCU quiz](https://www.techradar.com/streaming/entertainment/think-youre-the-ultimate-tom-holland-spider-man-fan-put-your-knowledge-to-the-test-against-our-marvel-mastermind-in-this-tricky-mcu-quiz) — techradar
 - [Don’t let unreliable free VPNs ruin your World Cup Final watch party – here’s the cheapest way to watch securely](https://www.techradar.com/vpn/dont-let-unreliable-free-vpns-ruin-your-world-cup-final-watch-party-heres-the-cheapest-way-to-watch-securely) — techradar
+- [Which DJI camera should I buy? Here's our essential guide to your options, including the results of our in-depth testing](https://www.techradar.com/home/which-dji-camera-should-i-buy-heres-our-essential-guide-to-your-options-including-the-results-of-our-in-depth-testing) — techradar
 - [I tested the Eufy Omni S2 robotic vacuum — and it's expensive and impressive in equal measure](https://www.techradar.com/home/robot-vacuums/eufy-omni-s2-review) — techradar
 - ['People are choosing to be a walking Flock camera': the smart glasses backlash hits new heights as celebrities blast 'creep goggles' — and activists install fake Meta Glasses ads at London bus stops](https://www.techradar.com/computing/virtual-reality-augmented-reality/people-are-choosing-to-be-a-walking-flock-camera-the-smart-glasses-backlash-hits-new-heights-as-celebrities-blast-creep-goggles-and-activists-install-fake-meta-glasses-ads-at-london-bus-stops) — techradar
 - [The TCL NXTPAPER 70 Pro proved to me that budget smartphones can still be great — but I won't be ditching my aging Samsung just yet](https://www.techradar.com/phones/tcl-nxtpaper-70-pro) — techradar
 - [Chinese company BrainCo unveils first 'brain-to-robot' interface for controlling robots with your thoughts](https://www.techradar.com/ai-platforms-assistants/chinese-company-brainco-unveils-first-brain-to-robot-interface-for-controlling-robots-with-your-thoughts) — techradar
-- [Exclusive: ‘The emotion is doubled, it's not reduced’ — the world's most famous referee insists VAR hasn't killed the joy of World Cup goal celebrations](https://www.techradar.com/tech/exclusive-the-emotion-is-doubled-its-not-reduced-the-worlds-most-famous-referee-insists-var-hasnt-killed-the-joy-of-world-cup-goal-celebrations) — techradar
 - [This British farm is running AI on pig muck — and it could lead to a major windfall for farmers energy income, earning ten times more than the grid](https://www.techradar.com/pro/this-british-farm-is-running-ai-on-pig-muck-and-it-could-lead-to-a-major-windfall-for-farmers-energy-income-earning-ten-times-more-than-the-grid) — techradar
+- [Exclusive: ‘The emotion is doubled, it's not reduced’ — the world's most famous referee insists VAR hasn't killed the joy of World Cup goal celebrations](https://www.techradar.com/tech/exclusive-the-emotion-is-doubled-its-not-reduced-the-worlds-most-famous-referee-insists-var-hasnt-killed-the-joy-of-world-cup-goal-celebrations) — techradar
 - [The Dimplex FlexBlade Multi-Directional Bladeless Fan looks like it's part of a plane, but despite its propeller-like design it may struggle to cool your aircraft hangar](https://www.techradar.com/home/air-quality/dimplex-flexblade-review) — techradar
 - [I've used foldable phones for years — here's how the Galaxy Z Fold 8 and iPhone Ultra are fixing the form factor in 2026](https://www.techradar.com/phones/ive-used-foldable-phones-for-years-heres-how-the-galaxy-z-fold-8-and-iphone-ultra-are-fixing-the-form-factor-in-2026) — techradar
 - [Quordle hints and answers for Sunday, July 19 (game #1637)](https://www.techradar.com/computing/websites-apps/quordle-today-answers-clues-19-july-2026) — techradar
@@ -285,8 +285,9 @@
 - ['It almost defied belief': here are the 5 best OnePlus phones ever, as the 'flagship killer' leaves the US and Europe](https://www.techradar.com/phones/oneplus-phones/it-almost-defied-belief-here-are-the-5-best-oneplus-phones-ever-as-the-flagship-killer-leaves-the-us-and-europe) — techradar
 - [How to watch Fiji vs Scotland: FREE streams, TV channels for Nations Championship 2026](https://www.techradar.com/how-to-watch/rugby/fiji-vs-scotland-nations-championship-2026-free) — techradar
 - [Show HN: I replaced a $120k bowling center system with $1,600 in ESP32s](https://news.ycombinator.com/item?id=48968606) — hackernews
-- [Moonshine: Lets you stream games from your PC to any device running Moonlight](https://github.com/hgaiser/moonshine) — hackernews
 - [LoRA Speedrun – a public wall-clock leaderboard for fine-tuning techniques](https://github.com/Saivineeth147/lora-speedrun) — hackernews
+- [Moonshine: Lets you stream games from your PC to any device running Moonlight](https://github.com/hgaiser/moonshine) — hackernews
+- [Xiaomi-Robotics-1](https://robotics.xiaomi.com/xiaomi-robotics-1.html) — hackernews
 - [Claude Code uses Bun written in Rust now](https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/) — hackernews
 - [Korg PS-3300 is back](https://www.korg.co.uk/blogs/updates/ps3300) — hackernews
 - [Orion Browser by Kagi](https://orionbrowser.com/) — hackernews
@@ -295,14 +296,14 @@
 - [Claude Fable produced a counterexample to the Jacobian Conjecture](https://xcancel.com/__alpoge__/status/2079028340955197566) — hackernews
 - [The Zen of Parallel Programming](https://smolnero.com/posts/the-zen-of-parallel-programming) — hackernews
 - [Minecraft: Java Edition now uses SDL3](https://www.minecraft.net/en-us/article/minecraft-26-3-snapshot-4) — hackernews
-- [Xiaomi-Robotics-1](https://robotics.xiaomi.com/xiaomi-robotics-1.html) — hackernews
 - [Who Is America's Homer?](https://www.plough.com/articles/who-is-americas-homer) — hackernews
-- [Biggest Probabilistic Computer Turns Noise into Answers](https://spectrum.ieee.org/biggest-probabilistic-computer) — hackernews
 - [Bananas sprout in Rayleigh Garden UK after 15 years](https://www.bbc.com/news/articles/cvg8edqq5g5o) — hackernews
 - [11,700 Free Photos from John Margolies' Archive of Americana Architecture](https://www.openculture.com/2026/07/free-photos-from-john-margolies-archive-of-americana-architecture.html) — hackernews
-- [Qwen 3.8](https://twitter.com/Alibaba_Qwen/status/2078759124914098291) — hackernews
-- [HomeLab #1: MikroTik as a Home Router](https://justsomebody.dev/blog/mikrotik-home-router) — hackernews
+- [Biggest Probabilistic Computer Turns Noise into Answers](https://spectrum.ieee.org/biggest-probabilistic-computer) — hackernews
 - [Big Tech Is Now Targeting Native American Land for Data Centers](https://www.nytimes.com/2026/07/09/us/data-centers-native-american-tribes.html) — hackernews
+- [Qwen 3.8](https://twitter.com/Alibaba_Qwen/status/2078759124914098291) — hackernews
+- [Big tech needs to justify AI spending as investors dump stocks](https://www.bloomberg.com/news/articles/2026-07-19/big-tech-needs-to-justify-ai-spending-as-investors-dump-stocks) — hackernews
+- [HomeLab #1: MikroTik as a Home Router](https://justsomebody.dev/blog/mikrotik-home-router) — hackernews
 - [A new Intel Itanium (IA-64) emulator that boots Windows](https://raymii.org/s/blog/Intel_Itanium_IA-64-Emulator_that_boots_Windows.html) — hackernews
 - [Talk: The Art of Braiding Algorithms](https://pgadey.ca/notes/talk-relatorium-2026/) — hackernews
 - [I joined the IndieWeb, here's what I learned](https://en.andros.dev/blog/0b8e451e/i-joined-the-indieweb-heres-what-i-learned/) — hackernews
@@ -310,8 +311,7 @@
 - [HMD Touch 4G](https://www.hmd.com/en_int/hmd-touch-4g) — hackernews
 - [I burned all my tokens researching how to save tokens](https://quesma.com/blog/custom-deep-research-pipeline/) — hackernews
 - [Dupes took over the world](https://www.vox.com/podcasts/493930/dupe-culture-fender-ugg-quince-tiktok-amazon-online-shopping) — hackernews
-- [Big Tech Needs to Justify AI Spending as Investors Dump Stocks](https://www.bloomberg.com/news/articles/2026-07-19/big-tech-needs-to-justify-ai-spending-as-investors-dump-stocks) — hackernews
-- [Terence McKenna's Mega Bad Trip (2025)](https://psychedelics.community/cultural-icons/terence-mckennas-mega-bad-trip) — hackernews
+- [How proprietary formats have become Microsoft’s main tool for lock-in](https://blog.documentfoundation.org/blog/2026/07/17/microsofts-main-tool-for-lock-in/) — hackernews
 
 ### 뉴스 (게이밍)
 
@@ -459,6 +459,55 @@
 - [Battlefield 6 is resurrecting a 20-year-old mode for a Top Gun crossover](https://www.pcgamer.com/games/fps/battlefield-6-is-resurrecting-a-20-year-old-mode-for-a-top-gun-crossover/) — pcgamer
 - [60 fps is still the de facto minimum frame rate for half of PC Gamer readers, but more than 10% of you are dying on the 120 fps hill](https://www.pcgamer.com/hardware/60-fps-is-still-the-de-facto-minimum-frame-rate-for-half-of-pc-gamer-readers-but-more-than-10-percent-of-you-are-dying-on-the-120-fps-hill/) — pcgamer
 - [OpenAI's collab mini keeb has optional 'yeet' and 'yolo' buttons, which is totally lit my fellow rizz lords, no cap](https://www.pcgamer.com/hardware/openais-collab-mini-keeb-has-optional-yeet-and-yolo-buttons-which-is-totally-lit-my-fellow-rizz-lords-no-cap/) — pcgamer
+
+---
+
+## 🔍 Google Trends / Keyword Planner 검색 추천
+
+> 아래 키워드를 Google Trends에서 검색 후 CSV를 해당 폴더에 넣으세요.
+> 폴더 경로: `research_data/trends/2026-W29/{폴더명}/`
+
+### 추천 허브 키워드 (2단어 조합 빈도 기준)
+
+| 순위 | 키워드 | 빈도 | Trends 링크 | 폴더명 |
+|---|---|---|---|---|
+| 1 | **galaxy fold** | 8회 | [Trends 검색](https://trends.google.com/trends/explore?q=galaxy+fold&geo=US) | `01-galaxy-fold/` |
+| 2 | **fallout vegas** | 6회 | [Trends 검색](https://trends.google.com/trends/explore?q=fallout+vegas&geo=US) | `02-fallout-vegas/` |
+| 3 | **modern warfare** | 5회 | [Trends 검색](https://trends.google.com/trends/explore?q=modern+warfare&geo=US) | `03-modern-warfare/` |
+| 4 | **assassin's creed** | 5회 | [Trends 검색](https://trends.google.com/trends/explore?q=assassin's+creed&geo=US) | `04-assassin's-creed/` |
+| 5 | **creed black** | 5회 | [Trends 검색](https://trends.google.com/trends/explore?q=creed+black&geo=US) | `05-creed-black/` |
+| 6 | **black flag** | 5회 | [Trends 검색](https://trends.google.com/trends/explore?q=black+flag&geo=US) | `06-black-flag/` |
+| 7 | **amd ryzen** | 4회 | [Trends 검색](https://trends.google.com/trends/explore?q=amd+ryzen&geo=US) | `07-amd-ryzen/` |
+| 8 | **call duty** | 4회 | [Trends 검색](https://trends.google.com/trends/explore?q=call+duty&geo=US) | `08-call-duty/` |
+| 9 | **god war** | 4회 | [Trends 검색](https://trends.google.com/trends/explore?q=god+war&geo=US) | `09-god-war/` |
+| 10 | **elder scrolls** | 4회 | [Trends 검색](https://trends.google.com/trends/explore?q=elder+scrolls&geo=US) | `10-elder-scrolls/` |
+
+### 단일 키워드 보조 참고
+
+| 키워드 | 빈도 |
+|---|---|
+| google | 31회 |
+| android | 24회 |
+| galaxy | 20회 |
+| pixel | 17회 |
+| samsung | 16회 |
+| fallout | 14회 |
+| apple | 13회 |
+| launch | 12회 |
+
+### Trends CSV 넣는 방법
+
+```
+1. trends.google.com → 키워드 검색 → 다운로드(↓)
+   - 시계열:         time_series_{키워드}.csv
+   - 연관검색어(상위):   searched_with_top-{키워드}.csv
+   - 연관검색어(급상승): searched_with_rising-{키워드}.csv
+
+2. GitHub → research_data/trends/2026-W29/{폴더명}/ 에 업로드
+
+3. KP CSV (선택): Keyword Planner → 키워드 아이디어 → 다운로드
+   → research_data/trends/2026-W29/ 루트에 업로드 (폴더 안 아님)
+```
 
 ---
 

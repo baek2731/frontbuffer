@@ -1,6 +1,6 @@
 {
   "week_tag": "2026-W29",
-  "collected_at": "2026-07-20T06:22:34.821930+00:00",
+  "collected_at": "2026-07-20T06:36:55.296822+00:00",
   "sources": [
     "arstechnica",
     "theverge",
@@ -474,16 +474,16 @@
       "pub_date": "2026-07-19T11:20:34+00:00"
     },
     {
-      "title": "Crazed enthusiast runs PC on 192 AA batteries, successfully boots into Hannah Montana Linux — System is stable during stress testing and even plays FreeDoom",
-      "link": "https://www.tomshardware.com/desktops/pc-building/crazed-enthusiast-runs-pc-on-192-aa-batteries-successfully-boots-into-hannah-montana-linux-system-is-stable-during-stress-testing-and-even-plays-freedoom",
+      "title": "Clever hacker fits 537,000 domains in a tiny $5 ESP32 ad-blocking dongle — firmware uses only around 50KB of RAM and can answer blocked lookups in 10 milliseconds",
+      "link": "https://www.tomshardware.com/networking/clever-hacker-fits-537-000-domains-in-a-tiny-usd5-esp32-ad-blocking-dongle-firmware-uses-only-around-50kb-of-ram-and-can-answer-blocked-lookups-in-10-milliseconds",
       "source": "tomshardware",
       "source_category": "tech",
       "kind": "tech",
       "pub_date": "2026-07-19T10:00:00+00:00"
     },
     {
-      "title": "Clever hacker fits 537,000 domains in a tiny $5 ESP32 ad-blocking dongle — firmware uses only around 50KB of RAM and can answer blocked lookups in 10 milliseconds",
-      "link": "https://www.tomshardware.com/networking/clever-hacker-fits-537-000-domains-in-a-tiny-usd5-esp32-ad-blocking-dongle-firmware-uses-only-around-50kb-of-ram-and-can-answer-blocked-lookups-in-10-milliseconds",
+      "title": "Crazed enthusiast runs PC on 192 AA batteries, successfully boots into Hannah Montana Linux — System is stable during stress testing and even plays FreeDoom",
+      "link": "https://www.tomshardware.com/desktops/pc-building/crazed-enthusiast-runs-pc-on-192-aa-batteries-successfully-boots-into-hannah-montana-linux-system-is-stable-during-stress-testing-and-even-plays-freedoom",
       "source": "tomshardware",
       "source_category": "tech",
       "kind": "tech",
@@ -2506,6 +2506,14 @@
       "pub_date": "2026-07-17T22:04:15+00:00"
     },
     {
+      "title": "Revealed: Here’s what powers these intriguing Game Boy-style handhelds",
+      "link": "https://www.androidauthority.com/mangmi-air-y-series-chips-3689059/",
+      "source": "androidauthority",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-07-20T06:25:02+00:00"
+    },
+    {
       "title": "Claude is ending the Fable 5 access chaos once and for all",
       "link": "https://www.androidauthority.com/claude-fable-5-access-3689068/",
       "source": "androidauthority",
@@ -2882,14 +2890,6 @@
       "pub_date": "2026-07-16T21:11:38+00:00"
     },
     {
-      "title": "Gemini gets ready to let you fine-tune its voice models",
-      "link": "https://www.androidauthority.com/gemini-voice-customization-3688391/",
-      "source": "androidauthority",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-07-16T20:27:02+00:00"
-    },
-    {
       "title": "‘The world of work is changing fast': Barely any workers think their job is safe as worries about AI refuse to go away",
       "link": "https://www.techradar.com/pro/the-world-of-work-is-changing-fast-barely-any-workers-think-their-job-is-safe-as-worries-about-ai-refuse-to-go-away",
       "source": "techradar",
@@ -3026,14 +3026,6 @@
       "pub_date": "2026-07-19T14:00:00+00:00"
     },
     {
-      "title": "Think you're the ultimate Tom Holland Spider-Man fan? Put your knowledge to the test against our Marvel mastermind in this tricky MCU quiz",
-      "link": "https://www.techradar.com/streaming/entertainment/think-youre-the-ultimate-tom-holland-spider-man-fan-put-your-knowledge-to-the-test-against-our-marvel-mastermind-in-this-tricky-mcu-quiz",
-      "source": "techradar",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-07-19T13:00:00+00:00"
-    },
-    {
       "title": "What is the release date for Avatar Aang: The Last Airbender on Paramount+?",
       "link": "https://www.techradar.com/streaming/paramount-plus/avatar-aang-the-last-airbender-release-date-time",
       "source": "techradar",
@@ -3042,8 +3034,8 @@
       "pub_date": "2026-07-19T13:00:00+00:00"
     },
     {
-      "title": "Which DJI camera should I buy? Here's our essential guide to your options, including the results of our in-depth testing",
-      "link": "https://www.techradar.com/home/which-dji-camera-should-i-buy-heres-our-essential-guide-to-your-options-including-the-results-of-our-in-depth-testing",
+      "title": "Think you're the ultimate Tom Holland Spider-Man fan? Put your knowledge to the test against our Marvel mastermind in this tricky MCU quiz",
+      "link": "https://www.techradar.com/streaming/entertainment/think-youre-the-ultimate-tom-holland-spider-man-fan-put-your-knowledge-to-the-test-against-our-marvel-mastermind-in-this-tricky-mcu-quiz",
       "source": "techradar",
       "source_category": "tech",
       "kind": "tech",
@@ -3052,6 +3044,14 @@
     {
       "title": "Don’t let unreliable free VPNs ruin your World Cup Final watch party – here’s the cheapest way to watch securely",
       "link": "https://www.techradar.com/vpn/dont-let-unreliable-free-vpns-ruin-your-world-cup-final-watch-party-heres-the-cheapest-way-to-watch-securely",
+      "source": "techradar",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-07-19T13:00:00+00:00"
+    },
+    {
+      "title": "Which DJI camera should I buy? Here's our essential guide to your options, including the results of our in-depth testing",
+      "link": "https://www.techradar.com/home/which-dji-camera-should-i-buy-heres-our-essential-guide-to-your-options-including-the-results-of-our-in-depth-testing",
       "source": "techradar",
       "source_category": "tech",
       "kind": "tech",
@@ -3090,16 +3090,16 @@
       "pub_date": "2026-07-19T09:30:00+00:00"
     },
     {
-      "title": "Exclusive: ‘The emotion is doubled, it's not reduced’ — the world's most famous referee insists VAR hasn't killed the joy of World Cup goal celebrations",
-      "link": "https://www.techradar.com/tech/exclusive-the-emotion-is-doubled-its-not-reduced-the-worlds-most-famous-referee-insists-var-hasnt-killed-the-joy-of-world-cup-goal-celebrations",
+      "title": "This British farm is running AI on pig muck — and it could lead to a major windfall for farmers energy income, earning ten times more than the grid",
+      "link": "https://www.techradar.com/pro/this-british-farm-is-running-ai-on-pig-muck-and-it-could-lead-to-a-major-windfall-for-farmers-energy-income-earning-ten-times-more-than-the-grid",
       "source": "techradar",
       "source_category": "tech",
       "kind": "tech",
       "pub_date": "2026-07-19T09:00:00+00:00"
     },
     {
-      "title": "This British farm is running AI on pig muck — and it could lead to a major windfall for farmers energy income, earning ten times more than the grid",
-      "link": "https://www.techradar.com/pro/this-british-farm-is-running-ai-on-pig-muck-and-it-could-lead-to-a-major-windfall-for-farmers-energy-income-earning-ten-times-more-than-the-grid",
+      "title": "Exclusive: ‘The emotion is doubled, it's not reduced’ — the world's most famous referee insists VAR hasn't killed the joy of World Cup goal celebrations",
+      "link": "https://www.techradar.com/tech/exclusive-the-emotion-is-doubled-its-not-reduced-the-worlds-most-famous-referee-insists-var-hasnt-killed-the-joy-of-world-cup-goal-celebrations",
       "source": "techradar",
       "source_category": "tech",
       "kind": "tech",
@@ -3290,6 +3290,14 @@
       "pub_date": "2026-07-19T14:41:16+00:00"
     },
     {
+      "title": "LoRA Speedrun – a public wall-clock leaderboard for fine-tuning techniques",
+      "link": "https://github.com/Saivineeth147/lora-speedrun",
+      "source": "hackernews",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-07-20T04:24:48+00:00"
+    },
+    {
       "title": "Moonshine: Lets you stream games from your PC to any device running Moonlight",
       "link": "https://github.com/hgaiser/moonshine",
       "source": "hackernews",
@@ -3298,12 +3306,12 @@
       "pub_date": "2026-07-20T00:16:50+00:00"
     },
     {
-      "title": "LoRA Speedrun – a public wall-clock leaderboard for fine-tuning techniques",
-      "link": "https://github.com/Saivineeth147/lora-speedrun",
+      "title": "Xiaomi-Robotics-1",
+      "link": "https://robotics.xiaomi.com/xiaomi-robotics-1.html",
       "source": "hackernews",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-07-20T04:24:48+00:00"
+      "pub_date": "2026-07-20T04:45:15+00:00"
     },
     {
       "title": "Claude Code uses Bun written in Rust now",
@@ -3370,28 +3378,12 @@
       "pub_date": "2026-07-19T11:48:18+00:00"
     },
     {
-      "title": "Xiaomi-Robotics-1",
-      "link": "https://robotics.xiaomi.com/xiaomi-robotics-1.html",
-      "source": "hackernews",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-07-20T04:45:15+00:00"
-    },
-    {
       "title": "Who Is America's Homer?",
       "link": "https://www.plough.com/articles/who-is-americas-homer",
       "source": "hackernews",
       "source_category": "tech",
       "kind": "tech",
       "pub_date": "2026-07-14T22:19:13+00:00"
-    },
-    {
-      "title": "Biggest Probabilistic Computer Turns Noise into Answers",
-      "link": "https://spectrum.ieee.org/biggest-probabilistic-computer",
-      "source": "hackernews",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-07-19T21:42:12+00:00"
     },
     {
       "title": "Bananas sprout in Rayleigh Garden UK after 15 years",
@@ -3410,20 +3402,12 @@
       "pub_date": "2026-07-15T23:44:59+00:00"
     },
     {
-      "title": "Qwen 3.8",
-      "link": "https://twitter.com/Alibaba_Qwen/status/2078759124914098291",
+      "title": "Biggest Probabilistic Computer Turns Noise into Answers",
+      "link": "https://spectrum.ieee.org/biggest-probabilistic-computer",
       "source": "hackernews",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-07-19T08:44:57+00:00"
-    },
-    {
-      "title": "HomeLab #1: MikroTik as a Home Router",
-      "link": "https://justsomebody.dev/blog/mikrotik-home-router",
-      "source": "hackernews",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-07-19T18:57:01+00:00"
+      "pub_date": "2026-07-19T21:42:12+00:00"
     },
     {
       "title": "Big Tech Is Now Targeting Native American Land for Data Centers",
@@ -3432,6 +3416,30 @@
       "source_category": "tech",
       "kind": "tech",
       "pub_date": "2026-07-20T02:34:18+00:00"
+    },
+    {
+      "title": "Qwen 3.8",
+      "link": "https://twitter.com/Alibaba_Qwen/status/2078759124914098291",
+      "source": "hackernews",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-07-19T08:44:57+00:00"
+    },
+    {
+      "title": "Big tech needs to justify AI spending as investors dump stocks",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-19/big-tech-needs-to-justify-ai-spending-as-investors-dump-stocks",
+      "source": "hackernews",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-07-20T04:41:10+00:00"
+    },
+    {
+      "title": "HomeLab #1: MikroTik as a Home Router",
+      "link": "https://justsomebody.dev/blog/mikrotik-home-router",
+      "source": "hackernews",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-07-19T18:57:01+00:00"
     },
     {
       "title": "A new Intel Itanium (IA-64) emulator that boots Windows",
@@ -3490,20 +3498,12 @@
       "pub_date": "2026-07-14T15:33:42+00:00"
     },
     {
-      "title": "Big Tech Needs to Justify AI Spending as Investors Dump Stocks",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-19/big-tech-needs-to-justify-ai-spending-as-investors-dump-stocks",
+      "title": "How proprietary formats have become Microsoft’s main tool for lock-in",
+      "link": "https://blog.documentfoundation.org/blog/2026/07/17/microsofts-main-tool-for-lock-in/",
       "source": "hackernews",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-07-20T04:41:10+00:00"
-    },
-    {
-      "title": "Terence McKenna's Mega Bad Trip (2025)",
-      "link": "https://psychedelics.community/cultural-icons/terence-mckennas-mega-bad-trip",
-      "source": "hackernews",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-07-19T14:30:31+00:00"
+      "pub_date": "2026-07-20T04:49:47+00:00"
     }
   ]
 }
