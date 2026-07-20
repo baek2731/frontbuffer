@@ -211,8 +211,96 @@ def main():
         json.dump(selections, f, ensure_ascii=False, indent=2)
     print(f"  💾 ai_result_latest.json 저장: {len(selections)}개")
 
-    # 6. Grade A/B만 자동 선택 → content_pipeline.json 등록
-    auto_select = [s for s in selections if s.get("data_grade") in ("A", "B")]
+    # 6. Trends/KP CSV 있으면 trends_analyzer 자동 실행 → Grade 재판정
+    print(f"\n  📈 Trends/KP CSV 확인 중...")
+    trends_dir = os.path.join("research_data", "trends", week_tag)
+    has_trends_csv = False
+    has_kp_csv     = False
+
+    if os.path.isdir(trends_dir):
+        for root, dirs, files in os.walk(trends_dir):
+            for f in files:
+                if f.endswith(".csv"):
+                    fpath = os.path.join(root, f)
+                    rel   = os.path.relpath(fpath, trends_dir)
+                    # 루트 직속 csv = KP, 하위 폴더 csv = Trends
+                    if os.sep not in rel and "/" not in rel:
+                        has_kp_csv = True
+                        print(f"    📊 KP CSV 감지: {f}")
+                    else:
+                        has_trends_csv = True
+                        print(f"    📈 Trends CSV 감지: {rel}")
+
+    if has_trends_csv or has_kp_csv:
+        print(f"  ✅ CSV 감지 — trends_analyzer.py 실행 중...")
+        try:
+            import trends_analyzer
+            report = trends_analyzer.analyze_week(week_tag, update_pipeline=True)
+            print(f"  ✅ Trends/KP 분석 완료")
+            for cluster in report.get("clusters", []):
+                grade   = cluster.get("grade", "?")
+                name    = cluster.get("cluster_name", "")
+                pattern = cluster.get("trends_pattern", "UNKNOWN")
+                reasons = " | ".join(cluster.get("grade_reasons", []))
+                print(f"    [{grade}] {name} — {pattern}")
+                print(f"         {reasons}")
+        except Exception as e:
+            print(f"  ⚠️ trends_analyzer 실행 실패: {e}")
+    else:
+        print(f"  ℹ️  Trends/KP CSV 없음 → evergreen_score 기반 Grade만 사용")
+
+    # 7. Grade 기반 기획안 선정/폐기
+    # content_pipeline에서 최신 Grade 다시 로드 (trends_analyzer가 업데이트했을 수 있음)
+    try:
+        import json as _json
+        _pipe = _json.load(open("content_pipeline.json", encoding="utf-8"))
+        _week_sels = _pipe.get("weekly_selections", {}).get(week_tag, [])
+        # selections의 data_grade를 pipeline의 최신값으로 갱신
+        for sel in selections:
+            for ps in _week_sels:
+                if ps.get("cluster_name") == sel.get("cluster_name"):
+                    sel["data_grade"] = ps.get("data_grade", sel.get("data_grade", "C"))
+                    break
+    except Exception:
+        pass
+
+    grade_a = [s for s in selections if s.get("data_grade") == "A"]
+    grade_b = [s for s in selections if s.get("data_grade") == "B"]
+    grade_c = [s for s in selections if s.get("data_grade") == "C"]
+
+    print(f"\n  📊 최종 Grade 판정:")
+    print(f"    Grade A (발행 확정): {len(grade_a)}개")
+    for s in grade_a:
+        print(f"      ✅ {s.get('cluster_name')} [{s.get('content_type')}]")
+    print(f"    Grade B (발행 가능): {len(grade_b)}개")
+    for s in grade_b:
+        print(f"      🔶 {s.get('cluster_name')} [{s.get('content_type')}]")
+    print(f"    Grade C (폐기): {len(grade_c)}개")
+    for s in grade_c:
+        print(f"      ❌ {s.get('cluster_name')} [{s.get('content_type')}] → 파이프라인 제외")
+
+    # Grade C는 status → rejected로 마킹
+    if grade_c:
+        try:
+            import json as _json2
+            _pipe2 = _json2.load(open("content_pipeline.json", encoding="utf-8"))
+            _changed = False
+            for week_key, sels in _pipe2.get("weekly_selections", {}).items():
+                for sel in sels:
+                    if (sel.get("data_grade") == "C"
+                            and sel.get("status") == "candidate"):
+                        sel["status"] = "rejected"
+                        _changed = True
+            if _changed:
+                _pipe2["_last_updated"] = datetime.now(timezone.utc).isoformat()
+                _json2.dump(_pipe2, open("content_pipeline.json", "w", encoding="utf-8"),
+                            ensure_ascii=False, indent=2)
+                print(f"  ✅ Grade C {len(grade_c)}개 → status: rejected 처리")
+        except Exception as e:
+            print(f"  ⚠️ rejected 마킹 실패: {e}")
+
+    # Grade A/B만 자동 선택 → content_pipeline.json 등록
+    auto_select = grade_a + grade_b
     print(f"\n  🔷 자동 선택 (Grade A/B): {len(auto_select)}개")
 
     if auto_select:

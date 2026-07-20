@@ -372,7 +372,7 @@ def build_ai_prompt(top_uni, top_bi, items, week_tag):
     covered_block = f"\n{covered_section}\n\n" if covered_section else ""
     trends_block  = f"\n{trends_section}\n\n" if trends_section else ""
 
-    prompt = f"""You are a content strategist for Frontbuffer Editorial, an independent tech/gaming media brand.
+    prompt = f"""You are a content strategist for LIFO-LIKE Editorial, an independent tech/gaming media brand.
 Your goal is to find EVERGREEN content opportunities — especially LONG-TAIL keywords
 where a new blog can realistically rank on Google page 1.
 
@@ -575,6 +575,73 @@ def build_human_report(top_uni, top_bi, items, week_tag, prompt_filename):
             for it in subset:
                 lines.append(f"- [{it['title']}]({it['link']}) — {it['source']}")
             lines.append("")
+
+    # ── Trends 검색 추천 섹션 ──────────────────────────────────────
+    NEWS_WORDS = {
+        "world", "cup", "final", "hints", "answers", "monday", "sunday",
+        "july", "watch", "free", "live", "streams", "channels", "review",
+        "today", "week", "this", "just", "new", "latest", "breaking",
+        "game", "games", "director", "studio", "next", "every", "around",
+    }
+    evergreen_bi = [
+        (p, c) for p, c in top_bi
+        if not any(w in NEWS_WORDS for w in p.lower().split())
+        and c >= 3
+    ][:10]
+    evergreen_uni = [
+        (w, c) for w, c in top_uni
+        if w not in NEWS_WORDS and len(w) > 4 and c >= 5
+    ][:8]
+
+    trends_folder_base = f"research_data/trends/{week_tag}"
+    trends_lines = [
+        "---",
+        "",
+        "## 🔍 Google Trends / Keyword Planner 검색 추천",
+        "",
+        "> 아래 키워드를 Google Trends에서 검색 후 CSV를 해당 폴더에 넣으세요.",
+        f"> 폴더 경로: `{trends_folder_base}/{{폴더명}}/`",
+        "",
+        "### 추천 허브 키워드 (2단어 조합 빈도 기준)",
+        "",
+        "| 순위 | 키워드 | 빈도 | Trends 링크 | 폴더명 |",
+        "|---|---|---|---|---|",
+    ]
+    for i, (phrase, count) in enumerate(evergreen_bi, 1):
+        folder_name = f"{i:02d}-{phrase.replace(' ', '-')}"
+        url = "https://trends.google.com/trends/explore?q=" + phrase.replace(" ", "+") + "&geo=US"
+        trends_lines.append(
+            f"| {i} | **{phrase}** | {count}회 | [Trends 검색]({url}) | `{folder_name}/` |"
+        )
+
+    trends_lines += [
+        "",
+        "### 단일 키워드 보조 참고",
+        "",
+        "| 키워드 | 빈도 |",
+        "|---|---|",
+    ]
+    for w, c in evergreen_uni:
+        trends_lines.append(f"| {w} | {c}회 |")
+
+    trends_lines += [
+        "",
+        "### Trends CSV 넣는 방법",
+        "",
+        "```",
+        "1. trends.google.com → 키워드 검색 → 다운로드(↓)",
+        "   - 시계열:         time_series_{키워드}.csv",
+        "   - 연관검색어(상위):   searched_with_top-{키워드}.csv",
+        "   - 연관검색어(급상승): searched_with_rising-{키워드}.csv",
+        "",
+        f"2. GitHub → {trends_folder_base}/{{폴더명}}/ 에 업로드",
+        "",
+        "3. KP CSV (선택): Keyword Planner → 키워드 아이디어 → 다운로드",
+        f"   → {trends_folder_base}/ 루트에 업로드 (폴더 안 아님)",
+        "```",
+        "",
+    ]
+    lines += trends_lines
 
     lines += [
         "---",
