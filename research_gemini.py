@@ -114,18 +114,22 @@ def call_gemini(prompt_text):
 def parse_json_response(text):
     """
     Gemini 응답에서 JSON 배열 추출.
-    markdown fence(```json ... ```) 또는 raw JSON 모두 처리.
+    markdown fence, 제어문자, 불완전 JSON 등 다양한 케이스 처리.
     """
-    # ```json ... ``` 제거
+    # 1. markdown fence 제거
     text = re.sub(r"```json\s*", "", text)
     text = re.sub(r"```\s*", "", text)
     text = text.strip()
 
-    # JSON 배열 부분만 추출
+    # 2. 제어문자 제거 (줄바꿈/탭 제외)
+    text = re.sub(r"[\x00-\x08\x0b\x0c\x0e-\x1f\x7f]", "", text)
+
+    # 3. JSON 배열 부분만 추출
     match = re.search(r"\[.*\]", text, re.DOTALL)
     if match:
         text = match.group(0)
 
+    # 4. 직접 파싱 시도
     try:
         data = json.loads(text)
         if isinstance(data, list):
@@ -133,9 +137,28 @@ def parse_json_response(text):
         print(f"  ⚠️ JSON 파싱 성공했지만 배열이 아님: {type(data)}")
         return None
     except json.JSONDecodeError as e:
-        print(f"  ❌ JSON 파싱 실패: {e}")
-        print(f"  원문 일부: {text[:300]}")
-        return None
+        print(f"  ⚠️ JSON 직접 파싱 실패: {e} — 수리 시도 중...")
+
+    # 5. 수리 시도: 객체 단위로 분리해서 파싱
+    results = []
+    # { ... } 패턴으로 각 객체 추출
+    obj_matches = re.finditer(r'\{[^{}]*(?:\{[^{}]*\}[^{}]*)?\}', text, re.DOTALL)
+    for m in obj_matches:
+        obj_text = m.group(0)
+        try:
+            obj = json.loads(obj_text)
+            if isinstance(obj, dict) and "cluster_name" in obj:
+                results.append(obj)
+        except json.JSONDecodeError:
+            continue
+
+    if results:
+        print(f"  ✅ 수리 성공: {len(results)}개 객체 복구")
+        return results
+
+    print(f"  ❌ JSON 파싱 실패 — 수리도 불가")
+    print(f"  원문 일부: {text[:300]}")
+    return None
 
 
 def add_data_grade(selections):
