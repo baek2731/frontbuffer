@@ -1,7 +1,7 @@
 {
   "_version": "1.3",
   "_description": "콘텐츠 파이프라인 — 클러스터 단위 관리",
-  "_last_updated": "2026-07-20T07:47:12.273382+00:00",
+  "_last_updated": "2026-07-20T05:11:27.637796+00:00",
   "hub_clusters": {
     "Steam Machine": {
       "hub_keyword": "Steam Machine",
@@ -66,17 +66,6 @@
         "https://frontbuffer.net/tech/best-manifest-v3-alternatives-for-older-chrome-extensions/",
         "https://frontbuffer.net/tech/what-is-chrome-manifest-v3-and-why-extensions-break/"
       ]
-    },
-    "Android Ecosystem": {
-      "hub_keyword": "Android Ecosystem",
-      "hub_status": "PENDING",
-      "hub_title": "",
-      "hub_url": "",
-      "spokes": [
-        "Android Ecosystem & Google Services"
-      ],
-      "spoke_urls": {},
-      "internal_links": []
     }
   },
   "covered_clusters": {
@@ -167,28 +156,6 @@
         "chrome extension developer mode check"
       ],
       "competition_level": "LOW",
-      "affiliate_potential": "LOW",
-      "trends_pattern": "UNKNOWN",
-      "trends_keyword": "",
-      "notes": ""
-    },
-    "Android Ecosystem & Google Services": {
-      "types_done": [],
-      "last_week": "2026-W29",
-      "suggest_next": [
-        "COMPARISON",
-        "GUIDE",
-        "EXPLAINER",
-        "LISTICLE"
-      ],
-      "hub_keyword": "Android Backup",
-      "parent_hub": "Android Ecosystem",
-      "spoke_keywords": [
-        "android backup data storage limits",
-        "google drive storage android",
-        "manage android cloud backup"
-      ],
-      "competition_level": "MEDIUM",
       "affiliate_potential": "LOW",
       "trends_pattern": "UNKNOWN",
       "trends_keyword": "",
@@ -675,7 +642,7 @@
         "trends_keyword": "",
         "trends_opportunities": [],
         "verifiability": "HIGH",
-        "data_grade": "C",
+        "data_grade": "A",
         "verified_keywords": [],
         "status": "published",
         "selected_at": "2026-07-20T04:28:32.401611+00:00",
@@ -696,7 +663,7 @@
         "trends_keyword": "",
         "trends_opportunities": [],
         "verifiability": "HIGH",
-        "data_grade": "C",
+        "data_grade": "A",
         "verified_keywords": [],
         "status": "candidate",
         "selected_at": "2026-07-20T04:28:32.401611+00:00"
@@ -716,34 +683,10 @@
         "trends_keyword": "",
         "trends_opportunities": [],
         "verifiability": "HIGH",
-        "data_grade": "C",
-        "verified_keywords": [],
-        "status": "candidate",
-        "selected_at": "2026-07-20T04:28:32.401611+00:00"
-      },
-      {
-        "cluster_name": "Android Ecosystem & Google Services",
-        "content_type": "EXPLAINER",
-        "suggested_title": "How Android Backup Data Counts Towards Google Drive Storage Limits Explained",
-        "hub_keyword": "Android Backup",
-        "hub_keyword_raw": "Android Backup",
-        "parent_hub": "Android Ecosystem",
-        "spoke_keywords": [
-          "android backup data storage limits",
-          "google drive storage android",
-          "manage android cloud backup"
-        ],
-        "competition_level": "MEDIUM",
-        "timing": "NOW",
-        "affiliate_potential": "LOW",
-        "trends_pattern": "UNKNOWN",
-        "trends_keyword": "",
-        "trends_opportunities": [],
-        "verifiability": "HIGH",
         "data_grade": "A",
         "verified_keywords": [],
         "status": "candidate",
-        "selected_at": "2026-07-20T07:47:12.273346+00:00"
+        "selected_at": "2026-07-20T04:28:32.401611+00:00"
       }
     ]
   },
