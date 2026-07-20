@@ -1,6 +1,6 @@
 # 📦 주간 리서치 리포트 — 2026-W29
-> 수집: 2026-07-20 06:49 UTC
-> 합계 484건 | 뉴스 (테크) 292건 / 뉴스 (게이밍) 144건 / Reddit 48건
+> 수집: 2026-07-20 06:56 UTC
+> 합계 436건 | 뉴스 (테크) 292건 / 뉴스 (게이밍) 144건
 > 쇼핑/딜 글은 수집 단계에서 이미 제외됨
 > 소스: arstechnica, theverge, techcrunch, tomshardware, 9to5google, eurogamer, rps, pcgamer, digitaltrends, androidauthority, techradar, hackernews
 
@@ -252,16 +252,16 @@
 - [The quiet comeback of boring computing: why ports, keyboards, and repairability matter again](https://www.techradar.com/computing/laptops/the-quiet-comeback-of-boring-computing-why-ports-keyboards-and-repairability-matter-again) — techradar
 - [I've spent weeks testing the Razer Hammerhead V3 HyperSpeed gaming earbuds and it's left me desperate to go back to my SteelSeries Arctis GameBuds](https://www.techradar.com/gaming/razer-hammerhead-v3-hyperspeed-gaming-earbuds-review) — techradar
 - [I'm worried about the future of MacBooks — and these M7 chip rumors are to blame](https://www.techradar.com/computing/macbooks/im-worried-about-the-future-of-macbooks-and-these-m7-chip-rumors-are-to-blame) — techradar
-- [What is the release date for Avatar Aang: The Last Airbender on Paramount+?](https://www.techradar.com/streaming/paramount-plus/avatar-aang-the-last-airbender-release-date-time) — techradar
 - [Think you're the ultimate Tom Holland Spider-Man fan? Put your knowledge to the test against our Marvel mastermind in this tricky MCU quiz](https://www.techradar.com/streaming/entertainment/think-youre-the-ultimate-tom-holland-spider-man-fan-put-your-knowledge-to-the-test-against-our-marvel-mastermind-in-this-tricky-mcu-quiz) — techradar
-- [Don’t let unreliable free VPNs ruin your World Cup Final watch party – here’s the cheapest way to watch securely](https://www.techradar.com/vpn/dont-let-unreliable-free-vpns-ruin-your-world-cup-final-watch-party-heres-the-cheapest-way-to-watch-securely) — techradar
+- [What is the release date for Avatar Aang: The Last Airbender on Paramount+?](https://www.techradar.com/streaming/paramount-plus/avatar-aang-the-last-airbender-release-date-time) — techradar
 - [Which DJI camera should I buy? Here's our essential guide to your options, including the results of our in-depth testing](https://www.techradar.com/home/which-dji-camera-should-i-buy-heres-our-essential-guide-to-your-options-including-the-results-of-our-in-depth-testing) — techradar
+- [Don’t let unreliable free VPNs ruin your World Cup Final watch party – here’s the cheapest way to watch securely](https://www.techradar.com/vpn/dont-let-unreliable-free-vpns-ruin-your-world-cup-final-watch-party-heres-the-cheapest-way-to-watch-securely) — techradar
 - [I tested the Eufy Omni S2 robotic vacuum — and it's expensive and impressive in equal measure](https://www.techradar.com/home/robot-vacuums/eufy-omni-s2-review) — techradar
 - ['People are choosing to be a walking Flock camera': the smart glasses backlash hits new heights as celebrities blast 'creep goggles' — and activists install fake Meta Glasses ads at London bus stops](https://www.techradar.com/computing/virtual-reality-augmented-reality/people-are-choosing-to-be-a-walking-flock-camera-the-smart-glasses-backlash-hits-new-heights-as-celebrities-blast-creep-goggles-and-activists-install-fake-meta-glasses-ads-at-london-bus-stops) — techradar
 - [The TCL NXTPAPER 70 Pro proved to me that budget smartphones can still be great — but I won't be ditching my aging Samsung just yet](https://www.techradar.com/phones/tcl-nxtpaper-70-pro) — techradar
 - [Chinese company BrainCo unveils first 'brain-to-robot' interface for controlling robots with your thoughts](https://www.techradar.com/ai-platforms-assistants/chinese-company-brainco-unveils-first-brain-to-robot-interface-for-controlling-robots-with-your-thoughts) — techradar
-- [This British farm is running AI on pig muck — and it could lead to a major windfall for farmers energy income, earning ten times more than the grid](https://www.techradar.com/pro/this-british-farm-is-running-ai-on-pig-muck-and-it-could-lead-to-a-major-windfall-for-farmers-energy-income-earning-ten-times-more-than-the-grid) — techradar
 - [Exclusive: ‘The emotion is doubled, it's not reduced’ — the world's most famous referee insists VAR hasn't killed the joy of World Cup goal celebrations](https://www.techradar.com/tech/exclusive-the-emotion-is-doubled-its-not-reduced-the-worlds-most-famous-referee-insists-var-hasnt-killed-the-joy-of-world-cup-goal-celebrations) — techradar
+- [This British farm is running AI on pig muck — and it could lead to a major windfall for farmers energy income, earning ten times more than the grid](https://www.techradar.com/pro/this-british-farm-is-running-ai-on-pig-muck-and-it-could-lead-to-a-major-windfall-for-farmers-energy-income-earning-ten-times-more-than-the-grid) — techradar
 - [The Dimplex FlexBlade Multi-Directional Bladeless Fan looks like it's part of a plane, but despite its propeller-like design it may struggle to cool your aircraft hangar](https://www.techradar.com/home/air-quality/dimplex-flexblade-review) — techradar
 - [I've used foldable phones for years — here's how the Galaxy Z Fold 8 and iPhone Ultra are fixing the form factor in 2026](https://www.techradar.com/phones/ive-used-foldable-phones-for-years-heres-how-the-galaxy-z-fold-8-and-iphone-ultra-are-fixing-the-form-factor-in-2026) — techradar
 - [Quordle hints and answers for Sunday, July 19 (game #1637)](https://www.techradar.com/computing/websites-apps/quordle-today-answers-clues-19-july-2026) — techradar
@@ -286,32 +286,32 @@
 - [How to watch Fiji vs Scotland: FREE streams, TV channels for Nations Championship 2026](https://www.techradar.com/how-to-watch/rugby/fiji-vs-scotland-nations-championship-2026-free) — techradar
 - [LoRA Speedrun – a public wall-clock leaderboard for fine-tuning techniques](https://github.com/Saivineeth147/lora-speedrun) — hackernews
 - [Show HN: I replaced a $120k bowling center system with $1,600 in ESP32s](https://news.ycombinator.com/item?id=48968606) — hackernews
-- [Moonshine: Lets you stream games from your PC to any device running Moonlight](https://github.com/hgaiser/moonshine) — hackernews
 - [Xiaomi-Robotics-1](https://robotics.xiaomi.com/xiaomi-robotics-1.html) — hackernews
-- [Korg PS-3300 is back](https://www.korg.co.uk/blogs/updates/ps3300) — hackernews
+- [Moonshine: Lets you stream games from your PC to any device running Moonlight](https://github.com/hgaiser/moonshine) — hackernews
 - [Claude Code uses Bun written in Rust now](https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/) — hackernews
+- [Korg PS-3300 is back](https://www.korg.co.uk/blogs/updates/ps3300) — hackernews
 - [Orion Browser by Kagi](https://orionbrowser.com/) — hackernews
-- [Power companies are using eminent domain to seize land for data centers](https://fortune.com/2026/07/19/data-center-eminent-domain-public-use/) — hackernews
 - [What I learned selling 2,500 MIDI recorders: Hardware is not so hard](https://chipweinberger.com/articles/20260719-hardware-is-not-so-hard) — hackernews
+- [Power companies are using eminent domain to seize land for data centers](https://fortune.com/2026/07/19/data-center-eminent-domain-public-use/) — hackernews
 - [The Zen of Parallel Programming](https://smolnero.com/posts/the-zen-of-parallel-programming) — hackernews
-- [Minecraft: Java Edition now uses SDL3](https://www.minecraft.net/en-us/article/minecraft-26-3-snapshot-4) — hackernews
 - [Claude Fable produced a counterexample to the Jacobian Conjecture](https://xcancel.com/__alpoge__/status/2079028340955197566) — hackernews
+- [Minecraft: Java Edition now uses SDL3](https://www.minecraft.net/en-us/article/minecraft-26-3-snapshot-4) — hackernews
 - [Who Is America's Homer?](https://www.plough.com/articles/who-is-americas-homer) — hackernews
 - [Bananas sprout in Rayleigh Garden UK after 15 years](https://www.bbc.com/news/articles/cvg8edqq5g5o) — hackernews
 - [11,700 Free Photos from John Margolies' Archive of Americana Architecture](https://www.openculture.com/2026/07/free-photos-from-john-margolies-archive-of-americana-architecture.html) — hackernews
 - [Biggest Probabilistic Computer Turns Noise into Answers](https://spectrum.ieee.org/biggest-probabilistic-computer) — hackernews
 - [Qwen 3.8](https://twitter.com/Alibaba_Qwen/status/2078759124914098291) — hackernews
+- [Sealed Tomb Filled with Paintings and Inscriptions Discovered in Egypt](https://www.labrujulaverde.com/en/2026/07/sealed-tomb-of-a-high-official-or-priest-filled-with-paintings-and-inscriptions-discovered-on-luxors-west-bank/) — hackernews
 - [HomeLab #1: MikroTik as a Home Router](https://justsomebody.dev/blog/mikrotik-home-router) — hackernews
 - [A new Intel Itanium (IA-64) emulator that boots Windows](https://raymii.org/s/blog/Intel_Itanium_IA-64-Emulator_that_boots_Windows.html) — hackernews
 - [Talk: The Art of Braiding Algorithms](https://pgadey.ca/notes/talk-relatorium-2026/) — hackernews
-- [How proprietary formats have become Microsoft’s main tool for lock-in](https://blog.documentfoundation.org/blog/2026/07/17/microsofts-main-tool-for-lock-in/) — hackernews
 - [I joined the IndieWeb, here's what I learned](https://en.andros.dev/blog/0b8e451e/i-joined-the-indieweb-heres-what-i-learned/) — hackernews
 - [C64 Basic Dungeon Crawler: Goblin Attack (C64 Basic Part 8)](https://retrogamecoders.com/c64-basic-dungeon-part8/) — hackernews
-- [HMD Touch 4G](https://www.hmd.com/en_int/hmd-touch-4g) — hackernews
+- [How proprietary formats have become Microsoft’s main tool for lock-in](https://blog.documentfoundation.org/blog/2026/07/17/microsofts-main-tool-for-lock-in/) — hackernews
 - [I burned all my tokens researching how to save tokens](https://quesma.com/blog/custom-deep-research-pipeline/) — hackernews
+- [HMD Touch 4G](https://www.hmd.com/en_int/hmd-touch-4g) — hackernews
 - [Dupes took over the world](https://www.vox.com/podcasts/493930/dupe-culture-fender-ugg-quince-tiktok-amazon-online-shopping) — hackernews
 - [Terence McKenna's Mega Bad Trip (2025)](https://psychedelics.community/cultural-icons/terence-mckennas-mega-bad-trip) — hackernews
-- [Ise Jingu and the Pyramid of Enabling Technologies (2021)](https://www.scopeofwork.net/ise-jingu-and-the-pyramid-of-enabling-technologies/) — hackernews
 
 ### 뉴스 (게이밍)
 
@@ -460,57 +460,6 @@
 - [60 fps is still the de facto minimum frame rate for half of PC Gamer readers, but more than 10% of you are dying on the 120 fps hill](https://www.pcgamer.com/hardware/60-fps-is-still-the-de-facto-minimum-frame-rate-for-half-of-pc-gamer-readers-but-more-than-10-percent-of-you-are-dying-on-the-120-fps-hill/) — pcgamer
 - [OpenAI's collab mini keeb has optional 'yeet' and 'yolo' buttons, which is totally lit my fellow rizz lords, no cap](https://www.pcgamer.com/hardware/openais-collab-mini-keeb-has-optional-yeet-and-yolo-buttons-which-is-totally-lit-my-fellow-rizz-lords-no-cap/) — pcgamer
 
-### Reddit
-
-- [China bans AI “boyfriends” and “girlfriends” over addiction and birth rate concerns](https://www.reddit.com/r/technology/comments/1v0u3wv/china_bans_ai_boyfriends_and_girlfriends_over/) — r/technology
-- [France doubles down on restricting access to Polymarket | The country’s gambling authority ordered ISPs to block access to the prediction market’s website](https://www.reddit.com/r/technology/comments/1v17p68/france_doubles_down_on_restricting_access_to/) — r/technology
-- [Air Force Engineer Accused of Cutting Down 13 Police Cameras Says They're Unconstitutional](https://www.reddit.com/r/technology/comments/1v0tu8w/air_force_engineer_accused_of_cutting_down_13/) — r/technology
-- [America’s math and reading scores tanked after schools ditched textbooks for screens—and AI could worsen the brain rot](https://www.reddit.com/r/technology/comments/1v1065w/americas_math_and_reading_scores_tanked_after/) — r/technology
-- [US administration calls for an end to "Transgender Chips" aiming at the 'CHIPS and Science Act'](https://www.reddit.com/r/technology/comments/1v0py68/us_administration_calls_for_an_end_to_transgender/) — r/technology
-- [Some power companies are using eminent domain to seize land for data centers, as 70% of Americans say not in my backyard](https://www.reddit.com/r/technology/comments/1v0nymo/some_power_companies_are_using_eminent_domain_to/) — r/technology
-- [Google Maps said a hike would take 5 hours. B.C. rescuers pointed out how wrong that was](https://www.reddit.com/r/technology/comments/1v19pry/google_maps_said_a_hike_would_take_5_hours_bc/) — r/technology
-- [Marathon’s player base is collapsing, and Bungie’s future looks increasingly bleak as concerns grow around the studio’s live‑service direction](https://www.reddit.com/r/technology/comments/1v15bvk/marathons_player_base_is_collapsing_and_bungies/) — r/technology
-- [US president’s sons invest heavily in defense tech as father’s administration pours money in](https://www.reddit.com/r/technology/comments/1v0x1n3/us_presidents_sons_invest_heavily_in_defense_tech/) — r/technology
-- [Chinese memory ban would cut off RAMpocalypse relief](https://www.reddit.com/r/technology/comments/1v16072/chinese_memory_ban_would_cut_off_rampocalypse/) — r/technology
-- [LibreOffice once again slams Microsoft for using "lock-in" with Office files](https://www.reddit.com/r/technology/comments/1v0ybs6/libreoffice_once_again_slams_microsoft_for_using/) — r/technology
-- [Clever hacker fits 537,000 domains in a tiny $5 ESP32 ad-blocking dongle, firmware uses only around 50KB of RAM and can answer blocked lookups in 10 milliseconds](https://www.reddit.com/r/technology/comments/1v0vpgd/clever_hacker_fits_537000_domains_in_a_tiny_5/) — r/technology
-- [ChatGPT convinced an Alabama woman to end her life to fulfill a divine prophecy, lawsuit alleges](https://www.reddit.com/r/technology/comments/1v0mnfa/chatgpt_convinced_an_alabama_woman_to_end_her/) — r/technology
-- [MIT AI expert warns automating Gen Z entry-level jobs could backfire—and cost companies their future workforce](https://www.reddit.com/r/technology/comments/1v0uk8q/mit_ai_expert_warns_automating_gen_z_entrylevel/) — r/technology
-- [Fears are widespread about data centre impacts on Canada’s water, environment: poll](https://www.reddit.com/r/technology/comments/1v135p5/fears_are_widespread_about_data_centre_impacts_on/) — r/technology
-- [WhatsApp blocks Dutch sex workers, cutting off their income](https://www.reddit.com/r/technology/comments/1v0p2y3/whatsapp_blocks_dutch_sex_workers_cutting_off/) — r/technology
-- [AI homework tools cut exam scores by 20%, study of 26,000 Chinese students finds](https://www.reddit.com/r/technology/comments/1v1adzy/ai_homework_tools_cut_exam_scores_by_20_study_of/) — r/technology
-- [Drug May Repair DNA at Earliest Stages of Alzheimer’s – And it’s Already Passed Safety Trials](https://www.reddit.com/r/technology/comments/1v0tf92/drug_may_repair_dna_at_earliest_stages_of/) — r/technology
-- [People are making wildfire bets on prediction markets. Experts say it could lead to disaster](https://www.reddit.com/r/technology/comments/1v0qah7/people_are_making_wildfire_bets_on_prediction/) — r/technology
-- [Memory chip boss admits RAM prices are 'abnormally high' — SK Group chairman considering building a semiconductor plant in the US to expand supply, calm ‘chipflation’](https://www.reddit.com/r/technology/comments/1v11hmh/memory_chip_boss_admits_ram_prices_are_abnormally/) — r/technology
-- [India fined HP $14.4 million for rigging government bids and fixing ink and toner prices](https://www.reddit.com/r/technology/comments/1v0pkad/india_fined_hp_144_million_for_rigging_government/) — r/technology
-- [‘Dr. Doom’ Nouriel Roubini says we’re headed for universal basic income or ‘some form of socialism’ as AI revolutionizes work—He calls that optimistic](https://www.reddit.com/r/technology/comments/1v0x8bl/dr_doom_nouriel_roubini_says_were_headed_for/) — r/technology
-- [People Keep Destroying Flock Cameras Across America. The Paperwork Already Saw It Coming.](https://www.reddit.com/r/technology/comments/1v0a6eu/people_keep_destroying_flock_cameras_across/) — r/technology
-- [TSMC is accelerating Arizona factory buildout to capitalize on AI ‘megatrend,’ CFO says](https://www.reddit.com/r/technology/comments/1v16k2h/tsmc_is_accelerating_arizona_factory_buildout_to/) — r/technology
-- [Simple Questions - July 19, 2026](https://www.reddit.com/r/buildapc/comments/1v15tr2/simple_questions_july_19_2026/) — r/buildapc
-- [What really is the difference between an entry level mobo and an expensive one?](https://www.reddit.com/r/buildapc/comments/1v122pf/what_really_is_the_difference_between_an_entry/) — r/buildapc
-- [What are people putting into their spare PCIe ports nowadays?](https://www.reddit.com/r/buildapc/comments/1v0nrqj/what_are_people_putting_into_their_spare_pcie/) — r/buildapc
-- [I just got my first PC.](https://www.reddit.com/r/buildapc/comments/1v18pct/i_just_got_my_first_pc/) — r/buildapc
-- [Is it worth swapping my ddr4 to ddr5 if the prices drop?](https://www.reddit.com/r/buildapc/comments/1v18l71/is_it_worth_swapping_my_ddr4_to_ddr5_if_the/) — r/buildapc
-- [Is going from a 4060 to 5070 a big enough jump in performance?](https://www.reddit.com/r/buildapc/comments/1v18ci7/is_going_from_a_4060_to_5070_a_big_enough_jump_in/) — r/buildapc
-- [Micro center bundle](https://www.reddit.com/r/buildapc/comments/1v1d7sp/micro_center_bundle/) — r/buildapc
-- [My mouse always seem to break, please suggest me one.](https://www.reddit.com/r/buildapc/comments/1v0xt4n/my_mouse_always_seem_to_break_please_suggest_me/) — r/buildapc
-- [Best way to keep storage? HDD or SSD](https://www.reddit.com/r/buildapc/comments/1v1ddt6/best_way_to_keep_storage_hdd_or_ssd/) — r/buildapc
-- [I've heard that Ryzen CPUs prefer 2 RAM sticks. I have a Ryzen 5700X and 2x8GB RAM. I wanna upgrade, but because RAM is so expensive I can't buy 2x16GB, so I'm thinking about buying two more 8GB for a total of 4x8GB @3200MHz. Or would the system run better if I just stuck with the two sticks of 8GB?](https://www.reddit.com/r/buildapc/comments/1v18xes/ive_heard_that_ryzen_cpus_prefer_2_ram_sticks_i/) — r/buildapc
-- [Thanks everyone for the help, bought the 5800x3d](https://www.reddit.com/r/buildapc/comments/1v1a0is/thanks_everyone_for_the_help_bought_the_5800x3d/) — r/buildapc
-- [I'm looking to upgrade my cpu is this a decent upgrade (specs in description)](https://www.reddit.com/r/buildapc/comments/1v1dlxb/im_looking_to_upgrade_my_cpu_is_this_a_decent/) — r/buildapc
-- [Should I Upgrade my prebuild pc by replace it piece by piece or save up and buy a new one?](https://www.reddit.com/r/buildapc/comments/1v1co22/should_i_upgrade_my_prebuild_pc_by_replace_it/) — r/buildapc
-- [Looking for help to build 1st gaming PC.](https://www.reddit.com/r/buildapc/comments/1v1co0t/looking_for_help_to_build_1st_gaming_pc/) — r/buildapc
-- [Is it weird that my 7600X spikes to 95C on folding@home even in 65W Eco Mode?](https://www.reddit.com/r/buildapc/comments/1v1cnh6/is_it_weird_that_my_7600x_spikes_to_95c_on/) — r/buildapc
-- [24” or 27” vertical monitor next to 34” ultra wide?](https://www.reddit.com/r/buildapc/comments/1v17oy6/24_or_27_vertical_monitor_next_to_34_ultra_wide/) — r/buildapc
-- [Should I buy a 250gb nvme for gaming?](https://www.reddit.com/r/buildapc/comments/1v1bqkc/should_i_buy_a_250gb_nvme_for_gaming/) — r/buildapc
-- [Prioritizing my fiancée’s gaming experience: Should I switch her from i5-14600K to AM5?](https://www.reddit.com/r/buildapc/comments/1v0wb5d/prioritizing_my_fiancées_gaming_experience_should/) — r/buildapc
-- [My PC is 7 years old, is it too late?](https://www.reddit.com/r/buildapc/comments/1v1aika/my_pc_is_7_years_old_is_it_too_late/) — r/buildapc
-- [Anti-cheat Engine and AM5](https://www.reddit.com/r/buildapc/comments/1v1a48z/anticheat_engine_and_am5/) — r/buildapc
-- [please help! ||| Dual monitor arm suggestions?](https://www.reddit.com/r/buildapc/comments/1v1dmp3/please_help_dual_monitor_arm_suggestions/) — r/buildapc
-- [RX 7600 performance issue (I think)](https://www.reddit.com/r/buildapc/comments/1v1dkbr/rx_7600_performance_issue_i_think/) — r/buildapc
-- [Getting my sis her first gaming PC and need accessories recs now](https://www.reddit.com/r/buildapc/comments/1v1dk3r/getting_my_sis_her_first_gaming_pc_and_need/) — r/buildapc
-- [How can I shave 100€ or more from this budget build w/o buying used parts ?](https://www.reddit.com/r/buildapc/comments/1v1diga/how_can_i_shave_100_or_more_from_this_budget/) — r/buildapc
-
 ---
 
 ## 🔍 Google Trends / Keyword Planner 검색 추천
@@ -537,7 +486,7 @@
 
 | 키워드 | 빈도 |
 |---|---|
-| google | 32회 |
+| google | 31회 |
 | android | 25회 |
 | galaxy | 20회 |
 | samsung | 16회 |
