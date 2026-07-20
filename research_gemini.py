@@ -231,23 +231,27 @@ def main():
                         has_trends_csv = True
                         print(f"    📈 Trends CSV 감지: {rel}")
 
-    if has_trends_csv or has_kp_csv:
-        print(f"  ✅ CSV 감지 — trends_analyzer.py 실행 중...")
-        try:
-            import trends_analyzer
-            report = trends_analyzer.analyze_week(week_tag, update_pipeline=True)
-            print(f"  ✅ Trends/KP 분석 완료")
-            for cluster in report.get("clusters", []):
-                grade   = cluster.get("grade", "?")
-                name    = cluster.get("cluster_name", "")
-                pattern = cluster.get("trends_pattern", "UNKNOWN")
-                reasons = " | ".join(cluster.get("grade_reasons", []))
-                print(f"    [{grade}] {name} — {pattern}")
-                print(f"         {reasons}")
-        except Exception as e:
-            print(f"  ⚠️ trends_analyzer 실행 실패: {e}")
-    else:
-        print(f"  ℹ️  Trends/KP CSV 없음 → evergreen_score 기반 Grade만 사용")
+    if not has_trends_csv and not has_kp_csv:
+        print(f"\n❌ Trends/KP CSV 없음 — Step 2를 중단합니다.")
+        print(f"   manual_report.md의 추천 키워드를 Google Trends에서 검색 후")
+        print(f"   CSV를 research_data/trends/{week_tag}/{{폴더명}}/ 에 업로드하세요.")
+        print(f"   KP CSV는 research_data/trends/{week_tag}/ 루트에 업로드하세요.")
+        sys.exit(1)
+
+    print(f"  ✅ CSV 감지 — trends_analyzer.py 실행 중...")
+    try:
+        import trends_analyzer
+        report = trends_analyzer.analyze_week(week_tag, update_pipeline=True)
+        print(f"  ✅ Trends/KP 분석 완료")
+        for cluster in report.get("clusters", []):
+            grade   = cluster.get("grade", "?")
+            name    = cluster.get("cluster_name", "")
+            pattern = cluster.get("trends_pattern", "UNKNOWN")
+            reasons = " | ".join(cluster.get("grade_reasons", []))
+            print(f"    [{grade}] {name} — {pattern}")
+            print(f"         {reasons}")
+    except Exception as e:
+        print(f"  ⚠️ trends_analyzer 실행 실패: {e}")
 
     # 7. Grade 기반 기획안 선정/폐기
     # content_pipeline에서 최신 Grade 다시 로드 (trends_analyzer가 업데이트했을 수 있음)

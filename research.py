@@ -665,6 +665,32 @@ def build_human_report(top_uni, top_bi, items, week_tag, prompt_filename):
         "",
     ]
 
+    # ── Trends 폴더 자동 생성 ──────────────────────────────────────
+    # manual_report.md 생성 시 추천 키워드 기반 폴더를 미리 만들어둠
+    # 사람이 GitHub에서 바로 CSV를 업로드할 수 있도록
+    trends_week_dir = os.path.join("research_data", "trends", week_tag)
+    created_folders = []
+    try:
+        os.makedirs(trends_week_dir, exist_ok=True)
+        for i, (phrase, _) in enumerate(evergreen_bi, 1):
+            folder_name = f"{i:02d}-{phrase.replace(' ', '-').replace(chr(39), '')}"
+            folder_path = os.path.join(trends_week_dir, folder_name)
+            if not os.path.exists(folder_path):
+                os.makedirs(folder_path, exist_ok=True)
+                created_folders.append(folder_name)
+                # 빈 README 생성 (GitHub 웹에서 폴더가 보이도록)
+                readme_path = os.path.join(folder_path, "README.md")
+                with open(readme_path, "w", encoding="utf-8") as f:
+                    f.write(f"# {phrase}\n\n"
+                            f"Google Trends CSV를 이 폴더에 업로드하세요.\n\n"
+                            f"- `time_series_*.csv` — 시계열 데이터\n"
+                            f"- `searched_with_top-*.csv` — 연관검색어 상위\n"
+                            f"- `searched_with_rising-*.csv` — 급상승 검색어\n")
+        if created_folders:
+            print(f"📁 Trends 폴더 {len(created_folders)}개 자동 생성: {trends_week_dir}")
+    except Exception as e:
+        print(f"⚠️ Trends 폴더 생성 실패 (무시): {e}")
+
     return "\n".join(lines)
 
 
