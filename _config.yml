@@ -53,5 +53,5 @@ entries_layout: list
 analytics:
   provider: "google-gtag"
   google:
-    tracking_id: "G-XXXXXXXXXX"
+    tracking_id: "G-D1CX22H203"
     anonymize_ip: false
