@@ -116,7 +116,9 @@ jobs:
             fi
 
             # ── final/ 커밋 ─────────────────────────────────────────
+            git stash
             git pull origin main --rebase
+            git stash pop
             git add research_data/write/final/
 
             if git diff --cached --quiet; then
