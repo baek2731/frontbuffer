@@ -1,7 +1,7 @@
 {
   "_version": "1.3",
   "_description": "콘텐츠 파이프라인 — 클러스터 단위 관리",
-  "_last_updated": "2026-07-21T03:31:26.991729+00:00",
+  "_last_updated": "2026-07-21T03:32:22.846253+00:00",
   "hub_clusters": {
     "Steam Machine": {
       "hub_keyword": "Steam Machine",
@@ -77,9 +77,11 @@
       ],
       "spoke_urls": {
         "Fallout Series (COMPARISON)": "PENDING",
-        "Fallout Series (GUIDE)": "PENDING"
+        "Fallout Series (GUIDE)": "PENDING",
+        "Fallout Series (EXPLAINER)": "PENDING"
       },
       "internal_links": [
+        "PENDING",
         "PENDING",
         "PENDING"
       ]
@@ -203,11 +205,11 @@
     "Fallout Series": {
       "types_done": [
         "COMPARISON",
-        "GUIDE"
+        "GUIDE",
+        "EXPLAINER"
       ],
       "last_week": "2026-W29",
       "suggest_next": [
-        "EXPLAINER",
         "LISTICLE"
       ],
       "hub_keyword": "Fallout Lore",
@@ -858,8 +860,9 @@
         "verifiability": "HIGH",
         "data_grade": "A",
         "verified_keywords": [],
-        "status": "candidate",
-        "selected_at": "2026-07-20T08:05:00.387164+00:00"
+        "status": "published",
+        "selected_at": "2026-07-20T08:05:00.387164+00:00",
+        "url": "PENDING"
       },
       {
         "cluster_name": "Android Ecosystem",
@@ -1104,6 +1107,15 @@
       "content_type": "GUIDE",
       "week_tag": "2026-W29",
       "published_at": "2026-07-21T03:31:26.991685+00:00",
+      "hub_cluster": "Fallout Series"
+    },
+    {
+      "cluster_name": "Fallout Series",
+      "title": "Fallout New Vegas Endings Explained: How Player Choices Impact the Mojave",
+      "url": "PENDING",
+      "content_type": "EXPLAINER",
+      "week_tag": "2026-W29",
+      "published_at": "2026-07-21T03:32:22.846211+00:00",
       "hub_cluster": "Fallout Series"
     }
   ]
