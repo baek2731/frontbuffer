@@ -1,7 +1,7 @@
 {
   "_version": "1.3",
   "_description": "콘텐츠 파이프라인 — 클러스터 단위 관리",
-  "_last_updated": "2026-07-21T03:47:02.759169+00:00",
+  "_last_updated": "2026-07-21T04:14:24.114433+00:00",
   "hub_clusters": {
     "Steam Machine": {
       "hub_keyword": "Steam Machine",
@@ -99,12 +99,12 @@
         "Android Ecosystem"
       ],
       "spoke_urls": {
-        "Android Ecosystem (COMPARISON)": "PENDING",
+        "Android Ecosystem (COMPARISON)": "https://frontbuffer.net/tech/android-ecosystem-comparison/",
         "Android Ecosystem (GUIDE)": "PENDING",
         "Android Ecosystem (EXPLAINER)": "PENDING"
       },
       "internal_links": [
-        "PENDING",
+        "https://frontbuffer.net/tech/android-ecosystem-comparison/",
         "PENDING",
         "PENDING"
       ]
@@ -906,8 +906,9 @@
         "verifiability": "HIGH",
         "data_grade": "A",
         "verified_keywords": [],
-        "status": "candidate",
-        "selected_at": "2026-07-20T08:05:00.387164+00:00"
+        "status": "published",
+        "selected_at": "2026-07-20T08:05:00.387164+00:00",
+        "url": "https://frontbuffer.net/tech/android-ecosystem-comparison/"
       },
       {
         "cluster_name": "Android Ecosystem",
@@ -1121,6 +1122,15 @@
       "week_tag": "2026-W29",
       "published_at": "2026-07-20T05:11:27.637796+00:00",
       "hub_cluster": "Chrome Extensions"
+    },
+    {
+      "cluster_name": "Android Ecosystem",
+      "title": "Samsung Secure Folder vs Google Files Safe Folder: Privacy Features Comparison",
+      "url": "https://frontbuffer.net/tech/android-ecosystem-comparison/",
+      "content_type": "COMPARISON",
+      "week_tag": "2026-W29",
+      "published_at": "2026-07-21T04:14:24.114387+00:00",
+      "hub_cluster": "Android Ecosystem"
     }
   ]
 }
