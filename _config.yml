@@ -55,3 +55,9 @@ analytics:
   google:
     tracking_id: "G-D1CX22H203"
     anonymize_ip: false
+    footer:
+  links:
+    - label: "Privacy Policy"
+      url: "/privacy-policy/"
+    - label: "Disclosure"
+      url: "/disclosure/"
