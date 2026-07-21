@@ -3,7 +3,6 @@ description: "Tech and gaming analysis. What's actually happening and why it mat
 url: "https://frontbuffer.net"
 baseurl: ""
 locale: "en-US"
-# theme: minimal-mistakes-jekyll
 remote_theme: mmistakes/minimal-mistakes
 minimal_mistakes_skin: "dark"
 plugins:
@@ -55,7 +54,8 @@ analytics:
   google:
     tracking_id: "G-D1CX22H203"
     anonymize_ip: false
-    footer:
+
+footer:
   links:
     - label: "Privacy Policy"
       url: "/privacy-policy/"
