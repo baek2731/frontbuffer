@@ -1,0 +1,73 @@
+# =====================================================================
+# Step 4: 매일 1편 발행 (final/ → _posts/)
+# =====================================================================
+# 트리거: cron 평일 UTC 14:00 (미국 동부 오전 9시)
+#         + 수동 트리거 (테스트용)
+#
+# 흐름:
+#   publish_one.py 실행
+#     1. final/에서 가장 오래된 파일 1개 선택 (FIFO)
+#        HUB는 스포크 2개 이상 발행 후에만 선택
+#     2. 플레이스홀더 제거 ([INTERNAL LINK: ...] 등)
+#     3. front matter 생성 (오늘 날짜, UTC 14시 랜덤 분)
+#     4. _posts/YYYY-MM-DD-{slug}_{type}.md 저장
+#     5. write.py done 호출 (실제 URL로 pipeline 기록)
+#     6. final/ 파일 삭제 (중복 발행 방지)
+#   _posts/ + pipeline + posts.json 커밋 → Jekyll 빌드
+# =====================================================================
+
+name: Step 4 - Publish Article
+
+on:
+  schedule:
+    - cron: '0 14 * * 1-5'   # 평일 UTC 14:00 (미국 동부 오전 9시)
+  workflow_dispatch:           # 수동 트리거 (테스트용)
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      # ── 1. 체크아웃 ────────────────────────────────────────────────
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # ── 2. Python 설치 ─────────────────────────────────────────────
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      # ── 3. 패키지 설치 ─────────────────────────────────────────────
+      - name: Install dependencies
+        run: pip install requests
+
+      # ── 4. Git 설정 ────────────────────────────────────────────────
+      - name: Configure Git
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      # ── 5. 발행 실행 ───────────────────────────────────────────────
+      - name: Publish one article
+        run: python publish_one.py
+
+      # ── 6. 커밋 + 푸시 ────────────────────────────────────────────
+      - name: Commit and push
+        run: |
+          git add _posts/ \
+                  research_data/write/final/ \
+                  research_data/write/published/ \
+                  content_pipeline.json \
+                  posts.json
+
+          if git diff --cached --quiet; then
+            echo "ℹ️  변경사항 없음 (발행할 파일 없었음) — 스킵"
+            exit 0
+          fi
+
+          git commit -m "feat: 발행 — ${{ env.POST_TITLE }}"
+          git push origin HEAD:main
+          echo "✅ 발행 완료: ${{ env.POST_TITLE }}"
+          echo "   URL: ${{ env.POST_URL }}"
