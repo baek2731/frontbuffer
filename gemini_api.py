@@ -151,10 +151,9 @@ def check_draft_quality(draft_text):
         warnings.append(f"단어 수 {word_count}개 — 800 미만 (review에서 보강 필요)")
 
     nv_count = len(re.findall(r"\[NEEDS VERIFICATION\]", draft_text))
-    if nv_count >= 3:
-        errors.append(f"[NEEDS VERIFICATION] {nv_count}개 — 3개 이상")
-    elif nv_count > 0:
-        warnings.append(f"[NEEDS VERIFICATION] {nv_count}개")
+    if nv_count > 0:
+        # 경고만 출력 — Claude 검증 단계에서 해소하므로 에러 처리 안 함
+        warnings.append(f"[NEEDS VERIFICATION] {nv_count}개 → Claude 검증에서 해소 예정")
 
     return {"ok": len(errors) == 0, "errors": errors,
             "warnings": warnings, "word_count": word_count}
