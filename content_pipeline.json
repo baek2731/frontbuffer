@@ -1,7 +1,7 @@
 {
   "_version": "1.3",
   "_description": "콘텐츠 파이프라인 — 클러스터 단위 관리",
-  "_last_updated": "2026-07-21T03:42:32.036312+00:00",
+  "_last_updated": "2026-07-21T03:43:50.314045+00:00",
   "hub_clusters": {
     "Steam Machine": {
       "hub_keyword": "Steam Machine",
@@ -32,11 +32,13 @@
       ],
       "spoke_urls": {
         "Samsung Health Data Ecosystem (GUIDE)": "/drafts/samsung-health-data-ecosystem-guide",
-        "Samsung Health Data Ecosystem (COMPARISON)": "/drafts/samsung-health-data-ecosystem-comparison"
+        "Samsung Health Data Ecosystem (COMPARISON)": "/drafts/samsung-health-data-ecosystem-comparison",
+        "Samsung Health Data Ecosystem (HUB)": "PENDING"
       },
       "internal_links": [
         "/drafts/samsung-health-data-ecosystem-guide",
-        "/drafts/samsung-health-data-ecosystem-comparison"
+        "/drafts/samsung-health-data-ecosystem-comparison",
+        "PENDING"
       ]
     },
     "Black Flag Resynced": {
@@ -155,7 +157,8 @@
     "Samsung Health Data Ecosystem": {
       "types_done": [
         "GUIDE",
-        "COMPARISON"
+        "COMPARISON",
+        "HUB"
       ],
       "last_week": "2026-W29",
       "suggest_next": [
@@ -812,8 +815,9 @@
         "verifiability": "HIGH",
         "data_grade": "B",
         "verified_keywords": [],
-        "status": "candidate",
-        "selected_at": "2026-07-20T04:28:32.401611+00:00"
+        "status": "published",
+        "selected_at": "2026-07-20T04:28:32.401611+00:00",
+        "url": "PENDING"
       },
       {
         "cluster_name": "Fallout Series",
@@ -1208,6 +1212,15 @@
       "week_tag": "2026-W29",
       "published_at": "2026-07-21T03:42:32.036261+00:00",
       "hub_cluster": "Steam Machine"
+    },
+    {
+      "cluster_name": "Samsung Health Data Ecosystem",
+      "title": "Mastering Your Samsung Health Data Ecosystem: Backup, Export, and Connect",
+      "url": "PENDING",
+      "content_type": "HUB",
+      "week_tag": "2026-W29",
+      "published_at": "2026-07-21T03:43:50.313993+00:00",
+      "hub_cluster": "Samsung Health"
     }
   ]
 }
