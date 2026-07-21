@@ -191,28 +191,55 @@ def check_published_sync(posts, dry_run: bool):
 
 
 def check_hub_spoke(pipeline):
-    """클러스터별 HUB-스포크 연결 완성도."""
+    """클러스터별 HUB-스포크 연결 완성도.
+
+    content_pipeline.json 구조:
+      published[].hub_cluster  → 상위 HUB 클러스터명 (예: "Chrome Extensions")
+      published[].content_type → "HUB" or 스포크 타입
+      hub_clusters[hub_key].hub_status → "PUBLISHED" / "READY" / "PENDING"
+    """
     issues = []
-    published = pipeline.get("published", [])
+    published    = pipeline.get("published", [])
+    hub_clusters = pipeline.get("hub_clusters", {})
 
-    # 클러스터별 발행된 타입 분류
-    clusters = {}
+    # hub_cluster 기준으로 그룹핑 (cluster_name이 아님)
+    groups = {}
     for p in published:
-        name = p.get("cluster_name", "")
-        ct   = p.get("content_type", "").upper()
-        if name not in clusters:
-            clusters[name] = {"hub": False, "spokes": []}
+        hub_key = p.get("hub_cluster") or p.get("cluster_name", "")
+        ct      = p.get("content_type", "").upper()
+        if hub_key not in groups:
+            groups[hub_key] = {"hub": False, "spokes": []}
         if ct == "HUB":
-            clusters[name]["hub"] = True
+            groups[hub_key]["hub"] = True
         else:
-            clusters[name]["spokes"].append(ct)
+            groups[hub_key]["spokes"].append(p.get("cluster_name", ""))
 
-    for cluster, info in clusters.items():
+    for hub_key, info in groups.items():
         spoke_count = len(info["spokes"])
+        hub_info    = hub_clusters.get(hub_key, {})
+        hub_status  = hub_info.get("hub_status", "")
+
+        # 스포크 2개 이상인데 HUB 미발행
         if spoke_count >= 2 and not info["hub"]:
-            issues.append(f"**{cluster}** — 스포크 {spoke_count}개 발행됐으나 HUB 없음")
+            issues.append(
+                f"**{hub_key}** — 스포크 {spoke_count}개 발행됐으나 HUB 없음 "
+                f"(hub_status: {hub_status})"
+            )
+
+        # HUB 발행됐는데 스포크 부족
         if info["hub"] and spoke_count < 2:
-            issues.append(f"**{cluster}** — HUB 발행됐으나 스포크 {spoke_count}개만 있음")
+            issues.append(
+                f"**{hub_key}** — HUB 발행됐으나 스포크 {spoke_count}개만 있음"
+            )
+
+        # spoke_urls에 PENDING 잔존 확인
+        pending = [k for k, v in hub_info.get("spoke_urls", {}).items()
+                   if v == "PENDING"]
+        if pending:
+            issues.append(
+                f"**{hub_key}** — spoke_urls PENDING 잔존: "
+                + ", ".join(pending)
+            )
 
     return issues
 

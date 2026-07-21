@@ -126,6 +126,67 @@ def inject_internal_links(content, cluster_name, content_type, pipeline, pub_url
     return result
 
 
+def update_pipeline_urls(pipeline, cluster_name, content_type, pub_url):
+    """발행 완료 시 content_pipeline.json의 hub_clusters URL 업데이트.
+
+    - 스포크 발행: spoke_urls["클러스터명 (TYPE)"] PENDING → 실제 URL
+    - HUB 발행:   hub_clusters[parent_hub]["hub_url"] → 실제 URL
+                  hub_status → "PUBLISHED"
+    """
+    hub_clusters = pipeline.get("hub_clusters", {})
+    ct = content_type.upper()
+    updated = False
+
+    for hub_key, hub_info in hub_clusters.items():
+        spoke_urls = hub_info.get("spoke_urls", {})
+
+        if ct == "HUB":
+            # HUB 글 자신: hub_url + hub_status 업데이트
+            # spoke_urls 키에서 cluster_name + HUB 타입 매칭
+            for key in list(spoke_urls.keys()):
+                key_name = re.sub(r'\s*\([^)]+\)\s*$', '', key).strip().lower()
+                if cluster_name.lower() in key_name or key_name in cluster_name.lower():
+                    if "(HUB)" in key or "(hub)" in key.lower():
+                        spoke_urls[key] = pub_url
+                        hub_info["hub_url"]    = pub_url
+                        hub_info["hub_status"] = "PUBLISHED"
+                        updated = True
+                        print(f"  📌 hub_url 업데이트: {hub_key} → {pub_url}")
+                        break
+        else:
+            # 스포크 글: spoke_urls에서 cluster_name + TYPE 매칭
+            target_key = None
+            for key in spoke_urls:
+                key_name = re.sub(r'\s*\([^)]+\)\s*$', '', key).strip().lower()
+                key_type = re.search(r'\(([^)]+)\)', key)
+                key_type = key_type.group(1).upper() if key_type else ""
+                if (cluster_name.lower() in key_name or key_name in cluster_name.lower()) \
+                        and key_type == ct:
+                    target_key = key
+                    break
+
+            if target_key and spoke_urls.get(target_key) in ("PENDING", "", None):
+                spoke_urls[target_key] = pub_url
+                # internal_links 배열도 동기화
+                links = hub_info.get("internal_links", [])
+                try:
+                    idx = links.index("PENDING")
+                    links[idx] = pub_url
+                except ValueError:
+                    pass
+                updated = True
+                print(f"  📌 spoke_url 업데이트: {target_key} → {pub_url}")
+
+    if updated:
+        with open(PIPELINE_FILE, "w", encoding="utf-8") as f:
+            json.dump(pipeline, f, ensure_ascii=False, indent=2)
+        print(f"  💾 content_pipeline.json 저장 완료")
+    else:
+        print(f"  ℹ️  pipeline URL 업데이트 대상 없음 (이미 등록됐거나 키 미매칭)")
+
+    return pipeline
+
+
 def hub_ready(pipeline, cluster_name):
     """HUB 글은 해당 클러스터 스포크 2개 이상 발행 후에만 발행."""
     published = pipeline.get("published", [])
@@ -312,6 +373,12 @@ def main():
     if review.exists():
         review.unlink()
     print(f"  🗑️  final/ 삭제: {target.name}")
+
+    # ── content_pipeline.json URL 업데이트 ────────────────────────
+    # 스포크: spoke_urls PENDING → 실제 URL
+    # HUB:   hub_url + hub_status 업데이트
+    if cluster_name:
+        pipeline = update_pipeline_urls(pipeline, cluster_name, target_ct, pub_url)
 
     # ── write.py done 호출 ─────────────────────────────────────────
     # --no-archive: 위에서 이미 published/ 아카이브를 만들었으므로

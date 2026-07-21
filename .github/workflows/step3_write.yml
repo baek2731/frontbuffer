@@ -2,7 +2,7 @@
 # Step 3: 글 생성 + final/ 스택 저장 (v4 — Discord 알림 추가)
 # =====================================================================
 
-name: Step 3 - Write Articles
+name: "Step 3 — Write Articles"
 
 on:
   workflow_dispatch:
