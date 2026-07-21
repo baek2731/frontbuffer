@@ -188,7 +188,24 @@
       "internal_links_needed": [],
       "internal_links_resolved": {},
       "status": "live"
+    },
+    {
+      "id": "google-photos-free-storage-policy-changes-explained-impact-o",
+      "title": "Google Photos Free Storage Policy Changes Explained: Impact on Existing Libraries",
+      "slug": "google-photos-free-storage-policy-changes-explained-impact-o",
+      "cluster_slug": "android-ecosystem",
+      "url": "https://frontbuffer.net/tech/android-ecosystem_explainer/",
+      "live_url": "https://frontbuffer.net/tech/android-ecosystem_explainer/",
+      "published_date": "2026-07-21",
+      "content_type": "EXPLAINER",
+      "hub_cluster": "Android Ecosystem",
+      "hub_keyword": "Google Photos",
+      "verified_keywords": [],
+      "data_grade": "A",
+      "internal_links_needed": [],
+      "internal_links_resolved": {},
+      "status": "live"
     }
   ],
-  "_last_updated": "2026-07-21T04:14:24.115947+00:00"
+  "_last_updated": "2026-07-21T15:40:54.189857+00:00"
 }
