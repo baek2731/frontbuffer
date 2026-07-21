@@ -1184,6 +1184,35 @@ WRITING RULES
    ✅ "According to [Valve's official Windows Resources](https://help.steampowered.com/...), the drivers..."
    ✅ "[Valve's driver page](URL) lists five packages required for full hardware support."
 
+5. FORBIDDEN OPENINGS AND CLOSINGS — STRICTLY PROHIBITED:
+   The following phrases are auto-rejected. Do NOT use in ANY form, even paraphrased.
+
+   FORBIDDEN INTRO OPENERS (first sentence of article):
+   ❌ "In an increasingly digital world..."
+   ❌ "In today's fast-paced / rapidly evolving / ever-changing world..."
+   ❌ "As technology continues to advance / evolve..."
+   ❌ "In the modern era of technology..."
+   ❌ "With the rise of [technology]..."
+   ❌ "Whether you are a [beginner/expert]..."
+   ❌ "If you've ever wondered..." / "Have you ever found yourself..."
+
+   FORBIDDEN CONCLUSION PATTERNS (final paragraph):
+   ❌ Any sentence still true if you swap the topic. Test: remove the cluster
+      name — if it still makes sense, it's boilerplate. Delete it.
+   ❌ "In conclusion, [topic] is an important/exciting/evolving field..."
+   ❌ "As [technology] continues to evolve, staying informed is key."
+   ❌ "We hope this guide has helped you understand..."
+   ❌ "By following the steps/tips above, you can..."
+   ❌ "Ultimately, the choice is yours."
+   ❌ "Whether you choose X or Y, the most important thing is..."
+
+   REQUIRED INSTEAD:
+   ✅ Intro: Open with a specific fact, event, or problem tied to {cluster_name}.
+      Pattern: "[Concrete thing] happened / changed. Here's what that means."
+   ✅ Conclusion: A forward-looking, cluster-specific takeaway.
+      Reference a specific detail from the article body.
+      Tell the reader exactly what to do next given what they just learned.
+
 # STRUCTURE
 5. STRUCTURE:
    - H1: MUST use the Suggested Title above EXACTLY as written.
@@ -1320,8 +1349,15 @@ HUB 글은 팩트 검증보다 구조·링크·독자 경험을 검증하는 것
   - 각 H2의 독자 분류 문장이 구체적인 상황을 묘사하는가
     (예: "If you are a user who wants to..." 수준이 아니라
          "If you opened Chrome one day and your extension stopped working..." 수준)
+  - 서론 첫 문장이 금지 패턴으로 시작하지 않는가:
+    "In an increasingly digital world" / "In today's rapidly evolving" /
+    "As technology continues to" / "With the rise of" /
+    "Whether you are a" / "If you've ever wondered"
+    → 해당하면 ❌, 클러스터 특화 문장으로 교체
   - 결론이 boilerplate(어디에나 붙일 수 있는 일반 문장)가 아닌가
-    boilerplate 판단 기준: 클러스터명을 지워도 의미가 통하면 boilerplate
+    보일러플레이트 판단: 클러스터명을 지워도 의미가 통하면 boilerplate
+    추가 금지: "staying informed is key" / "the choice is yours" /
+    "we hope this guide" / "by following the steps above" → ❌
 
 [4단계] 단어 수 체크
   - 초안 단어 수를 카운트하세요.
@@ -1395,7 +1431,25 @@ Content Type: HUB
 2. 기존 발행글과 스펙 충돌 확인 (동일 클러스터):
 {published_urls_block}
 
-3. 최종본 요구사항:
+3. 보일러플레이트 감지 및 교체:
+   서론/결론에 아래 패턴이 있으면 ❌로 판정하고 반드시 교체하세요.
+
+   금지 서론 오프너 (첫 문장):
+   - "In an increasingly digital world" / "In today's rapidly evolving world"
+   - "As technology continues to advance/evolve"
+   - "With the rise of [technology]"
+   - "Whether you are a [beginner/expert]"
+   - "If you've ever wondered" / "Have you ever found yourself"
+   → 교체 방법: 해당 클러스터에서만 일어나는 구체적 상황/사실로 시작
+
+   금지 결론 패턴:
+   - "staying informed is key" / "the choice is yours"
+   - "we hope this guide has helped" / "by following the steps above"
+   - "In conclusion, [topic] is an important/exciting field"
+   - 클러스터명을 지워도 의미가 통하는 모든 문장
+   → 교체 방법: 본문에서 언급한 구체적 사실을 참조해 독자가 다음에 할 행동 명시
+
+4. 최종본 요구사항:
    - 오류는 정확한 내용으로 교체, 검증한 URL을 앵커 텍스트 하이퍼링크로 자연스럽게 삽입
    - [NEEDS VERIFICATION] 전부 해소 (남기지 말 것)
    - 800단어 이상 (부족 시 검증 중 찾은 유용한 공식 정보로 보강, 억지 확장 금지)

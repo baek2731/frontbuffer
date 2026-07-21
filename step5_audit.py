@@ -190,6 +190,72 @@ def check_published_sync(posts, dry_run: bool):
     return auto_fixed, manual_needed
 
 
+def inject_backlinks(posts, pipeline, dry_run: bool):
+    """HUB가 발행된 클러스터의 스포크 글에 HUB 역방향 링크 소급 주입.
+
+    조건:
+      - hub_clusters[x]["hub_url"]이 실제 https:// URL인 것만 대상
+      - 스포크 _posts/ 파일 본문에 hub_url이 이미 있으면 스킵
+      - 없으면 "## Related" 섹션 또는 본문 맨 끝에 링크 추가
+    """
+    auto_fixed = []
+    hub_clusters = pipeline.get("hub_clusters", {})
+    published    = pipeline.get("published", [])
+
+    for hub_key, hub_info in hub_clusters.items():
+        hub_url    = hub_info.get("hub_url", "")
+        hub_kw     = hub_info.get("hub_keyword", hub_key)
+        if not hub_url or hub_url == "PENDING" or not hub_url.startswith("http"):
+            continue
+
+        # 이 HUB에 속한 스포크 발행 목록
+        spokes = [p for p in published
+                  if p.get("hub_cluster") == hub_key
+                  and p.get("content_type", "").upper() != "HUB"]
+
+        for spoke in spokes:
+            spoke_url = spoke.get("url", "")
+            if not spoke_url or not spoke_url.startswith("http"):
+                continue
+
+            # _posts/에서 해당 스포크 파일 찾기 (URL 슬러그 매칭)
+            slug_part = spoke_url.rstrip("/").split("/")[-1]
+            matched_post = None
+            for post in posts:
+                if slug_part and slug_part in post.stem:
+                    matched_post = post
+                    break
+
+            if not matched_post:
+                continue
+
+            content = matched_post.read_text(encoding="utf-8")
+
+            # 이미 HUB 링크가 있으면 스킵
+            if hub_url in content:
+                continue
+
+            # 본문 끝에 HUB 링크 추가
+            hub_link_block = (
+                f"\n\n---\n"
+                f"**Want the full picture?** "
+                f"See our complete guide: [{hub_kw}]({hub_url})\n"
+            )
+
+            if not dry_run:
+                matched_post.write_text(content + hub_link_block, encoding="utf-8")
+                # published/ 동기화
+                pub_copy = Path(PUBLISHED_DIR) / matched_post.name
+                if pub_copy.exists():
+                    pub_copy.write_text(content + hub_link_block, encoding="utf-8")
+
+            auto_fixed.append(
+                f"{matched_post.name} → HUB 역방향 링크 추가 [{hub_key}]({hub_url})"
+            )
+
+    return auto_fixed
+
+
 def check_hub_spoke(pipeline):
     """클러스터별 HUB-스포크 연결 완성도.
 
@@ -335,6 +401,12 @@ def main():
 
     auto_fixed   = {}
     manual_items = {}
+
+    # ── 0. 역방향 링크 소급 주입 ─────────────────────────────────────
+    print("\n[0/6] HUB 역방향 링크 소급 주입...")
+    backlink_fixed = inject_backlinks(posts, pipeline, dry_run)
+    auto_fixed["HUB 역방향 링크 소급"] = backlink_fixed
+    print(f"  주입: {len(backlink_fixed)}건")
 
     # ── 1. 플레이스홀더 ──────────────────────────────────────────────
     print("\n[1/6] 플레이스홀더 검사...")
