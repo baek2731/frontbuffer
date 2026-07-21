@@ -1,7 +1,7 @@
 {
   "_version": "1.3",
   "_description": "콘텐츠 파이프라인 — 클러스터 단위 관리",
-  "_last_updated": "2026-07-21T03:37:16.674657+00:00",
+  "_last_updated": "2026-07-21T03:38:55.693332+00:00",
   "hub_clusters": {
     "Steam Machine": {
       "hub_keyword": "Steam Machine",
@@ -107,16 +107,18 @@
     },
     "Portable Gaming": {
       "hub_keyword": "Portable Gaming",
-      "hub_status": "PENDING",
+      "hub_status": "READY",
       "hub_title": "",
       "hub_url": "",
       "spokes": [
         "Portable Gaming"
       ],
       "spoke_urls": {
-        "Portable Gaming (COMPARISON)": "PENDING"
+        "Portable Gaming (COMPARISON)": "PENDING",
+        "Portable Gaming (GUIDE)": "PENDING"
       },
       "internal_links": [
+        "PENDING",
         "PENDING"
       ]
     }
@@ -260,11 +262,11 @@
     },
     "Portable Gaming": {
       "types_done": [
-        "COMPARISON"
+        "COMPARISON",
+        "GUIDE"
       ],
       "last_week": "2026-W29",
       "suggest_next": [
-        "GUIDE",
         "EXPLAINER",
         "LISTICLE"
       ],
@@ -994,8 +996,9 @@
         "verifiability": "HIGH",
         "data_grade": "A",
         "verified_keywords": [],
-        "status": "candidate",
-        "selected_at": "2026-07-20T08:05:00.387164+00:00"
+        "status": "published",
+        "selected_at": "2026-07-20T08:05:00.387164+00:00",
+        "url": "PENDING"
       },
       {
         "cluster_name": "Portable Gaming",
@@ -1170,6 +1173,15 @@
       "content_type": "COMPARISON",
       "week_tag": "2026-W29",
       "published_at": "2026-07-21T03:37:16.674603+00:00",
+      "hub_cluster": "Portable Gaming"
+    },
+    {
+      "cluster_name": "Portable Gaming",
+      "title": "How to Stream PC Games to Android Tablets using the Moonlight App",
+      "url": "PENDING",
+      "content_type": "GUIDE",
+      "week_tag": "2026-W29",
+      "published_at": "2026-07-21T03:38:55.693276+00:00",
       "hub_cluster": "Portable Gaming"
     }
   ]
