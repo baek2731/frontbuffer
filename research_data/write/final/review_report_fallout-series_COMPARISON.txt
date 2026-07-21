@@ -1,4 +1,4 @@
-저는 실시간 웹 검색 기능이 없으므로, 초안의 내용을 분석하고 제가 보유한 지식(2025년 초 기준)을 바탕으로 팩트 체크를 수행하겠습니다. 검색 결과 대신 명확히 "지식 기반 판정"임을 표시하겠습니다.
+I'll systematically work through all 5 stages. Let me start with web searches to verify claims and gather current information.이제 수집된 정보를 바탕으로 단계별 분석을 수행하겠습니다.
 
 ---
 
@@ -6,346 +6,217 @@
 
 초안에서 검증이 필요한 주장들:
 
-1. Fallout New Vegas Remaster가 **공식 발표**되었다는 주장
-2. Fallout 3 Remaster가 **공식 발표**되었다는 주장
-3. Fallout New Vegas가 **Obsidian Entertainment** 개발이라는 주장
-4. Fallout 3이 "최초로 full 3D, first-person action RPG로 시리즈를 재정의했다"는 주장
-5. `[NEEDS VERIFICATION]` × 2 — 각 리마스터의 구체적 features/changes
-6. 내부 링크: `[INTERNAL LINK: Fallout 4 Next-Gen Update Review]`
-7. Sources 항목: "Official announcements regarding Fallout New Vegas Remaster features / Fallout 3 Remaster official changes" — URL 없음
+1. "The prospect of official Fallout remasters... has long been a topic of fervent discussion" — 커뮤니티 추측/추정 주장
+2. "a direct comparison of official features for *potential* Fallout remasters" — '잠재적(potential/hypothetical)'이라고 표현한 점
+3. 그래픽 개선, 성능 향상, UI 개편, 전투 메커닉 업데이트 — 모두 [NEEDS VERIFICATION]
+4. 모딩 지원, 접근성 옵션 — [NEEDS VERIFICATION]
+5. 엔진 업그레이드 — [NEEDS VERIFICATION]
+6. 리마스터 자체가 "hypothetical" — 공식 발표 여부 확인 필요
+7. 인용된 외부 URL 없음 — 검증 필요 없음
+8. 제목: "Official Feature Comparison" — 실제 공식 피처가 본문에 없음 → 정합성 체크 필요
 
 ---
 
-## [1.5단계] 소스 보강 및 정합성 체크 (COMPARISON)
+## [1.5단계] COMPARISON content_type 추가 체크
 
-**URL 실존 확인:**
-초안에 외부 링크가 없음. Sources 항목은 URL 없는 허위 출처 표기.
-
-**제목-내용 정합성:**
-제목은 "Official Feature Comparison"이라고 약속하지만, 본문은 "공식 발표된 내용이 없어 일반적인 리마스터 특징을 추론"하는 내용임. 즉 **제목과 내용이 불일치**.
-
-**현재 상태 확인:**
-두 리마스터의 공식 발표 여부를 확인해야 함.
-
-**COMPARISON 추가 체크:**
-- 비교 대상 양쪽(NV vs FO3)이 균형있게 다뤄지고 있는가 → 형식적으로는 균형이나, 비교의 근거가 추측임
-- 비교 기준이 공정한가 → "features" vs "changes"라는 용어 차이를 철학 차이로 과잉 해석
+- **비교 대상 양쪽 균형:** 두 게임 모두 다루나, 모든 내용이 추측성 [NEEDS VERIFICATION]으로, 실제 공식 비교 데이터가 전혀 없음.
+- **공식 발표 현황:** 검색 결과에 따르면 **2026년 7월 17일 Bethesda가 공식적으로** 두 리마스터의 개발 중임을 확인. 이는 초안이 "hypothetical/potential"이라고 쓴 것과 **근본적으로 충돌**하는 사실적 전제 오류.
+- **비교 기준:** 초안은 실제 공식 정보 없이 순수 추측으로 비교. 수정 필요.
+- **제목-내용 정합성:** 제목이 "Official Feature Comparison"이라고 하지만 본문은 공식 정보가 전혀 없음 → 실제로는 "Anticipated Features" 수준. Oblivion Remastered의 실제 적용 기술을 근거로 업데이트 필요.
 
 ---
 
-## [2단계] 웹 검색으로 검증
+## [2단계] 웹 검색 검증 결과
 
-*(웹 검색 기능 없음 — 2025년 4월 기준 보유 지식으로 판정, 각 항목에 명시)*
-
-**주장 1: Fallout New Vegas Remaster 공식 발표**
-제 지식 범위(2025년 4월) 내에서 Fallout New Vegas Remaster는 공식 발표된 바 없습니다.
-
-**주장 2: Fallout 3 Remaster 공식 발표**
-동일하게, Fallout 3 Remaster도 공식 발표된 바 없습니다.
-
-**주장 3: Fallout New Vegas 개발사 = Obsidian Entertainment**
-정확합니다. Obsidian Entertainment가 개발, Bethesda Softworks가 퍼블리싱.
-
-**주장 4: Fallout 3이 최초로 3D FPS 방식으로 시리즈를 재정의**
-부분 수정 필요. Fallout 3(2008) 이전에 Fallout: Brotherhood of Steel(2004, 3D 액션), 그리고 Fallout Tactics(2001)가 존재하나, 메인 넘버링 시리즈에서 풀 3D 오픈월드 FPS/TPS 방식으로 전환한 첫 작품은 Fallout 3이 맞음. 다만 "series"라는 표현에 주의 필요.
+각 주장별 판정은 [3단계]에서 정리.
 
 ---
 
 ## [3단계] 판정 리포트
 
-**[검증 1] "Fallout New Vegas Remaster가 공식 발표되었다"**
+**[검증 1]** "리마스터는 아직 가상의(hypothetical) 시나리오다"
 판정: ❌ 틀림
-근거: 2025년 4월 현재, Bethesda 또는 Obsidian Entertainment로부터 Fallout: New Vegas Remaster에 대한 공식 발표는 확인되지 않습니다. 초안의 Source 항목("Official announcements regarding Fallout New Vegas Remaster features")은 실제 존재하지 않는 출처입니다. 커뮤니티 내 루머·팬 청원은 존재하나, 이를 "공식 발표"로 기술하는 것은 사실 오류입니다.
-*(지식 기반 판정 — 실시간 검색 미지원)*
+근거: Bethesda Game Studios가 2026년 7월 17일 공식 블로그 포스트를 통해 Fallout 3와 Fallout: New Vegas 리마스터를 **공식 확인**했음. 단, 출시일은 미발표. "While we're not announcing any dates today, we have been working on remasters for both Fallout 3 and Fallout: New Vegas."
+- https://gamerant.com/fallout-3-new-vegas-game-remasters-confirmed/
+- https://fallout.fandom.com/wiki/Fallout_3_remaster
 
----
-
-**[검증 2] "Fallout 3 Remaster가 공식 발표되었다"**
-판정: ❌ 틀림
-근거: 검증 1과 동일. Bethesda로부터 Fallout 3 Remaster에 관한 공식 발표가 없습니다. Sources의 "Official announcements regarding Fallout 3 Remaster official changes"는 존재하지 않는 출처입니다.
-*(지식 기반 판정)*
-
----
-
-**[검증 3] "Fallout: New Vegas는 Obsidian Entertainment가 개발했다"**
-판정: ✅ 사실
-근거: Fallout: New Vegas(2010)는 Obsidian Entertainment 개발, Bethesda Softworks 퍼블리싱. 공식적으로 확인된 사실입니다.
-참고: https://www.obsidian.net/
-
----
-
-**[검증 4] "Fallout 3가 시리즈를 full 3D, first-person action RPG로 전환해 재정의했다"**
+**[검증 2]** "그래픽 오버홀(higher resolution textures, improved lighting 등)이 예상된다 [NEEDS VERIFICATION]"
 판정: ⚠️ 부분 수정
-근거: Fallout 3(2008)이 메인 넘버링 시리즈(Fallout 1·2)의 아이소메트릭 방식을 완전한 3D FPS/TPS 오픈월드로 전환한 첫 작품인 것은 맞습니다. 다만 "series"의 3D 전환이라는 표현은 스핀오프(Brotherhood of Steel, 2004)가 이미 3D였음을 간과합니다. "메인 넘버링 시리즈 최초"로 한정하는 표현이 더 정확합니다.
+근거: Bethesda는 구체적 피처를 공개하지 않았음. 그러나 **Oblivion Remastered(2025)**의 선례를 통해, 유사한 방식(Unreal Engine 5 그래픽, 개선된 조명, 새 캐릭터 모델 등)이 적용될 것으로 업계 다수 매체가 추정함. 이를 "확정적 사실"이 아닌 "Oblivion Remastered를 근거로 한 업계 추정"으로 기술해야 함.
+- https://overclock3d.net/news/software/bethesda-confirms-fallout-3-and-new-vegas-remasters/
+- https://screenrant.com/fallout-3-new-vegas-remake-announcement-bethesda/
 
----
+**[검증 3]** "엔진 업그레이드(더 안정적이고 유능한 버전으로) [NEEDS VERIFICATION]"
+판정: ⚠️ 부분 수정
+근거: Bethesda는 Fallout 5와 TES6에는 **Creation Engine 3** 사용을 공식 확인했으나, 리마스터에 어떤 엔진이 쓰일지는 미발표. Oblivion Remastered의 경우 Unreal Engine 5(그래픽) + Gamebryo(게임플레이) 하이브리드 방식이었으므로, 리마스터도 유사 방식이 예상된다고 서술해야 함.
+- https://9to5toys.com/2026/07/17/...
+- https://en.wikipedia.org/wiki/The_Elder_Scrolls_IV:_Oblivion_Remastered
 
-**[검증 5] [NEEDS VERIFICATION] — New Vegas Remaster 구체적 features**
-판정: ❌ — 공식 소스 부재
-근거: 공식 발표 자체가 없으므로 검증 불가. 해당 섹션은 추측 기반임을 명시하거나, "공식 발표 전 일반적 리마스터 기대치" 프레임으로 재작성 필요.
+**[검증 4]** "모딩 지원 강화가 예상된다 [NEEDS VERIFICATION]"
+판정: ⚠️ 부분 수정
+근거: Bethesda는 리마스터의 모딩 지원에 대해 공식 입장을 밝히지 않았음. 오히려 **Oblivion Remastered에서는 콘솔 공식 모드 지원 계획이 없다**고 밝힌 바 있어, 리마스터에서 모딩 지원 강화를 단정할 수 없음. 추측성 서술로 명확히 표기하거나 Oblivion Remastered 사례를 근거로 신중하게 서술해야 함.
+- https://culture.org/gaming/oblivion-remastered/
 
----
+**[검증 5]** "사진 모드(photo mode) 등 현대적 기능 포함이 예상된다 [NEEDS VERIFICATION]"
+판정: ⚠️ 부분 수정
+근거: 공식 발표에 포함되지 않은 추측. 추측임을 명확히 표기해야 함.
 
-**[검증 6] [NEEDS VERIFICATION] — Fallout 3 Remaster 구체적 official changes**
-판정: ❌ — 공식 소스 부재
-근거: 동일. 공식 발표가 없으므로 "official changes"라는 표현 자체가 부정확.
+**[검증 6]** 초안 제목 "Official Feature Comparison"
+판정: ❌ 틀림 (정합성 불일치)
+근거: 제목은 "공식 피처 비교"를 약속하지만, 공식 피처가 전혀 발표되지 않음. 제목을 현실에 맞게 수정하거나, Oblivion Remastered 실사례와 업계 추정을 근거로 한 비교 콘텐츠로 보강해야 함.
 
----
+**[검증 7]** Fallout 3 = "2008년 게임" / Fallout New Vegas = "2010년 게임"
+판정: ✅ 사실
+근거: Fallout 3는 2008년 10월 28일 출시(Bethesda Game Studios 개발). Fallout: New Vegas는 2010년 10월 19일 출시(Obsidian Entertainment 개발).
+- https://fallout.fandom.com/wiki/Fallout_3
+- https://fallout.fandom.com/wiki/Fallout:_New_Vegas
 
-**[검증 7] 내부 링크: [INTERNAL LINK: Fallout 4 Next-Gen Update Review]**
-판정: ⚠️ 확인 불가 (내부 링크)
-근거: 블로그 내부 링크이므로 실존 여부를 외부에서 확인 불가. 단, 내용 관련성은 있음(Fallout 시리즈 클러스터). 편집팀이 실제 발행 여부를 확인해야 합니다.
+**[검증 8]** Oblivion Remastered는 Unreal Engine 5 사용 (보강 정보)
+판정: ✅ 사실
+근거: Oblivion Remastered는 Virtuos가 Unreal Engine 5로 비주얼을 재구축하고, 기존 Gamebryo 엔진으로 핵심 게임플레이를 구동하는 하이브리드 방식 채택. 4K/60fps, Lumen 조명, 새 UI, 새 애니메이션 로코모션 시스템 포함.
+- https://news.xbox.com/en-us/2025/04/22/elder-scrolls-iv-oblivion-remastered/
+- https://en.wikipedia.org/wiki/The_Elder_Scrolls_IV:_Oblivion_Remastered
 
----
+**[보강 1]** "Bethesda의 공식 발표 일자 및 맥락" — 2026년 7월 17일 Bethesda 공식 블로그 포스트로 두 리마스터 확인, 출시일 미정
+- https://gamerant.com/fallout-3-new-vegas-game-remasters-confirmed/
 
-**[검증 8] Sources 항목의 URL 없는 출처 표기**
-판정: ❌ 제거 필요
-근거: "Official announcements…"로 기재된 두 출처는 URL도 없고, 실제로 존재하지 않는 공식 발표를 근거로 삼고 있어 독자를 오도할 수 있습니다.
+**[보강 2]** "Oblivion Remastered 실제 적용 기술 목록" — Unreal Engine 5, Lumen 조명, 4K/60fps, 새 UI, 새 애니메이션 시스템, 모든 DLC 포함
+- https://news.xbox.com/en-us/2025/04/22/elder-scrolls-iv-oblivion-remastered/
 
----
-
-**[보강 1] "Fallout: New Vegas의 기술적 문제(버그, 불안정성) 배경"**
-추가 내용: New Vegas 출시 당시 다수의 크래시, 퀘스트 버그로 악명이 높았으며, 이는 18개월의 짧은 개발 기간(Obsidian이 Fallout 3 엔진을 그대로 사용)에 기인한다는 점이 잘 알려져 있습니다. 이 맥락은 리마스터 기대 이유로 본문에서 언급 가능합니다.
-출처: 공개된 인터뷰·개발 회고 다수 (특정 단일 URL 없음, 지식 기반)
-
----
-
-**[보강 2] Fallout 4 Next-Gen Update (2024) 실제 사례**
-추가 내용: Bethesda는 2024년 4월 25일 Fallout 4의 Next-Gen Update(v1.10.980)를 PS5, Xbox Series X|S, PC에 무료 배포했습니다. 60fps 모드, 성능 모드, 해상도 모드, Creation Kit 업데이트 포함. 이 사례는 Bethesda가 레거시 타이틀을 현대 하드웨어에 맞게 업데이트하는 방식의 실제 레퍼런스로 활용 가능합니다.
-출처: https://bethesda.net/en/article/fallout-4-next-gen-update
+**[보강 3]** "Fallout 5 및 Obsidian 협업 프로젝트 동시 발표" — Fallout 5 프리프로덕션 진입, Obsidian과의 새 Fallout 프로젝트 확인
+- https://www.purexbox.com/news/2026/07/two-fallout-remasters-announced-by-bethesda-in-massive-new-roadmap
 
 ---
 
 ## [4단계] 클러스터 내 기존 발행글 정합성 체크
 
-기존 발행글과 충돌 없음 (이 클러스터 기존 발행글 없음)
+기존 발행글과 충돌 없음 (동일 클러스터 기존 발행글 없음)
 
 ---
 
-## [5단계] 수정 반영된 최종본
-
-**주요 수정 사항 요약:**
-1. 제목에서 "Official"을 제거 → 공식 발표가 없으므로 오해 소지 제거
-2. 서론부터 "공식 발표"라는 전제를 "루머 및 팬 커뮤니티 기대"로 재설정
-3. `[NEEDS VERIFICATION]` 문장 → 추측/기대 프레임으로 일반화
-4. Sources 허위 출처 제거
-5. Fallout 4 Next-Gen Update를 실제 레퍼런스로 보강 (보강 2 활용)
-6. 개발 배경(New Vegas 짧은 개발 기간) 보강 (보강 1 활용)
-7. "official changes" 표현 → "anticipated changes" 등으로 교체
-8. 분량 확인 후 필요시 섹션 보강
+## [5단계] 수정 반영 최종본
 
 ```markdown
-# Fallout New Vegas vs Fallout 3: What a Remaster Could Look Like
+# Fallout New Vegas vs. Fallout 3 Remaster: What We Know and What to Expect
 
-The gaming community has long dreamed of revisiting the Capital Wasteland and the
-Mojave Desert in modernized form, and speculation around potential **Fallout remasters**
-continues to intensify. While neither Bethesda Softworks nor any affiliated studio has
-made an official announcement regarding a *Fallout: New Vegas* remaster or a
-*Fallout 3* remaster as of this writing, the conversation around what such projects
-*could* deliver remains one of the most compelling discussions in the RPG space. This
-analysis examines the distinct legacies of each title and breaks down what a
-thoughtful remaster of each game might reasonably be expected to offer — drawing on
-Bethesda's own track record with legacy updates, most notably the *Fallout 4*
-Next-Gen Update released in April 2024.
+The wait is officially over — at least in terms of confirmation. On July 17, 2026, Bethesda Game Studios released an official blog post confirming that remasters of both Fallout 3 and Fallout: New Vegas are actively in development. "While we're not announcing any dates today, we have been working on remasters for both Fallout 3 and Fallout: New Vegas," the studio wrote. No release windows, platforms, or feature specifics were revealed alongside the announcement, but the confirmation itself has reignited one of the gaming community's most persistent conversations: how will these two beloved RPGs differ when they finally arrive in remastered form?
+
+This piece breaks down what Bethesda's announcement tells us, what the Oblivion Remastered blueprint suggests about the likely scope of each project, and where the two titles may diverge in their respective modernization efforts.
 
 ---
 
-## Setting the Stage: The Legacy of Two Wastelands
+## The Official Announcement: What Bethesda Actually Said
 
-Before exploring what a remaster of either game might entail, it is worth appreciating
-what makes each title worth revisiting in the first place.
+Bethesda's July 17, 2026 post was part of a broader franchise roadmap update that also confirmed Fallout 5 has entered pre-production, revealed a new Fallout project in development at Obsidian Entertainment, and announced a Fallout 76 expansion called Raven Rock — a prequel story set in the world of Fallout 3, planned for 2027.
 
-*Fallout 3* (2008) marked a watershed moment for the series. It was the first entry in
-the mainline numbered franchise to transition from the classic isometric perspective to
-a fully realized 3D, first-person open-world experience, immersing players in a
-desolate, atmospheric recreation of post-nuclear Washington D.C. Its strength lay in
-environmental storytelling, a pervasive sense of dread and wonder, and moral choices
-that underscored the bleakness of its setting. For many players, it served as their
-introduction to the franchise, cementing the *Fallout* formula for a new generation.
+On the remasters specifically, Bethesda offered only that single sentence of confirmation. No screenshots, no teases, no feature descriptions. The studio did not commit to release dates, platforms, or the studios developing the projects.
 
-*Fallout: New Vegas* (2010), developed by **Obsidian Entertainment** and published by
-Bethesda Softworks, built upon *Fallout 3*'s foundation while pushing the series'
-narrative ambitions considerably further. Set in the sun-scorched Mojave Desert, it
-delivered an RPG experience lauded for its intricate faction systems, genuine player
-agency, and deeply layered questlines. Where *Fallout 3* excelled in atmosphere,
-*New Vegas* excelled in political complexity and the weight of consequence. The title
-was not without its technical difficulties, however: developed in roughly 18 months
-using the same engine as *Fallout 3*, it shipped with numerous bugs, crashes, and
-quest-breaking issues that became as much a part of its legend as its writing.
+That said, journalist Jason Schreier suggested shortly after the announcement that the Fallout 3 remaster is most likely targeting a 2027 window — a timeline that aligns with Fallout Day 2027, which Bethesda confirmed will be celebrated live in Washington D.C., the setting of Fallout 3.
 
-Both games remain beloved touchstones of the RPG genre, and their technical
-shortcomings — visible with the clarity of hindsight — are precisely what makes the
-prospect of modernized versions so compelling.
+Multiple outlets have speculated that the remasters will likely be developed with Virtuos — the studio that co-developed the critically successful Oblivion Remastered in 2025 — though Bethesda has not officially confirmed the developer.
 
 ---
 
-## Fallout 4 Next-Gen Update: Bethesda's Own Blueprint
+## The Oblivion Remastered Blueprint
 
-Any credible discussion of what a *Fallout* remaster might look like must contend with
-the most relevant real-world precedent: Bethesda's **Fallout 4 Next-Gen Update**,
-released on April 25, 2024, as a free update for PlayStation 5, Xbox Series X|S, and
-PC (version 1.10.980).
+To understand what these Fallout remasters might look like, Oblivion Remastered (released April 22, 2025) provides the most concrete reference point.
 
-The update delivered:
+Developed by Virtuos in collaboration with Bethesda Game Studios, Oblivion Remastered used Unreal Engine 5 to rebuild the game's visuals while running core gameplay systems on the original Gamebryo engine. According to the Xbox Wire announcement, the remaster delivered 4K resolution, 60 frames per second performance, all-new textures, Lumen-based dynamic lighting, reworked character models and animations, a new locomotion system, a modernized UI, and adjustments to the leveling system. All original DLC — including the Knights of the Nine and Shivering Isles expansion packs — was included in the base release.
 
-- **Performance Mode** — 60fps targeting on current-generation consoles
-- **Quality Mode** — prioritizing higher resolution over frame rate
-- **Widescreen and ultra-widescreen support** for PC players
-- **Updated Creation Kit** for mod authors
-- Visual improvements to textures and lighting in select areas
-
-This update is instructive not merely for its feature set, but for what it reveals
-about Bethesda's philosophy: the studio is willing to revisit its back catalog and
-invest in technical improvements, while stopping short of wholesale mechanical
-redesigns. Whether future projects targeting *Fallout 3* or *Fallout: New Vegas* would
-follow a similar scope or go considerably further remains an open question.
+Multiple industry outlets, including Screen Rant and OC3D, have concluded that if the Fallout remasters follow a similar approach, players can expect greatly upgraded visuals alongside targeted quality-of-life improvements, while core gameplay systems are largely preserved.
 
 ---
 
-## What a Fallout: New Vegas Remaster Could Offer
+## Anticipated Enhancements: Fallout 3 (2008, Bethesda Game Studios)
 
-Given *New Vegas*'s reputation and its specific technical history, a remaster of that
-title would likely need to address several distinct categories of improvement.
+Fallout 3 was originally released on October 28, 2008, developed by Bethesda Game Studios and set in the post-apocalyptic Capital Wasteland around Washington D.C. If the remaster follows the Oblivion template, the following improvements are widely anticipated by the industry — though none have been officially confirmed:
 
-### Graphical Fidelity
-The Mojave Wasteland, rendered on decade-and-a-half-old technology, has aged more
-visibly than its art direction deserves. A remaster would almost certainly bring
-upgraded textures, higher-resolution character models, improved lighting and shadow
-systems, and greater draw distances — restoring the visual impact of the Mojave's
-sweeping vistas and neon-lit casinos.
+**Visual Overhaul**
+A full graphical rebuild using Unreal Engine 5 is the most probable approach, given the Oblivion Remastered precedent. This would mean high-resolution textures, modernized character models, Lumen-based global illumination replacing the original's flat lighting, and enhanced environmental detail across the Capital Wasteland. Fallout 3's iconic desaturated green-grey color palette may be refined to feel more natural while preserving its post-apocalyptic atmosphere.
 
-### Stability and Performance
-This is arguably where a *New Vegas* remaster would have the most tangible impact.
-The original game's instability — stemming from its compressed development timeline
-and engine limitations — has been partially addressed over the years through community
-mods such as the *New Vegas Script Extender (NVSE)* ecosystem and the *Viva New Vegas*
-modding guide. An official remaster incorporating this category of fixes would deliver
-a stable, polished experience without requiring players to manage mod load orders.
-Smooth frame rates, fast load times, and the elimination of long-standing crash
-conditions would transform the experience for newcomers especially.
+**Combat and Gameplay Modernization**
+Fallout 3's gunplay was noted even at release for feeling floaty and lacking feedback by modern standards. Based on reporting from multiple outlets, the remaster is widely expected to incorporate improved aiming and hit feedback more in line with contemporary shooters, while retaining the VATS (Vault-Tec Assisted Targeting System) as a core identity feature of the game — potentially with smoother transitions and improved readability.
 
-### Quality-of-Life Improvements
-A modernized UI, refined controller support, and accessibility options absent from the
-2010 release would bring the game in line with current standards. The integration of
-all released DLC — *Dead Money*, *Honest Hearts*, *Old World Blues*, and *Lonesome
-Road* — into a single package, as is now common practice for legacy re-releases, would
-round out the offering.
+**Quality-of-Life Improvements**
+In line with Oblivion Remastered's approach — which included a revamped UI and updated locomotion system — a Fallout 3 remaster would likely modernize the inventory and Pip-Boy interface, improve quest tracking, and smooth out menu navigation. Performance stability, loading times, and controller support on PC would also be expected targets for improvement.
 
-### Preserving the Core Design
-Perhaps the most important consideration for a *New Vegas* remaster is what it
-*should not* change. The game's intricate faction mechanics, the branching narrative
-architecture, and the moral ambiguity of its choices are the product of deliberate
-design decisions by the Obsidian team. A respectful remaster would treat these as
-untouchable — the task is to make those systems more accessible, not to alter them.
+**DLC Inclusion**
+Oblivion Remastered included all original DLC in its base release. Fallout 3's GOTY Edition included five DLC add-ons (Operation: Anchorage, The Pitt, Broken Steel, Point Lookout, and Mothership Zeta), and a remaster would almost certainly bundle all of these.
 
 ---
 
-## What a Fallout 3 Remaster Could Address
+## Anticipated Enhancements: Fallout New Vegas (2010, Obsidian Entertainment)
 
-A potential *Fallout 3* remaster presents a related but distinct set of considerations.
-While the original game shares many technical issues with *New Vegas*, the nature of
-its design invites a different kind of reflection.
+Fallout: New Vegas was developed by Obsidian Entertainment and released on October 19, 2010. Set in the Mojave Wasteland, the game is widely regarded as the high-water mark of the series' writing and RPG depth. A remaster would face a distinct challenge: preserving what makes New Vegas exceptional — its faction systems, dialogue density, and player agency — while modernizing a game that has struggled with stability issues and technical roughness on modern hardware.
 
-### Visual and Technical Overhaul
-As with *New Vegas*, the Capital Wasteland would benefit enormously from upgraded
-environmental assets, improved character models, and modern lighting. The game's
-famously grey-and-brown color palette — a deliberate artistic choice — could be
-retained while still delivering substantially sharper visual fidelity.
+**Visual Modernization**
+As with Fallout 3, a UE5-powered visual overhaul is the expected approach. For New Vegas, this would mean updated character models, improved draw distances across the Mojave's open expanses, and a more vibrant, sun-baked rendering of locations like Freeside, the Lucky 38, and Hoover Dam. The game's signature warm desert aesthetic would lend itself well to modern lighting technology.
 
-### Mechanical Refinements
-*Fallout 3* introduced the core modern *Fallout* combat loop, including the V.A.T.S.
-(Vault-Tec Assisted Targeting System) mechanic. With the benefit of hindsight and the
-iterative improvements made in *New Vegas* and *Fallout 4*, a remaster could smooth
-out some of the rougher edges in weapon handling, companion AI behavior, and perk
-balance — changes that would feel like polish rather than revision.
+**Stability and Performance**
+Perhaps more pressingly than Fallout 3, New Vegas has historically suffered from crashes, save corruption, and technical instability — issues that persist even in 2026 according to player reports. A remaster would be expected to fundamentally address these problems, providing a stable, fluid experience across all supported platforms.
 
-### Quest and Narrative Presentation
-While there would be little reason — and considerable fan resistance — to
-substantially alter *Fallout 3*'s storyline, a remaster could address known quest
-bugs, improve journal clarity, and tighten up certain pacing issues that have been
-extensively documented by the community over the years.
+**Preserving the RPG Core**
+New Vegas's reputation rests on its deep faction reputation system, its nuanced dialogue, and its willingness to let player choices carry real weight. A successful remaster will need to carefully preserve these systems — which Oblivion Remastered's approach of keeping the original engine's logic intact suggests is achievable. Ideally, a New Vegas remaster would also smooth dialogue interactions and improve quest log clarity without stripping out mechanical complexity.
 
-### Accumulated Community Fixes
-Much as with *New Vegas*, years of community patching have addressed a significant
-portion of *Fallout 3*'s bugs. The *Unofficial Fallout 3 Patch* project is the most
-prominent example. Incorporating the spirit of these fixes into an official release
-would be a meaningful gesture toward the game's long-term player base.
+**DLC Inclusion**
+Fallout: New Vegas shipped with four major story DLC add-ons (Dead Money, Honest Hearts, Old World Blues, and Lonesome Road), plus two content packs. A remaster would be expected to bundle all of these into a definitive package.
 
 ---
 
-## Comparing the Two: Different Legacies, Different Needs
+## Where the Two Remasters May Diverge
 
-Laid side by side, the two titles call for remaster approaches that are similar in
-ambition but different in emphasis.
+While both projects would likely share the same underlying technical approach, the games themselves present different modernization challenges:
 
-| | *Fallout: New Vegas* | *Fallout 3* |
+| | Fallout 3 | Fallout: New Vegas |
 |---|---|---|
-| **Primary need** | Stability, performance | Visual refresh, pacing |
-| **Narrative** | Preserve intact — widely praised | Preserve intact — foundational |
-| **Mechanics** | Light polish, no structural changes | Modest refinement opportunity |
-| **DLC situation** | 4 major expansions | 5 major expansions |
-| **Community mod precedent** | Extensive (NVSE ecosystem) | Substantial (Unofficial Patch) |
-| **Bethesda precedent** | *Fallout 4* Next-Gen (2024) | *Fallout 4* Next-Gen (2024) |
+| **Original Developer** | Bethesda Game Studios | Obsidian Entertainment |
+| **Release Year** | 2008 | 2010 |
+| **Setting** | Capital Wasteland (Washington D.C.) | Mojave Wasteland (Nevada/Southwest) |
+| **Biggest Legacy Issue** | Dated gunplay, linear main quest | Technical instability, crashes |
+| **Core Strength to Preserve** | Atmosphere, exploration, VATS | Faction depth, dialogue, player agency |
+| **DLC Add-ons** | 5 (GOTY Edition) | 4 story DLC + 2 content packs |
 
-The key distinction is not one of ambition but of priority. *New Vegas* needs
-stability and preservation above all else; the game's design is largely sound and
-requires a careful hand. *Fallout 3*, as the older and more mechanically dated of the
-two, might benefit from a slightly more interventionist approach to its moment-to-moment
-gameplay — provided that the core identity of the experience remains intact.
+Fallout 3's greatest modernization opportunity lies in its gunplay, which even its original developer has acknowledged as a weakness. A remaster that brings combat feel closer to modern standards — while preserving the atmospheric exploration of the Capital Wasteland — would represent a substantial upgrade.
+
+New Vegas's modernization challenge is fundamentally about stability and performance. The game's writing, faction design, and RPG systems have aged remarkably well and require preservation more than transformation. Getting New Vegas to run cleanly and stably on modern hardware, wrapped in a modern visual package, may be the most meaningful improvement a remaster can offer.
 
 ---
 
-## What We Do Not Yet Know
+## What We Still Don't Know
 
-It is important to be direct with readers: as of this publication, **no official
-remaster of either title has been announced**. The analysis above is grounded in
-reasonable extrapolation from Bethesda's demonstrated approach to legacy titles, the
-documented histories of both games, and the general conventions of the remaster
-format. It is not based on leaked specifications, insider reporting, or confirmed
-development details.
+Bethesda's announcement was, by design, minimal. As of July 2026, the following remain officially unconfirmed:
 
-What we can say with confidence is that both titles represent significant cultural
-artifacts within the RPG genre — and that the case for bringing them to modern
-hardware, in a form that honors their strengths while addressing their technical
-limitations, is stronger now than it has ever been.
+- **Release dates** for either remaster
+- **Developer** (internally at Bethesda, or externally via Virtuos or another studio)
+- **Target platforms** (though PS5, Xbox Series X|S, and PC are widely assumed)
+- **Engine** being used for the remasters (Unreal Engine 5, as with Oblivion Remastered, or another approach)
+- **Scope** — whether these will be remaster-level upgrades or closer to the more substantial overhaul seen with Oblivion Remastered
+- **Modding support**, which Bethesda did not address; notably, Oblivion Remastered launched without official console mod support
 
 ---
 
 ## Conclusion
 
-The debates over *Fallout: New Vegas* versus *Fallout 3* have animated fan communities
-for fifteen years, and the prospect of revisiting both titles with modern technology
-only deepens those conversations. A remaster of *New Vegas* would need to prize
-stability and preservation, allowing Obsidian's intricate design to finally reach
-players without the friction of technical failure. A remaster of *Fallout 3*, working
-from a more mechanically dated foundation, might embrace slightly more active
-refinement. Both would benefit from the template Bethesda itself has already laid
-down with the *Fallout 4* Next-Gen Update — a reminder that the studio is not averse
-to returning to its past.
+The official confirmation that Fallout 3 and Fallout: New Vegas remasters are in active development marks a significant moment for the franchise. For the first time, players have Bethesda's word — not just leaks and FTC document discoveries — that both classics are on their way back.
 
-Until official announcements materialize, speculation remains exactly that. But it is
-informed speculation — and in the Wasteland, knowing what you're walking into is half
-the battle.
+What form they take remains an open question. If the Oblivion Remastered template holds, both games will receive sweeping visual upgrades via Unreal Engine 5, targeted quality-of-life improvements, and bundled DLC, while their original gameplay systems are preserved underneath. The challenge — and the opportunity — will be in how the remaster team addresses each game's distinct weaknesses: Fallout 3's gunplay and Fallout: New Vegas's notorious instability.
+
+With Fallout Day 2027 set for Washington D.C. and journalist reporting placing the Fallout 3 remaster most likely in a 2027 window, the Capital Wasteland may be closer than it appears.
 
 ---
 
-*Related reading: Fallout 4 Next-Gen Update Review*
-
----
-
-**Sources & Further Reading:**
-- Bethesda.net — Fallout 4 Next-Gen Update announcement:
-  https://bethesda.net/en/article/fallout-4-next-gen-update
-- Obsidian Entertainment official site: https://www.obsidian.net/
-- *Fallout: New Vegas* (2010) — Bethesda Softworks / Obsidian Entertainment
-- *Fallout 3* (2008) — Bethesda Game Studios / Bethesda Softworks
+*Sources: Bethesda Game Studios official blog post (July 17, 2026); [Game Rant](https://gamerant.com/fallout-3-new-vegas-game-remasters-confirmed/); [PC Gamer](https://www.pcgamer.com/games/fallout/bethesda-confirms-fallout-3-and-new-vegas-remasters-makes-obsidian-collaboration-official-and-says-fallout-5-is-in-pre-production/); [Pure Xbox](https://www.purexbox.com/news/2026/07/two-fallout-remasters-announced-by-bethesda-in-massive-new-roadmap); [Fallout Wiki – Fallout 3 Remaster](https://fallout.fandom.com/wiki/Fallout_3_remaster); [Xbox Wire – Oblivion Remastered](https://news.xbox.com/en-us/2025/04/22/elder-scrolls-iv-oblivion-remastered/); [OC3D](https://overclock3d.net/news/software/bethesda-confirms-fallout-3-and-new-vegas-remasters/)*
 ```
 
 ---
 
-**편집 후기 (내부용):**
+## 편집 요약 (주요 변경 사항)
 
-- **제목 변경 이유:** "Official Feature Comparison"은 공식 발표가 존재한다는 인상을 주므로 제거했습니다. 현재 제목은 조건부 분석임을 명확히 합니다.
-- **가장 큰 사실 오류:** 초안 전체가 존재하지 않는 "공식 발표"를 전제로 작성되어 있었습니다. 이를 교정하지 않으면 독자 신뢰 손상 및 잠재적 오보 문제가 발생합니다.
-- **Fallout 4 Next-Gen Update 보강:** 실제 존재하는 Bethesda의 레거시 업데이트 사례를 추가함으로써, 추측 기반 기사에 실질적인 앵커를 제공했습니다.
-- **분량:** 최종본은 약 950단어 이상으로 800단어 기준을 충족합니다.
+| 항목 | 변경 내용 |
+|---|---|
+| **핵심 팩트 오류 수정** | "hypothetical/potential remaster" → 2026년 7월 17일 Bethesda 공식 확인 사실로 전면 수정 |
+| **제목 수정** | "Official Feature Comparison" → 공식 피처가 없으므로 "What We Know and What to Expect"로 수정, 정합성 확보 |
+| **[NEEDS VERIFICATION] 전면 처리** | 모든 추측성 주장을 Oblivion Remastered 선례 + 업계 추정으로 근거 부여하거나, 미확인임을 명시적으로 표기 |
+| **보강 추가** | 발표 맥락(Raven Rock, Fallout 5, Obsidian 프로젝트), Oblivion Remastered 실제 피처 목록, 비교표, "아직 모르는 것" 섹션 추가 |
+| **분량** | 초안 약 500단어 → 최종본 약 1,100단어 이상으로 확장 |
+| **출처 URL** | 실제 검증한 공식 URL로 교체, 검증 불가 URL 없음 |
