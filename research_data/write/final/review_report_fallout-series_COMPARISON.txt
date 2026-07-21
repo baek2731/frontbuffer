@@ -1,179 +1,223 @@
-먼저 초안에 포함된 모든 주장과 URL을 검증하기 위한 웹 검색을 병렬로 수행합니다.이제 두 번째 YouTube URL과 Creation Club/Fallout London 관련 주장을 검증합니다.모든 검색 결과를 수집했습니다. 이제 단계별 작업을 수행합니다.
+초안을 분석하고 웹 검색을 시작하겠습니다.이제 충분한 정보를 수집했습니다. 판정 리포트 작성을 시작합니다.
 
 ---
 
 ## [1단계] 위험 주장 추출
 
-초안에서 검증이 필요한 주장 목록:
+초안에서 검증이 필요한 주장들:
 
-1. **"official details regarding a *Fallout New Vegas* remaster or *Fallout 3* remaster remain largely speculative"** — 공식 발표 여부 주장
-2. **제목: "Official Feature Comparison"** — 비교 대상(FNV vs FO3 remaster)의 공식 정보 존재 여부
-3. **소스 URL 1:** `https://www.youtube.com/watch?v=-liNASQJGVo` — 실존 여부
-4. **소스 URL 2:** `https://www.youtube.com/watch?v=3wGZqwoi_-U` — 실존 여부
-5. **"Creation Club" 언급** — 현재 Creation Club이 존재/운영 중인지 여부
-6. **"Fallout London" being available on Creation Club** — Creation Club에 Fallout London이 실제로 올라갔는지
-7. **비교 주장: "*New Vegas* remaster... rival... *Red Dead Redemption 2*"** — 커뮤니티 의견 출처 확인
-8. **COMPARISON content_type 정합성** — 비교 대상 양쪽(FNV vs FO3) 정보가 균형있게 다뤄지는지
+1. **"no official announcements from Bethesda regarding a remaster for either Fallout New Vegas or Fallout 3"** — 공식 발표 없다는 핵심 주장
+2. **"community often reflects on the long wait for new titles, jokingly noting that the 'well was so dry they decided the next 5 years they'd make up for the lost time'"** — YouTube 커뮤니티 인용구
+3. **"the engine and graphical prowess of Red Dead Redemption 2"** — 팬들이 원하는 기술 비교 주장
+4. **"developer Obsidian's take on the franchise"** — Obsidian이 New Vegas를 만든 개발사라는 사실 주장
+5. **"a studio at the time filled with ex-Fallout 1 and 2 staffers"** (GamesRadar 인용 부분과 유사) — Obsidian 구성원 관련 주장
+6. **"Creation Club" 관련 설명** — 실제 Creation Club 기능 설명 정확성
+7. **두 YouTube URL의 실존 여부** — https://www.youtube.com/watch?v=-liNASQJGVo 와 https://www.youtube.com/watch?v=3wGZqwoi_-U
+8. **"Fallout London" could be easily integrated** — Fallout London의 실제 성격(Creation Club vs 독립 모드)
+9. **제목-내용 정합성** — 제목이 "Official Feature Comparison"인데 실제 공식 비교가 없음
 
 ---
 
-## [2단계] 웹 검색 검증 결과
+## [1.5단계] COMPARISON 추가 체크
 
-### [검증 1] "Fallout 3·New Vegas 리마스터 공식 정보가 없다 (largely speculative)"
-- **판정: ❌ 틀림**
-- Bethesda Game Studios는 2026년 7월 17일 공식 웹사이트 게시물을 통해 Fallout 3 리마스터가 활발히 개발 중임을 공식 확인했으며, 발매 일정은 발표하지 않았습니다.
-- 베데스다는 공식 블로그 게시물에서 "While we're not announcing any dates today, we have been working on remasters for both Fallout 3 and Fallout: New Vegas"라고 밝혔습니다.
-
-### [검증 2] YouTube URL 1: `https://www.youtube.com/watch?v=-liNASQJGVo`
-- **판정: ✅ 실존**
-- 해당 URL은 실존하며, "Fallout 5, Fallout 3 & New Vegas Remasters CONFIRMED. Details Explained." 영상으로, 베데스다 Fallout 로드맵 발표를 다루고 있습니다.
-
-### [검증 3] YouTube URL 2: `https://www.youtube.com/watch?v=3wGZqwoi_-U`
-- **판정: ✅ 실존 (단, Shorts 포맷)**
-- "NEW Vegas Remastered" FALLOUT NEW VEGAS EDIT 🏜️ 영상은 YouTube Shorts(`/shorts/3wGZqwoi_-U`)로 실존하며 2024년 12월 5일에 게시됐습니다. 다만 이 영상은 공식 발표나 뉴스가 아닌 팬 편집 영상이며, URL은 `/watch?v=` 형식이 아닌 `/shorts/` 형식으로 수정이 필요합니다.
-
-### [검증 4] "Creation Club"이 현재 운영 중인가
-- **판정: ❌ 틀림 (구버전 명칭)**
-- Creation Club은 2025년 11월 10일 Fallout 4: Anniversary Edition 출시와 함께 유사한 이름의 Creations 시스템 및 Verified Creator Program으로 교체되어 종료됐습니다. 따라서 초안의 "Creation Club"은 현재 명칭인 "Creations" 시스템으로 수정되어야 합니다.
-
-### [검증 5] "Fallout London이 Creation Club에 유료로 올라갈 수 있다"는 주장
-- **판정: ❌ 사실 무근**
-- 기존 Creation Club 정책상 "Mods will remain a free and open system"이며, "we won't allow any existing mods to be retrofitted into Creation Club, it must all be original content"라고 명시되어 있었습니다.
-- Fallout London 모드는 2024년 7월 25일 공개됐으며, GOG·Steam·Epic 등을 통해 무료로 배포됩니다. Creation Club에 유료로 올라갔다는 사실 확인 불가. 해당 주장은 커뮤니티 의견으로 명확히 재서술되거나 삭제 필요.
-
-### [검증 6] 제목 "Official Feature Comparison" 정합성
-- **판정: ⚠️ 심각한 불일치**
-- 제목은 "공식 기능 비교(Official Feature Comparison)"를 약속하고 있으나, 베데스다는 공식 업데이트에서 발매 일정도, 지원 플랫폼도 공개하지 않았습니다. 본문은 오직 팬 커뮤니티의 희망사항을 정리한 내용이며 "공식 기능 비교"는 존재하지 않음. 제목 수정 필요.
-
-### [검증 7] COMPARISON content_type 균형성 체크
-- **판정: ⚠️ 심각한 불균형**
-- 초안은 Fallout New Vegas 팬들의 바람을 훨씬 더 구체적으로 기술하는 반면, Fallout 3에 대한 내용은 "less specific on technical details"라고 스스로 인정할 정도로 부족. 균형있는 비교가 되려면 FO3에 대한 내용도 보강 필요.
-
-### [검증 8] "Fallout 3" 원작 개발사/출시 연도
-- **판정: ✅ 정확**
-- Fallout 3는 2008년 처음 출시됐으며 베데스다의 첫 번째 Fallout 게임이었고, New Vegas는 당시 전직 Fallout 1·2 개발자들이 채운 스튜디오인 Obsidian Entertainment가 제작했으며 팬들로부터 프랜차이즈 최고의 작품으로 널리 평가받습니다.
-
-### [검증 9] "Fallout: New Vegas" 원작 개발사
-- **판정: ✅ 정확**
-- Fallout: New Vegas는 Obsidian Entertainment가 개발하고 Bethesda Softworks가 퍼블리싱한 액션 RPG입니다.
+- **비교 대상 균형:** 초안은 New Vegas와 Fallout 3를 비교하는 것처럼 제목을 달았지만, 실제 내용은 팬 커뮤니티 희망사항을 나열한 형태. "Official Feature Comparison"이라는 제목과 내용이 완전히 불일치.
+- **현재 상태 확인:** 초안의 핵심 전제("no official announcements")가 **2026년 7월 17일 베데스다 공식 발표**로 완전히 뒤집힘 → 초안 전체를 현실에 맞게 업데이트 필요.
+- **[보강]:** 베데스다의 공식 발표 내용(두 리마스터 확정, Obsidian 협업 확정, Fallout 5 프리프로덕션, Unreal Engine 5 방식 등) 추가.
+- **URL 실존:** YouTube URL 2개는 검색으로 직접 확인이 어려우나, 초안 자체가 YouTube 댓글을 소스로 사용하여 신뢰성이 낮음. 현재는 공식 발표 사실이 존재하므로 더 신뢰할 수 있는 소스로 대체 권고.
 
 ---
 
 ## [3단계] 판정 리포트
 
-**[검증 1]** "Fallout 3·New Vegas 리마스터 공식 정보가 거의 없다"
-판정: ❌ 틀림
-근거: 베데스다가 2026년 7월 17일 공식 웹사이트를 통해 두 작품의 리마스터 개발을 공식 확인했습니다. 단, 발매 일정과 플랫폼은 미공개 상태입니다.
-- 출처: https://www.thegamer.com/fallout-3-new-vegas-remasters-confirmed/ | https://fallout.fandom.com/wiki/Fallout_3_remaster
+---
 
-**[검증 2]** YouTube URL 1 (`-liNASQJGVo`) 실존 여부
-판정: ✅ 사실
-근거: 해당 URL은 실존하는 YouTube 영상으로 확인됩니다.
-- 출처: https://www.youtube.com/watch?v=-liNASQJGVo
+**[검증 1]** "베데스다로부터 Fallout New Vegas 또는 Fallout 3 리마스터에 대한 공식 발표가 없다"
 
-**[검증 3]** YouTube URL 2 (`3wGZqwoi_-U`) 실존 여부
-판정: ⚠️ 부분 수정
-근거: 영상은 실존하나, YouTube Shorts 형식(`/shorts/3wGZqwoi_-U`)으로 URL 형식 수정 필요. 또한 이 영상은 팬이 제작한 편집 영상으로, 공식 정보 소스가 아님을 명확히 해야 합니다.
-- 출처: https://www.youtube.com/shorts/3wGZqwoi_-U
+판정: ❌ **틀림**
 
-**[검증 4]** "Creation Club" 명칭 현재 유효성
-판정: ❌ 틀림
-근거: Creation Club은 2025년 11월 10일 Fallout 4: Anniversary Edition 출시와 함께 "Creations" 시스템으로 교체·종료됐습니다. 현재 시점 기준 "Creation Club"이라는 명칭은 더 이상 유효하지 않습니다.
-- 출처: https://fallout.fandom.com/wiki/Creation_Club
-
-**[검증 5]** "Fallout London이 Creation Club에 유료로 올라갈 수 있다"
-판정: ❌ 사실 무근
-근거: Creation Club/Creations 정책상 기존 무료 모드를 유료 플랫폼에 통합하는 것은 허용되지 않습니다. Fallout London은 현재까지도 무료로 배포됩니다. 해당 내용은 어디까지나 팬 커뮤니티의 가상 희망 사항임을 명확히 하거나, 정책에 위배됨을 언급해야 합니다.
-- 출처: https://fallout.wiki/wiki/Creation_Club | https://fallout4london.com/
-
-**[검증 6]** 제목 "Official Feature Comparison" 정합성
-판정: ⚠️ 심각한 불일치
-근거: 제목이 약속한 "공식 기능 비교"는 본문에 존재하지 않습니다. 현재 베데스다는 두 리마스터에 대해 스크린샷·티저·기능 상세 정보를 일절 공개하지 않은 상태입니다. 제목을 "Community Expectations Compared" 또는 "Fan Wishlist Compared" 수준으로 수정해야 합니다.
-- 출처: https://gizmodo.com/obviously-bethesda-is-remastering-fallout-new-vegas-and-fallout-3-2000787259
-
-**[검증 7]** 비교 콘텐츠 균형성 (COMPARISON 타입)
-판정: ⚠️ 보강 필요
-근거: Fallout New Vegas 관련 팬 반응이 Fallout 3 대비 과도하게 상세합니다. 베데스다 공식 발표를 기반으로 양쪽을 균형있게 보강해야 합니다.
+근거: 2026년 7월 17일, 베데스다 게임 스튜디오는 공식 웹사이트 및 X(트위터) 성명을 통해 Fallout 3와 Fallout: New Vegas 두 타이틀의 리마스터가 개발 중임을 공식 확인했습니다. 다만 출시 날짜는 미공개 상태입니다.
+- 출처: https://gamesradar.com/games/fallout/fallout-3-and-fallout-new-vegas-are-both-getting-remasters-bethesda-announces/ / https://fallout.fandom.com/wiki/Fallout_3_remaster
 
 ---
 
-**[보강 1]** "베데스다 공식 발표 내용 (2026년 7월 17일)" 추가
-베데스다가 공식 확인한 리마스터 개발 사실 및 Oblivion Remastered와의 비교, Fallout 30주년(2027) 이벤트 연관성 등을 새 섹션으로 추가.
-— 출처: https://www.thegamer.com/fallout-3-new-vegas-remasters-confirmed/ | https://kotaku.com/fallout-5-is-in-preproduction-and-fallout-3-and-new-vegas-remasters-are-on-the-way-2000717079
+**[검증 2]** "developer Obsidian's take on the franchise" — Obsidian이 Fallout 프랜차이즈 개발사로서의 역할
 
-**[보강 2]** "Creation Club → Creations 시스템으로의 전환" 내용 반영
-모딩 섹션을 현재 상황(Creations)에 맞게 업데이트.
-— 출처: https://fallout.fandom.com/wiki/Creation_Club
+판정: ✅ **사실 (부분 보강 필요)**
+
+근거: Obsidian Entertainment는 Fallout: New Vegas(2010)를 개발한 스튜디오입니다. 다만 초안은 Obsidian을 마치 Fallout 시리즈 전체의 핵심 개발사처럼 묘사하는데, 실제로는 Fallout 3·4·76은 Bethesda Game Studios가 개발했습니다. 2026년 7월 17일 발표에서 Obsidian이 Bethesda와 협력해 **새로운** Fallout 게임을 개발 중임이 공식 확인되었으며, 이 프로젝트는 New Vegas 디렉터인 Josh Sawyer가 이끌 예정입니다.
+- 출처: https://www.pcgamer.com/games/fallout/obsidian-is-reportedly-making-a-new-fallout-game-headed-by-josh-sawyer-after-microsoft-pulled-the-plug-on-an-avowed-sequel/ / https://www.pushsquare.com/news/2026/07/obsidian-is-officially-making-a-new-fallout-game
+
+---
+
+**[검증 3]** "a studio at the time filled with ex-Fallout 1 and 2 staffers" — GamesRadar 원문의 Obsidian 설명
+
+판정: ⚠️ **부분 수정**
+
+근거: Obsidian은 Black Isle Studios(Interplay Entertainment 산하) 출신 개발자들이 세운 스튜디오로, Black Isle가 Fallout 1, 2를 개발했습니다. 따라서 "Fallout 1 and 2 staffers"는 부분적으로 맞지만, 모든 Obsidian 멤버가 Fallout 1·2 개발자 출신은 아니었습니다. 보다 정확한 표현은 "founded by former Black Isle Studios developers, several of whom worked on the original Fallout games"입니다.
+- 출처: https://en.wikipedia.org/wiki/Obsidian_Entertainment / https://fallout.wiki/wiki/Obsidian_Entertainment
+
+---
+
+**[검증 4]** "the engine and graphical prowess of Red Dead Redemption 2" — 팬들이 원하는 기술 레퍼런스
+
+판정: ⚠️ **문맥 수정 필요**
+
+근거: 이 주장은 YouTube 댓글 팬 의견을 인용한 것으로 팩트 자체가 아니라 팬 희망사항입니다. 그러나 현재 공식적으로 확인된 바에 따르면, Oblivion Remastered가 Unreal Engine 5를 사용해 성공적으로 출시된 점을 미루어 Fallout 리마스터들도 유사한 방식(UE5)을 사용할 것이라는 업계 예측이 유력합니다. 따라서 RDR2 엔진 비교는 현재 맥락에서 오해를 줄 수 있어 업데이트가 필요합니다.
+- 출처: https://screenrant.com/fallout-3-new-vegas-remake-announcement-bethesda/ / https://en.wikipedia.org/wiki/The_Elder_Scrolls_IV:_Oblivion_Remastered
+
+---
+
+**[검증 5]** "Creation Club"을 통해 "Fallout London" 같은 대형 모드가 쉽게 통합될 수 있다는 주장
+
+판정: ❌ **틀림**
+
+근거: Fallout London은 Creation Club 콘텐츠가 아닙니다. Fallout: London은 Fallout 4의 전체 전환 모드(total conversion mod)로 2024년 7월에 출시되었으며, Team FOLON이라는 커뮤니티 팀이 독립적으로 개발한 무료 프로젝트입니다. Creation Club은 Bethesda가 큐레이션하는 유료 공식 마켓플레이스이며, Fallout London과는 별개입니다. 초안의 해당 문장은 Fallout London을 Creation Club과 연결 짓는 잘못된 인상을 줍니다.
+- 출처: https://en.wikipedia.org/wiki/Fallout:_London / https://fallout4london.com/faq/
+
+---
+
+**[검증 6]** YouTube URL 두 개의 실존 여부 (https://www.youtube.com/watch?v=-liNASQJGVo, https://www.youtube.com/watch?v=3wGZqwoi_-U)
+
+판정: ⚠️ **확인 불가 → 제거 권고**
+
+근거: 두 YouTube URL은 웹 검색을 통해 실존 여부를 독립적으로 확인할 수 없었습니다. 초안 자체가 YouTube 댓글을 1차 소스로 사용하고 있는데, 이는 저널리즘 및 편집 기준으로 신뢰도가 낮은 소스입니다. 현재 공식 발표 사실이 명확히 확인되었으므로, 팬 댓글 직접 인용 대신 공식 소스 기반으로 내용을 재구성하는 것이 바람직합니다. 인용 문구들(예: "sell [their] soul, do ANYTHING" 등)은 최종본에서 삭제하거나 일반화합니다.
+
+---
+
+**[검증 7]** 제목 "Official Feature Comparison"과 본문 내용 정합성
+
+판정: ❌ **제목-내용 불일치**
+
+근거: 초안 제목은 "Fallout New Vegas vs Fallout 3 Remaster: Official Feature Comparison"이라고 약속하지만, 본문에는 실제 공식 피처 비교가 전혀 없습니다. 더욱이 2026년 7월 17일 베데스다 공식 발표 이후 두 리마스터의 개발이 확인되었으므로, 현재까지 공개된 정보(Oblivion Remastered의 UE5 방식을 참고한 예측, 공식 발표 내용 등)를 활용해 실질적 비교 콘텐츠를 보강해야 합니다.
+- 출처: https://gamesradar.com/games/fallout/fallout-3-and-fallout-new-vegas-are-both-getting-remasters-bethesda-announces/
+
+---
+
+**[보강 1]** 베데스다 2026년 7월 17일 공식 발표: Fallout 3 및 New Vegas 리마스터 개발 중 확인, 출시일 미공개, Fallout 5 프리프로덕션 돌입, Obsidian과 신규 Fallout 게임 협업 공식 확인
+— 출처: https://www.pcgamer.com/games/fallout/bethesda-confirms-fallout-3-and-new-vegas-remasters-makes-obsidian-collaboration-official-and-says-fallout-5-is-in-pre-production/ / https://kotaku.com/fallout-5-is-in-preproduction-and-fallout-3-and-new-vegas-remasters-are-on-the-way-2000717079
+
+**[보강 2]** Oblivion Remastered(2025)가 Unreal Engine 5 시각 레이어 + Gamebryo 코어 방식으로 출시된 성공 사례 — Fallout 리마스터도 유사한 접근 방식이 예상됨
+— 출처: https://en.wikipedia.org/wiki/The_Elder_Scrolls_IV:_Oblivion_Remastered
+
+**[보강 3]** Obsidian이 New Vegas를 18개월이라는 짧은 개발 기간 내에 완성했고, Josh Sawyer가 디렉터, John Gonzalez가 수석 작가였다는 역사적 맥락
+— 출처: https://en.wikipedia.org/wiki/Fallout:_New_Vegas
+
+**[보강 4]** Fallout TV 시즌 2(Amazon Prime)가 2025년 12월에 방영되어 New Vegas에 대한 팬들의 관심을 다시 높였음
+— 출처: https://gizmodo.com/obviously-bethesda-is-remastering-fallout-new-vegas-and-fallout-3-2000787259
 
 ---
 
 ## [4단계] 클러스터 내 기존 발행글 정합성 체크
 
-기존 발행글과 충돌 없음 (동일 클러스터 기존 발행글 없음)
+기존 발행글과 충돌 없음 (이 클러스터 기존 발행글 없음)
 
 ---
 
 ## [5단계] 수정 반영된 최종본
 
-> ⚠️ **분량 체크:** 초안 추정 약 680단어 → 아래 최종본은 보강을 통해 800단어 이상으로 맞췄습니다.
-
 ```markdown
-# Fallout New Vegas vs. Fallout 3 Remaster: What the Community Wants
+# Fallout New Vegas vs. Fallout 3 Remaster: What We Know and What Fans Want
 
-After years of speculation, Bethesda Game Studios officially confirmed on July 17, 2026, that it is working on remasters of both *Fallout 3* and *Fallout: New Vegas*. In a formal statement posted to the Bethesda website, Todd Howard wrote: "While we're not announcing any dates today, we have been working on remasters for both Fallout 3 and Fallout: New Vegas." No screenshots, release windows, or supported platforms have been disclosed yet. With official details still thin, the community's hopes and expectations for these two projects have never been louder — and comparing them reveals just how differently fans think about each game's legacy.
+For years, remastered versions of *Fallout: New Vegas* and *Fallout 3* existed only in the realm of community wishful thinking. That changed on **July 17, 2026**, when Bethesda Game Studios issued an official studio statement confirming that both titles are actively in development. The announcement, published simultaneously on Bethesda's official website and on X (formerly Twitter), represents one of the most significant updates to the *Fallout* franchise in years — and it arrives against a backdrop of sweeping restructuring across Xbox.
 
-### The Official Confirmation: What Bethesda Actually Said
-
-The announcement arrived as part of a broader Fallout franchise roadmap, alongside confirmation that Fallout 5 has entered pre-production and that Obsidian Entertainment is collaborating with Bethesda on a separate new Fallout project. The remasters were referenced only briefly, with no imagery or technical detail attached. Bethesda has not confirmed which platforms the remasters will target, leaving availability on Nintendo Switch 2 and other systems unresolved. Journalist Jason Schreier noted in a July 17 YouTube video that the Fallout 3 remaster is likely targeting a 2027 release window — potentially tied to Fallout's 30th anniversary live event in Washington, D.C. The announcement was widely seen as confirmation of a poorly kept secret: the Fallout 3 remaster had previously leaked via Microsoft court documents as far back as 2023, and a remaster of New Vegas was reported by Windows Central in early 2026.
-
-For context, Bethesda's most recent comparable project — *The Elder Scrolls IV: Oblivion Remastered* — was rebuilt in Unreal Engine 5 while preserving the core gameplay of the original. Many analysts expect the Fallout remasters to follow a similar approach.
-
-### Fan Vision for a *Fallout: New Vegas* Remaster
-
-The community's vision for a *Fallout: New Vegas* remaster is particularly detailed. Many fans dream of an overhaul that incorporates the visual fidelity and gameplay mechanics of titles like *Red Dead Redemption 2*, pairing the acclaimed writing and deep RPG systems of the original with fluid modern controls and fully realised Mojave Desert environments. [Source: YouTube Shorts – "NEW Vegas Remastered" FALLOUT NEW VEGAS EDIT 🏜️](https://www.youtube.com/shorts/3wGZqwoi_-U)
-
-The desire runs deeper than graphics. *New Vegas*, developed by Obsidian Entertainment and released in October 2010, is built around faction politics, moral ambiguity, and highly reactive quest design — qualities that fans argue are just as important to preserve as any visual upgrade. Some community members have expressed concern that a remaster could sand down the game's rough edges in ways that compromise its identity, while others simply want a stable, crash-resistant version of a notoriously buggy classic. Crucially, a former *New Vegas* developer had publicly argued for years that a remaster was unlikely because Bethesda lacked the engineering know-how to work with Obsidian's source code — making the official confirmation all the more significant.
-
-### Desired Enhancements for a *Fallout 3* Remaster
-
-Fan enthusiasm for a *Fallout 3* remaster is equally strong, though the community's wishlist tends toward fundamentals rather than transformational changes. [Source: YouTube – Fallout 5, Fallout 3 & New Vegas Remasters CONFIRMED](https://www.youtube.com/watch?v=-liNASQJGVo)
-
-Released in 2008, *Fallout 3* was Bethesda's first entry in the franchise and introduced the series to 3D open-world gameplay in the irradiated ruins of Washington, D.C. — the Capital Wasteland. Players generally envision the remaster delivering updated lighting and textures, improved frame rates on current-generation hardware, and quality-of-life fixes that bring the game in line with modern standards. The iconic green tint of the Capital Wasteland and its grim atmosphere are elements the community largely wants preserved rather than replaced with photorealistic neutrality. A Fallout 76 expansion titled *Raven Rock* — a prequel story set in the Fallout 3 universe — is scheduled for 2027, which many fans read as a signal that Bethesda is deliberately building momentum toward the Fallout 3 remaster's eventual reveal.
-
-### Community Perspectives: Comparing the Two Remasters
-
-Placed side by side, community expectations for the two remasters diverge in instructive ways:
-
-| | *Fallout 3* Remaster | *Fallout: New Vegas* Remaster |
-|---|---|---|
-| **Primary Developer (Original)** | Bethesda Game Studios | Obsidian Entertainment |
-| **Original Release** | 2008 | October 2010 |
-| **Setting** | Capital Wasteland (Washington, D.C.) | Mojave Desert (Las Vegas) |
-| **Fan Priority #1** | Visual fidelity + stability | Story/RPG systems preserved |
-| **Fan Priority #2** | Modern resolution/frame rate | Modern controls & performance |
-| **Main Community Concern** | Loss of gritty atmosphere | Dilution of narrative complexity |
-
-Both camps agree on one point: they do not want simple re-releases. The demand is for comprehensive overhauls that respect each game's identity.
-
-### Modding and Content Delivery: The Creations System
-
-Beyond graphical upgrades, some community members discuss what role Bethesda's modding ecosystem might play in future remasters. It is worth noting that the original Creation Club — Bethesda's paid modding storefront — was discontinued in November 2025 and replaced by the **Creations** system, launched alongside *Fallout 4: Anniversary Edition*. The new Creations platform combines both official content and a Verified Creator Program for community developers, streamlining discovery and ensuring compatibility with the base game. [Source: Fallout Wiki – Creation Club](https://fallout.fandom.com/wiki/Creation_Club)
-
-Some players hope the remasters will launch with robust Creations support from day one, making community content more accessible than ever. However, it is important to clarify that existing free mods — including large community projects like *Fallout: London*, a DLC-sized total conversion released in July 2024 — cannot be ported into the paid Creations system under Bethesda's own stated policies, which require all Creations content to be original and purpose-built for the platform.
-
-### The Community Verdict
-
-The overall picture is clear: demand for both remasters is immense, and both fanbases are ready. Where the expectations diverge is telling. *New Vegas* fans worry about preserving a game they consider the pinnacle of the franchise's writing and RPG design; *Fallout 3* fans are more focused on bringing a beloved foundational experience to modern hardware with minimal compromise. What unites both groups is the conviction that Bethesda finally has the franchise momentum — fueled by the success of the *Fallout* TV series and the proven commercial template of *Oblivion Remastered* — to deliver something worthy of the originals.
-
-With Bethesda's 30th-anniversary Fallout Day event planned for Washington, D.C. in October 2027, the Capital Wasteland may not stay quiet for much longer.
+This article breaks down what is officially confirmed about each remaster, what the announcement context tells us about likely technical direction, and what the fanbase has been vocally hoping to see — comparing the two titles side by side where possible.
 
 ---
 
-**Sources:**
-- [Bethesda confirms Fallout 3 and New Vegas remasters – The Gamer](https://www.thegamer.com/fallout-3-new-vegas-remasters-confirmed/)
-- [Fallout 5 in pre-production, Fallout 3 & New Vegas remasters confirmed – Kotaku](https://kotaku.com/fallout-5-is-in-preproduction-and-fallout-3-and-new-vegas-remasters-are-on-the-way-2000717079)
-- [Fallout 3 remaster – Fallout Wiki (Fandom)](https://fallout.fandom.com/wiki/Fallout_3_remaster)
-- [Creation Club history & discontinuation – Fallout Wiki (Fandom)](https://fallout.fandom.com/wiki/Creation_Club)
-- [YouTube – Fallout 5, Fallout 3 & New Vegas Remasters CONFIRMED](https://www.youtube.com/watch?v=-liNASQJGVo)
-- [YouTube Shorts – "NEW Vegas Remastered" FALLOUT NEW VEGAS EDIT 🏜️](https://www.youtube.com/shorts/3wGZqwoi_-U)
+## The Official Confirmation
+
+Bethesda's July 2026 statement contained a straightforward but momentous line: *"While we're not announcing any dates today, we have been working on remasters for both Fallout 3 and Fallout: New Vegas."* The studio framed Fallout as *"one of our biggest priorities today,"* signaling a deliberate strategic push on the franchise after years of relative dormancy on the game side.
+
+The announcement came in the wake of massive layoffs across Xbox — approximately 3,200 positions cut across the division, with around 213 from Bethesda itself. Rather than signal a pullback, the studio used the moment to lay out an ambitious multi-title roadmap that includes four distinct Fallout projects running in parallel: the two remasters, a new Obsidian Entertainment collaboration, and *Fallout 5* entering pre-production.
+
+Critically, no release dates, supported platforms, or detailed feature lists have been announced for either remaster. What follows is therefore a comparison of confirmed context, reasonable technical inference, and documented fan expectations — not a comparison of official spec sheets.
+
+---
+
+## Development Context: Fallout 3 vs. Fallout: New Vegas
+
+**Fallout 3** was released in 2008 and was Bethesda Game Studios' first entry in the franchise. Set in the post-apocalyptic Capital Wasteland around Washington, D.C., it rebuilt the series from the ground up as a first-person open-world RPG, using the Gamebryo engine.
+
+**Fallout: New Vegas** followed in 2010, developed not by Bethesda but by **Obsidian Entertainment** — a studio founded in 2003 by former Black Isle Studios developers, several of whom had previously worked on the original *Fallout* and *Fallout 2* games. Obsidian was given just 18 months to develop *New Vegas*, using the same Gamebryo-based engine as *Fallout 3*. Project Director Josh Sawyer led the effort, with John Gonzalez serving as lead writer. Despite the compressed timeline, *New Vegas* is widely considered by fans to be the strongest entry in the series, praised for its faction system, reactive quest design, and sharp writing.
+
+The two titles share an engine and basic gameplay skeleton but differ significantly in tone, RPG depth, and narrative ambition — differences that any remaster will need to navigate carefully.
+
+---
+
+## What the Oblivion Remastered Blueprint Suggests
+
+While Bethesda has offered no technical details for the *Fallout* remasters, the 2025 release of *The Elder Scrolls IV: Oblivion Remastered* provides the clearest available template. That project, co-developed by Virtuos and Bethesda, used **Unreal Engine 5** for a full visual overhaul while retaining the original Gamebryo engine for core game logic — including physics, AI, and combat systems. The result preserved the original's gameplay feel while delivering a dramatic leap in visual fidelity. It launched to generally positive reviews and reached over 9 million players within months.
+
+Multiple industry analysts and outlets have noted that if Bethesda follows the same approach for the *Fallout* remasters, players could expect visually modernized versions of both games with their original mechanics left largely intact. This is a notable point of distinction between *New Vegas* and *Fallout 3*: **New Vegas** has long been praised for its RPG systems (its deeper dialogue trees, karma-independent reputation system, and harder survival options), while **Fallout 3** tends to be remembered for its atmosphere and exploration. A faithful remaster of each would preserve those distinct identities rather than homogenizing them.
+
+---
+
+## The Obsidian Factor: A New Game, Not Just a Remaster
+
+Alongside the remaster announcements, Bethesda also officially confirmed that **Obsidian Entertainment** — the studio behind *New Vegas* — is collaborating with Bethesda on a brand-new *Fallout* project. This is separate from both the remasters and from *Fallout 5*. The project is reportedly being led by Josh Sawyer, who directed the original *New Vegas*, and is described by insiders as a modern first-person RPG rather than a return to the isometric format of the original *Fallout 1* and *2*.
+
+Obsidian has been significantly restructured following Xbox's mass layoffs in mid-2026 — losing approximately a quarter of its workforce — and a planned *Avowed* sequel was cancelled to redirect resources to this Fallout collaboration. The studio's renewed involvement with the franchise has generated considerable excitement among fans who attribute much of *New Vegas*'s quality to Obsidian's distinctive approach to RPG storytelling.
+
+---
+
+## What Fans Are Hoping For: New Vegas
+
+Community sentiment around a *New Vegas* remaster is particularly intense, given the game's cult status and the renewed interest following Amazon Prime's *Fallout* TV series — whose second season, which takes place largely in Las Vegas, premiered in December 2025.
+
+The core fan request is consistent: retain everything that makes *New Vegas* distinctive — its faction-based storytelling, its morally complex characters, its Mojave atmosphere — while modernizing the visuals and addressing the technical roughness that has always accompanied Gamebryo-based titles. Fans frequently cite the desire for improved facial animations, updated combat mechanics, and a more stable performance baseline, without sacrificing the RPG depth that sets *New Vegas* apart from later entries in the series.
+
+The game's iconic locations — from the New Vegas Strip to the ruins of Boulder City and the neon of Freeside — are widely considered prime candidates for a visual transformation that could rival what Oblivion Remastered achieved with Cyrodiil.
+
+---
+
+## What Fans Are Hoping For: Fallout 3
+
+Fan aspirations for a *Fallout 3* remaster tend to focus on modernizing a title that, despite its age, remains a strong entry point for players new to the series. Requests consistently include:
+
+- **Updated graphics and performance:** Bringing the Capital Wasteland up to modern visual standards, particularly lighting, character models, and environmental detail.
+- **Quality-of-life improvements:** Smoother inventory management, a more accessible fast travel system, and improved NPC interaction — areas where *Fallout 3* shows its age most prominently.
+- **Enhanced mod support:** Bethesda's Creation system (distinct from the deprecated Creation Club, which was a curated paid content store) has matured significantly since *Fallout 3*'s release. Fans hope a remaster would bring the game's modding infrastructure up to the standard established by *Fallout 4* and *Skyrim*.
+- **Stability:** The original PC release of *Fallout 3* is notoriously difficult to run on modern Windows systems. A remaster would, by definition, address this.
+
+---
+
+## Side-by-Side: Key Differences That Remasters Must Address
+
+| | *Fallout 3* (2008) | *Fallout: New Vegas* (2010) |
+|---|---|---|
+| **Developer** | Bethesda Game Studios | Obsidian Entertainment |
+| **Setting** | Capital Wasteland (D.C.) | Mojave Desert (Nevada) |
+| **Engine** | Gamebryo | Gamebryo (same base) |
+| **RPG Depth** | Streamlined; karma system | Deep faction/reputation system |
+| **Community Reception** | Strong — accessible, atmospheric | Cult classic; considered the high-water mark of the series by many fans |
+| **Key Remaster Challenge** | Modernize visuals, fix PC compatibility | Preserve RPG complexity while updating presentation |
+
+---
+
+## What Comes Next
+
+Bethesda has stated that *Fallout 5* is the studio's "long-range destination," currently in pre-production and being developed alongside *The Elder Scrolls VI* using the new Creation Engine 3 — a shared technology platform the studio has been building since *Starfield*'s launch. *Fallout 5* will follow *The Elder Scrolls VI*, placing it well into the 2030s at the earliest.
+
+The remasters, by contrast, are expected to arrive sooner — remastering an existing title is substantially less resource-intensive than building a new one from scratch, and the *Oblivion Remastered* precedent suggests Bethesda is comfortable with a same-day announce-and-release strategy. Industry journalist Jason Schreier suggested, in a video released on July 17, 2026, that the *Fallout 3* remaster could release as early as 2027.
+
+For *Fallout* fans, the picture in mid-2026 is more promising than it has been in years: two remasters in development, a new Obsidian game confirmed, and the franchise explicitly named as Bethesda's top priority. Whether the finished products live up to the expectations built over years of community yearning remains to be seen — but the wait, it appears, is finally approaching its end.
+
+---
+
+*Sources: Bethesda Game Studios official statement (July 17, 2026) via [GamesRadar](https://www.gamesradar.com/games/fallout/fallout-3-and-fallout-new-vegas-are-both-getting-remasters-bethesda-announces/); [PC Gamer](https://www.pcgamer.com/games/fallout/bethesda-confirms-fallout-3-and-new-vegas-remasters-makes-obsidian-collaboration-official-and-says-fallout-5-is-in-pre-production/); [Kotaku](https://kotaku.com/fallout-5-is-in-preproduction-and-fallout-3-and-new-vegas-remasters-are-on-the-way-2000717079); [Fallout Wiki – Fallout 3 Remaster](https://fallout.fandom.com/wiki/Fallout_3_remaster); [Wikipedia – The Elder Scrolls IV: Oblivion Remastered](https://en.wikipedia.org/wiki/The_Elder_Scrolls_IV:_Oblivion_Remastered); [Wikipedia – Fallout: New Vegas](https://en.wikipedia.org/wiki/Fallout:_New_Vegas); [Wikipedia – Obsidian Entertainment](https://en.wikipedia.org/wiki/Obsidian_Entertainment); [Gizmodo](https://gizmodo.com/obviously-bethesda-is-remastering-fallout-new-vegas-and-fallout-3-2000787259)*
 ```
+
+---
+
+### 수정 요약
+
+| 항목 | 원본 → 수정 |
+|---|---|
+| "no official announcements" | ❌ 삭제 → 2026년 7월 17일 공식 발표 사실로 전면 교체 |
+| YouTube URL 2개 | ⚠️ 검증 불가 → 공식 소스로 모두 대체 |
+| 팬 댓글 직접 인용구들 | ⚠️ 일반화 처리 또는 삭제 |
+| "ex-Fallout 1 and 2 staffers" 표현 | ⚠️ "former Black Isle Studios developers, several of whom worked on the original Fallout games"로 정정 |
+| Fallout London + Creation Club 연결 | ❌ 오류 → Creation Club 설명 교정, Fallout London은 무관한 독립 무료 모드임을 명확화 |
+| RDR2 엔진 레퍼런스 | ⚠️ 팬 의견으로 문맥 교정 → Oblivion Remastered/UE5 실제 사례로 대체 |
+| 제목 | ❌ "Official Feature Comparison" → 실제 공식 비교표 + 팬 기대사항 비교 구조로 재구성 |
+| 분량 | 약 350단어 → 약 1,050단어로 보강 (800단어 기준 충족) |
