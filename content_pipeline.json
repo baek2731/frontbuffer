@@ -1,7 +1,7 @@
 {
   "_version": "1.3",
   "_description": "콘텐츠 파이프라인 — 클러스터 단위 관리",
-  "_last_updated": "2026-07-21T03:40:13.131971+00:00",
+  "_last_updated": "2026-07-21T03:42:32.036312+00:00",
   "hub_clusters": {
     "Steam Machine": {
       "hub_keyword": "Steam Machine",
@@ -13,11 +13,13 @@
       ],
       "spoke_urls": {
         "Steam Machine Hardware Management (GUIDE)": "/drafts/steam-machine-hardware-management-guide",
-        "Steam Machine Hardware Management (COMPARISON)": "/drafts/steam-machine-hardware-management-comparison"
+        "Steam Machine Hardware Management (COMPARISON)": "/drafts/steam-machine-hardware-management-comparison",
+        "Steam Machine Hardware Management (HUB)": "PENDING"
       },
       "internal_links": [
         "/drafts/steam-machine-hardware-management-guide",
-        "/drafts/steam-machine-hardware-management-comparison"
+        "/drafts/steam-machine-hardware-management-comparison",
+        "PENDING"
       ]
     },
     "Samsung Health": {
@@ -128,7 +130,8 @@
   "covered_clusters": {
     "Steam Machine Hardware Management": {
       "types_done": [
-        "GUIDE"
+        "GUIDE",
+        "HUB"
       ],
       "last_week": "2026-W29",
       "suggest_next": [
@@ -788,8 +791,9 @@
         "verifiability": "HIGH",
         "data_grade": "B",
         "verified_keywords": [],
-        "status": "candidate",
-        "selected_at": "2026-07-20T04:28:32.401611+00:00"
+        "status": "published",
+        "selected_at": "2026-07-20T04:28:32.401611+00:00",
+        "url": "PENDING"
       },
       {
         "cluster_name": "Samsung Health Data Ecosystem",
@@ -1195,6 +1199,15 @@
       "week_tag": "2026-W29",
       "published_at": "2026-07-21T03:40:13.131865+00:00",
       "hub_cluster": "Portable Gaming"
+    },
+    {
+      "cluster_name": "Steam Machine Hardware Management",
+      "title": "Steam Machine Hardware Management",
+      "url": "PENDING",
+      "content_type": "HUB",
+      "week_tag": "2026-W29",
+      "published_at": "2026-07-21T03:42:32.036261+00:00",
+      "hub_cluster": "Steam Machine"
     }
   ]
 }
