@@ -21,3 +21,7 @@ We cover the hardware, software, and industry stories that actually matter — w
 ### Disclosure
 
 For information on affiliate links, advertising, and our content practices, see our [Disclosure](/disclosure/) page.
+
+### Contact
+
+**frontbuffer.editorial@gmail.com**
