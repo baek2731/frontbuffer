@@ -79,15 +79,21 @@ def call_gemini_api(prompt_text):
     url     = GEMINI_URL.format(api_key=GEMINI_API_KEY)
     payload = {
         "contents": [{"parts": [{"text": prompt_text}]}],
+        # Google Search 그라운딩: 실제 웹 검색으로 팩트체크.
+        # Claude 웹검색과 달리 검색 결과가 입력 토큰에 통째로 얹히지 않아
+        # 토큰 폭발이 없고, 그라운딩 요청 단위로만 과금된다.
+        "tools": [{"google_search": {}}],
         "generationConfig": {
             "temperature":     0.3,   # 팩트체크는 낮은 온도로
             "maxOutputTokens": 8192,
         }
     }
 
+    grounding_on = True
     for attempt in range(1, MAX_RETRIES + 1):
         try:
-            print(f"  🤖 Gemini Review API 호출 중... (시도 {attempt}/{MAX_RETRIES})")
+            mode = "그라운딩 ON" if grounding_on else "그라운딩 OFF"
+            print(f"  🤖 Gemini Review API 호출 중... (시도 {attempt}/{MAX_RETRIES}, {mode})")
             resp = requests.post(url, json=payload, timeout=180)
 
             if resp.status_code == 200:
@@ -96,12 +102,25 @@ def call_gemini_api(prompt_text):
                 if not candidates:
                     print("  ⚠️ candidates 없음")
                     continue
-                parts = candidates[0].get("content", {}).get("parts", [])
+                cand  = candidates[0]
+                parts = cand.get("content", {}).get("parts", [])
                 text  = "".join(p.get("text", "") for p in parts).strip()
                 if text:
+                    # 그라운딩 실제 수행 여부 로그
+                    gm = cand.get("groundingMetadata", {})
+                    queries = gm.get("webSearchQueries", [])
+                    if queries:
+                        print(f"  🔎 웹 검증 수행: {len(queries)}개 쿼리")
+                    elif grounding_on:
+                        print("  ℹ️  그라운딩 활성이나 검색 미수행 (지식 기반 판정)")
                     return text
                 print("  ⚠️ 응답 텍스트 비어있음")
 
+            elif resp.status_code == 400 and grounding_on:
+                # 그라운딩 미지원/포맷 오류 → 그라운딩 없이 폴백
+                print(f"  ⚠️ 400 오류 — 그라운딩 제거 후 재시도: {resp.text[:150]}")
+                payload.pop("tools", None)
+                grounding_on = False
             elif resp.status_code == 429:
                 print(f"  ⚠️ 속도 제한 (429) — {RETRY_DELAY}초 후 재시도")
                 time.sleep(RETRY_DELAY)

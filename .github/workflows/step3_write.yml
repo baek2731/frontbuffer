@@ -6,12 +6,13 @@
 #   - Step 2 완료 시 자동 트리거 (workflow_run)
 #
 # 흐름 (전체 대기 글 루프):
-#   write.py next    → 다음 대상 선택 (FIFO)
-#   write.py prep    → 소스 수집 → write_prompt 생성
-#   gemini_api.py    → Gemini 초안 → drafts/ 저장
-#   write.py review  → review_prompt 생성
-#   claude_api.py    → Claude 팩트체크 → final/ 저장
-#   git commit       → research_data/write/final/ 만 커밋
+#   write.py next         → 다음 대상 선택 (FIFO)
+#   write.py prep         → 소스 수집 → write_prompt 생성
+#   gemini_api.py         → Gemini 초안 → drafts/ 저장
+#   write.py review       → review_prompt 생성
+#   gemini_review_api.py  → Gemini 팩트체크 → final/ 저장
+#   write.py done         → pipeline 완료 기록 (루프 방지 핵심!)
+#   git commit            → research_data/write/final/ 만 커밋
 #
 # ⚠️ _posts/ 커밋 금지 — final/에 스택으로만 쌓음
 # =====================================================================
@@ -30,7 +31,6 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 70
 
-    # Step 2 자동 트리거 시 성공한 경우만 실행
     if: >
       github.event_name == 'workflow_dispatch' ||
       github.event.workflow_run.conclusion == 'success'
@@ -59,9 +59,8 @@ jobs:
       # ── 5. 전체 대기 글 루프 처리 ──────────────────────────────────
       - name: Write all pending articles
         env:
-          GEMINI_API_KEY:     ${{ secrets.GEMINI_API_KEY }}
-          ANTHROPIC_API_KEY:  ${{ secrets.ANTHROPIC_API_KEY }}
-          YOUTUBE_API_KEY:    ${{ secrets.YOUTUBE_API_KEY }}
+          GEMINI_API_KEY:  ${{ secrets.GEMINI_API_KEY }}
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
         run: |
           MAX_ARTICLES=20
           COUNT=0
@@ -79,7 +78,6 @@ jobs:
 
             CLUSTER=$(echo "$RESULT" | python -c "import sys,json; print(json.load(sys.stdin)['cluster_name'])")
             TYPE=$(echo "$RESULT"    | python -c "import sys,json; print(json.load(sys.stdin)['content_type'])")
-            SLUG=$(echo "$RESULT"    | python -c "import sys,json; print(json.load(sys.stdin)['slug'])")
             COUNT=$((COUNT + 1))
 
             echo ""
@@ -108,21 +106,30 @@ jobs:
               continue
             fi
 
-            # ── Claude 최종본 ───────────────────────────────────────
-            echo "✨ [4/4] Claude 최종본..."
-            if ! python claude_api.py --cluster "$CLUSTER" --type "$TYPE"; then
-              echo "❌ Claude 실패 — 다음 대상으로 스킵"
+            # ── Gemini 팩트체크 + 최종본 ────────────────────────────
+            echo "✨ [4/4] Gemini 팩트체크 + 최종본..."
+            if ! python gemini_review_api.py --cluster "$CLUSTER" --type "$TYPE"; then
+              echo "❌ Gemini Review 실패 — 다음 대상으로 스킵"
               continue
             fi
+
+            # ── write.py done — 파이프라인 완료 기록 (루프 방지 핵심) ──
+            echo "📌 [done] pipeline 기록..."
+            FINAL_FILE="research_data/write/final/$(echo "$CLUSTER" | tr '[:upper:]' '[:lower:]' | sed 's/ /-/g' | cut -c1-60)_${TYPE}.md"
+            TITLE=$(head -1 "$FINAL_FILE" 2>/dev/null | sed 's/^# //' || echo "$CLUSTER")
+            python write.py done "$CLUSTER" \
+              --type "$TYPE" \
+              --title "$TITLE" \
+              --url "PENDING" || echo "⚠️ done 실패 (무시하고 계속)"
 
             # ── final/ 커밋 ─────────────────────────────────────────
             git stash
             git pull origin main --rebase
             git stash pop
-            git add research_data/write/final/
+            git add research_data/write/final/ content_pipeline.json
 
             if git diff --cached --quiet; then
-              echo "⚠️ final/ 변경사항 없음 — 커밋 스킵"
+              echo "⚠️ 변경사항 없음 — 커밋 스킵"
             else
               git commit -m "feat: [$TYPE] $CLUSTER 최종본 생성"
               git push origin HEAD:main

@@ -82,7 +82,7 @@ def call_gemini_api(prompt_text):
         ],
         "generationConfig": {
             "temperature":     0.7,
-            "maxOutputTokens": 4096,
+            "maxOutputTokens": 8192,
         }
     }
 
@@ -184,20 +184,37 @@ def main():
     prompt_text = open(prompt_path, encoding="utf-8").read()
     print(f"  📏 프롬프트 크기: {len(prompt_text.encode())/1024:.1f} KB")
 
-    # 2. Gemini API 호출
-    start = time.time()
-    draft_text = call_gemini_api(prompt_text)
-    elapsed    = time.time() - start
+    # 2. Gemini API 호출 + 품질 미달 시 내부 재생성 (최대 3회)
+    #    이유: Gemini가 간헐적으로 소스 리포트만 출력하고 본문을 생략함
+    #          (113/507단어 실패 사례). prep 재실행 없이 같은 프롬프트로
+    #          재시도하면 대부분 해결되고, 루프 전체 재시작 비용을 아낀다.
+    MAX_GEN_ATTEMPTS = 3
+    start      = time.time()
+    draft_text = None
+    quality    = None
+
+    for gen_attempt in range(1, MAX_GEN_ATTEMPTS + 1):
+        if gen_attempt > 1:
+            print(f"  🔄 품질 미달 — 재생성 시도 {gen_attempt}/{MAX_GEN_ATTEMPTS}")
+        candidate = call_gemini_api(prompt_text)
+        if not candidate:
+            continue
+        q = check_draft_quality(candidate)
+        print(f"  📊 단어 수: {q['word_count']}개")
+        if q["ok"]:
+            draft_text, quality = candidate, q
+            break
+        # 미달이어도 지금까지 중 가장 긴 결과는 보관 (전부 실패 시 대비)
+        if draft_text is None or q["word_count"] > quality["word_count"]:
+            draft_text, quality = candidate, q
+
+    elapsed = time.time() - start
 
     if not draft_text:
         print("❌ 초안 생성 실패 — API 응답 없음")
         sys.exit(1)
 
-    print(f"  ✅ 초안 생성 완료 ({elapsed:.1f}초)")
-
-    # 3. 품질 체크
-    quality = check_draft_quality(draft_text)
-    print(f"  📊 단어 수: {quality['word_count']}개")
+    print(f"  ✅ 초안 생성 완료 ({elapsed:.1f}초, {gen_attempt}회 시도)")
     for w in quality["warnings"]:
         print(f"  ⚠️  {w}")
     for e in quality["errors"]:
@@ -228,7 +245,7 @@ def main():
     print(f"""
 다음 단계:
   python write.py review "{cluster_name}" --type {content_type}
-  python claude_api.py --cluster "{cluster_name}" --type {content_type}
+  python gemini_review_api.py --cluster "{cluster_name}" --type {content_type}
 """)
 
 
