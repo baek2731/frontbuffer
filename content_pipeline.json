@@ -1,7 +1,7 @@
 {
   "_version": "1.3",
   "_description": "콘텐츠 파이프라인 — 클러스터 단위 관리",
-  "_last_updated": "2026-07-21T03:34:35.359020+00:00",
+  "_last_updated": "2026-07-21T03:35:40.429695+00:00",
   "hub_clusters": {
     "Steam Machine": {
       "hub_keyword": "Steam Machine",
@@ -96,9 +96,11 @@
       ],
       "spoke_urls": {
         "Android Ecosystem (COMPARISON)": "PENDING",
-        "Android Ecosystem (GUIDE)": "PENDING"
+        "Android Ecosystem (GUIDE)": "PENDING",
+        "Android Ecosystem (EXPLAINER)": "PENDING"
       },
       "internal_links": [
+        "PENDING",
         "PENDING",
         "PENDING"
       ]
@@ -233,11 +235,11 @@
     "Android Ecosystem": {
       "types_done": [
         "COMPARISON",
-        "GUIDE"
+        "GUIDE",
+        "EXPLAINER"
       ],
       "last_week": "2026-W29",
       "suggest_next": [
-        "EXPLAINER",
         "LISTICLE"
       ],
       "hub_keyword": "Android Auto",
@@ -939,8 +941,9 @@
         "verifiability": "HIGH",
         "data_grade": "A",
         "verified_keywords": [],
-        "status": "candidate",
-        "selected_at": "2026-07-20T08:05:00.387164+00:00"
+        "status": "published",
+        "selected_at": "2026-07-20T08:05:00.387164+00:00",
+        "url": "PENDING"
       },
       {
         "cluster_name": "Portable Gaming",
@@ -1143,6 +1146,15 @@
       "content_type": "GUIDE",
       "week_tag": "2026-W29",
       "published_at": "2026-07-21T03:34:35.358961+00:00",
+      "hub_cluster": "Android Ecosystem"
+    },
+    {
+      "cluster_name": "Android Ecosystem",
+      "title": "Google Photos Free Storage Policy Changes Explained: Impact on Existing Libraries",
+      "url": "PENDING",
+      "content_type": "EXPLAINER",
+      "week_tag": "2026-W29",
+      "published_at": "2026-07-21T03:35:40.429634+00:00",
       "hub_cluster": "Android Ecosystem"
     }
   ]
