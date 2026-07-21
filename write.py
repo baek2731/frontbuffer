@@ -189,6 +189,11 @@ def find_cluster(data, cluster_name, content_type=None):
                         and sel.get("content_type", "").upper() == ct):
                     return sel
 
+        # content_type을 명시했는데 못 찾으면 여기서 종료.
+        # 이름만으로 폴백하면 엉뚱한 유형의 글을 쓰게 되므로 (자동화 시 치명적)
+        # 아래 이름 기반 폴백으로 내려가지 않는다.
+        return None
+
     # 2차: content_type 미지정 — 기존 동작 (첫 번째 매칭)
     for week, sels in sorted(data.get("weekly_selections", {}).items(), reverse=True):
         for sel in sels:
@@ -568,7 +573,7 @@ def collect_from_google_play(hub_keyword, spoke_keywords):
 
 def collect_from_youtube(hub_keyword, spoke_keywords, cfg):
     """YouTube Data API v3 — API 키 있을 때만 실행."""
-    yt_api_key = os.environ.get("YOUTUBE_API_KEY") or cfg.get("youtube_api_key", "")
+    yt_api_key = cfg.get("youtube_api_key", "")
     if not yt_api_key:
         return 0, [], ""
 
@@ -1136,7 +1141,7 @@ VERIFIED SEARCH TERMS (KP-validated from hub keyword, grade: {data_grade or 'B'}
     else:
         verified_block = ""
 
-    prompt = f"""You are a writer for Frontbuffer Editorial, an independent tech/gaming media brand.
+    prompt = f"""You are a writer for LIFO-LIKE Editorial, an independent tech/gaming media brand.
 Write a high-quality, evergreen blog post based on the information provided.
 {mode_block}{relevance_block}{concrete_entity_warning}
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -1356,7 +1361,7 @@ Content Type: HUB
 판정 리포트는 한국어로, 최종본은 영문 markdown 코드블록으로 출력하세요."""
 
     # ── 기존 스포크 리뷰 프롬프트 ───────────────────────────────────
-    prompt = f"""아래는 Frontbuffer Editorial 블로그에 발행할 영문 초안입니다.
+    prompt = f"""아래는 LIFO-LIKE Editorial 블로그에 발행할 영문 초안입니다.
 당신은 이 초안의 팩트를 검증하고 수정하는 편집자입니다.
 웹 검색을 사용해서 다음 작업을 한 번에 수행해주세요.
 
@@ -1504,9 +1509,50 @@ def get_next_candidate_fifo():
             for sel in sels:
                 if (sel.get("status") == "candidate"
                         and sel.get("data_grade", "") == grade):
+                    # selection에 week_tag가 없을 수 있으므로 순회 중인 주차를 주입
+                    sel.setdefault("week_tag", week)
                     return sel
     # Grade C는 force 없으면 스킵
     return None
+
+
+def cmd_next(as_json=False):
+    """
+    FIFO 큐에서 다음 작성 대상 1건을 조회.
+    Step 3 자동화에서 '무엇을 쓸지' 결정하는 진입점.
+    --json 지정 시 Actions가 파싱할 수 있는 한 줄 JSON을 출력.
+    """
+    sel = get_next_candidate_fifo()
+
+    if not sel:
+        if as_json:
+            print(json.dumps({"ok": False, "reason": "no_candidate"},
+                             ensure_ascii=False))
+        else:
+            print("ℹ️  작성 대기 중인 candidate 없음")
+        return None
+
+    cluster_name = sel.get("cluster_name", "")
+    content_type = (sel.get("content_type", "") or "").upper()
+    payload = {
+        "ok":           True,
+        "cluster_name": cluster_name,
+        "content_type": content_type,
+        "data_grade":   sel.get("data_grade", ""),
+        "week_tag":     sel.get("week_tag", ""),
+        "slug":         slugify(cluster_name),
+    }
+
+    if as_json:
+        print(json.dumps(payload, ensure_ascii=False))
+    else:
+        print(f"📌 다음 작성 대상")
+        print(f"   클러스터: {cluster_name}")
+        print(f"   유형:     {content_type}")
+        print(f"   Grade:    {payload['data_grade']}")
+        print(f"   주차:     {payload['week_tag']}")
+
+    return payload
 
 
 def cmd_list():
@@ -2021,10 +2067,14 @@ share: true
     }
 
 
-def cmd_done(cluster_name, title=None, url=None):
-    """CLI 래퍼 — 인자 없으면 대화형 입력 (기존 호환)."""
+def cmd_done(cluster_name, title=None, url=None, content_type=None):
+    """
+    CLI 래퍼 — 인자 없으면 대화형 입력 (기존 호환).
+    Actions에서는 --title/--url/--type을 모두 넘겨 비대화형으로 실행.
+    """
     print(f"\n{'='*60}")
-    print(f"📤 발행 완료 기록: {cluster_name}")
+    _ct_label = f" [{content_type.upper()}]" if content_type else ""
+    print(f"📤 발행 완료 기록: {cluster_name}{_ct_label}")
     print(f"{'='*60}")
 
     if not title:
@@ -2032,7 +2082,8 @@ def cmd_done(cluster_name, title=None, url=None):
     if not url:
         url = input("  발행 URL: ").strip()
 
-    result = record_publish(cluster_name, title, url)
+    result = record_publish(cluster_name, title, url,
+                            content_type=content_type)
 
     if not result["ok"]:
         print(f"❌ {result['error']}")
@@ -2054,7 +2105,7 @@ def cmd_done(cluster_name, title=None, url=None):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
-        description="Frontbuffer Editorial 글 생성 파이프라인 v5",
+        description="LIFO-LIKE 글 생성 파이프라인 v5",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 예시:
@@ -2067,29 +2118,36 @@ if __name__ == "__main__":
         """
     )
     parser.add_argument("command",
-                        choices=["list","prep","review","done","check-tiers"])
+                        choices=["list","prep","review","done","check-tiers","next"])
     parser.add_argument("cluster", nargs="?", default="")
     parser.add_argument("--mode", choices=["jina","title"], default="jina")
     parser.add_argument("--title", default=None, help="발행 제목 (done용, 자동화 시)")
     parser.add_argument("--url", default=None, help="발행 URL (done용, 자동화 시)")
+    parser.add_argument("--type", dest="content_type", default=None,
+                        help="content_type 지정 (GUIDE/LISTICLE/COMPARISON/EXPLAINER/HUB)")
+    parser.add_argument("--json", action="store_true",
+                        help="결과를 JSON으로 출력 (Actions 파싱용)")
     args = parser.parse_args()
 
     if args.command == "list":
         cmd_list()
     elif args.command == "check-tiers":
         cmd_check_tiers()
+    elif args.command == "next":
+        cmd_next(as_json=args.json)
     elif args.command == "prep":
         if not args.cluster:
             print("❌ 클러스터명 입력하세요.")
             sys.exit(1)
-        cmd_prep(args.cluster, mode=args.mode)
+        cmd_prep(args.cluster, mode=args.mode, content_type=args.content_type)
     elif args.command == "review":
         if not args.cluster:
             print("❌ 클러스터명 입력하세요.")
             sys.exit(1)
-        cmd_review(args.cluster)
+        cmd_review(args.cluster, content_type=args.content_type)
     elif args.command == "done":
         if not args.cluster:
             print("❌ 클러스터명 입력하세요.")
             sys.exit(1)
-        cmd_done(args.cluster, title=args.title, url=args.url)
+        cmd_done(args.cluster, title=args.title, url=args.url,
+                 content_type=args.content_type)
