@@ -129,10 +129,17 @@ def main():
              if title_match else target_slug.replace("-", " ").title())
 
     # ── 플레이스홀더 제거 ──────────────────────────────────────────
-    content = re.sub(r'\[INTERNAL LINK:[^\]]*\]', '', content)
-    content = re.sub(r'\[AFFILIATE LINK:[^\]]*\]', '', content)
+    # [INTERNAL LINK: xxx] / [AFFILIATE LINK: xxx] → 통째로 제거
+    # 단, 마크다운 링크 [text](url) 형태는 건드리지 않는다.
+    #   → [Source: X](url) 처럼 뒤에 (가 오면 앵커 텍스트만 지워져
+    #     본문에 (url) 괄호가 노출되므로, 뒤에 (가 없는 경우만 제거
+    content = re.sub(r'\[INTERNAL LINK:[^\]]*\](?!\()', '', content)
+    content = re.sub(r'\[AFFILIATE LINK:[^\]]*\](?!\()', '', content)
     content = re.sub(r'\[NEEDS VERIFICATION\]', '', content)
-    content = re.sub(r'\[Source:[^\]]*\]', '', content)
+    content = re.sub(r'\[Source:[^\]]*\](?!\()', '', content)
+    # 제거 후 남는 이중 공백/빈 줄 정리
+    content = re.sub(r'[ \t]{2,}', ' ', content)
+    content = re.sub(r'\n{3,}', '\n\n', content)
 
     # ── 날짜 설정 (UTC 14시 랜덤 분) ──────────────────────────────
     now       = datetime.now(timezone.utc)
@@ -206,8 +213,13 @@ def main():
         review.unlink()
     print(f"  🗑️  final/ 삭제: {target.name}")
 
-    # ── 발행 URL 추정 ──────────────────────────────────────────────
-    pub_url = f"https://frontbuffer.net/{cat}/{target_slug}-{target_ct.lower()}/"
+    # ── 발행 URL ───────────────────────────────────────────────────
+    # Jekyll은 _posts 파일명의 날짜 이후 부분을 슬러그로 사용한다.
+    # post_filename = "{date}-{slug}_{ct}.md" → 슬러그는 "{slug}_{ct}"
+    # 언더스코어를 임의로 하이픈으로 바꾸면 실제 URL과 어긋나
+    # HUB 내부 링크가 404가 되므로 파일명 기준으로 생성한다.
+    jekyll_slug = post_filename[len(date_str) + 1:-3]   # 날짜- 제거, .md 제거
+    pub_url = f"https://frontbuffer.net/{cat}/{jekyll_slug}/"
 
     # ── cluster_name 역추적 ────────────────────────────────────────
     cluster_name = None
@@ -221,10 +233,15 @@ def main():
             break
 
     # ── write.py done 호출 ─────────────────────────────────────────
+    # --no-archive: 위에서 이미 published/ 아카이브를 만들었으므로
+    #               record_publish의 중복 아카이브를 막는다.
+    #               (안 막으면 final/ 파일이 이미 삭제된 상태라
+    #                fallback 경로를 타 엉뚱한 파일을 아카이브함)
     if cluster_name:
         result = subprocess.run(
             ["python", "write.py", "done", cluster_name,
-             "--type", target_ct, "--title", title, "--url", pub_url],
+             "--type", target_ct, "--title", title, "--url", pub_url,
+             "--no-archive"],
             capture_output=True, text=True
         )
         print(result.stdout)
