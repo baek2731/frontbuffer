@@ -1,0 +1,105 @@
+# =====================================================================
+# Step 3: 글 생성 + final/ 스택 저장
+# =====================================================================
+# 트리거: 수동 (workflow_dispatch)
+# 흐름:
+#   write.py next    → 다음 대상 1건 선택 (FIFO)
+#   write.py prep    → 소스 수집 → write_prompt 생성
+#   gemini_api.py    → Gemini 초안 → drafts/ 저장
+#   write.py review  → review_prompt 생성
+#   claude_api.py    → Claude 팩트체크 → final/ 저장
+#   git commit       → research_data/write/final/ 만 커밋
+#
+# ⚠️ _posts/ 커밋 금지 — final/에 스택으로만 쌓음
+# =====================================================================
+
+name: Step 3 - Write Article
+
+on:
+  workflow_dispatch:
+
+jobs:
+  write:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+
+    steps:
+      # ── 1. 체크아웃 ────────────────────────────────────────────────
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # ── 2. Python 설치 ─────────────────────────────────────────────
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      # ── 3. 패키지 설치 ─────────────────────────────────────────────
+      - name: Install dependencies
+        run: pip install requests
+
+      # ── 4. 다음 대상 선택 (FIFO) ───────────────────────────────────
+      - name: Select next cluster (FIFO)
+        id: next
+        run: |
+          RESULT=$(python write.py next --json)
+          echo "result=$RESULT" >> $GITHUB_OUTPUT
+
+          CLUSTER=$(echo $RESULT | python -c "import sys,json; d=json.load(sys.stdin); print(d['cluster_name'])")
+          TYPE=$(echo $RESULT    | python -c "import sys,json; d=json.load(sys.stdin); print(d['content_type'])")
+          SLUG=$(echo $RESULT    | python -c "import sys,json; d=json.load(sys.stdin); print(d['slug'])")
+
+          echo "cluster=$CLUSTER" >> $GITHUB_OUTPUT
+          echo "type=$TYPE"       >> $GITHUB_OUTPUT
+          echo "slug=$SLUG"       >> $GITHUB_OUTPUT
+
+          echo "✅ 대상: $CLUSTER [$TYPE]"
+
+      # ── 5. 소스 수집 + write_prompt 생성 ───────────────────────────
+      - name: Prep (source collection + write_prompt)
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          python write.py prep "${{ steps.next.outputs.cluster }}" \
+            --type ${{ steps.next.outputs.type }}
+
+      # ── 6. Gemini 초안 생성 ────────────────────────────────────────
+      - name: Gemini draft
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          python gemini_api.py \
+            --cluster "${{ steps.next.outputs.cluster }}" \
+            --type    ${{ steps.next.outputs.type }}
+
+      # ── 7. review_prompt 생성 ──────────────────────────────────────
+      - name: Review prompt (write.py review)
+        run: |
+          python write.py review "${{ steps.next.outputs.cluster }}" \
+            --type ${{ steps.next.outputs.type }}
+
+      # ── 8. Claude 팩트체크 + 최종본 생성 ───────────────────────────
+      - name: Claude final
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          python claude_api.py \
+            --cluster "${{ steps.next.outputs.cluster }}" \
+            --type    ${{ steps.next.outputs.type }}
+
+      # ── 9. final/ 커밋 ─────────────────────────────────────────────
+      - name: Commit final article
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add research_data/write/final/
+
+          # 변경사항 없으면 커밋 스킵
+          if git diff --cached --quiet; then
+            echo "⚠️ final/ 변경사항 없음 — 커밋 스킵"
+            exit 1
+          fi
+
+          git commit -m "feat: [${{ steps.next.outputs.type }}] ${{ steps.next.outputs.cluster }} 최종본 생성"
+          git push origin HEAD:main
