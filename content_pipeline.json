@@ -1,7 +1,7 @@
 {
   "_version": "1.3",
   "_description": "콘텐츠 파이프라인 — 클러스터 단위 관리",
-  "_last_updated": "2026-07-21T03:32:22.846253+00:00",
+  "_last_updated": "2026-07-21T03:33:36.098461+00:00",
   "hub_clusters": {
     "Steam Machine": {
       "hub_keyword": "Steam Machine",
@@ -94,8 +94,12 @@
       "spokes": [
         "Android Ecosystem"
       ],
-      "spoke_urls": {},
-      "internal_links": []
+      "spoke_urls": {
+        "Android Ecosystem (COMPARISON)": "PENDING"
+      },
+      "internal_links": [
+        "PENDING"
+      ]
     },
     "Portable Gaming": {
       "hub_keyword": "Portable Gaming",
@@ -225,10 +229,11 @@
       "notes": ""
     },
     "Android Ecosystem": {
-      "types_done": [],
+      "types_done": [
+        "COMPARISON"
+      ],
       "last_week": "2026-W29",
       "suggest_next": [
-        "COMPARISON",
         "GUIDE",
         "EXPLAINER",
         "LISTICLE"
@@ -884,8 +889,9 @@
         "verifiability": "HIGH",
         "data_grade": "A",
         "verified_keywords": [],
-        "status": "candidate",
-        "selected_at": "2026-07-20T08:05:00.387164+00:00"
+        "status": "published",
+        "selected_at": "2026-07-20T08:05:00.387164+00:00",
+        "url": "PENDING"
       },
       {
         "cluster_name": "Android Ecosystem",
@@ -1117,6 +1123,15 @@
       "week_tag": "2026-W29",
       "published_at": "2026-07-21T03:32:22.846211+00:00",
       "hub_cluster": "Fallout Series"
+    },
+    {
+      "cluster_name": "Android Ecosystem",
+      "title": "Samsung Secure Folder vs Google Files Safe Folder: Privacy Features Comparison",
+      "url": "PENDING",
+      "content_type": "COMPARISON",
+      "week_tag": "2026-W29",
+      "published_at": "2026-07-21T03:33:36.098416+00:00",
+      "hub_cluster": "Android Ecosystem"
     }
   ]
 }
