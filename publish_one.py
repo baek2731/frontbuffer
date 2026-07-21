@@ -294,7 +294,10 @@ def main():
                    "nintendo", "fallout", "portable", "handheld", "deck"]
     cat = "gaming" if any(k in target_slug for k in gaming_keys) else "tech"
 
-    post_filename = f"{date_str}-{target_slug}_{target_ct.lower()}.md"
+    # content_type을 URL에 노출할 때 HUB → hub 로 소문자 통일
+    # 기존 _HUB 대문자 노출 방지 (언더스코어는 Jekyll 슬러그 구분자로 유지)
+    ct_url = target_ct.lower()
+    post_filename = f"{date_str}-{target_slug}_{ct_url}.md"
     jekyll_slug   = post_filename[len(date_str) + 1:-3]
     pub_url       = f"https://frontbuffer.net/{cat}/{jekyll_slug}/"
 
