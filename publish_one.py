@@ -43,6 +43,89 @@ def load_pipeline():
         return json.load(f)
 
 
+def inject_internal_links(content, cluster_name, content_type, pipeline, pub_url):
+    """[INTERNAL LINK: xxx] 플레이스홀더를 실제 URL로 교체.
+
+    교체 우선순위:
+      1. [INTERNAL LINK: HUB]      → 이 글의 parent HUB URL
+      2. [INTERNAL LINK: 스포크명]  → spoke_urls에서 키 부분 매칭
+      3. URL이 PENDING이거나 매칭 실패 → 제거 (기존 동작 유지)
+
+    content_pipeline.json 구조:
+      hub_clusters[hub_keyword] = {
+        "spoke_urls": { "클러스터명 (TYPE)": "https://..." },
+        "hub_url": "https://..."   ← HUB 발행 후 채워짐 (현재 비어있을 수 있음)
+      }
+    """
+    hub_clusters = pipeline.get("hub_clusters", {})
+
+    # ── 이 글의 parent_hub 찾기 ──────────────────────────────────
+    parent_hub = None
+    for week_sels in pipeline.get("weekly_selections", {}).values():
+        for sel in week_sels:
+            if (sel.get("cluster_name") == cluster_name
+                    and sel.get("content_type", "").upper() == content_type):
+                parent_hub = sel.get("parent_hub") or sel.get("hub_keyword")
+                break
+        if parent_hub:
+            break
+
+    # published 목록에서도 탐색 (fallback)
+    if not parent_hub:
+        for p in pipeline.get("published", []):
+            if (p.get("cluster_name") == cluster_name
+                    and p.get("content_type", "").upper() == content_type):
+                parent_hub = p.get("hub_cluster")
+                break
+
+    hub_info   = hub_clusters.get(parent_hub, {}) if parent_hub else {}
+    spoke_urls = hub_info.get("spoke_urls", {})
+    hub_url    = hub_info.get("hub_url", "")
+
+    injected = 0
+    removed  = 0
+
+    def replace_link(m):
+        nonlocal injected, removed
+        label = m.group(1).strip()   # [INTERNAL LINK: label] 의 label 부분
+
+        # ── HUB 링크 ─────────────────────────────────────────────
+        if label.upper() == "HUB":
+            # HUB 글 자신이 발행될 때 pub_url이 곧 HUB URL
+            url = pub_url if content_type == "HUB" else hub_url
+            if url and url != "PENDING" and url.startswith("http"):
+                injected += 1
+                return f"[{hub_info.get('hub_keyword', label)}]({url})"
+            removed += 1
+            return ""
+
+        # ── 스포크 링크 — spoke_urls 키에서 label 포함 여부로 매칭 ─
+        matched_url = None
+        label_lower = label.lower()
+        for key, url in spoke_urls.items():
+            # key 형식: "클러스터명 (TYPE)" — 클러스터명 부분만 비교
+            key_name = re.sub(r'\s*\([^)]+\)\s*$', '', key).strip().lower()
+            if label_lower in key_name or key_name in label_lower:
+                if url and url != "PENDING" and url.startswith("http"):
+                    matched_url = url
+                    break   # 첫 번째 매칭 URL 사용
+
+        if matched_url:
+            injected += 1
+            return f"[{label}]({matched_url})"
+
+        # ── 매칭 실패 또는 PENDING → 제거 ────────────────────────
+        removed += 1
+        return ""
+
+    result = re.sub(r'\[INTERNAL LINK:([^\]]*)\](?!\()', replace_link, content)
+
+    if injected or removed:
+        print(f"  🔗 내부 링크: {injected}개 주입 / {removed}개 제거 (PENDING 또는 미매칭)")
+
+    return result
+
+
 def hub_ready(pipeline, cluster_name):
     """HUB 글은 해당 클러스터 스포크 2개 이상 발행 후에만 발행."""
     published = pipeline.get("published", [])
@@ -128,29 +211,47 @@ def main():
     title = (title_match.group(1).strip()
              if title_match else target_slug.replace("-", " ").title())
 
-    # ── 플레이스홀더 제거 ──────────────────────────────────────────
-    # [INTERNAL LINK: xxx] / [AFFILIATE LINK: xxx] → 통째로 제거
-    # 단, 마크다운 링크 [text](url) 형태는 건드리지 않는다.
-    #   → [Source: X](url) 처럼 뒤에 (가 오면 앵커 텍스트만 지워져
-    #     본문에 (url) 괄호가 노출되므로, 뒤에 (가 없는 경우만 제거
-    content = re.sub(r'\[INTERNAL LINK:[^\]]*\](?!\()', '', content)
+    # ── cluster_name 역추적 (링크 주입에 필요하므로 앞으로 이동) ──
+    cluster_name = None
+    for week_sels in pipeline.get("weekly_selections", {}).values():
+        for sel in week_sels:
+            if (slugify(sel.get("cluster_name", "")) == target_slug
+                    and sel.get("content_type", "").upper() == target_ct):
+                cluster_name = sel.get("cluster_name")
+                break
+        if cluster_name:
+            break
+
+    # ── 발행 URL (링크 주입 시 HUB 자신의 URL로 사용) ─────────────
+    # 이 시점엔 post_filename이 아직 없으므로 미리 계산
+    now      = datetime.now(timezone.utc)
+    minute   = random.randint(0, 59)
+    date_str = now.strftime("%Y-%m-%d")
+    dt_str   = f"{date_str} 14:{minute:02d}:00 +0000"
+
+    gaming_keys = ["steam", "game", "gaming", "xbox", "playstation",
+                   "nintendo", "fallout", "portable", "handheld", "deck"]
+    cat = "gaming" if any(k in target_slug for k in gaming_keys) else "tech"
+
+    post_filename = f"{date_str}-{target_slug}_{target_ct.lower()}.md"
+    jekyll_slug   = post_filename[len(date_str) + 1:-3]
+    pub_url       = f"https://frontbuffer.net/{cat}/{jekyll_slug}/"
+
+    # ── [INTERNAL LINK: xxx] → 실제 URL 주입 (PENDING/미매칭은 제거) ─
+    content = inject_internal_links(
+        content, cluster_name or "", target_ct, pipeline, pub_url
+    )
+
+    # ── 나머지 플레이스홀더 제거 ───────────────────────────────────
+    # 마크다운 링크 [text](url) 형태는 건드리지 않는다.
+    # → [Source: X](url) 처럼 뒤에 (가 오면 앵커만 지워져 (url) 노출되므로
+    #   뒤에 (가 없는 경우만 제거
     content = re.sub(r'\[AFFILIATE LINK:[^\]]*\](?!\()', '', content)
     content = re.sub(r'\[NEEDS VERIFICATION\]', '', content)
     content = re.sub(r'\[Source:[^\]]*\](?!\()', '', content)
     # 제거 후 남는 이중 공백/빈 줄 정리
     content = re.sub(r'[ \t]{2,}', ' ', content)
     content = re.sub(r'\n{3,}', '\n\n', content)
-
-    # ── 날짜 설정 (UTC 14시 랜덤 분) ──────────────────────────────
-    now       = datetime.now(timezone.utc)
-    minute    = random.randint(0, 59)
-    date_str  = now.strftime("%Y-%m-%d")
-    dt_str    = f"{date_str} 14:{minute:02d}:00 +0000"
-
-    # ── 카테고리 자동 분류 ─────────────────────────────────────────
-    gaming_keys = ["steam", "game", "gaming", "xbox", "playstation",
-                   "nintendo", "fallout", "portable", "handheld", "deck"]
-    cat = "gaming" if any(k in target_slug for k in gaming_keys) else "tech"
 
     # ── 태그 생성 ──────────────────────────────────────────────────
     slug_words = target_slug.replace("-", " ").split()
@@ -196,8 +297,7 @@ def main():
 
     # ── _posts/ 저장 ───────────────────────────────────────────────
     os.makedirs(POSTS_DIR, exist_ok=True)
-    post_filename = f"{date_str}-{target_slug}_{target_ct.lower()}.md"
-    post_path     = os.path.join(POSTS_DIR, post_filename)
+    post_path = os.path.join(POSTS_DIR, post_filename)
     Path(post_path).write_text(final_content, encoding="utf-8")
     print(f"  📝 _posts/ 저장: {post_filename}")
 
@@ -212,25 +312,6 @@ def main():
     if review.exists():
         review.unlink()
     print(f"  🗑️  final/ 삭제: {target.name}")
-
-    # ── 발행 URL ───────────────────────────────────────────────────
-    # Jekyll은 _posts 파일명의 날짜 이후 부분을 슬러그로 사용한다.
-    # post_filename = "{date}-{slug}_{ct}.md" → 슬러그는 "{slug}_{ct}"
-    # 언더스코어를 임의로 하이픈으로 바꾸면 실제 URL과 어긋나
-    # HUB 내부 링크가 404가 되므로 파일명 기준으로 생성한다.
-    jekyll_slug = post_filename[len(date_str) + 1:-3]   # 날짜- 제거, .md 제거
-    pub_url = f"https://frontbuffer.net/{cat}/{jekyll_slug}/"
-
-    # ── cluster_name 역추적 ────────────────────────────────────────
-    cluster_name = None
-    for week_sels in pipeline.get("weekly_selections", {}).values():
-        for sel in week_sels:
-            if (slugify(sel.get("cluster_name", "")) == target_slug
-                    and sel.get("content_type", "").upper() == target_ct):
-                cluster_name = sel.get("cluster_name")
-                break
-        if cluster_name:
-            break
 
     # ── write.py done 호출 ─────────────────────────────────────────
     # --no-archive: 위에서 이미 published/ 아카이브를 만들었으므로
