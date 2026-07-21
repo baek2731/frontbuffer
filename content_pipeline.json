@@ -1,7 +1,7 @@
 {
   "_version": "1.3",
   "_description": "콘텐츠 파이프라인 — 클러스터 단위 관리",
-  "_last_updated": "2026-07-20T08:05:00.387270+00:00",
+  "_last_updated": "2026-07-21T03:07:07.753570+00:00",
   "hub_clusters": {
     "Steam Machine": {
       "hub_keyword": "Steam Machine",
@@ -75,8 +75,12 @@
       "spokes": [
         "Fallout Series"
       ],
-      "spoke_urls": {},
-      "internal_links": []
+      "spoke_urls": {
+        "Fallout Series (COMPARISON)": "PENDING"
+      },
+      "internal_links": [
+        "PENDING"
+      ]
     },
     "Android Ecosystem": {
       "hub_keyword": "Android Ecosystem",
@@ -195,10 +199,11 @@
       "notes": ""
     },
     "Fallout Series": {
-      "types_done": [],
+      "types_done": [
+        "COMPARISON"
+      ],
       "last_week": "2026-W29",
       "suggest_next": [
-        "COMPARISON",
         "GUIDE",
         "EXPLAINER",
         "LISTICLE"
@@ -804,8 +809,9 @@
         "verifiability": "HIGH",
         "data_grade": "A",
         "verified_keywords": [],
-        "status": "candidate",
-        "selected_at": "2026-07-20T08:05:00.387164+00:00"
+        "status": "published",
+        "selected_at": "2026-07-20T08:05:00.387164+00:00",
+        "url": "PENDING"
       },
       {
         "cluster_name": "Fallout Series",
@@ -1088,6 +1094,15 @@
       "week_tag": "2026-W29",
       "published_at": "2026-07-20T05:11:27.637796+00:00",
       "hub_cluster": "Chrome Extensions"
+    },
+    {
+      "cluster_name": "Fallout Series",
+      "title": "Fallout New Vegas vs Fallout 3 Remaster: Official Feature Comparison",
+      "url": "PENDING",
+      "content_type": "COMPARISON",
+      "week_tag": "2026-W29",
+      "published_at": "2026-07-21T03:07:07.753570+00:00",
+      "hub_cluster": "Fallout Series"
     }
   ]
 }
