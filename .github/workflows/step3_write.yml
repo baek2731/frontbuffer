@@ -1,24 +1,5 @@
 # =====================================================================
-# Step 3: 글 생성 + final/ 스택 저장 (v3)
-# =====================================================================
-# 트리거:
-#   - 수동 (workflow_dispatch)
-#   - Step 2 완료 시 자동 트리거 (workflow_run)
-#
-# 흐름 (전체 대기 글 루프):
-#   write.py next         → 다음 대상 선택 (FIFO, final/ 존재 시 자동 스킵)
-#   write.py prep         → 소스 수집 → write_prompt 생성
-#   gemini_api.py         → Gemini 초안 (내부 재생성 최대 3회) → drafts/
-#   write.py review       → review_prompt 생성 (Gemini 그라운딩용 v2)
-#   gemini_review_api.py  → Gemini 그라운딩 팩트체크 → final/
-#   git commit            → research_data/write/final/ 만 커밋
-#
-# 설계 노트:
-#   - done은 호출하지 않음 — Step 4가 실제 발행 시점에 실제 URL로 호출
-#     (루프 방지는 write.py next의 final/ 존재 체크가 담당)
-#   - 같은 항목 2회 연속 실패 시 해당 항목 포기하고 루프 종료
-#     (영구 실패 항목이 실행 전체를 소진하는 것 방지)
-#   - _posts/ 커밋 금지 — final/에 스택으로만 쌓음
+# Step 3: 글 생성 + final/ 스택 저장 (v4 — Discord 알림 추가)
 # =====================================================================
 
 name: Step 3 - Write Articles
@@ -26,7 +7,7 @@ name: Step 3 - Write Articles
 on:
   workflow_dispatch:
   workflow_run:
-    workflows: ["Step 2 - Plan Articles"]
+    workflows: ["Step 2 — Gemini 1차 호출 → 기획안 생성 + Grade 판정"]
     types:
       - completed
 
@@ -40,27 +21,22 @@ jobs:
       github.event.workflow_run.conclusion == 'success'
 
     steps:
-      # ── 1. 체크아웃 ────────────────────────────────────────────────
       - name: Checkout
         uses: actions/checkout@v4
 
-      # ── 2. Python 설치 ─────────────────────────────────────────────
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      # ── 3. 패키지 설치 ─────────────────────────────────────────────
       - name: Install dependencies
         run: pip install requests
 
-      # ── 4. Git 설정 ────────────────────────────────────────────────
       - name: Configure Git
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-      # ── 5. 전체 대기 글 루프 처리 ──────────────────────────────────
       - name: Write all pending articles
         env:
           GEMINI_API_KEY:  ${{ secrets.GEMINI_API_KEY }}
@@ -70,10 +46,10 @@ jobs:
           COUNT=0
           LAST_ITEM=""
           FAIL_STREAK=0
+          FAILURES=""     # 실패 항목 누적 (Discord 알림용)
 
           while [ $COUNT -lt $MAX_ARTICLES ]; do
 
-            # ── 다음 대상 선택 (final/ 존재 항목은 write.py가 스킵) ──
             RESULT=$(python write.py next --json)
             OK=$(echo "$RESULT" | python -c "import sys,json; print(json.load(sys.stdin).get('ok', False))")
 
@@ -86,13 +62,11 @@ jobs:
             TYPE=$(echo "$RESULT"    | python -c "import sys,json; print(json.load(sys.stdin)['content_type'])")
             ITEM="${CLUSTER}__${TYPE}"
 
-            # ── 같은 항목 재등장 = 이전 시도 실패 → 2회 연속이면 포기 ──
             if [ "$ITEM" = "$LAST_ITEM" ]; then
               FAIL_STREAK=$((FAIL_STREAK + 1))
               if [ $FAIL_STREAK -ge 2 ]; then
-                echo "⛔ [$CLUSTER][$TYPE] 2회 연속 실패 — 이 항목 포기, 루프 종료"
-                echo "   (final/에 파일이 없어 next가 계속 같은 항목을 반환하는 상태."
-                echo "    초안 품질 또는 소스 문제일 수 있으니 수동 확인 필요)"
+                echo "⛔ [$CLUSTER][$TYPE] 2회 연속 실패 — 포기, 루프 종료"
+                FAILURES="${FAILURES:+$FAILURES,}[$TYPE] $CLUSTER"
                 break
               fi
               echo "⚠️ 같은 항목 재시도 (${FAIL_STREAK}회차)"
@@ -107,35 +81,34 @@ jobs:
             echo "[$COUNT] 🖊️  $CLUSTER [$TYPE]"
             echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 
-            # ── prep ────────────────────────────────────────────────
             echo "📝 [1/4] prep..."
             if ! python write.py prep "$CLUSTER" --type "$TYPE"; then
               echo "❌ prep 실패 — 다음 루프로"
+              FAILURES="${FAILURES:+$FAILURES,}[$TYPE] $CLUSTER (prep 실패)"
               continue
             fi
 
-            # ── Gemini 초안 (내부에서 최대 3회 재생성) ──────────────
             echo "🤖 [2/4] Gemini 초안..."
             if ! python gemini_api.py --cluster "$CLUSTER" --type "$TYPE"; then
               echo "❌ Gemini 초안 실패 — 다음 루프로"
+              FAILURES="${FAILURES:+$FAILURES,}[$TYPE] $CLUSTER (초안 실패)"
               continue
             fi
 
-            # ── review_prompt 생성 ──────────────────────────────────
             echo "🔍 [3/4] review prompt..."
             if ! python write.py review "$CLUSTER" --type "$TYPE"; then
               echo "❌ review 실패 — 다음 루프로"
+              FAILURES="${FAILURES:+$FAILURES,}[$TYPE] $CLUSTER (review 실패)"
               continue
             fi
 
-            # ── Gemini 그라운딩 팩트체크 + 최종본 ───────────────────
             echo "✨ [4/4] Gemini 그라운딩 팩트체크..."
             if ! python gemini_review_api.py --cluster "$CLUSTER" --type "$TYPE"; then
               echo "❌ Gemini Review 실패 — 다음 루프로"
+              FAILURES="${FAILURES:+$FAILURES,}[$TYPE] $CLUSTER (팩트체크 실패)"
               continue
             fi
 
-            # ── final/ 커밋 ─────────────────────────────────────────
             git stash
             git pull origin main --rebase
             git stash pop || true
@@ -149,7 +122,6 @@ jobs:
               echo "✅ 커밋 완료: [$TYPE] $CLUSTER"
             fi
 
-            # 성공 시 실패 카운터 리셋
             FAIL_STREAK=0
 
           done
@@ -158,3 +130,21 @@ jobs:
           echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
           echo "🏁 전체 완료: $COUNT 건 처리"
           echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+
+          # GitHub ENV로 결과 전달 (Discord 알림용)
+          STACK=$(find research_data/write/final -name "*.md" \
+                  ! -name "review_report_*" 2>/dev/null | wc -l || echo 0)
+          echo "WRITE_COUNT=$COUNT"   >> $GITHUB_ENV
+          echo "WRITE_STACK=$STACK"   >> $GITHUB_ENV
+          echo "WRITE_FAILURES=$FAILURES" >> $GITHUB_ENV
+
+      # ── Discord 알림: Step 3 완료 ─────────────────────────────────
+      - name: "🔔 Discord 알림 — 글 생성 완료"
+        if: always()
+        run: |
+          python notify.py step3_done \
+            --count    "${{ env.WRITE_COUNT }}" \
+            --stack    "${{ env.WRITE_STACK }}" \
+            --failures "${{ env.WRITE_FAILURES }}"
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}

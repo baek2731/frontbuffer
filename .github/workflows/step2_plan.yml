@@ -1,12 +1,21 @@
 name: "Step 2 — Gemini 1차 호출 → 기획안 생성 + Grade 판정"
 
 on:
+  # ── 수동 트리거 ────────────────────────────────────────────────────
   workflow_dispatch:
     inputs:
       week_tag:
         description: "주차 태그 (비워두면 자동: 2026-W29)"
         required: false
         default: ""
+
+  # ── CSV push 감지 자동 트리거 ──────────────────────────────────────
+  # 사람이 research_data/trends/ 아래 CSV를 업로드하면 자동 실행
+  push:
+    branches:
+      - main
+    paths:
+      - 'research_data/trends/**/*.csv'
 
 jobs:
   plan:
@@ -25,20 +34,32 @@ jobs:
       - name: "📦 패키지 설치"
         run: pip install requests beautifulsoup4 lxml
 
-      - name: "🔍 Step 1 완료 여부 확인"
+      - name: "🗓️ 주차 태그 설정"
         run: |
+          # push 트리거 시 week_tag 입력이 없으므로 항상 자동 계산 fallback
           WEEK="${{ github.event.inputs.week_tag }}"
           if [ -z "$WEEK" ]; then
             WEEK=$(python -c "from datetime import datetime,timezone; print(datetime.now(timezone.utc).strftime('%Y-W%W'))")
           fi
           echo "WEEK_TAG=$WEEK" >> $GITHUB_ENV
 
-          if [ ! -f "research_data/weekly/$WEEK/prompt.txt" ]; then
+          # 트리거 종류 기록 (알림 메시지에 사용)
+          if [ "${{ github.event_name }}" = "push" ]; then
+            echo "TRIGGER_TYPE=csv_push" >> $GITHUB_ENV
+            echo "🚀 CSV push 감지로 자동 시작 (주차: $WEEK)"
+          else
+            echo "TRIGGER_TYPE=manual" >> $GITHUB_ENV
+            echo "🔧 수동 트리거 (주차: $WEEK)"
+          fi
+
+      - name: "🔍 Step 1 완료 여부 확인"
+        run: |
+          if [ ! -f "research_data/weekly/${{ env.WEEK_TAG }}/prompt.txt" ]; then
             echo "❌ prompt.txt 없음 — Step 1을 먼저 실행하세요."
             exit 1
           fi
-          echo "✅ prompt.txt 확인: research_data/weekly/$WEEK/prompt.txt"
-          wc -c "research_data/weekly/$WEEK/prompt.txt"
+          echo "✅ prompt.txt 확인: research_data/weekly/${{ env.WEEK_TAG }}/prompt.txt"
+          wc -c "research_data/weekly/${{ env.WEEK_TAG }}/prompt.txt"
 
       - name: "📈 Trends/KP CSV 현황 확인 (없으면 중단)"
         run: |
@@ -101,6 +122,11 @@ jobs:
           print(f'❌ Grade C (폐기): {len(grades[\"C\"])}개')
           for d in grades['C']:
               print(f'   [{d.get(\"content_type\",\"?\")}] {d.get(\"cluster_name\",\"\")}')
+
+          # GitHub ENV로 candidate 수 출력
+          candidates = len(grades['A']) + len(grades['B'])
+          with open('$GITHUB_ENV', 'a') as f:
+              f.write(f'CANDIDATE_COUNT={candidates}\n')
           "
 
           echo ""
@@ -132,3 +158,24 @@ jobs:
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # ── Discord 알림: Step 2 완료 ────────────────────────────────────
+      - name: "🔔 Discord 알림 — 기획안 생성 완료"
+        if: success()
+        run: |
+          python notify.py step2_done \
+            --week  "${{ env.WEEK_TAG }}" \
+            --count "${{ env.CANDIDATE_COUNT }}"
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+
+      # ── Discord 알림: Step 2 실패 ────────────────────────────────────
+      - name: "🔔 Discord 알림 — Step 2 실패"
+        if: failure()
+        run: |
+          python notify.py custom \
+            --title "Step 2 실패" \
+            --body  "기획안 생성 중 오류 발생. Actions 로그를 확인하세요." \
+            --level error
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}

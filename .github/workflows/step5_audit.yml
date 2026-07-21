@@ -1,0 +1,97 @@
+# =====================================================================
+# Step 5: 주간 품질 감사 (금요일 cron)
+# =====================================================================
+# 트리거: 금요일 UTC 15:00 (미국 동부 오전 11시)
+#         + 수동 트리거
+#
+# 흐름:
+#   step5_audit.py 실행
+#     1. _posts/ 플레이스홀더 자동 제거
+#     2. published/ ↔ _posts/ 동기화
+#     3. 단어 수 미달 / front matter 누락 / HUB-스포크 불일치 검사
+#     4. 외부 링크 404 검사
+#     5. audit_report.md 생성
+#   변경사항 커밋 → Discord 알림 (수동 확인 있을 때만)
+# =====================================================================
+
+name: "Step 5 — 주간 품질 감사"
+
+on:
+  schedule:
+    - cron: '0 15 * * 5'    # 금요일 UTC 15:00 (미국 동부 오전 11시)
+  workflow_dispatch:          # 수동 트리거
+    inputs:
+      skip_links:
+        description: "외부 링크 404 검사 건너뜀 (빠른 실행)"
+        required: false
+        default: "false"
+        type: choice
+        options: ["false", "true"]
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: "📥 리포 체크아웃"
+        uses: actions/checkout@v4
+
+      - name: "🐍 Python 세팅"
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: "📦 패키지 설치"
+        run: pip install requests
+
+      - name: "🔎 품질 감사 실행"
+        run: |
+          SKIP_FLAG=""
+          if [ "${{ github.event.inputs.skip_links }}" = "true" ]; then
+            SKIP_FLAG="--skip-links"
+          fi
+          # cron 트리거 시에는 항상 링크 검사 실행 (SKIP_FLAG 없음)
+          python step5_audit.py $SKIP_FLAG
+
+      - name: "💾 자동 수정 사항 커밋"
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add _posts/ \
+                  research_data/write/published/ \
+                  research_data/write/audit_report.md
+
+          if git diff --cached --quiet; then
+            echo "ℹ️  자동 수정 사항 없음"
+          else
+            git commit -m "chore: Step5 품질 감사 자동 수정 $(date -u +%Y-%m-%d)"
+            git push
+            echo "✅ 자동 수정 사항 커밋 완료"
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # ── Discord 알림: 감사 결과 ──────────────────────────────────────
+      # step5_audit.py가 AUDIT_AUTO / AUDIT_MANUAL / AUDIT_STACK을 GITHUB_ENV에 씀
+      - name: "🔔 Discord 알림 — 품질 감사 결과"
+        if: always()
+        run: |
+          python notify.py step5_done \
+            --auto   "${{ env.AUDIT_AUTO }}" \
+            --manual "${{ env.AUDIT_MANUAL }}" \
+            --stack  "${{ env.AUDIT_STACK }}"
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+
+      # ── Discord 알림: Step 5 자체 실패 ──────────────────────────────
+      - name: "🔔 Discord 알림 — Step 5 실패"
+        if: failure()
+        run: |
+          python notify.py custom \
+            --title "Step 5 품질 감사 실패" \
+            --body  "감사 스크립트 실행 중 오류 발생. Actions 로그를 확인하세요." \
+            --level error
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}

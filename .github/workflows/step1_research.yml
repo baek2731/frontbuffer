@@ -1,7 +1,9 @@
 name: "Step 1 — RSS 수집 + 리서치 데이터 확인"
 
 on:
-  workflow_dispatch:   # 수동 트리거
+  schedule:
+    - cron: '0 2 * * 1'     # 월요일 UTC 02:00 (한국 오전 11시, 미국 동부 전날 밤)
+  workflow_dispatch:          # 수동 트리거 (언제든 실행 가능)
     inputs:
       week_tag:
         description: "주차 태그 (비워두면 자동: 2026-W29)"
@@ -26,6 +28,15 @@ jobs:
         run: |
           pip install requests beautifulsoup4 lxml
 
+      - name: "🗓️ 주차 태그 설정"
+        run: |
+          WEEK="${{ github.event.inputs.week_tag }}"
+          if [ -z "$WEEK" ]; then
+            WEEK=$(python -c "from datetime import datetime,timezone; print(datetime.now(timezone.utc).strftime('%Y-W%W'))")
+          fi
+          echo "WEEK_TAG=$WEEK" >> $GITHUB_ENV
+          echo "이번 주차: $WEEK"
+
       - name: "📊 RSS 수집 실행"
         run: python research.py
         env:
@@ -38,9 +49,8 @@ jobs:
 
           echo ""
           echo "=== 이번 주 prompt.txt 크기 ==="
-          WEEK=$(python -c "from datetime import datetime,timezone; print(datetime.now(timezone.utc).strftime('%Y-W%W'))")
-          if [ -f "research_data/weekly/$WEEK/prompt.txt" ]; then
-            wc -c "research_data/weekly/$WEEK/prompt.txt"
+          if [ -f "research_data/weekly/${{ env.WEEK_TAG }}/prompt.txt" ]; then
+            wc -c "research_data/weekly/${{ env.WEEK_TAG }}/prompt.txt"
             echo "✅ prompt.txt 생성 확인"
           else
             echo "❌ prompt.txt 없음 — research.py 실패 가능성"
@@ -56,8 +66,27 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add research_data/weekly/
-          git add research_data/trends/
           git diff --cached --quiet || git commit -m "chore: Step1 RSS 수집 완료 $(date -u +%Y-%m-%d)"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # ── Discord 알림: CSV 업로드 요청 ───────────────────────────────
+      # 성공 시에만 전송 (실패면 위 단계에서 이미 exit 1)
+      - name: "🔔 Discord 알림 — CSV 업로드 요청"
+        if: success()
+        run: |
+          python notify.py step1_done --week "${{ env.WEEK_TAG }}"
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+
+      # ── Discord 알림: Step 1 실패 ───────────────────────────────────
+      - name: "🔔 Discord 알림 — Step 1 실패"
+        if: failure()
+        run: |
+          python notify.py custom \
+            --title "Step 1 실패" \
+            --body  "RSS 수집 중 오류 발생. Actions 로그를 확인하세요." \
+            --level error
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
