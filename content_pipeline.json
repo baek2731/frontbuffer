@@ -1,7 +1,7 @@
 {
   "_version": "1.3",
   "_description": "콘텐츠 파이프라인 — 클러스터 단위 관리",
-  "_last_updated": "2026-07-21T03:43:50.314045+00:00",
+  "_last_updated": "2026-07-21T03:47:02.759169+00:00",
   "hub_clusters": {
     "Steam Machine": {
       "hub_keyword": "Steam Machine",
@@ -794,9 +794,8 @@
         "verifiability": "HIGH",
         "data_grade": "B",
         "verified_keywords": [],
-        "status": "published",
-        "selected_at": "2026-07-20T04:28:32.401611+00:00",
-        "url": "PENDING"
+        "status": "candidate",
+        "selected_at": "2026-07-20T04:28:32.401611+00:00"
       },
       {
         "cluster_name": "Samsung Health Data Ecosystem",
@@ -815,9 +814,8 @@
         "verifiability": "HIGH",
         "data_grade": "B",
         "verified_keywords": [],
-        "status": "published",
-        "selected_at": "2026-07-20T04:28:32.401611+00:00",
-        "url": "PENDING"
+        "status": "candidate",
+        "selected_at": "2026-07-20T04:28:32.401611+00:00"
       },
       {
         "cluster_name": "Fallout Series",
@@ -862,9 +860,8 @@
         "verifiability": "HIGH",
         "data_grade": "A",
         "verified_keywords": [],
-        "status": "published",
-        "selected_at": "2026-07-20T08:05:00.387164+00:00",
-        "url": "PENDING"
+        "status": "candidate",
+        "selected_at": "2026-07-20T08:05:00.387164+00:00"
       },
       {
         "cluster_name": "Fallout Series",
@@ -886,9 +883,8 @@
         "verifiability": "HIGH",
         "data_grade": "A",
         "verified_keywords": [],
-        "status": "published",
-        "selected_at": "2026-07-20T08:05:00.387164+00:00",
-        "url": "PENDING"
+        "status": "candidate",
+        "selected_at": "2026-07-20T08:05:00.387164+00:00"
       },
       {
         "cluster_name": "Android Ecosystem",
@@ -910,9 +906,8 @@
         "verifiability": "HIGH",
         "data_grade": "A",
         "verified_keywords": [],
-        "status": "published",
-        "selected_at": "2026-07-20T08:05:00.387164+00:00",
-        "url": "PENDING"
+        "status": "candidate",
+        "selected_at": "2026-07-20T08:05:00.387164+00:00"
       },
       {
         "cluster_name": "Android Ecosystem",
@@ -934,9 +929,8 @@
         "verifiability": "HIGH",
         "data_grade": "A",
         "verified_keywords": [],
-        "status": "published",
-        "selected_at": "2026-07-20T08:05:00.387164+00:00",
-        "url": "PENDING"
+        "status": "candidate",
+        "selected_at": "2026-07-20T08:05:00.387164+00:00"
       },
       {
         "cluster_name": "Android Ecosystem",
@@ -958,9 +952,8 @@
         "verifiability": "HIGH",
         "data_grade": "A",
         "verified_keywords": [],
-        "status": "published",
-        "selected_at": "2026-07-20T08:05:00.387164+00:00",
-        "url": "PENDING"
+        "status": "candidate",
+        "selected_at": "2026-07-20T08:05:00.387164+00:00"
       },
       {
         "cluster_name": "Portable Gaming",
@@ -982,9 +975,8 @@
         "verifiability": "HIGH",
         "data_grade": "A",
         "verified_keywords": [],
-        "status": "published",
-        "selected_at": "2026-07-20T08:05:00.387164+00:00",
-        "url": "PENDING"
+        "status": "candidate",
+        "selected_at": "2026-07-20T08:05:00.387164+00:00"
       },
       {
         "cluster_name": "Portable Gaming",
@@ -1006,9 +998,8 @@
         "verifiability": "HIGH",
         "data_grade": "A",
         "verified_keywords": [],
-        "status": "published",
-        "selected_at": "2026-07-20T08:05:00.387164+00:00",
-        "url": "PENDING"
+        "status": "candidate",
+        "selected_at": "2026-07-20T08:05:00.387164+00:00"
       },
       {
         "cluster_name": "Portable Gaming",
@@ -1030,9 +1021,8 @@
         "verifiability": "HIGH",
         "data_grade": "A",
         "verified_keywords": [],
-        "status": "published",
-        "selected_at": "2026-07-20T08:05:00.387164+00:00",
-        "url": "PENDING"
+        "status": "candidate",
+        "selected_at": "2026-07-20T08:05:00.387164+00:00"
       },
       {
         "cluster_name": "Android Ecosystem",
@@ -1131,96 +1121,6 @@
       "week_tag": "2026-W29",
       "published_at": "2026-07-20T05:11:27.637796+00:00",
       "hub_cluster": "Chrome Extensions"
-    },
-    {
-      "cluster_name": "Fallout Series",
-      "title": "Fallout New Vegas Modding Guide: Essential Quality of Life and Content Mods",
-      "url": "PENDING",
-      "content_type": "GUIDE",
-      "week_tag": "2026-W29",
-      "published_at": "2026-07-21T03:31:26.991685+00:00",
-      "hub_cluster": "Fallout Series"
-    },
-    {
-      "cluster_name": "Fallout Series",
-      "title": "Fallout New Vegas Endings Explained: How Player Choices Impact the Mojave",
-      "url": "PENDING",
-      "content_type": "EXPLAINER",
-      "week_tag": "2026-W29",
-      "published_at": "2026-07-21T03:32:22.846211+00:00",
-      "hub_cluster": "Fallout Series"
-    },
-    {
-      "cluster_name": "Android Ecosystem",
-      "title": "Samsung Secure Folder vs Google Files Safe Folder: Privacy Features Comparison",
-      "url": "PENDING",
-      "content_type": "COMPARISON",
-      "week_tag": "2026-W29",
-      "published_at": "2026-07-21T03:33:36.098416+00:00",
-      "hub_cluster": "Android Ecosystem"
-    },
-    {
-      "cluster_name": "Android Ecosystem",
-      "title": "How to Transfer Samsung Health Data When Switching Android Phones",
-      "url": "PENDING",
-      "content_type": "GUIDE",
-      "week_tag": "2026-W29",
-      "published_at": "2026-07-21T03:34:35.358961+00:00",
-      "hub_cluster": "Android Ecosystem"
-    },
-    {
-      "cluster_name": "Android Ecosystem",
-      "title": "Google Photos Free Storage Policy Changes Explained: Impact on Existing Libraries",
-      "url": "PENDING",
-      "content_type": "EXPLAINER",
-      "week_tag": "2026-W29",
-      "published_at": "2026-07-21T03:35:40.429634+00:00",
-      "hub_cluster": "Android Ecosystem"
-    },
-    {
-      "cluster_name": "Portable Gaming",
-      "title": "AYANEO Handhelds vs Steam Deck: Performance and Portability Comparison",
-      "url": "PENDING",
-      "content_type": "COMPARISON",
-      "week_tag": "2026-W29",
-      "published_at": "2026-07-21T03:37:16.674603+00:00",
-      "hub_cluster": "Portable Gaming"
-    },
-    {
-      "cluster_name": "Portable Gaming",
-      "title": "How to Stream PC Games to Android Tablets using the Moonlight App",
-      "url": "PENDING",
-      "content_type": "GUIDE",
-      "week_tag": "2026-W29",
-      "published_at": "2026-07-21T03:38:55.693276+00:00",
-      "hub_cluster": "Portable Gaming"
-    },
-    {
-      "cluster_name": "Portable Gaming",
-      "title": "Steam Deck Verified Games: Understanding Compatibility and Performance Ratings",
-      "url": "PENDING",
-      "content_type": "EXPLAINER",
-      "week_tag": "2026-W29",
-      "published_at": "2026-07-21T03:40:13.131865+00:00",
-      "hub_cluster": "Portable Gaming"
-    },
-    {
-      "cluster_name": "Steam Machine Hardware Management",
-      "title": "Steam Machine Hardware Management",
-      "url": "PENDING",
-      "content_type": "HUB",
-      "week_tag": "2026-W29",
-      "published_at": "2026-07-21T03:42:32.036261+00:00",
-      "hub_cluster": "Steam Machine"
-    },
-    {
-      "cluster_name": "Samsung Health Data Ecosystem",
-      "title": "Mastering Your Samsung Health Data Ecosystem: Backup, Export, and Connect",
-      "url": "PENDING",
-      "content_type": "HUB",
-      "week_tag": "2026-W29",
-      "published_at": "2026-07-21T03:43:50.313993+00:00",
-      "hub_cluster": "Samsung Health"
     }
   ]
 }
