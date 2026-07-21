@@ -100,6 +100,12 @@ def call_claude_api(prompt_text):
     payload = {
         "model":      CLAUDE_MODEL,
         "max_tokens": 8192,
+        "tools": [
+            {
+                "type": "web_search_20250305",
+                "name": "web_search"
+            }
+        ],
         "messages": [
             {"role": "user", "content": prompt_text}
         ],

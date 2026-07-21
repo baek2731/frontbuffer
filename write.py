@@ -573,7 +573,7 @@ def collect_from_google_play(hub_keyword, spoke_keywords):
 
 def collect_from_youtube(hub_keyword, spoke_keywords, cfg):
     """YouTube Data API v3 — API 키 있을 때만 실행."""
-    yt_api_key = cfg.get("youtube_api_key", "")
+    yt_api_key = cfg.get("youtube_api_key", "") or os.environ.get("YOUTUBE_API_KEY", "")
     if not yt_api_key:
         return 0, [], ""
 
