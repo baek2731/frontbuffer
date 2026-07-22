@@ -1,7 +1,7 @@
 {
   "_version": "1.3",
   "_description": "콘텐츠 파이프라인 — 클러스터 단위 관리",
-  "_last_updated": "2026-07-21T15:40:54.188276+00:00",
+  "_last_updated": "2026-07-22T15:38:09.530212+00:00",
   "hub_clusters": {
     "Steam Machine": {
       "hub_keyword": "Steam Machine",
@@ -100,12 +100,12 @@
       ],
       "spoke_urls": {
         "Android Ecosystem (COMPARISON)": "https://frontbuffer.net/tech/android-ecosystem-comparison/",
-        "Android Ecosystem (GUIDE)": "PENDING",
+        "Android Ecosystem (GUIDE)": "https://frontbuffer.net/tech/android-ecosystem_guide/",
         "Android Ecosystem (EXPLAINER)": "https://frontbuffer.net/tech/android-ecosystem_explainer/"
       },
       "internal_links": [
         "https://frontbuffer.net/tech/android-ecosystem-comparison/",
-        "PENDING",
+        "https://frontbuffer.net/tech/android-ecosystem_guide/",
         "https://frontbuffer.net/tech/android-ecosystem_explainer/"
       ]
     },
@@ -930,8 +930,9 @@
         "verifiability": "HIGH",
         "data_grade": "A",
         "verified_keywords": [],
-        "status": "candidate",
-        "selected_at": "2026-07-20T08:05:00.387164+00:00"
+        "status": "published",
+        "selected_at": "2026-07-20T08:05:00.387164+00:00",
+        "url": "https://frontbuffer.net/tech/android-ecosystem_guide/"
       },
       {
         "cluster_name": "Android Ecosystem",
@@ -1140,6 +1141,15 @@
       "content_type": "EXPLAINER",
       "week_tag": "2026-W29",
       "published_at": "2026-07-21T15:40:54.188199+00:00",
+      "hub_cluster": "Android Ecosystem"
+    },
+    {
+      "cluster_name": "Android Ecosystem",
+      "title": "How to Transfer Samsung Health Data When Switching Android Phones",
+      "url": "https://frontbuffer.net/tech/android-ecosystem_guide/",
+      "content_type": "GUIDE",
+      "week_tag": "2026-W29",
+      "published_at": "2026-07-22T15:38:09.530151+00:00",
       "hub_cluster": "Android Ecosystem"
     }
   ]
