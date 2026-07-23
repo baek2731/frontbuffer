@@ -1,7 +1,7 @@
 {
   "_version": "1.3",
   "_description": "콘텐츠 파이프라인 — 클러스터 단위 관리",
-  "_last_updated": "2026-07-22T15:38:09.530212+00:00",
+  "_last_updated": "2026-07-23T15:53:02.689395+00:00",
   "hub_clusters": {
     "Steam Machine": {
       "hub_keyword": "Steam Machine",
@@ -80,12 +80,12 @@
         "Fallout Series"
       ],
       "spoke_urls": {
-        "Fallout Series (COMPARISON)": "PENDING",
+        "Fallout Series (COMPARISON)": "https://frontbuffer.net/gaming/fallout-series_comparison/",
         "Fallout Series (GUIDE)": "PENDING",
         "Fallout Series (EXPLAINER)": "PENDING"
       },
       "internal_links": [
-        "PENDING",
+        "https://frontbuffer.net/gaming/fallout-series_comparison/",
         "PENDING",
         "PENDING"
       ]
@@ -837,8 +837,9 @@
         "verifiability": "HIGH",
         "data_grade": "A",
         "verified_keywords": [],
-        "status": "candidate",
-        "selected_at": "2026-07-20T08:05:00.387164+00:00"
+        "status": "published",
+        "selected_at": "2026-07-20T08:05:00.387164+00:00",
+        "url": "https://frontbuffer.net/gaming/fallout-series_comparison/"
       },
       {
         "cluster_name": "Fallout Series",
@@ -1151,6 +1152,15 @@
       "week_tag": "2026-W29",
       "published_at": "2026-07-22T15:38:09.530151+00:00",
       "hub_cluster": "Android Ecosystem"
+    },
+    {
+      "cluster_name": "Fallout Series",
+      "title": "Fallout New Vegas vs. Fallout 3 Remaster: What We Know and What to Expect",
+      "url": "https://frontbuffer.net/gaming/fallout-series_comparison/",
+      "content_type": "COMPARISON",
+      "week_tag": "2026-W29",
+      "published_at": "2026-07-23T15:53:02.689351+00:00",
+      "hub_cluster": "Fallout Series"
     }
   ]
 }

@@ -1,123 +1,14 @@
-I'll systematically work through all 5 stages. Let me start by searching for the facts that need verification simultaneously.이제 모든 검증에 필요한 정보를 충분히 수집했습니다. 판정 리포트를 작성합니다.
-
 ---
-
-## [1단계] 위험 주장 추출
-
-초안에서 발견된 검증 대상 주장:
-
-1. **리마스터가 "hypothetical(가상)"** — 공식 발표가 없다는 전제로 전체 글이 작성됨
-2. **Fallout 3·New Vegas의 "공식 기능 비교"** — 제목 주장
-3. **YouTube 소스 URL 실존 여부** — `-liNASQJGVo`, `4nWrN7y3BiE`
-4. **"Creation Club" 언급** — 실제 존재하는 기능
-5. **"Fallout London" 언급** — 실존하는 모드 여부
-6. **"$10-$20" 비용 언급** — 커뮤니티 댓글 인용
-7. **Fallout 5·TES6가 "in various stages of anticipation for years"** — 상태 확인 필요
-8. **"Obsidian's FO is the game I'm most stoked for"** — 커뮤니티 인용
-9. **Fallout 4가 "over a decade ago" 출시됐다는 주장** (댓글 인용)
-10. **"Bethesda를 실제로 움직이게 한 non-gamer 새 CEO"** — 커뮤니티 추측 인용
-
+layout: single
+title: 'Fallout New Vegas vs. Fallout 3 Remaster: What We Know and What to Expect'
+date: 2026-07-23 14:55:00 +0000
+categories: [gaming]
+tags: ["comparison", "fallout", "series"]
+excerpt: '*Fallout 3* and *Fallout: New Vegas* are no longer subjects of mere speculation — they are coming back. On July 17, 2026, Bethesda Game Studios…'
+author_profile: false
+read_time: true
+share: true
 ---
-
-## [2단계] 웹 검색 검증 결과
-
-### 검증 1: 리마스터가 "가상(hypothetical)"이라는 전제
-
-Bethesda Game Studios는 2026년 7월 17일 공식 웹사이트 게시글을 통해 Fallout 3 리마스터와 Fallout: New Vegas 리마스터 모두를 공식 확인하며 현재 개발 중임을 밝혔다.
-
-→ **초안의 핵심 전제가 완전히 무너짐.** 초안 전체는 "공식 확인이 없는 팬 추측"이라는 전제로 쓰였으나, 실제로는 공식 발표가 이미 이루어진 상황.
-
-### 검증 2: YouTube URL `-liNASQJGVo` 실존 여부
-
-해당 URL(https://www.youtube.com/watch?v=-liNASQJGVo)은 실제로 존재하며, "Fallout 5, Fallout 3 & New Vegas Remasters CONFIRMED. Details Explained." 제목의 영상으로 Bethesda의 공식 발표 내용을 다루고 있다.
-
-### 검증 3: YouTube URL `4nWrN7y3BiE` 실존 여부
-
-검색 결과, 해당 URL에 대한 직접적인 결과가 반환되지 않았다. 단, 초안의 소스 헤더가 "Fallout 5 Official Reveal, The Elder Scrolls 6, Fa"로 표기되어 있어 관련 영상임은 유추 가능하나 URL 자체의 실존을 직접 확인하기 어려웠다.
-
-### 검증 4: Fallout 5·TES6 현황
-
-Bethesda의 2026년 7월 17일 성명에 따르면, Fallout 5는 현재 프리프로덕션(pre-production) 단계에 있으며 스튜디오의 "장기 목적지(long-range destination)"로 표현됐다. 같은 업데이트에서 TES6는 현재 본격 개발(full production) 중임이 확인됐다.
-
-### 검증 5: Fallout London 실존 여부
-
-Fallout: London은 실제로 존재하는 Fallout 4용 대형 모드로, 2024년 7월에 출시됐으며 GOG에서 무료로 다운로드할 수 있다. 단, 초안은 이를 "New Vegas" 관련 모드처럼 암시하나, 실제로는 **Fallout 4** 기반 모드다.
-
-### 검증 6: Obsidian 관련 팬 코멘트
-
-Obsidian Entertainment는 2026년 7월, Xbox의 구조조정의 일환으로 기존 프로젝트를 취소하고 새로운 Fallout 게임 개발에 착수한 것이 Bloomberg에 의해 보도됐으며, 이 과정에서 스튜디오 인력의 약 25%가 해고됐다. 이후 Bethesda가 Obsidian의 새 Fallout 게임을 공식 확인했다.
-
-### 검증 7: Creation Club의 현재 상태
-
-Creation Club은 2017년 8월 29일 Fallout 4에 처음 출시됐으나, 2025년 11월 10일 Fallout 4: Anniversary Edition 출시 시점에 공식 종료되고 "Creations" 시스템으로 대체됐다. 따라서 초안이 "Creation Club for remastered versions"를 언급한 것은 현재 시점에서 부정확한 표현이다. 현재의 공식 명칭은 "Creations"다.
-
-### 검증 8: Fallout 4 출시 시점("over a decade ago")
-
-Fallout 4는 2015년에 출시됐으며, 가장 최근 메인라인 Fallout 게임 출시로부터 약 11년이 지났다. 따라서 2026년 현재 "over a decade ago"는 사실이다.
-
-### 검증 9: COMPARISON content_type 균형 체크
-
-초안은 사실상 **비교(COMPARISON)** 형식을 전혀 충족하지 못하고 있다. 제목은 "Official Feature Comparison"이지만 실제로 두 게임의 기능·사양을 비교한 내용이 전무하다. 이 부분은 현재 공식으로 발표된 정보가 제한적이나, 알려진 내용으로 보강이 필요하다.
-
----
-
-## [3단계] 판정 리포트
-
-**[검증 1] "official details regarding a feature comparison for hypothetical remasters remain largely unconfirmed"**
-판정: ❌ 틀림
-근거: Bethesda는 2026년 7월 17일 공식 성명을 통해 Fallout 3 및 Fallout: New Vegas 리마스터 모두를 공식 확인했다. 초안의 핵심 전제(가상 리마스터, 미확인)가 완전히 잘못됐다.
-URL: https://www.psu.com/news/fallout-3-fallout-new-vegas-remastered-officially-announced-by-bethesda/ / https://gizmodo.com/obviously-bethesda-is-remastering-fallout-new-vegas-and-fallout-3-2000787259
-
-**[검증 2] YouTube URL `-liNASQJGVo` 실존 여부**
-판정: ✅ 사실
-근거: 해당 영상이 YouTube에 실제로 존재하며, Fallout 5·리마스터 공식 발표를 다루는 영상임이 확인됐다.
-URL: https://www.youtube.com/watch?v=-liNASQJGVo
-
-**[검증 3] YouTube URL `4nWrN7y3BiE` 실존 여부**
-판정: ⚠️ 부분 수정
-근거: 직접 검색으로 해당 URL을 독립적으로 확인하지 못했다. 소스 표기는 유지하되, 해당 URL에서 파생된 모든 인용문은 독립 검증이 불가능하므로 삭제하거나 일반화할 것을 권장한다.
-
-**[검증 4] Fallout 5·TES6가 "in various stages of anticipation for years"**
-판정: ⚠️ 부분 수정
-근거: 이제는 단순한 기대가 아니라 공식 발표가 이루어진 상황이다. Fallout 5는 프리프로덕션 확인(2026년 7월 17일), TES6는 본격 개발 중임이 확인됐다.
-URL: https://fextralife.com/bethesda-just-dropped-huge-news-for-fallout-fans/
-
-**[검증 5] Fallout London이 New Vegas 관련 모드라는 암시**
-판정: ⚠️ 부분 수정
-근거: Fallout: London은 Fallout: New Vegas가 아닌 **Fallout 4** 기반 모드다.
-URL: https://www.nexusmods.com/news/14949
-
-**[검증 6] Creation Club 언급**
-판정: ⚠️ 부분 수정
-근거: Creation Club은 2025년 11월에 공식 종료됐으며, 현재는 "Creations" 시스템으로 대체됐다. 팬 커뮤니티가 언급한 "Creation Club"은 지금은 구형 시스템이므로, 정확한 명칭 또는 맥락 설명이 필요하다.
-URL: https://fallout.fandom.com/wiki/Creation_Club
-
-**[검증 7] Fallout 4가 "over a decade ago" 출시됐다는 댓글 인용**
-판정: ✅ 사실 (2026년 현재 기준)
-근거: Fallout 4는 2015년 출시로, 2026년 기준 약 11년 전이다.
-
-**[검증 8] 제목-내용 정합성: "Official Feature Comparison"인데 실제 비교 없음**
-판정: ❌ 틀림 (구조적 문제)
-근거: 제목이 약속하는 기능 비교 내용이 본문에 전혀 없다. COMPARISON content_type임에도 두 게임의 기능·스펙·기대치를 비교한 섹션이 부재하다. 최신 정보를 바탕으로 비교 내용을 보강해야 한다.
-
-**[보강 1]** Bethesda 공식 발표(2026년 7월 17일) 내용 — 두 리마스터 모두 개발 확인, 날짜 미발표 — https://www.psu.com/news/fallout-3-fallout-new-vegas-remastered-officially-announced-by-bethesda/
-
-**[보강 2]** Obsidian이 별도의 새 Fallout 게임을 공식 개발 중 — Josh Sawyer 디렉터 — https://gamerant.com/fallout-obsidian-game-confirmed/
-
-**[보강 3]** Fallout: New Vegas Season 2 (Prime Video) 2025년 12월 방영 — https://gizmodo.com/obviously-bethesda-is-remastering-fallout-new-vegas-and-fallout-3-2000787259
-
----
-
-## [4단계] 클러스터 내 기존 발행글 정합성 체크
-
-기존 발행글과 충돌 없음 (기존 발행글 없음)
-
----
-
-## [5단계] 수정 반영된 최종본
-
-```markdown
-# Fallout New Vegas vs. Fallout 3 Remaster: What We Know and What to Expect
 
 *Fallout 3* and *Fallout: New Vegas* are no longer subjects of mere speculation — they are coming back. On July 17, 2026, Bethesda Game Studios officially confirmed that remasters of both titles are in active development, ending years of community-driven anticipation and rumor cycles. While specific features, release windows, and platform details remain unannounced, the confirmation itself reshapes the conversation around these two landmark RPGs. This article examines what Bethesda has officially said, how the two games compare as remaster candidates, and what the broader community has been asking for.
 
@@ -184,4 +75,3 @@ The question of whether *Fallout 3* and *Fallout: New Vegas* would receive offic
 - Fallout Wiki (Fallout 3 Remaster): https://fallout.fandom.com/wiki/Fallout_3_remaster
 - Fallout Wiki (Creation Club): https://fallout.fandom.com/wiki/Creation_Club
 - YouTube (Details Explained): https://www.youtube.com/watch?v=-liNASQJGVo
-```

@@ -1,4 +1,14 @@
-# Fallout New Vegas vs. Fallout 3 Remaster: What We Know and What to Expect
+---
+layout: single
+title: 'Fallout New Vegas vs. Fallout 3 Remaster: What We Know and What to Expect'
+date: 2026-07-23 14:55:00 +0000
+categories: [gaming]
+tags: ["comparison", "fallout", "series"]
+excerpt: '*Fallout 3* and *Fallout: New Vegas* are no longer subjects of mere speculation — they are coming back. On July 17, 2026, Bethesda Game Studios…'
+author_profile: false
+read_time: true
+share: true
+---
 
 *Fallout 3* and *Fallout: New Vegas* are no longer subjects of mere speculation — they are coming back. On July 17, 2026, Bethesda Game Studios officially confirmed that remasters of both titles are in active development, ending years of community-driven anticipation and rumor cycles. While specific features, release windows, and platform details remain unannounced, the confirmation itself reshapes the conversation around these two landmark RPGs. This article examines what Bethesda has officially said, how the two games compare as remaster candidates, and what the broader community has been asking for.
 
