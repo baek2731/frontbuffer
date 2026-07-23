@@ -74,7 +74,7 @@ RULE_CHECKS = [
     },
 ]
 
-def run_rule_checks(text: str) -> list:
+def run_rule_checks(text: str, filepath: str = "") -> list:
     """규칙 기반 체크 — 100% 정확."""
     issues = []
 
@@ -87,12 +87,14 @@ def run_rule_checks(text: str) -> list:
             if re.search(chk["pattern"], text):
                 issues.append({"id": chk["id"], "label": chk["label"]})
 
-    # R3: 단어수 체크
+    # R3: 단어수 체크 — HUB는 600단어, 스포크는 800단어 기준
+    is_hub     = filepath.upper().endswith("_HUB.MD")
+    min_words  = 600 if is_hub else 800
     word_count = len(re.findall(r'\b\w+\b', text))
-    if word_count < 800:
+    if word_count < min_words:
         issues.append({
             "id":    "R3",
-            "label": f"단어수 미달 ({word_count}단어 / 최소 800)",
+            "label": f"단어수 미달 ({word_count}단어 / 최소 {min_words})",
         })
 
     return issues
@@ -225,7 +227,7 @@ def check_file(filepath: str) -> dict:
         return {"file": str(path), "error": str(e), "issues": [], "ok": False}
 
     # 규칙 기반
-    rule_issues = run_rule_checks(text)
+    rule_issues = run_rule_checks(text, filepath=str(path))
 
     # Gemini YES/NO
     excerpt      = extract_excerpt(text)
