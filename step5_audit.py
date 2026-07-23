@@ -97,31 +97,42 @@ def check_placeholders(posts, dry_run: bool):
     auto_fixed = []
     manual_needed = []
 
-    PLACEHOLDER_RE = [
-        (r'\[INTERNAL LINK:[^\]]*\](?!\()',  ''),
+    PLACEHOLDER_AUTO = [
         (r'\[AFFILIATE LINK:[^\]]*\](?!\()', ''),
-        (r'\[NEEDS VERIFICATION\]',           None),   # None = 수동 확인
         (r'\[Source:[^\]]*\](?!\(',           ''),
     ]
+    # [INTERNAL LINK]는 publish_one.py가 처리했어야 하므로
+    # _posts/에 잔존하면 수동 확인 대상 (자동 제거 X)
+    INTERNAL_LINK_RE   = r'\[INTERNAL LINK:[^\]]*\](?!\()'
+    NEEDS_VERIFY_RE    = r'\[NEEDS VERIFICATION\]'
 
     for post in posts:
         text = post.read_text(encoding="utf-8")
         modified = text
         needs_manual = []
 
-        for pattern, replacement in PLACEHOLDER_RE:
-            matches = re.findall(pattern, text)
-            if not matches:
-                continue
-            if replacement is None:
-                needs_manual.append(f"`[NEEDS VERIFICATION]` {len(matches)}개")
-            else:
+        # 자동 제거 대상
+        for pattern, replacement in PLACEHOLDER_AUTO:
+            if re.search(pattern, text):
                 modified = re.sub(pattern, replacement, modified)
+
+        # [INTERNAL LINK] 잔존 → 수동 확인 (publish_one.py 링크 주입 실패 의심)
+        il_matches = re.findall(INTERNAL_LINK_RE, text)
+        if il_matches:
+            needs_manual.append(
+                f"`[INTERNAL LINK]` {len(il_matches)}개 잔존 "
+                f"(publish_one.py 링크 주입 실패 의심)"
+            )
+
+        # [NEEDS VERIFICATION] 잔존 → 수동 확인
+        nv_matches = re.findall(NEEDS_VERIFY_RE, text)
+        if nv_matches:
+            needs_manual.append(f"`[NEEDS VERIFICATION]` {len(nv_matches)}개")
 
         if modified != text:
             if not dry_run:
                 post.write_text(modified, encoding="utf-8")
-            auto_fixed.append(f"{post.name} — 플레이스홀더 {len(re.findall(chr(91), text))}개 제거")
+            auto_fixed.append(f"{post.name} — 불필요 플레이스홀더 제거")
 
         if needs_manual:
             manual_needed.append(f"{post.name}: " + ", ".join(needs_manual))

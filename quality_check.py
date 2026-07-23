@@ -14,10 +14,10 @@
 #
 # 체크 항목:
 #   [규칙 기반 — 코드]
-#   R1. [INTERNAL LINK] 플레이스홀더 잔존
-#   R2. [NEEDS VERIFICATION] 태그 잔존
-#   R3. 단어수 800 미달
+#   R2. [NEEDS VERIFICATION] 태그 잔존 (final/에서 체크)
+#   R3. 단어수 미달 (HUB: 600단어, 스포크: 800단어)
 #   R4. H1 존재 여부
+#   ※ R1([INTERNAL LINK])은 Step 5 audit(_posts/ 기준)으로 이관
 #
 #   [Gemini YES/NO — 서론/결론만 발췌해서 판단]
 #   G1. 금지 서론 오프너 패턴
@@ -56,12 +56,8 @@ def github_link(filepath: str) -> str:
 
 # ── 규칙 기반 체크 ──────────────────────────────────────────────────
 
+# R1([INTERNAL LINK])은 final/ 단계에서 정상 잔존 — Step 5 audit에서 _posts/ 기준으로 체크
 RULE_CHECKS = [
-    {
-        "id":      "R1",
-        "label":   "[INTERNAL LINK] 플레이스홀더 잔존",
-        "pattern": r"\[INTERNAL LINK[^\]]*\]",
-    },
     {
         "id":      "R2",
         "label":   "[NEEDS VERIFICATION] 태그 잔존",
