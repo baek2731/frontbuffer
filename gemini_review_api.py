@@ -151,6 +151,106 @@ def save_final(final_text, cluster_name, content_type):
     return final_path
 
 
+INTRO_CONCLUSION_PROMPT = """You are a strict editorial quality checker and rewriter for Frontbuffer Editorial.
+
+TASK: Check the intro and conclusion of the article below for boilerplate patterns.
+If boilerplate is found, rewrite ONLY those sentences. Return the FULL article with fixes applied.
+If no boilerplate is found, return the article UNCHANGED.
+
+BOILERPLATE PATTERNS TO REJECT:
+
+Intro (first 3 sentences):
+❌ "Managing X requires balancing Y"
+❌ "In an increasingly / rapidly / ever-changing world"
+❌ "As technology continues to / evolves"
+❌ "In today's fast-paced / modern era"
+❌ "With the rise of"
+❌ "Whether you are a [beginner/expert]"
+❌ "If you've ever wondered" / "Have you ever"
+❌ "This guide/article will help you understand / breaks down / covers"
+❌ Any sentence that still makes sense if you replace the topic with a different one
+
+Conclusion (last paragraph):
+❌ "Maintaining a stable X environment is vital for keeping Y running smoothly"
+❌ "Regularly doing X ensures Y continues to deliver"
+❌ "We hope this guide has helped"
+❌ "By following the steps above"
+❌ "The choice is yours"
+❌ "Staying informed is key"
+❌ "In conclusion, [topic] is important / exciting"
+❌ Any sentence that works if you swap the topic with something else
+
+REQUIRED INSTEAD:
+✅ Intro: Start with a specific fact, date, product name, or event directly tied to this article's topic.
+   Pattern: "[Specific thing] happened / works this way. Here is what that means."
+✅ Conclusion: End with a specific, actionable takeaway that references a detail from the article body.
+   Must NOT be applicable to any other topic.
+
+ARTICLE:
+---
+{article}
+---
+
+OUTPUT RULES:
+- Return the COMPLETE article in markdown
+- If you rewrote anything, add one line at the very top: [REWRITTEN: intro] or [REWRITTEN: conclusion] or [REWRITTEN: intro+conclusion]
+- If nothing was changed, add one line at the very top: [NO CHANGE]
+- No other commentary. Start directly with the tag line."""
+
+
+def rewrite_intro_conclusion(final_text, cluster_name):
+    """서론/결론 보일러플레이트 감지 + 재작성. 변경 없으면 원문 그대로 반환."""
+    if not GEMINI_API_KEY:
+        return final_text, "skipped"
+
+    prompt = INTRO_CONCLUSION_PROMPT.format(article=final_text)
+    payload = {
+        "contents": [{"parts": [{"text": prompt}]}],
+        "generationConfig": {
+            "temperature":     0.4,
+            "maxOutputTokens": 8192,
+        }
+    }
+    url = GEMINI_URL.format(api_key=GEMINI_API_KEY)
+
+    print(f"  ✍️  서론/결론 보일러플레이트 재검토 중...")
+    try:
+        resp = requests.post(url, json=payload, timeout=120)
+        if resp.status_code != 200:
+            print(f"  ⚠️  재검토 API 오류 ({resp.status_code}) — 원문 유지")
+            return final_text, "error"
+
+        parts = (resp.json()
+                 .get("candidates", [{}])[0]
+                 .get("content", {})
+                 .get("parts", [{}]))
+        raw = "".join(p.get("text", "") for p in parts).strip()
+        if not raw:
+            print(f"  ⚠️  재검토 응답 비어있음 — 원문 유지")
+            return final_text, "error"
+
+        # 첫 줄에서 태그 추출
+        lines     = raw.splitlines()
+        tag_line  = lines[0].strip() if lines else ""
+        article   = "\n".join(lines[1:]).strip() if len(lines) > 1 else raw
+
+        if "[NO CHANGE]" in tag_line:
+            print(f"  ✅ 서론/결론 이상 없음 — 원문 유지")
+            return final_text, "no_change"
+        elif "[REWRITTEN:" in tag_line:
+            what = tag_line.replace("[REWRITTEN:", "").replace("]", "").strip()
+            print(f"  🔧 보일러플레이트 감지 → 재작성 완료 ({what})")
+            return article, f"rewritten:{what}"
+        else:
+            # 태그 없이 본문만 온 경우 — 변경된 것으로 간주
+            print(f"  🔧 재작성 완료 (태그 없음)")
+            return raw, "rewritten"
+
+    except Exception as e:
+        print(f"  ⚠️  재검토 예외: {e} — 원문 유지")
+        return final_text, "error"
+
+
 def check_final_quality(final_text):
     word_count = len(final_text.split())
     errors     = []
@@ -208,7 +308,11 @@ def main():
     final_text = extract_final_markdown(response_text)
     print(f"  📝 최종본 추출 완료 ({len(final_text.split())}단어)")
 
-    # 4. 품질 체크
+    # 4. 서론/결론 보일러플레이트 재검토 + 재작성
+    final_text, rewrite_status = rewrite_intro_conclusion(final_text, cluster_name)
+    time.sleep(2)  # API rate limit 여유
+
+    # 5. 품질 체크
     quality = check_final_quality(final_text)
     print(f"  📊 단어 수: {quality['word_count']}개")
     for w in quality["warnings"]:
@@ -233,16 +337,17 @@ def main():
 
     # 7. 결과 JSON
     result = {
-        "ok":           quality["ok"],
-        "cluster":      cluster_name,
-        "content_type": content_type,
-        "final_path":   final_path,
-        "report_path":  report_path,
-        "word_count":   quality["word_count"],
-        "warnings":     quality["warnings"],
-        "errors":       quality["errors"],
-        "elapsed":      round(elapsed, 1),
-        "timestamp":    datetime.now(timezone.utc).isoformat(),
+        "ok":             quality["ok"],
+        "cluster":        cluster_name,
+        "content_type":   content_type,
+        "final_path":     final_path,
+        "report_path":    report_path,
+        "word_count":     quality["word_count"],
+        "warnings":       quality["warnings"],
+        "errors":         quality["errors"],
+        "rewrite_status": rewrite_status,
+        "elapsed":        round(elapsed, 1),
+        "timestamp":      datetime.now(timezone.utc).isoformat(),
     }
     print(f"\n✅ 완료: {json.dumps(result, ensure_ascii=False)}")
     print(f"""
