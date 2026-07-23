@@ -4,7 +4,7 @@ title: "Steam Machine LED Error Codes: What Each Warning Light Actually Means"
 date: 2026-07-15 10:00:00 +0900
 categories: [gaming]
 tags: ["steam machine", "led error codes", "steam machine red light", "cmos reset"]
-excerpt: "Managing small form factor gaming hardware requires balancing high-performance components with limited physical space. The Steam Machine…"
+excerpt: "Valve's Steam Machine ships with a front LED bar that doubles as a diagnostic display — but the codes it uses are not documented anywhere obvious."
 author_profile: false
 read_time: true
 share: true

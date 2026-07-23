@@ -5,9 +5,11 @@ permalink: /about/
 author_profile: false
 ---
 
-**Frontbuffer** is an independent tech and gaming analysis publication run by an independent editorial team with backgrounds in technology and gaming coverage.
+**Frontbuffer** is an independent tech and gaming publication focused on the stories that actually change how you use your hardware and software — not the news cycle.
 
-We cover the hardware, software, and industry stories that actually matter — with research-backed reporting and no hype.
+Most tech coverage chases announcements. Frontbuffer covers what happens after: whether a feature works as described, what users are actually running into, and what the fine print means for the people affected. We research against primary sources — official documentation, manufacturer specifications, and verified community reports — before publishing anything as fact.
+
+The topics we cover reflect where the real questions are: Chrome extension architecture shifts that break tools millions of people rely on, Samsung and Android ecosystem changes that affect how personal data moves between devices, Steam Machine hardware that launched with undocumented LED codes, and portable gaming hardware that gets benchmarked against marketing claims. These are not abstract industry trends — they are things people search for because something stopped working or a decision needs to be made.
 
 ---
 

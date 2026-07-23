@@ -4,7 +4,7 @@ title: "Best Manifest V3 Alternatives for Older Chrome Extensions"
 date: 2026-07-19 10:00:00 +0900
 categories: [tech]
 tags: ["chrome extensions", "manifest v3 alternatives", "ublock origin lite", "ad blocker replacement"]
-excerpt: "The transition from Manifest V2 to Manifest V3 represents one of the most significant architectural shifts in the history of web browsers. As of July "
+excerpt: "Chrome 138 permanently disabled the original uBlock Origin in July 2025. Here are the extensions that have already made the switch to Manifest V3."
 author_profile: false
 read_time: true
 share: true
