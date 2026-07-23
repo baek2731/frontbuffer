@@ -1,5 +1,5 @@
 # =====================================================================
-# Step 3: 글 생성 + final/ 스택 저장 (v4 — Discord 알림 추가)
+# Step 3: 글 생성 + final/ 스택 저장 (v5 — 품질 체크 추가)
 # =====================================================================
 
 name: "Step 3 — Write Articles"
@@ -14,7 +14,7 @@ on:
 jobs:
   write:
     runs-on: ubuntu-latest
-    timeout-minutes: 70
+    timeout-minutes: 80   # 품질 체크 시간 추가 여유
 
     if: >
       github.event_name == 'workflow_dispatch' ||
@@ -37,6 +37,7 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
+      # ── Step 3 메인: 글 생성 루프 ─────────────────────────────────
       - name: Write all pending articles
         env:
           GEMINI_API_KEY:  ${{ secrets.GEMINI_API_KEY }}
@@ -46,7 +47,8 @@ jobs:
           COUNT=0
           LAST_ITEM=""
           FAIL_STREAK=0
-          FAILURES=""     # 실패 항목 누적 (Discord 알림용)
+          FAILURES=""
+          NEW_FILES=""    # 이번 배치에서 새로 생성된 final/ 파일 목록
 
           while [ $COUNT -lt $MAX_ARTICLES ]; do
 
@@ -109,6 +111,13 @@ jobs:
               continue
             fi
 
+            # 새로 생성된 final/ 파일 추적 (품질 체크용)
+            SLUG=$(echo "$CLUSTER" | tr '[:upper:]' '[:lower:]' | sed 's/ /-/g')
+            FINAL_FILE="research_data/write/final/${SLUG}_${TYPE}.md"
+            if [ -f "$FINAL_FILE" ]; then
+              NEW_FILES="${NEW_FILES:+$NEW_FILES,}$FINAL_FILE"
+            fi
+
             git stash
             git pull origin main --rebase
             git stash pop || true
@@ -131,15 +140,45 @@ jobs:
           echo "🏁 전체 완료: $COUNT 건 처리"
           echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 
-          # GitHub ENV로 결과 전달 (Discord 알림용)
           STACK=$(find research_data/write/final -name "*.md" \
                   ! -name "review_report_*" 2>/dev/null | wc -l || echo 0)
-          echo "WRITE_COUNT=$COUNT"   >> $GITHUB_ENV
-          echo "WRITE_STACK=$STACK"   >> $GITHUB_ENV
-          echo "WRITE_FAILURES=$FAILURES" >> $GITHUB_ENV
+          echo "WRITE_COUNT=$COUNT"        >> $GITHUB_ENV
+          echo "WRITE_STACK=$STACK"        >> $GITHUB_ENV
+          echo "WRITE_FAILURES=$FAILURES"  >> $GITHUB_ENV
+          echo "NEW_FILES=$NEW_FILES"      >> $GITHUB_ENV
 
-      # ── Discord 알림: Step 3 완료 ─────────────────────────────────
-      - name: "🔔 Discord 알림 — 글 생성 완료"
+      # ── 품질 체크 ─────────────────────────────────────────────────
+      # final/ 에 새로 추가된 파일만 대상으로 Gemini YES/NO 평가
+      # quality_report.json 생성 → notify.py가 읽어서 Discord 전송
+      - name: "🔍 품질 체크 — 신규 글 평가"
+        if: env.WRITE_COUNT != '0'
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          if [ -n "${{ env.NEW_FILES }}" ]; then
+            echo "📋 체크 대상: ${{ env.NEW_FILES }}"
+            python quality_check.py --files "${{ env.NEW_FILES }}"
+          else
+            # NEW_FILES 추적 실패 시 final/ 전체 체크 (안전망)
+            echo "⚠️ NEW_FILES 없음 — final/ 전체 체크로 대체"
+            python quality_check.py
+          fi
+
+      # ── quality_report.json 커밋 ──────────────────────────────────
+      - name: "💾 품질 리포트 커밋"
+        if: env.WRITE_COUNT != '0'
+        run: |
+          git pull origin main --rebase
+          git add research_data/write/quality_report.json
+          if git diff --cached --quiet; then
+            echo "ℹ️ 리포트 변경 없음 — 커밋 스킵"
+          else
+            git commit -m "chore: quality_report 업데이트"
+            git push origin HEAD:main
+          fi
+
+      # ── Discord 알림: Step 3 완료 + 품질 체크 결과 ────────────────
+      - name: "🔔 Discord 알림 — 글 생성 + 품질 체크 완료"
         if: always()
         run: |
           python notify.py step3_done \

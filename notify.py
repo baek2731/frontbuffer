@@ -111,7 +111,15 @@ def notify_step2_done(week: str, count: int):
     )
 
 
-def notify_step3_done(count: int, stack: int, failures: list = None):
+def notify_step3_done(count: int, stack: int, failures: list = None,
+                      quality_report_path: str = "research_data/write/quality_report.json"):
+    """
+    Step 3 완료 알림.
+    quality_report.json 이 있으면 품질 체크 결과도 함께 전송.
+    """
+    import os, json as _json
+    from pathlib import Path as _Path
+
     level = "success"
     body  = f"**{count}편** 생성 완료. 현재 final/ 스택: **{stack}편**"
 
@@ -120,16 +128,63 @@ def notify_step3_done(count: int, stack: int, failures: list = None):
         body += f"\n\n⚠️ 스택 잔량 {stack}편 — Step 2/3를 수동으로 실행해 보충하세요."
 
     fields = []
+
+    # ── 품질 체크 결과 ────────────────────────────────────────────────
+    report_path = _Path(quality_report_path)
+    if report_path.exists():
+        try:
+            report = _json.loads(report_path.read_text(encoding="utf-8"))
+            ok_count    = report.get("ok", 0)
+            issue_count = report.get("issue_count", 0)
+            issue_files = report.get("issue_files", [])
+
+            if issue_count == 0:
+                fields.append({
+                    "name":   "🔍 품질 체크",
+                    "value":  f"✅ 전편 이상 없음 ({ok_count}편)",
+                    "inline": False,
+                })
+            else:
+                level = "warn"
+                # 파일별 이슈 요약 (Discord 필드 value 1024자 제한)
+                lines = []
+                for f in issue_files:
+                    issue_labels = " / ".join(i["label"] for i in f["issues"])
+                    lines.append(f"• **{f['name']}**\n  {issue_labels}\n  [GitHub]({f['link']})")
+
+                value = "\n\n".join(lines)
+                if len(value) > 1000:
+                    value = value[:1000] + "\n…(잘림)"
+
+                fields.append({
+                    "name":   f"⚠️ 품질 확인 필요 — {issue_count}편",
+                    "value":  value,
+                    "inline": False,
+                })
+        except Exception as e:
+            fields.append({
+                "name":   "🔍 품질 체크",
+                "value":  f"⚠️ 리포트 파싱 실패: {e}",
+                "inline": False,
+            })
+    else:
+        fields.append({
+            "name":   "🔍 품질 체크",
+            "value":  "리포트 없음 (quality_check.py 실행 여부 확인)",
+            "inline": False,
+        })
+
+    # ── 생성 실패 항목 ────────────────────────────────────────────────
     if failures:
         fields.append({
-            "name":   "실패 항목 (수동 확인 필요)",
+            "name":   "❌ 생성 실패 항목",
             "value":  "\n".join(f"• {f}" for f in failures),
             "inline": False,
         })
         level = "warn"
 
     send(
-        title="Step 3 완료 — 글 생성",
+        title="Step 3 완료 — 글 생성 + 품질 체크",
         body=body,
         level=level,
         fields=fields or None,
