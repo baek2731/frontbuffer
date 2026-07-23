@@ -10,7 +10,7 @@ read_time: true
 share: true
 ---
 
-The June 29, 2026 launch of Valve's new [Steam Machine (2026)](https://en.wikipedia.org/wiki/Steam_Machine_(2026)), codenamed Fremont, has brought console-style PC gaming back into the living room with serious hardware power. However, as early adopters push this compact gaming system to its limits, many have encountered an alarming red light warning that appears to signal overheating. This guide breaks down what the warning light actually means, how to distinguish between a firmware glitch and genuine heat build-up, and how to manage the thermals of the new console.
+The June 29, 2026 launch of Valve's new [Steam Machine (2026)](https://en.wikipedia.org/wiki/Steam_Machine_(2026)), codenamed Fremont, brought a red light problem with it. Within days of release, early units began displaying a solid red warning indicator — and Valve confirmed the culprit is a BIOS bug, not the hardware failing. Here is what is actually happening and how to tell a firmware false alarm from a genuine thermal issue.
 
 ---
 
@@ -50,7 +50,7 @@ The Steam Machine is a capable system for its size: [Rock Paper Shotgun's perfor
 - **Keep the Firmware Updated:** Since the primary cause of false red light warnings is a BIOS threshold bug, installing the latest SteamOS system updates is the most direct fix. Valve has confirmed the patch is in progress.
 - **Monitor System Temperatures:** Use the built-in SteamOS performance overlay to track CPU and GPU temperatures in real time. Sustained readings approaching 100°C under sustained load — the actual throttle threshold after the upcoming patch — are a signal to check your ventilation setup.
 
-Keeping the hardware free of dust and ensuring unobstructed airflow will help the custom AMD silicon maintain its rated performance without interruption.
+Until the BIOS patch ships, the practical threshold to watch is sustained CPU temps above 95°C or GPU above 90°C under load — at that point the red light reflects real thermal pressure, not a firmware miscalibration.
 
 ---
 
