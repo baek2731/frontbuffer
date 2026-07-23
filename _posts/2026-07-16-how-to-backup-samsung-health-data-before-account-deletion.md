@@ -10,7 +10,7 @@ read_time: true
 share: true
 ---
 
-When migrating to a new device ecosystem or choosing to delete a Samsung account entirely, securing years of personal fitness history is a vital first step. The [Samsung Health](https://en.wikipedia.org/wiki/Samsung_Health) platform accumulates vast quantities of biometric, dietary, and activity records over time, making a comprehensive data backup essential before taking any irreversible administrative actions. Navigating the export options — especially for those attempting to access records via the **samsung health web** interface or extract individual metric files — presents distinct challenges worth understanding before diving in.
+Samsung Health does not warn you prominently enough: deleting your Samsung account permanently erases all health data on the device, in the app, and on Samsung's servers — with no recovery path. Before that step, the only way to preserve years of fitness, sleep, and biometric records is a manual export through the mobile app. Here is what that process actually looks like and where it typically goes wrong.
 
 ---
 
