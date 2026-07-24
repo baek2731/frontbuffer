@@ -99,7 +99,7 @@ def check_placeholders(posts, dry_run: bool):
 
     PLACEHOLDER_AUTO = [
         (r'\[AFFILIATE LINK:[^\]]*\](?!\()', ''),
-        (r'\[Source:[^\]]*\](?!\()',           ''),
+        (r'\[Source:[^\]]*\](?!\(',           ''),
     ]
     # [INTERNAL LINK]는 publish_one.py가 처리했어야 하므로
     # _posts/에 잔존하면 수동 확인 대상 (자동 제거 X)
@@ -330,7 +330,17 @@ def check_links_404(posts, max_links: int = 30):
         if checked >= max_links:
             break
         text  = post.read_text(encoding="utf-8")
-        links = re.findall(r'\[(?:[^\]]+)\]\((https?://[^\)]+)\)', text)
+        # 마크다운 링크에서 URL 추출
+        # 괄호가 포함된 URL(예: Wikipedia의 _(2026))을 올바르게 처리
+        raw_links = re.findall(r'\[(?:[^\]]+)\]\((https?://[^\s"<>]*)\)', text)
+        links = []
+        for url in raw_links:
+            open_count  = url.count('(')
+            close_count = url.count(')')
+            while close_count > open_count and url.endswith(')'):
+                url = url[:-1]
+                close_count -= 1
+            links.append(url)
         for url in links:
             if checked >= max_links:
                 break
