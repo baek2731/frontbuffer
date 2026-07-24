@@ -4,13 +4,13 @@ title: "How to Check If Chrome Extensions Use Manifest V2"
 date: 2026-07-18 10:00:00 +0900
 categories: [tech]
 tags: ["chrome extensions", "manifest v2", "check extension manifest version", "chrome developer mode"]
-excerpt: "The Chrome extensions ecosystem has undergone one of the most significant architectural shifts in recent browser history. Google's multi-year phase-ou"
+excerpt: "Chrome 138 disabled Manifest V2 extensions for all standard users in July 2025. Here is how to confirm which of your extensions are affected."
 author_profile: false
 read_time: true
 share: true
 ---
 
-The Chrome extensions ecosystem has undergone one of the most significant architectural shifts in recent browser history. Google's multi-year phase-out of Manifest V2 reached a critical milestone in July 2025, when Chrome 138 disabled MV2 extensions for all standard users. With the [Chrome Web Store set to remove all remaining MV2 listings on August 31, 2026](https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline), understanding how to identify which extensions still rely on the legacy framework has become an immediate priority for both users and developers.
+Chrome 138 disabled Manifest V2 extensions for all standard users in July 2025, and the [Chrome Web Store is set to remove all remaining MV2 listings on August 31, 2026](https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline). If an extension in your browser stopped working over the past year, it was almost certainly running on the legacy framework. Here is how to confirm which extensions are affected and what the deadline means going forward.
 
 ---
 
