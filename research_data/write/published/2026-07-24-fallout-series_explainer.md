@@ -1,10 +1,14 @@
-① 판정 요약:
-*   주장: 초안의 모든 외부 URL은 YouTube 댓글을 출처로 사용하고 있음. → 판정(❌) → 수정 내용: YouTube 댓글은 공식 소스로 보기 어려우므로, 게임 위키, 공식 포럼, 개발자 인터뷰 등 더 신뢰할 수 있는 출처로 대체하거나 보강함. 초안의 YouTube URL은 커뮤니티의 일반적인 의견을 반영하는 경우에만 유지하고, 그 외의 게임 플레이 정보는 공식 위키 등으로 대체함.
-*   주장: 초안의 단어 수가 800단어 미만임. → 판정(⚠️) → 수정 내용: 각 팩션의 배경, 철학, 주요 퀘스트 라인, 그리고 플레이어 선택이 미치는 구체적인 영향에 대한 설명을 추가하여 800단어 이상으로 확장함.
-
-② 최종본:
-```markdown
-# Fallout New Vegas Endings Explained: How Player Choices Impact the Mojave
+---
+layout: single
+title: 'Fallout New Vegas Endings Explained: How Player Choices Impact the Mojave'
+date: 2026-07-24 14:40:00 +0000
+categories: [gaming]
+tags: ["explainer", "fallout", "series"]
+excerpt: '*Fallout: New Vegas* stands as a titan in the realm of role-playing games, celebrated for its intricate narrative and the profound impact of player…'
+author_profile: false
+read_time: true
+share: true
+---
 
 *Fallout: New Vegas* stands as a titan in the realm of role-playing games, celebrated for its intricate narrative and the profound impact of player choices on the Mojave Wasteland. Developed by Obsidian Entertainment and published by Bethesda Softworks, the game masterfully intertwines player agency with the overarching *Fallout lore*, creating a dynamic experience where every decision, from major faction alliances to seemingly minor character interactions, shapes the ultimate fate of the region. This article delves into how these player choices culminate in the diverse endings that define the New Vegas experience.
 
@@ -46,18 +50,17 @@ Furthermore, player motivations for choosing a particular path can be deeply per
 
 ---
 Sources:
-1.  [Fallout Wiki: New California Republic](https://fallout.fandom.com/wiki/New_California_Republic)
-2.  [The Vault, a Fallout Wiki: New California Republic](https://fallout.fandom.com/wiki/New_California_Republic)
-3.  [Fallout Wiki: Caesar's Legion](https://fallout.fandom.com/wiki/Caesar%27s_Legion)
-4.  [The Vault, a Fallout Wiki: Caesar's Legion](https://fallout.fandom.com/wiki/Caesar%27s_Legion)
-5.  [Fallout Wiki: Robert House](https://fallout.fandom.com/wiki/Robert_House)
-6.  [The Vault, a Fallout Wiki: Robert House](https://fallout.fandom.com/wiki/Robert_House)
-7.  [Fallout Wiki: Yes Man](https://fallout.fandom.com/wiki/Yes_Man)
-8.  [Fallout Wiki: Fallout: New Vegas endings](https://fallout.fandom.com/wiki/Fallout:_New_Vegas_endings)
-9.  [The Vault, a Fallout Wiki: Fallout: New Vegas quests](https://fallout.fandom.com/wiki/Fallout:_New_Vegas_quests)
+1. [Fallout Wiki: New California Republic](https://fallout.fandom.com/wiki/New_California_Republic)
+2. [The Vault, a Fallout Wiki: New California Republic](https://fallout.fandom.com/wiki/New_California_Republic)
+3. [Fallout Wiki: Caesar's Legion](https://fallout.fandom.com/wiki/Caesar%27s_Legion)
+4. [The Vault, a Fallout Wiki: Caesar's Legion](https://fallout.fandom.com/wiki/Caesar%27s_Legion)
+5. [Fallout Wiki: Robert House](https://fallout.fandom.com/wiki/Robert_House)
+6. [The Vault, a Fallout Wiki: Robert House](https://fallout.fandom.com/wiki/Robert_House)
+7. [Fallout Wiki: Yes Man](https://fallout.fandom.com/wiki/Yes_Man)
+8. [Fallout Wiki: Fallout: New Vegas endings](https://fallout.fandom.com/wiki/Fallout:_New_Vegas_endings)
+9. [The Vault, a Fallout Wiki: Fallout: New Vegas quests](https://fallout.fandom.com/wiki/Fallout:_New_Vegas_quests)
 10. [YouTube: I Made EVERY BAD CHOICE in Fallout New Vegas So Yo](https://www.youtube.com/watch?v=b-7WAW8TsIs)
 11. [Fallout Wiki: Arcade Gannon](https://fallout.fandom.com/wiki/Arcade_Gannon)
 12. [Fallout Wiki: Eye for an Eye](https://fallout.fandom.com/wiki/Eye_for_an_Eye)
 13. [Fallout Wiki: Reputation (Fallout: New Vegas)](https://fallout.fandom.com/wiki/Reputation_(Fallout:_New_Vegas))
 14. [YouTube: Best Faction to join in Fallout New Vegas?](https://www.youtube.com/watch?v=jTD969sTnWs)
-```

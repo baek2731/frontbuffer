@@ -1,4 +1,14 @@
-# Fallout New Vegas Endings Explained: How Player Choices Impact the Mojave
+---
+layout: single
+title: 'Fallout New Vegas Endings Explained: How Player Choices Impact the Mojave'
+date: 2026-07-24 14:40:00 +0000
+categories: [gaming]
+tags: ["explainer", "fallout", "series"]
+excerpt: '*Fallout: New Vegas* stands as a titan in the realm of role-playing games, celebrated for its intricate narrative and the profound impact of player…'
+author_profile: false
+read_time: true
+share: true
+---
 
 *Fallout: New Vegas* stands as a titan in the realm of role-playing games, celebrated for its intricate narrative and the profound impact of player choices on the Mojave Wasteland. Developed by Obsidian Entertainment and published by Bethesda Softworks, the game masterfully intertwines player agency with the overarching *Fallout lore*, creating a dynamic experience where every decision, from major faction alliances to seemingly minor character interactions, shapes the ultimate fate of the region. This article delves into how these player choices culminate in the diverse endings that define the New Vegas experience.
 
@@ -40,15 +50,15 @@ Furthermore, player motivations for choosing a particular path can be deeply per
 
 ---
 Sources:
-1.  [Fallout Wiki: New California Republic](https://fallout.fandom.com/wiki/New_California_Republic)
-2.  [The Vault, a Fallout Wiki: New California Republic](https://fallout.fandom.com/wiki/New_California_Republic)
-3.  [Fallout Wiki: Caesar's Legion](https://fallout.fandom.com/wiki/Caesar%27s_Legion)
-4.  [The Vault, a Fallout Wiki: Caesar's Legion](https://fallout.fandom.com/wiki/Caesar%27s_Legion)
-5.  [Fallout Wiki: Robert House](https://fallout.fandom.com/wiki/Robert_House)
-6.  [The Vault, a Fallout Wiki: Robert House](https://fallout.fandom.com/wiki/Robert_House)
-7.  [Fallout Wiki: Yes Man](https://fallout.fandom.com/wiki/Yes_Man)
-8.  [Fallout Wiki: Fallout: New Vegas endings](https://fallout.fandom.com/wiki/Fallout:_New_Vegas_endings)
-9.  [The Vault, a Fallout Wiki: Fallout: New Vegas quests](https://fallout.fandom.com/wiki/Fallout:_New_Vegas_quests)
+1. [Fallout Wiki: New California Republic](https://fallout.fandom.com/wiki/New_California_Republic)
+2. [The Vault, a Fallout Wiki: New California Republic](https://fallout.fandom.com/wiki/New_California_Republic)
+3. [Fallout Wiki: Caesar's Legion](https://fallout.fandom.com/wiki/Caesar%27s_Legion)
+4. [The Vault, a Fallout Wiki: Caesar's Legion](https://fallout.fandom.com/wiki/Caesar%27s_Legion)
+5. [Fallout Wiki: Robert House](https://fallout.fandom.com/wiki/Robert_House)
+6. [The Vault, a Fallout Wiki: Robert House](https://fallout.fandom.com/wiki/Robert_House)
+7. [Fallout Wiki: Yes Man](https://fallout.fandom.com/wiki/Yes_Man)
+8. [Fallout Wiki: Fallout: New Vegas endings](https://fallout.fandom.com/wiki/Fallout:_New_Vegas_endings)
+9. [The Vault, a Fallout Wiki: Fallout: New Vegas quests](https://fallout.fandom.com/wiki/Fallout:_New_Vegas_quests)
 10. [YouTube: I Made EVERY BAD CHOICE in Fallout New Vegas So Yo](https://www.youtube.com/watch?v=b-7WAW8TsIs)
 11. [Fallout Wiki: Arcade Gannon](https://fallout.fandom.com/wiki/Arcade_Gannon)
 12. [Fallout Wiki: Eye for an Eye](https://fallout.fandom.com/wiki/Eye_for_an_Eye)
