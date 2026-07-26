@@ -1,7 +1,7 @@
 {
   "_version": "1.3",
   "_description": "콘텐츠 파이프라인 — 클러스터 단위 관리",
-  "_last_updated": "2026-07-24T15:23:13.614158+00:00",
+  "_last_updated": "2026-07-26T21:52:17.331900+00:00",
   "hub_clusters": {
     "Steam Machine": {
       "hub_keyword": "Steam Machine",
@@ -81,12 +81,12 @@
       ],
       "spoke_urls": {
         "Fallout Series (COMPARISON)": "https://frontbuffer.net/gaming/fallout-series_comparison/",
-        "Fallout Series (GUIDE)": "PENDING",
+        "Fallout Series (GUIDE)": "https://frontbuffer.net/gaming/fallout-series_guide/",
         "Fallout Series (EXPLAINER)": "https://frontbuffer.net/gaming/fallout-series_explainer/"
       },
       "internal_links": [
         "https://frontbuffer.net/gaming/fallout-series_comparison/",
-        "PENDING",
+        "https://frontbuffer.net/gaming/fallout-series_guide/",
         "https://frontbuffer.net/gaming/fallout-series_explainer/"
       ]
     },
@@ -861,8 +861,9 @@
         "verifiability": "HIGH",
         "data_grade": "A",
         "verified_keywords": [],
-        "status": "candidate",
-        "selected_at": "2026-07-20T08:05:00.387164+00:00"
+        "status": "published",
+        "selected_at": "2026-07-20T08:05:00.387164+00:00",
+        "url": "https://frontbuffer.net/gaming/fallout-series_guide/"
       },
       {
         "cluster_name": "Fallout Series",
@@ -1170,6 +1171,15 @@
       "content_type": "EXPLAINER",
       "week_tag": "2026-W29",
       "published_at": "2026-07-24T15:23:13.614104+00:00",
+      "hub_cluster": "Fallout Series"
+    },
+    {
+      "cluster_name": "Fallout Series",
+      "title": "Fallout New Vegas Modding Guide: Essential Quality of Life and Content Mods",
+      "url": "https://frontbuffer.net/gaming/fallout-series_guide/",
+      "content_type": "GUIDE",
+      "week_tag": "2026-W29",
+      "published_at": "2026-07-26T21:52:17.331859+00:00",
       "hub_cluster": "Fallout Series"
     }
   ]
