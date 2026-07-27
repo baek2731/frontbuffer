@@ -1,170 +1,46 @@
 [
   {
-    "cluster_name": "Samsung Galaxy Z Fold 8",
+    "cluster_name": "Samsung Galaxy Foldable Phones & Wearables",
     "content_type": "COMPARISON",
-    "suggested_title": "Galaxy Z Fold 8 vs Fold 7: Hinge Design and Durability Comparison",
-    "hub_keyword": "Galaxy Foldables",
-    "parent_hub": "Galaxy Foldables",
+    "suggested_title": "Galaxy Z Fold 8 Ultra vs Galaxy Z Fold 8: Key Differences and Upgrades",
+    "hub_keyword": "Galaxy Fold 8 Ultra",
+    "parent_hub": "Samsung Galaxy Fold",
     "spoke_keywords": [
-      "galaxy z fold 8 hinge design improvements",
-      "galaxy z fold 7 hinge durability issues",
-      "samsung foldable hinge technology explained"
+      "galaxy z fold 8 ultra vs fold 8 comparison",
+      "samsung galaxy fold 8 upgrades explained"
     ],
     "evergreen_score": 90,
-    "competition_level": "MEDIUM",
-    "affiliate_potential": "LOW",
-    "timing": "NOW",
-    "verifiability": "HIGH",
-    "trends_queries": [
-      "galaxy z fold hinge comparison",
-      "fold 8 hinge improvements",
-      "foldable phone durability test"
-    ],
-    "reasoning": "This topic compares specific hardware aspects of released phones, leveraging official specs and design explanations for evergreen content.",
-    "data_grade": "A"
-  },
-  {
-    "cluster_name": "Samsung Galaxy Z Flip 8",
-    "content_type": "GUIDE",
-    "suggested_title": "Galaxy Z Flip 8 Cover Screen Apps: How to Use and Customize",
-    "hub_keyword": "Galaxy Z Flip 8 Cover Screen",
-    "parent_hub": "Galaxy Foldables",
-    "spoke_keywords": [
-      "galaxy z flip 8 outer display apps",
-      "customize galaxy z flip 8 cover screen",
-      "how to add apps to flip 8 external screen"
-    ],
-    "evergreen_score": 85,
-    "competition_level": "MEDIUM",
-    "affiliate_potential": "LOW",
-    "timing": "NOW",
-    "verifiability": "HIGH",
-    "trends_queries": [
-      "galaxy z flip 8 cover screen features",
-      "flip 8 external display customization",
-      "best apps for galaxy z flip 8 cover screen"
-    ],
-    "reasoning": "A guide on using a core feature of a released phone remains relevant as long as the device is in use.",
-    "data_grade": "A"
-  },
-  {
-    "cluster_name": "Samsung Battery Technology",
-    "content_type": "EXPLAINER",
-    "suggested_title": "Silicon-Carbon Battery Technology in Galaxy Z Fold 8 Explained",
-    "hub_keyword": "Silicon-Carbon Batteries",
-    "parent_hub": "Galaxy Foldables",
-    "spoke_keywords": [
-      "what are silicon carbon batteries",
-      "benefits of silicon carbon batteries in phones",
-      "samsung galaxy z fold 8 battery tech"
-    ],
-    "evergreen_score": 95,
-    "competition_level": "MEDIUM",
-    "affiliate_potential": "LOW",
-    "timing": "NOW",
-    "verifiability": "HIGH",
-    "trends_queries": [
-      "silicon carbon battery explained",
-      "samsung new battery technology",
-      "foldable phone battery innovation"
-    ],
-    "reasoning": "Explaining a new battery technology used in a major product provides timeless educational value.",
-    "data_grade": "A"
-  },
-  {
-    "cluster_name": "Google Gemini for Home",
-    "content_type": "GUIDE",
-    "suggested_title": "How to Use Gemini for Home Context Memory for Longer Conversations",
-    "hub_keyword": "Gemini Home Features",
-    "parent_hub": "Google Gemini AI",
-    "spoke_keywords": [
-      "gemini home context memory settings",
-      "extend gemini conversation history",
-      "google home ai context retention"
-    ],
-    "evergreen_score": 88,
-    "competition_level": "LOW",
-    "affiliate_potential": "LOW",
-    "timing": "NOW",
-    "verifiability": "HIGH",
-    "trends_queries": [
-      "gemini for home features",
-      "google home ai memory",
-      "long ai conversations gemini"
-    ],
-    "reasoning": "A guide on a specific AI feature for a smart home assistant provides practical, evergreen advice for users.",
-    "data_grade": "A"
-  },
-  {
-    "cluster_name": "Google Gemini Versions",
-    "content_type": "COMPARISON",
-    "suggested_title": "Google Gemini Intelligence vs Spark vs Nano: Key Differences Explained",
-    "hub_keyword": "Gemini AI Models",
-    "parent_hub": "Google Gemini AI",
-    "spoke_keywords": [
-      "gemini intelligence features comparison",
-      "gemini spark vs nano capabilities",
-      "understanding google gemini models"
-    ],
-    "evergreen_score": 92,
-    "competition_level": "MEDIUM",
-    "affiliate_potential": "LOW",
-    "timing": "NOW",
-    "verifiability": "HIGH",
-    "trends_queries": [
-      "gemini intelligence explained",
-      "gemini spark features",
-      "gemini nano use cases"
-    ],
-    "reasoning": "Comparing different versions of a widely used AI platform offers enduring clarity for users choosing the right tool.",
-    "data_grade": "A"
-  },
-  {
-    "cluster_name": "Xbox PC App Issues",
-    "content_type": "GUIDE",
-    "suggested_title": "How to Fix Common Xbox PC App Download and Installation Problems",
-    "hub_keyword": "Xbox PC Troubleshooting",
-    "parent_hub": "Gaming Platforms",
-    "spoke_keywords": [
-      "xbox app games not downloading pc",
-      "fix xbox pc app installation errors",
-      "xbox game pass pc app issues"
-    ],
-    "evergreen_score": 90,
-    "competition_level": "MEDIUM",
-    "affiliate_potential": "LOW",
-    "timing": "NOW",
-    "verifiability": "HIGH",
-    "trends_queries": [
-      "xbox pc app not working",
-      "xbox app download stuck",
-      "game pass pc app problems"
-    ],
-    "reasoning": "Troubleshooting guides for persistent software issues on popular gaming platforms are highly evergreen and always sought after.",
-    "data_grade": "A"
-  },
-  {
-    "cluster_name": "Gaming Physical vs Digital",
-    "content_type": "COMPARISON",
-    "suggested_title": "Physical vs Digital Games: Pros and Cons for Xbox and PlayStation Gamers",
-    "hub_keyword": "Physical Digital Games",
-    "parent_hub": "Gaming Platforms",
-    "spoke_keywords": [
-      "benefits of physical game discs",
-      "advantages of digital game downloads",
-      "physical media vs digital ownership games"
-    ],
-    "evergreen_score": 95,
     "competition_level": "MEDIUM",
     "affiliate_potential": "HIGH",
     "timing": "NOW",
     "verifiability": "HIGH",
     "trends_queries": [
-      "physical vs digital games debate",
-      "why buy physical games",
-      "digital game library benefits"
+      "galaxy z fold 8 ultra features",
+      "galaxy z fold 8 vs ultra"
     ],
-    "reasoning": "The debate over physical versus digital game ownership is a perennial topic with strong, verifiable arguments from both sides.",
+    "reasoning": "This comparison covers recently released flagship models, focusing on verifiable specifications and features, providing long-term value for potential buyers.",
+    "data_grade": "A"
+  },
+  {
+    "cluster_name": "Samsung Galaxy Foldable Phones & Wearables",
+    "content_type": "EXPLAINER",
+    "suggested_title": "What are Silicon-Carbon Batteries in Galaxy Z Fold 8 and How Do They Improve Battery Life",
+    "hub_keyword": "Silicon-Carbon Batteries",
+    "parent_hub": "Samsung Galaxy Fold",
+    "spoke_keywords": [
+      "galaxy z fold 8 silicon carbon battery explained",
+      "how silicon carbon batteries work phone"
+    ],
+    "evergreen_score": 85,
+    "competition_level": "LOW",
+    "affiliate_potential": "LOW",
+    "timing": "NOW",
+    "verifiability": "HIGH",
+    "trends_queries": [
+      "silicon-carbon battery technology",
+      "galaxy fold 8 battery life"
+    ],
+    "reasoning": "Explaining new battery technology tied to a specific flagship device offers evergreen value as users seek to understand its benefits and implications for their device.",
     "data_grade": "A"
   }
 ]

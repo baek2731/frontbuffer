@@ -86,6 +86,57 @@
         "KP ❌ 클러스터 관련 키워드 없음",
         "→ Grade C: 검증 데이터 없음 — 발행 보류 권장"
       ]
+    },
+    {
+      "cluster_name": "Samsung Galaxy Z Fold 8",
+      "slug": "samsung-galaxy-z-fold-8",
+      "folder": null,
+      "trends_pattern": "UNKNOWN",
+      "trends_stats": {},
+      "trends_keyword": "",
+      "rising_queries": [],
+      "verified_keywords": [],
+      "grade": "C",
+      "warnings": [],
+      "grade_reasons": [
+        "Trends ❌ 시계열 데이터 없음 또는 UNKNOWN",
+        "KP ❌ 클러스터 관련 키워드 없음",
+        "→ Grade C: 검증 데이터 없음 — 발행 보류 권장"
+      ]
+    },
+    {
+      "cluster_name": "Google Gemini for Home",
+      "slug": "google-gemini-for-home",
+      "folder": null,
+      "trends_pattern": "UNKNOWN",
+      "trends_stats": {},
+      "trends_keyword": "",
+      "rising_queries": [],
+      "verified_keywords": [],
+      "grade": "C",
+      "warnings": [],
+      "grade_reasons": [
+        "Trends ❌ 시계열 데이터 없음 또는 UNKNOWN",
+        "KP ❌ 클러스터 관련 키워드 없음",
+        "→ Grade C: 검증 데이터 없음 — 발행 보류 권장"
+      ]
+    },
+    {
+      "cluster_name": "Xbox PC App Issues",
+      "slug": "xbox-pc-app-issues",
+      "folder": null,
+      "trends_pattern": "UNKNOWN",
+      "trends_stats": {},
+      "trends_keyword": "",
+      "rising_queries": [],
+      "verified_keywords": [],
+      "grade": "C",
+      "warnings": [],
+      "grade_reasons": [
+        "Trends ❌ 시계열 데이터 없음 또는 UNKNOWN",
+        "KP ❌ 클러스터 관련 키워드 없음",
+        "→ Grade C: 검증 데이터 없음 — 발행 보류 권장"
+      ]
     }
   ],
   "kp_parsed": 0,

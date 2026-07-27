@@ -1,7 +1,7 @@
 {
   "_version": "1.3",
   "_description": "콘텐츠 파이프라인 — 클러스터 단위 관리",
-  "_last_updated": "2026-07-27T08:28:08.701839+00:00",
+  "_last_updated": "2026-07-27T08:29:01.210556+00:00",
   "hub_clusters": {
     "Steam Machine": {
       "hub_keyword": "Steam Machine",
@@ -217,6 +217,17 @@
       "spokes": [
         "Xbox PC App Issues",
         "Gaming Physical vs Digital"
+      ],
+      "spoke_urls": {},
+      "internal_links": []
+    },
+    "Samsung Galaxy Fold": {
+      "hub_keyword": "Samsung Galaxy Fold",
+      "hub_status": "PENDING",
+      "hub_title": "",
+      "hub_url": "",
+      "spokes": [
+        "Samsung Galaxy Foldable Phones & Wearables"
       ],
       "spoke_urls": {},
       "internal_links": []
@@ -662,6 +673,27 @@
         "benefits of physical game discs",
         "advantages of digital game downloads",
         "physical media vs digital ownership games"
+      ],
+      "competition_level": "MEDIUM",
+      "affiliate_potential": "HIGH",
+      "trends_pattern": "UNKNOWN",
+      "trends_keyword": "",
+      "notes": ""
+    },
+    "Samsung Galaxy Foldable Phones & Wearables": {
+      "types_done": [],
+      "last_week": "2026-W30",
+      "suggest_next": [
+        "COMPARISON",
+        "GUIDE",
+        "EXPLAINER",
+        "LISTICLE"
+      ],
+      "hub_keyword": "Silicon-Carbon Batteries",
+      "parent_hub": "Samsung Galaxy Fold",
+      "spoke_keywords": [
+        "galaxy z fold 8 ultra vs fold 8 comparison",
+        "samsung galaxy fold 8 upgrades explained"
       ],
       "competition_level": "MEDIUM",
       "affiliate_potential": "HIGH",
@@ -1837,7 +1869,7 @@
         "trends_keyword": "",
         "trends_opportunities": [],
         "verifiability": "HIGH",
-        "data_grade": "A",
+        "data_grade": "C",
         "verified_keywords": [],
         "status": "candidate",
         "selected_at": "2026-07-27T08:28:08.701688+00:00"
@@ -1861,7 +1893,7 @@
         "trends_keyword": "",
         "trends_opportunities": [],
         "verifiability": "HIGH",
-        "data_grade": "A",
+        "data_grade": "C",
         "verified_keywords": [],
         "status": "candidate",
         "selected_at": "2026-07-27T08:28:08.701688+00:00"
@@ -1885,7 +1917,7 @@
         "trends_keyword": "",
         "trends_opportunities": [],
         "verifiability": "HIGH",
-        "data_grade": "A",
+        "data_grade": "C",
         "verified_keywords": [],
         "status": "candidate",
         "selected_at": "2026-07-27T08:28:08.701688+00:00"
@@ -1909,7 +1941,7 @@
         "trends_keyword": "",
         "trends_opportunities": [],
         "verifiability": "HIGH",
-        "data_grade": "A",
+        "data_grade": "C",
         "verified_keywords": [],
         "status": "candidate",
         "selected_at": "2026-07-27T08:28:08.701688+00:00"
@@ -1933,7 +1965,7 @@
         "trends_keyword": "",
         "trends_opportunities": [],
         "verifiability": "HIGH",
-        "data_grade": "A",
+        "data_grade": "C",
         "verified_keywords": [],
         "status": "candidate",
         "selected_at": "2026-07-27T08:28:08.701688+00:00"
@@ -1957,7 +1989,7 @@
         "trends_keyword": "",
         "trends_opportunities": [],
         "verifiability": "HIGH",
-        "data_grade": "A",
+        "data_grade": "C",
         "verified_keywords": [],
         "status": "candidate",
         "selected_at": "2026-07-27T08:28:08.701688+00:00"
@@ -1981,10 +2013,56 @@
         "trends_keyword": "",
         "trends_opportunities": [],
         "verifiability": "HIGH",
-        "data_grade": "A",
+        "data_grade": "C",
         "verified_keywords": [],
         "status": "candidate",
         "selected_at": "2026-07-27T08:28:08.701688+00:00"
+      },
+      {
+        "cluster_name": "Samsung Galaxy Foldable Phones & Wearables",
+        "content_type": "COMPARISON",
+        "suggested_title": "Galaxy Z Fold 8 Ultra vs Galaxy Z Fold 8: Key Differences and Upgrades",
+        "hub_keyword": "Galaxy Fold 8 Ultra",
+        "hub_keyword_raw": "Galaxy Fold 8 Ultra",
+        "parent_hub": "Samsung Galaxy Fold",
+        "spoke_keywords": [
+          "galaxy z fold 8 ultra vs fold 8 comparison",
+          "samsung galaxy fold 8 upgrades explained"
+        ],
+        "competition_level": "MEDIUM",
+        "timing": "NOW",
+        "affiliate_potential": "HIGH",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "status": "candidate",
+        "selected_at": "2026-07-27T08:29:01.210474+00:00"
+      },
+      {
+        "cluster_name": "Samsung Galaxy Foldable Phones & Wearables",
+        "content_type": "EXPLAINER",
+        "suggested_title": "What are Silicon-Carbon Batteries in Galaxy Z Fold 8 and How Do They Improve Battery Life",
+        "hub_keyword": "Silicon-Carbon Batteries",
+        "hub_keyword_raw": "Silicon-Carbon Batteries",
+        "parent_hub": "Samsung Galaxy Fold",
+        "spoke_keywords": [
+          "galaxy z fold 8 silicon carbon battery explained",
+          "how silicon carbon batteries work phone"
+        ],
+        "competition_level": "LOW",
+        "timing": "NOW",
+        "affiliate_potential": "LOW",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "status": "candidate",
+        "selected_at": "2026-07-27T08:29:01.210474+00:00"
       }
     ]
   },
