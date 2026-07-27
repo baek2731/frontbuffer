@@ -49,7 +49,7 @@ The Steam Machine's memory and storage are user-replaceable, though the configur
 
 ## Conclusion
 
-Maintaining a stable thermal environment is vital for keeping the Steam Machine running smoothly. Regularly clearing out dust, ensuring proper physical placement, and learning to read the specific color-and-position LED codes—rather than treating any red light as an identical emergency—can help owners tell a routine memory-training hiccup apart from a genuine thermal or component fault. For broader operating system maintenance and software troubleshooting, see our guide on [INTERNAL LINK: SteamOS System Recovery].
+Maintaining a stable thermal environment is vital for keeping the Steam Machine running smoothly. Regularly clearing out dust, ensuring proper physical placement, and learning to read the specific color-and-position LED codes—rather than treating any red light as an identical emergency—can help owners tell a routine memory-training hiccup apart from a genuine thermal or component fault. For broader operating system maintenance and software troubleshooting, see our guide on [SteamOS Recovery Documentation](https://help.steampowered.com/en/faqs/view/1B71-EDF2-EB6D-2BB3).
 
 ---
 

@@ -37,8 +37,6 @@ In essence, while the "Deck Verified" program serves as a useful starting point 
 
 Understanding Steam Deck game compatibility involves appreciating both Valve's official "Deck Verified" program and the invaluable insights from the player community. While the official ratings offer a convenient guide, the dynamic nature of game development and the nuances of Linux compatibility mean that an informed player often cross-references these with community-driven databases like ProtonDB. Ultimately, the Steam Deck remains a powerful, flexible portable gaming device, and navigating its game library is a journey best undertaken with all available information.
 
-[INTERNAL LINK: Exploring Steam Deck Customization Options]
-
 ---
 Sources:
 [1] Steam Deck OLED. (n.d.). Retrieved from [https://www.steamdeck.com/en/oled](https://www.steamdeck.com/en/oled)
