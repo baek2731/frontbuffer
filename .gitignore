@@ -10,3 +10,8 @@ __pycache__/
 *.pyc 
 research_data/write/drafts/ 
 research_data/write/prompts/ 
+venv/ 
+__pycache__/ 
+*.pyc 
+research_data/write/drafts/ 
+research_data/write/prompts/ 
