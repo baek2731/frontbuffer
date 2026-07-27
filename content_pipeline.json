@@ -1,7 +1,7 @@
 {
   "_version": "1.3",
   "_description": "콘텐츠 파이프라인 — 클러스터 단위 관리",
-  "_last_updated": "2026-07-27T08:34:32.292629+00:00",
+  "_last_updated": "2026-07-27T08:38:06.030757+00:00",
   "hub_clusters": {
     "Steam Machine": {
       "hub_keyword": "Steam Machine",
@@ -294,6 +294,28 @@
       "hub_url": "",
       "spokes": [
         "Gaming Ecosystem Strategy"
+      ],
+      "spoke_urls": {},
+      "internal_links": []
+    },
+    "Samsung Pixel Devices": {
+      "hub_keyword": "Samsung Pixel Devices",
+      "hub_status": "PENDING",
+      "hub_title": "",
+      "hub_url": "",
+      "spokes": [
+        "Samsung Galaxy & Google Pixel Phones"
+      ],
+      "spoke_urls": {},
+      "internal_links": []
+    },
+    "AI Models Services": {
+      "hub_keyword": "AI Models Services",
+      "hub_status": "PENDING",
+      "hub_title": "",
+      "hub_url": "",
+      "spokes": [
+        "AI Models and Services"
       ],
       "spoke_urls": {},
       "internal_links": []
@@ -892,6 +914,50 @@
         "physical games vs digital ownership",
         "long term value of digital games",
         "benefits of physical media gaming"
+      ],
+      "competition_level": "MEDIUM",
+      "affiliate_potential": "LOW",
+      "trends_pattern": "UNKNOWN",
+      "trends_keyword": "",
+      "notes": ""
+    },
+    "Samsung Galaxy & Google Pixel Phones": {
+      "types_done": [],
+      "last_week": "2026-W30",
+      "suggest_next": [
+        "COMPARISON",
+        "GUIDE",
+        "EXPLAINER",
+        "LISTICLE"
+      ],
+      "hub_keyword": "pixel phone camera",
+      "parent_hub": "Samsung Pixel Devices",
+      "spoke_keywords": [
+        "galaxy z fold 8 vs fold 7 design",
+        "galaxy z fold 8 hinge improvements",
+        "galaxy z fold 7 durability issues"
+      ],
+      "competition_level": "MEDIUM",
+      "affiliate_potential": "HIGH",
+      "trends_pattern": "UNKNOWN",
+      "trends_keyword": "",
+      "notes": ""
+    },
+    "AI Models and Services": {
+      "types_done": [],
+      "last_week": "2026-W30",
+      "suggest_next": [
+        "COMPARISON",
+        "GUIDE",
+        "EXPLAINER",
+        "LISTICLE"
+      ],
+      "hub_keyword": "ai model",
+      "parent_hub": "AI Models Services",
+      "spoke_keywords": [
+        "gemini nano 4 android features",
+        "how gemini nano 4 operates",
+        "gemini nano on device ai explained"
       ],
       "competition_level": "MEDIUM",
       "affiliate_potential": "LOW",
@@ -2941,8 +3007,21 @@
         "trends_keyword": "",
         "trends_opportunities": [],
         "verifiability": "HIGH",
-        "data_grade": "A",
-        "verified_keywords": [],
+        "data_grade": "B",
+        "verified_keywords": [
+          {
+            "keyword": "samsung galaxy z flip 6",
+            "monthly_searches": 500,
+            "competition": "MEDIUM",
+            "competition_index": 66
+          },
+          {
+            "keyword": "galaxy fold",
+            "monthly_searches": 500,
+            "competition": "MEDIUM",
+            "competition_index": 52
+          }
+        ],
         "status": "candidate",
         "selected_at": "2026-07-27T08:34:32.292453+00:00"
       },
@@ -2965,8 +3044,21 @@
         "trends_keyword": "",
         "trends_opportunities": [],
         "verifiability": "HIGH",
-        "data_grade": "A",
-        "verified_keywords": [],
+        "data_grade": "B",
+        "verified_keywords": [
+          {
+            "keyword": "samsung galaxy z flip 6",
+            "monthly_searches": 500,
+            "competition": "MEDIUM",
+            "competition_index": 66
+          },
+          {
+            "keyword": "galaxy fold",
+            "monthly_searches": 500,
+            "competition": "MEDIUM",
+            "competition_index": 52
+          }
+        ],
         "status": "candidate",
         "selected_at": "2026-07-27T08:34:32.292453+00:00"
       },
@@ -2989,8 +3081,21 @@
         "trends_keyword": "",
         "trends_opportunities": [],
         "verifiability": "HIGH",
-        "data_grade": "A",
-        "verified_keywords": [],
+        "data_grade": "B",
+        "verified_keywords": [
+          {
+            "keyword": "samsung galaxy z flip 6",
+            "monthly_searches": 500,
+            "competition": "MEDIUM",
+            "competition_index": 66
+          },
+          {
+            "keyword": "galaxy fold",
+            "monthly_searches": 500,
+            "competition": "MEDIUM",
+            "competition_index": 52
+          }
+        ],
         "status": "candidate",
         "selected_at": "2026-07-27T08:34:32.292453+00:00"
       },
@@ -3013,8 +3118,33 @@
         "trends_keyword": "",
         "trends_opportunities": [],
         "verifiability": "HIGH",
-        "data_grade": "A",
-        "verified_keywords": [],
+        "data_grade": "C",
+        "verified_keywords": [
+          {
+            "keyword": "samsung note 10 pro",
+            "monthly_searches": 50,
+            "competition": "LOW",
+            "competition_index": 0
+          },
+          {
+            "keyword": "samsung galaxy note 10 pro",
+            "monthly_searches": 50,
+            "competition": "알 수 없음",
+            "competition_index": 0
+          },
+          {
+            "keyword": "galaxy note 10 pro",
+            "monthly_searches": 50,
+            "competition": "MEDIUM",
+            "competition_index": 57
+          },
+          {
+            "keyword": "note 10 pro samsung",
+            "monthly_searches": 50,
+            "competition": "알 수 없음",
+            "competition_index": 0
+          }
+        ],
         "status": "candidate",
         "selected_at": "2026-07-27T08:34:32.292453+00:00"
       },
@@ -3037,8 +3167,33 @@
         "trends_keyword": "",
         "trends_opportunities": [],
         "verifiability": "HIGH",
-        "data_grade": "A",
-        "verified_keywords": [],
+        "data_grade": "C",
+        "verified_keywords": [
+          {
+            "keyword": "samsung note 10 pro",
+            "monthly_searches": 50,
+            "competition": "LOW",
+            "competition_index": 0
+          },
+          {
+            "keyword": "samsung galaxy note 10 pro",
+            "monthly_searches": 50,
+            "competition": "알 수 없음",
+            "competition_index": 0
+          },
+          {
+            "keyword": "galaxy note 10 pro",
+            "monthly_searches": 50,
+            "competition": "MEDIUM",
+            "competition_index": 57
+          },
+          {
+            "keyword": "note 10 pro samsung",
+            "monthly_searches": 50,
+            "competition": "알 수 없음",
+            "competition_index": 0
+          }
+        ],
         "status": "candidate",
         "selected_at": "2026-07-27T08:34:32.292453+00:00"
       },
@@ -3061,8 +3216,33 @@
         "trends_keyword": "",
         "trends_opportunities": [],
         "verifiability": "HIGH",
-        "data_grade": "A",
-        "verified_keywords": [],
+        "data_grade": "C",
+        "verified_keywords": [
+          {
+            "keyword": "samsung note 10 pro",
+            "monthly_searches": 50,
+            "competition": "LOW",
+            "competition_index": 0
+          },
+          {
+            "keyword": "samsung galaxy note 10 pro",
+            "monthly_searches": 50,
+            "competition": "알 수 없음",
+            "competition_index": 0
+          },
+          {
+            "keyword": "galaxy note 10 pro",
+            "monthly_searches": 50,
+            "competition": "MEDIUM",
+            "competition_index": 57
+          },
+          {
+            "keyword": "note 10 pro samsung",
+            "monthly_searches": 50,
+            "competition": "알 수 없음",
+            "competition_index": 0
+          }
+        ],
         "status": "candidate",
         "selected_at": "2026-07-27T08:34:32.292453+00:00"
       },
@@ -3085,7 +3265,7 @@
         "trends_keyword": "",
         "trends_opportunities": [],
         "verifiability": "MEDIUM",
-        "data_grade": "A",
+        "data_grade": "C",
         "verified_keywords": [],
         "status": "candidate",
         "selected_at": "2026-07-27T08:34:32.292453+00:00"
@@ -3109,10 +3289,130 @@
         "trends_keyword": "",
         "trends_opportunities": [],
         "verifiability": "HIGH",
-        "data_grade": "A",
+        "data_grade": "C",
         "verified_keywords": [],
         "status": "candidate",
         "selected_at": "2026-07-27T08:34:32.292453+00:00"
+      },
+      {
+        "cluster_name": "Samsung Galaxy & Google Pixel Phones",
+        "content_type": "COMPARISON",
+        "suggested_title": "Galaxy Z Fold 8 vs Galaxy Z Fold 7: Key Design and Durability Improvements",
+        "hub_keyword": "galaxy fold",
+        "hub_keyword_raw": "galaxy fold comparison",
+        "parent_hub": "Samsung Pixel Devices",
+        "spoke_keywords": [
+          "galaxy z fold 8 vs fold 7 design",
+          "galaxy z fold 8 hinge improvements",
+          "galaxy z fold 7 durability issues"
+        ],
+        "competition_level": "MEDIUM",
+        "timing": "NOW",
+        "affiliate_potential": "HIGH",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "status": "candidate",
+        "selected_at": "2026-07-27T08:38:06.030604+00:00"
+      },
+      {
+        "cluster_name": "Samsung Galaxy & Google Pixel Phones",
+        "content_type": "GUIDE",
+        "suggested_title": "How to Use Android Auto for WhatsApp and Messaging Safely",
+        "hub_keyword": "android auto",
+        "hub_keyword_raw": "android auto features",
+        "parent_hub": "Samsung Pixel Devices",
+        "spoke_keywords": [
+          "android auto whatsapp messages",
+          "android auto safe texting",
+          "android auto messaging features"
+        ],
+        "competition_level": "LOW",
+        "timing": "NOW",
+        "affiliate_potential": "LOW",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "status": "candidate",
+        "selected_at": "2026-07-27T08:38:06.030604+00:00"
+      },
+      {
+        "cluster_name": "Samsung Galaxy & Google Pixel Phones",
+        "content_type": "COMPARISON",
+        "suggested_title": "Google Pixel 10 Pro vs Pixel 9 Pro: Camera Features and Low Light Performance",
+        "hub_keyword": "pixel phone camera",
+        "hub_keyword_raw": "pixel phone camera",
+        "parent_hub": "Samsung Pixel Devices",
+        "spoke_keywords": [
+          "pixel 10 pro camera comparison",
+          "pixel 9 pro low light photography",
+          "google pixel camera features explained"
+        ],
+        "competition_level": "MEDIUM",
+        "timing": "NOW",
+        "affiliate_potential": "HIGH",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "status": "candidate",
+        "selected_at": "2026-07-27T08:38:06.030604+00:00"
+      },
+      {
+        "cluster_name": "AI Models and Services",
+        "content_type": "EXPLAINER",
+        "suggested_title": "What is Gemini Nano 4 and How Does it Work on Android Devices",
+        "hub_keyword": "gemini nano",
+        "hub_keyword_raw": "gemini nano features",
+        "parent_hub": "AI Models Services",
+        "spoke_keywords": [
+          "gemini nano 4 android features",
+          "how gemini nano 4 operates",
+          "gemini nano on device ai explained"
+        ],
+        "competition_level": "MEDIUM",
+        "timing": "NOW",
+        "affiliate_potential": "LOW",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "status": "candidate",
+        "selected_at": "2026-07-27T08:38:06.030604+00:00"
+      },
+      {
+        "cluster_name": "AI Models and Services",
+        "content_type": "COMPARISON",
+        "suggested_title": "Claude Opus 5 vs ChatGPT: Key Differences in Features and Use Cases",
+        "hub_keyword": "ai model",
+        "hub_keyword_raw": "ai model comparison",
+        "parent_hub": "AI Models Services",
+        "spoke_keywords": [
+          "claude opus 5 chatgpt comparison",
+          "best ai model for specific tasks",
+          "claude opus 5 features explained"
+        ],
+        "competition_level": "MEDIUM",
+        "timing": "NOW",
+        "affiliate_potential": "LOW",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "status": "candidate",
+        "selected_at": "2026-07-27T08:38:06.030604+00:00"
       }
     ]
   },

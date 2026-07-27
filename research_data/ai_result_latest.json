@@ -1,14 +1,14 @@
 [
   {
-    "cluster_name": "Samsung Foldable Phones",
+    "cluster_name": "Samsung Galaxy & Google Pixel Phones",
     "content_type": "COMPARISON",
-    "suggested_title": "Galaxy Z Fold 8 vs Fold 7: Hinge Durability and Design Changes Compared",
-    "hub_keyword": "Samsung Foldable Phones",
-    "parent_hub": "Samsung Foldable Phones",
+    "suggested_title": "Galaxy Z Fold 8 vs Galaxy Z Fold 7: Key Design and Durability Improvements",
+    "hub_keyword": "galaxy fold comparison",
+    "parent_hub": "Samsung Pixel Devices",
     "spoke_keywords": [
-      "galaxy z fold 8 vs fold 7 hinge durability",
-      "galaxy z fold 8 design changes",
-      "samsung foldable phone hinge comparison"
+      "galaxy z fold 8 vs fold 7 design",
+      "galaxy z fold 8 hinge improvements",
+      "galaxy z fold 7 durability issues"
     ],
     "evergreen_score": 90,
     "competition_level": "MEDIUM",
@@ -17,159 +17,67 @@
     "verifiability": "HIGH",
     "trends_queries": [
       "galaxy z fold 8 vs fold 7",
-      "foldable phone hinge comparison"
+      "galaxy z fold durability"
     ],
-    "reasoning": "Users upgrading or choosing between generations will search for specific improvements like hinge durability and design. This can be verified through official announcements and product spec sheets.",
+    "reasoning": "Compares two released phone models focusing on design and durability, which are evergreen concerns verifiable through official specs and product announcements.",
     "data_grade": "A"
   },
   {
-    "cluster_name": "Samsung Foldable Phones",
-    "content_type": "EXPLAINER",
-    "suggested_title": "What are Silicon-Carbon Batteries in Galaxy Z Fold 8 and How Do They Improve Battery Life",
-    "hub_keyword": "Silicon-Carbon Batteries",
-    "parent_hub": "Samsung Foldable Phones",
-    "spoke_keywords": [
-      "silicon-carbon batteries galaxy z fold 8",
-      "how silicon-carbon batteries work in phones",
-      "galaxy z fold 8 battery life improvements"
-    ],
-    "evergreen_score": 85,
-    "competition_level": "MEDIUM",
-    "affiliate_potential": "LOW",
-    "timing": "NOW",
-    "verifiability": "HIGH",
-    "trends_queries": [
-      "silicon-carbon battery technology",
-      "galaxy z fold 8 battery tech"
-    ],
-    "reasoning": "Explaining new core technology like silicon-carbon batteries is evergreen as users will search for its benefits. Information is verifiable from tech specs and manufacturer announcements.",
-    "data_grade": "A"
-  },
-  {
-    "cluster_name": "Samsung Foldable Phones",
+    "cluster_name": "Samsung Galaxy & Google Pixel Phones",
     "content_type": "GUIDE",
-    "suggested_title": "Galaxy Z Flip 8 Cover Screen Apps: Best Use Cases and Customization Options",
-    "hub_keyword": "Galaxy Z Flip Cover Screen",
-    "parent_hub": "Samsung Foldable Phones",
+    "suggested_title": "How to Use Android Auto for WhatsApp and Messaging Safely",
+    "hub_keyword": "android auto features",
+    "parent_hub": "Samsung Pixel Devices",
     "spoke_keywords": [
-      "galaxy z flip 8 cover screen apps",
-      "customize galaxy z flip 8 outer display",
-      "best apps for galaxy z flip 8 cover screen"
+      "android auto whatsapp messages",
+      "android auto safe texting",
+      "android auto messaging features"
     ],
-    "evergreen_score": 88,
-    "competition_level": "MEDIUM",
+    "evergreen_score": 95,
+    "competition_level": "LOW",
     "affiliate_potential": "LOW",
     "timing": "NOW",
     "verifiability": "HIGH",
     "trends_queries": [
-      "galaxy z flip cover screen features",
-      "z flip 8 external display apps"
+      "android auto whatsapp",
+      "android auto messaging"
     ],
-    "reasoning": "The news indicates new focus on Flip 8 cover screen apps. Users will seek guides on functionality and customization, which is verifiable from official documentation and UI previews.",
+    "reasoning": "Provides a guide on a specific, evergreen feature of Android Auto, focusing on safe usage, verifiable via official documentation.",
     "data_grade": "A"
   },
   {
-    "cluster_name": "Google Pixel Ecosystem",
+    "cluster_name": "Samsung Galaxy & Google Pixel Phones",
     "content_type": "COMPARISON",
-    "suggested_title": "Google Pixel 10 Pro vs Pixel 9 Pro: Low Light Camera Comparison and Features",
-    "hub_keyword": "Google Pixel Camera",
-    "parent_hub": "Google Pixel Ecosystem",
+    "suggested_title": "Google Pixel 10 Pro vs Pixel 9 Pro: Camera Features and Low Light Performance",
+    "hub_keyword": "pixel phone camera",
+    "parent_hub": "Samsung Pixel Devices",
     "spoke_keywords": [
-      "pixel 10 pro vs pixel 9 pro camera",
-      "google pixel low light photography comparison",
-      "pixel 10 pro camera features explained"
+      "pixel 10 pro camera comparison",
+      "pixel 9 pro low light photography",
+      "google pixel camera features explained"
     ],
-    "evergreen_score": 92,
+    "evergreen_score": 90,
     "competition_level": "MEDIUM",
     "affiliate_potential": "HIGH",
     "timing": "NOW",
     "verifiability": "HIGH",
     "trends_queries": [
-      "pixel 10 pro camera review",
-      "pixel low light performance"
+      "pixel 10 pro vs pixel 9 pro camera",
+      "pixel low light camera"
     ],
-    "reasoning": "Users frequently compare camera performance between generations. Focusing on specific aspects like low light is an evergreen angle, verifiable through official specs and published reviews of released phones.",
+    "reasoning": "Compares camera features of two released Pixel phone models, focusing on a specific, evergreen aspect (low light performance) verifiable through official documentation.",
     "data_grade": "A"
   },
   {
-    "cluster_name": "Google Pixel Ecosystem",
-    "content_type": "GUIDE",
-    "suggested_title": "How to Troubleshoot Android Auto Connection Issues and Common Fixes",
-    "hub_keyword": "Android Auto Troubleshooting",
-    "parent_hub": "Google Pixel Ecosystem",
-    "spoke_keywords": [
-      "android auto connection problems fix",
-      "android auto not connecting to car",
-      "common android auto troubleshooting steps"
-    ],
-    "evergreen_score": 95,
-    "competition_level": "MEDIUM",
-    "affiliate_potential": "LOW",
-    "timing": "NOW",
-    "verifiability": "HIGH",
-    "trends_queries": [
-      "android auto not working",
-      "fix android auto connection"
-    ],
-    "reasoning": "Android Auto connection issues are a persistent, evergreen problem for users. A troubleshooting guide based on official support documents is highly verifiable and always relevant.",
-    "data_grade": "A"
-  },
-  {
-    "cluster_name": "Google Pixel Ecosystem",
+    "cluster_name": "AI Models and Services",
     "content_type": "EXPLAINER",
-    "suggested_title": "What is Gemini Spark and How to Use It with Google AI Pro Features",
-    "hub_keyword": "Google Gemini AI",
-    "parent_hub": "Google Pixel Ecosystem",
+    "suggested_title": "What is Gemini Nano 4 and How Does it Work on Android Devices",
+    "hub_keyword": "gemini nano features",
+    "parent_hub": "AI Models Services",
     "spoke_keywords": [
-      "gemini spark google ai pro features",
-      "how to use gemini spark",
-      "gemini spark for google pro users explained"
-    ],
-    "evergreen_score": 87,
-    "competition_level": "MEDIUM",
-    "affiliate_potential": "LOW",
-    "timing": "NOW",
-    "verifiability": "HIGH",
-    "trends_queries": [
-      "gemini spark features",
-      "google ai pro usage"
-    ],
-    "reasoning": "Gemini Spark is a current, officially rolled out feature for Google AI Pro users. Explaining its functionality and use is evergreen as long as the feature is available, verifiable from Google's official AI documentation.",
-    "data_grade": "A"
-  },
-  {
-    "cluster_name": "Gaming Ecosystem Strategy",
-    "content_type": "COMPARISON",
-    "suggested_title": "Physical Games vs Digital Downloads: Long-Term Value and Ownership Comparison",
-    "hub_keyword": "Physical Digital Gaming",
-    "parent_hub": "Gaming Ecosystem Strategy",
-    "spoke_keywords": [
-      "physical games vs digital ownership",
-      "long term value of digital games",
-      "benefits of physical media gaming"
-    ],
-    "evergreen_score": 93,
-    "competition_level": "MEDIUM",
-    "affiliate_potential": "LOW",
-    "timing": "NOW",
-    "verifiability": "MEDIUM",
-    "trends_queries": [
-      "physical vs digital games",
-      "game ownership debate"
-    ],
-    "reasoning": "The debate around physical versus digital media for games is highly evergreen and frequently discussed. This topic does not require hands-on testing and can be verified through industry reports and platform policies.",
-    "data_grade": "A"
-  },
-  {
-    "cluster_name": "Gaming Ecosystem Strategy",
-    "content_type": "GUIDE",
-    "suggested_title": "How to Manage Xbox Game Pass Subscriptions and PC App Downloads Effectively",
-    "hub_keyword": "Xbox Game Pass Management",
-    "parent_hub": "Gaming Ecosystem Strategy",
-    "spoke_keywords": [
-      "manage xbox game pass pc app",
-      "troubleshoot xbox game pass downloads",
-      "xbox game pass subscription management guide"
+      "gemini nano 4 android features",
+      "how gemini nano 4 operates",
+      "gemini nano on device ai explained"
     ],
     "evergreen_score": 90,
     "competition_level": "MEDIUM",
@@ -177,10 +85,33 @@
     "timing": "NOW",
     "verifiability": "HIGH",
     "trends_queries": [
-      "xbox game pass pc issues",
-      "manage game pass subscription"
+      "gemini nano 4 explained",
+      "gemini nano android"
     ],
-    "reasoning": "Managing subscriptions and troubleshooting PC app downloads are common tasks for Xbox Game Pass users. This guide is evergreen and based on official Xbox support documentation, avoiding in-game specifics.",
+    "reasoning": "Explains a key feature of a currently available AI model, Gemini Nano 4, focusing on its function and operation on devices, verifiable through official Google AI documentation.",
+    "data_grade": "A"
+  },
+  {
+    "cluster_name": "AI Models and Services",
+    "content_type": "COMPARISON",
+    "suggested_title": "Claude Opus 5 vs ChatGPT: Key Differences in Features and Use Cases",
+    "hub_keyword": "ai model comparison",
+    "parent_hub": "AI Models Services",
+    "spoke_keywords": [
+      "claude opus 5 chatgpt comparison",
+      "best ai model for specific tasks",
+      "claude opus 5 features explained"
+    ],
+    "evergreen_score": 95,
+    "competition_level": "MEDIUM",
+    "affiliate_potential": "LOW",
+    "timing": "NOW",
+    "verifiability": "HIGH",
+    "trends_queries": [
+      "claude opus 5 vs chatgpt",
+      "ai model features comparison"
+    ],
+    "reasoning": "Compares two major, currently available AI models based on their features and applications, providing evergreen information verifiable through official sources.",
     "data_grade": "A"
   }
 ]

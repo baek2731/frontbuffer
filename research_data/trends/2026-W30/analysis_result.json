@@ -369,6 +369,97 @@
         "KP ⚠️ 매칭됐으나 품질 미달 (최대 0/월 또는 HIGH경쟁)",
         "→ Grade C: 검증 데이터 없음 — 발행 보류 권장"
       ]
+    },
+    {
+      "cluster_name": "Samsung Foldable Phones",
+      "slug": "samsung-foldable-phones",
+      "folder": null,
+      "trends_pattern": "UNKNOWN",
+      "trends_stats": {},
+      "trends_keyword": "",
+      "rising_queries": [],
+      "verified_keywords": [
+        {
+          "keyword": "samsung galaxy z flip 6",
+          "monthly_searches": 500,
+          "competition": "MEDIUM",
+          "competition_index": 66
+        },
+        {
+          "keyword": "galaxy fold",
+          "monthly_searches": 500,
+          "competition": "MEDIUM",
+          "competition_index": 52
+        }
+      ],
+      "grade": "B",
+      "warnings": [],
+      "grade_reasons": [
+        "Trends ❌ 시계열 데이터 없음 또는 UNKNOWN",
+        "KP ✅ 매칭 2개 | 롱테일(3단어+) 1개 | LOW경쟁 0개 | 최대: 'samsung galaxy z flip 6' 월 500",
+        "→ Grade B: 부분 검증 — 발행 가능하나 키워드 최적화 미완"
+      ]
+    },
+    {
+      "cluster_name": "Google Pixel Ecosystem",
+      "slug": "google-pixel-ecosystem",
+      "folder": null,
+      "trends_pattern": "UNKNOWN",
+      "trends_stats": {},
+      "trends_keyword": "",
+      "rising_queries": [],
+      "verified_keywords": [
+        {
+          "keyword": "samsung note 10 pro",
+          "monthly_searches": 50,
+          "competition": "LOW",
+          "competition_index": 0
+        },
+        {
+          "keyword": "samsung galaxy note 10 pro",
+          "monthly_searches": 50,
+          "competition": "알 수 없음",
+          "competition_index": 0
+        },
+        {
+          "keyword": "galaxy note 10 pro",
+          "monthly_searches": 50,
+          "competition": "MEDIUM",
+          "competition_index": 57
+        },
+        {
+          "keyword": "note 10 pro samsung",
+          "monthly_searches": 50,
+          "competition": "알 수 없음",
+          "competition_index": 0
+        }
+      ],
+      "grade": "C",
+      "warnings": [
+        "KP 품질 기준 키워드 없음 (LOW/MEDIUM + 월100이상 조건 미충족)"
+      ],
+      "grade_reasons": [
+        "Trends ❌ 시계열 데이터 없음 또는 UNKNOWN",
+        "KP ⚠️ 매칭됐으나 품질 미달 (최대 50/월 또는 HIGH경쟁)",
+        "→ Grade C: 검증 데이터 없음 — 발행 보류 권장"
+      ]
+    },
+    {
+      "cluster_name": "Gaming Ecosystem Strategy",
+      "slug": "gaming-ecosystem-strategy",
+      "folder": null,
+      "trends_pattern": "UNKNOWN",
+      "trends_stats": {},
+      "trends_keyword": "",
+      "rising_queries": [],
+      "verified_keywords": [],
+      "grade": "C",
+      "warnings": [],
+      "grade_reasons": [
+        "Trends ❌ 시계열 데이터 없음 또는 UNKNOWN",
+        "KP ❌ 클러스터 관련 키워드 없음",
+        "→ Grade C: 검증 데이터 없음 — 발행 보류 권장"
+      ]
     }
   ],
   "kp_parsed": 3877,
