@@ -199,11 +199,14 @@ def hub_ready(pipeline, cluster_name):
 def main():
     pipeline = load_pipeline()
 
-    # ── final/ 파일 목록 (수정 시간 오름차순 FIFO) ─────────────────
+    # ── final/ 파일 목록 (파일명 알파벳 오름차순 FIFO) ──────────────
+    # 주의: GitHub Actions에서 git checkout 시 st_mtime이 체크아웃 시점으로
+    #       초기화되므로 수정 시간 기준 FIFO는 신뢰할 수 없음.
+    #       파일명 알파벳 순 정렬로 일관된 순서 보장.
     final_files = sorted(
         [f for f in Path(FINAL_DIR).glob("*.md")
          if not f.name.startswith("review_report_")],
-        key=lambda f: f.stat().st_mtime
+        key=lambda f: f.name
     )
 
     if not final_files:

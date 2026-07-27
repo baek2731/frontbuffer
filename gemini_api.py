@@ -221,8 +221,8 @@ def main():
         print(f"  ❌ {e}")
 
     if not quality["ok"]:
-        print("❌ 품질 기준 미달 — 저장하지 않음")
-        sys.exit(1)
+        print("⚠️  품질 기준 미달 — 저장은 진행 (gemini_review_api 단계에서 재생성 가능)")
+        # exit(1) 제거: 미달이어도 review 단계에서 보강 가능하므로 루프 계속
 
     # 4. 초안 저장
     draft_path = save_draft(draft_text, cluster_name, content_type)
