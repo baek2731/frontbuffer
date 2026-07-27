@@ -1,7 +1,7 @@
 {
   "_version": "1.3",
   "_description": "콘텐츠 파이프라인 — 클러스터 단위 관리",
-  "_last_updated": "2026-07-27T08:23:04.048432+00:00",
+  "_last_updated": "2026-07-27T08:28:08.701839+00:00",
   "hub_clusters": {
     "Steam Machine": {
       "hub_keyword": "Steam Machine",
@@ -180,6 +180,43 @@
       "hub_url": "",
       "spokes": [
         "PC Gaming Optimization"
+      ],
+      "spoke_urls": {},
+      "internal_links": []
+    },
+    "Galaxy Foldables": {
+      "hub_keyword": "Galaxy Foldables",
+      "hub_status": "READY",
+      "hub_title": "",
+      "hub_url": "",
+      "spokes": [
+        "Samsung Galaxy Z Fold 8",
+        "Samsung Galaxy Z Flip 8",
+        "Samsung Battery Technology"
+      ],
+      "spoke_urls": {},
+      "internal_links": []
+    },
+    "Google Gemini AI": {
+      "hub_keyword": "Google Gemini AI",
+      "hub_status": "READY",
+      "hub_title": "",
+      "hub_url": "",
+      "spokes": [
+        "Google Gemini for Home",
+        "Google Gemini Versions"
+      ],
+      "spoke_urls": {},
+      "internal_links": []
+    },
+    "Gaming Platforms": {
+      "hub_keyword": "Gaming Platforms",
+      "hub_status": "READY",
+      "hub_title": "",
+      "hub_url": "",
+      "spokes": [
+        "Xbox PC App Issues",
+        "Gaming Physical vs Digital"
       ],
       "spoke_urls": {},
       "internal_links": []
@@ -474,6 +511,160 @@
       ],
       "competition_level": "MEDIUM",
       "affiliate_potential": "LOW",
+      "trends_pattern": "UNKNOWN",
+      "trends_keyword": "",
+      "notes": ""
+    },
+    "Samsung Galaxy Z Fold 8": {
+      "types_done": [],
+      "last_week": "2026-W30",
+      "suggest_next": [
+        "COMPARISON",
+        "GUIDE",
+        "EXPLAINER",
+        "LISTICLE"
+      ],
+      "hub_keyword": "Galaxy Foldables",
+      "parent_hub": "Galaxy Foldables",
+      "spoke_keywords": [
+        "galaxy z fold 8 hinge design improvements",
+        "galaxy z fold 7 hinge durability issues",
+        "samsung foldable hinge technology explained"
+      ],
+      "competition_level": "MEDIUM",
+      "affiliate_potential": "LOW",
+      "trends_pattern": "UNKNOWN",
+      "trends_keyword": "",
+      "notes": ""
+    },
+    "Samsung Galaxy Z Flip 8": {
+      "types_done": [],
+      "last_week": "2026-W30",
+      "suggest_next": [
+        "COMPARISON",
+        "GUIDE",
+        "EXPLAINER",
+        "LISTICLE"
+      ],
+      "hub_keyword": "Galaxy Z Flip 8 Cover Screen",
+      "parent_hub": "Galaxy Foldables",
+      "spoke_keywords": [
+        "galaxy z flip 8 outer display apps",
+        "customize galaxy z flip 8 cover screen",
+        "how to add apps to flip 8 external screen"
+      ],
+      "competition_level": "MEDIUM",
+      "affiliate_potential": "LOW",
+      "trends_pattern": "UNKNOWN",
+      "trends_keyword": "",
+      "notes": ""
+    },
+    "Samsung Battery Technology": {
+      "types_done": [],
+      "last_week": "2026-W30",
+      "suggest_next": [
+        "COMPARISON",
+        "GUIDE",
+        "EXPLAINER",
+        "LISTICLE"
+      ],
+      "hub_keyword": "Silicon-Carbon Batteries",
+      "parent_hub": "Galaxy Foldables",
+      "spoke_keywords": [
+        "what are silicon carbon batteries",
+        "benefits of silicon carbon batteries in phones",
+        "samsung galaxy z fold 8 battery tech"
+      ],
+      "competition_level": "MEDIUM",
+      "affiliate_potential": "LOW",
+      "trends_pattern": "UNKNOWN",
+      "trends_keyword": "",
+      "notes": ""
+    },
+    "Google Gemini for Home": {
+      "types_done": [],
+      "last_week": "2026-W30",
+      "suggest_next": [
+        "COMPARISON",
+        "GUIDE",
+        "EXPLAINER",
+        "LISTICLE"
+      ],
+      "hub_keyword": "Gemini Home",
+      "parent_hub": "Google Gemini AI",
+      "spoke_keywords": [
+        "gemini home context memory settings",
+        "extend gemini conversation history",
+        "google home ai context retention"
+      ],
+      "competition_level": "LOW",
+      "affiliate_potential": "LOW",
+      "trends_pattern": "UNKNOWN",
+      "trends_keyword": "",
+      "notes": ""
+    },
+    "Google Gemini Versions": {
+      "types_done": [],
+      "last_week": "2026-W30",
+      "suggest_next": [
+        "COMPARISON",
+        "GUIDE",
+        "EXPLAINER",
+        "LISTICLE"
+      ],
+      "hub_keyword": "Gemini AI Models",
+      "parent_hub": "Google Gemini AI",
+      "spoke_keywords": [
+        "gemini intelligence features comparison",
+        "gemini spark vs nano capabilities",
+        "understanding google gemini models"
+      ],
+      "competition_level": "MEDIUM",
+      "affiliate_potential": "LOW",
+      "trends_pattern": "UNKNOWN",
+      "trends_keyword": "",
+      "notes": ""
+    },
+    "Xbox PC App Issues": {
+      "types_done": [],
+      "last_week": "2026-W30",
+      "suggest_next": [
+        "COMPARISON",
+        "GUIDE",
+        "EXPLAINER",
+        "LISTICLE"
+      ],
+      "hub_keyword": "Xbox PC Troubleshooting",
+      "parent_hub": "Gaming Platforms",
+      "spoke_keywords": [
+        "xbox app games not downloading pc",
+        "fix xbox pc app installation errors",
+        "xbox game pass pc app issues"
+      ],
+      "competition_level": "MEDIUM",
+      "affiliate_potential": "LOW",
+      "trends_pattern": "UNKNOWN",
+      "trends_keyword": "",
+      "notes": ""
+    },
+    "Gaming Physical vs Digital": {
+      "types_done": [],
+      "last_week": "2026-W30",
+      "suggest_next": [
+        "COMPARISON",
+        "GUIDE",
+        "EXPLAINER",
+        "LISTICLE"
+      ],
+      "hub_keyword": "Physical Digital Games",
+      "parent_hub": "Gaming Platforms",
+      "spoke_keywords": [
+        "benefits of physical game discs",
+        "advantages of digital game downloads",
+        "physical media vs digital ownership games"
+      ],
+      "competition_level": "MEDIUM",
+      "affiliate_potential": "HIGH",
       "trends_pattern": "UNKNOWN",
       "trends_keyword": "",
       "notes": ""
@@ -1454,7 +1645,7 @@
         "trends_keyword": "",
         "trends_opportunities": [],
         "verifiability": "HIGH",
-        "data_grade": "A",
+        "data_grade": "C",
         "verified_keywords": [],
         "status": "candidate",
         "selected_at": "2026-07-27T08:23:04.048313+00:00"
@@ -1478,7 +1669,7 @@
         "trends_keyword": "",
         "trends_opportunities": [],
         "verifiability": "HIGH",
-        "data_grade": "A",
+        "data_grade": "C",
         "verified_keywords": [],
         "status": "candidate",
         "selected_at": "2026-07-27T08:23:04.048313+00:00"
@@ -1502,7 +1693,7 @@
         "trends_keyword": "",
         "trends_opportunities": [],
         "verifiability": "HIGH",
-        "data_grade": "A",
+        "data_grade": "C",
         "verified_keywords": [],
         "status": "candidate",
         "selected_at": "2026-07-27T08:23:04.048313+00:00"
@@ -1526,7 +1717,7 @@
         "trends_keyword": "",
         "trends_opportunities": [],
         "verifiability": "HIGH",
-        "data_grade": "A",
+        "data_grade": "C",
         "verified_keywords": [],
         "status": "candidate",
         "selected_at": "2026-07-27T08:23:04.048313+00:00"
@@ -1550,7 +1741,7 @@
         "trends_keyword": "",
         "trends_opportunities": [],
         "verifiability": "HIGH",
-        "data_grade": "A",
+        "data_grade": "C",
         "verified_keywords": [],
         "status": "candidate",
         "selected_at": "2026-07-27T08:23:04.048313+00:00"
@@ -1574,7 +1765,7 @@
         "trends_keyword": "",
         "trends_opportunities": [],
         "verifiability": "HIGH",
-        "data_grade": "A",
+        "data_grade": "C",
         "verified_keywords": [],
         "status": "candidate",
         "selected_at": "2026-07-27T08:23:04.048313+00:00"
@@ -1598,7 +1789,7 @@
         "trends_keyword": "",
         "trends_opportunities": [],
         "verifiability": "HIGH",
-        "data_grade": "A",
+        "data_grade": "C",
         "verified_keywords": [],
         "status": "candidate",
         "selected_at": "2026-07-27T08:23:04.048313+00:00"
@@ -1622,10 +1813,178 @@
         "trends_keyword": "",
         "trends_opportunities": [],
         "verifiability": "HIGH",
-        "data_grade": "A",
+        "data_grade": "C",
         "verified_keywords": [],
         "status": "candidate",
         "selected_at": "2026-07-27T08:23:04.048313+00:00"
+      },
+      {
+        "cluster_name": "Samsung Galaxy Z Fold 8",
+        "content_type": "COMPARISON",
+        "suggested_title": "Galaxy Z Fold 8 vs Fold 7: Hinge Design and Durability Comparison",
+        "hub_keyword": "Galaxy Foldables",
+        "hub_keyword_raw": "Galaxy Foldables",
+        "parent_hub": "Galaxy Foldables",
+        "spoke_keywords": [
+          "galaxy z fold 8 hinge design improvements",
+          "galaxy z fold 7 hinge durability issues",
+          "samsung foldable hinge technology explained"
+        ],
+        "competition_level": "MEDIUM",
+        "timing": "NOW",
+        "affiliate_potential": "LOW",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "status": "candidate",
+        "selected_at": "2026-07-27T08:28:08.701688+00:00"
+      },
+      {
+        "cluster_name": "Samsung Galaxy Z Flip 8",
+        "content_type": "GUIDE",
+        "suggested_title": "Galaxy Z Flip 8 Cover Screen Apps: How to Use and Customize",
+        "hub_keyword": "Galaxy Z Flip 8 Cover Screen",
+        "hub_keyword_raw": "Galaxy Z Flip 8 Cover Screen",
+        "parent_hub": "Galaxy Foldables",
+        "spoke_keywords": [
+          "galaxy z flip 8 outer display apps",
+          "customize galaxy z flip 8 cover screen",
+          "how to add apps to flip 8 external screen"
+        ],
+        "competition_level": "MEDIUM",
+        "timing": "NOW",
+        "affiliate_potential": "LOW",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "status": "candidate",
+        "selected_at": "2026-07-27T08:28:08.701688+00:00"
+      },
+      {
+        "cluster_name": "Samsung Battery Technology",
+        "content_type": "EXPLAINER",
+        "suggested_title": "Silicon-Carbon Battery Technology in Galaxy Z Fold 8 Explained",
+        "hub_keyword": "Silicon-Carbon Batteries",
+        "hub_keyword_raw": "Silicon-Carbon Batteries",
+        "parent_hub": "Galaxy Foldables",
+        "spoke_keywords": [
+          "what are silicon carbon batteries",
+          "benefits of silicon carbon batteries in phones",
+          "samsung galaxy z fold 8 battery tech"
+        ],
+        "competition_level": "MEDIUM",
+        "timing": "NOW",
+        "affiliate_potential": "LOW",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "status": "candidate",
+        "selected_at": "2026-07-27T08:28:08.701688+00:00"
+      },
+      {
+        "cluster_name": "Google Gemini for Home",
+        "content_type": "GUIDE",
+        "suggested_title": "How to Use Gemini for Home Context Memory for Longer Conversations",
+        "hub_keyword": "Gemini Home",
+        "hub_keyword_raw": "Gemini Home Features",
+        "parent_hub": "Google Gemini AI",
+        "spoke_keywords": [
+          "gemini home context memory settings",
+          "extend gemini conversation history",
+          "google home ai context retention"
+        ],
+        "competition_level": "LOW",
+        "timing": "NOW",
+        "affiliate_potential": "LOW",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "status": "candidate",
+        "selected_at": "2026-07-27T08:28:08.701688+00:00"
+      },
+      {
+        "cluster_name": "Google Gemini Versions",
+        "content_type": "COMPARISON",
+        "suggested_title": "Google Gemini Intelligence vs Spark vs Nano: Key Differences Explained",
+        "hub_keyword": "Gemini AI Models",
+        "hub_keyword_raw": "Gemini AI Models",
+        "parent_hub": "Google Gemini AI",
+        "spoke_keywords": [
+          "gemini intelligence features comparison",
+          "gemini spark vs nano capabilities",
+          "understanding google gemini models"
+        ],
+        "competition_level": "MEDIUM",
+        "timing": "NOW",
+        "affiliate_potential": "LOW",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "status": "candidate",
+        "selected_at": "2026-07-27T08:28:08.701688+00:00"
+      },
+      {
+        "cluster_name": "Xbox PC App Issues",
+        "content_type": "GUIDE",
+        "suggested_title": "How to Fix Common Xbox PC App Download and Installation Problems",
+        "hub_keyword": "Xbox PC Troubleshooting",
+        "hub_keyword_raw": "Xbox PC Troubleshooting",
+        "parent_hub": "Gaming Platforms",
+        "spoke_keywords": [
+          "xbox app games not downloading pc",
+          "fix xbox pc app installation errors",
+          "xbox game pass pc app issues"
+        ],
+        "competition_level": "MEDIUM",
+        "timing": "NOW",
+        "affiliate_potential": "LOW",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "status": "candidate",
+        "selected_at": "2026-07-27T08:28:08.701688+00:00"
+      },
+      {
+        "cluster_name": "Gaming Physical vs Digital",
+        "content_type": "COMPARISON",
+        "suggested_title": "Physical vs Digital Games: Pros and Cons for Xbox and PlayStation Gamers",
+        "hub_keyword": "Physical Digital Games",
+        "hub_keyword_raw": "Physical Digital Games",
+        "parent_hub": "Gaming Platforms",
+        "spoke_keywords": [
+          "benefits of physical game discs",
+          "advantages of digital game downloads",
+          "physical media vs digital ownership games"
+        ],
+        "competition_level": "MEDIUM",
+        "timing": "NOW",
+        "affiliate_potential": "HIGH",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "status": "candidate",
+        "selected_at": "2026-07-27T08:28:08.701688+00:00"
       }
     ]
   },
