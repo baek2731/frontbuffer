@@ -166,6 +166,31 @@ def get_week_tag():
     return datetime.now(timezone.utc).strftime("%Y-W%W")
 
 
+def get_file_id(cluster_info, content_type=None):
+    """
+    publish_order + folder_id + week_tag 기반 파일 식별자 생성.
+    모든 단계(prep/gemini/review/final)에서 동일한 ID를 사용해 slug 불일치 방지.
+
+    반환: "{order:03d}_{week_tag}_{folder_id}_{CT}"
+    예시: "001_2026-W31_05-android-auto_GUIDE"
+
+    publish_order 없으면 999 (맨 마지막).
+    folder 없으면 slugify(cluster_name) fallback.
+    """
+    folder        = cluster_info.get("folder") or ""
+    week_tag      = cluster_info.get("week_tag") or get_week_tag()
+    ct            = (content_type or cluster_info.get("content_type", "GUIDE")).upper().strip()
+    publish_order = int(cluster_info.get("publish_order") or 999)
+    order_str     = f"{publish_order:03d}"
+
+    if folder:
+        folder_id = folder.lower().strip()
+        return f"{order_str}_{week_tag}_{folder_id}_{ct}"
+    else:
+        slug = slugify(cluster_info.get("cluster_name", ""))
+        return f"{order_str}_{week_tag}_{slug}_{ct}"
+
+
 def find_cluster(data, cluster_name, content_type=None):
     """
     cluster_name + content_type으로 기획안 탐색.

@@ -372,8 +372,29 @@ def main():
     print(f"  🔽 중복 제거 후: Grade A={len(grade_a)} B={len(grade_b)}")
 
     # Grade A/B만 자동 선택 → content_pipeline.json 등록
-    auto_select = grade_a + grade_b
+    # publish_order 결정:
+    #   1순위: Grade A → B
+    #   2순위: 같은 Grade면 RISING > STABLE > FALLING
+    #   3순위: 같은 트렌드면 스포크 먼저, HUB 나중 (스포크 2개 후 HUB 발행 조건)
+    trend_order  = {"RISING": 0, "STABLE": 1, "FALLING": 2, "UNKNOWN": 3}
+    grade_order  = {"A": 0, "B": 1}
+    type_order   = {"COMPARISON": 0, "EXPLAINER": 1, "GUIDE": 2, "LISTICLE": 3, "HUB": 99}
+
+    auto_select = sorted(
+        grade_a + grade_b,
+        key=lambda s: (
+            grade_order.get(s.get("data_grade", "B"), 1),
+            trend_order.get(s.get("trends_pattern", "UNKNOWN"), 3),
+            type_order.get((s.get("content_type") or "GUIDE").upper(), 50),
+        )
+    )
+    # publish_order 부여 (1부터 시작)
+    for i, sel in enumerate(auto_select, 1):
+        sel["publish_order"] = i
+
     print(f"\n  🔷 자동 선택 (Grade A/B): {len(auto_select)}개")
+    for s in auto_select:
+        print(f"    [{s['publish_order']:02d}] [{s.get('data_grade','?')}][{s.get('content_type','?')}] {s.get('cluster_name','')} ({s.get('trends_pattern','')})")
 
     if auto_select:
         try:

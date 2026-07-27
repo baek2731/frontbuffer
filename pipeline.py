@@ -142,6 +142,7 @@ def record_selections(selections, week_tag=None):
             "hub_keyword":          norm_hub,
             "hub_keyword_raw":      raw_hub,
             "parent_hub":           parent_hub,
+            "folder":               sel.get("folder", ""),
             "spoke_keywords":       sel.get("spoke_keywords", []),
             "competition_level":    sel.get("competition_level", "").upper(),
             "timing":               sel.get("timing", "").upper(),
@@ -152,6 +153,7 @@ def record_selections(selections, week_tag=None):
             "verifiability":        sel.get("verifiability", "MEDIUM"),
             "data_grade":           sel.get("data_grade", ""),
             "verified_keywords":    sel.get("verified_keywords", []),
+            "publish_order":        sel.get("publish_order", 999),
             "status":               "candidate",
             "selected_at":          now.isoformat(),
         }
