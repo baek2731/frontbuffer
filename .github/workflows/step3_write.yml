@@ -113,13 +113,7 @@ jobs:
 
             # 새로 생성된 final/ 파일 추적 (품질 체크용)
             # write.py slugify()와 동일한 로직으로 생성 (특수문자 제거 + 60자 제한)
-            SLUG=$(python -c "
-import re, sys
-t = sys.argv[1].lower().strip()
-t = re.sub(r'[^\w\s-]', '', t)
-t = re.sub(r'[\s_]+', '-', t)
-print(t[:60])
-" "$CLUSTER")
+            SLUG=$(python -c "import re,sys; t=sys.argv[1].lower().strip(); t=re.sub(r'[^\w\s-]','',t); t=re.sub(r'[\s_]+','-',t); print(t[:60])" "$CLUSTER")
             FINAL_FILE="research_data/write/final/${SLUG}_${TYPE}.md"
             if [ -f "$FINAL_FILE" ]; then
               NEW_FILES="${NEW_FILES:+$NEW_FILES,}$FINAL_FILE"
