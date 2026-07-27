@@ -10,12 +10,8 @@ on:
         default: ""
 
   # ── CSV push 감지 자동 트리거 ──────────────────────────────────────
-  # 사람이 research_data/trends/ 아래 CSV를 업로드하면 자동 실행
-  push:
-    branches:
-      - main
-    paths:
-      - 'research_data/trends/**/*.csv'
+  # CSV 업로드 후 수동으로 Run workflow 실행
+  # (자동 트리거 제거 — CSV 전부 올린 후 수동 실행)
 
 jobs:
   plan:
@@ -155,6 +151,7 @@ jobs:
           git add research_data/trends/
           git add content_pipeline.json
           git diff --cached --quiet || git commit -m "chore: Step2 기획안 생성+Grade판정 완료 ${{ env.WEEK_TAG }}"
+          git pull --rebase origin main || true
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
