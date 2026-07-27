@@ -1,7 +1,7 @@
 {
   "_version": "1.3",
   "_description": "콘텐츠 파이프라인 — 클러스터 단위 관리",
-  "_last_updated": "2026-07-27T08:18:57.762662+00:00",
+  "_last_updated": "2026-07-27T08:23:04.048432+00:00",
   "hub_clusters": {
     "Steam Machine": {
       "hub_keyword": "Steam Machine",
@@ -130,11 +130,12 @@
     },
     "Samsung Galaxy Foldables": {
       "hub_keyword": "Samsung Galaxy Foldables",
-      "hub_status": "PENDING",
+      "hub_status": "READY",
       "hub_title": "",
       "hub_url": "",
       "spokes": [
-        "Samsung Galaxy Foldables"
+        "Samsung Galaxy Foldables",
+        "Samsung Galaxy Z Fold/Flip Series"
       ],
       "spoke_urls": {},
       "internal_links": []
@@ -157,6 +158,28 @@
       "hub_url": "",
       "spokes": [
         "Gaming Platform Choices"
+      ],
+      "spoke_urls": {},
+      "internal_links": []
+    },
+    "Google AI Features": {
+      "hub_keyword": "Google AI Features",
+      "hub_status": "PENDING",
+      "hub_title": "",
+      "hub_url": "",
+      "spokes": [
+        "Google AI Features"
+      ],
+      "spoke_urls": {},
+      "internal_links": []
+    },
+    "PC Gaming Optimization": {
+      "hub_keyword": "PC Gaming Optimization",
+      "hub_status": "PENDING",
+      "hub_title": "",
+      "hub_url": "",
+      "spokes": [
+        "PC Gaming Optimization"
       ],
       "spoke_urls": {},
       "internal_links": []
@@ -382,6 +405,72 @@
         "physical vs digital games debate",
         "advantages of physical games",
         "disadvantages of digital game ownership"
+      ],
+      "competition_level": "MEDIUM",
+      "affiliate_potential": "LOW",
+      "trends_pattern": "UNKNOWN",
+      "trends_keyword": "",
+      "notes": ""
+    },
+    "Samsung Galaxy Z Fold/Flip Series": {
+      "types_done": [],
+      "last_week": "2026-W30",
+      "suggest_next": [
+        "COMPARISON",
+        "GUIDE",
+        "EXPLAINER",
+        "LISTICLE"
+      ],
+      "hub_keyword": "Galaxy Flip 8 Cover Screen",
+      "parent_hub": "Samsung Galaxy Foldables",
+      "spoke_keywords": [
+        "galaxy z fold 8 ultra vs fold 8",
+        "fold 8 ultra key differences",
+        "samsung fold 8 vs fold 8 ultra comparison"
+      ],
+      "competition_level": "MEDIUM",
+      "affiliate_potential": "HIGH",
+      "trends_pattern": "UNKNOWN",
+      "trends_keyword": "",
+      "notes": ""
+    },
+    "Google AI Features": {
+      "types_done": [],
+      "last_week": "2026-W30",
+      "suggest_next": [
+        "COMPARISON",
+        "GUIDE",
+        "EXPLAINER",
+        "LISTICLE"
+      ],
+      "hub_keyword": "Gemini Intelligence Nano",
+      "parent_hub": "Google AI Features",
+      "spoke_keywords": [
+        "google gemini spark features explained",
+        "how to use gemini spark",
+        "access gemini spark google ai pro"
+      ],
+      "competition_level": "MEDIUM",
+      "affiliate_potential": "LOW",
+      "trends_pattern": "UNKNOWN",
+      "trends_keyword": "",
+      "notes": ""
+    },
+    "PC Gaming Optimization": {
+      "types_done": [],
+      "last_week": "2026-W30",
+      "suggest_next": [
+        "COMPARISON",
+        "GUIDE",
+        "EXPLAINER",
+        "LISTICLE"
+      ],
+      "hub_keyword": "Xbox PC Compatibility",
+      "parent_hub": "PC Gaming Optimization",
+      "spoke_keywords": [
+        "minecraft java edition pc optimization guide",
+        "best settings for minecraft java pc",
+        "improve minecraft java performance low end pc"
       ],
       "competition_level": "MEDIUM",
       "affiliate_potential": "LOW",
@@ -1173,7 +1262,7 @@
         "trends_keyword": "",
         "trends_opportunities": [],
         "verifiability": "HIGH",
-        "data_grade": "A",
+        "data_grade": "C",
         "verified_keywords": [],
         "status": "candidate",
         "selected_at": "2026-07-27T08:18:57.762536+00:00"
@@ -1197,7 +1286,7 @@
         "trends_keyword": "",
         "trends_opportunities": [],
         "verifiability": "HIGH",
-        "data_grade": "A",
+        "data_grade": "C",
         "verified_keywords": [],
         "status": "candidate",
         "selected_at": "2026-07-27T08:18:57.762536+00:00"
@@ -1221,7 +1310,7 @@
         "trends_keyword": "",
         "trends_opportunities": [],
         "verifiability": "HIGH",
-        "data_grade": "A",
+        "data_grade": "C",
         "verified_keywords": [],
         "status": "candidate",
         "selected_at": "2026-07-27T08:18:57.762536+00:00"
@@ -1245,7 +1334,7 @@
         "trends_keyword": "",
         "trends_opportunities": [],
         "verifiability": "HIGH",
-        "data_grade": "A",
+        "data_grade": "C",
         "verified_keywords": [],
         "status": "candidate",
         "selected_at": "2026-07-27T08:18:57.762536+00:00"
@@ -1269,7 +1358,7 @@
         "trends_keyword": "",
         "trends_opportunities": [],
         "verifiability": "HIGH",
-        "data_grade": "A",
+        "data_grade": "C",
         "verified_keywords": [],
         "status": "candidate",
         "selected_at": "2026-07-27T08:18:57.762536+00:00"
@@ -1293,7 +1382,7 @@
         "trends_keyword": "",
         "trends_opportunities": [],
         "verifiability": "HIGH",
-        "data_grade": "A",
+        "data_grade": "C",
         "verified_keywords": [],
         "status": "candidate",
         "selected_at": "2026-07-27T08:18:57.762536+00:00"
@@ -1317,7 +1406,7 @@
         "trends_keyword": "",
         "trends_opportunities": [],
         "verifiability": "HIGH",
-        "data_grade": "A",
+        "data_grade": "C",
         "verified_keywords": [],
         "status": "candidate",
         "selected_at": "2026-07-27T08:18:57.762536+00:00"
@@ -1341,10 +1430,202 @@
         "trends_keyword": "",
         "trends_opportunities": [],
         "verifiability": "HIGH",
-        "data_grade": "A",
+        "data_grade": "C",
         "verified_keywords": [],
         "status": "candidate",
         "selected_at": "2026-07-27T08:18:57.762536+00:00"
+      },
+      {
+        "cluster_name": "Samsung Galaxy Z Fold/Flip Series",
+        "content_type": "COMPARISON",
+        "suggested_title": "Galaxy Z Fold 8 Ultra vs Fold 8: Key Differences and Upgrades",
+        "hub_keyword": "Galaxy Fold Flip",
+        "hub_keyword_raw": "Galaxy Fold Flip",
+        "parent_hub": "Samsung Galaxy Foldables",
+        "spoke_keywords": [
+          "galaxy z fold 8 ultra vs fold 8",
+          "fold 8 ultra key differences",
+          "samsung fold 8 vs fold 8 ultra comparison"
+        ],
+        "competition_level": "MEDIUM",
+        "timing": "NOW",
+        "affiliate_potential": "HIGH",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "status": "candidate",
+        "selected_at": "2026-07-27T08:23:04.048313+00:00"
+      },
+      {
+        "cluster_name": "Samsung Galaxy Z Fold/Flip Series",
+        "content_type": "EXPLAINER",
+        "suggested_title": "How Samsung's Silicon-Carbon Batteries Improve Galaxy Z Fold 8 Life",
+        "hub_keyword": "Galaxy Fold Flip Battery",
+        "hub_keyword_raw": "Galaxy Fold Flip Battery",
+        "parent_hub": "Samsung Galaxy Foldables",
+        "spoke_keywords": [
+          "galaxy z fold 8 silicon carbon battery explained",
+          "samsung fold 8 battery technology",
+          "silicon carbon battery benefits foldables"
+        ],
+        "competition_level": "LOW",
+        "timing": "NOW",
+        "affiliate_potential": "LOW",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "status": "candidate",
+        "selected_at": "2026-07-27T08:23:04.048313+00:00"
+      },
+      {
+        "cluster_name": "Samsung Galaxy Z Fold/Flip Series",
+        "content_type": "GUIDE",
+        "suggested_title": "How to Optimize Cover Screen Apps on Galaxy Z Flip 8",
+        "hub_keyword": "Galaxy Flip 8 Cover Screen",
+        "hub_keyword_raw": "Galaxy Flip 8 Cover Screen",
+        "parent_hub": "Samsung Galaxy Foldables",
+        "spoke_keywords": [
+          "galaxy z flip 8 cover screen app guide",
+          "best apps for galaxy flip 8 outer display",
+          "customize galaxy flip 8 cover screen"
+        ],
+        "competition_level": "MEDIUM",
+        "timing": "NOW",
+        "affiliate_potential": "MEDIUM",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "status": "candidate",
+        "selected_at": "2026-07-27T08:23:04.048313+00:00"
+      },
+      {
+        "cluster_name": "Google AI Features",
+        "content_type": "EXPLAINER",
+        "suggested_title": "What is Google Gemini Spark and How to Access Features",
+        "hub_keyword": "Google Gemini Spark",
+        "hub_keyword_raw": "Google Gemini Spark",
+        "parent_hub": "Google AI Features",
+        "spoke_keywords": [
+          "google gemini spark features explained",
+          "how to use gemini spark",
+          "access gemini spark google ai pro"
+        ],
+        "competition_level": "MEDIUM",
+        "timing": "NOW",
+        "affiliate_potential": "LOW",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "status": "candidate",
+        "selected_at": "2026-07-27T08:23:04.048313+00:00"
+      },
+      {
+        "cluster_name": "Google AI Features",
+        "content_type": "GUIDE",
+        "suggested_title": "How to Use Gemini for Home Context Memory in Google Assistant",
+        "hub_keyword": "Gemini Home Context",
+        "hub_keyword_raw": "Gemini Home Context",
+        "parent_hub": "Google AI Features",
+        "spoke_keywords": [
+          "gemini home context memory setup",
+          "google assistant gemini memory explained",
+          "configure gemini home context"
+        ],
+        "competition_level": "MEDIUM",
+        "timing": "NOW",
+        "affiliate_potential": "LOW",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "status": "candidate",
+        "selected_at": "2026-07-27T08:23:04.048313+00:00"
+      },
+      {
+        "cluster_name": "Google AI Features",
+        "content_type": "COMPARISON",
+        "suggested_title": "Gemini Intelligence vs Gemini Nano 4: AI Model Comparison",
+        "hub_keyword": "Gemini Intelligence Nano",
+        "hub_keyword_raw": "Gemini Intelligence Nano",
+        "parent_hub": "Google AI Features",
+        "spoke_keywords": [
+          "gemini intelligence vs nano 4 differences",
+          "compare google ai models",
+          "gemini nano 4 capabilities"
+        ],
+        "competition_level": "MEDIUM",
+        "timing": "NOW",
+        "affiliate_potential": "LOW",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "status": "candidate",
+        "selected_at": "2026-07-27T08:23:04.048313+00:00"
+      },
+      {
+        "cluster_name": "PC Gaming Optimization",
+        "content_type": "GUIDE",
+        "suggested_title": "How to Optimize Minecraft Java Edition System Requirements for PC",
+        "hub_keyword": "Minecraft PC Optimization",
+        "hub_keyword_raw": "Minecraft PC Optimization",
+        "parent_hub": "PC Gaming Optimization",
+        "spoke_keywords": [
+          "minecraft java edition pc optimization guide",
+          "best settings for minecraft java pc",
+          "improve minecraft java performance low end pc"
+        ],
+        "competition_level": "MEDIUM",
+        "timing": "NOW",
+        "affiliate_potential": "LOW",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "status": "candidate",
+        "selected_at": "2026-07-27T08:23:04.048313+00:00"
+      },
+      {
+        "cluster_name": "PC Gaming Optimization",
+        "content_type": "EXPLAINER",
+        "suggested_title": "Xbox Backward Compatible Games on PC: Emulation vs Native Support Explained",
+        "hub_keyword": "Xbox PC Compatibility",
+        "hub_keyword_raw": "Xbox PC Compatibility",
+        "parent_hub": "PC Gaming Optimization",
+        "spoke_keywords": [
+          "xbox backward compatibility pc explained",
+          "xbox pc games emulation differences",
+          "native xbox games on pc benefits"
+        ],
+        "competition_level": "MEDIUM",
+        "timing": "NOW",
+        "affiliate_potential": "LOW",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "status": "candidate",
+        "selected_at": "2026-07-27T08:23:04.048313+00:00"
       }
     ]
   },

@@ -1,14 +1,14 @@
 [
   {
-    "cluster_name": "Samsung Galaxy Foldables",
+    "cluster_name": "Samsung Galaxy Z Fold/Flip Series",
     "content_type": "COMPARISON",
-    "suggested_title": "Galaxy Z Fold 8 vs Galaxy Z Fold 7: Hinge Design and Durability Improvements",
-    "hub_keyword": "Galaxy Z Fold 8",
+    "suggested_title": "Galaxy Z Fold 8 Ultra vs Fold 8: Key Differences and Upgrades",
+    "hub_keyword": "Galaxy Fold Flip",
     "parent_hub": "Samsung Galaxy Foldables",
     "spoke_keywords": [
-      "galaxy z fold 8 hinge design",
-      "galaxy z fold 7 hinge durability",
-      "foldable phone hinge improvements"
+      "galaxy z fold 8 ultra vs fold 8",
+      "fold 8 ultra key differences",
+      "samsung fold 8 vs fold 8 ultra comparison"
     ],
     "evergreen_score": 90,
     "competition_level": "MEDIUM",
@@ -16,179 +16,179 @@
     "timing": "NOW",
     "verifiability": "HIGH",
     "trends_queries": [
-      "galaxy z fold 8 hinge review",
-      "galaxy z fold 7 hinge issues",
-      "foldable phone durability"
+      "galaxy z fold 8 ultra",
+      "galaxy z fold 8",
+      "fold 8 ultra vs fold 8"
     ],
-    "reasoning": "This comparison leverages official design details and announced improvements for the hinge, a common concern for foldables, providing evergreen value for potential buyers.",
+    "reasoning": "This compares two recently released, high-profile Samsung foldable phones based on official specifications, offering evergreen value for potential buyers.",
     "data_grade": "A"
   },
   {
-    "cluster_name": "Samsung Galaxy Foldables",
-    "content_type": "GUIDE",
-    "suggested_title": "How to Customize Galaxy Z Flip 8 Cover Screen Apps and Widgets",
-    "hub_keyword": "Galaxy Z Flip 8",
+    "cluster_name": "Samsung Galaxy Z Fold/Flip Series",
+    "content_type": "EXPLAINER",
+    "suggested_title": "How Samsung's Silicon-Carbon Batteries Improve Galaxy Z Fold 8 Life",
+    "hub_keyword": "Galaxy Fold Flip Battery",
     "parent_hub": "Samsung Galaxy Foldables",
     "spoke_keywords": [
-      "galaxy z flip 8 cover screen customization",
-      "best z flip 8 cover screen apps",
-      "z flip 8 widgets setup guide"
+      "galaxy z fold 8 silicon carbon battery explained",
+      "samsung fold 8 battery technology",
+      "silicon carbon battery benefits foldables"
     ],
-    "evergreen_score": 95,
+    "evergreen_score": 85,
     "competition_level": "LOW",
+    "affiliate_potential": "LOW",
+    "timing": "NOW",
+    "verifiability": "HIGH",
+    "trends_queries": [
+      "galaxy z fold 8 battery",
+      "silicon carbon battery tech",
+      "foldable phone battery life"
+    ],
+    "reasoning": "Explains a specific, announced battery technology feature in a released product, providing long-term educational value for users interested in the tech.",
+    "data_grade": "A"
+  },
+  {
+    "cluster_name": "Samsung Galaxy Z Fold/Flip Series",
+    "content_type": "GUIDE",
+    "suggested_title": "How to Optimize Cover Screen Apps on Galaxy Z Flip 8",
+    "hub_keyword": "Galaxy Flip 8 Cover Screen",
+    "parent_hub": "Samsung Galaxy Foldables",
+    "spoke_keywords": [
+      "galaxy z flip 8 cover screen app guide",
+      "best apps for galaxy flip 8 outer display",
+      "customize galaxy flip 8 cover screen"
+    ],
+    "evergreen_score": 90,
+    "competition_level": "MEDIUM",
     "affiliate_potential": "MEDIUM",
     "timing": "NOW",
     "verifiability": "HIGH",
     "trends_queries": [
-      "galaxy z flip cover screen uses",
-      "z flip 8 external display apps",
-      "how to use z flip 8 cover screen"
+      "galaxy z flip 8 cover screen apps",
+      "optimize flip 8 outer display",
+      "galaxy flip 8 app customization"
     ],
-    "reasoning": "This guide addresses a core feature of the Z Flip series, offering practical, verifiable advice on customization that remains relevant across software updates.",
+    "reasoning": "This guide addresses a common user need for a specific feature on a released phone, solvable with official documentation and UI insights, making it evergreen.",
     "data_grade": "A"
   },
   {
-    "cluster_name": "Samsung Galaxy Foldables",
+    "cluster_name": "Google AI Features",
     "content_type": "EXPLAINER",
-    "suggested_title": "What is Samsung Silicon-Carbon Battery Technology in Galaxy Z Fold 8",
-    "hub_keyword": "Samsung battery technology",
-    "parent_hub": "Samsung Galaxy Foldables",
+    "suggested_title": "What is Google Gemini Spark and How to Access Features",
+    "hub_keyword": "Google Gemini Spark",
+    "parent_hub": "Google AI Features",
     "spoke_keywords": [
-      "silicon carbon battery explained",
-      "galaxy z fold 8 battery tech",
-      "samsung battery innovation"
+      "google gemini spark features explained",
+      "how to use gemini spark",
+      "access gemini spark google ai pro"
     ],
-    "evergreen_score": 85,
+    "evergreen_score": 88,
     "competition_level": "MEDIUM",
     "affiliate_potential": "LOW",
     "timing": "NOW",
     "verifiability": "HIGH",
     "trends_queries": [
-      "silicon carbon battery advantages",
-      "samsung new battery technology",
-      "foldable phone battery life"
+      "google gemini spark",
+      "gemini spark features",
+      "how to use gemini spark"
     ],
-    "reasoning": "This explainer focuses on a key technological advancement in a specific product, offering verifiable information that will remain relevant for those researching battery tech.",
+    "reasoning": "Explains a specific, recently rolled out Google AI feature, providing foundational knowledge and access methods that will remain relevant for new users.",
     "data_grade": "A"
   },
   {
-    "cluster_name": "Google Android Features",
+    "cluster_name": "Google AI Features",
     "content_type": "GUIDE",
-    "suggested_title": "How to Use Google Wallet Order Tracking on Android Phones",
-    "hub_keyword": "Google Wallet",
-    "parent_hub": "Google Android Features",
+    "suggested_title": "How to Use Gemini for Home Context Memory in Google Assistant",
+    "hub_keyword": "Gemini Home Context",
+    "parent_hub": "Google AI Features",
     "spoke_keywords": [
-      "google wallet package tracking setup",
-      "android order tracking feature",
-      "how to track orders google wallet"
+      "gemini home context memory setup",
+      "google assistant gemini memory explained",
+      "configure gemini home context"
     ],
-    "evergreen_score": 95,
-    "competition_level": "LOW",
-    "affiliate_potential": "LOW",
-    "timing": "NOW",
-    "verifiability": "HIGH",
-    "trends_queries": [
-      "google wallet updates",
-      "track packages android",
-      "google wallet new features"
-    ],
-    "reasoning": "This guide provides instructions for a newly rolled-out, highly practical feature within a core Google app, ensuring long-term relevance for Android users.",
-    "data_grade": "A"
-  },
-  {
-    "cluster_name": "Google Android Features",
-    "content_type": "EXPLAINER",
-    "suggested_title": "Understanding Gemini for Home Context Memory and New Features",
-    "hub_keyword": "Gemini for Home",
-    "parent_hub": "Google Android Features",
-    "spoke_keywords": [
-      "gemini home context memory explained",
-      "google assistant memory features",
-      "gemini ai for smart home"
-    ],
-    "evergreen_score": 90,
+    "evergreen_score": 87,
     "competition_level": "MEDIUM",
     "affiliate_potential": "LOW",
     "timing": "NOW",
     "verifiability": "HIGH",
     "trends_queries": [
-      "gemini smart home capabilities",
-      "google home ai memory",
-      "how gemini remembers context"
+      "gemini home context memory",
+      "google assistant memory",
+      "how to use gemini home"
     ],
-    "reasoning": "This explainer delves into a specific and evolving AI feature, providing foundational knowledge that will be useful as Gemini's smart home capabilities expand.",
+    "reasoning": "Provides a practical guide for configuring a specific Google AI feature, addressing a persistent user query about its functionality and setup.",
     "data_grade": "A"
   },
   {
-    "cluster_name": "Google Android Features",
+    "cluster_name": "Google AI Features",
     "content_type": "COMPARISON",
-    "suggested_title": "Android Auto vs Apple CarPlay: In-Car Entertainment and Navigation Comparison",
-    "hub_keyword": "Android Auto",
-    "parent_hub": "Google Android Features",
+    "suggested_title": "Gemini Intelligence vs Gemini Nano 4: AI Model Comparison",
+    "hub_keyword": "Gemini Intelligence Nano",
+    "parent_hub": "Google AI Features",
     "spoke_keywords": [
-      "android auto features",
-      "apple carplay advantages",
-      "best car entertainment system"
+      "gemini intelligence vs nano 4 differences",
+      "compare google ai models",
+      "gemini nano 4 capabilities"
     ],
-    "evergreen_score": 95,
-    "competition_level": "MEDIUM",
-    "affiliate_potential": "HIGH",
-    "timing": "NOW",
-    "verifiability": "HIGH",
-    "trends_queries": [
-      "android auto vs carplay 2026",
-      "wireless android auto vs carplay",
-      "android auto alternative"
-    ],
-    "reasoning": "This comparison addresses a perennial consumer choice, providing a feature-based overview that remains relevant regardless of minor updates to either system.",
-    "data_grade": "A"
-  },
-  {
-    "cluster_name": "Gaming Platform Choices",
-    "content_type": "EXPLAINER",
-    "suggested_title": "Physical Media vs Digital Games: Pros and Cons for Modern Gamers",
-    "hub_keyword": "Physical game media",
-    "parent_hub": "Gaming Platform Choices",
-    "spoke_keywords": [
-      "physical vs digital games debate",
-      "advantages of physical games",
-      "disadvantages of digital game ownership"
-    ],
-    "evergreen_score": 100,
+    "evergreen_score": 89,
     "competition_level": "MEDIUM",
     "affiliate_potential": "LOW",
     "timing": "NOW",
     "verifiability": "HIGH",
     "trends_queries": [
-      "physical game collection value",
-      "digital game library management",
-      "future of game ownership"
+      "gemini intelligence vs nano 4",
+      "google ai model comparison",
+      "gemini nano 4 explained"
     ],
-    "reasoning": "This topic is a foundational debate in gaming, ensuring perennial relevance for players considering their purchasing habits, directly triggered by current industry discussions.",
+    "reasoning": "Compares two specific, announced Google AI models, offering an evergreen resource for users to understand their distinctions and use cases.",
     "data_grade": "A"
   },
   {
-    "cluster_name": "Gaming Platform Choices",
+    "cluster_name": "PC Gaming Optimization",
     "content_type": "GUIDE",
-    "suggested_title": "Optimizing Minecraft Java Edition System Requirements for Best Performance",
-    "hub_keyword": "Minecraft system requirements",
-    "parent_hub": "Gaming Platform Choices",
+    "suggested_title": "How to Optimize Minecraft Java Edition System Requirements for PC",
+    "hub_keyword": "Minecraft PC Optimization",
+    "parent_hub": "PC Gaming Optimization",
     "spoke_keywords": [
-      "minecraft java edition minimum specs",
-      "improve minecraft java performance",
-      "minecraft java edition graphics settings"
+      "minecraft java edition pc optimization guide",
+      "best settings for minecraft java pc",
+      "improve minecraft java performance low end pc"
     ],
-    "evergreen_score": 90,
+    "evergreen_score": 95,
     "competition_level": "MEDIUM",
-    "affiliate_potential": "HIGH",
+    "affiliate_potential": "LOW",
     "timing": "NOW",
     "verifiability": "HIGH",
     "trends_queries": [
-      "minecraft java edition lag fix",
-      "minecraft pc requirements 2026",
-      "best pc for minecraft java"
+      "minecraft java system requirements",
+      "optimize minecraft pc",
+      "minecraft performance guide"
     ],
-    "reasoning": "Minecraft's enduring popularity and recent system requirement changes make this a timely yet evergreen topic for players looking to ensure smooth gameplay.",
+    "reasoning": "Minecraft is a perennially popular game, and system optimization guides based on official requirements are always in demand and verifiable.",
+    "data_grade": "A"
+  },
+  {
+    "cluster_name": "PC Gaming Optimization",
+    "content_type": "EXPLAINER",
+    "suggested_title": "Xbox Backward Compatible Games on PC: Emulation vs Native Support Explained",
+    "hub_keyword": "Xbox PC Compatibility",
+    "parent_hub": "PC Gaming Optimization",
+    "spoke_keywords": [
+      "xbox backward compatibility pc explained",
+      "xbox pc games emulation differences",
+      "native xbox games on pc benefits"
+    ],
+    "evergreen_score": 92,
+    "competition_level": "MEDIUM",
+    "affiliate_potential": "LOW",
+    "timing": "NOW",
+    "verifiability": "HIGH",
+    "trends_queries": [
+      "xbox backward compatibility pc",
+      "xbox emulation pc",
+      "native xbox pc games"
+    ],
+    "reasoning": "This explains a fundamental technical aspect of Xbox gaming on PC, clarifying concepts that remain relevant for users interested in playing older titles.",
     "data_grade": "A"
   }
 ]
