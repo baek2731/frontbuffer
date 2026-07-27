@@ -1,14 +1,14 @@
 [
   {
-    "cluster_name": "Samsung Galaxy Fold Flip Series",
+    "cluster_name": "Samsung Foldable Phones",
     "content_type": "COMPARISON",
-    "suggested_title": "Galaxy Z Fold 8 vs Fold 7: Hinge Durability and Design Differences",
-    "hub_keyword": "Galaxy Z Fold",
-    "parent_hub": "Samsung Galaxy Fold Flip",
+    "suggested_title": "Galaxy Z Fold 8 vs Fold 7: Hinge Durability and Design Changes Compared",
+    "hub_keyword": "Samsung Foldable Phones",
+    "parent_hub": "Samsung Foldable Phones",
     "spoke_keywords": [
-      "galaxy z fold 8 vs fold 7 hinge",
-      "fold 8 design improvements",
-      "galaxy fold hinge durability comparison"
+      "galaxy z fold 8 vs fold 7 hinge durability",
+      "galaxy z fold 8 design changes",
+      "samsung foldable phone hinge comparison"
     ],
     "evergreen_score": 90,
     "competition_level": "MEDIUM",
@@ -16,179 +16,171 @@
     "timing": "NOW",
     "verifiability": "HIGH",
     "trends_queries": [
-      "galaxy z fold 8 hinge",
-      "galaxy z fold 7 durability",
-      "foldable phone design comparison"
+      "galaxy z fold 8 vs fold 7",
+      "foldable phone hinge comparison"
     ],
-    "reasoning": "Compares two released phone generations on a specific, often-searched aspect like durability and design, verifiable from public specs and reviews.",
+    "reasoning": "Users upgrading or choosing between generations will search for specific improvements like hinge durability and design. This can be verified through official announcements and product spec sheets.",
     "data_grade": "A"
   },
   {
-    "cluster_name": "Samsung Galaxy Fold Flip Series",
+    "cluster_name": "Samsung Foldable Phones",
+    "content_type": "EXPLAINER",
+    "suggested_title": "What are Silicon-Carbon Batteries in Galaxy Z Fold 8 and How Do They Improve Battery Life",
+    "hub_keyword": "Silicon-Carbon Batteries",
+    "parent_hub": "Samsung Foldable Phones",
+    "spoke_keywords": [
+      "silicon-carbon batteries galaxy z fold 8",
+      "how silicon-carbon batteries work in phones",
+      "galaxy z fold 8 battery life improvements"
+    ],
+    "evergreen_score": 85,
+    "competition_level": "MEDIUM",
+    "affiliate_potential": "LOW",
+    "timing": "NOW",
+    "verifiability": "HIGH",
+    "trends_queries": [
+      "silicon-carbon battery technology",
+      "galaxy z fold 8 battery tech"
+    ],
+    "reasoning": "Explaining new core technology like silicon-carbon batteries is evergreen as users will search for its benefits. Information is verifiable from tech specs and manufacturer announcements.",
+    "data_grade": "A"
+  },
+  {
+    "cluster_name": "Samsung Foldable Phones",
     "content_type": "GUIDE",
-    "suggested_title": "Galaxy Z Flip 8 Cover Screen Apps: How to Use and Customize Effectively",
-    "hub_keyword": "Galaxy Z Flip cover screen",
-    "parent_hub": "Samsung Galaxy Fold Flip",
+    "suggested_title": "Galaxy Z Flip 8 Cover Screen Apps: Best Use Cases and Customization Options",
+    "hub_keyword": "Galaxy Z Flip Cover Screen",
+    "parent_hub": "Samsung Foldable Phones",
     "spoke_keywords": [
       "galaxy z flip 8 cover screen apps",
-      "customize z flip 8 external display",
-      "how to use flip 8 outer screen"
+      "customize galaxy z flip 8 outer display",
+      "best apps for galaxy z flip 8 cover screen"
     ],
-    "evergreen_score": 85,
-    "competition_level": "MEDIUM",
-    "affiliate_potential": "MEDIUM",
-    "timing": "NOW",
-    "verifiability": "HIGH",
-    "trends_queries": [
-      "galaxy z flip 8 cover screen",
-      "z flip 8 external apps",
-      "how to customize z flip screen"
-    ],
-    "reasoning": "Provides a guide for a key feature of a recently released phone, which remains relevant for its lifecycle and can be sourced from official guides.",
-    "data_grade": "A"
-  },
-  {
-    "cluster_name": "Samsung Galaxy Fold Flip Series",
-    "content_type": "EXPLAINER",
-    "suggested_title": "Samsung Silicon-Carbon Batteries: How They Work in Galaxy Z Fold 8",
-    "hub_keyword": "silicon-carbon battery",
-    "parent_hub": "Samsung Galaxy Fold Flip",
-    "spoke_keywords": [
-      "samsung silicon carbon battery explained",
-      "galaxy z fold 8 battery technology",
-      "silicon carbon battery benefits"
-    ],
-    "evergreen_score": 90,
+    "evergreen_score": 88,
     "competition_level": "MEDIUM",
     "affiliate_potential": "LOW",
     "timing": "NOW",
     "verifiability": "HIGH",
     "trends_queries": [
-      "silicon carbon battery samsung",
-      "galaxy z fold 8 battery tech",
-      "how silicon carbon battery works"
+      "galaxy z flip cover screen features",
+      "z flip 8 external display apps"
     ],
-    "reasoning": "Explains a new, important technology used in a flagship phone, verifiable through official tech disclosures and industry information.",
+    "reasoning": "The news indicates new focus on Flip 8 cover screen apps. Users will seek guides on functionality and customization, which is verifiable from official documentation and UI previews.",
     "data_grade": "A"
   },
   {
-    "cluster_name": "Google Android Ecosystem",
-    "content_type": "GUIDE",
-    "suggested_title": "Android Auto WhatsApp Support: How to Send and Receive Messages",
-    "hub_keyword": "Android Auto WhatsApp",
-    "parent_hub": "Google Android Ecosystem",
-    "spoke_keywords": [
-      "android auto whatsapp messages guide",
-      "how to use whatsapp on android auto",
-      "android auto communication features"
-    ],
-    "evergreen_score": 95,
-    "competition_level": "LOW",
-    "affiliate_potential": "LOW",
-    "timing": "NOW",
-    "verifiability": "HIGH",
-    "trends_queries": [
-      "android auto whatsapp texting",
-      "whatsapp on car display",
-      "android auto message app guide"
-    ],
-    "reasoning": "A practical guide for a widely used feature in Android Auto, verifiable through official Google documentation and support resources.",
-    "data_grade": "A"
-  },
-  {
-    "cluster_name": "Google Android Ecosystem",
-    "content_type": "EXPLAINER",
-    "suggested_title": "Google Gemini for Home Context Memory: How it Works and Benefits",
-    "hub_keyword": "Gemini Home context memory",
-    "parent_hub": "Google Android Ecosystem",
-    "spoke_keywords": [
-      "google gemini home context memory explained",
-      "how gemini remembers conversations",
-      "gemini for home features benefits"
-    ],
-    "evergreen_score": 90,
-    "competition_level": "MEDIUM",
-    "affiliate_potential": "LOW",
-    "timing": "NOW",
-    "verifiability": "HIGH",
-    "trends_queries": [
-      "gemini home memory",
-      "google assistant memory feature",
-      "ai context memory explained"
-    ],
-    "reasoning": "Explains a core feature of Google's AI assistant, verifiable through official Google AI announcements and documentation.",
-    "data_grade": "A"
-  },
-  {
-    "cluster_name": "Google Android Ecosystem",
+    "cluster_name": "Google Pixel Ecosystem",
     "content_type": "COMPARISON",
-    "suggested_title": "Google Pixel Launcher vs Third-Party Android Launchers: Features and Customization",
-    "hub_keyword": "Pixel Launcher comparison",
-    "parent_hub": "Google Android Ecosystem",
+    "suggested_title": "Google Pixel 10 Pro vs Pixel 9 Pro: Low Light Camera Comparison and Features",
+    "hub_keyword": "Google Pixel Camera",
+    "parent_hub": "Google Pixel Ecosystem",
     "spoke_keywords": [
-      "pixel launcher vs nova launcher",
-      "best android launcher features",
-      "google pixel launcher customization options"
+      "pixel 10 pro vs pixel 9 pro camera",
+      "google pixel low light photography comparison",
+      "pixel 10 pro camera features explained"
     ],
-    "evergreen_score": 85,
-    "competition_level": "MEDIUM",
-    "affiliate_potential": "LOW",
-    "timing": "NOW",
-    "verifiability": "HIGH",
-    "trends_queries": [
-      "google pixel launcher features",
-      "third party android launchers",
-      "android launcher comparison"
-    ],
-    "reasoning": "Compares a default Android component with popular alternatives, focusing on verifiable features and customization options.",
-    "data_grade": "A"
-  },
-  {
-    "cluster_name": "PC Gaming Ecosystem",
-    "content_type": "GUIDE",
-    "suggested_title": "How to Troubleshoot Xbox PC App Common Connection and Download Issues",
-    "hub_keyword": "Xbox PC App issues",
-    "parent_hub": "PC Gaming Ecosystem",
-    "spoke_keywords": [
-      "xbox pc app not connecting",
-      "xbox app download problems fix",
-      "troubleshoot xbox pc game pass"
-    ],
-    "evergreen_score": 90,
-    "competition_level": "LOW",
-    "affiliate_potential": "LOW",
-    "timing": "NOW",
-    "verifiability": "HIGH",
-    "trends_queries": [
-      "xbox pc app fix",
-      "xbox app connection error",
-      "game pass pc download issues"
-    ],
-    "reasoning": "Addresses common, recurring technical issues with a major PC gaming platform, verifiable via official support documentation.",
-    "data_grade": "A"
-  },
-  {
-    "cluster_name": "PC Gaming Ecosystem",
-    "content_type": "EXPLAINER",
-    "suggested_title": "Minecraft Java Edition Minimum System Requirements: What You Need to Play",
-    "hub_keyword": "Minecraft system requirements",
-    "parent_hub": "PC Gaming Ecosystem",
-    "spoke_keywords": [
-      "minecraft java edition pc specs",
-      "minimum requirements to play minecraft",
-      "minecraft java edition hardware needs"
-    ],
-    "evergreen_score": 95,
+    "evergreen_score": 92,
     "competition_level": "MEDIUM",
     "affiliate_potential": "HIGH",
     "timing": "NOW",
     "verifiability": "HIGH",
     "trends_queries": [
-      "minecraft pc requirements",
-      "can my pc run minecraft",
-      "minecraft java edition specs"
+      "pixel 10 pro camera review",
+      "pixel low light performance"
     ],
-    "reasoning": "Explains the system requirements for a hugely popular game, which is evergreen and directly verifiable from official sources.",
+    "reasoning": "Users frequently compare camera performance between generations. Focusing on specific aspects like low light is an evergreen angle, verifiable through official specs and published reviews of released phones.",
+    "data_grade": "A"
+  },
+  {
+    "cluster_name": "Google Pixel Ecosystem",
+    "content_type": "GUIDE",
+    "suggested_title": "How to Troubleshoot Android Auto Connection Issues and Common Fixes",
+    "hub_keyword": "Android Auto Troubleshooting",
+    "parent_hub": "Google Pixel Ecosystem",
+    "spoke_keywords": [
+      "android auto connection problems fix",
+      "android auto not connecting to car",
+      "common android auto troubleshooting steps"
+    ],
+    "evergreen_score": 95,
+    "competition_level": "MEDIUM",
+    "affiliate_potential": "LOW",
+    "timing": "NOW",
+    "verifiability": "HIGH",
+    "trends_queries": [
+      "android auto not working",
+      "fix android auto connection"
+    ],
+    "reasoning": "Android Auto connection issues are a persistent, evergreen problem for users. A troubleshooting guide based on official support documents is highly verifiable and always relevant.",
+    "data_grade": "A"
+  },
+  {
+    "cluster_name": "Google Pixel Ecosystem",
+    "content_type": "EXPLAINER",
+    "suggested_title": "What is Gemini Spark and How to Use It with Google AI Pro Features",
+    "hub_keyword": "Google Gemini AI",
+    "parent_hub": "Google Pixel Ecosystem",
+    "spoke_keywords": [
+      "gemini spark google ai pro features",
+      "how to use gemini spark",
+      "gemini spark for google pro users explained"
+    ],
+    "evergreen_score": 87,
+    "competition_level": "MEDIUM",
+    "affiliate_potential": "LOW",
+    "timing": "NOW",
+    "verifiability": "HIGH",
+    "trends_queries": [
+      "gemini spark features",
+      "google ai pro usage"
+    ],
+    "reasoning": "Gemini Spark is a current, officially rolled out feature for Google AI Pro users. Explaining its functionality and use is evergreen as long as the feature is available, verifiable from Google's official AI documentation.",
+    "data_grade": "A"
+  },
+  {
+    "cluster_name": "Gaming Ecosystem Strategy",
+    "content_type": "COMPARISON",
+    "suggested_title": "Physical Games vs Digital Downloads: Long-Term Value and Ownership Comparison",
+    "hub_keyword": "Physical Digital Gaming",
+    "parent_hub": "Gaming Ecosystem Strategy",
+    "spoke_keywords": [
+      "physical games vs digital ownership",
+      "long term value of digital games",
+      "benefits of physical media gaming"
+    ],
+    "evergreen_score": 93,
+    "competition_level": "MEDIUM",
+    "affiliate_potential": "LOW",
+    "timing": "NOW",
+    "verifiability": "MEDIUM",
+    "trends_queries": [
+      "physical vs digital games",
+      "game ownership debate"
+    ],
+    "reasoning": "The debate around physical versus digital media for games is highly evergreen and frequently discussed. This topic does not require hands-on testing and can be verified through industry reports and platform policies.",
+    "data_grade": "A"
+  },
+  {
+    "cluster_name": "Gaming Ecosystem Strategy",
+    "content_type": "GUIDE",
+    "suggested_title": "How to Manage Xbox Game Pass Subscriptions and PC App Downloads Effectively",
+    "hub_keyword": "Xbox Game Pass Management",
+    "parent_hub": "Gaming Ecosystem Strategy",
+    "spoke_keywords": [
+      "manage xbox game pass pc app",
+      "troubleshoot xbox game pass downloads",
+      "xbox game pass subscription management guide"
+    ],
+    "evergreen_score": 90,
+    "competition_level": "MEDIUM",
+    "affiliate_potential": "LOW",
+    "timing": "NOW",
+    "verifiability": "HIGH",
+    "trends_queries": [
+      "xbox game pass pc issues",
+      "manage game pass subscription"
+    ],
+    "reasoning": "Managing subscriptions and troubleshooting PC app downloads are common tasks for Xbox Game Pass users. This guide is evergreen and based on official Xbox support documentation, avoiding in-game specifics.",
     "data_grade": "A"
   }
 ]

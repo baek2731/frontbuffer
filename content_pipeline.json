@@ -1,7 +1,7 @@
 {
   "_version": "1.3",
   "_description": "콘텐츠 파이프라인 — 클러스터 단위 관리",
-  "_last_updated": "2026-07-27T08:31:32.947559+00:00",
+  "_last_updated": "2026-07-27T08:34:32.292629+00:00",
   "hub_clusters": {
     "Steam Machine": {
       "hub_keyword": "Steam Machine",
@@ -261,6 +261,39 @@
       "hub_url": "",
       "spokes": [
         "PC Gaming Ecosystem"
+      ],
+      "spoke_urls": {},
+      "internal_links": []
+    },
+    "Samsung Foldable Phones": {
+      "hub_keyword": "Samsung Foldable Phones",
+      "hub_status": "PENDING",
+      "hub_title": "",
+      "hub_url": "",
+      "spokes": [
+        "Samsung Foldable Phones"
+      ],
+      "spoke_urls": {},
+      "internal_links": []
+    },
+    "Google Pixel Ecosystem": {
+      "hub_keyword": "Google Pixel Ecosystem",
+      "hub_status": "PENDING",
+      "hub_title": "",
+      "hub_url": "",
+      "spokes": [
+        "Google Pixel Ecosystem"
+      ],
+      "spoke_urls": {},
+      "internal_links": []
+    },
+    "Gaming Ecosystem Strategy": {
+      "hub_keyword": "Gaming Ecosystem Strategy",
+      "hub_status": "PENDING",
+      "hub_title": "",
+      "hub_url": "",
+      "spokes": [
+        "Gaming Ecosystem Strategy"
       ],
       "spoke_urls": {},
       "internal_links": []
@@ -795,6 +828,72 @@
         "troubleshoot xbox pc game pass"
       ],
       "competition_level": "LOW",
+      "affiliate_potential": "LOW",
+      "trends_pattern": "UNKNOWN",
+      "trends_keyword": "",
+      "notes": ""
+    },
+    "Samsung Foldable Phones": {
+      "types_done": [],
+      "last_week": "2026-W30",
+      "suggest_next": [
+        "COMPARISON",
+        "GUIDE",
+        "EXPLAINER",
+        "LISTICLE"
+      ],
+      "hub_keyword": "Galaxy Z Flip Cover Screen",
+      "parent_hub": "Samsung Foldable Phones",
+      "spoke_keywords": [
+        "galaxy z fold 8 vs fold 7 hinge durability",
+        "galaxy z fold 8 design changes",
+        "samsung foldable phone hinge comparison"
+      ],
+      "competition_level": "MEDIUM",
+      "affiliate_potential": "HIGH",
+      "trends_pattern": "UNKNOWN",
+      "trends_keyword": "",
+      "notes": ""
+    },
+    "Google Pixel Ecosystem": {
+      "types_done": [],
+      "last_week": "2026-W30",
+      "suggest_next": [
+        "COMPARISON",
+        "GUIDE",
+        "EXPLAINER",
+        "LISTICLE"
+      ],
+      "hub_keyword": "Google Gemini AI",
+      "parent_hub": "Google Pixel Ecosystem",
+      "spoke_keywords": [
+        "pixel 10 pro vs pixel 9 pro camera",
+        "google pixel low light photography comparison",
+        "pixel 10 pro camera features explained"
+      ],
+      "competition_level": "MEDIUM",
+      "affiliate_potential": "HIGH",
+      "trends_pattern": "UNKNOWN",
+      "trends_keyword": "",
+      "notes": ""
+    },
+    "Gaming Ecosystem Strategy": {
+      "types_done": [],
+      "last_week": "2026-W30",
+      "suggest_next": [
+        "COMPARISON",
+        "GUIDE",
+        "EXPLAINER",
+        "LISTICLE"
+      ],
+      "hub_keyword": "Xbox Game Pass Management",
+      "parent_hub": "Gaming Ecosystem Strategy",
+      "spoke_keywords": [
+        "physical games vs digital ownership",
+        "long term value of digital games",
+        "benefits of physical media gaming"
+      ],
+      "competition_level": "MEDIUM",
       "affiliate_potential": "LOW",
       "trends_pattern": "UNKNOWN",
       "trends_keyword": "",
@@ -1584,8 +1683,21 @@
         "trends_keyword": "",
         "trends_opportunities": [],
         "verifiability": "HIGH",
-        "data_grade": "C",
-        "verified_keywords": [],
+        "data_grade": "B",
+        "verified_keywords": [
+          {
+            "keyword": "samsung galaxy z flip 6",
+            "monthly_searches": 500,
+            "competition": "MEDIUM",
+            "competition_index": 66
+          },
+          {
+            "keyword": "galaxy fold",
+            "monthly_searches": 500,
+            "competition": "MEDIUM",
+            "competition_index": 52
+          }
+        ],
         "status": "candidate",
         "selected_at": "2026-07-27T08:18:57.762536+00:00"
       },
@@ -1608,8 +1720,21 @@
         "trends_keyword": "",
         "trends_opportunities": [],
         "verifiability": "HIGH",
-        "data_grade": "C",
-        "verified_keywords": [],
+        "data_grade": "B",
+        "verified_keywords": [
+          {
+            "keyword": "samsung galaxy z flip 6",
+            "monthly_searches": 500,
+            "competition": "MEDIUM",
+            "competition_index": 66
+          },
+          {
+            "keyword": "galaxy fold",
+            "monthly_searches": 500,
+            "competition": "MEDIUM",
+            "competition_index": 52
+          }
+        ],
         "status": "candidate",
         "selected_at": "2026-07-27T08:18:57.762536+00:00"
       },
@@ -1632,8 +1757,21 @@
         "trends_keyword": "",
         "trends_opportunities": [],
         "verifiability": "HIGH",
-        "data_grade": "C",
-        "verified_keywords": [],
+        "data_grade": "B",
+        "verified_keywords": [
+          {
+            "keyword": "samsung galaxy z flip 6",
+            "monthly_searches": 500,
+            "competition": "MEDIUM",
+            "competition_index": 66
+          },
+          {
+            "keyword": "galaxy fold",
+            "monthly_searches": 500,
+            "competition": "MEDIUM",
+            "competition_index": 52
+          }
+        ],
         "status": "candidate",
         "selected_at": "2026-07-27T08:18:57.762536+00:00"
       },
@@ -1657,7 +1795,50 @@
         "trends_opportunities": [],
         "verifiability": "HIGH",
         "data_grade": "C",
-        "verified_keywords": [],
+        "verified_keywords": [
+          {
+            "keyword": "google android auto",
+            "monthly_searches": 50,
+            "competition": "LOW",
+            "competition_index": 6
+          },
+          {
+            "keyword": "android auto google home",
+            "monthly_searches": 50,
+            "competition": "알 수 없음",
+            "competition_index": 0
+          },
+          {
+            "keyword": "android auto google llc",
+            "monthly_searches": 50,
+            "competition": "LOW",
+            "competition_index": 0
+          },
+          {
+            "keyword": "google llc android auto",
+            "monthly_searches": 50,
+            "competition": "알 수 없음",
+            "competition_index": 0
+          },
+          {
+            "keyword": "ok google android auto",
+            "monthly_searches": 0,
+            "competition": "알 수 없음",
+            "competition_index": 0
+          },
+          {
+            "keyword": "google chrome android auto",
+            "monthly_searches": 0,
+            "competition": "알 수 없음",
+            "competition_index": 0
+          },
+          {
+            "keyword": "google home android auto",
+            "monthly_searches": 0,
+            "competition": "알 수 없음",
+            "competition_index": 0
+          }
+        ],
         "status": "candidate",
         "selected_at": "2026-07-27T08:18:57.762536+00:00"
       },
@@ -1681,7 +1862,50 @@
         "trends_opportunities": [],
         "verifiability": "HIGH",
         "data_grade": "C",
-        "verified_keywords": [],
+        "verified_keywords": [
+          {
+            "keyword": "google android auto",
+            "monthly_searches": 50,
+            "competition": "LOW",
+            "competition_index": 6
+          },
+          {
+            "keyword": "android auto google home",
+            "monthly_searches": 50,
+            "competition": "알 수 없음",
+            "competition_index": 0
+          },
+          {
+            "keyword": "android auto google llc",
+            "monthly_searches": 50,
+            "competition": "LOW",
+            "competition_index": 0
+          },
+          {
+            "keyword": "google llc android auto",
+            "monthly_searches": 50,
+            "competition": "알 수 없음",
+            "competition_index": 0
+          },
+          {
+            "keyword": "ok google android auto",
+            "monthly_searches": 0,
+            "competition": "알 수 없음",
+            "competition_index": 0
+          },
+          {
+            "keyword": "google chrome android auto",
+            "monthly_searches": 0,
+            "competition": "알 수 없음",
+            "competition_index": 0
+          },
+          {
+            "keyword": "google home android auto",
+            "monthly_searches": 0,
+            "competition": "알 수 없음",
+            "competition_index": 0
+          }
+        ],
         "status": "candidate",
         "selected_at": "2026-07-27T08:18:57.762536+00:00"
       },
@@ -1705,7 +1929,50 @@
         "trends_opportunities": [],
         "verifiability": "HIGH",
         "data_grade": "C",
-        "verified_keywords": [],
+        "verified_keywords": [
+          {
+            "keyword": "google android auto",
+            "monthly_searches": 50,
+            "competition": "LOW",
+            "competition_index": 6
+          },
+          {
+            "keyword": "android auto google home",
+            "monthly_searches": 50,
+            "competition": "알 수 없음",
+            "competition_index": 0
+          },
+          {
+            "keyword": "android auto google llc",
+            "monthly_searches": 50,
+            "competition": "LOW",
+            "competition_index": 0
+          },
+          {
+            "keyword": "google llc android auto",
+            "monthly_searches": 50,
+            "competition": "알 수 없음",
+            "competition_index": 0
+          },
+          {
+            "keyword": "ok google android auto",
+            "monthly_searches": 0,
+            "competition": "알 수 없음",
+            "competition_index": 0
+          },
+          {
+            "keyword": "google chrome android auto",
+            "monthly_searches": 0,
+            "competition": "알 수 없음",
+            "competition_index": 0
+          },
+          {
+            "keyword": "google home android auto",
+            "monthly_searches": 0,
+            "competition": "알 수 없음",
+            "competition_index": 0
+          }
+        ],
         "status": "candidate",
         "selected_at": "2026-07-27T08:18:57.762536+00:00"
       },
@@ -1776,8 +2043,21 @@
         "trends_keyword": "",
         "trends_opportunities": [],
         "verifiability": "HIGH",
-        "data_grade": "C",
-        "verified_keywords": [],
+        "data_grade": "B",
+        "verified_keywords": [
+          {
+            "keyword": "samsung galaxy z flip 6",
+            "monthly_searches": 500,
+            "competition": "MEDIUM",
+            "competition_index": 66
+          },
+          {
+            "keyword": "galaxy fold",
+            "monthly_searches": 500,
+            "competition": "MEDIUM",
+            "competition_index": 52
+          }
+        ],
         "status": "candidate",
         "selected_at": "2026-07-27T08:23:04.048313+00:00"
       },
@@ -1800,8 +2080,21 @@
         "trends_keyword": "",
         "trends_opportunities": [],
         "verifiability": "HIGH",
-        "data_grade": "C",
-        "verified_keywords": [],
+        "data_grade": "B",
+        "verified_keywords": [
+          {
+            "keyword": "samsung galaxy z flip 6",
+            "monthly_searches": 500,
+            "competition": "MEDIUM",
+            "competition_index": 66
+          },
+          {
+            "keyword": "galaxy fold",
+            "monthly_searches": 500,
+            "competition": "MEDIUM",
+            "competition_index": 52
+          }
+        ],
         "status": "candidate",
         "selected_at": "2026-07-27T08:23:04.048313+00:00"
       },
@@ -1824,8 +2117,21 @@
         "trends_keyword": "",
         "trends_opportunities": [],
         "verifiability": "HIGH",
-        "data_grade": "C",
-        "verified_keywords": [],
+        "data_grade": "B",
+        "verified_keywords": [
+          {
+            "keyword": "samsung galaxy z flip 6",
+            "monthly_searches": 500,
+            "competition": "MEDIUM",
+            "competition_index": 66
+          },
+          {
+            "keyword": "galaxy fold",
+            "monthly_searches": 500,
+            "competition": "MEDIUM",
+            "competition_index": 52
+          }
+        ],
         "status": "candidate",
         "selected_at": "2026-07-27T08:23:04.048313+00:00"
       },
@@ -1968,8 +2274,21 @@
         "trends_keyword": "",
         "trends_opportunities": [],
         "verifiability": "HIGH",
-        "data_grade": "C",
-        "verified_keywords": [],
+        "data_grade": "B",
+        "verified_keywords": [
+          {
+            "keyword": "samsung galaxy z flip 6",
+            "monthly_searches": 500,
+            "competition": "MEDIUM",
+            "competition_index": 66
+          },
+          {
+            "keyword": "galaxy fold",
+            "monthly_searches": 500,
+            "competition": "MEDIUM",
+            "competition_index": 52
+          }
+        ],
         "status": "candidate",
         "selected_at": "2026-07-27T08:28:08.701688+00:00"
       },
@@ -1992,8 +2311,21 @@
         "trends_keyword": "",
         "trends_opportunities": [],
         "verifiability": "HIGH",
-        "data_grade": "C",
-        "verified_keywords": [],
+        "data_grade": "B",
+        "verified_keywords": [
+          {
+            "keyword": "samsung galaxy z flip 6",
+            "monthly_searches": 500,
+            "competition": "MEDIUM",
+            "competition_index": 66
+          },
+          {
+            "keyword": "galaxy fold",
+            "monthly_searches": 500,
+            "competition": "MEDIUM",
+            "competition_index": 52
+          }
+        ],
         "status": "candidate",
         "selected_at": "2026-07-27T08:28:08.701688+00:00"
       },
@@ -2016,8 +2348,21 @@
         "trends_keyword": "",
         "trends_opportunities": [],
         "verifiability": "HIGH",
-        "data_grade": "C",
-        "verified_keywords": [],
+        "data_grade": "B",
+        "verified_keywords": [
+          {
+            "keyword": "samsung galaxy z flip 6",
+            "monthly_searches": 500,
+            "competition": "MEDIUM",
+            "competition_index": 66
+          },
+          {
+            "keyword": "galaxy fold",
+            "monthly_searches": 500,
+            "competition": "MEDIUM",
+            "competition_index": 52
+          }
+        ],
         "status": "candidate",
         "selected_at": "2026-07-27T08:28:08.701688+00:00"
       },
@@ -2041,7 +2386,20 @@
         "trends_opportunities": [],
         "verifiability": "HIGH",
         "data_grade": "C",
-        "verified_keywords": [],
+        "verified_keywords": [
+          {
+            "keyword": "android auto google home",
+            "monthly_searches": 50,
+            "competition": "알 수 없음",
+            "competition_index": 0
+          },
+          {
+            "keyword": "google home android auto",
+            "monthly_searches": 0,
+            "competition": "알 수 없음",
+            "competition_index": 0
+          }
+        ],
         "status": "candidate",
         "selected_at": "2026-07-27T08:28:08.701688+00:00"
       },
@@ -2065,7 +2423,20 @@
         "trends_opportunities": [],
         "verifiability": "HIGH",
         "data_grade": "C",
-        "verified_keywords": [],
+        "verified_keywords": [
+          {
+            "keyword": "android auto google home",
+            "monthly_searches": 50,
+            "competition": "알 수 없음",
+            "competition_index": 0
+          },
+          {
+            "keyword": "google home android auto",
+            "monthly_searches": 0,
+            "competition": "알 수 없음",
+            "competition_index": 0
+          }
+        ],
         "status": "candidate",
         "selected_at": "2026-07-27T08:28:08.701688+00:00"
       },
@@ -2135,8 +2506,27 @@
         "trends_keyword": "",
         "trends_opportunities": [],
         "verifiability": "HIGH",
-        "data_grade": "C",
-        "verified_keywords": [],
+        "data_grade": "B",
+        "verified_keywords": [
+          {
+            "keyword": "galaxy s23 ultra",
+            "monthly_searches": 500,
+            "competition": "MEDIUM",
+            "competition_index": 62
+          },
+          {
+            "keyword": "samsung galaxy z flip 6",
+            "monthly_searches": 500,
+            "competition": "MEDIUM",
+            "competition_index": 66
+          },
+          {
+            "keyword": "galaxy fold",
+            "monthly_searches": 500,
+            "competition": "MEDIUM",
+            "competition_index": 52
+          }
+        ],
         "status": "candidate",
         "selected_at": "2026-07-27T08:29:01.210474+00:00"
       },
@@ -2158,8 +2548,27 @@
         "trends_keyword": "",
         "trends_opportunities": [],
         "verifiability": "HIGH",
-        "data_grade": "C",
-        "verified_keywords": [],
+        "data_grade": "B",
+        "verified_keywords": [
+          {
+            "keyword": "galaxy s23 ultra",
+            "monthly_searches": 500,
+            "competition": "MEDIUM",
+            "competition_index": 62
+          },
+          {
+            "keyword": "samsung galaxy z flip 6",
+            "monthly_searches": 500,
+            "competition": "MEDIUM",
+            "competition_index": 66
+          },
+          {
+            "keyword": "galaxy fold",
+            "monthly_searches": 500,
+            "competition": "MEDIUM",
+            "competition_index": 52
+          }
+        ],
         "status": "candidate",
         "selected_at": "2026-07-27T08:29:01.210474+00:00"
       },
@@ -2182,8 +2591,33 @@
         "trends_keyword": "",
         "trends_opportunities": [],
         "verifiability": "HIGH",
-        "data_grade": "A",
-        "verified_keywords": [],
+        "data_grade": "B",
+        "verified_keywords": [
+          {
+            "keyword": "galaxy x flip 4",
+            "monthly_searches": 500,
+            "competition": "MEDIUM",
+            "competition_index": 65
+          },
+          {
+            "keyword": "galaxy s flip 4",
+            "monthly_searches": 500,
+            "competition": "MEDIUM",
+            "competition_index": 65
+          },
+          {
+            "keyword": "samsung galaxy z flip 6",
+            "monthly_searches": 500,
+            "competition": "MEDIUM",
+            "competition_index": 66
+          },
+          {
+            "keyword": "galaxy fold",
+            "monthly_searches": 500,
+            "competition": "MEDIUM",
+            "competition_index": 52
+          }
+        ],
         "status": "candidate",
         "selected_at": "2026-07-27T08:31:32.947383+00:00"
       },
@@ -2206,8 +2640,33 @@
         "trends_keyword": "",
         "trends_opportunities": [],
         "verifiability": "HIGH",
-        "data_grade": "A",
-        "verified_keywords": [],
+        "data_grade": "B",
+        "verified_keywords": [
+          {
+            "keyword": "galaxy x flip 4",
+            "monthly_searches": 500,
+            "competition": "MEDIUM",
+            "competition_index": 65
+          },
+          {
+            "keyword": "galaxy s flip 4",
+            "monthly_searches": 500,
+            "competition": "MEDIUM",
+            "competition_index": 65
+          },
+          {
+            "keyword": "samsung galaxy z flip 6",
+            "monthly_searches": 500,
+            "competition": "MEDIUM",
+            "competition_index": 66
+          },
+          {
+            "keyword": "galaxy fold",
+            "monthly_searches": 500,
+            "competition": "MEDIUM",
+            "competition_index": 52
+          }
+        ],
         "status": "candidate",
         "selected_at": "2026-07-27T08:31:32.947383+00:00"
       },
@@ -2230,8 +2689,33 @@
         "trends_keyword": "",
         "trends_opportunities": [],
         "verifiability": "HIGH",
-        "data_grade": "A",
-        "verified_keywords": [],
+        "data_grade": "B",
+        "verified_keywords": [
+          {
+            "keyword": "galaxy x flip 4",
+            "monthly_searches": 500,
+            "competition": "MEDIUM",
+            "competition_index": 65
+          },
+          {
+            "keyword": "galaxy s flip 4",
+            "monthly_searches": 500,
+            "competition": "MEDIUM",
+            "competition_index": 65
+          },
+          {
+            "keyword": "samsung galaxy z flip 6",
+            "monthly_searches": 500,
+            "competition": "MEDIUM",
+            "competition_index": 66
+          },
+          {
+            "keyword": "galaxy fold",
+            "monthly_searches": 500,
+            "competition": "MEDIUM",
+            "competition_index": 52
+          }
+        ],
         "status": "candidate",
         "selected_at": "2026-07-27T08:31:32.947383+00:00"
       },
@@ -2254,8 +2738,27 @@
         "trends_keyword": "",
         "trends_opportunities": [],
         "verifiability": "HIGH",
-        "data_grade": "A",
-        "verified_keywords": [],
+        "data_grade": "B",
+        "verified_keywords": [
+          {
+            "keyword": "android android auto",
+            "monthly_searches": 5000,
+            "competition": "LOW",
+            "competition_index": 16
+          },
+          {
+            "keyword": "android auto youtube",
+            "monthly_searches": 500,
+            "competition": "LOW",
+            "competition_index": 4
+          },
+          {
+            "keyword": "android auto",
+            "monthly_searches": 5000,
+            "competition": "LOW",
+            "competition_index": 16
+          }
+        ],
         "status": "candidate",
         "selected_at": "2026-07-27T08:31:32.947383+00:00"
       },
@@ -2278,8 +2781,27 @@
         "trends_keyword": "",
         "trends_opportunities": [],
         "verifiability": "HIGH",
-        "data_grade": "A",
-        "verified_keywords": [],
+        "data_grade": "B",
+        "verified_keywords": [
+          {
+            "keyword": "android android auto",
+            "monthly_searches": 5000,
+            "competition": "LOW",
+            "competition_index": 16
+          },
+          {
+            "keyword": "android auto youtube",
+            "monthly_searches": 500,
+            "competition": "LOW",
+            "competition_index": 4
+          },
+          {
+            "keyword": "android auto",
+            "monthly_searches": 5000,
+            "competition": "LOW",
+            "competition_index": 16
+          }
+        ],
         "status": "candidate",
         "selected_at": "2026-07-27T08:31:32.947383+00:00"
       },
@@ -2302,8 +2824,27 @@
         "trends_keyword": "",
         "trends_opportunities": [],
         "verifiability": "HIGH",
-        "data_grade": "A",
-        "verified_keywords": [],
+        "data_grade": "B",
+        "verified_keywords": [
+          {
+            "keyword": "android android auto",
+            "monthly_searches": 5000,
+            "competition": "LOW",
+            "competition_index": 16
+          },
+          {
+            "keyword": "android auto youtube",
+            "monthly_searches": 500,
+            "competition": "LOW",
+            "competition_index": 4
+          },
+          {
+            "keyword": "android auto",
+            "monthly_searches": 5000,
+            "competition": "LOW",
+            "competition_index": 16
+          }
+        ],
         "status": "candidate",
         "selected_at": "2026-07-27T08:31:32.947383+00:00"
       },
@@ -2326,8 +2867,21 @@
         "trends_keyword": "",
         "trends_opportunities": [],
         "verifiability": "HIGH",
-        "data_grade": "A",
-        "verified_keywords": [],
+        "data_grade": "C",
+        "verified_keywords": [
+          {
+            "keyword": "app android auto download",
+            "monthly_searches": 0,
+            "competition": "알 수 없음",
+            "competition_index": 0
+          },
+          {
+            "keyword": "download app android auto",
+            "monthly_searches": 0,
+            "competition": "알 수 없음",
+            "competition_index": 0
+          }
+        ],
         "status": "candidate",
         "selected_at": "2026-07-27T08:31:32.947383+00:00"
       },
@@ -2350,10 +2904,215 @@
         "trends_keyword": "",
         "trends_opportunities": [],
         "verifiability": "HIGH",
+        "data_grade": "C",
+        "verified_keywords": [
+          {
+            "keyword": "app android auto download",
+            "monthly_searches": 0,
+            "competition": "알 수 없음",
+            "competition_index": 0
+          },
+          {
+            "keyword": "download app android auto",
+            "monthly_searches": 0,
+            "competition": "알 수 없음",
+            "competition_index": 0
+          }
+        ],
+        "status": "candidate",
+        "selected_at": "2026-07-27T08:31:32.947383+00:00"
+      },
+      {
+        "cluster_name": "Samsung Foldable Phones",
+        "content_type": "COMPARISON",
+        "suggested_title": "Galaxy Z Fold 8 vs Fold 7: Hinge Durability and Design Changes Compared",
+        "hub_keyword": "Samsung Foldable Phones",
+        "hub_keyword_raw": "Samsung Foldable Phones",
+        "parent_hub": "Samsung Foldable Phones",
+        "spoke_keywords": [
+          "galaxy z fold 8 vs fold 7 hinge durability",
+          "galaxy z fold 8 design changes",
+          "samsung foldable phone hinge comparison"
+        ],
+        "competition_level": "MEDIUM",
+        "timing": "NOW",
+        "affiliate_potential": "HIGH",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
         "data_grade": "A",
         "verified_keywords": [],
         "status": "candidate",
-        "selected_at": "2026-07-27T08:31:32.947383+00:00"
+        "selected_at": "2026-07-27T08:34:32.292453+00:00"
+      },
+      {
+        "cluster_name": "Samsung Foldable Phones",
+        "content_type": "EXPLAINER",
+        "suggested_title": "What are Silicon-Carbon Batteries in Galaxy Z Fold 8 and How Do They Improve Battery Life",
+        "hub_keyword": "Silicon-Carbon Batteries",
+        "hub_keyword_raw": "Silicon-Carbon Batteries",
+        "parent_hub": "Samsung Foldable Phones",
+        "spoke_keywords": [
+          "silicon-carbon batteries galaxy z fold 8",
+          "how silicon-carbon batteries work in phones",
+          "galaxy z fold 8 battery life improvements"
+        ],
+        "competition_level": "MEDIUM",
+        "timing": "NOW",
+        "affiliate_potential": "LOW",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "status": "candidate",
+        "selected_at": "2026-07-27T08:34:32.292453+00:00"
+      },
+      {
+        "cluster_name": "Samsung Foldable Phones",
+        "content_type": "GUIDE",
+        "suggested_title": "Galaxy Z Flip 8 Cover Screen Apps: Best Use Cases and Customization Options",
+        "hub_keyword": "Galaxy Z Flip Cover Screen",
+        "hub_keyword_raw": "Galaxy Z Flip Cover Screen",
+        "parent_hub": "Samsung Foldable Phones",
+        "spoke_keywords": [
+          "galaxy z flip 8 cover screen apps",
+          "customize galaxy z flip 8 outer display",
+          "best apps for galaxy z flip 8 cover screen"
+        ],
+        "competition_level": "MEDIUM",
+        "timing": "NOW",
+        "affiliate_potential": "LOW",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "status": "candidate",
+        "selected_at": "2026-07-27T08:34:32.292453+00:00"
+      },
+      {
+        "cluster_name": "Google Pixel Ecosystem",
+        "content_type": "COMPARISON",
+        "suggested_title": "Google Pixel 10 Pro vs Pixel 9 Pro: Low Light Camera Comparison and Features",
+        "hub_keyword": "Google Pixel Camera",
+        "hub_keyword_raw": "Google Pixel Camera",
+        "parent_hub": "Google Pixel Ecosystem",
+        "spoke_keywords": [
+          "pixel 10 pro vs pixel 9 pro camera",
+          "google pixel low light photography comparison",
+          "pixel 10 pro camera features explained"
+        ],
+        "competition_level": "MEDIUM",
+        "timing": "NOW",
+        "affiliate_potential": "HIGH",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "status": "candidate",
+        "selected_at": "2026-07-27T08:34:32.292453+00:00"
+      },
+      {
+        "cluster_name": "Google Pixel Ecosystem",
+        "content_type": "GUIDE",
+        "suggested_title": "How to Troubleshoot Android Auto Connection Issues and Common Fixes",
+        "hub_keyword": "Android Auto Troubleshooting",
+        "hub_keyword_raw": "Android Auto Troubleshooting",
+        "parent_hub": "Google Pixel Ecosystem",
+        "spoke_keywords": [
+          "android auto connection problems fix",
+          "android auto not connecting to car",
+          "common android auto troubleshooting steps"
+        ],
+        "competition_level": "MEDIUM",
+        "timing": "NOW",
+        "affiliate_potential": "LOW",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "status": "candidate",
+        "selected_at": "2026-07-27T08:34:32.292453+00:00"
+      },
+      {
+        "cluster_name": "Google Pixel Ecosystem",
+        "content_type": "EXPLAINER",
+        "suggested_title": "What is Gemini Spark and How to Use It with Google AI Pro Features",
+        "hub_keyword": "Google Gemini AI",
+        "hub_keyword_raw": "Google Gemini AI",
+        "parent_hub": "Google Pixel Ecosystem",
+        "spoke_keywords": [
+          "gemini spark google ai pro features",
+          "how to use gemini spark",
+          "gemini spark for google pro users explained"
+        ],
+        "competition_level": "MEDIUM",
+        "timing": "NOW",
+        "affiliate_potential": "LOW",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "status": "candidate",
+        "selected_at": "2026-07-27T08:34:32.292453+00:00"
+      },
+      {
+        "cluster_name": "Gaming Ecosystem Strategy",
+        "content_type": "COMPARISON",
+        "suggested_title": "Physical Games vs Digital Downloads: Long-Term Value and Ownership Comparison",
+        "hub_keyword": "Physical Digital Gaming",
+        "hub_keyword_raw": "Physical Digital Gaming",
+        "parent_hub": "Gaming Ecosystem Strategy",
+        "spoke_keywords": [
+          "physical games vs digital ownership",
+          "long term value of digital games",
+          "benefits of physical media gaming"
+        ],
+        "competition_level": "MEDIUM",
+        "timing": "NOW",
+        "affiliate_potential": "LOW",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "MEDIUM",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "status": "candidate",
+        "selected_at": "2026-07-27T08:34:32.292453+00:00"
+      },
+      {
+        "cluster_name": "Gaming Ecosystem Strategy",
+        "content_type": "GUIDE",
+        "suggested_title": "How to Manage Xbox Game Pass Subscriptions and PC App Downloads Effectively",
+        "hub_keyword": "Xbox Game Pass Management",
+        "hub_keyword_raw": "Xbox Game Pass Management",
+        "parent_hub": "Gaming Ecosystem Strategy",
+        "spoke_keywords": [
+          "manage xbox game pass pc app",
+          "troubleshoot xbox game pass downloads",
+          "xbox game pass subscription management guide"
+        ],
+        "competition_level": "MEDIUM",
+        "timing": "NOW",
+        "affiliate_potential": "LOW",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "status": "candidate",
+        "selected_at": "2026-07-27T08:34:32.292453+00:00"
       }
     ]
   },

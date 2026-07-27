@@ -10,13 +10,26 @@
       "trends_stats": {},
       "trends_keyword": "",
       "rising_queries": [],
-      "verified_keywords": [],
-      "grade": "C",
+      "verified_keywords": [
+        {
+          "keyword": "samsung galaxy z flip 6",
+          "monthly_searches": 500,
+          "competition": "MEDIUM",
+          "competition_index": 66
+        },
+        {
+          "keyword": "galaxy fold",
+          "monthly_searches": 500,
+          "competition": "MEDIUM",
+          "competition_index": 52
+        }
+      ],
+      "grade": "B",
       "warnings": [],
       "grade_reasons": [
         "Trends ❌ 시계열 데이터 없음 또는 UNKNOWN",
-        "KP ❌ 클러스터 관련 키워드 없음",
-        "→ Grade C: 검증 데이터 없음 — 발행 보류 권장"
+        "KP ✅ 매칭 2개 | 롱테일(3단어+) 1개 | LOW경쟁 0개 | 최대: 'samsung galaxy z flip 6' 월 500",
+        "→ Grade B: 부분 검증 — 발행 가능하나 키워드 최적화 미완"
       ]
     },
     {
@@ -27,12 +40,57 @@
       "trends_stats": {},
       "trends_keyword": "",
       "rising_queries": [],
-      "verified_keywords": [],
+      "verified_keywords": [
+        {
+          "keyword": "google android auto",
+          "monthly_searches": 50,
+          "competition": "LOW",
+          "competition_index": 6
+        },
+        {
+          "keyword": "android auto google home",
+          "monthly_searches": 50,
+          "competition": "알 수 없음",
+          "competition_index": 0
+        },
+        {
+          "keyword": "android auto google llc",
+          "monthly_searches": 50,
+          "competition": "LOW",
+          "competition_index": 0
+        },
+        {
+          "keyword": "google llc android auto",
+          "monthly_searches": 50,
+          "competition": "알 수 없음",
+          "competition_index": 0
+        },
+        {
+          "keyword": "ok google android auto",
+          "monthly_searches": 0,
+          "competition": "알 수 없음",
+          "competition_index": 0
+        },
+        {
+          "keyword": "google chrome android auto",
+          "monthly_searches": 0,
+          "competition": "알 수 없음",
+          "competition_index": 0
+        },
+        {
+          "keyword": "google home android auto",
+          "monthly_searches": 0,
+          "competition": "알 수 없음",
+          "competition_index": 0
+        }
+      ],
       "grade": "C",
-      "warnings": [],
+      "warnings": [
+        "KP 품질 기준 키워드 없음 (LOW/MEDIUM + 월100이상 조건 미충족)"
+      ],
       "grade_reasons": [
         "Trends ❌ 시계열 데이터 없음 또는 UNKNOWN",
-        "KP ❌ 클러스터 관련 키워드 없음",
+        "KP ⚠️ 매칭됐으나 품질 미달 (최대 50/월 또는 HIGH경쟁)",
         "→ Grade C: 검증 데이터 없음 — 발행 보류 권장"
       ]
     },
@@ -95,13 +153,26 @@
       "trends_stats": {},
       "trends_keyword": "",
       "rising_queries": [],
-      "verified_keywords": [],
-      "grade": "C",
+      "verified_keywords": [
+        {
+          "keyword": "samsung galaxy z flip 6",
+          "monthly_searches": 500,
+          "competition": "MEDIUM",
+          "competition_index": 66
+        },
+        {
+          "keyword": "galaxy fold",
+          "monthly_searches": 500,
+          "competition": "MEDIUM",
+          "competition_index": 52
+        }
+      ],
+      "grade": "B",
       "warnings": [],
       "grade_reasons": [
         "Trends ❌ 시계열 데이터 없음 또는 UNKNOWN",
-        "KP ❌ 클러스터 관련 키워드 없음",
-        "→ Grade C: 검증 데이터 없음 — 발행 보류 권장"
+        "KP ✅ 매칭 2개 | 롱테일(3단어+) 1개 | LOW경쟁 0개 | 최대: 'samsung galaxy z flip 6' 월 500",
+        "→ Grade B: 부분 검증 — 발행 가능하나 키워드 최적화 미완"
       ]
     },
     {
@@ -112,12 +183,27 @@
       "trends_stats": {},
       "trends_keyword": "",
       "rising_queries": [],
-      "verified_keywords": [],
+      "verified_keywords": [
+        {
+          "keyword": "android auto google home",
+          "monthly_searches": 50,
+          "competition": "알 수 없음",
+          "competition_index": 0
+        },
+        {
+          "keyword": "google home android auto",
+          "monthly_searches": 0,
+          "competition": "알 수 없음",
+          "competition_index": 0
+        }
+      ],
       "grade": "C",
-      "warnings": [],
+      "warnings": [
+        "KP 품질 기준 키워드 없음 (LOW/MEDIUM + 월100이상 조건 미충족)"
+      ],
       "grade_reasons": [
         "Trends ❌ 시계열 데이터 없음 또는 UNKNOWN",
-        "KP ❌ 클러스터 관련 키워드 없음",
+        "KP ⚠️ 매칭됐으나 품질 미달 (최대 50/월 또는 HIGH경쟁)",
         "→ Grade C: 검증 데이터 없음 — 발행 보류 권장"
       ]
     },
@@ -146,18 +232,163 @@
       "trends_stats": {},
       "trends_keyword": "",
       "rising_queries": [],
-      "verified_keywords": [],
-      "grade": "C",
+      "verified_keywords": [
+        {
+          "keyword": "galaxy s23 ultra",
+          "monthly_searches": 500,
+          "competition": "MEDIUM",
+          "competition_index": 62
+        },
+        {
+          "keyword": "samsung galaxy z flip 6",
+          "monthly_searches": 500,
+          "competition": "MEDIUM",
+          "competition_index": 66
+        },
+        {
+          "keyword": "galaxy fold",
+          "monthly_searches": 500,
+          "competition": "MEDIUM",
+          "competition_index": 52
+        }
+      ],
+      "grade": "B",
       "warnings": [],
       "grade_reasons": [
         "Trends ❌ 시계열 데이터 없음 또는 UNKNOWN",
-        "KP ❌ 클러스터 관련 키워드 없음",
+        "KP ✅ 매칭 3개 | 롱테일(3단어+) 2개 | LOW경쟁 0개 | 최대: 'galaxy s23 ultra' 월 500",
+        "→ Grade B: 부분 검증 — 발행 가능하나 키워드 최적화 미완"
+      ]
+    },
+    {
+      "cluster_name": "Samsung Galaxy Fold Flip Series",
+      "slug": "samsung-galaxy-fold-flip-series",
+      "folder": null,
+      "trends_pattern": "UNKNOWN",
+      "trends_stats": {},
+      "trends_keyword": "",
+      "rising_queries": [],
+      "verified_keywords": [
+        {
+          "keyword": "galaxy x flip 4",
+          "monthly_searches": 500,
+          "competition": "MEDIUM",
+          "competition_index": 65
+        },
+        {
+          "keyword": "galaxy s flip 4",
+          "monthly_searches": 500,
+          "competition": "MEDIUM",
+          "competition_index": 65
+        },
+        {
+          "keyword": "samsung galaxy z flip 6",
+          "monthly_searches": 500,
+          "competition": "MEDIUM",
+          "competition_index": 66
+        },
+        {
+          "keyword": "galaxy fold",
+          "monthly_searches": 500,
+          "competition": "MEDIUM",
+          "competition_index": 52
+        }
+      ],
+      "grade": "B",
+      "warnings": [],
+      "grade_reasons": [
+        "Trends ❌ 시계열 데이터 없음 또는 UNKNOWN",
+        "KP ✅ 매칭 4개 | 롱테일(3단어+) 3개 | LOW경쟁 0개 | 최대: 'galaxy x flip 4' 월 500",
+        "→ Grade B: 부분 검증 — 발행 가능하나 키워드 최적화 미완"
+      ]
+    },
+    {
+      "cluster_name": "Google Android Ecosystem",
+      "slug": "google-android-ecosystem",
+      "folder": null,
+      "trends_pattern": "UNKNOWN",
+      "trends_stats": {},
+      "trends_keyword": "",
+      "rising_queries": [],
+      "verified_keywords": [
+        {
+          "keyword": "android android auto",
+          "monthly_searches": 5000,
+          "competition": "LOW",
+          "competition_index": 16
+        },
+        {
+          "keyword": "android auto youtube",
+          "monthly_searches": 500,
+          "competition": "LOW",
+          "competition_index": 4
+        },
+        {
+          "keyword": "android auto",
+          "monthly_searches": 5000,
+          "competition": "LOW",
+          "competition_index": 16
+        }
+      ],
+      "grade": "B",
+      "warnings": [],
+      "grade_reasons": [
+        "Trends ❌ 시계열 데이터 없음 또는 UNKNOWN",
+        "KP ✅ 매칭 3개 | 롱테일(3단어+) 2개 | LOW경쟁 3개 | 최대: 'android android auto' 월 5,000",
+        "→ Grade B: 부분 검증 — 발행 가능하나 키워드 최적화 미완"
+      ]
+    },
+    {
+      "cluster_name": "PC Gaming Ecosystem",
+      "slug": "pc-gaming-ecosystem",
+      "folder": null,
+      "trends_pattern": "UNKNOWN",
+      "trends_stats": {},
+      "trends_keyword": "",
+      "rising_queries": [],
+      "verified_keywords": [
+        {
+          "keyword": "app android auto download",
+          "monthly_searches": 0,
+          "competition": "알 수 없음",
+          "competition_index": 0
+        },
+        {
+          "keyword": "download app android auto",
+          "monthly_searches": 0,
+          "competition": "알 수 없음",
+          "competition_index": 0
+        }
+      ],
+      "grade": "C",
+      "warnings": [
+        "KP 품질 기준 키워드 없음 (LOW/MEDIUM + 월100이상 조건 미충족)"
+      ],
+      "grade_reasons": [
+        "Trends ❌ 시계열 데이터 없음 또는 UNKNOWN",
+        "KP ⚠️ 매칭됐으나 품질 미달 (최대 0/월 또는 HIGH경쟁)",
         "→ Grade C: 검증 데이터 없음 — 발행 보류 권장"
       ]
     }
   ],
-  "kp_parsed": 0,
+  "kp_parsed": 3877,
   "kp_error": null,
-  "unassigned_keywords": [],
+  "unassigned_keywords": [
+    "baldur's gate",
+    "data center",
+    "galaxy s27",
+    "s23 ultra",
+    "galaxy s23",
+    "s23",
+    "s22",
+    "samsung a54",
+    "z flip 4",
+    "s23 plus",
+    "s22 plus",
+    "samsung a52",
+    "galaxy a53",
+    "galaxy s21",
+    "a54 samsung"
+  ],
   "updated": true
 }
