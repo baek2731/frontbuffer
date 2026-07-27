@@ -5,10 +5,16 @@
     {
       "cluster_name": "Samsung Galaxy Foldables",
       "slug": "samsung-galaxy-foldables",
-      "folder": null,
-      "trends_pattern": "UNKNOWN",
-      "trends_stats": {},
-      "trends_keyword": "",
+      "folder": "04-samsung-galaxy",
+      "trends_pattern": "STABLE",
+      "trends_stats": {
+        "avg_all": 45.8,
+        "avg_recent8": 52,
+        "current": 34.5,
+        "peak": 100,
+        "recent_ratio": 1.13
+      },
+      "trends_keyword": "samsung galaxy",
       "rising_queries": [],
       "verified_keywords": [
         {
@@ -24,21 +30,27 @@
           "competition_index": 52
         }
       ],
-      "grade": "B",
+      "grade": "A",
       "warnings": [],
       "grade_reasons": [
-        "Trends ❌ 시계열 데이터 없음 또는 UNKNOWN",
+        "Trends ✅ STABLE (최근8주 52 / 전체평균 46 / 비율 1.13)",
         "KP ✅ 매칭 2개 | 롱테일(3단어+) 1개 | LOW경쟁 0개 | 최대: 'samsung galaxy z flip 6' 월 500",
-        "→ Grade B: 부분 검증 — 발행 가능하나 키워드 최적화 미완"
+        "→ Grade A: Trends 타이밍 + KP 롱테일 모두 검증됨"
       ]
     },
     {
       "cluster_name": "Google Android Features",
       "slug": "google-android-features",
-      "folder": null,
-      "trends_pattern": "UNKNOWN",
-      "trends_stats": {},
-      "trends_keyword": "",
+      "folder": "05-android-auto",
+      "trends_pattern": "RISING",
+      "trends_stats": {
+        "avg_all": 54.6,
+        "avg_recent8": 66.5,
+        "current": 42,
+        "peak": 100,
+        "recent_ratio": 1.22
+      },
+      "trends_keyword": "android auto",
       "rising_queries": [],
       "verified_keywords": [
         {
@@ -84,14 +96,15 @@
           "competition_index": 0
         }
       ],
-      "grade": "C",
+      "grade": "B",
       "warnings": [
+        "time_series 키워드 'android auto'가 hub 'Google Wallet'와 무관해 보임 — CSV를 잘못된 폴더에 넣었는지 확인",
         "KP 품질 기준 키워드 없음 (LOW/MEDIUM + 월100이상 조건 미충족)"
       ],
       "grade_reasons": [
-        "Trends ❌ 시계열 데이터 없음 또는 UNKNOWN",
+        "Trends ✅ RISING (최근8주 66 / 전체평균 55 / 비율 1.22)",
         "KP ⚠️ 매칭됐으나 품질 미달 (최대 50/월 또는 HIGH경쟁)",
-        "→ Grade C: 검증 데이터 없음 — 발행 보류 권장"
+        "→ Grade B: 부분 검증 — 발행 가능하나 키워드 최적화 미완"
       ]
     },
     {
@@ -148,10 +161,16 @@
     {
       "cluster_name": "Samsung Galaxy Z Fold 8",
       "slug": "samsung-galaxy-z-fold-8",
-      "folder": null,
-      "trends_pattern": "UNKNOWN",
-      "trends_stats": {},
-      "trends_keyword": "",
+      "folder": "01-galaxy-fold",
+      "trends_pattern": "RISING",
+      "trends_stats": {
+        "avg_all": 38.9,
+        "avg_recent8": 57,
+        "current": 98,
+        "peak": 100,
+        "recent_ratio": 1.47
+      },
+      "trends_keyword": "galaxy fold",
       "rising_queries": [],
       "verified_keywords": [
         {
@@ -167,12 +186,12 @@
           "competition_index": 52
         }
       ],
-      "grade": "B",
+      "grade": "A",
       "warnings": [],
       "grade_reasons": [
-        "Trends ❌ 시계열 데이터 없음 또는 UNKNOWN",
+        "Trends ✅ RISING (최근8주 57 / 전체평균 39 / 비율 1.47)",
         "KP ✅ 매칭 2개 | 롱테일(3단어+) 1개 | LOW경쟁 0개 | 최대: 'samsung galaxy z flip 6' 월 500",
-        "→ Grade B: 부분 검증 — 발행 가능하나 키워드 최적화 미완"
+        "→ Grade A: Trends 타이밍 + KP 롱테일 모두 검증됨"
       ]
     },
     {
@@ -227,10 +246,16 @@
     {
       "cluster_name": "Samsung Galaxy Foldable Phones & Wearables",
       "slug": "samsung-galaxy-foldable-phones-wearables",
-      "folder": null,
-      "trends_pattern": "UNKNOWN",
-      "trends_stats": {},
-      "trends_keyword": "",
+      "folder": "04-samsung-galaxy",
+      "trends_pattern": "STABLE",
+      "trends_stats": {
+        "avg_all": 45.8,
+        "avg_recent8": 52,
+        "current": 34.5,
+        "peak": 100,
+        "recent_ratio": 1.13
+      },
+      "trends_keyword": "samsung galaxy",
       "rising_queries": [],
       "verified_keywords": [
         {
@@ -252,21 +277,27 @@
           "competition_index": 52
         }
       ],
-      "grade": "B",
+      "grade": "A",
       "warnings": [],
       "grade_reasons": [
-        "Trends ❌ 시계열 데이터 없음 또는 UNKNOWN",
+        "Trends ✅ STABLE (최근8주 52 / 전체평균 46 / 비율 1.13)",
         "KP ✅ 매칭 3개 | 롱테일(3단어+) 2개 | LOW경쟁 0개 | 최대: 'galaxy s23 ultra' 월 500",
-        "→ Grade B: 부분 검증 — 발행 가능하나 키워드 최적화 미완"
+        "→ Grade A: Trends 타이밍 + KP 롱테일 모두 검증됨"
       ]
     },
     {
       "cluster_name": "Samsung Galaxy Fold Flip Series",
       "slug": "samsung-galaxy-fold-flip-series",
-      "folder": null,
-      "trends_pattern": "UNKNOWN",
-      "trends_stats": {},
-      "trends_keyword": "",
+      "folder": "01-galaxy-fold",
+      "trends_pattern": "RISING",
+      "trends_stats": {
+        "avg_all": 38.9,
+        "avg_recent8": 57,
+        "current": 98,
+        "peak": 100,
+        "recent_ratio": 1.47
+      },
+      "trends_keyword": "galaxy fold",
       "rising_queries": [],
       "verified_keywords": [
         {
@@ -294,21 +325,27 @@
           "competition_index": 52
         }
       ],
-      "grade": "B",
+      "grade": "A",
       "warnings": [],
       "grade_reasons": [
-        "Trends ❌ 시계열 데이터 없음 또는 UNKNOWN",
+        "Trends ✅ RISING (최근8주 57 / 전체평균 39 / 비율 1.47)",
         "KP ✅ 매칭 4개 | 롱테일(3단어+) 3개 | LOW경쟁 0개 | 최대: 'galaxy x flip 4' 월 500",
-        "→ Grade B: 부분 검증 — 발행 가능하나 키워드 최적화 미완"
+        "→ Grade A: Trends 타이밍 + KP 롱테일 모두 검증됨"
       ]
     },
     {
       "cluster_name": "Google Android Ecosystem",
       "slug": "google-android-ecosystem",
-      "folder": null,
-      "trends_pattern": "UNKNOWN",
-      "trends_stats": {},
-      "trends_keyword": "",
+      "folder": "05-android-auto",
+      "trends_pattern": "RISING",
+      "trends_stats": {
+        "avg_all": 54.6,
+        "avg_recent8": 66.5,
+        "current": 42,
+        "peak": 100,
+        "recent_ratio": 1.22
+      },
+      "trends_keyword": "android auto",
       "rising_queries": [],
       "verified_keywords": [
         {
@@ -330,12 +367,12 @@
           "competition_index": 16
         }
       ],
-      "grade": "B",
+      "grade": "A",
       "warnings": [],
       "grade_reasons": [
-        "Trends ❌ 시계열 데이터 없음 또는 UNKNOWN",
+        "Trends ✅ RISING (최근8주 66 / 전체평균 55 / 비율 1.22)",
         "KP ✅ 매칭 3개 | 롱테일(3단어+) 2개 | LOW경쟁 3개 | 최대: 'android android auto' 월 5,000",
-        "→ Grade B: 부분 검증 — 발행 가능하나 키워드 최적화 미완"
+        "→ Grade A: Trends 타이밍 + KP 롱테일 모두 검증됨"
       ]
     },
     {
@@ -373,10 +410,16 @@
     {
       "cluster_name": "Samsung Foldable Phones",
       "slug": "samsung-foldable-phones",
-      "folder": null,
-      "trends_pattern": "UNKNOWN",
-      "trends_stats": {},
-      "trends_keyword": "",
+      "folder": "04-samsung-galaxy",
+      "trends_pattern": "STABLE",
+      "trends_stats": {
+        "avg_all": 45.8,
+        "avg_recent8": 52,
+        "current": 34.5,
+        "peak": 100,
+        "recent_ratio": 1.13
+      },
+      "trends_keyword": "samsung galaxy",
       "rising_queries": [],
       "verified_keywords": [
         {
@@ -392,12 +435,12 @@
           "competition_index": 52
         }
       ],
-      "grade": "B",
+      "grade": "A",
       "warnings": [],
       "grade_reasons": [
-        "Trends ❌ 시계열 데이터 없음 또는 UNKNOWN",
+        "Trends ✅ STABLE (최근8주 52 / 전체평균 46 / 비율 1.13)",
         "KP ✅ 매칭 2개 | 롱테일(3단어+) 1개 | LOW경쟁 0개 | 최대: 'samsung galaxy z flip 6' 월 500",
-        "→ Grade B: 부분 검증 — 발행 가능하나 키워드 최적화 미완"
+        "→ Grade A: Trends 타이밍 + KP 롱테일 모두 검증됨"
       ]
     },
     {
@@ -447,6 +490,65 @@
     {
       "cluster_name": "Gaming Ecosystem Strategy",
       "slug": "gaming-ecosystem-strategy",
+      "folder": null,
+      "trends_pattern": "UNKNOWN",
+      "trends_stats": {},
+      "trends_keyword": "",
+      "rising_queries": [],
+      "verified_keywords": [],
+      "grade": "C",
+      "warnings": [],
+      "grade_reasons": [
+        "Trends ❌ 시계열 데이터 없음 또는 UNKNOWN",
+        "KP ❌ 클러스터 관련 키워드 없음",
+        "→ Grade C: 검증 데이터 없음 — 발행 보류 권장"
+      ]
+    },
+    {
+      "cluster_name": "Samsung Galaxy & Google Pixel Phones",
+      "slug": "samsung-galaxy-google-pixel-phones",
+      "folder": "04-samsung-galaxy",
+      "trends_pattern": "STABLE",
+      "trends_stats": {
+        "avg_all": 45.8,
+        "avg_recent8": 52,
+        "current": 34.5,
+        "peak": 100,
+        "recent_ratio": 1.13
+      },
+      "trends_keyword": "samsung galaxy",
+      "rising_queries": [],
+      "verified_keywords": [
+        {
+          "keyword": "samsung google",
+          "monthly_searches": 500,
+          "competition": "LOW",
+          "competition_index": 2
+        },
+        {
+          "keyword": "samsung galaxy z flip 6",
+          "monthly_searches": 500,
+          "competition": "MEDIUM",
+          "competition_index": 66
+        },
+        {
+          "keyword": "galaxy fold",
+          "monthly_searches": 500,
+          "competition": "MEDIUM",
+          "competition_index": 52
+        }
+      ],
+      "grade": "A",
+      "warnings": [],
+      "grade_reasons": [
+        "Trends ✅ STABLE (최근8주 52 / 전체평균 46 / 비율 1.13)",
+        "KP ✅ 매칭 3개 | 롱테일(3단어+) 1개 | LOW경쟁 1개 | 최대: 'samsung google' 월 500",
+        "→ Grade A: Trends 타이밍 + KP 롱테일 모두 검증됨"
+      ]
+    },
+    {
+      "cluster_name": "AI Models and Services",
+      "slug": "ai-models-and-services",
       "folder": null,
       "trends_pattern": "UNKNOWN",
       "trends_stats": {},

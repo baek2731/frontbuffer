@@ -1,87 +1,105 @@
 {
   "ok": true,
   "week_tag": "2026-W30",
-  "total": 5,
+  "total": 7,
   "grade_a": [
     {
-      "cluster_name": "Samsung Galaxy & Google Pixel Phones",
+      "cluster_name": "Samsung Galaxy Fold/Flip Series",
       "content_type": "COMPARISON",
-      "suggested_title": "Galaxy Z Fold 8 vs Galaxy Z Fold 7: Key Design and Durability Improvements",
-      "hub_keyword": "galaxy fold comparison",
-      "parent_hub": "Samsung Pixel Devices",
+      "suggested_title": "Galaxy Z Fold 8 vs Fold 7 Hinge Durability Comparison",
+      "hub_keyword": "Galaxy Z Fold 8",
+      "parent_hub": "Galaxy Fold Flip",
       "spoke_keywords": [
-        "galaxy z fold 8 vs fold 7 design",
-        "galaxy z fold 8 hinge improvements",
-        "galaxy z fold 7 durability issues"
+        "galaxy z fold 8 vs fold 7 hinge",
+        "foldable phone durability comparison"
       ],
-      "evergreen_score": 90,
+      "evergreen_score": 85,
       "competition_level": "MEDIUM",
-      "affiliate_potential": "HIGH",
+      "affiliate_potential": "MEDIUM",
       "timing": "NOW",
       "verifiability": "HIGH",
       "trends_queries": [
-        "galaxy z fold 8 vs fold 7",
-        "galaxy z fold durability"
+        "galaxy z fold durability",
+        "fold 8 hinge improvements"
       ],
-      "reasoning": "Compares two released phone models focusing on design and durability, which are evergreen concerns verifiable through official specs and product announcements.",
+      "reasoning": "Durability is a key concern for foldable phones, making inter-generational comparisons evergreen and verifiable through official spec changes.",
       "data_grade": "A"
     },
     {
-      "cluster_name": "Samsung Galaxy & Google Pixel Phones",
-      "content_type": "GUIDE",
-      "suggested_title": "How to Use Android Auto for WhatsApp and Messaging Safely",
-      "hub_keyword": "android auto features",
-      "parent_hub": "Samsung Pixel Devices",
+      "cluster_name": "Samsung Galaxy Fold/Flip Series",
+      "content_type": "EXPLAINER",
+      "suggested_title": "Samsung Galaxy Z Fold 8 Silicon-Carbon Battery Technology Explained",
+      "hub_keyword": "silicon-carbon battery",
+      "parent_hub": "Galaxy Fold Flip",
       "spoke_keywords": [
-        "android auto whatsapp messages",
-        "android auto safe texting",
-        "android auto messaging features"
+        "samsung galaxy z fold 8 silicon-carbon battery benefits",
+        "how silicon-carbon batteries work"
       ],
-      "evergreen_score": 95,
+      "evergreen_score": 90,
       "competition_level": "LOW",
       "affiliate_potential": "LOW",
       "timing": "NOW",
       "verifiability": "HIGH",
       "trends_queries": [
-        "android auto whatsapp",
-        "android auto messaging"
+        "silicon carbon battery tech",
+        "galaxy z fold 8 battery life"
       ],
-      "reasoning": "Provides a guide on a specific, evergreen feature of Android Auto, focusing on safe usage, verifiable via official documentation.",
+      "reasoning": "Explaining new battery technology is highly evergreen, as the underlying science remains relevant regardless of specific product updates, verifiable via official announcements.",
       "data_grade": "A"
     },
     {
-      "cluster_name": "Samsung Galaxy & Google Pixel Phones",
+      "cluster_name": "Google Pixel & Android Auto",
       "content_type": "COMPARISON",
-      "suggested_title": "Google Pixel 10 Pro vs Pixel 9 Pro: Camera Features and Low Light Performance",
-      "hub_keyword": "pixel phone camera",
-      "parent_hub": "Samsung Pixel Devices",
+      "suggested_title": "Google Pixel 11 vs Pixel 10 Pro Low Light Camera Comparison",
+      "hub_keyword": "Pixel 11 camera",
+      "parent_hub": "Google Pixel Android",
       "spoke_keywords": [
-        "pixel 10 pro camera comparison",
-        "pixel 9 pro low light photography",
-        "google pixel camera features explained"
+        "pixel 11 vs pixel 10 camera specs",
+        "best google pixel low light photos"
       ],
-      "evergreen_score": 90,
+      "evergreen_score": 88,
+      "competition_level": "MEDIUM",
+      "affiliate_potential": "MEDIUM",
+      "timing": "NOW",
+      "verifiability": "HIGH",
+      "trends_queries": [
+        "pixel 11 camera review",
+        "pixel 10 pro camera features"
+      ],
+      "reasoning": "Camera comparisons are a perpetual search query for Pixel phones, and official specs allow for verifiable comparisons between released models.",
+      "data_grade": "A"
+    },
+    {
+      "cluster_name": "Google Pixel & Android Auto",
+      "content_type": "GUIDE",
+      "suggested_title": "Android Auto Wireless Adapter Setup and Troubleshooting Guide",
+      "hub_keyword": "Android Auto wireless",
+      "parent_hub": "Google Pixel Android",
+      "spoke_keywords": [
+        "best android auto wireless adapter",
+        "fix android auto connection issues"
+      ],
+      "evergreen_score": 92,
       "competition_level": "MEDIUM",
       "affiliate_potential": "HIGH",
       "timing": "NOW",
       "verifiability": "HIGH",
       "trends_queries": [
-        "pixel 10 pro vs pixel 9 pro camera",
-        "pixel low light camera"
+        "android auto wireless setup",
+        "android auto problems"
       ],
-      "reasoning": "Compares camera features of two released Pixel phone models, focusing on a specific, evergreen aspect (low light performance) verifiable through official documentation.",
+      "reasoning": "Guides for common tech accessories like Android Auto wireless adapters are evergreen and highly searchable, with facts verifiable from official documentation.",
       "data_grade": "A"
     },
     {
-      "cluster_name": "AI Models and Services",
+      "cluster_name": "Google Gemini AI Features",
       "content_type": "EXPLAINER",
-      "suggested_title": "What is Gemini Nano 4 and How Does it Work on Android Devices",
-      "hub_keyword": "gemini nano features",
-      "parent_hub": "AI Models Services",
+      "suggested_title": "What is Google Gemini Nano 4 and How It Works on Mobile Devices",
+      "hub_keyword": "Gemini Nano 4",
+      "parent_hub": "Google Gemini AI",
       "spoke_keywords": [
-        "gemini nano 4 android features",
-        "how gemini nano 4 operates",
-        "gemini nano on device ai explained"
+        "google gemini nano 4 capabilities",
+        "gemini nano 4 mobile integration"
       ],
       "evergreen_score": 90,
       "competition_level": "MEDIUM",
@@ -90,38 +108,60 @@
       "verifiability": "HIGH",
       "trends_queries": [
         "gemini nano 4 explained",
-        "gemini nano android"
+        "ai on mobile devices"
       ],
-      "reasoning": "Explains a key feature of a currently available AI model, Gemini Nano 4, focusing on its function and operation on devices, verifiable through official Google AI documentation.",
+      "reasoning": "Explaining the technical details and applications of a newly launched AI model like Gemini Nano 4 provides evergreen value, verifiable through official Google AI announcements.",
       "data_grade": "A"
     },
     {
-      "cluster_name": "AI Models and Services",
-      "content_type": "COMPARISON",
-      "suggested_title": "Claude Opus 5 vs ChatGPT: Key Differences in Features and Use Cases",
-      "hub_keyword": "ai model comparison",
-      "parent_hub": "AI Models Services",
+      "cluster_name": "Google Gemini AI Features",
+      "content_type": "GUIDE",
+      "suggested_title": "How to Use Google Gemini for Home Context Memory Feature",
+      "hub_keyword": "Gemini for Home",
+      "parent_hub": "Google Gemini AI",
       "spoke_keywords": [
-        "claude opus 5 chatgpt comparison",
-        "best ai model for specific tasks",
-        "claude opus 5 features explained"
+        "gemini for home context setup",
+        "google home ai memory"
       ],
-      "evergreen_score": 95,
+      "evergreen_score": 85,
+      "competition_level": "LOW",
+      "affiliate_potential": "LOW",
+      "timing": "NOW",
+      "verifiability": "HIGH",
+      "trends_queries": [
+        "gemini home features",
+        "google assistant memory"
+      ],
+      "reasoning": "A how-to guide for a specific, announced feature like Gemini for Home context memory is evergreen and can be created using official Google support documentation.",
+      "data_grade": "A"
+    }
+  ],
+  "grade_b": [
+    {
+      "cluster_name": "Samsung Galaxy Fold/Flip Series",
+      "content_type": "GUIDE",
+      "suggested_title": "How to Customize Galaxy Z Flip 8 Cover Screen Apps and Widgets",
+      "hub_keyword": "Galaxy Z Flip 8 cover screen",
+      "parent_hub": "Galaxy Fold Flip",
+      "spoke_keywords": [
+        "galaxy z flip 8 cover screen app setup",
+        "best galaxy z flip 8 widgets"
+      ],
+      "evergreen_score": 80,
       "competition_level": "MEDIUM",
       "affiliate_potential": "LOW",
       "timing": "NOW",
       "verifiability": "HIGH",
       "trends_queries": [
-        "claude opus 5 vs chatgpt",
-        "ai model features comparison"
+        "galaxy z flip cover screen features",
+        "flip 8 customization tips"
       ],
-      "reasoning": "Compares two major, currently available AI models based on their features and applications, providing evergreen information verifiable through official sources.",
-      "data_grade": "A"
+      "reasoning": "User customization guides for core phone features are evergreen and can be written using official documentation for the recently released device.",
+      "data_grade": "B"
     }
   ],
-  "grade_b": [],
   "grade_c": [],
-  "auto_selected": 5,
-  "elapsed": 37.4,
-  "timestamp": "2026-07-27T08:38:06.035851+00:00"
+  "auto_selected": 7,
+  "elapsed": 30.5,
+  "timestamp": "2026-07-27T08:47:44.881205+00:00"
 }

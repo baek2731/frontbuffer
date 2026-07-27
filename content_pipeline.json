@@ -1,7 +1,7 @@
 {
   "_version": "1.3",
   "_description": "콘텐츠 파이프라인 — 클러스터 단위 관리",
-  "_last_updated": "2026-07-27T08:38:06.030757+00:00",
+  "_last_updated": "2026-07-27T08:47:44.875507+00:00",
   "hub_clusters": {
     "Steam Machine": {
       "hub_keyword": "Steam Machine",
@@ -204,7 +204,8 @@
       "hub_url": "",
       "spokes": [
         "Google Gemini for Home",
-        "Google Gemini Versions"
+        "Google Gemini Versions",
+        "Google Gemini AI Features"
       ],
       "spoke_urls": {},
       "internal_links": []
@@ -316,6 +317,28 @@
       "hub_url": "",
       "spokes": [
         "AI Models and Services"
+      ],
+      "spoke_urls": {},
+      "internal_links": []
+    },
+    "Galaxy Fold Flip": {
+      "hub_keyword": "Galaxy Fold Flip",
+      "hub_status": "PENDING",
+      "hub_title": "",
+      "hub_url": "",
+      "spokes": [
+        "Samsung Galaxy Fold/Flip Series"
+      ],
+      "spoke_urls": {},
+      "internal_links": []
+    },
+    "Google Pixel Android": {
+      "hub_keyword": "Google Pixel Android",
+      "hub_status": "PENDING",
+      "hub_title": "",
+      "hub_url": "",
+      "spokes": [
+        "Google Pixel & Android Auto"
       ],
       "spoke_urls": {},
       "internal_links": []
@@ -500,7 +523,7 @@
       ],
       "competition_level": "MEDIUM",
       "affiliate_potential": "HIGH",
-      "trends_pattern": "UNKNOWN",
+      "trends_pattern": "STABLE",
       "trends_keyword": "",
       "notes": ""
     },
@@ -522,7 +545,7 @@
       ],
       "competition_level": "LOW",
       "affiliate_potential": "LOW",
-      "trends_pattern": "UNKNOWN",
+      "trends_pattern": "RISING",
       "trends_keyword": "",
       "notes": ""
     },
@@ -632,7 +655,7 @@
       ],
       "competition_level": "MEDIUM",
       "affiliate_potential": "LOW",
-      "trends_pattern": "UNKNOWN",
+      "trends_pattern": "RISING",
       "trends_keyword": "",
       "notes": ""
     },
@@ -785,7 +808,7 @@
       ],
       "competition_level": "MEDIUM",
       "affiliate_potential": "HIGH",
-      "trends_pattern": "UNKNOWN",
+      "trends_pattern": "STABLE",
       "trends_keyword": "",
       "notes": ""
     },
@@ -807,7 +830,7 @@
       ],
       "competition_level": "MEDIUM",
       "affiliate_potential": "HIGH",
-      "trends_pattern": "UNKNOWN",
+      "trends_pattern": "RISING",
       "trends_keyword": "",
       "notes": ""
     },
@@ -829,7 +852,7 @@
       ],
       "competition_level": "LOW",
       "affiliate_potential": "LOW",
-      "trends_pattern": "UNKNOWN",
+      "trends_pattern": "RISING",
       "trends_keyword": "",
       "notes": ""
     },
@@ -873,7 +896,7 @@
       ],
       "competition_level": "MEDIUM",
       "affiliate_potential": "HIGH",
-      "trends_pattern": "UNKNOWN",
+      "trends_pattern": "STABLE",
       "trends_keyword": "",
       "notes": ""
     },
@@ -939,7 +962,7 @@
       ],
       "competition_level": "MEDIUM",
       "affiliate_potential": "HIGH",
-      "trends_pattern": "UNKNOWN",
+      "trends_pattern": "STABLE",
       "trends_keyword": "",
       "notes": ""
     },
@@ -958,6 +981,69 @@
         "gemini nano 4 android features",
         "how gemini nano 4 operates",
         "gemini nano on device ai explained"
+      ],
+      "competition_level": "MEDIUM",
+      "affiliate_potential": "LOW",
+      "trends_pattern": "UNKNOWN",
+      "trends_keyword": "",
+      "notes": ""
+    },
+    "Samsung Galaxy Fold/Flip Series": {
+      "types_done": [],
+      "last_week": "2026-W30",
+      "suggest_next": [
+        "COMPARISON",
+        "GUIDE",
+        "EXPLAINER",
+        "LISTICLE"
+      ],
+      "hub_keyword": "Galaxy Z Flip 8 cover screen",
+      "parent_hub": "Galaxy Fold Flip",
+      "spoke_keywords": [
+        "galaxy z fold 8 vs fold 7 hinge",
+        "foldable phone durability comparison"
+      ],
+      "competition_level": "MEDIUM",
+      "affiliate_potential": "MEDIUM",
+      "trends_pattern": "UNKNOWN",
+      "trends_keyword": "",
+      "notes": ""
+    },
+    "Google Pixel & Android Auto": {
+      "types_done": [],
+      "last_week": "2026-W30",
+      "suggest_next": [
+        "COMPARISON",
+        "GUIDE",
+        "EXPLAINER",
+        "LISTICLE"
+      ],
+      "hub_keyword": "Android Auto wireless",
+      "parent_hub": "Google Pixel Android",
+      "spoke_keywords": [
+        "pixel 11 vs pixel 10 camera specs",
+        "best google pixel low light photos"
+      ],
+      "competition_level": "MEDIUM",
+      "affiliate_potential": "MEDIUM",
+      "trends_pattern": "UNKNOWN",
+      "trends_keyword": "",
+      "notes": ""
+    },
+    "Google Gemini AI Features": {
+      "types_done": [],
+      "last_week": "2026-W30",
+      "suggest_next": [
+        "COMPARISON",
+        "GUIDE",
+        "EXPLAINER",
+        "LISTICLE"
+      ],
+      "hub_keyword": "Gemini for Home",
+      "parent_hub": "Google Gemini AI",
+      "spoke_keywords": [
+        "google gemini nano 4 capabilities",
+        "gemini nano 4 mobile integration"
       ],
       "competition_level": "MEDIUM",
       "affiliate_potential": "LOW",
@@ -1745,11 +1831,11 @@
         "competition_level": "MEDIUM",
         "timing": "NOW",
         "affiliate_potential": "HIGH",
-        "trends_pattern": "UNKNOWN",
-        "trends_keyword": "",
+        "trends_pattern": "STABLE",
+        "trends_keyword": "samsung galaxy",
         "trends_opportunities": [],
         "verifiability": "HIGH",
-        "data_grade": "B",
+        "data_grade": "A",
         "verified_keywords": [
           {
             "keyword": "samsung galaxy z flip 6",
@@ -1782,11 +1868,11 @@
         "competition_level": "LOW",
         "timing": "NOW",
         "affiliate_potential": "MEDIUM",
-        "trends_pattern": "UNKNOWN",
-        "trends_keyword": "",
+        "trends_pattern": "STABLE",
+        "trends_keyword": "samsung galaxy",
         "trends_opportunities": [],
         "verifiability": "HIGH",
-        "data_grade": "B",
+        "data_grade": "A",
         "verified_keywords": [
           {
             "keyword": "samsung galaxy z flip 6",
@@ -1819,11 +1905,11 @@
         "competition_level": "MEDIUM",
         "timing": "NOW",
         "affiliate_potential": "LOW",
-        "trends_pattern": "UNKNOWN",
-        "trends_keyword": "",
+        "trends_pattern": "STABLE",
+        "trends_keyword": "samsung galaxy",
         "trends_opportunities": [],
         "verifiability": "HIGH",
-        "data_grade": "B",
+        "data_grade": "A",
         "verified_keywords": [
           {
             "keyword": "samsung galaxy z flip 6",
@@ -1856,11 +1942,11 @@
         "competition_level": "LOW",
         "timing": "NOW",
         "affiliate_potential": "LOW",
-        "trends_pattern": "UNKNOWN",
-        "trends_keyword": "",
+        "trends_pattern": "RISING",
+        "trends_keyword": "android auto",
         "trends_opportunities": [],
         "verifiability": "HIGH",
-        "data_grade": "C",
+        "data_grade": "B",
         "verified_keywords": [
           {
             "keyword": "google android auto",
@@ -1923,11 +2009,11 @@
         "competition_level": "MEDIUM",
         "timing": "NOW",
         "affiliate_potential": "LOW",
-        "trends_pattern": "UNKNOWN",
-        "trends_keyword": "",
+        "trends_pattern": "RISING",
+        "trends_keyword": "android auto",
         "trends_opportunities": [],
         "verifiability": "HIGH",
-        "data_grade": "C",
+        "data_grade": "B",
         "verified_keywords": [
           {
             "keyword": "google android auto",
@@ -1990,11 +2076,11 @@
         "competition_level": "MEDIUM",
         "timing": "NOW",
         "affiliate_potential": "HIGH",
-        "trends_pattern": "UNKNOWN",
-        "trends_keyword": "",
+        "trends_pattern": "RISING",
+        "trends_keyword": "android auto",
         "trends_opportunities": [],
         "verifiability": "HIGH",
-        "data_grade": "C",
+        "data_grade": "B",
         "verified_keywords": [
           {
             "keyword": "google android auto",
@@ -2105,11 +2191,11 @@
         "competition_level": "MEDIUM",
         "timing": "NOW",
         "affiliate_potential": "HIGH",
-        "trends_pattern": "UNKNOWN",
-        "trends_keyword": "",
+        "trends_pattern": "STABLE",
+        "trends_keyword": "samsung galaxy",
         "trends_opportunities": [],
         "verifiability": "HIGH",
-        "data_grade": "B",
+        "data_grade": "A",
         "verified_keywords": [
           {
             "keyword": "samsung galaxy z flip 6",
@@ -2142,11 +2228,11 @@
         "competition_level": "LOW",
         "timing": "NOW",
         "affiliate_potential": "LOW",
-        "trends_pattern": "UNKNOWN",
-        "trends_keyword": "",
+        "trends_pattern": "STABLE",
+        "trends_keyword": "samsung galaxy",
         "trends_opportunities": [],
         "verifiability": "HIGH",
-        "data_grade": "B",
+        "data_grade": "A",
         "verified_keywords": [
           {
             "keyword": "samsung galaxy z flip 6",
@@ -2179,11 +2265,11 @@
         "competition_level": "MEDIUM",
         "timing": "NOW",
         "affiliate_potential": "MEDIUM",
-        "trends_pattern": "UNKNOWN",
-        "trends_keyword": "",
+        "trends_pattern": "STABLE",
+        "trends_keyword": "samsung galaxy",
         "trends_opportunities": [],
         "verifiability": "HIGH",
-        "data_grade": "B",
+        "data_grade": "A",
         "verified_keywords": [
           {
             "keyword": "samsung galaxy z flip 6",
@@ -2336,11 +2422,11 @@
         "competition_level": "MEDIUM",
         "timing": "NOW",
         "affiliate_potential": "LOW",
-        "trends_pattern": "UNKNOWN",
-        "trends_keyword": "",
+        "trends_pattern": "RISING",
+        "trends_keyword": "galaxy fold",
         "trends_opportunities": [],
         "verifiability": "HIGH",
-        "data_grade": "B",
+        "data_grade": "A",
         "verified_keywords": [
           {
             "keyword": "samsung galaxy z flip 6",
@@ -2373,11 +2459,11 @@
         "competition_level": "MEDIUM",
         "timing": "NOW",
         "affiliate_potential": "LOW",
-        "trends_pattern": "UNKNOWN",
-        "trends_keyword": "",
+        "trends_pattern": "RISING",
+        "trends_keyword": "galaxy fold",
         "trends_opportunities": [],
         "verifiability": "HIGH",
-        "data_grade": "B",
+        "data_grade": "A",
         "verified_keywords": [
           {
             "keyword": "samsung galaxy z flip 6",
@@ -2410,11 +2496,11 @@
         "competition_level": "MEDIUM",
         "timing": "NOW",
         "affiliate_potential": "LOW",
-        "trends_pattern": "UNKNOWN",
-        "trends_keyword": "",
+        "trends_pattern": "RISING",
+        "trends_keyword": "galaxy fold",
         "trends_opportunities": [],
         "verifiability": "HIGH",
-        "data_grade": "B",
+        "data_grade": "A",
         "verified_keywords": [
           {
             "keyword": "samsung galaxy z flip 6",
@@ -2568,11 +2654,11 @@
         "competition_level": "MEDIUM",
         "timing": "NOW",
         "affiliate_potential": "HIGH",
-        "trends_pattern": "UNKNOWN",
-        "trends_keyword": "",
+        "trends_pattern": "STABLE",
+        "trends_keyword": "samsung galaxy",
         "trends_opportunities": [],
         "verifiability": "HIGH",
-        "data_grade": "B",
+        "data_grade": "A",
         "verified_keywords": [
           {
             "keyword": "galaxy s23 ultra",
@@ -2610,11 +2696,11 @@
         "competition_level": "LOW",
         "timing": "NOW",
         "affiliate_potential": "LOW",
-        "trends_pattern": "UNKNOWN",
-        "trends_keyword": "",
+        "trends_pattern": "STABLE",
+        "trends_keyword": "samsung galaxy",
         "trends_opportunities": [],
         "verifiability": "HIGH",
-        "data_grade": "B",
+        "data_grade": "A",
         "verified_keywords": [
           {
             "keyword": "galaxy s23 ultra",
@@ -2653,11 +2739,11 @@
         "competition_level": "MEDIUM",
         "timing": "NOW",
         "affiliate_potential": "HIGH",
-        "trends_pattern": "UNKNOWN",
-        "trends_keyword": "",
+        "trends_pattern": "RISING",
+        "trends_keyword": "galaxy fold",
         "trends_opportunities": [],
         "verifiability": "HIGH",
-        "data_grade": "B",
+        "data_grade": "A",
         "verified_keywords": [
           {
             "keyword": "galaxy x flip 4",
@@ -2702,11 +2788,11 @@
         "competition_level": "MEDIUM",
         "timing": "NOW",
         "affiliate_potential": "MEDIUM",
-        "trends_pattern": "UNKNOWN",
-        "trends_keyword": "",
+        "trends_pattern": "RISING",
+        "trends_keyword": "galaxy fold",
         "trends_opportunities": [],
         "verifiability": "HIGH",
-        "data_grade": "B",
+        "data_grade": "A",
         "verified_keywords": [
           {
             "keyword": "galaxy x flip 4",
@@ -2751,11 +2837,11 @@
         "competition_level": "MEDIUM",
         "timing": "NOW",
         "affiliate_potential": "LOW",
-        "trends_pattern": "UNKNOWN",
-        "trends_keyword": "",
+        "trends_pattern": "RISING",
+        "trends_keyword": "galaxy fold",
         "trends_opportunities": [],
         "verifiability": "HIGH",
-        "data_grade": "B",
+        "data_grade": "A",
         "verified_keywords": [
           {
             "keyword": "galaxy x flip 4",
@@ -2800,11 +2886,11 @@
         "competition_level": "LOW",
         "timing": "NOW",
         "affiliate_potential": "LOW",
-        "trends_pattern": "UNKNOWN",
-        "trends_keyword": "",
+        "trends_pattern": "RISING",
+        "trends_keyword": "android auto",
         "trends_opportunities": [],
         "verifiability": "HIGH",
-        "data_grade": "B",
+        "data_grade": "A",
         "verified_keywords": [
           {
             "keyword": "android android auto",
@@ -2843,11 +2929,11 @@
         "competition_level": "MEDIUM",
         "timing": "NOW",
         "affiliate_potential": "LOW",
-        "trends_pattern": "UNKNOWN",
-        "trends_keyword": "",
+        "trends_pattern": "RISING",
+        "trends_keyword": "android auto",
         "trends_opportunities": [],
         "verifiability": "HIGH",
-        "data_grade": "B",
+        "data_grade": "A",
         "verified_keywords": [
           {
             "keyword": "android android auto",
@@ -2886,11 +2972,11 @@
         "competition_level": "MEDIUM",
         "timing": "NOW",
         "affiliate_potential": "LOW",
-        "trends_pattern": "UNKNOWN",
-        "trends_keyword": "",
+        "trends_pattern": "RISING",
+        "trends_keyword": "android auto",
         "trends_opportunities": [],
         "verifiability": "HIGH",
-        "data_grade": "B",
+        "data_grade": "A",
         "verified_keywords": [
           {
             "keyword": "android android auto",
@@ -3003,11 +3089,11 @@
         "competition_level": "MEDIUM",
         "timing": "NOW",
         "affiliate_potential": "HIGH",
-        "trends_pattern": "UNKNOWN",
-        "trends_keyword": "",
+        "trends_pattern": "STABLE",
+        "trends_keyword": "samsung galaxy",
         "trends_opportunities": [],
         "verifiability": "HIGH",
-        "data_grade": "B",
+        "data_grade": "A",
         "verified_keywords": [
           {
             "keyword": "samsung galaxy z flip 6",
@@ -3040,11 +3126,11 @@
         "competition_level": "MEDIUM",
         "timing": "NOW",
         "affiliate_potential": "LOW",
-        "trends_pattern": "UNKNOWN",
-        "trends_keyword": "",
+        "trends_pattern": "STABLE",
+        "trends_keyword": "samsung galaxy",
         "trends_opportunities": [],
         "verifiability": "HIGH",
-        "data_grade": "B",
+        "data_grade": "A",
         "verified_keywords": [
           {
             "keyword": "samsung galaxy z flip 6",
@@ -3077,11 +3163,11 @@
         "competition_level": "MEDIUM",
         "timing": "NOW",
         "affiliate_potential": "LOW",
-        "trends_pattern": "UNKNOWN",
-        "trends_keyword": "",
+        "trends_pattern": "STABLE",
+        "trends_keyword": "samsung galaxy",
         "trends_opportunities": [],
         "verifiability": "HIGH",
-        "data_grade": "B",
+        "data_grade": "A",
         "verified_keywords": [
           {
             "keyword": "samsung galaxy z flip 6",
@@ -3309,12 +3395,31 @@
         "competition_level": "MEDIUM",
         "timing": "NOW",
         "affiliate_potential": "HIGH",
-        "trends_pattern": "UNKNOWN",
-        "trends_keyword": "",
+        "trends_pattern": "STABLE",
+        "trends_keyword": "samsung galaxy",
         "trends_opportunities": [],
         "verifiability": "HIGH",
         "data_grade": "A",
-        "verified_keywords": [],
+        "verified_keywords": [
+          {
+            "keyword": "samsung google",
+            "monthly_searches": 500,
+            "competition": "LOW",
+            "competition_index": 2
+          },
+          {
+            "keyword": "samsung galaxy z flip 6",
+            "monthly_searches": 500,
+            "competition": "MEDIUM",
+            "competition_index": 66
+          },
+          {
+            "keyword": "galaxy fold",
+            "monthly_searches": 500,
+            "competition": "MEDIUM",
+            "competition_index": 52
+          }
+        ],
         "status": "candidate",
         "selected_at": "2026-07-27T08:38:06.030604+00:00"
       },
@@ -3333,12 +3438,31 @@
         "competition_level": "LOW",
         "timing": "NOW",
         "affiliate_potential": "LOW",
-        "trends_pattern": "UNKNOWN",
-        "trends_keyword": "",
+        "trends_pattern": "STABLE",
+        "trends_keyword": "samsung galaxy",
         "trends_opportunities": [],
         "verifiability": "HIGH",
         "data_grade": "A",
-        "verified_keywords": [],
+        "verified_keywords": [
+          {
+            "keyword": "samsung google",
+            "monthly_searches": 500,
+            "competition": "LOW",
+            "competition_index": 2
+          },
+          {
+            "keyword": "samsung galaxy z flip 6",
+            "monthly_searches": 500,
+            "competition": "MEDIUM",
+            "competition_index": 66
+          },
+          {
+            "keyword": "galaxy fold",
+            "monthly_searches": 500,
+            "competition": "MEDIUM",
+            "competition_index": 52
+          }
+        ],
         "status": "candidate",
         "selected_at": "2026-07-27T08:38:06.030604+00:00"
       },
@@ -3357,12 +3481,31 @@
         "competition_level": "MEDIUM",
         "timing": "NOW",
         "affiliate_potential": "HIGH",
-        "trends_pattern": "UNKNOWN",
-        "trends_keyword": "",
+        "trends_pattern": "STABLE",
+        "trends_keyword": "samsung galaxy",
         "trends_opportunities": [],
         "verifiability": "HIGH",
         "data_grade": "A",
-        "verified_keywords": [],
+        "verified_keywords": [
+          {
+            "keyword": "samsung google",
+            "monthly_searches": 500,
+            "competition": "LOW",
+            "competition_index": 2
+          },
+          {
+            "keyword": "samsung galaxy z flip 6",
+            "monthly_searches": 500,
+            "competition": "MEDIUM",
+            "competition_index": 66
+          },
+          {
+            "keyword": "galaxy fold",
+            "monthly_searches": 500,
+            "competition": "MEDIUM",
+            "competition_index": 52
+          }
+        ],
         "status": "candidate",
         "selected_at": "2026-07-27T08:38:06.030604+00:00"
       },
@@ -3385,7 +3528,7 @@
         "trends_keyword": "",
         "trends_opportunities": [],
         "verifiability": "HIGH",
-        "data_grade": "A",
+        "data_grade": "C",
         "verified_keywords": [],
         "status": "candidate",
         "selected_at": "2026-07-27T08:38:06.030604+00:00"
@@ -3409,10 +3552,171 @@
         "trends_keyword": "",
         "trends_opportunities": [],
         "verifiability": "HIGH",
-        "data_grade": "A",
+        "data_grade": "C",
         "verified_keywords": [],
         "status": "candidate",
         "selected_at": "2026-07-27T08:38:06.030604+00:00"
+      },
+      {
+        "cluster_name": "Samsung Galaxy Fold/Flip Series",
+        "content_type": "COMPARISON",
+        "suggested_title": "Galaxy Z Fold 8 vs Fold 7 Hinge Durability Comparison",
+        "hub_keyword": "Galaxy Z Fold 8",
+        "hub_keyword_raw": "Galaxy Z Fold 8",
+        "parent_hub": "Galaxy Fold Flip",
+        "spoke_keywords": [
+          "galaxy z fold 8 vs fold 7 hinge",
+          "foldable phone durability comparison"
+        ],
+        "competition_level": "MEDIUM",
+        "timing": "NOW",
+        "affiliate_potential": "MEDIUM",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "status": "candidate",
+        "selected_at": "2026-07-27T08:47:44.875290+00:00"
+      },
+      {
+        "cluster_name": "Samsung Galaxy Fold/Flip Series",
+        "content_type": "EXPLAINER",
+        "suggested_title": "Samsung Galaxy Z Fold 8 Silicon-Carbon Battery Technology Explained",
+        "hub_keyword": "silicon-carbon battery",
+        "hub_keyword_raw": "silicon-carbon battery",
+        "parent_hub": "Galaxy Fold Flip",
+        "spoke_keywords": [
+          "samsung galaxy z fold 8 silicon-carbon battery benefits",
+          "how silicon-carbon batteries work"
+        ],
+        "competition_level": "LOW",
+        "timing": "NOW",
+        "affiliate_potential": "LOW",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "status": "candidate",
+        "selected_at": "2026-07-27T08:47:44.875290+00:00"
+      },
+      {
+        "cluster_name": "Google Pixel & Android Auto",
+        "content_type": "COMPARISON",
+        "suggested_title": "Google Pixel 11 vs Pixel 10 Pro Low Light Camera Comparison",
+        "hub_keyword": "Pixel 11 camera",
+        "hub_keyword_raw": "Pixel 11 camera",
+        "parent_hub": "Google Pixel Android",
+        "spoke_keywords": [
+          "pixel 11 vs pixel 10 camera specs",
+          "best google pixel low light photos"
+        ],
+        "competition_level": "MEDIUM",
+        "timing": "NOW",
+        "affiliate_potential": "MEDIUM",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "status": "candidate",
+        "selected_at": "2026-07-27T08:47:44.875290+00:00"
+      },
+      {
+        "cluster_name": "Google Pixel & Android Auto",
+        "content_type": "GUIDE",
+        "suggested_title": "Android Auto Wireless Adapter Setup and Troubleshooting Guide",
+        "hub_keyword": "Android Auto wireless",
+        "hub_keyword_raw": "Android Auto wireless",
+        "parent_hub": "Google Pixel Android",
+        "spoke_keywords": [
+          "best android auto wireless adapter",
+          "fix android auto connection issues"
+        ],
+        "competition_level": "MEDIUM",
+        "timing": "NOW",
+        "affiliate_potential": "HIGH",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "status": "candidate",
+        "selected_at": "2026-07-27T08:47:44.875290+00:00"
+      },
+      {
+        "cluster_name": "Google Gemini AI Features",
+        "content_type": "EXPLAINER",
+        "suggested_title": "What is Google Gemini Nano 4 and How It Works on Mobile Devices",
+        "hub_keyword": "Gemini Nano 4",
+        "hub_keyword_raw": "Gemini Nano 4",
+        "parent_hub": "Google Gemini AI",
+        "spoke_keywords": [
+          "google gemini nano 4 capabilities",
+          "gemini nano 4 mobile integration"
+        ],
+        "competition_level": "MEDIUM",
+        "timing": "NOW",
+        "affiliate_potential": "LOW",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "status": "candidate",
+        "selected_at": "2026-07-27T08:47:44.875290+00:00"
+      },
+      {
+        "cluster_name": "Google Gemini AI Features",
+        "content_type": "GUIDE",
+        "suggested_title": "How to Use Google Gemini for Home Context Memory Feature",
+        "hub_keyword": "Gemini for Home",
+        "hub_keyword_raw": "Gemini for Home",
+        "parent_hub": "Google Gemini AI",
+        "spoke_keywords": [
+          "gemini for home context setup",
+          "google home ai memory"
+        ],
+        "competition_level": "LOW",
+        "timing": "NOW",
+        "affiliate_potential": "LOW",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "status": "candidate",
+        "selected_at": "2026-07-27T08:47:44.875290+00:00"
+      },
+      {
+        "cluster_name": "Samsung Galaxy Fold/Flip Series",
+        "content_type": "GUIDE",
+        "suggested_title": "How to Customize Galaxy Z Flip 8 Cover Screen Apps and Widgets",
+        "hub_keyword": "Galaxy Z Flip 8 cover screen",
+        "hub_keyword_raw": "Galaxy Z Flip 8 cover screen",
+        "parent_hub": "Galaxy Fold Flip",
+        "spoke_keywords": [
+          "galaxy z flip 8 cover screen app setup",
+          "best galaxy z flip 8 widgets"
+        ],
+        "competition_level": "MEDIUM",
+        "timing": "NOW",
+        "affiliate_potential": "LOW",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "B",
+        "verified_keywords": [],
+        "status": "candidate",
+        "selected_at": "2026-07-27T08:47:44.875290+00:00"
       }
     ]
   },
