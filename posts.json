@@ -273,7 +273,24 @@
       "internal_links_needed": [],
       "internal_links_resolved": {},
       "status": "live"
+    },
+    {
+      "id": "ayaneo-handhelds-vs-steam-deck-performance-and-portability-c",
+      "title": "AYANEO Handhelds vs Steam Deck: Performance and Portability Comparison",
+      "slug": "ayaneo-handhelds-vs-steam-deck-performance-and-portability-c",
+      "cluster_slug": "portable-gaming",
+      "url": "https://frontbuffer.net/gaming/portable-gaming_comparison/",
+      "live_url": "https://frontbuffer.net/gaming/portable-gaming_comparison/",
+      "published_date": "2026-07-27",
+      "content_type": "COMPARISON",
+      "hub_cluster": "Portable Gaming",
+      "hub_keyword": "Gaming Handhelds",
+      "verified_keywords": [],
+      "data_grade": "A",
+      "internal_links_needed": [],
+      "internal_links_resolved": {},
+      "status": "live"
     }
   ],
-  "_last_updated": "2026-07-27T11:32:46.157041+00:00"
+  "_last_updated": "2026-07-27T16:15:04.919539+00:00"
 }

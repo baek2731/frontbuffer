@@ -1,7 +1,7 @@
 {
   "_version": "1.3",
   "_description": "콘텐츠 파이프라인 — 클러스터 단위 관리",
-  "_last_updated": "2026-07-27T14:59:05.784819+00:00",
+  "_last_updated": "2026-07-27T16:15:04.916261+00:00",
   "hub_clusters": {
     "Steam Machine": {
       "hub_keyword": "Steam Machine",
@@ -118,12 +118,12 @@
         "Portable Gaming"
       ],
       "spoke_urls": {
-        "Portable Gaming (COMPARISON)": "PENDING",
+        "Portable Gaming (COMPARISON)": "https://frontbuffer.net/gaming/portable-gaming_comparison/",
         "Portable Gaming (GUIDE)": "PENDING",
         "Portable Gaming (EXPLAINER)": "PENDING"
       },
       "internal_links": [
-        "PENDING",
+        "https://frontbuffer.net/gaming/portable-gaming_comparison/",
         "PENDING",
         "PENDING"
       ]
@@ -489,7 +489,7 @@
         "GUIDE",
         "EXPLAINER"
       ],
-      "last_week": "2026-W29",
+      "last_week": "2026-W30",
       "suggest_next": [
         "LISTICLE"
       ],
@@ -1742,8 +1742,9 @@
         "verifiability": "HIGH",
         "data_grade": "A",
         "verified_keywords": [],
-        "status": "candidate",
-        "selected_at": "2026-07-20T08:05:00.387164+00:00"
+        "status": "published",
+        "selected_at": "2026-07-20T08:05:00.387164+00:00",
+        "url": "https://frontbuffer.net/gaming/portable-gaming_comparison/"
       },
       {
         "cluster_name": "Portable Gaming",
@@ -3846,6 +3847,15 @@
       "week_tag": "2026-W29",
       "published_at": "2026-07-26T21:52:17.331859+00:00",
       "hub_cluster": "Fallout Series"
+    },
+    {
+      "cluster_name": "Portable Gaming",
+      "title": "AYANEO Handhelds vs Steam Deck: Performance and Portability Comparison",
+      "url": "https://frontbuffer.net/gaming/portable-gaming_comparison/",
+      "content_type": "COMPARISON",
+      "week_tag": "2026-W30",
+      "published_at": "2026-07-27T16:15:04.916207+00:00",
+      "hub_cluster": "Portable Gaming"
     }
   ]
 }
