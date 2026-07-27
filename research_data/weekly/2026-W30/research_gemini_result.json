@@ -1,0 +1,204 @@
+{
+  "ok": true,
+  "week_tag": "2026-W30",
+  "total": 8,
+  "grade_a": [
+    {
+      "cluster_name": "Samsung Galaxy Foldables",
+      "content_type": "COMPARISON",
+      "suggested_title": "Galaxy Z Fold 8 vs Galaxy Z Fold 7: Hinge Design and Durability Improvements",
+      "hub_keyword": "Galaxy Z Fold 8",
+      "parent_hub": "Samsung Galaxy Foldables",
+      "spoke_keywords": [
+        "galaxy z fold 8 hinge design",
+        "galaxy z fold 7 hinge durability",
+        "foldable phone hinge improvements"
+      ],
+      "evergreen_score": 90,
+      "competition_level": "MEDIUM",
+      "affiliate_potential": "HIGH",
+      "timing": "NOW",
+      "verifiability": "HIGH",
+      "trends_queries": [
+        "galaxy z fold 8 hinge review",
+        "galaxy z fold 7 hinge issues",
+        "foldable phone durability"
+      ],
+      "reasoning": "This comparison leverages official design details and announced improvements for the hinge, a common concern for foldables, providing evergreen value for potential buyers.",
+      "data_grade": "A"
+    },
+    {
+      "cluster_name": "Samsung Galaxy Foldables",
+      "content_type": "GUIDE",
+      "suggested_title": "How to Customize Galaxy Z Flip 8 Cover Screen Apps and Widgets",
+      "hub_keyword": "Galaxy Z Flip 8",
+      "parent_hub": "Samsung Galaxy Foldables",
+      "spoke_keywords": [
+        "galaxy z flip 8 cover screen customization",
+        "best z flip 8 cover screen apps",
+        "z flip 8 widgets setup guide"
+      ],
+      "evergreen_score": 95,
+      "competition_level": "LOW",
+      "affiliate_potential": "MEDIUM",
+      "timing": "NOW",
+      "verifiability": "HIGH",
+      "trends_queries": [
+        "galaxy z flip cover screen uses",
+        "z flip 8 external display apps",
+        "how to use z flip 8 cover screen"
+      ],
+      "reasoning": "This guide addresses a core feature of the Z Flip series, offering practical, verifiable advice on customization that remains relevant across software updates.",
+      "data_grade": "A"
+    },
+    {
+      "cluster_name": "Samsung Galaxy Foldables",
+      "content_type": "EXPLAINER",
+      "suggested_title": "What is Samsung Silicon-Carbon Battery Technology in Galaxy Z Fold 8",
+      "hub_keyword": "Samsung battery technology",
+      "parent_hub": "Samsung Galaxy Foldables",
+      "spoke_keywords": [
+        "silicon carbon battery explained",
+        "galaxy z fold 8 battery tech",
+        "samsung battery innovation"
+      ],
+      "evergreen_score": 85,
+      "competition_level": "MEDIUM",
+      "affiliate_potential": "LOW",
+      "timing": "NOW",
+      "verifiability": "HIGH",
+      "trends_queries": [
+        "silicon carbon battery advantages",
+        "samsung new battery technology",
+        "foldable phone battery life"
+      ],
+      "reasoning": "This explainer focuses on a key technological advancement in a specific product, offering verifiable information that will remain relevant for those researching battery tech.",
+      "data_grade": "A"
+    },
+    {
+      "cluster_name": "Google Android Features",
+      "content_type": "GUIDE",
+      "suggested_title": "How to Use Google Wallet Order Tracking on Android Phones",
+      "hub_keyword": "Google Wallet",
+      "parent_hub": "Google Android Features",
+      "spoke_keywords": [
+        "google wallet package tracking setup",
+        "android order tracking feature",
+        "how to track orders google wallet"
+      ],
+      "evergreen_score": 95,
+      "competition_level": "LOW",
+      "affiliate_potential": "LOW",
+      "timing": "NOW",
+      "verifiability": "HIGH",
+      "trends_queries": [
+        "google wallet updates",
+        "track packages android",
+        "google wallet new features"
+      ],
+      "reasoning": "This guide provides instructions for a newly rolled-out, highly practical feature within a core Google app, ensuring long-term relevance for Android users.",
+      "data_grade": "A"
+    },
+    {
+      "cluster_name": "Google Android Features",
+      "content_type": "EXPLAINER",
+      "suggested_title": "Understanding Gemini for Home Context Memory and New Features",
+      "hub_keyword": "Gemini for Home",
+      "parent_hub": "Google Android Features",
+      "spoke_keywords": [
+        "gemini home context memory explained",
+        "google assistant memory features",
+        "gemini ai for smart home"
+      ],
+      "evergreen_score": 90,
+      "competition_level": "MEDIUM",
+      "affiliate_potential": "LOW",
+      "timing": "NOW",
+      "verifiability": "HIGH",
+      "trends_queries": [
+        "gemini smart home capabilities",
+        "google home ai memory",
+        "how gemini remembers context"
+      ],
+      "reasoning": "This explainer delves into a specific and evolving AI feature, providing foundational knowledge that will be useful as Gemini's smart home capabilities expand.",
+      "data_grade": "A"
+    },
+    {
+      "cluster_name": "Google Android Features",
+      "content_type": "COMPARISON",
+      "suggested_title": "Android Auto vs Apple CarPlay: In-Car Entertainment and Navigation Comparison",
+      "hub_keyword": "Android Auto",
+      "parent_hub": "Google Android Features",
+      "spoke_keywords": [
+        "android auto features",
+        "apple carplay advantages",
+        "best car entertainment system"
+      ],
+      "evergreen_score": 95,
+      "competition_level": "MEDIUM",
+      "affiliate_potential": "HIGH",
+      "timing": "NOW",
+      "verifiability": "HIGH",
+      "trends_queries": [
+        "android auto vs carplay 2026",
+        "wireless android auto vs carplay",
+        "android auto alternative"
+      ],
+      "reasoning": "This comparison addresses a perennial consumer choice, providing a feature-based overview that remains relevant regardless of minor updates to either system.",
+      "data_grade": "A"
+    },
+    {
+      "cluster_name": "Gaming Platform Choices",
+      "content_type": "EXPLAINER",
+      "suggested_title": "Physical Media vs Digital Games: Pros and Cons for Modern Gamers",
+      "hub_keyword": "Physical game media",
+      "parent_hub": "Gaming Platform Choices",
+      "spoke_keywords": [
+        "physical vs digital games debate",
+        "advantages of physical games",
+        "disadvantages of digital game ownership"
+      ],
+      "evergreen_score": 100,
+      "competition_level": "MEDIUM",
+      "affiliate_potential": "LOW",
+      "timing": "NOW",
+      "verifiability": "HIGH",
+      "trends_queries": [
+        "physical game collection value",
+        "digital game library management",
+        "future of game ownership"
+      ],
+      "reasoning": "This topic is a foundational debate in gaming, ensuring perennial relevance for players considering their purchasing habits, directly triggered by current industry discussions.",
+      "data_grade": "A"
+    },
+    {
+      "cluster_name": "Gaming Platform Choices",
+      "content_type": "GUIDE",
+      "suggested_title": "Optimizing Minecraft Java Edition System Requirements for Best Performance",
+      "hub_keyword": "Minecraft system requirements",
+      "parent_hub": "Gaming Platform Choices",
+      "spoke_keywords": [
+        "minecraft java edition minimum specs",
+        "improve minecraft java performance",
+        "minecraft java edition graphics settings"
+      ],
+      "evergreen_score": 90,
+      "competition_level": "MEDIUM",
+      "affiliate_potential": "HIGH",
+      "timing": "NOW",
+      "verifiability": "HIGH",
+      "trends_queries": [
+        "minecraft java edition lag fix",
+        "minecraft pc requirements 2026",
+        "best pc for minecraft java"
+      ],
+      "reasoning": "Minecraft's enduring popularity and recent system requirement changes make this a timely yet evergreen topic for players looking to ensure smooth gameplay.",
+      "data_grade": "A"
+    }
+  ],
+  "grade_b": [],
+  "grade_c": [],
+  "auto_selected": 8,
+  "elapsed": 36.6,
+  "timestamp": "2026-07-27T08:18:57.764773+00:00"
+}

@@ -1,167 +1,14 @@
 [
   {
-    "cluster_name": "Fallout Series",
+    "cluster_name": "Samsung Galaxy Foldables",
     "content_type": "COMPARISON",
-    "suggested_title": "Fallout New Vegas vs Fallout 3 Remaster: Official Feature Comparison",
-    "hub_keyword": "Fallout Remasters",
-    "parent_hub": "Fallout Series",
+    "suggested_title": "Galaxy Z Fold 8 vs Galaxy Z Fold 7: Hinge Design and Durability Improvements",
+    "hub_keyword": "Galaxy Z Fold 8",
+    "parent_hub": "Samsung Galaxy Foldables",
     "spoke_keywords": [
-      "fallout new vegas remaster features",
-      "fallout 3 remaster official changes"
-    ],
-    "evergreen_score": 90,
-    "competition_level": "MEDIUM",
-    "affiliate_potential": "LOW",
-    "timing": "NOW",
-    "verifiability": "HIGH",
-    "trends_queries": [
-      "fallout new vegas remaster features",
-      "fallout 3 remaster comparison"
-    ],
-    "reasoning": "공식적으로 리마스터가 확인된 두 게임의 기능 비교는 출시 이후 오랫동안 검색될 영원한 콘텐츠입니다. 공식 발표 자료를 통해 사실 확인이 가능합니다.",
-    "data_grade": "A"
-  },
-  {
-    "cluster_name": "Fallout Series",
-    "content_type": "GUIDE",
-    "suggested_title": "Fallout New Vegas Modding Guide: Essential Quality of Life and Content Mods",
-    "hub_keyword": "Fallout Mods",
-    "parent_hub": "Fallout Series",
-    "spoke_keywords": [
-      "fallout new vegas essential mods",
-      "fallout new vegas quality of life mods"
-    ],
-    "evergreen_score": 95,
-    "competition_level": "MEDIUM",
-    "affiliate_potential": "LOW",
-    "timing": "NOW",
-    "verifiability": "HIGH",
-    "trends_queries": [
-      "fallout new vegas modding guide",
-      "best fallout new vegas mods"
-    ],
-    "reasoning": "오래된 인기 게임의 모딩 가이드는 지속적으로 수요가 있으며, Nexus Mods와 같은 커뮤니티 자료를 통해 충분히 검증 가능합니다.",
-    "data_grade": "A"
-  },
-  {
-    "cluster_name": "Fallout Series",
-    "content_type": "EXPLAINER",
-    "suggested_title": "Fallout New Vegas Endings Explained: How Player Choices Impact the Mojave",
-    "hub_keyword": "Fallout Lore",
-    "parent_hub": "Fallout Series",
-    "spoke_keywords": [
-      "fallout new vegas player choice impact",
-      "fallout new vegas all endings explained"
-    ],
-    "evergreen_score": 90,
-    "competition_level": "MEDIUM",
-    "affiliate_potential": "LOW",
-    "timing": "NOW",
-    "verifiability": "HIGH",
-    "trends_queries": [
-      "fallout new vegas endings",
-      "fallout new vegas choices consequences"
-    ],
-    "reasoning": "게임의 스토리와 엔딩 분석은 출시 시기와 상관없이 영원한 가치를 가지며, 게임 위키나 기존 가이드를 통해 쉽게 검증할 수 있습니다.",
-    "data_grade": "A"
-  },
-  {
-    "cluster_name": "Android Ecosystem",
-    "content_type": "COMPARISON",
-    "suggested_title": "Samsung Secure Folder vs Google Files Safe Folder: Privacy Features Comparison",
-    "hub_keyword": "Android Privacy",
-    "parent_hub": "Android Ecosystem",
-    "spoke_keywords": [
-      "samsung secure folder features",
-      "google files safe folder privacy"
-    ],
-    "evergreen_score": 85,
-    "competition_level": "LOW",
-    "affiliate_potential": "LOW",
-    "timing": "NOW",
-    "verifiability": "HIGH",
-    "trends_queries": [
-      "samsung secure folder vs google files",
-      "android secure folder comparison"
-    ],
-    "reasoning": "안드로이드 기기 사용자의 개인 정보 보호 기능에 대한 비교는 항상 유효하며, 공식 문서로 기능 확인이 가능하여 검증 가능성이 높습니다.",
-    "data_grade": "A"
-  },
-  {
-    "cluster_name": "Android Ecosystem",
-    "content_type": "GUIDE",
-    "suggested_title": "How to Backup Samsung Health Data Before Switching Android Phones",
-    "hub_keyword": "Samsung Health",
-    "parent_hub": "Android Ecosystem",
-    "spoke_keywords": [
-      "samsung health data transfer",
-      "backup health data android"
-    ],
-    "evergreen_score": 90,
-    "competition_level": "MEDIUM",
-    "affiliate_potential": "LOW",
-    "timing": "NOW",
-    "verifiability": "HIGH",
-    "trends_queries": [
-      "samsung health backup",
-      "transfer samsung health data"
-    ],
-    "reasoning": "사용자들이 휴대폰을 교체할 때마다 필요한 데이터 백업 가이드는 꾸준히 검색될 영원한 콘텐츠이며, 앱 공식 가이드로 검증 가능합니다.",
-    "data_grade": "A"
-  },
-  {
-    "cluster_name": "Android Ecosystem",
-    "content_type": "GUIDE",
-    "suggested_title": "Android Auto Speedometer Feature: How to Enable and Customize Settings",
-    "hub_keyword": "Android Auto",
-    "parent_hub": "Android Ecosystem",
-    "spoke_keywords": [
-      "android auto speedometer activate",
-      "customize android auto speed display"
-    ],
-    "evergreen_score": 80,
-    "competition_level": "LOW",
-    "affiliate_potential": "LOW",
-    "timing": "NOW",
-    "verifiability": "HIGH",
-    "trends_queries": [
-      "android auto speedometer enable",
-      "android auto settings speedometer"
-    ],
-    "reasoning": "최근 출시된 안드로이드 오토의 특정 기능에 대한 설정 가이드는 기능이 안정화되면 오랫동안 유효하며, 공식 문서로 검증 가능합니다.",
-    "data_grade": "B"
-  },
-  {
-    "cluster_name": "Android Ecosystem",
-    "content_type": "EXPLAINER",
-    "suggested_title": "Google Photos Free Storage Policy Changes Explained: Impact on Existing Libraries",
-    "hub_keyword": "Google Photos",
-    "parent_hub": "Android Ecosystem",
-    "spoke_keywords": [
-      "google photos storage policy",
-      "google photos existing library changes"
-    ],
-    "evergreen_score": 85,
-    "competition_level": "MEDIUM",
-    "affiliate_potential": "LOW",
-    "timing": "NOW",
-    "verifiability": "HIGH",
-    "trends_queries": [
-      "google photos free storage policy",
-      "google photos storage limit explained"
-    ],
-    "reasoning": "구글 포토의 스토리지 정책 변경은 사용자들에게 지속적인 영향을 미치므로, 이에 대한 설명은 오랫동안 검색될 영원한 콘텐츠입니다. 공식 발표 자료를 통해 사실 확인이 가능합니다.",
-    "data_grade": "A"
-  },
-  {
-    "cluster_name": "Portable Gaming",
-    "content_type": "COMPARISON",
-    "suggested_title": "AYANEO Handhelds vs Steam Deck: Performance and Portability Comparison",
-    "hub_keyword": "Gaming Handhelds",
-    "parent_hub": "Portable Gaming",
-    "spoke_keywords": [
-      "ayaneo steam deck performance",
-      "portable gaming handheld comparison"
+      "galaxy z fold 8 hinge design",
+      "galaxy z fold 7 hinge durability",
+      "foldable phone hinge improvements"
     ],
     "evergreen_score": 90,
     "competition_level": "MEDIUM",
@@ -169,43 +16,95 @@
     "timing": "NOW",
     "verifiability": "HIGH",
     "trends_queries": [
-      "ayaneo vs steam deck",
-      "portable pc gaming comparison"
+      "galaxy z fold 8 hinge review",
+      "galaxy z fold 7 hinge issues",
+      "foldable phone durability"
     ],
-    "reasoning": "현재 시장에 출시된 인기 휴대용 게임 기기들의 성능 및 휴대성 비교는 꾸준히 수요가 있으며, 공식 사양 및 리뷰를 통해 검증 가능합니다.",
+    "reasoning": "This comparison leverages official design details and announced improvements for the hinge, a common concern for foldables, providing evergreen value for potential buyers.",
     "data_grade": "A"
   },
   {
-    "cluster_name": "Portable Gaming",
+    "cluster_name": "Samsung Galaxy Foldables",
     "content_type": "GUIDE",
-    "suggested_title": "How to Stream PC Games to Android Tablets using Moonshine App",
-    "hub_keyword": "Game Streaming",
-    "parent_hub": "Portable Gaming",
+    "suggested_title": "How to Customize Galaxy Z Flip 8 Cover Screen Apps and Widgets",
+    "hub_keyword": "Galaxy Z Flip 8",
+    "parent_hub": "Samsung Galaxy Foldables",
     "spoke_keywords": [
-      "moonshine app pc game stream",
-      "android tablet game streaming guide"
+      "galaxy z flip 8 cover screen customization",
+      "best z flip 8 cover screen apps",
+      "z flip 8 widgets setup guide"
+    ],
+    "evergreen_score": 95,
+    "competition_level": "LOW",
+    "affiliate_potential": "MEDIUM",
+    "timing": "NOW",
+    "verifiability": "HIGH",
+    "trends_queries": [
+      "galaxy z flip cover screen uses",
+      "z flip 8 external display apps",
+      "how to use z flip 8 cover screen"
+    ],
+    "reasoning": "This guide addresses a core feature of the Z Flip series, offering practical, verifiable advice on customization that remains relevant across software updates.",
+    "data_grade": "A"
+  },
+  {
+    "cluster_name": "Samsung Galaxy Foldables",
+    "content_type": "EXPLAINER",
+    "suggested_title": "What is Samsung Silicon-Carbon Battery Technology in Galaxy Z Fold 8",
+    "hub_keyword": "Samsung battery technology",
+    "parent_hub": "Samsung Galaxy Foldables",
+    "spoke_keywords": [
+      "silicon carbon battery explained",
+      "galaxy z fold 8 battery tech",
+      "samsung battery innovation"
     ],
     "evergreen_score": 85,
+    "competition_level": "MEDIUM",
+    "affiliate_potential": "LOW",
+    "timing": "NOW",
+    "verifiability": "HIGH",
+    "trends_queries": [
+      "silicon carbon battery advantages",
+      "samsung new battery technology",
+      "foldable phone battery life"
+    ],
+    "reasoning": "This explainer focuses on a key technological advancement in a specific product, offering verifiable information that will remain relevant for those researching battery tech.",
+    "data_grade": "A"
+  },
+  {
+    "cluster_name": "Google Android Features",
+    "content_type": "GUIDE",
+    "suggested_title": "How to Use Google Wallet Order Tracking on Android Phones",
+    "hub_keyword": "Google Wallet",
+    "parent_hub": "Google Android Features",
+    "spoke_keywords": [
+      "google wallet package tracking setup",
+      "android order tracking feature",
+      "how to track orders google wallet"
+    ],
+    "evergreen_score": 95,
     "competition_level": "LOW",
     "affiliate_potential": "LOW",
     "timing": "NOW",
     "verifiability": "HIGH",
     "trends_queries": [
-      "moonshine app setup",
-      "stream pc games android"
+      "google wallet updates",
+      "track packages android",
+      "google wallet new features"
     ],
-    "reasoning": "특정 소프트웨어(Moonshine App)를 이용한 게임 스트리밍 가이드는 소프트웨어의 수명만큼 영원하며, 앱 공식 문서를 통해 검증 가능합니다.",
+    "reasoning": "This guide provides instructions for a newly rolled-out, highly practical feature within a core Google app, ensuring long-term relevance for Android users.",
     "data_grade": "A"
   },
   {
-    "cluster_name": "Portable Gaming",
+    "cluster_name": "Google Android Features",
     "content_type": "EXPLAINER",
-    "suggested_title": "Steam Deck Verified Games: Understanding Compatibility and Performance Ratings",
-    "hub_keyword": "Steam Deck",
-    "parent_hub": "Portable Gaming",
+    "suggested_title": "Understanding Gemini for Home Context Memory and New Features",
+    "hub_keyword": "Gemini for Home",
+    "parent_hub": "Google Android Features",
     "spoke_keywords": [
-      "steam deck verified meaning",
-      "steam deck game compatibility explained"
+      "gemini home context memory explained",
+      "google assistant memory features",
+      "gemini ai for smart home"
     ],
     "evergreen_score": 90,
     "competition_level": "MEDIUM",
@@ -213,10 +112,83 @@
     "timing": "NOW",
     "verifiability": "HIGH",
     "trends_queries": [
-      "steam deck verified games",
-      "steam deck compatibility ratings"
+      "gemini smart home capabilities",
+      "google home ai memory",
+      "how gemini remembers context"
     ],
-    "reasoning": "스팀 덱의 핵심 기능인 게임 호환성 등급에 대한 설명은 기기 사용자들에게 오랫동안 유효하며, 스팀 공식 문서를 통해 검증 가능합니다.",
+    "reasoning": "This explainer delves into a specific and evolving AI feature, providing foundational knowledge that will be useful as Gemini's smart home capabilities expand.",
+    "data_grade": "A"
+  },
+  {
+    "cluster_name": "Google Android Features",
+    "content_type": "COMPARISON",
+    "suggested_title": "Android Auto vs Apple CarPlay: In-Car Entertainment and Navigation Comparison",
+    "hub_keyword": "Android Auto",
+    "parent_hub": "Google Android Features",
+    "spoke_keywords": [
+      "android auto features",
+      "apple carplay advantages",
+      "best car entertainment system"
+    ],
+    "evergreen_score": 95,
+    "competition_level": "MEDIUM",
+    "affiliate_potential": "HIGH",
+    "timing": "NOW",
+    "verifiability": "HIGH",
+    "trends_queries": [
+      "android auto vs carplay 2026",
+      "wireless android auto vs carplay",
+      "android auto alternative"
+    ],
+    "reasoning": "This comparison addresses a perennial consumer choice, providing a feature-based overview that remains relevant regardless of minor updates to either system.",
+    "data_grade": "A"
+  },
+  {
+    "cluster_name": "Gaming Platform Choices",
+    "content_type": "EXPLAINER",
+    "suggested_title": "Physical Media vs Digital Games: Pros and Cons for Modern Gamers",
+    "hub_keyword": "Physical game media",
+    "parent_hub": "Gaming Platform Choices",
+    "spoke_keywords": [
+      "physical vs digital games debate",
+      "advantages of physical games",
+      "disadvantages of digital game ownership"
+    ],
+    "evergreen_score": 100,
+    "competition_level": "MEDIUM",
+    "affiliate_potential": "LOW",
+    "timing": "NOW",
+    "verifiability": "HIGH",
+    "trends_queries": [
+      "physical game collection value",
+      "digital game library management",
+      "future of game ownership"
+    ],
+    "reasoning": "This topic is a foundational debate in gaming, ensuring perennial relevance for players considering their purchasing habits, directly triggered by current industry discussions.",
+    "data_grade": "A"
+  },
+  {
+    "cluster_name": "Gaming Platform Choices",
+    "content_type": "GUIDE",
+    "suggested_title": "Optimizing Minecraft Java Edition System Requirements for Best Performance",
+    "hub_keyword": "Minecraft system requirements",
+    "parent_hub": "Gaming Platform Choices",
+    "spoke_keywords": [
+      "minecraft java edition minimum specs",
+      "improve minecraft java performance",
+      "minecraft java edition graphics settings"
+    ],
+    "evergreen_score": 90,
+    "competition_level": "MEDIUM",
+    "affiliate_potential": "HIGH",
+    "timing": "NOW",
+    "verifiability": "HIGH",
+    "trends_queries": [
+      "minecraft java edition lag fix",
+      "minecraft pc requirements 2026",
+      "best pc for minecraft java"
+    ],
+    "reasoning": "Minecraft's enduring popularity and recent system requirement changes make this a timely yet evergreen topic for players looking to ensure smooth gameplay.",
     "data_grade": "A"
   }
 ]

@@ -1,7 +1,7 @@
 {
   "_version": "1.3",
   "_description": "콘텐츠 파이프라인 — 클러스터 단위 관리",
-  "_last_updated": "2026-07-26T21:52:17.331900+00:00",
+  "_last_updated": "2026-07-27T08:18:57.762662+00:00",
   "hub_clusters": {
     "Steam Machine": {
       "hub_keyword": "Steam Machine",
@@ -127,6 +127,39 @@
         "PENDING",
         "PENDING"
       ]
+    },
+    "Samsung Galaxy Foldables": {
+      "hub_keyword": "Samsung Galaxy Foldables",
+      "hub_status": "PENDING",
+      "hub_title": "",
+      "hub_url": "",
+      "spokes": [
+        "Samsung Galaxy Foldables"
+      ],
+      "spoke_urls": {},
+      "internal_links": []
+    },
+    "Google Android Features": {
+      "hub_keyword": "Google Android Features",
+      "hub_status": "PENDING",
+      "hub_title": "",
+      "hub_url": "",
+      "spokes": [
+        "Google Android Features"
+      ],
+      "spoke_urls": {},
+      "internal_links": []
+    },
+    "Gaming Platform Choices": {
+      "hub_keyword": "Gaming Platform Choices",
+      "hub_status": "PENDING",
+      "hub_title": "",
+      "hub_url": "",
+      "spokes": [
+        "Gaming Platform Choices"
+      ],
+      "spoke_urls": {},
+      "internal_links": []
     }
   },
   "covered_clusters": {
@@ -286,6 +319,72 @@
       ],
       "competition_level": "MEDIUM",
       "affiliate_potential": "HIGH",
+      "trends_pattern": "UNKNOWN",
+      "trends_keyword": "",
+      "notes": ""
+    },
+    "Samsung Galaxy Foldables": {
+      "types_done": [],
+      "last_week": "2026-W30",
+      "suggest_next": [
+        "COMPARISON",
+        "GUIDE",
+        "EXPLAINER",
+        "LISTICLE"
+      ],
+      "hub_keyword": "Samsung battery technology",
+      "parent_hub": "Samsung Galaxy Foldables",
+      "spoke_keywords": [
+        "galaxy z fold 8 hinge design",
+        "galaxy z fold 7 hinge durability",
+        "foldable phone hinge improvements"
+      ],
+      "competition_level": "MEDIUM",
+      "affiliate_potential": "HIGH",
+      "trends_pattern": "UNKNOWN",
+      "trends_keyword": "",
+      "notes": ""
+    },
+    "Google Android Features": {
+      "types_done": [],
+      "last_week": "2026-W30",
+      "suggest_next": [
+        "COMPARISON",
+        "GUIDE",
+        "EXPLAINER",
+        "LISTICLE"
+      ],
+      "hub_keyword": "Android Auto",
+      "parent_hub": "Google Android Features",
+      "spoke_keywords": [
+        "google wallet package tracking setup",
+        "android order tracking feature",
+        "how to track orders google wallet"
+      ],
+      "competition_level": "LOW",
+      "affiliate_potential": "LOW",
+      "trends_pattern": "UNKNOWN",
+      "trends_keyword": "",
+      "notes": ""
+    },
+    "Gaming Platform Choices": {
+      "types_done": [],
+      "last_week": "2026-W30",
+      "suggest_next": [
+        "COMPARISON",
+        "GUIDE",
+        "EXPLAINER",
+        "LISTICLE"
+      ],
+      "hub_keyword": "Minecraft system requirements",
+      "parent_hub": "Gaming Platform Choices",
+      "spoke_keywords": [
+        "physical vs digital games debate",
+        "advantages of physical games",
+        "disadvantages of digital game ownership"
+      ],
+      "competition_level": "MEDIUM",
+      "affiliate_potential": "LOW",
       "trends_pattern": "UNKNOWN",
       "trends_keyword": "",
       "notes": ""
@@ -1052,6 +1151,200 @@
         "verified_keywords": [],
         "status": "candidate",
         "selected_at": "2026-07-20T08:05:00.387164+00:00"
+      }
+    ],
+    "2026-W30": [
+      {
+        "cluster_name": "Samsung Galaxy Foldables",
+        "content_type": "COMPARISON",
+        "suggested_title": "Galaxy Z Fold 8 vs Galaxy Z Fold 7: Hinge Design and Durability Improvements",
+        "hub_keyword": "Galaxy Z Fold 8",
+        "hub_keyword_raw": "Galaxy Z Fold 8",
+        "parent_hub": "Samsung Galaxy Foldables",
+        "spoke_keywords": [
+          "galaxy z fold 8 hinge design",
+          "galaxy z fold 7 hinge durability",
+          "foldable phone hinge improvements"
+        ],
+        "competition_level": "MEDIUM",
+        "timing": "NOW",
+        "affiliate_potential": "HIGH",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "status": "candidate",
+        "selected_at": "2026-07-27T08:18:57.762536+00:00"
+      },
+      {
+        "cluster_name": "Samsung Galaxy Foldables",
+        "content_type": "GUIDE",
+        "suggested_title": "How to Customize Galaxy Z Flip 8 Cover Screen Apps and Widgets",
+        "hub_keyword": "Galaxy Z Flip 8",
+        "hub_keyword_raw": "Galaxy Z Flip 8",
+        "parent_hub": "Samsung Galaxy Foldables",
+        "spoke_keywords": [
+          "galaxy z flip 8 cover screen customization",
+          "best z flip 8 cover screen apps",
+          "z flip 8 widgets setup guide"
+        ],
+        "competition_level": "LOW",
+        "timing": "NOW",
+        "affiliate_potential": "MEDIUM",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "status": "candidate",
+        "selected_at": "2026-07-27T08:18:57.762536+00:00"
+      },
+      {
+        "cluster_name": "Samsung Galaxy Foldables",
+        "content_type": "EXPLAINER",
+        "suggested_title": "What is Samsung Silicon-Carbon Battery Technology in Galaxy Z Fold 8",
+        "hub_keyword": "Samsung battery technology",
+        "hub_keyword_raw": "Samsung battery technology",
+        "parent_hub": "Samsung Galaxy Foldables",
+        "spoke_keywords": [
+          "silicon carbon battery explained",
+          "galaxy z fold 8 battery tech",
+          "samsung battery innovation"
+        ],
+        "competition_level": "MEDIUM",
+        "timing": "NOW",
+        "affiliate_potential": "LOW",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "status": "candidate",
+        "selected_at": "2026-07-27T08:18:57.762536+00:00"
+      },
+      {
+        "cluster_name": "Google Android Features",
+        "content_type": "GUIDE",
+        "suggested_title": "How to Use Google Wallet Order Tracking on Android Phones",
+        "hub_keyword": "Google Wallet",
+        "hub_keyword_raw": "Google Wallet",
+        "parent_hub": "Google Android Features",
+        "spoke_keywords": [
+          "google wallet package tracking setup",
+          "android order tracking feature",
+          "how to track orders google wallet"
+        ],
+        "competition_level": "LOW",
+        "timing": "NOW",
+        "affiliate_potential": "LOW",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "status": "candidate",
+        "selected_at": "2026-07-27T08:18:57.762536+00:00"
+      },
+      {
+        "cluster_name": "Google Android Features",
+        "content_type": "EXPLAINER",
+        "suggested_title": "Understanding Gemini for Home Context Memory and New Features",
+        "hub_keyword": "Gemini for Home",
+        "hub_keyword_raw": "Gemini for Home",
+        "parent_hub": "Google Android Features",
+        "spoke_keywords": [
+          "gemini home context memory explained",
+          "google assistant memory features",
+          "gemini ai for smart home"
+        ],
+        "competition_level": "MEDIUM",
+        "timing": "NOW",
+        "affiliate_potential": "LOW",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "status": "candidate",
+        "selected_at": "2026-07-27T08:18:57.762536+00:00"
+      },
+      {
+        "cluster_name": "Google Android Features",
+        "content_type": "COMPARISON",
+        "suggested_title": "Android Auto vs Apple CarPlay: In-Car Entertainment and Navigation Comparison",
+        "hub_keyword": "Android Auto",
+        "hub_keyword_raw": "Android Auto",
+        "parent_hub": "Google Android Features",
+        "spoke_keywords": [
+          "android auto features",
+          "apple carplay advantages",
+          "best car entertainment system"
+        ],
+        "competition_level": "MEDIUM",
+        "timing": "NOW",
+        "affiliate_potential": "HIGH",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "status": "candidate",
+        "selected_at": "2026-07-27T08:18:57.762536+00:00"
+      },
+      {
+        "cluster_name": "Gaming Platform Choices",
+        "content_type": "EXPLAINER",
+        "suggested_title": "Physical Media vs Digital Games: Pros and Cons for Modern Gamers",
+        "hub_keyword": "Physical game media",
+        "hub_keyword_raw": "Physical game media",
+        "parent_hub": "Gaming Platform Choices",
+        "spoke_keywords": [
+          "physical vs digital games debate",
+          "advantages of physical games",
+          "disadvantages of digital game ownership"
+        ],
+        "competition_level": "MEDIUM",
+        "timing": "NOW",
+        "affiliate_potential": "LOW",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "status": "candidate",
+        "selected_at": "2026-07-27T08:18:57.762536+00:00"
+      },
+      {
+        "cluster_name": "Gaming Platform Choices",
+        "content_type": "GUIDE",
+        "suggested_title": "Optimizing Minecraft Java Edition System Requirements for Best Performance",
+        "hub_keyword": "Minecraft system requirements",
+        "hub_keyword_raw": "Minecraft system requirements",
+        "parent_hub": "Gaming Platform Choices",
+        "spoke_keywords": [
+          "minecraft java edition minimum specs",
+          "improve minecraft java performance",
+          "minecraft java edition graphics settings"
+        ],
+        "competition_level": "MEDIUM",
+        "timing": "NOW",
+        "affiliate_potential": "HIGH",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "status": "candidate",
+        "selected_at": "2026-07-27T08:18:57.762536+00:00"
       }
     ]
   },
