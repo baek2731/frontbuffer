@@ -48,38 +48,40 @@ def slugify(text):
     return text[:60]
 
 
-def find_prompt_file(cluster_name, content_type):
+def find_prompt_file(cluster_name, content_type, file_id=None):
     """
     write.py prep이 생성한 write_prompt 파일 찾기.
-    반환: (prompt_path, actual_slug) 튜플
+    file_id 기반으로 탐색 (slug 불일치 완전 방지).
+    반환: prompt_path (str) or None
     """
+    ct = content_type.upper().strip()
+
+    # 1순위: file_id 직접 매칭 (folder_id + week_tag 체계)
+    if file_id:
+        path = os.path.join(PROMPTS_DIR, f"write_prompt_{file_id}.txt")
+        if os.path.exists(path):
+            return path
+
+    # 2순위: slug 기반 매칭 (하위 호환)
     slug = slugify(cluster_name)
-    ct   = content_type.upper().strip()
-
-    # 1순위: 정확한 slug 매칭 (주차 포함)
-    pattern = f"write_prompt_{slug}_{ct}_*.txt"
-    matches = sorted(Path(PROMPTS_DIR).glob(pattern), reverse=True)
+    matches = sorted(Path(PROMPTS_DIR).glob(f"write_prompt_*_{slug}_{ct}*.txt"), reverse=True)
+    if not matches:
+        matches = sorted(Path(PROMPTS_DIR).glob(f"write_prompt_{slug}_{ct}*.txt"), reverse=True)
     if matches:
-        return str(matches[0]), slug
+        return str(matches[0])
 
-    # 2순위: 주차 없는 파일명
-    fallback = os.path.join(PROMPTS_DIR, f"write_prompt_{slug}_{ct}.txt")
-    if os.path.exists(fallback):
-        return fallback, slug
-
-    # 3순위: 퍼지 매칭
+    # 3순위: 퍼지 매칭 — slug 단어 기반
     slug_words = set(slug.split("-")) - {"a", "an", "the", "and", "or", "of"}
-    cands = sorted(Path(PROMPTS_DIR).glob(f"write_prompt_*_{ct}_*.txt"), reverse=True)
-    cands += sorted(Path(PROMPTS_DIR).glob(f"write_prompt_*_{ct}.txt"), reverse=True)
+    cands = sorted(Path(PROMPTS_DIR).glob(f"write_prompt_*.txt"), reverse=True)
     for cand in cands:
-        fname_words = set(cand.stem.split("-"))
-        if len(slug_words & fname_words) >= max(1, len(slug_words) // 2):
-            print(f"  \u26a0\ufe0f  퍼지 매칭으로 프롬프트 파일 발견: {cand.name}")
-            stem = cand.stem[len("write_prompt_"):]
-            actual_slug = stem.rsplit(f"_{ct}", 1)[0]
-            return str(cand), actual_slug
+        fname_words = set(cand.stem.split("-").copy())
+        # CT 매칭 + slug 단어 절반 이상
+        if ct.lower() in cand.stem.lower():
+            if len(slug_words & fname_words) >= max(1, len(slug_words) // 2):
+                print(f"  ⚠️  퍼지 매칭: {cand.name}")
+                return str(cand)
 
-    return None, None
+    return None
 
 
 def call_gemini_api(prompt_text):
@@ -141,13 +143,10 @@ def call_gemini_api(prompt_text):
     return None
 
 
-def save_draft(draft_text, slug_or_name, content_type):
-    """초안을 drafts/{slug}_{TYPE}.md 저장. slug_or_name이 이미 slug이면 그대로 사용."""
+def save_draft(draft_text, file_id, content_type):
+    """초안을 drafts/{file_id}.md 저장. file_id는 write.py get_file_id() 반환값."""
     os.makedirs(DRAFTS_DIR, exist_ok=True)
-    # 이미 slugify된 값이면 그대로, 아니면 slugify
-    slug = slug_or_name if "-" in slug_or_name and " " not in slug_or_name else slugify(slug_or_name)
-    ct   = content_type.upper().strip()
-    draft_path = os.path.join(DRAFTS_DIR, f"{slug}_{ct}.md")
+    draft_path = os.path.join(DRAFTS_DIR, f"{file_id}.md")
 
     with open(draft_path, "w", encoding="utf-8") as f:
         f.write(draft_text)
@@ -179,6 +178,8 @@ def main():
     parser = argparse.ArgumentParser(description="Gemini API 초안 생성")
     parser.add_argument("--cluster", required=True, help="클러스터명")
     parser.add_argument("--type",    required=True, help="content_type (GUIDE/LISTICLE/COMPARISON/EXPLAINER/HUB)")
+    parser.add_argument("--file-id", default=None,  dest="file_id",
+                        help="folder_id+week_tag 기반 파일 ID (step3에서 자동 전달)")
     args = parser.parse_args()
 
     cluster_name = args.cluster
@@ -189,14 +190,20 @@ def main():
     print(f"{'='*60}")
     print(f"  모델: {GEMINI_MODEL}")
 
-    # 1. 프롬프트 파일 찾기
-    prompt_path, actual_slug = find_prompt_file(cluster_name, content_type)
+    # 1. 프롬프트 파일 찾기 (file_id 기반 — slug 불일치 방지)
+    file_id     = args.file_id if hasattr(args, "file_id") and args.file_id else None
+    prompt_path = find_prompt_file(cluster_name, content_type, file_id=file_id)
     if not prompt_path:
         print(f"❌ write_prompt 파일 없음 — write.py prep 먼저 실행하세요.")
-        print(f"   탐색 경로: {PROMPTS_DIR}/write_prompt_{slugify(cluster_name)}_{content_type}_*.txt")
+        print(f"   탐색 경로: {PROMPTS_DIR}/write_prompt_*.txt")
         sys.exit(1)
 
+    # file_id를 프롬프트 파일명에서 역추출
+    fname_stem = Path(prompt_path).stem  # write_prompt_{file_id}
+    file_id    = fname_stem[len("write_prompt_"):]
+
     print(f"  📄 프롬프트: {prompt_path}")
+    print(f"  🔑 file_id: {file_id}")
     prompt_text = open(prompt_path, encoding="utf-8").read()
     print(f"  📏 프롬프트 크기: {len(prompt_text.encode())/1024:.1f} KB")
 
@@ -240,8 +247,8 @@ def main():
         print("⚠️  품질 기준 미달 — 저장은 진행 (gemini_review_api 단계에서 재생성 가능)")
         # exit(1) 제거: 미달이어도 review 단계에서 보강 가능하므로 루프 계속
 
-    # 4. 초안 저장 — actual_slug 사용 (퍼지매칭 시 write.py와 파일명 일치)
-    draft_path = save_draft(draft_text, actual_slug, content_type)
+    # 4. 초안 저장 — file_id 사용 (write.py와 파일명 일치)
+    draft_path = save_draft(draft_text, file_id, content_type)
     print(f"  💾 초안 저장: {draft_path}")
 
     # 5. 결과 JSON 출력 (pipeline.yml에서 파싱용)

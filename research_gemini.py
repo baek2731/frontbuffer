@@ -338,6 +338,39 @@ def main():
         except Exception as e:
             print(f"  ⚠️ rejected 마킹 실패: {e}")
 
+    # ── 중복 클러스터 필터 ──────────────────────────────────────────
+    # 같은 folder를 공유하는 클러스터가 여러 개면 Grade 최고인 것 1개만 유지.
+    # 예: 01-galaxy-fold 폴더에 Grade A 클러스터 3개 → 1개만 남김
+    def dedup_by_folder(sels):
+        from collections import defaultdict
+        folder_map = defaultdict(list)
+        no_folder  = []
+        for s in sels:
+            folder = s.get("folder") or ""
+            ct     = (s.get("content_type") or "").upper()
+            if folder:
+                folder_map[(folder, ct)].append(s)
+            else:
+                no_folder.append(s)
+        result = []
+        grade_order = {"A": 0, "B": 1, "C": 2}
+        for key, group in folder_map.items():
+            if len(group) == 1:
+                result.append(group[0])
+            else:
+                # Grade 최고 + 가장 많은 spoke_keywords 가진 것 선택
+                best = sorted(group,
+                    key=lambda x: (grade_order.get(x.get("data_grade","C"), 9),
+                                   -len(x.get("spoke_keywords", []))))[0]
+                result.append(best)
+                removed = [s.get("cluster_name") for s in group if s is not best]
+                print(f"  🔽 중복 제거: {key[0]} — 제외: {removed}")
+        return result + no_folder
+
+    grade_a = dedup_by_folder(grade_a)
+    grade_b = dedup_by_folder(grade_b)
+    print(f"  🔽 중복 제거 후: Grade A={len(grade_a)} B={len(grade_b)}")
+
     # Grade A/B만 자동 선택 → content_pipeline.json 등록
     auto_select = grade_a + grade_b
     print(f"\n  🔷 자동 선택 (Grade A/B): {len(auto_select)}개")

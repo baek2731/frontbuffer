@@ -867,9 +867,20 @@ def collect_context_multistage(cluster_info, cfg):
     4단계 전체 수집 — 스킵 없이 항상 전부 실행.
     풍부한 컨텍스트를 Gemini에 넘기는 것이 목표.
     최종 관련성 판단은 Gemini(SOURCE RELEVANCE RULE)가 수행.
+
+    hub_keyword fallback:
+    hub_keyword가 cluster_name과 무관하게 생성된 경우(예: "Android Auto WhatsApp"),
+    소스 수집이 전혀 안 되면 cluster_name으로 자동 재시도.
     """
     hub_keyword    = cluster_info.get("hub_keyword", "")
     spoke_keywords = cluster_info.get("spoke_keywords", [])
+    cluster_name   = cluster_info.get("cluster_name", "")
+
+    # hub_keyword 품질 체크: cluster_name 단어가 하나도 없으면 경고
+    cluster_words = set(cluster_name.lower().split())
+    hub_words     = set(hub_keyword.lower().split())
+    if hub_keyword and cluster_words and not (cluster_words & hub_words):
+        print(f"  ⚠️  hub_keyword '{hub_keyword}'가 cluster_name '{cluster_name}'과 무관 — 소스 수집 실패 시 cluster_name으로 재시도")
 
     all_sources, all_context, total_ok = [], "", 0
 
@@ -906,6 +917,20 @@ def collect_context_multistage(cluster_info, cfg):
     if total_ok >= 1:
         return {"mode": "jina", "sources": all_sources,
                 "context_text": all_context.strip(), "total_ok": total_ok}
+
+    # ── hub_keyword 실패 시 cluster_name으로 재시도 ──────────────────
+    if hub_keyword and hub_keyword.lower() != cluster_name.lower():
+        print(f"  🔄 hub_keyword 실패 — cluster_name '{cluster_name}'으로 재시도...")
+        fallback_info = dict(cluster_info)
+        fallback_info["hub_keyword"] = cluster_name
+        ok2, src2, ctx2 = collect_from_wikipedia(cluster_name, spoke_keywords)
+        if ok2 > 0:
+            all_sources += src2
+            all_context += ctx2
+            total_ok    += ok2
+            print(f"  ✅ cluster_name 재시도 성공: {ok2}개 후보")
+            return {"mode": "jina", "sources": all_sources,
+                    "context_text": all_context.strip(), "total_ok": total_ok}
 
     # 전부 실패 → 제목 모드
     print(f"  ⚠️ 모든 단계 원문 수집 실패 → 제목 모드 전환")
@@ -1493,9 +1518,10 @@ def get_next_candidate_fifo():
                 if (sel.get("status") == "candidate"
                         and sel.get("data_grade", "") == grade):
                     # final/에 이미 생성된 글이면 스킵 (Step 4 발행 대기 중)
-                    _slug = slugify(sel.get("cluster_name", ""))
-                    _ct   = (sel.get("content_type", "") or "").upper().strip()
-                    _final = os.path.join(FINAL_DIR, f"{_slug}_{_ct}.md")
+                    # folder_id + week_tag 기반 파일명으로 체크
+                    _ct    = (sel.get("content_type", "") or "").upper().strip()
+                    _fid   = get_file_id(sel, _ct)
+                    _final = os.path.join(FINAL_DIR, f"{_fid}.md")
                     if os.path.exists(_final):
                         continue
                     # selection에 week_tag가 없을 수 있으므로 순회 중인 주차를 주입
@@ -1530,6 +1556,7 @@ def cmd_next(as_json=False):
         "data_grade":   sel.get("data_grade", ""),
         "week_tag":     sel.get("week_tag", ""),
         "slug":         slugify(cluster_name),
+        "file_id":      get_file_id(sel, content_type),
     }
 
     if as_json:
@@ -1711,7 +1738,9 @@ def cmd_prep(cluster_name, mode="jina", force=False, content_type=None):
     os.makedirs(PROMPTS_DIR, exist_ok=True)
     os.makedirs(DRAFTS_DIR, exist_ok=True)
     content_type_tag = cluster_info.get("content_type", "GUIDE").upper()
-    prompt_filename  = f"write_prompt_{slug}_{content_type_tag}_{week_tag}.txt"
+    # folder_id + week_tag 기반 파일명 (slug 불일치 방지)
+    file_id         = get_file_id(cluster_info, content_type_tag)
+    prompt_filename  = f"write_prompt_{file_id}.txt"
     prompt_path      = os.path.join(PROMPTS_DIR, prompt_filename)
 
     with open(prompt_path, "w", encoding="utf-8") as f:
@@ -1730,7 +1759,7 @@ def cmd_prep(cluster_name, mode="jina", force=False, content_type=None):
             chars = f" ({s.get('chars',0)}자)" if s.get("chars") else ""
             print(f"  {icon} [{s['source']}] {s['title'][:45]}...{chars}")
 
-    draft_fname = f"{slug}_{content_type_tag}.md"
+    draft_fname = f"{file_id}.md"
     print(f"""
 다음 단계:
   1. prompts/{prompt_filename} → Gemini 웹 붙여넣기
@@ -1750,7 +1779,9 @@ def cmd_review(cluster_name, content_type=None):
     actual_name = cluster_info.get("cluster_name", cluster_name)
     slug        = slugify(actual_name)
     _ct_tag     = (content_type or cluster_info.get("content_type", "")).upper().strip()
-    draft_fname = f"{slug}_{_ct_tag}.md" if _ct_tag else f"{slug}.md"
+    # folder_id + week_tag 기반 파일명 (slug 불일치 방지)
+    file_id     = get_file_id(cluster_info, _ct_tag)
+    draft_fname = f"{file_id}.md"
     draft_path  = os.path.join(DRAFTS_DIR, draft_fname)
 
     print(f"\n{'='*60}")
@@ -1771,7 +1802,7 @@ def cmd_review(cluster_name, content_type=None):
     os.makedirs(PROMPTS_DIR, exist_ok=True)
     os.makedirs(FINAL_DIR, exist_ok=True)
     _ct_tag = (content_type or "").upper().strip()
-    review_fname = (f"review_prompt_{slug}_{_ct_tag}.txt" if _ct_tag else f"review_prompt_{slug}.txt")
+    review_fname = f"review_prompt_{file_id}.txt"
     review_path = os.path.join(PROMPTS_DIR, review_fname)
     with open(review_path, "w", encoding="utf-8") as f:
         f.write(review_text)

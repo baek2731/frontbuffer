@@ -62,6 +62,7 @@ jobs:
 
             CLUSTER=$(echo "$RESULT" | python -c "import sys,json; print(json.load(sys.stdin)['cluster_name'])")
             TYPE=$(echo "$RESULT"    | python -c "import sys,json; print(json.load(sys.stdin)['content_type'])")
+            FILE_ID=$(echo "$RESULT" | python -c "import sys,json; print(json.load(sys.stdin).get('file_id',''))")
             ITEM="${CLUSTER}__${TYPE}"
 
             if [ "$ITEM" = "$LAST_ITEM" ]; then
@@ -91,7 +92,7 @@ jobs:
             fi
 
             echo "🤖 [2/4] Gemini 초안..."
-            if ! python gemini_api.py --cluster "$CLUSTER" --type "$TYPE"; then
+            if ! python gemini_api.py --cluster "$CLUSTER" --type "$TYPE" --file-id "$FILE_ID"; then
               echo "❌ Gemini 초안 실패 — 다음 루프로"
               FAILURES="${FAILURES:+$FAILURES,}[$TYPE] $CLUSTER (초안 실패)"
               continue
@@ -105,7 +106,7 @@ jobs:
             fi
 
             echo "✨ [4/4] Gemini 그라운딩 팩트체크..."
-            if ! python gemini_review_api.py --cluster "$CLUSTER" --type "$TYPE"; then
+            if ! python gemini_review_api.py --cluster "$CLUSTER" --type "$TYPE" --file-id "$FILE_ID"; then
               echo "❌ Gemini Review 실패 — 다음 루프로"
               FAILURES="${FAILURES:+$FAILURES,}[$TYPE] $CLUSTER (팩트체크 실패)"
               continue
@@ -113,8 +114,8 @@ jobs:
 
             # 새로 생성된 final/ 파일 추적 (품질 체크용)
             # write.py slugify()와 동일한 로직으로 생성 (특수문자 제거 + 60자 제한)
-            SLUG=$(python -c "import re,sys; t=sys.argv[1].lower().strip(); t=re.sub(r'[^\w\s-]','',t); t=re.sub(r'[\s_]+','-',t); print(t[:60])" "$CLUSTER")
-            FINAL_FILE="research_data/write/final/${SLUG}_${TYPE}.md"
+            # file_id 기반 final/ 파일 추적 (slug 불일치 방지)
+            FINAL_FILE="research_data/write/final/${FILE_ID}.md"
             if [ -f "$FINAL_FILE" ]; then
               NEW_FILES="${NEW_FILES:+$NEW_FILES,}$FINAL_FILE"
             fi

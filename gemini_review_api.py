@@ -46,39 +46,42 @@ def slugify(text):
     return text[:60]
 
 
-def find_review_prompt(cluster_name, content_type):
+def find_review_prompt(cluster_name, content_type, file_id=None):
     """
     write.py review가 생성한 review_prompt 파일 찾기.
-    반환: (prompt_path, actual_slug) 튜플
+    file_id 기반으로 탐색 (slug 불일치 완전 방지).
+    반환: prompt_path (str) or None
     """
-    slug = slugify(cluster_name)
-    ct   = content_type.upper().strip()
+    ct = content_type.upper().strip()
 
-    # 1순위: 정확한 slug 매칭
+    # 1순위: file_id 직접 매칭
+    if file_id:
+        path = os.path.join(PROMPTS_DIR, f"review_prompt_{file_id}.txt")
+        if os.path.exists(path):
+            return path
+
+    # 2순위: slug 기반 매칭 (하위 호환)
+    slug = slugify(cluster_name)
     path = os.path.join(PROMPTS_DIR, f"review_prompt_{slug}_{ct}.txt")
     if os.path.exists(path):
-        return path, slug
-
-    # 2순위: content_type 없는 파일명
+        return path
     fallback = os.path.join(PROMPTS_DIR, f"review_prompt_{slug}.txt")
     if os.path.exists(fallback):
-        return fallback, slug
+        return fallback
 
     # 3순위: 퍼지 매칭
     slug_words = set(slug.split("-")) - {"a", "an", "the", "and", "or", "of"}
-    cands = sorted(Path(PROMPTS_DIR).glob(f"review_prompt_*_{ct}.txt"), reverse=True)
-    cands += sorted(Path(PROMPTS_DIR).glob(f"review_prompt_*.txt"), reverse=True)
+    cands = sorted(Path(PROMPTS_DIR).glob("review_prompt_*.txt"), reverse=True)
     for cand in cands:
         if "write_prompt" in cand.name:
             continue
         fname_words = set(cand.stem.split("-"))
-        if len(slug_words & fname_words) >= max(1, len(slug_words) // 2):
-            print(f"  ⚠️  퍼지 매칭으로 리뷰 프롬프트 발견: {cand.name}")
-            stem = cand.stem[len("review_prompt_"):]
-            actual_slug = stem.rsplit(f"_{ct}", 1)[0] if f"_{ct}" in stem else stem
-            return str(cand), actual_slug
+        if ct.lower() in cand.stem.lower():
+            if len(slug_words & fname_words) >= max(1, len(slug_words) // 2):
+                print(f"  ⚠️  퍼지 매칭: {cand.name}")
+                return str(cand)
 
-    return None, None
+    return None
 
 
 def extract_final_markdown(response_text):
@@ -164,12 +167,10 @@ def call_gemini_api(prompt_text):
     return None
 
 
-def save_final(final_text, slug_or_name, content_type):
-    """최종본 저장. slug_or_name이 이미 slug면 그대로 사용."""
+def save_final(final_text, file_id, content_type):
+    """최종본 저장. file_id는 write.py get_file_id() 반환값."""
     os.makedirs(FINAL_DIR, exist_ok=True)
-    slug = slug_or_name if "-" in slug_or_name and " " not in slug_or_name else slugify(slug_or_name)
-    ct   = content_type.upper().strip()
-    final_path = os.path.join(FINAL_DIR, f"{slug}_{ct}.md")
+    final_path = os.path.join(FINAL_DIR, f"{file_id}.md")
     with open(final_path, "w", encoding="utf-8") as f:
         f.write(final_text)
     return final_path
@@ -297,6 +298,8 @@ def main():
     parser = argparse.ArgumentParser(description="Gemini Review API 팩트체크 + 최종본 생성")
     parser.add_argument("--cluster", required=True, help="클러스터명")
     parser.add_argument("--type",    required=True, help="content_type")
+    parser.add_argument("--file-id", default=None,  dest="file_id",
+                        help="folder_id+week_tag 기반 파일 ID")
     args = parser.parse_args()
 
     cluster_name = args.cluster
@@ -308,12 +311,18 @@ def main():
     print(f"  모델: {GEMINI_MODEL}")
 
     # 1. review_prompt 파일 찾기
-    prompt_path, actual_slug = find_review_prompt(cluster_name, content_type)
+    file_id     = args.file_id if hasattr(args, "file_id") and args.file_id else None
+    prompt_path = find_review_prompt(cluster_name, content_type, file_id=file_id)
     if not prompt_path:
         print(f"❌ review_prompt 파일 없음 — write.py review 먼저 실행하세요.")
         sys.exit(1)
 
+    # file_id를 프롬프트 파일명에서 역추출
+    fname_stem = Path(prompt_path).stem  # review_prompt_{file_id}
+    file_id    = fname_stem[len("review_prompt_"):]
+
     print(f"  📄 리뷰 프롬프트: {prompt_path}")
+    print(f"  🔑 file_id: {file_id}")
     prompt_text = open(prompt_path, encoding="utf-8").read()
     print(f"  📏 프롬프트 크기: {len(prompt_text.encode())/1024:.1f} KB")
 
@@ -347,13 +356,13 @@ def main():
     if not quality["ok"]:
         print("⚠️  품질 경고 있음 — 저장은 진행 (수동 확인 필요)")
 
-    # 5. 최종본 저장 — actual_slug 사용 (write.py와 파일명 일치)
-    final_path = save_final(final_text, actual_slug, content_type)
+    # 5. 최종본 저장 — file_id 사용 (write.py와 파일명 일치)
+    final_path = save_final(final_text, file_id, content_type)
     print(f"  💾 최종본 저장: {final_path}")
 
     # 6. 판정 리포트 저장
     ct          = content_type.upper().strip()
-    report_path = os.path.join(FINAL_DIR, f"review_report_{actual_slug}_{ct}.txt")
+    report_path = os.path.join(FINAL_DIR, f"review_report_{file_id}.txt")
     with open(report_path, "w", encoding="utf-8") as f:
         f.write(response_text)
     print(f"  📋 판정 리포트: {report_path}")
