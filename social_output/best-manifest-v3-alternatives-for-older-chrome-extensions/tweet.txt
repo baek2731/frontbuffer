@@ -1,0 +1,5 @@
+Your go-to Chrome extensions are going away. These are the replacements that actually hold up under Manifest V3.
+
+https://frontbuffer.net/tech/best-manifest-v3-alternatives-for-older-chrome-extensions/
+
+#ChromeExtensions #ManifestV3 #Google #WebDev #Browser

@@ -1,0 +1,5 @@
+Google's Chrome extension deadline is August 31. Here's the full picture — what broke, why, and what to do next.
+
+https://frontbuffer.net/tech/google-chrome-manifest-v2-migration_HUB/
+
+#ChromeExtensions #ManifestV3 #Google #WebDev #Browser

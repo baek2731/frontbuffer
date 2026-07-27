@@ -1,0 +1,194 @@
+{
+  "week_tag": "2026-W28",
+  "week_dir": "research_data\\trends\\2026-W28",
+  "clusters": [
+    {
+      "cluster_name": "Steam Machine Hardware Management",
+      "slug": "steam-machine-hardware-management",
+      "folder": "01-steam-machine-hardware-management",
+      "trends_pattern": "RISING",
+      "trends_stats": {
+        "avg_all": 14.5,
+        "avg_recent8": 24.1,
+        "current": 16,
+        "peak": 100,
+        "recent_ratio": 1.67
+      },
+      "trends_keyword": "Steam Machine",
+      "rising_queries": [],
+      "verified_keywords": [
+        {
+          "keyword": "steam machine",
+          "monthly_searches": 500000,
+          "competition": "LOW",
+          "competition_index": 2
+        }
+      ],
+      "grade": "A",
+      "warnings": [],
+      "grade_reasons": [
+        "Trends ✅ RISING (최근8주 24 / 전체평균 14 / 비율 1.67)",
+        "KP ✅ 매칭 1개 | 롱테일(3단어+) 0개 | LOW경쟁 1개 | 최대: 'steam machine' 월 500,000",
+        "→ Grade A: Trends 타이밍 + KP 롱테일 모두 검증됨"
+      ]
+    },
+    {
+      "cluster_name": "Samsung Health Data Ecosystem",
+      "slug": "samsung-health-data-ecosystem",
+      "folder": "02-samsung-health-data-ecosystem",
+      "trends_pattern": "RISING",
+      "trends_stats": {
+        "avg_all": 47.6,
+        "avg_recent8": 61.8,
+        "current": 24,
+        "peak": 100,
+        "recent_ratio": 1.3
+      },
+      "trends_keyword": "Samsung Health",
+      "rising_queries": [],
+      "verified_keywords": [
+        {
+          "keyword": "samsung health web",
+          "monthly_searches": 500,
+          "competition": "LOW",
+          "competition_index": 1
+        },
+        {
+          "keyword": "samsung health",
+          "monthly_searches": 50000,
+          "competition": "LOW",
+          "competition_index": 2
+        }
+      ],
+      "grade": "A",
+      "warnings": [],
+      "grade_reasons": [
+        "Trends ✅ RISING (최근8주 62 / 전체평균 48 / 비율 1.30)",
+        "KP ✅ 매칭 2개 | 롱테일(3단어+) 1개 | LOW경쟁 2개 | 최대: 'samsung health web' 월 500",
+        "→ Grade A: Trends 타이밍 + KP 롱테일 모두 검증됨"
+      ]
+    },
+    {
+      "cluster_name": "Assassin's Creed Black Flag Resynced Modding",
+      "slug": "assassins-creed-black-flag-resynced-modding",
+      "folder": "03-assassins-creed-black-flag-resynced-modding",
+      "trends_pattern": "RISING",
+      "trends_stats": {
+        "avg_all": 4.9,
+        "avg_recent8": 26.5,
+        "current": 90.5,
+        "peak": 100,
+        "recent_ratio": 5.38
+      },
+      "trends_keyword": "Black Flag Resynced",
+      "rising_queries": [],
+      "verified_keywords": [
+        {
+          "keyword": "black flag resynced",
+          "monthly_searches": 50000,
+          "competition": "LOW",
+          "competition_index": 7
+        }
+      ],
+      "grade": "A",
+      "warnings": [],
+      "grade_reasons": [
+        "Trends ✅ RISING (최근8주 26 / 전체평균 5 / 비율 5.38)",
+        "KP ✅ 매칭 1개 | 롱테일(3단어+) 1개 | LOW경쟁 1개 | 최대: 'black flag resynced' 월 50,000",
+        "→ Grade A: Trends 타이밍 + KP 롱테일 모두 검증됨"
+      ]
+    },
+    {
+      "cluster_name": "Google Chrome Manifest V2 Migration",
+      "slug": "google-chrome-manifest-v2-migration",
+      "folder": "04-google-chrome-manifest-v2-migration",
+      "trends_pattern": "RISING",
+      "trends_stats": {
+        "avg_all": 54.2,
+        "avg_recent8": 70.4,
+        "current": 51,
+        "peak": 100,
+        "recent_ratio": 1.3
+      },
+      "trends_keyword": "Chrome Extensions",
+      "rising_queries": [],
+      "verified_keywords": [
+        {
+          "keyword": "chrome extensions opera",
+          "monthly_searches": 500,
+          "competition": "LOW",
+          "competition_index": 0
+        },
+        {
+          "keyword": "developer extension chrome",
+          "monthly_searches": 500,
+          "competition": "LOW",
+          "competition_index": 3
+        },
+        {
+          "keyword": "extension chrome facebook",
+          "monthly_searches": 500,
+          "competition": "LOW",
+          "competition_index": 0
+        },
+        {
+          "keyword": "extension chrome ios",
+          "monthly_searches": 500,
+          "competition": "LOW",
+          "competition_index": 0
+        },
+        {
+          "keyword": "extension chrome youtube",
+          "monthly_searches": 500,
+          "competition": "LOW",
+          "competition_index": 1
+        },
+        {
+          "keyword": "extension refresh chrome",
+          "monthly_searches": 500,
+          "competition": "LOW",
+          "competition_index": 3
+        },
+        {
+          "keyword": "extensions google chrome android",
+          "monthly_searches": 500,
+          "competition": "LOW",
+          "competition_index": 1
+        },
+        {
+          "keyword": "opera extension chrome",
+          "monthly_searches": 500,
+          "competition": "LOW",
+          "competition_index": 0
+        }
+      ],
+      "grade": "A",
+      "warnings": [],
+      "grade_reasons": [
+        "Trends ✅ RISING (최근8주 70 / 전체평균 54 / 비율 1.30)",
+        "KP ✅ 매칭 8개 | 롱테일(3단어+) 8개 | LOW경쟁 8개 | 최대: 'chrome extensions opera' 월 500",
+        "→ Grade A: Trends 타이밍 + KP 롱테일 모두 검증됨"
+      ]
+    }
+  ],
+  "kp_parsed": 347,
+  "kp_error": null,
+  "unassigned_keywords": [
+    "plugin chrome",
+    "chrome web store android",
+    "addon chrome",
+    "ad block chrome",
+    "multilogin chrome",
+    "extension lastpass",
+    "speakit",
+    "poper blocker",
+    "notion chrome",
+    "plugin google",
+    "ghostery chrome",
+    "vpnchrome",
+    "chatgpt chrome",
+    "norton safe web chrome",
+    "siteimprove chrome"
+  ],
+  "updated": true
+}

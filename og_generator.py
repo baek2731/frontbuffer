@@ -3,7 +3,7 @@
 # =====================================================================
 # 동작:
 #   1. _posts/ 폴더에서 MD 파일 목록 스캔
-#   2. output/ 에 이미 처리된 파일 스킵
+#   2. social_output/ 에 이미 처리된 파일 스킵
 #   3. 미처리 파일 → OG 이미지 PNG + 트윗 문구 txt 생성
 #
 # 사용법:
@@ -12,63 +12,134 @@
 #   python og_generator.py --file 파일명 → 특정 파일만 처리
 #
 # 필요:
-#   pip install cairosvg
-#
-# 폴더 구조:
-#   frontbuffer-social/
-#   ├── og_generator.py
-#   ├── _posts/          ← _posts/ 폴더 복붙 또는 git pull
-#   └── output/          ← 생성된 PNG + txt
+#   pip install pillow
 # =====================================================================
 
 import os
 import re
 import sys
-import textwrap
 import argparse
 from pathlib import Path
-from datetime import datetime
 
 try:
-    import cairosvg
+    from PIL import Image, ImageDraw, ImageFont
 except ImportError:
-    print("❌ cairosvg 없음 — pip install cairosvg 실행하세요.")
+    print("❌ Pillow 없음 — pip install pillow 실행하세요.")
     sys.exit(1)
 
 POSTS_DIR  = "_posts"
 OUTPUT_DIR = "social_output"
+OG_WIDTH   = 1200
+OG_HEIGHT  = 630
 
-# OG 이미지 규격 (Twitter/X 권장)
-OG_WIDTH  = 1200
-OG_HEIGHT = 630
+BG_COLOR    = (26, 32, 53)
+TEAL_COLOR  = (46, 196, 176)
+WHITE_COLOR = (255, 255, 255)
+MUTED_COLOR = (136, 153, 170)
+DARK_TEAL   = (15, 42, 30)
 
-# 카테고리 키워드
 GAMING_KEYS = ["steam", "game", "gaming", "xbox", "playstation",
                "nintendo", "fallout", "portable", "handheld", "deck"]
 
+# 주제별 해시태그
+HASHTAG_MAP = {
+    "chrome":   "#Chrome #ChromeExtensions #Google #Browser #WebDev",
+    "manifest": "#ChromeExtensions #ManifestV3 #Google #WebDev #Browser",
+    "samsung":  "#Samsung #Android #Privacy #Tech #Smartphone",
+    "android":  "#Android #Google #Privacy #Tech #Smartphone",
+    "steam":    "#Steam #SteamMachine #PCGaming #Valve #Gaming",
+    "gaming":   "#PCGaming #Gaming #Steam #Valve #Gamer",
+    "fallout":  "#Fallout #Gaming #RPG #Bethesda #PCGaming",
+    "portable": "#PortableGaming #SteamDeck #Handheld #Gaming #PCGaming",
+    "default_tech":   "#Tech #Digital #Productivity #Software #Innovation",
+    "default_gaming": "#Gaming #PCGaming #Steam #Gamer #VideoGames",
+}
 
-# ── 유틸 ──────────────────────────────────────────────────────────────
+def get_hashtags(title, category):
+    t = title.lower()
+    for key in ["manifest", "chrome", "samsung", "android", "fallout", "portable", "steam"]:
+        if key in t:
+            return HASHTAG_MAP[key]
+    if "gaming" in t or category == "GAMING":
+        return HASHTAG_MAP["default_gaming"]
+    return HASHTAG_MAP["default_tech"]
 
-def slugify(text):
-    text = text.lower().strip()
-    text = re.sub(r"[^\w\s-]", "", text)
-    text = re.sub(r"[\s_]+", "-", text)
-    return text[:60]
+
+def get_hook(title, excerpt, category):
+    """글 제목/내용 기반으로 트윗 후킹 문장 1줄 생성 — 글별 고유 문장."""
+    t = title.lower()
+
+    # Chrome / Manifest — 글별로 다른 문장
+    if "deprecation" in t and ("complete guide" in t or "hub" in t):
+        return "Google's Chrome extension deadline is August 31. Here's the full picture — what broke, why, and what to do next."
+    if "how to check" in t and "manifest" in t:
+        return "Not sure which of your Chrome extensions will survive August 31? Here's exactly how to check in 30 seconds."
+    if "alternatives" in t and "manifest" in t:
+        return "Your go-to Chrome extensions are going away. These are the replacements that actually hold up under Manifest V3."
+    if "what is" in t and ("manifest v3" in t or "extensions break" in t):
+        return "Millions of Chrome users lost extensions without warning. Here's the actual reason — and it's not going away."
+
+    # Samsung Health
+    if "samsung health" in t and "backup" in t:
+        return "Switching phones or deleting your Samsung account? Don't lose years of health data first."
+    if "samsung health" in t and ("google" in t or "comparison" in t):
+        return "Samsung Health vs Google Health Connect — we broke down exactly which one handles your data better."
+
+    # Steam Machine
+    if "steam machine" in t and "overheating" in t:
+        return "The red light on your Steam Machine isn't what you think. Valve confirmed it's a BIOS bug — not a hardware failure."
+    if "steam machine" in t and "led" in t:
+        return "Every Steam Machine LED color means something different. Here's what each warning light actually tells you."
+
+    # Android / Privacy
+    if "secure folder" in t or "safe folder" in t:
+        return "Samsung Secure Folder vs Google Files Safe Folder — one uses Knox hardware encryption. The other doesn't."
+
+    # fallback — excerpt 활용 (보일러플레이트 제거)
+    clean = excerpt
+    for pattern in [
+        r"In an increasingly digital world[^.]*\.",
+        r"As technology continues[^.]*\.",
+        r"In today's (rapidly|fast)[^.]*\.",
+        r"With the rise of[^.]*\.",
+    ]:
+        clean = re.sub(pattern, "", clean).strip()
+    if clean and len(clean) > 20:
+        return clean[:140].rsplit(" ", 1)[0] + ("…" if len(clean) > 140 else "")
+    return f"New on Frontbuffer: {title}"
+
+
+def get_font(size, bold=False):
+    font_paths = []
+    if sys.platform == "win32":
+        win = os.environ.get("WINDIR", "C:\\Windows")
+        font_paths = [
+            os.path.join(win, "Fonts", "arialbd.ttf" if bold else "arial.ttf"),
+            os.path.join(win, "Fonts", "segoeui.ttf"),
+        ]
+    else:
+        font_paths = [
+            "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf" if bold else "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+        ]
+    for fp in font_paths:
+        if os.path.exists(fp):
+            try:
+                return ImageFont.truetype(fp, size)
+            except Exception:
+                pass
+    return ImageFont.load_default()
 
 
 def parse_md(filepath):
-    """MD 파일에서 제목 / 카테고리 / 첫 문단 추출."""
     text = Path(filepath).read_text(encoding="utf-8")
-
-    # front matter 파싱
-    title    = ""
+    title = ""
     category = "TECH"
-    excerpt  = ""
+    excerpt = ""
 
     fm_match = re.match(r"^---\s*\n(.*?)\n---", text, re.DOTALL)
     if fm_match:
         fm = fm_match.group(1)
-        t  = re.search(r"^title:\s*['\"]?(.+?)['\"]?\s*$", fm, re.MULTILINE)
+        t = re.search(r"^title:\s*['\"]?(.+?)['\"]?\s*$", fm, re.MULTILINE)
         if t:
             title = t.group(1).strip().strip("'\"")
         e = re.search(r"^excerpt:\s*['\"]?(.+?)['\"]?\s*$", fm, re.MULTILINE)
@@ -79,13 +150,11 @@ def parse_md(filepath):
             cats = c.group(1).lower()
             category = "GAMING" if "gaming" in cats else "TECH"
 
-    # front matter 없으면 H1에서 제목 추출
     if not title:
         h1 = re.search(r"^# (.+)$", text, re.MULTILINE)
         if h1:
             title = h1.group(1).strip()
 
-    # excerpt 없으면 본문 첫 문단
     if not excerpt:
         body = re.sub(r"^---.*?---\s*", "", text, flags=re.DOTALL)
         body = re.sub(r"^#.+$", "", body, flags=re.MULTILINE)
@@ -95,226 +164,179 @@ def parse_md(filepath):
             raw = lines[0]
             excerpt = raw[:120].rsplit(" ", 1)[0] + "…" if len(raw) > 120 else raw
 
-    # 카테고리 키워드로 재판정
-    slug_check = slugify(title)
-    if any(k in slug_check for k in GAMING_KEYS):
+    if any(k in title.lower() for k in GAMING_KEYS):
         category = "GAMING"
 
     return title, category, excerpt
 
 
-def wrap_svg_text(text, max_chars=32):
-    """SVG용 텍스트 줄바꿈 — 최대 2줄."""
-    if len(text) <= max_chars:
-        return [text]
-    words  = text.split()
-    lines  = []
+def wrap_text(text, font, max_width, draw):
+    words = text.split()
+    lines = []
     current = ""
     for word in words:
-        if len(current) + len(word) + 1 <= max_chars:
-            current = (current + " " + word).strip()
+        test = (current + " " + word).strip()
+        bbox = draw.textbbox((0, 0), test, font=font)
+        if bbox[2] <= max_width:
+            current = test
         else:
             if current:
                 lines.append(current)
             current = word
-        if len(lines) == 1 and current:
-            # 2줄 초과 방지 — 남은 내용 줄임
-            pass
-    if current:
+        if len(lines) == 2:
+            current = current[:40] + "…"
+            break
+    if current and len(lines) < 3:
         lines.append(current)
-    # 최대 2줄
-    if len(lines) > 2:
-        lines = lines[:2]
-        lines[-1] = lines[-1][:max_chars - 1] + "…"
-    return lines
+    return lines[:2]
 
 
-def generate_svg(title, category, excerpt):
-    """Frontbuffer 브랜드 OG 이미지 SVG 생성."""
-    title_lines   = wrap_svg_text(title, max_chars=30)
-    excerpt_lines = wrap_svg_text(excerpt, max_chars=52)
+def draw_rounded_rect(draw, xy, radius, fill, outline=None, outline_width=2):
+    x1, y1, x2, y2 = xy
+    draw.rectangle([x1 + radius, y1, x2 - radius, y2], fill=fill)
+    draw.rectangle([x1, y1 + radius, x2, y2 - radius], fill=fill)
+    draw.ellipse([x1, y1, x1 + radius*2, y1 + radius*2], fill=fill)
+    draw.ellipse([x2 - radius*2, y1, x2, y1 + radius*2], fill=fill)
+    draw.ellipse([x1, y2 - radius*2, x1 + radius*2, y2], fill=fill)
+    draw.ellipse([x2 - radius*2, y2 - radius*2, x2, y2], fill=fill)
+    if outline:
+        draw.rectangle([x1 + radius, y1, x2 - radius, y1 + outline_width], fill=outline)
+        draw.rectangle([x1 + radius, y2 - outline_width, x2 - radius, y2], fill=outline)
+        draw.rectangle([x1, y1 + radius, x1 + outline_width, y2 - radius], fill=outline)
+        draw.rectangle([x2 - outline_width, y1 + radius, x2, y2 - radius], fill=outline)
 
-    # 제목 y 위치 (줄 수에 따라 조정)
-    title_start_y = 280 if len(title_lines) == 1 else 255
 
-    # 제목 SVG 텍스트 블록
-    title_svgs = ""
-    for i, line in enumerate(title_lines):
-        y = title_start_y + i * 62
-        title_svgs += f'<text x="80" y="{y}" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="52" fill="#ffffff" letter-spacing="-1">{line}</text>\n'
+def generate_og_image(title, category, excerpt, out_path):
+    # 제목 길이에 따라 폰트 크기 자동 조정
+    title_font_size = 54 if len(title) <= 40 else (44 if len(title) <= 60 else 36)
 
-    # excerpt y 위치
-    excerpt_start_y = title_start_y + len(title_lines) * 62 + 30
-    excerpt_svgs = ""
-    for i, line in enumerate(excerpt_lines):
-        y = excerpt_start_y + i * 30
-        excerpt_svgs += f'<text x="80" y="{y}" font-family="Arial, Helvetica, sans-serif" font-weight="300" font-size="22" fill="#8899aa" letter-spacing="0.3">{line}</text>\n'
+    img  = Image.new("RGB", (OG_WIDTH, OG_HEIGHT), BG_COLOR)
+    draw = ImageDraw.Draw(img, "RGBA")
 
-    # 카테고리 뱃지 색상
-    badge_fill   = "#0f2a1e" if category == "GAMING" else "#0a1a2e"
-    badge_stroke = "#2ec4b0"
+    for y in [157, 315, 472]:
+        draw.line([(0, y), (OG_WIDTH, y)], fill=(255, 255, 255, 10), width=1)
+    for x in [300, 600, 900]:
+        draw.line([(x, 0), (x, OG_HEIGHT)], fill=(255, 255, 255, 10), width=1)
 
-    svg = f"""<svg width="{OG_WIDTH}" height="{OG_HEIGHT}" xmlns="http://www.w3.org/2000/svg">
+    cx, cy = 1050, 315
+    for r, alpha in [(320, 25), (220, 20), (120, 15)]:
+        overlay = Image.new("RGBA", img.size, (0, 0, 0, 0))
+        ov_draw = ImageDraw.Draw(overlay)
+        ov_draw.ellipse([cx-r, cy-r, cx+r, cy+r], outline=(*TEAL_COLOR, alpha), width=1)
+        img.paste(Image.alpha_composite(img.convert("RGBA"), overlay).convert("RGB"))
+        draw = ImageDraw.Draw(img, "RGBA")
 
-  <!-- 배경 -->
-  <rect width="{OG_WIDTH}" height="{OG_HEIGHT}" fill="#1a2035"/>
+    font_brand   = get_font(28, bold=True)
+    font_label   = get_font(15)
+    font_title   = get_font(title_font_size, bold=True)
+    font_excerpt = get_font(22)
+    font_badge   = get_font(14, bold=True)
+    font_domain  = get_font(18)
 
-  <!-- 그리드 라인 -->
-  <line x1="0" y1="157" x2="{OG_WIDTH}" y2="157" stroke="#ffffff" stroke-width="0.5" opacity="0.04"/>
-  <line x1="0" y1="315" x2="{OG_WIDTH}" y2="315" stroke="#ffffff" stroke-width="0.5" opacity="0.04"/>
-  <line x1="0" y1="472" x2="{OG_WIDTH}" y2="472" stroke="#ffffff" stroke-width="0.5" opacity="0.04"/>
-  <line x1="300" y1="0" x2="300" y2="{OG_HEIGHT}" stroke="#ffffff" stroke-width="0.5" opacity="0.04"/>
-  <line x1="600" y1="0" x2="600" y2="{OG_HEIGHT}" stroke="#ffffff" stroke-width="0.5" opacity="0.04"/>
-  <line x1="900" y1="0" x2="900" y2="{OG_HEIGHT}" stroke="#ffffff" stroke-width="0.5" opacity="0.04"/>
+    draw.text((80, 55), "FRONTBUFFER", font=font_brand, fill=TEAL_COLOR)
+    draw.text((83, 92), "EDITORIAL", font=font_label, fill=MUTED_COLOR)
+    draw.line([(80, 130), (500, 130)], fill=(*TEAL_COLOR, 80), width=1)
 
-  <!-- 우측 장식 원 -->
-  <circle cx="1050" cy="315" r="320" fill="none" stroke="#2ec4b0" stroke-width="0.6" opacity="0.1"/>
-  <circle cx="1050" cy="315" r="220" fill="none" stroke="#2ec4b0" stroke-width="0.6" opacity="0.08"/>
-  <circle cx="1050" cy="315" r="120" fill="none" stroke="#2ec4b0" stroke-width="0.6" opacity="0.06"/>
+    title_lines = wrap_text(title, font_title, 900, draw)
+    ty = 175
+    for line in title_lines:
+        draw.text((80, ty), line, font=font_title, fill=WHITE_COLOR)
+        ty += title_font_size + 14
 
-  <!-- 좌측 상단 브랜드 -->
-  <text x="80" y="90" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="28" fill="#2ec4b0" letter-spacing="1">FRONTBUFFER</text>
-  <text x="83" y="118" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="16" fill="#5a6a7a" letter-spacing="3">EDITORIAL</text>
+    excerpt_lines = wrap_text(excerpt, font_excerpt, 950, draw)
+    ty += 20
+    for line in excerpt_lines:
+        draw.text((80, ty), line, font=font_excerpt, fill=MUTED_COLOR)
+        ty += 34
 
-  <!-- 구분선 -->
-  <line x1="80" y1="140" x2="500" y2="140" stroke="#2ec4b0" stroke-width="1" opacity="0.3"/>
+    badge_bg = DARK_TEAL if category == "GAMING" else (10, 26, 46)
+    draw_rounded_rect(draw, [80, 555, 200, 595], radius=6, fill=badge_bg, outline=TEAL_COLOR)
+    bbox = draw.textbbox((0, 0), category, font=font_badge)
+    bw = bbox[2] - bbox[0]
+    draw.text((140 - bw // 2, 568), category, font=font_badge, fill=TEAL_COLOR)
 
-  <!-- 제목 -->
-  {title_svgs}
+    domain = "frontbuffer.net"
+    bbox = draw.textbbox((0, 0), domain, font=font_domain)
+    dw = bbox[2] - bbox[0]
+    draw.text((OG_WIDTH - 80 - dw, 578), domain, font=font_domain, fill=(*TEAL_COLOR, 130))
 
-  <!-- excerpt -->
-  {excerpt_svgs}
-
-  <!-- 카테고리 뱃지 -->
-  <rect x="80" y="560" width="120" height="36" rx="6" fill="{badge_fill}" stroke="{badge_stroke}" stroke-width="1.5"/>
-  <text x="140" y="583" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#2ec4b0" letter-spacing="2">{category}</text>
-
-  <!-- 우측 하단 도메인 -->
-  <text x="1120" y="590" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="18" fill="#2ec4b0" opacity="0.5" letter-spacing="1">frontbuffer.net</text>
-
-</svg>"""
-    return svg
+    img.save(out_path, "PNG")
 
 
 def generate_tweet(title, category, excerpt, url_slug):
-    """트윗 문구 3가지 버전 생성."""
-    hashtags_tech   = "#Tech #Chrome #Google #Browser"
-    hashtags_gaming = "#Gaming #Steam #PCGaming #Valve"
-    hashtags = hashtags_gaming if category == "GAMING" else hashtags_tech
+    cat_path = "gaming" if category == "GAMING" else "tech"
+    url      = f"https://frontbuffer.net/{cat_path}/{url_slug}/"
+    hook     = get_hook(title, excerpt, category)
+    hashtags = get_hashtags(title, category)
 
-    url_placeholder = f"https://frontbuffer.net/{'gaming' if category == 'GAMING' else 'tech'}/{url_slug}/"
+    return f"""{hook}
 
-    tweet1 = f"{excerpt}\n\n{url_placeholder}\n\n{hashtags}"
-    tweet2 = f"{title}\n\n{url_placeholder}\n\n{hashtags}"
-    tweet3 = f"New on Frontbuffer:\n{title}\n\n{url_placeholder}\n\n{hashtags}"
+{url}
 
-    return f"""=== 트윗 문구 3가지 버전 ===
-제목: {title}
-카테고리: {category}
-URL: {url_placeholder}
-
----[ 버전 1 — excerpt 중심 ]---
-{tweet1}
-
----[ 버전 2 — 제목 중심 ]---
-{tweet2}
-
----[ 버전 3 — 브랜드 중심 ]---
-{tweet3}
-
-해시태그 추가 옵션:
-  TECH:   #SEO #WebDev #Developer #ChromeExtensions
-  GAMING: #IndieGaming #GameDev #SteamDeck #PCMaster
-"""
+{hashtags}"""
 
 
 def process_file(md_path, force=False):
-    """단일 MD 파일 처리."""
-    stem      = Path(md_path).stem
-    out_png   = os.path.join(OUTPUT_DIR, f"og_{stem}.png")
-    out_tweet = os.path.join(OUTPUT_DIR, f"tweet_{stem}.txt")
+    stem     = Path(md_path).stem
+    url_slug = re.sub(r"^\d{4}-\d{2}-\d{2}-", "", stem)
+    slug_dir = os.path.join(OUTPUT_DIR, url_slug)
+    out_png  = os.path.join(slug_dir, "og.png")
+    out_tweet= os.path.join(slug_dir, "tweet.txt")
 
-    # 이미 처리됐으면 스킵 (--all 플래그 없으면)
     if not force and os.path.exists(out_png) and os.path.exists(out_tweet):
-        print(f"  ✅ 이미 처리됨 — 스킵: {stem}")
+        print(f"  ✅ 스킵: {url_slug}")
         return False
 
-    print(f"  🆕 처리 중: {stem}")
-
-    # MD 파싱
+    print(f"  🆕 처리 중: {url_slug}")
     title, category, excerpt = parse_md(md_path)
     if not title:
-        print(f"  ⚠️ 제목 추출 실패 — 스킵: {stem}")
+        print(f"  ⚠️ 제목 추출 실패 — 스킵")
         return False
 
-    print(f"     제목: {title[:50]}...")
-    print(f"     카테고리: {category}")
+    print(f"     제목: {title[:55]}...")
+    os.makedirs(slug_dir, exist_ok=True)
 
-    # URL 슬러그 추출 (파일명에서 날짜 제거)
-    url_slug = re.sub(r"^\d{4}-\d{2}-\d{2}-", "", stem)
+    generate_og_image(title, category, excerpt, out_png)
+    tweet = generate_tweet(title, category, excerpt, url_slug)
+    Path(out_tweet).write_text(tweet, encoding="utf-8")
 
-    # SVG 생성
-    svg_text = generate_svg(title, category, excerpt)
-
-    # PNG 변환
-    os.makedirs(OUTPUT_DIR, exist_ok=True)
-    cairosvg.svg2png(
-        bytestring=svg_text.encode("utf-8"),
-        write_to=out_png,
-        output_width=OG_WIDTH,
-        output_height=OG_HEIGHT
-    )
-    print(f"     📸 PNG 저장: {out_png}")
-
-    # 트윗 문구 저장
-    tweet_text = generate_tweet(title, category, excerpt, url_slug)
-    Path(out_tweet).write_text(tweet_text, encoding="utf-8")
-    print(f"     📝 트윗 저장: {out_tweet}")
-
+    print(f"     📸 {out_png}")
+    print(f"     📝 {out_tweet}")
     return True
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Frontbuffer OG 이미지 + 트윗 문구 생성기")
-    parser.add_argument("--all",  action="store_true", help="이미 처리된 파일도 재생성")
-    parser.add_argument("--file", default="",          help="특정 파일만 처리 (파일명)")
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--all",  action="store_true")
+    parser.add_argument("--file", default="")
     args = parser.parse_args()
 
     print(f"\n{'='*60}")
     print(f"📸 Frontbuffer OG 생성기")
     print(f"{'='*60}")
 
-    # _posts/ 폴더 확인
     if not os.path.exists(POSTS_DIR):
         print(f"❌ '{POSTS_DIR}' 폴더 없음")
-        print(f"   _posts/ 폴더를 이 스크립트와 같은 위치에 복붙하세요.")
         sys.exit(1)
 
-    # 특정 파일 지정
     if args.file:
-        target = os.path.join(POSTS_DIR, args.file)
-        if not os.path.exists(target):
-            # 확장자 없으면 .md 붙여서 재시도
-            target = target if target.endswith(".md") else target + ".md"
+        target = args.file if args.file.endswith(".md") else args.file + ".md"
+        target = os.path.join(POSTS_DIR, os.path.basename(target))
         if not os.path.exists(target):
             print(f"❌ 파일 없음: {target}")
             sys.exit(1)
         process_file(target, force=True)
         return
 
-    # 전체 처리
     md_files = sorted(Path(POSTS_DIR).glob("*.md"))
     if not md_files:
-        print(f"❌ '{POSTS_DIR}' 폴더에 MD 파일 없음")
+        print(f"❌ '{POSTS_DIR}' 에 MD 파일 없음")
         sys.exit(1)
 
     print(f"  _posts/ 파일: {len(md_files)}개\n")
-
-    processed = 0
-    skipped   = 0
+    processed = skipped = 0
     for md in md_files:
-        result = process_file(str(md), force=args.all)
-        if result:
+        if process_file(str(md), force=args.all):
             processed += 1
         else:
             skipped += 1

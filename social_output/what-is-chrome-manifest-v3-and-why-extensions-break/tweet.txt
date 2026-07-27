@@ -1,0 +1,5 @@
+Millions of Chrome users lost extensions without warning. Here's the actual reason — and it's not going away.
+
+https://frontbuffer.net/tech/what-is-chrome-manifest-v3-and-why-extensions-break/
+
+#ChromeExtensions #ManifestV3 #Google #WebDev #Browser

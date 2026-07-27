@@ -1,0 +1,266 @@
+[
+  {
+    "cluster_name": "Steam Machine Hardware Management",
+    "content_type": "GUIDE",
+    "suggested_title": "How to Troubleshoot Steam Machine Overheating and Red Light Issues",
+    "hub_keyword": "Steam Machine",
+    "parent_hub": "Steam Machine",
+    "spoke_keywords": [
+      "steam machine red light fix",
+      "steam machine overheating troubleshooting",
+      "how to stop steam machine from overheating"
+    ],
+    "evergreen_score": 95,
+    "competition_level": "LOW",
+    "affiliate_potential": "LOW",
+    "timing": "NOW",
+    "verifiability": "HIGH",
+    "trends_queries": [
+      "steam machine red light",
+      "steam machine overheating"
+    ],
+    "reasoning": "밸브의 스팀 머신 발열 및 경고등 문제를 다루는 가이드로, 공식 문서와 하드웨어 점검 절차를 통해 작성 가능하며 영구적인 하드웨어 자가 정비 수요를 저격합니다."
+  },
+  {
+    "cluster_name": "Steam Machine Hardware Management",
+    "content_type": "COMPARISON",
+    "suggested_title": "Steam Machine vs Steam Deck Performance and Price Comparison",
+    "hub_keyword": "Steam Machine",
+    "parent_hub": "Steam Machine",
+    "spoke_keywords": [
+      "steam machine vs steam deck",
+      "steam machine performance vs steam deck",
+      "steam deck or steam machine buy"
+    ],
+    "evergreen_score": 90,
+    "competition_level": "MEDIUM",
+    "affiliate_potential": "MEDIUM",
+    "timing": "NOW",
+    "verifiability": "HIGH",
+    "trends_queries": [
+      "steam machine vs steam deck",
+      "steam deck performance comparison"
+    ],
+    "reasoning": "밸브의 거치형 기기인 스팀 머신과 휴대용 스팀 덱의 사양 및 포지셔닝을 공식 스펙 시트 기반으로 비교하여 구매를 고민하는 유저에게 지속적인 정보를 제공합니다."
+  },
+  {
+    "cluster_name": "Steam Machine Hardware Management",
+    "content_type": "EXPLAINER",
+    "suggested_title": "What is Steam Machine Verified Medal and How It Works",
+    "hub_keyword": "Steam Machine",
+    "parent_hub": "Steam Machine",
+    "spoke_keywords": [
+      "steam machine verified games list",
+      "what is steam machine verified",
+      "how to check steam machine compatibility"
+    ],
+    "evergreen_score": 88,
+    "competition_level": "LOW",
+    "affiliate_potential": "LOW",
+    "timing": "NOW",
+    "verifiability": "HIGH",
+    "trends_queries": [
+      "steam machine verified",
+      "steam machine compatibility check"
+    ],
+    "reasoning": "스팀 스토어에 도입된 스팀 머신 호환성 인증 마크의 기준과 확인 방법을 설명하는 글로, 플랫폼 생태계가 유지되는 한 지속적으로 검색될 롱테일 키워드입니다."
+  },
+  {
+    "cluster_name": "Samsung Health Data Ecosystem",
+    "content_type": "GUIDE",
+    "suggested_title": "How to Backup Samsung Health Data Before Account Deletion",
+    "hub_keyword": "Samsung Health",
+    "parent_hub": "Samsung Health",
+    "spoke_keywords": [
+      "how to export samsung health data",
+      "backup samsung health to google fit",
+      "prevent samsung health data loss"
+    ],
+    "evergreen_score": 92,
+    "competition_level": "LOW",
+    "affiliate_potential": "LOW",
+    "timing": "NOW",
+    "verifiability": "HIGH",
+    "trends_queries": [
+      "samsung health backup",
+      "export samsung health data"
+    ],
+    "reasoning": "삼성 헬스의 데이터 동의 정책 변경에 대응하여 사용자가 자신의 운동 및 건강 기록을 수동으로 백업하고 내보내는 방법을 공식 가이드 기준으로 정리하여 신뢰도가 높습니다."
+  },
+  {
+    "cluster_name": "Samsung Health Data Ecosystem",
+    "content_type": "COMPARISON",
+    "suggested_title": "Samsung Health vs Google Health Connect Feature Comparison",
+    "hub_keyword": "Samsung Health",
+    "parent_hub": "Samsung Health",
+    "spoke_keywords": [
+      "samsung health vs google health connect",
+      "samsung health data sync problems",
+      "best android health app syncing"
+    ],
+    "evergreen_score": 85,
+    "competition_level": "MEDIUM",
+    "affiliate_potential": "LOW",
+    "timing": "NOW",
+    "verifiability": "HIGH",
+    "trends_queries": [
+      "samsung health vs health connect",
+      "google health connect synchronization"
+    ],
+    "reasoning": "안드로이드 생태계 내에서 삼성 헬스와 구글 헬스 커넥트의 데이터 연동 범위와 기능 차이를 공식 문서 분석을 통해 비교하여 장기적인 검색 수요를 만족시킵니다."
+  },
+  {
+    "cluster_name": "Samsung Health Data Ecosystem",
+    "content_type": "GUIDE",
+    "suggested_title": "How to Fix Samsung Health Permission Glitch on Google Pixel",
+    "hub_keyword": "Samsung Health",
+    "parent_hub": "Samsung Health",
+    "spoke_keywords": [
+      "samsung health pixel permission error",
+      "fix samsung health tracking glitch pixel",
+      "samsung health android permissions guide"
+    ],
+    "evergreen_score": 87,
+    "competition_level": "LOW",
+    "affiliate_potential": "LOW",
+    "timing": "NOW",
+    "verifiability": "MEDIUM",
+    "trends_queries": [
+      "samsung health pixel error",
+      "samsung health permission issue"
+    ],
+    "reasoning": "타사 안드로이드 기기(구글 픽셀 등)에서 삼성 헬스 앱을 사용할 때 발생하는 권한 승인 무한 루프나 오류를 OS 설정 관점에서 해결하는 타임리스 해결 가이드입니다."
+  },
+  {
+    "cluster_name": "Assassin's Creed Black Flag Resynced Modding",
+    "content_type": "GUIDE",
+    "suggested_title": "How to Remove Yellow Filter in AC Black Flag Resynced",
+    "hub_keyword": "Black Flag Resynced",
+    "parent_hub": "Black Flag Resynced",
+    "spoke_keywords": [
+      "remove yellow filter black flag resynced",
+      "assassins creed black flag resynced graphics mod",
+      "how to change graphics settings black flag resynced"
+    ],
+    "evergreen_score": 93,
+    "competition_level": "LOW",
+    "affiliate_potential": "LOW",
+    "timing": "NOW",
+    "verifiability": "MEDIUM",
+    "trends_queries": [
+      "black flag resynced yellow filter",
+      "black flag resynced graphics mod"
+    ],
+    "reasoning": "리메이크/리마스터 버전 고유의 시각적 호불호 요소인 황색 필터를 모드(Nexus Mods)나 설정 파일 수정을 통해 제거하는 법을 안내하며, 게이머들이 수개월 뒤에도 검색할 확실한 기술 가이드입니다."
+  },
+  {
+    "cluster_name": "Assassin's Creed Black Flag Resynced Modding",
+    "content_type": "GUIDE",
+    "suggested_title": "How to Enable Offline Mode in AC Black Flag Resynced",
+    "hub_keyword": "Black Flag Resynced",
+    "parent_hub": "Black Flag Resynced",
+    "spoke_keywords": [
+      "assassins creed black flag resynced offline play",
+      "play black flag resynced without internet",
+      "ubisoft launcher offline mode guide"
+    ],
+    "evergreen_score": 89,
+    "competition_level": "LOW",
+    "affiliate_potential": "LOW",
+    "timing": "NOW",
+    "verifiability": "HIGH",
+    "trends_queries": [
+      "black flag resynced offline mode",
+      "ubisoft connect offline play"
+    ],
+    "reasoning": "런처 연결 이슈나 네트워크 차단 환경에서 싱글 플레이를 원활히 즐기기 위한 공식 오프라인 모드 설정 가이드로, 게임 플레이 없이 공식 유비소프트 지원 문서를 기반으로 작성 가능합니다."
+  },
+  {
+    "cluster_name": "Assassin's Creed Black Flag Resynced Modding",
+    "content_type": "COMPARISON",
+    "suggested_title": "AC Black Flag Resynced Standard vs Deluxe Edition Differences",
+    "hub_keyword": "Black Flag Resynced",
+    "parent_hub": "Black Flag Resynced",
+    "spoke_keywords": [
+      "black flag resynced standard vs deluxe",
+      "is black flag resynced deluxe worth it",
+      "black flag resynced dlc content list"
+    ],
+    "evergreen_score": 91,
+    "competition_level": "LOW",
+    "affiliate_potential": "HIGH",
+    "timing": "NOW",
+    "verifiability": "HIGH",
+    "trends_queries": [
+      "black flag resynced editions",
+      "black flag resynced standard vs deluxe"
+    ],
+    "reasoning": "스팀이나 상점에서 판매되는 패키지 에디션 구성품과 가격 차이를 스펙 시트 기준으로 명확히 비교하여, 할인 시즌마다 찾아오는 복귀 및 신규 구매 유저층을 지속적으로 유입시킵니다."
+  },
+  {
+    "cluster_name": "Google Chrome Manifest V2 Migration",
+    "content_type": "GUIDE",
+    "suggested_title": "How to Check If Chrome Extensions Use Manifest V2",
+    "hub_keyword": "Chrome Extensions",
+    "parent_hub": "Chrome Extensions",
+    "spoke_keywords": [
+      "check chrome extension manifest version",
+      "how to find manifest v2 extensions",
+      "chrome extension developer mode check"
+    ],
+    "evergreen_score": 94,
+    "competition_level": "LOW",
+    "affiliate_potential": "LOW",
+    "timing": "NOW",
+    "verifiability": "HIGH",
+    "trends_queries": [
+      "chrome extension manifest version",
+      "how to check manifest v3 chrome"
+    ],
+    "reasoning": "구글 크롬의 구형 확장프로그램 차단 정책에 맞춰 사용자가 설치한 앱 중 삭제 대상(Manifest V2)을 식별하는 설정 방법으로, 브라우저 내부 기능만을 활용하므로 검증이 매우 용이합니다."
+  },
+  {
+    "cluster_name": "Google Chrome Manifest V2 Migration",
+    "content_type": "LISTICLE",
+    "suggested_title": "Best Manifest V3 Alternatives for Older Chrome Extensions",
+    "hub_keyword": "Chrome Extensions",
+    "parent_hub": "Chrome Extensions",
+    "spoke_keywords": [
+      "manifest v3 ad blocker alternatives",
+      "best chrome extensions manifest v3",
+      "replace broken chrome extensions 2026"
+    ],
+    "evergreen_score": 90,
+    "competition_level": "MEDIUM",
+    "affiliate_potential": "LOW",
+    "timing": "NOW",
+    "verifiability": "HIGH",
+    "trends_queries": [
+      "manifest v3 extensions alternative",
+      "chrome extension manifest v3 upgrade"
+    ],
+    "reasoning": "지원 중단되는 구형 확장프로그램들을 대체할 수 있는 공식 크롬 웹스토어의 MV3 인증 우수 대체제들을 카테고리별로 안전하게 추천하는 롱테일 정보성 리스트입니다."
+  },
+  {
+    "cluster_name": "Google Chrome Manifest V2 Migration",
+    "content_type": "EXPLAINER",
+    "suggested_title": "What is Chrome Manifest V3 and Why Extensions Break",
+    "hub_keyword": "Chrome Extensions",
+    "parent_hub": "Chrome Extensions",
+    "spoke_keywords": [
+      "why chrome extensions stop working",
+      "what is chrome manifest v3 upgrade",
+      "difference between manifest v2 and v3"
+    ],
+    "evergreen_score": 86,
+    "competition_level": "MEDIUM",
+    "affiliate_potential": "LOW",
+    "timing": "NOW",
+    "verifiability": "HIGH",
+    "trends_queries": [
+      "chrome manifest v3 explained",
+      "why are chrome extensions disabled"
+    ],
+    "reasoning": "크롬의 보안 정책 변화가 확장프로그램 작동 방식(네트워크 요청 차단 등)에 미친 영향을 기술 문서 기반으로 알기 쉽게 풀어내어, 장기적으로 에러 원인을 찾는 유저들에게 최적화된 콘텐츠입니다."
+  }
+]

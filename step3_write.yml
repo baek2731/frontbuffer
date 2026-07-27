@@ -1,0 +1,190 @@
+# =====================================================================
+# Step 3: 글 생성 + final/ 스택 저장 (v5 — 품질 체크 추가)
+# =====================================================================
+
+name: "Step 3 — Write Articles"
+
+on:
+  workflow_dispatch:
+  workflow_run:
+    workflows: ["Step 2 — Gemini 1차 호출 → 기획안 생성 + Grade 판정"]
+    types:
+      - completed
+
+jobs:
+  write:
+    runs-on: ubuntu-latest
+    timeout-minutes: 80   # 품질 체크 시간 추가 여유
+
+    if: >
+      github.event_name == 'workflow_dispatch' ||
+      github.event.workflow_run.conclusion == 'success'
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Configure Git
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      # ── Step 3 메인: 글 생성 루프 ─────────────────────────────────
+      - name: Write all pending articles
+        env:
+          GEMINI_API_KEY:  ${{ secrets.GEMINI_API_KEY }}
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: |
+          MAX_ARTICLES=20
+          COUNT=0
+          LAST_ITEM=""
+          FAIL_STREAK=0
+          FAILURES=""
+          NEW_FILES=""    # 이번 배치에서 새로 생성된 final/ 파일 목록
+
+          while [ $COUNT -lt $MAX_ARTICLES ]; do
+
+            RESULT=$(python write.py next --json)
+            OK=$(echo "$RESULT" | python -c "import sys,json; print(json.load(sys.stdin).get('ok', False))")
+
+            if [ "$OK" != "True" ]; then
+              echo "✅ 처리할 대상 없음 — 루프 종료"
+              break
+            fi
+
+            CLUSTER=$(echo "$RESULT" | python -c "import sys,json; print(json.load(sys.stdin)['cluster_name'])")
+            TYPE=$(echo "$RESULT"    | python -c "import sys,json; print(json.load(sys.stdin)['content_type'])")
+            ITEM="${CLUSTER}__${TYPE}"
+
+            if [ "$ITEM" = "$LAST_ITEM" ]; then
+              FAIL_STREAK=$((FAIL_STREAK + 1))
+              if [ $FAIL_STREAK -ge 2 ]; then
+                echo "⛔ [$CLUSTER][$TYPE] 2회 연속 실패 — 포기, 루프 종료"
+                FAILURES="${FAILURES:+$FAILURES,}[$TYPE] $CLUSTER"
+                break
+              fi
+              echo "⚠️ 같은 항목 재시도 (${FAIL_STREAK}회차)"
+            else
+              LAST_ITEM="$ITEM"
+              FAIL_STREAK=0
+            fi
+
+            COUNT=$((COUNT + 1))
+            echo ""
+            echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+            echo "[$COUNT] 🖊️  $CLUSTER [$TYPE]"
+            echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+
+            echo "📝 [1/4] prep..."
+            if ! python write.py prep "$CLUSTER" --type "$TYPE"; then
+              echo "❌ prep 실패 — 다음 루프로"
+              FAILURES="${FAILURES:+$FAILURES,}[$TYPE] $CLUSTER (prep 실패)"
+              continue
+            fi
+
+            echo "🤖 [2/4] Gemini 초안..."
+            if ! python gemini_api.py --cluster "$CLUSTER" --type "$TYPE"; then
+              echo "❌ Gemini 초안 실패 — 다음 루프로"
+              FAILURES="${FAILURES:+$FAILURES,}[$TYPE] $CLUSTER (초안 실패)"
+              continue
+            fi
+
+            echo "🔍 [3/4] review prompt..."
+            if ! python write.py review "$CLUSTER" --type "$TYPE"; then
+              echo "❌ review 실패 — 다음 루프로"
+              FAILURES="${FAILURES:+$FAILURES,}[$TYPE] $CLUSTER (review 실패)"
+              continue
+            fi
+
+            echo "✨ [4/4] Gemini 그라운딩 팩트체크..."
+            if ! python gemini_review_api.py --cluster "$CLUSTER" --type "$TYPE"; then
+              echo "❌ Gemini Review 실패 — 다음 루프로"
+              FAILURES="${FAILURES:+$FAILURES,}[$TYPE] $CLUSTER (팩트체크 실패)"
+              continue
+            fi
+
+            # 새로 생성된 final/ 파일 추적 (품질 체크용)
+            # write.py slugify()와 동일한 로직으로 생성 (특수문자 제거 + 60자 제한)
+            SLUG=$(python -c "import re,sys; t=sys.argv[1].lower().strip(); t=re.sub(r'[^\w\s-]','',t); t=re.sub(r'[\s_]+','-',t); print(t[:60])" "$CLUSTER")
+            FINAL_FILE="research_data/write/final/${SLUG}_${TYPE}.md"
+            if [ -f "$FINAL_FILE" ]; then
+              NEW_FILES="${NEW_FILES:+$NEW_FILES,}$FINAL_FILE"
+            fi
+
+            git stash
+            git pull origin main --rebase
+            git stash pop || true
+            git add research_data/write/final/
+
+            if git diff --cached --quiet; then
+              echo "⚠️ final/ 변경사항 없음 — 커밋 스킵"
+            else
+              git commit -m "feat: [$TYPE] $CLUSTER 최종본 생성"
+              git push origin HEAD:main
+              echo "✅ 커밋 완료: [$TYPE] $CLUSTER"
+            fi
+
+            FAIL_STREAK=0
+
+          done
+
+          echo ""
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+          echo "🏁 전체 완료: $COUNT 건 처리"
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+
+          STACK=$(find research_data/write/final -name "*.md" \
+                  ! -name "review_report_*" 2>/dev/null | wc -l || echo 0)
+          echo "WRITE_COUNT=$COUNT"        >> $GITHUB_ENV
+          echo "WRITE_STACK=$STACK"        >> $GITHUB_ENV
+          echo "WRITE_FAILURES=$FAILURES"  >> $GITHUB_ENV
+          echo "NEW_FILES=$NEW_FILES"      >> $GITHUB_ENV
+
+      # ── 품질 체크 ─────────────────────────────────────────────────
+      # final/ 에 새로 추가된 파일만 대상으로 Gemini YES/NO 평가
+      # quality_report.json 생성 → notify.py가 읽어서 Discord 전송
+      - name: "🔍 품질 체크 — 신규 글 평가"
+        if: env.WRITE_COUNT != '0'
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          if [ -n "${{ env.NEW_FILES }}" ]; then
+            echo "📋 체크 대상: ${{ env.NEW_FILES }}"
+            python quality_check.py --files "${{ env.NEW_FILES }}"
+          else
+            # NEW_FILES 추적 실패 시 final/ 전체 체크 (안전망)
+            echo "⚠️ NEW_FILES 없음 — final/ 전체 체크로 대체"
+            python quality_check.py
+          fi
+
+      # ── quality_report.json 커밋 ──────────────────────────────────
+      - name: "💾 품질 리포트 커밋"
+        if: env.WRITE_COUNT != '0'
+        run: |
+          git pull origin main --rebase
+          git add research_data/write/quality_report.json
+          if git diff --cached --quiet; then
+            echo "ℹ️ 리포트 변경 없음 — 커밋 스킵"
+          else
+            git commit -m "chore: quality_report 업데이트"
+            git push origin HEAD:main
+          fi
+
+      # ── Discord 알림: Step 3 완료 + 품질 체크 결과 ────────────────
+      - name: "🔔 Discord 알림 — 글 생성 + 품질 체크 완료"
+        if: always()
+        run: |
+          python notify.py step3_done \
+            --count    "${{ env.WRITE_COUNT }}" \
+            --stack    "${{ env.WRITE_STACK }}" \
+            --failures "${{ env.WRITE_FAILURES }}"
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
