@@ -49,7 +49,10 @@ def slugify(text):
 
 
 def find_prompt_file(cluster_name, content_type):
-    """write.py prep이 생성한 write_prompt 파일 찾기."""
+    """
+    write.py prep이 생성한 write_prompt 파일 찾기.
+    반환: (prompt_path, actual_slug) 튜플
+    """
     slug = slugify(cluster_name)
     ct   = content_type.upper().strip()
 
@@ -57,28 +60,26 @@ def find_prompt_file(cluster_name, content_type):
     pattern = f"write_prompt_{slug}_{ct}_*.txt"
     matches = sorted(Path(PROMPTS_DIR).glob(pattern), reverse=True)
     if matches:
-        return str(matches[0])
+        return str(matches[0]), slug
 
     # 2순위: 주차 없는 파일명
     fallback = os.path.join(PROMPTS_DIR, f"write_prompt_{slug}_{ct}.txt")
     if os.path.exists(fallback):
-        return fallback
+        return fallback, slug
 
-    # 3순위: 퍼지 매칭 — slug 단어가 포함된 파일 탐색
-    # write.py가 "Google Android Ecosystem"으로 저장했는데
-    # step3가 "Android Ecosystem"으로 넘기는 경우 대응
+    # 3순위: 퍼지 매칭
     slug_words = set(slug.split("-")) - {"a", "an", "the", "and", "or", "of"}
-    candidates = sorted(Path(PROMPTS_DIR).glob(f"write_prompt_*_{ct}_*.txt"), reverse=True)
-    candidates += sorted(Path(PROMPTS_DIR).glob(f"write_prompt_*_{ct}.txt"), reverse=True)
-    for cand in candidates:
-        fname = cand.stem  # e.g. write_prompt_google-android-ecosystem_GUIDE_2026-W30
-        fname_words = set(fname.split("-"))
-        # slug 단어의 절반 이상이 파일명에 포함되면 매칭
+    cands = sorted(Path(PROMPTS_DIR).glob(f"write_prompt_*_{ct}_*.txt"), reverse=True)
+    cands += sorted(Path(PROMPTS_DIR).glob(f"write_prompt_*_{ct}.txt"), reverse=True)
+    for cand in cands:
+        fname_words = set(cand.stem.split("-"))
         if len(slug_words & fname_words) >= max(1, len(slug_words) // 2):
-            print(f"  ⚠️  퍼지 매칭으로 프롬프트 파일 발견: {cand.name}")
-            return str(cand)
+            print(f"  \u26a0\ufe0f  퍼지 매칭으로 프롬프트 파일 발견: {cand.name}")
+            stem = cand.stem[len("write_prompt_"):]
+            actual_slug = stem.rsplit(f"_{ct}", 1)[0]
+            return str(cand), actual_slug
 
-    return None
+    return None, None
 
 
 def call_gemini_api(prompt_text):
@@ -140,11 +141,12 @@ def call_gemini_api(prompt_text):
     return None
 
 
-def save_draft(draft_text, cluster_name, content_type):
-    """초안을 drafts/{slug}_{TYPE}.md 저장."""
+def save_draft(draft_text, slug_or_name, content_type):
+    """초안을 drafts/{slug}_{TYPE}.md 저장. slug_or_name이 이미 slug이면 그대로 사용."""
     os.makedirs(DRAFTS_DIR, exist_ok=True)
-    slug       = slugify(cluster_name)
-    ct         = content_type.upper().strip()
+    # 이미 slugify된 값이면 그대로, 아니면 slugify
+    slug = slug_or_name if "-" in slug_or_name and " " not in slug_or_name else slugify(slug_or_name)
+    ct   = content_type.upper().strip()
     draft_path = os.path.join(DRAFTS_DIR, f"{slug}_{ct}.md")
 
     with open(draft_path, "w", encoding="utf-8") as f:
@@ -188,7 +190,7 @@ def main():
     print(f"  모델: {GEMINI_MODEL}")
 
     # 1. 프롬프트 파일 찾기
-    prompt_path = find_prompt_file(cluster_name, content_type)
+    prompt_path, actual_slug = find_prompt_file(cluster_name, content_type)
     if not prompt_path:
         print(f"❌ write_prompt 파일 없음 — write.py prep 먼저 실행하세요.")
         print(f"   탐색 경로: {PROMPTS_DIR}/write_prompt_{slugify(cluster_name)}_{content_type}_*.txt")
@@ -238,8 +240,8 @@ def main():
         print("⚠️  품질 기준 미달 — 저장은 진행 (gemini_review_api 단계에서 재생성 가능)")
         # exit(1) 제거: 미달이어도 review 단계에서 보강 가능하므로 루프 계속
 
-    # 4. 초안 저장
-    draft_path = save_draft(draft_text, cluster_name, content_type)
+    # 4. 초안 저장 — actual_slug 사용 (퍼지매칭 시 write.py와 파일명 일치)
+    draft_path = save_draft(draft_text, actual_slug, content_type)
     print(f"  💾 초안 저장: {draft_path}")
 
     # 5. 결과 JSON 출력 (pipeline.yml에서 파싱용)
