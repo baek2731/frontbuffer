@@ -54,6 +54,10 @@ Until the BIOS patch ships, the practical threshold to watch is sustained CPU te
 
 ---
 
+For a complete breakdown of what each LED pattern means, see our [Steam Machine LED Error Codes guide](https://frontbuffer.net/gaming/steam-machine-led-error-codes-what-each-warning-light-actually-means/).
+
+---
+
 *Sources:*
 
 - [TechRadar: New Steam Machine red light warning isn't anything to worry about](https://www.techradar.com/computing/gaming-pcs/new-steam-machine-red-light-warning-isnt-anything-to-worry-about-an-overzealous-overheating-warning-is-reportedly-due-to-a-bios-bug)

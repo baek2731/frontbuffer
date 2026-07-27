@@ -42,6 +42,10 @@ The short version: install Viva New Vegas first, follow the guide in order, and 
 
 ---
 
+If you are coming back to New Vegas ahead of the confirmed remaster, see [Fallout New Vegas vs. Fallout 3 Remaster](https://frontbuffer.net/gaming/fallout-series_comparison/) for what Bethesda has confirmed so far. For a breakdown of New Vegas's faction endings before you start a modded playthrough, see [Fallout New Vegas Endings Explained](https://frontbuffer.net/gaming/fallout-series_explainer/).
+
+---
+
 Sources:
 1. [Viva New Vegas Official Guide](https://vivanewvegas.moddinglinked.com/)
 2. [Wabbajack Official Website](https://www.wabbajack.org/)

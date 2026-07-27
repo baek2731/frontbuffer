@@ -48,6 +48,10 @@ The advantage is availability. Since it runs inside the Google Files app, it wor
 The two are not really competing products. Safe Folder handles file privacy. Secure Folder handles app and data isolation at a deeper level. If you have a Samsung device, you can use both.
 
 ---
+For a related look at how Google Photos storage policy has changed and what it means for your existing library, see [Google Photos Free Storage Policy Changes Explained](https://frontbuffer.net/tech/android-ecosystem_explainer/).
+
+---
+
 Sources:
 1. [Samsung: What is Secure Folder and how do I use it?](https://www.samsung.com/us/support/answer/ANS00062400/)
 2. [Android Police: What is Samsung Secure Folder and how do you use it?](https://www.androidpolice.com/what-is-samsung-secure-folder/)

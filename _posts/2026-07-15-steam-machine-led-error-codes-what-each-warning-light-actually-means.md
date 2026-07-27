@@ -61,6 +61,10 @@ The LED bar on the Steam Machine is doing real diagnostic work — the problem i
 
 ---
 
+If the red bar appears during normal gaming rather than after a hardware change, the cause is more likely a BIOS threshold issue — covered in detail in [How to Troubleshoot Steam Machine Overheating and Red Light Issues](https://frontbuffer.net/gaming/how-to-troubleshoot-steam-machine-overheating-and-red-light-issues/).
+
+---
+
 Sources:
 
 * [Wikipedia — Steam Machine (2026)](https://en.wikipedia.org/wiki/Steam_Machine_(2026))

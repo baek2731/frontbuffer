@@ -66,6 +66,10 @@ For users looking to move their fitness tracking to a different ecosystem, explo
 
 ---
 
+For users moving to a new Android device rather than deleting the account entirely, the data transfer process works differently — see [How to Transfer Samsung Health Data When Switching Android Phones](https://frontbuffer.net/tech/android-ecosystem_guide/).
+
+---
+
 Sources:
 
 - [Samsung Support: Download or erase your personal data from Samsung Health](https://www.samsung.com/us/support/answer/ANS10001379/)

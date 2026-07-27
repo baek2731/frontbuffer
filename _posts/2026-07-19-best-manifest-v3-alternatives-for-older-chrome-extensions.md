@@ -73,6 +73,10 @@ When deploying a migrated extension, Google recommends a step-wise rollout to a 
 
 ---
 
+If you are not sure whether your current extensions are already MV3-compliant, [How to Check If Chrome Extensions Use Manifest V2](https://frontbuffer.net/tech/how-to-check-if-chrome-extensions-use-manifest-v2/) covers the quickest ways to verify. The complete reference is available in the [Chrome Manifest V2 Deprecation Guide](https://frontbuffer.net/tech/google-chrome-manifest-v2-migration_HUB/).
+
+---
+
 Sources:
 
 - [Google Chrome Developer: Migrate to Manifest V3](https://developer.chrome.com/docs/extensions/develop/migrate)

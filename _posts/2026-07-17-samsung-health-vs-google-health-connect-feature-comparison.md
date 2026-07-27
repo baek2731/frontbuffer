@@ -76,6 +76,10 @@ Despite these sync quirks, the general consensus on Samsung Health's overall val
 
 ---
 
+If you are switching phones and want to ensure your Samsung Health data carries over, see [How to Transfer Samsung Health Data When Switching Android Phones](https://frontbuffer.net/tech/android-ecosystem_guide/).
+
+---
+
 Sources:
 
 * [Wikipedia: Samsung Health](https://en.wikipedia.org/wiki/Samsung_Health)

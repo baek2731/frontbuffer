@@ -84,6 +84,10 @@ For users discovering that a favorite extension has been disabled, the Chrome We
 
 ---
 
+For working replacements that are already MV3-compliant, see [Best Manifest V3 Alternatives for Older Chrome Extensions](https://frontbuffer.net/tech/best-manifest-v3-alternatives-for-older-chrome-extensions/). For a full architectural overview of what changed, see [What is Chrome Manifest V3 and Why Extensions Break](https://frontbuffer.net/tech/what-is-chrome-manifest-v3-and-why-extensions-break/). The complete reference is available in the [Chrome Manifest V2 Deprecation Guide](https://frontbuffer.net/tech/google-chrome-manifest-v2-migration_HUB/).
+
+---
+
 Sources:
 
 - [Google Chrome: Manifest V2 Deprecation Timeline](https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline)

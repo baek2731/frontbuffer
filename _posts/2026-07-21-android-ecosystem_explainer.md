@@ -60,6 +60,10 @@ If your 15 GB is getting full:
 The era of truly unlimited free photo backup is over. The remaining workarounds are narrowing. The most reliable path forward is either accepting the compression trade-off or paying for storage.
 
 ---
+For privacy-focused file storage on Android, see [Samsung Secure Folder vs Google Files Safe Folder](https://frontbuffer.net/tech/android-ecosystem_comparison/).
+
+---
+
 Sources:
 1. [Google Blog: An update to your Google Photos storage policy](https://blog.google/products/photos/storage-update/)
 2. [Google Photos Help: About the Google Photos storage policy](https://support.google.com/photos/answer/10100180)

@@ -66,7 +66,11 @@ The question of whether *Fallout 3* and *Fallout: New Vegas* would receive offic
 
 ---
 
-**Sources:**
+*For a breakdown of what makes New Vegas's ending system distinct from Fallout 3's more linear finale, see [Fallout New Vegas Endings Explained](https://frontbuffer.net/gaming/fallout-series_explainer/). If you are planning a playthrough ahead of the remaster, see our [Fallout New Vegas Modding Guide](https://frontbuffer.net/gaming/fallout-series_guide/).
+
+---
+
+*Sources:**
 - Bethesda Game Studios Official Announcement (July 17, 2026): https://www.psu.com/news/fallout-3-fallout-new-vegas-remastered-officially-announced-by-bethesda/
 - Gizmodo: https://gizmodo.com/obviously-bethesda-is-remastering-fallout-new-vegas-and-fallout-3-2000787259
 - Fextralife: https://fextralife.com/bethesda-just-dropped-huge-news-for-fallout-fans/

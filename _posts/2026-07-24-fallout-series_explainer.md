@@ -50,6 +50,10 @@ The ending you get in *Fallout: New Vegas* isn't determined at Hoover Dam — it
 
 ---
 
+For context on why a New Vegas remaster is generating more community interest than Fallout 3, see [Fallout New Vegas vs. Fallout 3 Remaster](https://frontbuffer.net/gaming/fallout-series_comparison/). If you are returning to New Vegas for the first time in years, see our [Fallout New Vegas Modding Guide](https://frontbuffer.net/gaming/fallout-series_guide/) before starting.
+
+---
+
 Sources:
 1. [Fallout Wiki: New California Republic](https://fallout.fandom.com/wiki/New_California_Republic)
 2. [Fallout Wiki: Caesar's Legion](https://fallout.fandom.com/wiki/Caesar%27s_Legion)

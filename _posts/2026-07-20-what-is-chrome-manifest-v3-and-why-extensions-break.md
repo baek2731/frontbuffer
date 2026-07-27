@@ -89,6 +89,10 @@ Google's official guidance recommends keeping feature sets identical during migr
 
 ---
 
+For a practical list of MV3-compliant replacements for common extensions, see [Best Manifest V3 Alternatives for Older Chrome Extensions](https://frontbuffer.net/tech/best-manifest-v3-alternatives-for-older-chrome-extensions/). To check whether a specific installed extension is still running on MV2, see [How to Check If Chrome Extensions Use Manifest V2](https://frontbuffer.net/tech/how-to-check-if-chrome-extensions-use-manifest-v2/). The complete reference is available in the [Chrome Manifest V2 Deprecation Guide](https://frontbuffer.net/tech/google-chrome-manifest-v2-migration_HUB/).
+
+---
+
 Sources:
 
 - [Google Chrome: Manifest V2 Deprecation Timeline](https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline)
