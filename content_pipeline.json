@@ -1,7 +1,7 @@
 {
   "_version": "1.3",
   "_description": "콘텐츠 파이프라인 — 클러스터 단위 관리",
-  "_last_updated": "2026-07-27T08:29:01.210556+00:00",
+  "_last_updated": "2026-07-27T08:31:32.947559+00:00",
   "hub_clusters": {
     "Steam Machine": {
       "hub_keyword": "Steam Machine",
@@ -228,6 +228,39 @@
       "hub_url": "",
       "spokes": [
         "Samsung Galaxy Foldable Phones & Wearables"
+      ],
+      "spoke_urls": {},
+      "internal_links": []
+    },
+    "Samsung Galaxy Fold Flip": {
+      "hub_keyword": "Samsung Galaxy Fold Flip",
+      "hub_status": "PENDING",
+      "hub_title": "",
+      "hub_url": "",
+      "spokes": [
+        "Samsung Galaxy Fold Flip Series"
+      ],
+      "spoke_urls": {},
+      "internal_links": []
+    },
+    "Google Android Ecosystem": {
+      "hub_keyword": "Google Android Ecosystem",
+      "hub_status": "PENDING",
+      "hub_title": "",
+      "hub_url": "",
+      "spokes": [
+        "Google Android Ecosystem"
+      ],
+      "spoke_urls": {},
+      "internal_links": []
+    },
+    "PC Gaming Ecosystem": {
+      "hub_keyword": "PC Gaming Ecosystem",
+      "hub_status": "PENDING",
+      "hub_title": "",
+      "hub_url": "",
+      "spokes": [
+        "PC Gaming Ecosystem"
       ],
       "spoke_urls": {},
       "internal_links": []
@@ -697,6 +730,72 @@
       ],
       "competition_level": "MEDIUM",
       "affiliate_potential": "HIGH",
+      "trends_pattern": "UNKNOWN",
+      "trends_keyword": "",
+      "notes": ""
+    },
+    "Samsung Galaxy Fold Flip Series": {
+      "types_done": [],
+      "last_week": "2026-W30",
+      "suggest_next": [
+        "COMPARISON",
+        "GUIDE",
+        "EXPLAINER",
+        "LISTICLE"
+      ],
+      "hub_keyword": "silicon-carbon battery",
+      "parent_hub": "Samsung Galaxy Fold Flip",
+      "spoke_keywords": [
+        "galaxy z fold 8 vs fold 7 hinge",
+        "fold 8 design improvements",
+        "galaxy fold hinge durability comparison"
+      ],
+      "competition_level": "MEDIUM",
+      "affiliate_potential": "HIGH",
+      "trends_pattern": "UNKNOWN",
+      "trends_keyword": "",
+      "notes": ""
+    },
+    "Google Android Ecosystem": {
+      "types_done": [],
+      "last_week": "2026-W30",
+      "suggest_next": [
+        "COMPARISON",
+        "GUIDE",
+        "EXPLAINER",
+        "LISTICLE"
+      ],
+      "hub_keyword": "Pixel Launcher",
+      "parent_hub": "Google Android Ecosystem",
+      "spoke_keywords": [
+        "android auto whatsapp messages guide",
+        "how to use whatsapp on android auto",
+        "android auto communication features"
+      ],
+      "competition_level": "LOW",
+      "affiliate_potential": "LOW",
+      "trends_pattern": "UNKNOWN",
+      "trends_keyword": "",
+      "notes": ""
+    },
+    "PC Gaming Ecosystem": {
+      "types_done": [],
+      "last_week": "2026-W30",
+      "suggest_next": [
+        "COMPARISON",
+        "GUIDE",
+        "EXPLAINER",
+        "LISTICLE"
+      ],
+      "hub_keyword": "Minecraft system requirements",
+      "parent_hub": "PC Gaming Ecosystem",
+      "spoke_keywords": [
+        "xbox pc app not connecting",
+        "xbox app download problems fix",
+        "troubleshoot xbox pc game pass"
+      ],
+      "competition_level": "LOW",
+      "affiliate_potential": "LOW",
       "trends_pattern": "UNKNOWN",
       "trends_keyword": "",
       "notes": ""
@@ -2036,7 +2135,7 @@
         "trends_keyword": "",
         "trends_opportunities": [],
         "verifiability": "HIGH",
-        "data_grade": "A",
+        "data_grade": "C",
         "verified_keywords": [],
         "status": "candidate",
         "selected_at": "2026-07-27T08:29:01.210474+00:00"
@@ -2059,10 +2158,202 @@
         "trends_keyword": "",
         "trends_opportunities": [],
         "verifiability": "HIGH",
-        "data_grade": "A",
+        "data_grade": "C",
         "verified_keywords": [],
         "status": "candidate",
         "selected_at": "2026-07-27T08:29:01.210474+00:00"
+      },
+      {
+        "cluster_name": "Samsung Galaxy Fold Flip Series",
+        "content_type": "COMPARISON",
+        "suggested_title": "Galaxy Z Fold 8 vs Fold 7: Hinge Durability and Design Differences",
+        "hub_keyword": "Galaxy Z Fold",
+        "hub_keyword_raw": "Galaxy Z Fold",
+        "parent_hub": "Samsung Galaxy Fold Flip",
+        "spoke_keywords": [
+          "galaxy z fold 8 vs fold 7 hinge",
+          "fold 8 design improvements",
+          "galaxy fold hinge durability comparison"
+        ],
+        "competition_level": "MEDIUM",
+        "timing": "NOW",
+        "affiliate_potential": "HIGH",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "status": "candidate",
+        "selected_at": "2026-07-27T08:31:32.947383+00:00"
+      },
+      {
+        "cluster_name": "Samsung Galaxy Fold Flip Series",
+        "content_type": "GUIDE",
+        "suggested_title": "Galaxy Z Flip 8 Cover Screen Apps: How to Use and Customize Effectively",
+        "hub_keyword": "Galaxy Z Flip cover screen",
+        "hub_keyword_raw": "Galaxy Z Flip cover screen",
+        "parent_hub": "Samsung Galaxy Fold Flip",
+        "spoke_keywords": [
+          "galaxy z flip 8 cover screen apps",
+          "customize z flip 8 external display",
+          "how to use flip 8 outer screen"
+        ],
+        "competition_level": "MEDIUM",
+        "timing": "NOW",
+        "affiliate_potential": "MEDIUM",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "status": "candidate",
+        "selected_at": "2026-07-27T08:31:32.947383+00:00"
+      },
+      {
+        "cluster_name": "Samsung Galaxy Fold Flip Series",
+        "content_type": "EXPLAINER",
+        "suggested_title": "Samsung Silicon-Carbon Batteries: How They Work in Galaxy Z Fold 8",
+        "hub_keyword": "silicon-carbon battery",
+        "hub_keyword_raw": "silicon-carbon battery",
+        "parent_hub": "Samsung Galaxy Fold Flip",
+        "spoke_keywords": [
+          "samsung silicon carbon battery explained",
+          "galaxy z fold 8 battery technology",
+          "silicon carbon battery benefits"
+        ],
+        "competition_level": "MEDIUM",
+        "timing": "NOW",
+        "affiliate_potential": "LOW",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "status": "candidate",
+        "selected_at": "2026-07-27T08:31:32.947383+00:00"
+      },
+      {
+        "cluster_name": "Google Android Ecosystem",
+        "content_type": "GUIDE",
+        "suggested_title": "Android Auto WhatsApp Support: How to Send and Receive Messages",
+        "hub_keyword": "Android Auto WhatsApp",
+        "hub_keyword_raw": "Android Auto WhatsApp",
+        "parent_hub": "Google Android Ecosystem",
+        "spoke_keywords": [
+          "android auto whatsapp messages guide",
+          "how to use whatsapp on android auto",
+          "android auto communication features"
+        ],
+        "competition_level": "LOW",
+        "timing": "NOW",
+        "affiliate_potential": "LOW",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "status": "candidate",
+        "selected_at": "2026-07-27T08:31:32.947383+00:00"
+      },
+      {
+        "cluster_name": "Google Android Ecosystem",
+        "content_type": "EXPLAINER",
+        "suggested_title": "Google Gemini for Home Context Memory: How it Works and Benefits",
+        "hub_keyword": "Gemini Home context memory",
+        "hub_keyword_raw": "Gemini Home context memory",
+        "parent_hub": "Google Android Ecosystem",
+        "spoke_keywords": [
+          "google gemini home context memory explained",
+          "how gemini remembers conversations",
+          "gemini for home features benefits"
+        ],
+        "competition_level": "MEDIUM",
+        "timing": "NOW",
+        "affiliate_potential": "LOW",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "status": "candidate",
+        "selected_at": "2026-07-27T08:31:32.947383+00:00"
+      },
+      {
+        "cluster_name": "Google Android Ecosystem",
+        "content_type": "COMPARISON",
+        "suggested_title": "Google Pixel Launcher vs Third-Party Android Launchers: Features and Customization",
+        "hub_keyword": "Pixel Launcher",
+        "hub_keyword_raw": "Pixel Launcher comparison",
+        "parent_hub": "Google Android Ecosystem",
+        "spoke_keywords": [
+          "pixel launcher vs nova launcher",
+          "best android launcher features",
+          "google pixel launcher customization options"
+        ],
+        "competition_level": "MEDIUM",
+        "timing": "NOW",
+        "affiliate_potential": "LOW",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "status": "candidate",
+        "selected_at": "2026-07-27T08:31:32.947383+00:00"
+      },
+      {
+        "cluster_name": "PC Gaming Ecosystem",
+        "content_type": "GUIDE",
+        "suggested_title": "How to Troubleshoot Xbox PC App Common Connection and Download Issues",
+        "hub_keyword": "Xbox PC App issues",
+        "hub_keyword_raw": "Xbox PC App issues",
+        "parent_hub": "PC Gaming Ecosystem",
+        "spoke_keywords": [
+          "xbox pc app not connecting",
+          "xbox app download problems fix",
+          "troubleshoot xbox pc game pass"
+        ],
+        "competition_level": "LOW",
+        "timing": "NOW",
+        "affiliate_potential": "LOW",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "status": "candidate",
+        "selected_at": "2026-07-27T08:31:32.947383+00:00"
+      },
+      {
+        "cluster_name": "PC Gaming Ecosystem",
+        "content_type": "EXPLAINER",
+        "suggested_title": "Minecraft Java Edition Minimum System Requirements: What You Need to Play",
+        "hub_keyword": "Minecraft system requirements",
+        "hub_keyword_raw": "Minecraft system requirements",
+        "parent_hub": "PC Gaming Ecosystem",
+        "spoke_keywords": [
+          "minecraft java edition pc specs",
+          "minimum requirements to play minecraft",
+          "minecraft java edition hardware needs"
+        ],
+        "competition_level": "MEDIUM",
+        "timing": "NOW",
+        "affiliate_potential": "HIGH",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "status": "candidate",
+        "selected_at": "2026-07-27T08:31:32.947383+00:00"
       }
     ]
   },

@@ -1,17 +1,18 @@
 {
   "ok": true,
   "week_tag": "2026-W30",
-  "total": 2,
+  "total": 8,
   "grade_a": [
     {
-      "cluster_name": "Samsung Galaxy Foldable Phones & Wearables",
+      "cluster_name": "Samsung Galaxy Fold Flip Series",
       "content_type": "COMPARISON",
-      "suggested_title": "Galaxy Z Fold 8 Ultra vs Galaxy Z Fold 8: Key Differences and Upgrades",
-      "hub_keyword": "Galaxy Fold 8 Ultra",
-      "parent_hub": "Samsung Galaxy Fold",
+      "suggested_title": "Galaxy Z Fold 8 vs Fold 7: Hinge Durability and Design Differences",
+      "hub_keyword": "Galaxy Z Fold",
+      "parent_hub": "Samsung Galaxy Fold Flip",
       "spoke_keywords": [
-        "galaxy z fold 8 ultra vs fold 8 comparison",
-        "samsung galaxy fold 8 upgrades explained"
+        "galaxy z fold 8 vs fold 7 hinge",
+        "fold 8 design improvements",
+        "galaxy fold hinge durability comparison"
       ],
       "evergreen_score": 90,
       "competition_level": "MEDIUM",
@@ -19,38 +20,185 @@
       "timing": "NOW",
       "verifiability": "HIGH",
       "trends_queries": [
-        "galaxy z fold 8 ultra features",
-        "galaxy z fold 8 vs ultra"
+        "galaxy z fold 8 hinge",
+        "galaxy z fold 7 durability",
+        "foldable phone design comparison"
       ],
-      "reasoning": "This comparison covers recently released flagship models, focusing on verifiable specifications and features, providing long-term value for potential buyers.",
+      "reasoning": "Compares two released phone generations on a specific, often-searched aspect like durability and design, verifiable from public specs and reviews.",
       "data_grade": "A"
     },
     {
-      "cluster_name": "Samsung Galaxy Foldable Phones & Wearables",
-      "content_type": "EXPLAINER",
-      "suggested_title": "What are Silicon-Carbon Batteries in Galaxy Z Fold 8 and How Do They Improve Battery Life",
-      "hub_keyword": "Silicon-Carbon Batteries",
-      "parent_hub": "Samsung Galaxy Fold",
+      "cluster_name": "Samsung Galaxy Fold Flip Series",
+      "content_type": "GUIDE",
+      "suggested_title": "Galaxy Z Flip 8 Cover Screen Apps: How to Use and Customize Effectively",
+      "hub_keyword": "Galaxy Z Flip cover screen",
+      "parent_hub": "Samsung Galaxy Fold Flip",
       "spoke_keywords": [
-        "galaxy z fold 8 silicon carbon battery explained",
-        "how silicon carbon batteries work phone"
+        "galaxy z flip 8 cover screen apps",
+        "customize z flip 8 external display",
+        "how to use flip 8 outer screen"
       ],
       "evergreen_score": 85,
+      "competition_level": "MEDIUM",
+      "affiliate_potential": "MEDIUM",
+      "timing": "NOW",
+      "verifiability": "HIGH",
+      "trends_queries": [
+        "galaxy z flip 8 cover screen",
+        "z flip 8 external apps",
+        "how to customize z flip screen"
+      ],
+      "reasoning": "Provides a guide for a key feature of a recently released phone, which remains relevant for its lifecycle and can be sourced from official guides.",
+      "data_grade": "A"
+    },
+    {
+      "cluster_name": "Samsung Galaxy Fold Flip Series",
+      "content_type": "EXPLAINER",
+      "suggested_title": "Samsung Silicon-Carbon Batteries: How They Work in Galaxy Z Fold 8",
+      "hub_keyword": "silicon-carbon battery",
+      "parent_hub": "Samsung Galaxy Fold Flip",
+      "spoke_keywords": [
+        "samsung silicon carbon battery explained",
+        "galaxy z fold 8 battery technology",
+        "silicon carbon battery benefits"
+      ],
+      "evergreen_score": 90,
+      "competition_level": "MEDIUM",
+      "affiliate_potential": "LOW",
+      "timing": "NOW",
+      "verifiability": "HIGH",
+      "trends_queries": [
+        "silicon carbon battery samsung",
+        "galaxy z fold 8 battery tech",
+        "how silicon carbon battery works"
+      ],
+      "reasoning": "Explains a new, important technology used in a flagship phone, verifiable through official tech disclosures and industry information.",
+      "data_grade": "A"
+    },
+    {
+      "cluster_name": "Google Android Ecosystem",
+      "content_type": "GUIDE",
+      "suggested_title": "Android Auto WhatsApp Support: How to Send and Receive Messages",
+      "hub_keyword": "Android Auto WhatsApp",
+      "parent_hub": "Google Android Ecosystem",
+      "spoke_keywords": [
+        "android auto whatsapp messages guide",
+        "how to use whatsapp on android auto",
+        "android auto communication features"
+      ],
+      "evergreen_score": 95,
       "competition_level": "LOW",
       "affiliate_potential": "LOW",
       "timing": "NOW",
       "verifiability": "HIGH",
       "trends_queries": [
-        "silicon-carbon battery technology",
-        "galaxy fold 8 battery life"
+        "android auto whatsapp texting",
+        "whatsapp on car display",
+        "android auto message app guide"
       ],
-      "reasoning": "Explaining new battery technology tied to a specific flagship device offers evergreen value as users seek to understand its benefits and implications for their device.",
+      "reasoning": "A practical guide for a widely used feature in Android Auto, verifiable through official Google documentation and support resources.",
+      "data_grade": "A"
+    },
+    {
+      "cluster_name": "Google Android Ecosystem",
+      "content_type": "EXPLAINER",
+      "suggested_title": "Google Gemini for Home Context Memory: How it Works and Benefits",
+      "hub_keyword": "Gemini Home context memory",
+      "parent_hub": "Google Android Ecosystem",
+      "spoke_keywords": [
+        "google gemini home context memory explained",
+        "how gemini remembers conversations",
+        "gemini for home features benefits"
+      ],
+      "evergreen_score": 90,
+      "competition_level": "MEDIUM",
+      "affiliate_potential": "LOW",
+      "timing": "NOW",
+      "verifiability": "HIGH",
+      "trends_queries": [
+        "gemini home memory",
+        "google assistant memory feature",
+        "ai context memory explained"
+      ],
+      "reasoning": "Explains a core feature of Google's AI assistant, verifiable through official Google AI announcements and documentation.",
+      "data_grade": "A"
+    },
+    {
+      "cluster_name": "Google Android Ecosystem",
+      "content_type": "COMPARISON",
+      "suggested_title": "Google Pixel Launcher vs Third-Party Android Launchers: Features and Customization",
+      "hub_keyword": "Pixel Launcher comparison",
+      "parent_hub": "Google Android Ecosystem",
+      "spoke_keywords": [
+        "pixel launcher vs nova launcher",
+        "best android launcher features",
+        "google pixel launcher customization options"
+      ],
+      "evergreen_score": 85,
+      "competition_level": "MEDIUM",
+      "affiliate_potential": "LOW",
+      "timing": "NOW",
+      "verifiability": "HIGH",
+      "trends_queries": [
+        "google pixel launcher features",
+        "third party android launchers",
+        "android launcher comparison"
+      ],
+      "reasoning": "Compares a default Android component with popular alternatives, focusing on verifiable features and customization options.",
+      "data_grade": "A"
+    },
+    {
+      "cluster_name": "PC Gaming Ecosystem",
+      "content_type": "GUIDE",
+      "suggested_title": "How to Troubleshoot Xbox PC App Common Connection and Download Issues",
+      "hub_keyword": "Xbox PC App issues",
+      "parent_hub": "PC Gaming Ecosystem",
+      "spoke_keywords": [
+        "xbox pc app not connecting",
+        "xbox app download problems fix",
+        "troubleshoot xbox pc game pass"
+      ],
+      "evergreen_score": 90,
+      "competition_level": "LOW",
+      "affiliate_potential": "LOW",
+      "timing": "NOW",
+      "verifiability": "HIGH",
+      "trends_queries": [
+        "xbox pc app fix",
+        "xbox app connection error",
+        "game pass pc download issues"
+      ],
+      "reasoning": "Addresses common, recurring technical issues with a major PC gaming platform, verifiable via official support documentation.",
+      "data_grade": "A"
+    },
+    {
+      "cluster_name": "PC Gaming Ecosystem",
+      "content_type": "EXPLAINER",
+      "suggested_title": "Minecraft Java Edition Minimum System Requirements: What You Need to Play",
+      "hub_keyword": "Minecraft system requirements",
+      "parent_hub": "PC Gaming Ecosystem",
+      "spoke_keywords": [
+        "minecraft java edition pc specs",
+        "minimum requirements to play minecraft",
+        "minecraft java edition hardware needs"
+      ],
+      "evergreen_score": 95,
+      "competition_level": "MEDIUM",
+      "affiliate_potential": "HIGH",
+      "timing": "NOW",
+      "verifiability": "HIGH",
+      "trends_queries": [
+        "minecraft pc requirements",
+        "can my pc run minecraft",
+        "minecraft java edition specs"
+      ],
+      "reasoning": "Explains the system requirements for a hugely popular game, which is evergreen and directly verifiable from official sources.",
       "data_grade": "A"
     }
   ],
   "grade_b": [],
   "grade_c": [],
-  "auto_selected": 2,
-  "elapsed": 39.3,
-  "timestamp": "2026-07-27T08:29:01.213943+00:00"
+  "auto_selected": 8,
+  "elapsed": 34.1,
+  "timestamp": "2026-07-27T08:31:32.951279+00:00"
 }
