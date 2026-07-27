@@ -271,6 +271,23 @@ def analyze_week(week_tag=None, update_pipeline=True):
         slug         = slugify(cluster_name)
         folder       = scan["cluster_folders"].get(slug)
 
+        # 정확한 slug 매칭 실패 시 퍼지 매칭 (공통 단어 기반)
+        if folder is None and scan["cluster_folders"]:
+            slug_words = set(slug.replace("-", " ").split())
+            best_match = None
+            best_score = 0
+            for folder_slug, folder_data in scan["cluster_folders"].items():
+                folder_words = set(folder_slug.replace("-", " ").split())
+                common = slug_words & folder_words
+                # 숫자 제외 공통 단어 수로 점수 계산
+                score = len([w for w in common if not w.isdigit()])
+                if score > best_score:
+                    best_score = score
+                    best_match = folder_data
+            if best_score >= 1:
+                folder = best_match
+                print(f"   🔍 퍼지 매칭: '{cluster_name}' → '{folder['folder_name']}' (공통단어: {best_score}개)")
+
         # 같은 parent_hub면 이전 분석 결과 재사용 (Trends/KP는 허브 기준)
         if parent_hub and parent_hub in analyzed_hubs:
             prev = analyzed_hubs[parent_hub]
