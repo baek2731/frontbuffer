@@ -1,7 +1,7 @@
 {
   "_version": "1.3",
   "_description": "콘텐츠 파이프라인 — 클러스터 단위 관리",
-  "_last_updated": "2026-07-27T09:00:38.497814+00:00",
+  "_last_updated": "2026-07-27T09:03:41.441674+00:00",
   "hub_clusters": {
     "Steam Machine": {
       "hub_keyword": "Steam Machine",
@@ -2441,7 +2441,7 @@
             "competition_index": 52
           }
         ],
-        "status": "candidate",
+        "status": "rejected",
         "selected_at": "2026-07-27T08:28:08.701688+00:00"
       },
       {
@@ -2478,7 +2478,7 @@
             "competition_index": 52
           }
         ],
-        "status": "candidate",
+        "status": "rejected",
         "selected_at": "2026-07-27T08:28:08.701688+00:00"
       },
       {
@@ -2515,7 +2515,7 @@
             "competition_index": 52
           }
         ],
-        "status": "candidate",
+        "status": "rejected",
         "selected_at": "2026-07-27T08:28:08.701688+00:00"
       },
       {
@@ -2589,7 +2589,7 @@
             "competition_index": 0
           }
         ],
-        "status": "candidate",
+        "status": "rejected",
         "selected_at": "2026-07-27T08:28:08.701688+00:00"
       },
       {
@@ -2637,7 +2637,7 @@
         "verifiability": "HIGH",
         "data_grade": "C",
         "verified_keywords": [],
-        "status": "candidate",
+        "status": "rejected",
         "selected_at": "2026-07-27T08:28:08.701688+00:00"
       },
       {
@@ -2770,7 +2770,7 @@
             "competition_index": 52
           }
         ],
-        "status": "candidate",
+        "status": "rejected",
         "selected_at": "2026-07-27T08:31:32.947383+00:00"
       },
       {
@@ -2819,7 +2819,7 @@
             "competition_index": 52
           }
         ],
-        "status": "candidate",
+        "status": "rejected",
         "selected_at": "2026-07-27T08:31:32.947383+00:00"
       },
       {
@@ -2868,7 +2868,7 @@
             "competition_index": 52
           }
         ],
-        "status": "candidate",
+        "status": "rejected",
         "selected_at": "2026-07-27T08:31:32.947383+00:00"
       },
       {
@@ -3577,7 +3577,7 @@
         "verifiability": "HIGH",
         "data_grade": "A",
         "verified_keywords": [],
-        "status": "candidate",
+        "status": "rejected",
         "selected_at": "2026-07-27T08:47:44.875290+00:00"
       },
       {
@@ -3600,7 +3600,7 @@
         "verifiability": "HIGH",
         "data_grade": "A",
         "verified_keywords": [],
-        "status": "candidate",
+        "status": "rejected",
         "selected_at": "2026-07-27T08:47:44.875290+00:00"
       },
       {
@@ -3623,7 +3623,7 @@
         "verifiability": "HIGH",
         "data_grade": "A",
         "verified_keywords": [],
-        "status": "candidate",
+        "status": "rejected",
         "selected_at": "2026-07-27T08:47:44.875290+00:00"
       },
       {
@@ -3646,7 +3646,7 @@
         "verifiability": "HIGH",
         "data_grade": "A",
         "verified_keywords": [],
-        "status": "candidate",
+        "status": "rejected",
         "selected_at": "2026-07-27T08:47:44.875290+00:00"
       },
       {
@@ -3715,7 +3715,7 @@
         "verifiability": "HIGH",
         "data_grade": "B",
         "verified_keywords": [],
-        "status": "candidate",
+        "status": "rejected",
         "selected_at": "2026-07-27T08:47:44.875290+00:00"
       }
     ]
