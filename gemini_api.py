@@ -53,16 +53,30 @@ def find_prompt_file(cluster_name, content_type):
     slug = slugify(cluster_name)
     ct   = content_type.upper().strip()
 
-    # 최신 파일 우선 탐색 (주차 포함 파일명)
+    # 1순위: 정확한 slug 매칭 (주차 포함)
     pattern = f"write_prompt_{slug}_{ct}_*.txt"
     matches = sorted(Path(PROMPTS_DIR).glob(pattern), reverse=True)
     if matches:
         return str(matches[0])
 
-    # 주차 없는 파일명 fallback
+    # 2순위: 주차 없는 파일명
     fallback = os.path.join(PROMPTS_DIR, f"write_prompt_{slug}_{ct}.txt")
     if os.path.exists(fallback):
         return fallback
+
+    # 3순위: 퍼지 매칭 — slug 단어가 포함된 파일 탐색
+    # write.py가 "Google Android Ecosystem"으로 저장했는데
+    # step3가 "Android Ecosystem"으로 넘기는 경우 대응
+    slug_words = set(slug.split("-")) - {"a", "an", "the", "and", "or", "of"}
+    candidates = sorted(Path(PROMPTS_DIR).glob(f"write_prompt_*_{ct}_*.txt"), reverse=True)
+    candidates += sorted(Path(PROMPTS_DIR).glob(f"write_prompt_*_{ct}.txt"), reverse=True)
+    for cand in candidates:
+        fname = cand.stem  # e.g. write_prompt_google-android-ecosystem_GUIDE_2026-W30
+        fname_words = set(fname.split("-"))
+        # slug 단어의 절반 이상이 파일명에 포함되면 매칭
+        if len(slug_words & fname_words) >= max(1, len(slug_words) // 2):
+            print(f"  ⚠️  퍼지 매칭으로 프롬프트 파일 발견: {cand.name}")
+            return str(cand)
 
     return None
 

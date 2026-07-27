@@ -41,7 +41,7 @@ REPORT_FILE = "research_data/write/quality_report.json"
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
 GEMINI_URL     = (
     "https://generativelanguage.googleapis.com/v1beta/models/"
-    "gemini-1.5-flash:generateContent"
+    "gemini-2.5-flash:generateContent"
 )
 
 REPO          = os.environ.get("GITHUB_REPOSITORY", "baek2731/frontbuffer")
