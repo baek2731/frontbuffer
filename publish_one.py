@@ -243,7 +243,7 @@ def main():
             h_fmt = re.match(r'^H\d+_\d{4}-W\d+_(.+)_HUB$', stem)
             slug  = h_fmt.group(1) if h_fmt else stem
             ready = hub_ready_names and slug in hub_ready_names
-            order = 89000 + hub_num if ready else 99000 + hub_num
+            order = hub_num if ready else 99000 + hub_num  # ready면 최상위(1~999)
         else:
             try:
                 order = int(prefix)
