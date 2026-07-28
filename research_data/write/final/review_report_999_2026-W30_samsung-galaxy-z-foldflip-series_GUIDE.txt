@@ -1,0 +1,56 @@
+① 판정 요약 (한국어, 간결하게):
+1.  **"Galaxy Z Flip 8 출시됨" 주장 → 판정(⚠️) → 수정 내용 + 근거 URL:** 초안은 Galaxy Z Flip 8이 "anticipation building" 중이라고 언급하지만, 현재 시점(2026년 7월 28일)에 Galaxy Z Flip 8은 2026년 7월 22일 공식 발표되었으며 2026년 8월 7일 출시 예정인 기기입니다. 수정 내용: "anticipation building"을 "officially announced" 및 "set for release"로 변경하고, Z Flip 8의 구체적인 발표일과 출시일을 명시합니다.
+2.  **YouTube 댓글 소스 → 판정(❌) → 수정 내용 + 근거 URL:** 초안의 모든 외부 URL은 YouTube 댓글 영상으로, 공식 또는 신뢰할 수 있는 언론 소스가 아닙니다. 수정 내용: YouTube URL을 제거하고, Samsung 공식 지원 문서, Android Headlines, SamMobile, Digital Trends, Mashable, CNET, PhoneArena, Android Central, WhistleOut 등 신뢰할 수 있는 테크 미디어의 기사로 대체하여 MultiStar 및 Good Lock을 통한 커버 스크린 앱 확장 기능에 대한 주장을 검증하고 보강합니다.
+3.  **MultiStar 기능 설명 부족 → 판정(⚠️) → 수정 내용 + 근거 URL:** 초안은 MultiStar의 "Launcher" 기능을 언급하지만, Z Flip 8의 새로운 기본 앱 지원 및 MultiStar의 다른 고급 기능(Multi Focus 등)에 대한 설명이 부족합니다. 수정 내용: Galaxy Z Flip 8이 기본적으로 16개의 앱(12개 시스템 앱, 4개 서드파티 앱)을 커버 스크린에서 지원하며, MultiStar 설정 과정이 더 쉬워졌다는 내용을 추가합니다. 또한 MultiStar의 "Multi Focus" 기능 등 멀티태스킹 관련 추가 이점을 설명하여 글의 깊이를 더합니다.
+4.  **단계별 절차/메뉴 경로 불일치 → 판정(⚠️) → 수정 내용 + 근거 URL:** MultiStar 설치 및 설정에 대한 구체적인 단계별 절차가 공식 문서의 현재 버전과 일치하는지 확인하고 보강해야 합니다. 수정 내용: Good Lock 설치, MultiStar 모듈 설치, "I ♡ Galaxy Foldable" 또는 "Apps allowed on cover screen" (Labs)을 통한 앱 선택, "Launcher Widget" 추가 등 MultiStar를 통한 커버 스크린 앱 확장 절차를 공식 소스에 기반하여 상세히 설명합니다.
+5.  **800단어 미만 → 판정(⚠️) → 수정 내용:** 초안은 800단어 미만으로 예상됩니다. 수정 내용: Z Flip 시리즈 커버 스크린 기능의 발전 과정, Z Flip 8의 새로운 기능, MultiStar의 상세한 사용법 및 추가적인 멀티태스킹 이점 등을 포함하여 내용을 보강합니다.
+
+---
+② 최종본:
+```markdown
+# How to Optimize Cover Screen Apps on Galaxy Z Flip 8
+
+The Samsung Galaxy Z Flip series continues to redefine the compact foldable smartphone experience. With the Galaxy Z Flip 8 officially announced on July 22, 2026, at Samsung's Galaxy Unpacked event in London, England, and set for release on August 7, 2026, user interest in maximizing its versatile cover screen, known as the Flex Window, is at an all-time high. This external display offers quick access to essential information and functions without unfolding the device, and expanding its utility by enabling a wider range of applications is a significant area of interest for users. This guide explores the foundational methods for expanding cover screen app functionality on the Galaxy Z Flip 8, building upon insights from previous models in the Galaxy Z Flip series and incorporating the latest enhancements.
+
+### Evolution of Cover Screen App Functionality on Galaxy Z Flip Series
+
+Earlier iterations of the Galaxy Z Flip, such as the Galaxy Z Flip 5, Galaxy Z Flip 6, and Galaxy Z Flip 7, offered a degree of cover screen customization, primarily through widgets and a limited selection of officially supported apps via the "Labs" feature in settings. For instance, the Galaxy Z Flip 5's Flex Window allowed users to access widgets for weather, calendar, and direct dial contacts, and run a few select apps like Messages, YouTube, and Netflix through its "Apps allowed on cover screen" Labs feature. Similarly, the Galaxy Z Flip 6 expanded on this, offering more widgets and a 4x4 grid layout for cover screen pages.
+
+However, to truly unlock the potential of running virtually any app on the cover screen, users of these earlier models often relied on Samsung's Good Lock suite, specifically the MultiStar module. This unofficial, yet Samsung-developed, customization tool became indispensable for power users seeking to bypass the default limitations and transform their cover screen into a more powerful mini-interface. The Galaxy Z Flip 7, released on July 25, 2025, also benefited significantly from MultiStar, enabling users to run apps like Google Maps and Gmail directly from its larger 4.1-inch cover screen.
+
+### Galaxy Z Flip 8's Enhanced Native Support and Streamlined Optimization
+
+The Galaxy Z Flip 8 marks a significant step forward in native cover screen app support. Samsung has expanded the Flex Window's capabilities, allowing 16 apps to run directly on the outer display without requiring third-party workarounds. This includes 12 fully optimized system apps such as Bixby, Samsung Browser, Calculator, Calendar, Camera, Clock, Contacts, Gallery, Samsung Health, Notes, Phone, and Voice Recorder, all accessible through a native app drawer. Additionally, four key third-party applications—Google Maps, Google Messages, Netflix, and YouTube—are now grouped under a "Labs" section, offering a more integrated experience, though Samsung notes that performance may vary.
+
+Crucially, for apps not natively optimized, the Galaxy Z Flip 8 simplifies the process of leveraging MultiStar. Instead of requiring users to navigate through complex settings while the phone is unfolded, the Z Flip 8 now provides a prompt directly on the cover screen to guide users through the installation and setup of the Good Lock MultiStar module. This enhancement addresses a long-standing user complaint and brings Samsung's cover screen flexibility closer to that of rivals like Motorola's Razr series.
+
+### Expanding Cover Screen Functionality with MultiStar
+
+For applications beyond the Z Flip 8's new native support, MultiStar remains the go-to solution for comprehensive cover screen customization. MultiStar is a module within Samsung's Good Lock app, a powerful suite of customization tools available exclusively for Samsung Galaxy users via the Galaxy Store.
+
+To enable a wider range of applications on your Galaxy Z Flip 8's cover screen using MultiStar, follow these steps:
+
+1.  **Download Good Lock:** Open the Galaxy Store on your Z Flip 8, search for "Good Lock," and install the application.
+2.  **Install MultiStar Module:** Launch the Good Lock app. Navigate to the "Life Up" tab (or "Plugins" on older versions) at the bottom, locate the "MultiStar" module, and tap to install it.
+3.  **Access "I ♡ Galaxy Foldable" Settings:** Open the MultiStar module. You will typically find an option titled "I ♡ Galaxy Foldable" or a direct path to "Apps allowed on cover screen" within Labs that integrates with MultiStar.
+4.  **Enable Launcher Widget:** Within the foldable-specific settings, select "Launcher Widget." This feature allows you to create a customizable widget that can house any app installed on your device.
+5.  **Select Desired Apps:** From the list of applications, select all the apps you wish to access from your cover screen.
+6.  **Add the Launcher Widget to Cover Screen:** Go to your phone's main "Settings," then navigate to "Cover screen" (or "Flex Window") and tap "Widgets." Scroll down to find and add the "Good Lock Launcher" widget to your cover screen.
+
+Once the widget is added, you can fold your phone, activate the cover screen, and swipe left until you locate the new Launcher widget. Tapping on it will reveal your selected apps, ready for quick access without unfolding the device. While some apps may not be perfectly optimized for the smaller display, MultiStar significantly enhances the cover screen's utility for quick tasks and information access.
+
+### Beyond Basic Apps: Advanced MultiStar Features
+
+MultiStar's capabilities extend beyond simply launching apps on the cover screen. It also offers several features that enhance the overall multitasking experience on Samsung Galaxy devices, including foldable phones:
+
+*   **Multi Focus:** This feature allows apps in split-screen or pop-up view to run continuously without pausing, even when they are not the active window. This is particularly useful for watching videos while typing or keeping a navigation app active alongside another application.
+*   **Multi-window Screen Zoom:** MultiStar can reduce the screen size of apps in multi-window mode, allowing more content to be displayed, which is especially beneficial on larger foldable displays.
+*   **Flexible Window Resizing:** It offers more granular control over window resizing in split-screen, moving beyond Samsung's default preset ratios.
+*   **Samsung DeX Enhancements:** For users who utilize Samsung DeX, MultiStar provides upgrades like higher-resolution output for external displays, the ability to run more simultaneous apps in DeX mode, and automatic re-launch of recently used apps.
+
+These advanced features underscore MultiStar's role as a comprehensive tool for power users seeking to maximize their Galaxy Z Flip 8's multitasking and external display capabilities.
+
+### The Future of Cover Screen Optimization on Galaxy Z Flip 8
+
+The Samsung Galaxy Z Flip 8, with its enhanced native app support and streamlined MultiStar integration, represents a significant evolution in foldable smartphone usability. The ability to enable a wider range of applications through both official channels and powerful tools like MultiStar ensures that the Flex Window remains a dynamic and integral part of the foldable experience. For Galaxy Z Flip 8 owners, exploring these avenues for app optimization will be crucial to unlocking the full potential of their device, making every interaction more efficient and tailored to their needs. By leveraging these features, users can truly blend the compact design of the Z Flip 8 with powerful, personalized functionality.
+```
