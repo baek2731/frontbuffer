@@ -1,4 +1,14 @@
-# Steam Deck Verified Games: Understanding Compatibility and Performance Ratings
+---
+layout: single
+title: 'Steam Deck Verified Games: Understanding Compatibility and Performance Ratings'
+date: 2026-07-28 14:22:00 +0000
+categories: [gaming]
+tags: ["explainer", "portable", "gaming"]
+excerpt: 'The Steam Deck has emerged as a significant player in the portable gaming landscape, offering a unique blend of PC gaming flexibility and handheld…'
+author_profile: false
+read_time: true
+share: true
+---
 
 The Steam Deck has emerged as a significant player in the portable gaming landscape, offering a unique blend of PC gaming flexibility and handheld convenience. For many prospective and current owners, a crucial aspect of this experience revolves around understanding which games run well on the device. Valve, the developer behind the Steam Deck, introduced a "Deck Verified" system to help users navigate game compatibility, but what exactly does "Steam Deck Verified" mean, and how reliable are these ratings in practice? This article delves into the nuances of Steam Deck game compatibility, exploring the official system and community perspectives.
 
@@ -10,10 +20,10 @@ Developed by Valve Corporation, the Steam Deck functions as a handheld gaming co
 
 To provide clarity, Valve implemented the "Deck Verified" program, a system designed to indicate how well a game performs on the Steam Deck. This program categorizes games into four distinct ratings: Verified, Playable, Unsupported, and Unknown.
 
-*   **Verified:** Games with this rating are expected to offer a great experience on Steam Deck right out of the box. This means they support the Steam Deck's default resolution (1280x800), have full controller support, display readable text, and do not require manual configuration or workarounds.
-*   **Playable:** These games may require some manual tweaking from the user to play, such as manually selecting a community controller configuration, adjusting graphics settings, or using the touchscreen/trackpads for certain UI elements.
-*   **Unsupported:** Games in this category are generally not functional on the Steam Deck. This can be due to various reasons, including incompatible anti-cheat software, lack of Linux support, or fundamental issues that prevent them from running.
-*   **Unknown:** This rating is applied to games that Valve has not yet reviewed for compatibility.
+* **Verified:** Games with this rating are expected to offer a great experience on Steam Deck right out of the box. This means they support the Steam Deck's default resolution (1280x800), have full controller support, display readable text, and do not require manual configuration or workarounds.
+* **Playable:** These games may require some manual tweaking from the user to play, such as manually selecting a community controller configuration, adjusting graphics settings, or using the touchscreen/trackpads for certain UI elements.
+* **Unsupported:** Games in this category are generally not functional on the Steam Deck. This can be due to various reasons, including incompatible anti-cheat software, lack of Linux support, or fundamental issues that prevent them from running.
+* **Unknown:** This rating is applied to games that Valve has not yet reviewed for compatibility.
 
 When Valve introduced the Deck Verified program, the company emphasized its commitment to an open platform, allowing users the flexibility to install and run any software they choose on the Steam Deck. This philosophy underscored Valve's approach to the Steam Deck as a versatile portable PC rather than a closed console. The program aims to simplify the user experience by offering a quick reference for game performance, but its specific criteria and the implications of its ratings are often subjects of discussion within the community.
 

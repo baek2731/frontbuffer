@@ -1,13 +1,14 @@
-① 판정 요약:
-*   주장: Steam Deck OLED 모델이 2023년 11월 16일 전 세계적으로 출시되었다. → 판정(❌) → 수정 내용: Steam Deck OLED 모델은 2023년 11월 16일에 출시되었으나, 초기에는 일부 지역에서만 출시되었으며, "전 세계적으로"라는 표현은 정확하지 않다. [근거 URL: https://www.steamdeck.com/en/oled, https://store.steampowered.com/news/app/1675200/view/3860471161726084666]
-*   주장: YouTube 댓글을 출처로 사용. → 판정(⚠️) → 수정 내용: YouTube 댓글은 공식 소스나 신뢰할 수 있는 커뮤니티 데이터베이스로 보기 어렵다. 커뮤니티의 일반적인 의견을 반영하는 더 신뢰할 수 있는 출처(예: ProtonDB, Steam Community forums, reputable gaming news sites)로 대체하거나, 해당 주장을 일반화하여 표현하고 출처를 제거한다. 본문에서는 ProtonDB를 언급하며 커뮤니티 의견을 뒷받침하는 방식으로 수정하고, YouTube 댓글 출처는 제거한다.
-*   주장: "Steam Deck: Introducing Deck Verified" YouTube 댓글에서 Valve의 사용자 자유 철학을 칭찬했다. → 판정(⚠️) → 수정 내용: YouTube 댓글은 신뢰할 수 있는 출처가 아니므로, Valve의 공식 발표나 관련 기사에서 해당 철학을 언급한 부분을 찾아 대체한다. Valve는 Steam Deck을 개방형 플랫폼으로 강조했으므로 이 점을 명확히 한다.
-*   주장: "Verified on Steam Deck is a Joke" YouTube 댓글에서 ProtonDB 선호, "Verified"가 "works on Linux with a controller"를 의미한다는 의견, "unverify games" 제안 등의 커뮤니티 의견을 인용. → 판정(⚠️) → 수정 내용: YouTube 댓글은 신뢰할 수 있는 출처가 아니므로, ProtonDB의 존재와 역할, 그리고 커뮤니티의 일반적인 불만 사항(예: Verified 등급의 모호성)을 더 신뢰할 수 있는 출처(ProtonDB 자체, 관련 포럼, 기사 등)를 통해 확인하고 반영한다. YouTube 댓글 출처는 제거한다.
-*   주장: OLED 모델 출시가 Verified 시스템의 재평가를 필요로 할 수 있다는 주장의 출처로 YouTube 댓글을 사용. → 판정(⚠️) → 수정 내용: OLED 모델의 하드웨어 개선이 게임 성능에 영향을 미칠 수 있다는 점은 사실이나, YouTube 댓글은 공식적인 근거가 될 수 없다. Valve의 공식 발표나 기술 분석 기사를 통해 OLED 모델의 스펙 변화와 그에 따른 잠재적 영향에 대해 언급한다.
-
-② 최종본:
-```markdown
-# Steam Deck Verified Games: Understanding Compatibility and Performance Ratings
+---
+layout: single
+title: 'Steam Deck Verified Games: Understanding Compatibility and Performance Ratings'
+date: 2026-07-28 14:22:00 +0000
+categories: [gaming]
+tags: ["explainer", "portable", "gaming"]
+excerpt: 'The Steam Deck has emerged as a significant player in the portable gaming landscape, offering a unique blend of PC gaming flexibility and handheld…'
+author_profile: false
+read_time: true
+share: true
+---
 
 The Steam Deck has emerged as a significant player in the portable gaming landscape, offering a unique blend of PC gaming flexibility and handheld convenience. For many prospective and current owners, a crucial aspect of this experience revolves around understanding which games run well on the device. Valve, the developer behind the Steam Deck, introduced a "Deck Verified" system to help users navigate game compatibility, but what exactly does "Steam Deck Verified" mean, and how reliable are these ratings in practice? This article delves into the nuances of Steam Deck game compatibility, exploring the official system and community perspectives.
 
@@ -19,10 +20,10 @@ Developed by Valve Corporation, the Steam Deck functions as a handheld gaming co
 
 To provide clarity, Valve implemented the "Deck Verified" program, a system designed to indicate how well a game performs on the Steam Deck. This program categorizes games into four distinct ratings: Verified, Playable, Unsupported, and Unknown.
 
-*   **Verified:** Games with this rating are expected to offer a great experience on Steam Deck right out of the box. This means they support the Steam Deck's default resolution (1280x800), have full controller support, display readable text, and do not require manual configuration or workarounds.
-*   **Playable:** These games may require some manual tweaking from the user to play, such as manually selecting a community controller configuration, adjusting graphics settings, or using the touchscreen/trackpads for certain UI elements.
-*   **Unsupported:** Games in this category are generally not functional on the Steam Deck. This can be due to various reasons, including incompatible anti-cheat software, lack of Linux support, or fundamental issues that prevent them from running.
-*   **Unknown:** This rating is applied to games that Valve has not yet reviewed for compatibility.
+* **Verified:** Games with this rating are expected to offer a great experience on Steam Deck right out of the box. This means they support the Steam Deck's default resolution (1280x800), have full controller support, display readable text, and do not require manual configuration or workarounds.
+* **Playable:** These games may require some manual tweaking from the user to play, such as manually selecting a community controller configuration, adjusting graphics settings, or using the touchscreen/trackpads for certain UI elements.
+* **Unsupported:** Games in this category are generally not functional on the Steam Deck. This can be due to various reasons, including incompatible anti-cheat software, lack of Linux support, or fundamental issues that prevent them from running.
+* **Unknown:** This rating is applied to games that Valve has not yet reviewed for compatibility.
 
 When Valve introduced the Deck Verified program, the company emphasized its commitment to an open platform, allowing users the flexibility to install and run any software they choose on the Steam Deck. This philosophy underscored Valve's approach to the Steam Deck as a versatile portable PC rather than a closed console. The program aims to simplify the user experience by offering a quick reference for game performance, but its specific criteria and the implications of its ratings are often subjects of discussion within the community.
 
@@ -46,8 +47,6 @@ In essence, while the "Deck Verified" program serves as a useful starting point 
 
 Understanding Steam Deck game compatibility involves appreciating both Valve's official "Deck Verified" program and the invaluable insights from the player community. While the official ratings offer a convenient guide, the dynamic nature of game development and the nuances of Linux compatibility mean that an informed player often cross-references these with community-driven databases like ProtonDB. Ultimately, the Steam Deck remains a powerful, flexible portable gaming device, and navigating its game library is a journey best undertaken with all available information.
 
-[INTERNAL LINK: Exploring Steam Deck Customization Options]
-
 ---
 Sources:
 [1] Steam Deck OLED. (n.d.). Retrieved from [https://www.steamdeck.com/en/oled](https://www.steamdeck.com/en/oled)
@@ -57,4 +56,3 @@ Sources:
 [5] Steam Deck: Introducing Deck Verified. (2021, October 25). YouTube. Retrieved from [https://www.youtube.com/watch?v=_OAqvtlgfGA](https://www.youtube.com/watch?v=_OAqvtlgfGA)
 [6] ProtonDB. (n.d.). Retrieved from [https://www.protondb.com/](https://www.protondb.com/)
 [7] Steam Deck Verified. (n.d.). Steam. Retrieved from [https://www.steamdeck.com/en/verified](https://www.steamdeck.com/en/verified)
-```
