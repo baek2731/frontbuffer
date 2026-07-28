@@ -1,7 +1,7 @@
 {
   "_version": "1.3",
   "_description": "콘텐츠 파이프라인 — 클러스터 단위 관리",
-  "_last_updated": "2026-07-28T manual-patch",
+  "_last_updated": "2026-07-28T04:32:04.355021",
   "hub_clusters": {
     "Steam Machine": {
       "hub_keyword": "Steam Machine",
@@ -1852,7 +1852,7 @@
         "verifiability": "HIGH",
         "data_grade": "A",
         "verified_keywords": [],
-        "status": "candidate",
+        "status": "writing",
         "selected_at": "2026-07-20T08:05:00.387164+00:00"
       },
       {
@@ -1875,7 +1875,7 @@
         "verifiability": "HIGH",
         "data_grade": "A",
         "verified_keywords": [],
-        "status": "candidate",
+        "status": "writing",
         "selected_at": "2026-07-20T08:05:00.387164+00:00"
       },
       {
