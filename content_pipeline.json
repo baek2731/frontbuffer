@@ -1,7 +1,7 @@
 {
   "_version": "1.3",
   "_description": "콘텐츠 파이프라인 — 클러스터 단위 관리",
-  "_last_updated": "2026-07-28T07:21:48.953597",
+  "_last_updated": "2026-07-28T08:31:49.471004",
   "hub_clusters": {
     "Steam Machine": {
       "hub_keyword": "Steam Machine",
@@ -12,13 +12,13 @@
         "Steam Machine Hardware Management"
       ],
       "spoke_urls": {
-        "Steam Machine Hardware Management (GUIDE)": "/drafts/steam-machine-hardware-management-guide",
-        "Steam Machine Hardware Management (COMPARISON)": "/drafts/steam-machine-hardware-management-comparison",
+        "Steam Machine Hardware Management (GUIDE)": "https://frontbuffer.net/gaming/how-to-troubleshoot-steam-machine-overheating-and-red-light-issues/",
+        "Steam Machine Hardware Management (COMPARISON)": "https://frontbuffer.net/gaming/steam-machine-led-error-codes-what-each-warning-light-actually-means/",
         "Steam Machine Hardware Management (HUB)": "PENDING"
       },
       "internal_links": [
-        "/drafts/steam-machine-hardware-management-guide",
-        "/drafts/steam-machine-hardware-management-comparison",
+        "https://frontbuffer.net/gaming/how-to-troubleshoot-steam-machine-overheating-and-red-light-issues/",
+        "https://frontbuffer.net/gaming/steam-machine-led-error-codes-what-each-warning-light-actually-means/",
         "PENDING"
       ]
     },
@@ -31,13 +31,13 @@
         "Samsung Health Data Ecosystem"
       ],
       "spoke_urls": {
-        "Samsung Health Data Ecosystem (GUIDE)": "/drafts/samsung-health-data-ecosystem-guide",
-        "Samsung Health Data Ecosystem (COMPARISON)": "/drafts/samsung-health-data-ecosystem-comparison",
+        "Samsung Health Data Ecosystem (GUIDE)": "https://frontbuffer.net/tech/how-to-backup-samsung-health-data-before-account-deletion/",
+        "Samsung Health Data Ecosystem (COMPARISON)": "https://frontbuffer.net/tech/samsung-health-vs-google-health-connect-feature-comparison/",
         "Samsung Health Data Ecosystem (HUB)": "PENDING"
       },
       "internal_links": [
-        "/drafts/samsung-health-data-ecosystem-guide",
-        "/drafts/samsung-health-data-ecosystem-comparison",
+        "https://frontbuffer.net/tech/how-to-backup-samsung-health-data-before-account-deletion/",
+        "https://frontbuffer.net/tech/samsung-health-vs-google-health-connect-feature-comparison/",
         "PENDING"
       ]
     },
