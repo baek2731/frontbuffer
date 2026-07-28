@@ -62,7 +62,6 @@ jobs:
 
             CLUSTER=$(echo "$RESULT" | python -c "import sys,json; print(json.load(sys.stdin)['cluster_name'])")
             TYPE=$(echo "$RESULT"    | python -c "import sys,json; print(json.load(sys.stdin)['content_type'])")
-            FILE_ID=$(echo "$RESULT" | python -c "import sys,json; print(json.load(sys.stdin).get('file_id', ''))")
             ITEM="${CLUSTER}__${TYPE}"
 
             if [ "$ITEM" = "$LAST_ITEM" ]; then
@@ -92,7 +91,7 @@ jobs:
             fi
 
             echo "🤖 [2/4] Gemini 초안..."
-            if ! python gemini_api.py --cluster "$CLUSTER" --type "$TYPE" --file-id "$FILE_ID"; then
+            if ! python gemini_api.py --cluster "$CLUSTER" --type "$TYPE"; then
               echo "❌ Gemini 초안 실패 — 다음 루프로"
               FAILURES="${FAILURES:+$FAILURES,}[$TYPE] $CLUSTER (초안 실패)"
               continue
@@ -106,7 +105,7 @@ jobs:
             fi
 
             echo "✨ [4/4] Gemini 그라운딩 팩트체크..."
-            if ! python gemini_review_api.py --cluster "$CLUSTER" --type "$TYPE" --file-id "$FILE_ID"; then
+            if ! python gemini_review_api.py --cluster "$CLUSTER" --type "$TYPE"; then
               echo "❌ Gemini Review 실패 — 다음 루프로"
               FAILURES="${FAILURES:+$FAILURES,}[$TYPE] $CLUSTER (팩트체크 실패)"
               continue
@@ -120,8 +119,8 @@ jobs:
               NEW_FILES="${NEW_FILES:+$NEW_FILES,}$FINAL_FILE"
             fi
 
-            git stash
-            git pull origin main --rebase
+            git stash || true
+            git pull origin main --rebase || true
             git stash pop || true
             git add research_data/write/final/
 
@@ -170,7 +169,7 @@ jobs:
       - name: "💾 품질 리포트 커밋"
         if: env.WRITE_COUNT != '0'
         run: |
-          git pull origin main --rebase
+          git pull origin main --rebase || true
           git add research_data/write/quality_report.json
           if git diff --cached --quiet; then
             echo "ℹ️ 리포트 변경 없음 — 커밋 스킵"
