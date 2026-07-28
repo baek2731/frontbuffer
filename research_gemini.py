@@ -396,6 +396,35 @@ def main():
     for s in auto_select:
         print(f"    [{s['publish_order']:02d}] [{s.get('data_grade','?')}][{s.get('content_type','?')}] {s.get('cluster_name','')} ({s.get('trends_pattern','')})")
 
+    # ── folder 자동 매핑 ──────────────────────────────────────────────
+    # trends_dir 하위 폴더명(01-galaxy-fold 등)을 cluster_name에 퍼지 매칭
+    _trends_folders = []
+    if os.path.isdir(trends_dir):
+        _trends_folders = [
+            d for d in os.listdir(trends_dir)
+            if os.path.isdir(os.path.join(trends_dir, d))
+        ]
+
+    def _match_folder(cluster_name, folders):
+        cluster_words = set(cluster_name.lower().split())
+        best, best_score = "", 0
+        for f in folders:
+            folder_words = set(f.lower().replace("-", " ").split())
+            score = len(cluster_words & folder_words)
+            if score > best_score:
+                best, best_score = f, score
+        return best if best_score >= 1 else ""
+
+    for sel in auto_select:
+        if not sel.get("folder"):
+            matched = _match_folder(sel.get("cluster_name", ""), _trends_folders)
+            sel["folder"] = matched
+            if matched:
+                print(f"  📁 folder 자동 매핑: {sel['cluster_name']} → {matched}")
+            else:
+                print(f"  ⚠️  folder 매핑 실패: {sel['cluster_name']} (수동 확인 필요)")
+    # ─────────────────────────────────────────────────────────────────
+
     if auto_select:
         try:
             from pipeline import record_selections
