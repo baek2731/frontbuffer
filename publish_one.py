@@ -229,10 +229,16 @@ def main():
 
     for f in final_files:
         stem  = f.stem
-        parts = stem.rsplit("_", 1)
-        if len(parts) != 2:
-            continue
-        slug, ct = parts[0], parts[1].upper()
+        # 신버전: 001_2026-W30_01-galaxy-fold_GUIDE → slug=01-galaxy-fold, ct=GUIDE
+        # 구버전: portable-gaming_GUIDE → slug=portable-gaming, ct=GUIDE
+        new_fmt = re.match(r'^\d{3}_\d{4}-W\d+_(.+)_([A-Z]+)$', stem)
+        if new_fmt:
+            slug, ct = new_fmt.group(1), new_fmt.group(2).upper()
+        else:
+            parts = stem.rsplit("_", 1)
+            if len(parts) != 2:
+                continue
+            slug, ct = parts[0], parts[1].upper()
 
         # 이미 발행된 파일 스킵
         already = any(
