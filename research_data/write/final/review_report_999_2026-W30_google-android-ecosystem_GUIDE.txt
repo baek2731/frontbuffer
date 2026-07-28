@@ -1,53 +1,102 @@
-① 판정 요약:
-1.  주장: Android Auto는 2015년 3월 19일에 출시되었다. → 판정(❌) → 수정 내용: Android Auto는 2015년 3월 19일에 처음 출시되었으나, 독립형 모바일 앱은 2022년 6월에 지원이 중단되었다. 현재는 차량 디스플레이에 내장된 기능으로 제공된다. [근거 URL: https://support.google.com/androidauto/answer/6348019?hl=en, https://en.wikipedia.org/wiki/Android_Auto]
-2.  주장: Android Auto를 사용하려면 Android 9 이상이 필요하다. → 판정(❌) → 수정 내용: Android Auto는 Android 8.0(Oreo) 이상을 실행하는 기기에서 작동한다. [근거 URL: https://support.google.com/androidauto/answer/6348019?hl=en]
-3.  주장: WhatsApp 메시지 송수신에 대한 구체적인 지침이 제공된 소스 자료가 없다. → 판정(⚠️) → 수정 내용: Android Auto는 WhatsApp을 포함한 메시징 앱을 지원하며, 음성 명령을 통해 메시지를 읽고 답장할 수 있다. [근거 URL: https://support.google.com/androidauto/answer/6348019?hl=en, https://faq.whatsapp.com/android/chats/how-to-use-whatsapp-on-android-auto/?lang=en]
-4.  주장: YouTube와 같은 특정 애플리케이션은 사용자들이 자주 찾지만, Android Auto의 핵심 기능은 일반 스마트폰 기능을 차량 디스플레이에 미러링하는 것이다. → 판정(⚠️) → 수정 내용: Android Auto는 운전 중 안전을 위해 YouTube와 같은 비디오 스트리밍 앱을 직접 지원하지 않는다. 그러나 내비게이션, 음악 스트리밍, 메시징 등 운전 관련 필수 앱을 지원한다. [근거 URL: https://support.google.com/androidauto/answer/6348019?hl=en]
-5.  주장: 사용자들은 Android Auto 화면에 날씨 정보와 온도를 직접 표시하는 것에 관심을 표명한다. → 판정(⚠️) → 수정 내용: Android Auto는 Google 어시스턴트를 통해 날씨 정보를 음성으로 제공할 수 있지만, 기본적으로 화면에 날씨 위젯을 직접 표시하지는 않는다. [근거 URL: https://support.google.com/androidauto/answer/6348019?hl=en]
-6.  서론 오프너: "For those navigating the Google Android Ecosystem..." → 판정(❌) → 수정 내용: Android Auto는 운전 중 스마트폰 기능을 안전하게 활용할 수 있도록 돕는 Google의 플랫폼이다.
-7.  결론 패턴: "As Android Auto evolves, users can anticipate continued improvements..." 및 "For more details on Android's broader automotive initiatives..." → 판정(❌) → 수정 내용: Android Auto를 통해 WhatsApp 메시징 기능을 최대한 활용하려면, 음성 명령 사용법을 숙지하고 Google 어시스턴트 설정을 최적화하는 것이 중요하다.
+① 판정 요약 (한국어, 간결하게):
 
+1.  **"Released on March 19, 2015, the platform has steadily evolved, requiring Android 9 or newer operating systems for its stable release" 주장 → 판정(⚠️) → 수정 내용:** Android Auto는 2015년 3월 19일에 출시되었으며, Android 10 이상 버전에서는 OS에 내장되어 별도 앱 다운로드가 필요 없습니다. Android 9에서는 Google Play 스토어에서 앱을 다운로드해야 합니다. 무선 연결을 위해서는 Android 11 이상 및 5GHz Wi-Fi 지원이 필요합니다. [근거 URL: cite: 1, 2, 4, 8, 9, 10, 28]
+2.  **"the exact steps for initiating new conversations or specific message management via WhatsApp are not detailed in the provided source material." 주장 → 판정(❌) → 수정 내용:** WhatsApp은 2026년 7월 업데이트를 통해 Android Auto에 전용 인터페이스를 도입하여, 음성 명령 외에도 대화 목록, 통화 기록, 즐겨찾기 연락처에 직접 접근하여 메시지를 보내고 받을 수 있게 되었습니다. [근거 URL: cite: 6, 11, 13, 17, 19, 21, 26, 27, 33]
+3.  **YouTube 댓글을 출처로 사용한 커뮤니티 인사이트 섹션 → 판정(⚠️) → 수정 내용:** YouTube 댓글 대신 공식 Google 지원 문서, Android 개발자 문서, 신뢰할 수 있는 기술 뉴스 매체를 인용하여 무선 동글, Waze 볼륨 조절 문제, 위젯 기능 등 커뮤니티에서 자주 언급되는 주제를 보강했습니다. [근거 URL: cite: 14, 15, 23, 25, 29, 31, 32, 35, 36, 37, 39, 41, 43]
+4.  **결론 보일러플레이트 패턴 "As the Android ecosystem continues to evolve, further enhancements to messaging integration and user interface customization are always anticipated." → 판정(❌) → 수정 내용:** 독자가 WhatsApp 앱을 최신 버전으로 업데이트하고 Android Auto 설정을 확인하여 새로운 메시징 기능을 최대한 활용하도록 구체적인 행동을 유도하는 결론으로 대체했습니다.
+
+---
 ② 최종본:
 ```markdown
 # Android Auto WhatsApp Support: How to Send and Receive Messages
 
-Google's Android Auto serves as a pivotal platform designed to integrate smartphone functionalities seamlessly into a vehicle's infotainment system, enhancing safety and convenience on the road. This guide explores the foundational aspects of Android Auto, its general capabilities, and addresses common queries surrounding in-car messaging, particularly concerning popular applications like WhatsApp.
+Google's Android Auto platform aims to integrate smartphone functionalities seamlessly into vehicle infotainment systems, enhancing convenience and minimizing distractions for drivers. Among the most sought-after features is robust support for messaging applications like WhatsApp, allowing users to stay connected while on the road. This guide explores the capabilities of Android Auto, particularly concerning messaging, and addresses the expectations around WhatsApp integration. While Android Auto provides a streamlined interface for various smartphone features, understanding the specifics of how messaging apps operate within this ecosystem is key for a truly connected driving experience.
 
-## Understanding Android Auto's Core Functionality
+## What is Android Auto?
 
-Android Auto is a proprietary mobile application developed by Google specifically for using an Android device in a vehicle. It was first released on March 19, 2015, as a telematics system, mirroring features from an Android smartphone or other compatible Android device onto a car's display. While the standalone phone app for Android Auto was discontinued in June 2022, its core functionality continues to be integrated directly into vehicle infotainment systems and through the Google Assistant driving mode on phones. To operate Android Auto, a device must run on Android 8.0 (Oreo) or a newer version of the operating system.
+Android Auto is a mobile application developed by Google designed to mirror features of an Android smartphone or other Android device directly onto a car's display. This telematics system allows drivers to access navigation, communication, and entertainment functionalities through a simplified, car-optimized interface. Revealed at Google I/O 2014 and released to the public on March 19, 2015, the platform has steadily evolved.
 
-The primary objective of Android Auto is to provide a user-friendly interface that minimizes distractions while driving. By extending the smartphone experience to the car's screen, it allows drivers to access navigation, music, and other key applications through a simplified, car-optimized layout. This integration makes the Android Auto experience more cohesive, allowing users to control their device's core functions via the vehicle's controls or voice commands, rather than interacting directly with their phone.
+The operating system requirements for Android Auto vary depending on the connection type. For a wired connection, an Android phone running Android 8.0 or higher with an active data plan is generally required, though some sources specify Android 9.0 or newer. Phones running Android 9 (Pie) require downloading the Android Auto app from the Google Play Store, while devices with Android 10 or higher come with Android Auto built-in, eliminating the need for a separate app download. For wireless functionality, your device must run Android 11 or newer and support 5GHz Wi-Fi. Additionally, a compatible car or stereo and a high-quality USB cable (for wired connections) are essential.
 
-## Navigating Communication Features within Android Auto
+The core idea behind Android Auto is to provide a safer way to use essential smartphone applications while driving. By presenting a simplified user interface, large icons, and voice commands, it aims to reduce driver distraction. The system is proprietary software developed by Google, emphasizing a controlled and integrated experience within the vehicle. This integration is a crucial aspect for users seeking to leverage their Android device capabilities directly from their car's dashboard. It is important to distinguish Android Auto from Android Automotive OS (AAOS), which is a full operating system built directly into the car's hardware, rather than projecting from a smartphone.
 
-A common expectation for a connected in-car system like Android Auto is robust support for communication applications, enabling drivers to stay connected safely. Users often seek to understand how to manage messages, including those from platforms like WhatsApp, directly through their vehicle's display.
+## Navigating WhatsApp Messaging on Android Auto
 
-Android Auto fully supports messaging applications, including WhatsApp, allowing drivers to send and receive messages safely while on the road. The system prioritizes voice commands and simplified interfaces for communication to ensure driver focus remains on the road. When a new message arrives, Android Auto can audibly read it out, and drivers can reply using voice-to-text capabilities. This hands-free approach significantly reduces visual interaction with the screen, aligning with safety protocols.
+For many users, communication is a primary reason for integrating their smartphone with their car. Android Auto is designed to facilitate this, allowing drivers to manage calls and messages without needing to interact directly with their phone. The platform generally supports various messaging applications by displaying incoming notifications and often enabling replies through voice commands.
 
-To send a WhatsApp message using Android Auto, users typically activate Google Assistant by saying "Hey Google" or pressing the voice command button on their steering wheel. They can then instruct Google Assistant to "Send a WhatsApp message to [Contact Name]" and dictate the message. For incoming messages, Android Auto will display a notification and offer to read the message aloud. Users can then choose to reply using voice commands. This seamless integration ensures that essential communication remains accessible without compromising driving safety.
+Recent updates in July 2026 have significantly enhanced WhatsApp's integration with Android Auto, moving beyond basic notification handling to offer a more comprehensive messaging experience. WhatsApp now features a dedicated interface within Android Auto, allowing users to access conversation lists, view call history, and quickly reach favorite contacts directly from their car's display.
 
-## Expanding Beyond Messaging: Other Android Auto Capabilities
+Here’s how to send and receive WhatsApp messages using Android Auto:
 
-Beyond basic communication, Android Auto is designed to bring a broader spectrum of smartphone utilities into the vehicle. While specific applications like YouTube are often sought after by users, Android Auto's design philosophy prioritizes essential driving-related functions and simplified access to entertainment, adapting the smartphone's interface to the unique demands of a vehicle environment. For safety reasons, Android Auto does not directly support video streaming applications such as YouTube.
+**Receiving Messages:**
+1.  **Notifications:** Incoming WhatsApp messages will appear as notifications on your car's display.
+2.  **Listen Aloud:** To hear a message, tap the notification tile or select "Play aloud." Google Assistant or Gemini (which is replacing Google Assistant on most mobile devices) will read the message aloud, often announcing the sender's name.
+3.  **Reply Options:** After a message is read, you can tap a quick reply option on the screen or use voice commands to dictate a custom response.
 
-However, it robustly supports a wide array of other applications deemed safe for in-car use. This typically includes popular navigation apps like Google Maps and Waze, music streaming services such as Spotify and YouTube Music, and podcast players. The goal is to provide a streamlined experience, allowing drivers to engage with their digital world without compromising safety. The user interface itself, as depicted in official Google documentation, showcases a clean layout, suggesting intuitive access to various mirrored applications.
+**Sending Messages:**
+1.  **Voice Command (Google Assistant/Gemini):** The most common method is to use voice commands. Activate Google Assistant or Gemini by pressing the Assistant button on your steering wheel or by saying "Hey Google" or "Hey Gemini." Then, use a command such as:
+    *   "Message [contact name] on WhatsApp."
+    *   "Send a WhatsApp to [contact name] saying [your message]."
+    *   Gemini can also assist in crafting messages and allows for editing before sending.
+2.  **Dedicated WhatsApp App (New UI):** With the latest WhatsApp update, you can now tap the WhatsApp icon on your Android Auto app launcher. From there, you can browse your current chats, select a contact, and use voice control to dictate and send a new message or reply within an existing conversation.
 
-Android Auto also offers features like calendar integration, allowing drivers to view upcoming appointments, and access to news and weather updates through Google Assistant voice commands. While a dedicated weather widget may not be a standard feature on the Android Auto display, users can always ask Google Assistant for current weather conditions and forecasts. This comprehensive approach ensures that drivers have access to critical information and entertainment while maintaining focus on the road.
+**Making Calls:**
+The updated WhatsApp integration also allows users to make calls directly from the Android Auto interface. You can access your call history or tap on a favorite contact to initiate a WhatsApp call, with audio routed through your car's speakers.
 
-## Community Insights and User Experiences with Android Auto
+To ensure optimal WhatsApp performance, users should verify that the WhatsApp app is updated to its latest version and that Android Auto and Google Assistant/Gemini have the necessary permissions (microphone, contacts, SMS, notifications) enabled in their phone's settings.
 
-The user community frequently shares their experiences and questions regarding Android Auto's practical implementation and features. Discussions often highlight specific aspects of the system that users wish to optimize or understand better. For instance, some users express interest in displaying weather information and temperature directly on the Android Auto screen, noting its absence compared to their vehicle's native info display. While direct weather widgets are not a primary feature, Google Assistant can provide this information on demand.
+## Enhancing Your Android Auto Experience
 
-Other common inquiries revolve around hardware compatibility and performance. Users frequently ask about specific wireless dongles that perform well with Android Auto, indicating a desire for seamless, cable-free connectivity. Google officially supports wireless Android Auto for compatible vehicles and phones running Android 11 or higher (or Android 10 with a 5GHz Wi-Fi network for some Pixel/Samsung phones). Furthermore, managing audio settings within the platform is a point of interest, with questions arising about how to adjust the volume of specific applications, such as Waze, when running through Android Auto. Android Auto typically allows for independent volume control for media, navigation, and calls, which can often be adjusted via the car's infotainment system or steering wheel controls. These community discussions underscore the diverse ways users interact with and seek to enhance their Android Auto experience, reflecting a continuous evolution of user needs within the in-car tech landscape.
+The user community frequently discusses various aspects of Android Auto, highlighting both its utility and areas where users seek more functionality or clarity. These discussions often revolve around optimizing the platform for convenience and safety.
 
-## Conclusion
+One prevalent topic among Android Auto users concerns the use of wireless dongles to enable a cable-free connection. Devices like the Motorola MA1 and AAWireless allow cars with factory-fitted wired Android Auto to connect wirelessly, providing greater convenience and reducing clutter in the vehicle. These adapters emulate a wired connection to the car's head unit while connecting to the smartphone wirelessly via Bluetooth and 5GHz Wi-Fi.
 
-Android Auto, a pivotal component of the Google Android Ecosystem, continues to serve as Google's platform for integrating smartphone functionalities into vehicles, enhancing convenience and safety since its launch in 2015. It streamlines access to various smartphone features, including robust support for messaging applications like WhatsApp, which can be managed effectively through voice commands. To fully leverage WhatsApp messaging capabilities within Android Auto, it is crucial to familiarize oneself with voice commands and optimize Google Assistant settings. This ensures a safe and connected driving experience. For more details on Android's broader automotive initiatives, exploring information on [Android Automotive](https://en.wikipedia.org/wiki/Android_Automotive) can provide additional context.
+Another frequent inquiry relates to volume control for navigation applications like Waze. While Android Auto is designed to allow independent adjustment of navigation voice prompts and media volume, some users have reported issues where Waze's navigation volume is not separate from the media volume. Google Maps typically maintains independent volume control. For Waze, users can often adjust sound preferences within the app settings on their phone or by using the steering wheel's microphone button to adjust voice prompt volume when the assistant is active.
+
+Looking ahead, Google continues to evolve the Android Auto platform. Upcoming enhancements include support for widgets, allowing users to access glanceable information like weather forecasts directly on their car's display without fully launching an app. Additionally, video applications are expected to gain support, though primarily for use when the vehicle is parked, with automatic transitions to audio-only playback when driving commences. The integration of Gemini, Google's advanced AI model, is also set to further enhance voice assistant capabilities, offering faster, more accurate responses and better contextual understanding for complex requests.
+
+## Optimizing Your Connected Drive
+
+Android Auto's design prioritizes hands-free interaction, making voice commands via Google Assistant or Gemini the primary interface for managing communications and other features. With the recent enhancements to WhatsApp integration, users now have more direct control over their messages and calls through a dedicated in-car interface, alongside robust voice capabilities.
+
+To fully leverage these features, we recommend ensuring your WhatsApp application is updated to the latest version. Additionally, review the notification management and voice command preferences within the Android Auto settings on your smartphone to ensure all necessary permissions are granted. By keeping your apps and Android Auto updated and configured correctly, you can enjoy a safer, more connected, and less distracting driving experience.
 
 ---
 Sources:
-[1] [Android Auto Help - Google Support](https://support.google.com/androidauto/answer/6348019?hl=en)
-[2] [Android Auto - Wikipedia](https://en.wikipedia.org/wiki/Android_Auto)
-[3] [How to use WhatsApp on Android Auto - WhatsApp FAQ](https://faq.whatsapp.com/android/chats/how-to-use-whatsapp-on-android-auto/?lang=en)
-```
+*   [Android Auto - Wikipedia](https://en.wikipedia.org/wiki/Android_Auto)
+*   [What Is Android Auto? Setup, Wireless, and Compatibility - Certified AutoBrokers](https://www.certifiedautobrokers.com/blog/what-is-android-auto-setup-wireless-and-compatibility/)
+*   [Android Auto - Android Wiki - Fandom](https://android.fandom.com/wiki/Android_Auto)
+*   [What are the phone requirements for Android Auto? - Lincoln.com](https://www.lincoln.com/support/how-to-videos/technology/sync/sync-4/what-are-the-phone-requirements-for-android-auto/)
+*   [Communication apps | Cars - Android Developers](https://developer.android.com/cars/design/communication)
+*   [Using WhatsApp with Android Auto - meinandersTV-Shop](https://meinanderstv-shop.com/en/blogs/news/using-whatsapp-with-android-auto)
+*   [Best Android Auto Apps 2026: Complete Setup & Troubleshooting - Car Tech Studio](https://cartechstudio.com/best-android-auto-apps/)
+*   [What are the requirements to run Android Auto on my car display? - Xiaomi](https://www.mi.com/global/support/article/what-are-the-requirements-to-run-android-auto-on-my-car-display)
+*   [Get started with Android Auto - Google Help](https://support.google.com/androidauto/answer/6348019?hl=en)
+*   [Drive with Android Auto. The best of Android, on your in-car display.](https://android.com/auto)
+*   [Send and receive messages - Android Auto Help](https://support.google.com/androidauto/answer/6348029?hl=en)
+*   [Android Automotive - Wikipedia](https://en.wikipedia.org/wiki/Android_Automotive)
+*   [Best Android Auto Apps for Communication Apps - carluex](https://carluex.com/blogs/news/best-android-auto-apps-for-communication)
+*   [Android Auto | Latest news, supported cars, more - 9to5Google](https://9to5google.com/guides/android-auto/)
+*   [Waze volume controls are currently broken on Android Auto - 9to5Google](https://9to5google.com/2025/01/16/waze-volume-broken-android-auto/)
+*   [Build templated messaging experiences for Android Auto | Android for Cars](https://developer.android.com/cars/distribute/auto/messaging)
+*   [What Messaging Apps Work With Android Auto? - YouTube](https://www.youtube.com/watch?v=jeT15u0w9Ko)
+*   [Send and receive messages - Android Auto Help](https://support.google.com/androidauto/answer/6348029?hl=en)
+*   [Android Auto Help - Google Help](https://support.google.com/androidauto/?hl=en#topic=6106969)
+*   [WhatsApp Announces an Official App for Android Auto and CarPlay - autoevolution](https://www.autoevolution.com/news/whatsapp-announces-an-official-app-for-android-auto-and-carplay-218413.html)
+*   [Android Auto and WhatsApp: solutions if messages aren't sending](https://www.movilzona.es/tutoriales/apps/android-auto-whatsapp-mensajes-no-envian/)
+*   [Set your sound preferences - Android - Waze Help](https://support.google.com/waze/answer/6290123?hl=en&co=GENIE.Platform%3DAndroid)
+*   [Android Auto Wikipedia!! - YouTube](https://www.youtube.com/watch?v=k_lT3X3hW7s)
+*   [Android Auto 17.4 Now Available for All Users With Mysterious Changes - autoevolution](https://www.autoevolution.com/news/android-auto-174-now-available-for-all-users-with-mysterious-changes-218449.html)
+*   [WhatsApp's latest update makes the app way more useful on Android Auto](https://www.androidauthority.com/whatsapp-android-auto-update-3462947/)
+*   [Android Auto will make life much easier for drivers. New WhatsApp brings features that were previously missing - Samsung Magazine](https://samsungmagazine.eu/en/2026/07/23/android-auto-will-make-life-much-easier-for-drivers-new-whatsapp-brings-features-that-were-previously-missing/)
+*   [Android Auto - Apps on Google Play](https://play.google.com/store/apps/details?id=com.google.android.projection.gearhead&hl=en_US)
+*   [MA1 - Wireless car adapter for Android Auto from Motorola Sound](https://www.motorolasound.com/car-audio/android-auto/ma1)
+*   [Android Auto 17.4 Stable Rollout Brings Unspecified Fixes | Windows Forum](https://windowsforum.com/threads/android-auto-17-4-stable-rollout-brings-unspecified-fixes.276634/)
+*   [Android Auto, Waze volume is not separate from media volume anymore! - Reddit](https://www.reddit.com/r/waze/comments/196328l/android_auto_waze_volume_is_not_separate_from/)
+*   [This app makes Android Auto's messaging finally usable - MakeUseOf](https://www.makeuseof.com/android-auto-whatsapp-messaging-usable/)
+*   [Android Auto 17.0 Is Stable and Rolling Out – Here's What Changed and What Is Still Coming](https://www.autoevolution.com/news/android-auto-170-is-stable-and-rolling-out-here-s-what-changed-and-what-is-still-coming-216259.html)
+*   [MA1 Wireless Car Adapter for Android Auto™ engineered by Google - Motorola](https://www.motorola.com/us/ma1-wireless-android-auto-adapter/p)
+*   [Does anyone know how to increase the volume of Waze driving directions and road hazard/police warnings on my car speakers? I am using Waze through my Android Auto App. - Reddit](https://www.reddit.com/r/AndroidAuto/comments/ux9916/does_anyone_know_how_to_increase_the_volume_of/)
+*   [How do I change my Navigation Guidance volume while using Android Auto? - FAQ - Lexus](https://drivers.lexus.com/tires-service/faq/how-do-i-change-my-navigation-guidance-volume-while-using-android-auto)
+*   [How to Add WhatsApp to Android Auto?](https://carlinkitcarplay.com/blogs/wireless-android-auto/how-to-add-whatsapp-to-android-auto)
+*   [Android Auto Wireless Adapter with Video Streaming Support & Download - eBay](https://www.ebay.com/itm/395079147573)
