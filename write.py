@@ -1826,7 +1826,6 @@ def cmd_review(cluster_name, content_type=None):
 
     os.makedirs(PROMPTS_DIR, exist_ok=True)
     os.makedirs(FINAL_DIR, exist_ok=True)
-    _ct_tag = (content_type or "").upper().strip()
     review_fname = f"review_prompt_{file_id}.txt"
     review_path = os.path.join(PROMPTS_DIR, review_fname)
     with open(review_path, "w", encoding="utf-8") as f:
