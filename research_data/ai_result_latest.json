@@ -1,123 +1,145 @@
 [
   {
-    "cluster_name": "Samsung Galaxy Fold/Flip Series",
+    "cluster_name": "Samsung Galaxy Fold 8 Features",
     "content_type": "COMPARISON",
-    "suggested_title": "Galaxy Z Fold 8 vs Fold 7 Hinge Durability Comparison",
-    "hub_keyword": "Galaxy Z Fold 8",
-    "parent_hub": "Galaxy Fold Flip",
+    "suggested_title": "galaxy z fold 8 vs fold 7 camera comparison low light",
+    "hub_keyword": "galaxy z fold camera",
+    "parent_hub": "Samsung Galaxy Fold",
     "spoke_keywords": [
-      "galaxy z fold 8 vs fold 7 hinge",
-      "foldable phone durability comparison"
+      "galaxy z fold 8 vs fold 7 camera",
+      "fold 8 low light camera test"
     ],
-    "evergreen_score": 85,
+    "evergreen_score": 90,
+    "competition_level": "MEDIUM",
+    "affiliate_potential": "HIGH",
+    "timing": "NOW",
+    "verifiability": "MEDIUM",
+    "trends_queries": [
+      "galaxy z fold 8 camera",
+      "fold 7 camera review"
+    ],
+    "reasoning": "Users frequently compare camera performance between generations, especially in challenging conditions. Facts are verifiable through official specs and aggregated review data.",
+    "data_grade": "A"
+  },
+  {
+    "cluster_name": "Samsung Galaxy Fold 8 Features",
+    "content_type": "GUIDE",
+    "suggested_title": "how to optimize galaxy z fold 8 battery life settings",
+    "hub_keyword": "galaxy z fold battery",
+    "parent_hub": "Samsung Galaxy Fold",
+    "spoke_keywords": [
+      "galaxy z fold 8 battery saving tips",
+      "extend fold 8 battery life"
+    ],
+    "evergreen_score": 95,
     "competition_level": "MEDIUM",
     "affiliate_potential": "MEDIUM",
     "timing": "NOW",
     "verifiability": "HIGH",
     "trends_queries": [
-      "galaxy z fold durability",
-      "fold 8 hinge improvements"
+      "galaxy fold 8 battery drain",
+      "samsung phone battery optimization"
     ],
-    "reasoning": "Durability is a key concern for foldable phones, making inter-generational comparisons evergreen and verifiable through official spec changes.",
+    "reasoning": "Battery life optimization is a constant concern for smartphone users. Settings are largely stable and verifiable via official Samsung and Android documentation.",
     "data_grade": "A"
   },
   {
-    "cluster_name": "Samsung Galaxy Fold/Flip Series",
+    "cluster_name": "Samsung Galaxy Fold 8 Features",
     "content_type": "EXPLAINER",
-    "suggested_title": "Samsung Galaxy Z Fold 8 Silicon-Carbon Battery Technology Explained",
-    "hub_keyword": "silicon-carbon battery",
-    "parent_hub": "Galaxy Fold Flip",
+    "suggested_title": "what is samsung silicon carbon battery technology explained",
+    "hub_keyword": "silicon carbon battery",
+    "parent_hub": "Samsung Galaxy Fold",
     "spoke_keywords": [
-      "samsung galaxy z fold 8 silicon-carbon battery benefits",
-      "how silicon-carbon batteries work"
+      "samsung silicon carbon battery advantages",
+      "how silicon carbon battery works"
     ],
-    "evergreen_score": 90,
+    "evergreen_score": 85,
     "competition_level": "LOW",
     "affiliate_potential": "LOW",
     "timing": "NOW",
     "verifiability": "HIGH",
     "trends_queries": [
       "silicon carbon battery tech",
-      "galaxy z fold 8 battery life"
+      "next generation phone batteries"
     ],
-    "reasoning": "Explaining new battery technology is highly evergreen, as the underlying science remains relevant regardless of specific product updates, verifiable via official announcements.",
+    "reasoning": "This topic explains a new battery technology announced by Samsung, providing evergreen value for users interested in mobile tech advancements. Information is available from official announcements.",
     "data_grade": "A"
   },
   {
-    "cluster_name": "Samsung Galaxy Fold/Flip Series",
+    "cluster_name": "Android Auto Troubleshooting",
     "content_type": "GUIDE",
-    "suggested_title": "How to Customize Galaxy Z Flip 8 Cover Screen Apps and Widgets",
-    "hub_keyword": "Galaxy Z Flip 8 cover screen",
-    "parent_hub": "Galaxy Fold Flip",
+    "suggested_title": "how to fix android auto connection issues wirelessly",
+    "hub_keyword": "android auto troubleshoot",
+    "parent_hub": "Android Auto",
     "spoke_keywords": [
-      "galaxy z flip 8 cover screen app setup",
-      "best galaxy z flip 8 widgets"
+      "android auto wireless not connecting",
+      "android auto bluetooth problems fix"
     ],
-    "evergreen_score": 80,
-    "competition_level": "MEDIUM",
-    "affiliate_potential": "LOW",
-    "timing": "NOW",
-    "verifiability": "HIGH",
-    "trends_queries": [
-      "galaxy z flip cover screen features",
-      "flip 8 customization tips"
-    ],
-    "reasoning": "User customization guides for core phone features are evergreen and can be written using official documentation for the recently released device.",
-    "data_grade": "B"
-  },
-  {
-    "cluster_name": "Google Pixel & Android Auto",
-    "content_type": "COMPARISON",
-    "suggested_title": "Google Pixel 11 vs Pixel 10 Pro Low Light Camera Comparison",
-    "hub_keyword": "Pixel 11 camera",
-    "parent_hub": "Google Pixel Android",
-    "spoke_keywords": [
-      "pixel 11 vs pixel 10 camera specs",
-      "best google pixel low light photos"
-    ],
-    "evergreen_score": 88,
-    "competition_level": "MEDIUM",
-    "affiliate_potential": "MEDIUM",
-    "timing": "NOW",
-    "verifiability": "HIGH",
-    "trends_queries": [
-      "pixel 11 camera review",
-      "pixel 10 pro camera features"
-    ],
-    "reasoning": "Camera comparisons are a perpetual search query for Pixel phones, and official specs allow for verifiable comparisons between released models.",
-    "data_grade": "A"
-  },
-  {
-    "cluster_name": "Google Pixel & Android Auto",
-    "content_type": "GUIDE",
-    "suggested_title": "Android Auto Wireless Adapter Setup and Troubleshooting Guide",
-    "hub_keyword": "Android Auto wireless",
-    "parent_hub": "Google Pixel Android",
-    "spoke_keywords": [
-      "best android auto wireless adapter",
-      "fix android auto connection issues"
-    ],
-    "evergreen_score": 92,
+    "evergreen_score": 95,
     "competition_level": "MEDIUM",
     "affiliate_potential": "HIGH",
     "timing": "NOW",
     "verifiability": "HIGH",
     "trends_queries": [
-      "android auto wireless setup",
-      "android auto problems"
+      "android auto wireless issues",
+      "android auto troubleshooting guide"
     ],
-    "reasoning": "Guides for common tech accessories like Android Auto wireless adapters are evergreen and highly searchable, with facts verifiable from official documentation.",
+    "reasoning": "Connectivity problems are a persistent issue for users, and troubleshooting guides offer long-term value. Solutions are verifiable through official Google support and common tech troubleshooting practices.",
     "data_grade": "A"
   },
   {
-    "cluster_name": "Google Gemini AI Features",
-    "content_type": "EXPLAINER",
-    "suggested_title": "What is Google Gemini Nano 4 and How It Works on Mobile Devices",
-    "hub_keyword": "Gemini Nano 4",
-    "parent_hub": "Google Gemini AI",
+    "cluster_name": "Android Auto Troubleshooting",
+    "content_type": "COMPARISON",
+    "suggested_title": "best wireless android auto adapter for older cars comparison",
+    "hub_keyword": "android auto adapter",
+    "parent_hub": "Android Auto",
     "spoke_keywords": [
-      "google gemini nano 4 capabilities",
-      "gemini nano 4 mobile integration"
+      "wireless android auto dongle review",
+      "android auto adapter compatibility older vehicles"
+    ],
+    "evergreen_score": 90,
+    "competition_level": "MEDIUM",
+    "affiliate_potential": "HIGH",
+    "timing": "NOW",
+    "verifiability": "MEDIUM",
+    "trends_queries": [
+      "wireless android auto adapter",
+      "android auto upgrade older car"
+    ],
+    "reasoning": "Many older vehicles lack built-in wireless Android Auto, creating an evergreen demand for adapter comparisons. Product specifications and user reviews provide verifiable data.",
+    "data_grade": "A"
+  },
+  {
+    "cluster_name": "Gaming Media Formats",
+    "content_type": "COMPARISON",
+    "suggested_title": "physical vs digital games ownership benefits explained",
+    "hub_keyword": "physical vs digital games",
+    "parent_hub": "Gaming Physical Media",
+    "spoke_keywords": [
+      "advantages of physical games",
+      "digital game library benefits"
+    ],
+    "evergreen_score": 95,
+    "competition_level": "MEDIUM",
+    "affiliate_potential": "LOW",
+    "timing": "NOW",
+    "verifiability": "MEDIUM",
+    "trends_queries": [
+      "physical games vs digital games",
+      "why buy physical games"
+    ],
+    "reasoning": "The debate over physical versus digital game ownership is a fundamental and ongoing discussion in the gaming community, providing long-term relevance. Facts are verifiable through industry trends and official statements.",
+    "data_grade": "A"
+  },
+  {
+    "cluster_name": "Gaming Media Formats",
+    "content_type": "GUIDE",
+    "suggested_title": "how to manage large digital game library cross platform",
+    "hub_keyword": "digital game library management",
+    "parent_hub": "Gaming Physical Media",
+    "spoke_keywords": [
+      "organize pc console game library",
+      "best tools for cross platform game management"
     ],
     "evergreen_score": 90,
     "competition_level": "MEDIUM",
@@ -125,32 +147,10 @@
     "timing": "NOW",
     "verifiability": "HIGH",
     "trends_queries": [
-      "gemini nano 4 explained",
-      "ai on mobile devices"
+      "digital game collection organization",
+      "cross platform game launcher"
     ],
-    "reasoning": "Explaining the technical details and applications of a newly launched AI model like Gemini Nano 4 provides evergreen value, verifiable through official Google AI announcements.",
-    "data_grade": "A"
-  },
-  {
-    "cluster_name": "Google Gemini AI Features",
-    "content_type": "GUIDE",
-    "suggested_title": "How to Use Google Gemini for Home Context Memory Feature",
-    "hub_keyword": "Gemini for Home",
-    "parent_hub": "Google Gemini AI",
-    "spoke_keywords": [
-      "gemini for home context setup",
-      "google home ai memory"
-    ],
-    "evergreen_score": 85,
-    "competition_level": "LOW",
-    "affiliate_potential": "LOW",
-    "timing": "NOW",
-    "verifiability": "HIGH",
-    "trends_queries": [
-      "gemini home features",
-      "google assistant memory"
-    ],
-    "reasoning": "A how-to guide for a specific, announced feature like Gemini for Home context memory is evergreen and can be created using official Google support documentation.",
+    "reasoning": "As digital game libraries grow, users constantly seek ways to organize and manage their collections across multiple platforms. This guide provides evergreen value using verifiable platform features and third-party tools.",
     "data_grade": "A"
   }
 ]

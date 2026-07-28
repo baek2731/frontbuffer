@@ -1,0 +1,568 @@
+{
+  "week_tag": "2026-W30",
+  "week_dir": "research_data/trends/2026-W30",
+  "clusters": [
+    {
+      "cluster_name": "Samsung Galaxy Foldables",
+      "slug": "samsung-galaxy-foldables",
+      "folder": "01-galaxy-fold",
+      "trends_pattern": "RISING",
+      "trends_stats": {
+        "avg_all": 40.1,
+        "avg_recent8": 58,
+        "current": 97,
+        "peak": 100,
+        "recent_ratio": 1.45
+      },
+      "trends_keyword": "galaxy fold",
+      "rising_queries": [],
+      "verified_keywords": [
+        {
+          "keyword": "galaxy fold",
+          "monthly_searches": 500,
+          "competition": "MEDIUM",
+          "competition_index": 52
+        }
+      ],
+      "grade": "A",
+      "warnings": [],
+      "grade_reasons": [
+        "Trends ✅ RISING (최근8주 58 / 전체평균 40 / 비율 1.45)",
+        "KP ✅ 매칭 1개 | 롱테일(3단어+) 0개 | LOW경쟁 0개 | 최대: 'galaxy fold' 월 500",
+        "→ Grade A: Trends 타이밍 + KP 롱테일 모두 검증됨"
+      ]
+    },
+    {
+      "cluster_name": "Google Android Features",
+      "slug": "google-android-features",
+      "folder": "06-android-auto",
+      "trends_pattern": "RISING",
+      "trends_stats": {
+        "avg_all": 54.5,
+        "avg_recent8": 67.1,
+        "current": 44.5,
+        "peak": 100,
+        "recent_ratio": 1.23
+      },
+      "trends_keyword": "android auto",
+      "rising_queries": [],
+      "verified_keywords": [
+        {
+          "keyword": "google android auto",
+          "monthly_searches": 50,
+          "competition": "LOW",
+          "competition_index": 6
+        },
+        {
+          "keyword": "android auto google home",
+          "monthly_searches": 50,
+          "competition": "알 수 없음",
+          "competition_index": 0
+        },
+        {
+          "keyword": "android auto google llc",
+          "monthly_searches": 50,
+          "competition": "LOW",
+          "competition_index": 0
+        },
+        {
+          "keyword": "google llc android auto",
+          "monthly_searches": 50,
+          "competition": "알 수 없음",
+          "competition_index": 0
+        },
+        {
+          "keyword": "ok google android auto",
+          "monthly_searches": 0,
+          "competition": "알 수 없음",
+          "competition_index": 0
+        },
+        {
+          "keyword": "google chrome android auto",
+          "monthly_searches": 0,
+          "competition": "알 수 없음",
+          "competition_index": 0
+        },
+        {
+          "keyword": "google home android auto",
+          "monthly_searches": 0,
+          "competition": "알 수 없음",
+          "competition_index": 0
+        }
+      ],
+      "grade": "B",
+      "warnings": [
+        "time_series 키워드 'android auto'가 hub 'Google Wallet'와 무관해 보임 — CSV를 잘못된 폴더에 넣었는지 확인",
+        "KP 품질 기준 키워드 없음 (LOW/MEDIUM + 월100이상 조건 미충족)"
+      ],
+      "grade_reasons": [
+        "Trends ✅ RISING (최근8주 67 / 전체평균 54 / 비율 1.23)",
+        "KP ⚠️ 매칭됐으나 품질 미달 (최대 50/월 또는 HIGH경쟁)",
+        "→ Grade B: 부분 검증 — 발행 가능하나 키워드 최적화 미완"
+      ]
+    },
+    {
+      "cluster_name": "Gaming Platform Choices",
+      "slug": "gaming-platform-choices",
+      "folder": null,
+      "trends_pattern": "UNKNOWN",
+      "trends_stats": {},
+      "trends_keyword": "",
+      "rising_queries": [],
+      "verified_keywords": [],
+      "grade": "C",
+      "warnings": [],
+      "grade_reasons": [
+        "Trends ❌ 시계열 데이터 없음 또는 UNKNOWN",
+        "KP ❌ 클러스터 관련 키워드 없음",
+        "→ Grade C: 검증 데이터 없음 — 발행 보류 권장"
+      ]
+    },
+    {
+      "cluster_name": "Google AI Features",
+      "slug": "google-ai-features",
+      "folder": null,
+      "trends_pattern": "UNKNOWN",
+      "trends_stats": {},
+      "trends_keyword": "",
+      "rising_queries": [],
+      "verified_keywords": [],
+      "grade": "C",
+      "warnings": [],
+      "grade_reasons": [
+        "Trends ❌ 시계열 데이터 없음 또는 UNKNOWN",
+        "KP ❌ 클러스터 관련 키워드 없음",
+        "→ Grade C: 검증 데이터 없음 — 발행 보류 권장"
+      ]
+    },
+    {
+      "cluster_name": "PC Gaming Optimization",
+      "slug": "pc-gaming-optimization",
+      "folder": null,
+      "trends_pattern": "UNKNOWN",
+      "trends_stats": {},
+      "trends_keyword": "",
+      "rising_queries": [],
+      "verified_keywords": [],
+      "grade": "C",
+      "warnings": [],
+      "grade_reasons": [
+        "Trends ❌ 시계열 데이터 없음 또는 UNKNOWN",
+        "KP ❌ 클러스터 관련 키워드 없음",
+        "→ Grade C: 검증 데이터 없음 — 발행 보류 권장"
+      ]
+    },
+    {
+      "cluster_name": "Samsung Galaxy Z Fold 8",
+      "slug": "samsung-galaxy-z-fold-8",
+      "folder": "01-galaxy-fold",
+      "trends_pattern": "RISING",
+      "trends_stats": {
+        "avg_all": 40.1,
+        "avg_recent8": 58,
+        "current": 97,
+        "peak": 100,
+        "recent_ratio": 1.45
+      },
+      "trends_keyword": "galaxy fold",
+      "rising_queries": [],
+      "verified_keywords": [
+        {
+          "keyword": "galaxy fold",
+          "monthly_searches": 500,
+          "competition": "MEDIUM",
+          "competition_index": 52
+        }
+      ],
+      "grade": "A",
+      "warnings": [],
+      "grade_reasons": [
+        "Trends ✅ RISING (최근8주 58 / 전체평균 40 / 비율 1.45)",
+        "KP ✅ 매칭 1개 | 롱테일(3단어+) 0개 | LOW경쟁 0개 | 최대: 'galaxy fold' 월 500",
+        "→ Grade A: Trends 타이밍 + KP 롱테일 모두 검증됨"
+      ]
+    },
+    {
+      "cluster_name": "Google Gemini for Home",
+      "slug": "google-gemini-for-home",
+      "folder": null,
+      "trends_pattern": "UNKNOWN",
+      "trends_stats": {},
+      "trends_keyword": "",
+      "rising_queries": [],
+      "verified_keywords": [
+        {
+          "keyword": "android auto google home",
+          "monthly_searches": 50,
+          "competition": "알 수 없음",
+          "competition_index": 0
+        },
+        {
+          "keyword": "google home android auto",
+          "monthly_searches": 0,
+          "competition": "알 수 없음",
+          "competition_index": 0
+        }
+      ],
+      "grade": "C",
+      "warnings": [
+        "KP 품질 기준 키워드 없음 (LOW/MEDIUM + 월100이상 조건 미충족)"
+      ],
+      "grade_reasons": [
+        "Trends ❌ 시계열 데이터 없음 또는 UNKNOWN",
+        "KP ⚠️ 매칭됐으나 품질 미달 (최대 50/월 또는 HIGH경쟁)",
+        "→ Grade C: 검증 데이터 없음 — 발행 보류 권장"
+      ]
+    },
+    {
+      "cluster_name": "Xbox PC App Issues",
+      "slug": "xbox-pc-app-issues",
+      "folder": null,
+      "trends_pattern": "UNKNOWN",
+      "trends_stats": {},
+      "trends_keyword": "",
+      "rising_queries": [],
+      "verified_keywords": [],
+      "grade": "C",
+      "warnings": [],
+      "grade_reasons": [
+        "Trends ❌ 시계열 데이터 없음 또는 UNKNOWN",
+        "KP ❌ 클러스터 관련 키워드 없음",
+        "→ Grade C: 검증 데이터 없음 — 발행 보류 권장"
+      ]
+    },
+    {
+      "cluster_name": "Samsung Galaxy Foldable Phones & Wearables",
+      "slug": "samsung-galaxy-foldable-phones-wearables",
+      "folder": "01-galaxy-fold",
+      "trends_pattern": "RISING",
+      "trends_stats": {
+        "avg_all": 40.1,
+        "avg_recent8": 58,
+        "current": 97,
+        "peak": 100,
+        "recent_ratio": 1.45
+      },
+      "trends_keyword": "galaxy fold",
+      "rising_queries": [],
+      "verified_keywords": [
+        {
+          "keyword": "galaxy fold",
+          "monthly_searches": 500,
+          "competition": "MEDIUM",
+          "competition_index": 52
+        }
+      ],
+      "grade": "A",
+      "warnings": [],
+      "grade_reasons": [
+        "Trends ✅ RISING (최근8주 58 / 전체평균 40 / 비율 1.45)",
+        "KP ✅ 매칭 1개 | 롱테일(3단어+) 0개 | LOW경쟁 0개 | 최대: 'galaxy fold' 월 500",
+        "→ Grade A: Trends 타이밍 + KP 롱테일 모두 검증됨"
+      ]
+    },
+    {
+      "cluster_name": "Samsung Galaxy Fold Flip Series",
+      "slug": "samsung-galaxy-fold-flip-series",
+      "folder": "01-galaxy-fold",
+      "trends_pattern": "RISING",
+      "trends_stats": {
+        "avg_all": 40.1,
+        "avg_recent8": 58,
+        "current": 97,
+        "peak": 100,
+        "recent_ratio": 1.45
+      },
+      "trends_keyword": "galaxy fold",
+      "rising_queries": [],
+      "verified_keywords": [
+        {
+          "keyword": "galaxy fold",
+          "monthly_searches": 500,
+          "competition": "MEDIUM",
+          "competition_index": 52
+        }
+      ],
+      "grade": "A",
+      "warnings": [],
+      "grade_reasons": [
+        "Trends ✅ RISING (최근8주 58 / 전체평균 40 / 비율 1.45)",
+        "KP ✅ 매칭 1개 | 롱테일(3단어+) 0개 | LOW경쟁 0개 | 최대: 'galaxy fold' 월 500",
+        "→ Grade A: Trends 타이밍 + KP 롱테일 모두 검증됨"
+      ]
+    },
+    {
+      "cluster_name": "Google Android Ecosystem",
+      "slug": "google-android-ecosystem",
+      "folder": "06-android-auto",
+      "trends_pattern": "RISING",
+      "trends_stats": {
+        "avg_all": 54.5,
+        "avg_recent8": 67.1,
+        "current": 44.5,
+        "peak": 100,
+        "recent_ratio": 1.23
+      },
+      "trends_keyword": "android auto",
+      "rising_queries": [],
+      "verified_keywords": [
+        {
+          "keyword": "android android auto",
+          "monthly_searches": 5000,
+          "competition": "LOW",
+          "competition_index": 16
+        },
+        {
+          "keyword": "android auto youtube",
+          "monthly_searches": 500,
+          "competition": "LOW",
+          "competition_index": 4
+        },
+        {
+          "keyword": "android auto",
+          "monthly_searches": 5000,
+          "competition": "LOW",
+          "competition_index": 16
+        }
+      ],
+      "grade": "A",
+      "warnings": [],
+      "grade_reasons": [
+        "Trends ✅ RISING (최근8주 67 / 전체평균 54 / 비율 1.23)",
+        "KP ✅ 매칭 3개 | 롱테일(3단어+) 2개 | LOW경쟁 3개 | 최대: 'android android auto' 월 5,000",
+        "→ Grade A: Trends 타이밍 + KP 롱테일 모두 검증됨"
+      ]
+    },
+    {
+      "cluster_name": "PC Gaming Ecosystem",
+      "slug": "pc-gaming-ecosystem",
+      "folder": null,
+      "trends_pattern": "UNKNOWN",
+      "trends_stats": {},
+      "trends_keyword": "",
+      "rising_queries": [],
+      "verified_keywords": [
+        {
+          "keyword": "app android auto download",
+          "monthly_searches": 0,
+          "competition": "알 수 없음",
+          "competition_index": 0
+        },
+        {
+          "keyword": "download app android auto",
+          "monthly_searches": 0,
+          "competition": "알 수 없음",
+          "competition_index": 0
+        }
+      ],
+      "grade": "C",
+      "warnings": [
+        "KP 품질 기준 키워드 없음 (LOW/MEDIUM + 월100이상 조건 미충족)"
+      ],
+      "grade_reasons": [
+        "Trends ❌ 시계열 데이터 없음 또는 UNKNOWN",
+        "KP ⚠️ 매칭됐으나 품질 미달 (최대 0/월 또는 HIGH경쟁)",
+        "→ Grade C: 검증 데이터 없음 — 발행 보류 권장"
+      ]
+    },
+    {
+      "cluster_name": "Samsung Foldable Phones",
+      "slug": "samsung-foldable-phones",
+      "folder": null,
+      "trends_pattern": "UNKNOWN",
+      "trends_stats": {},
+      "trends_keyword": "",
+      "rising_queries": [],
+      "verified_keywords": [
+        {
+          "keyword": "galaxy fold",
+          "monthly_searches": 500,
+          "competition": "MEDIUM",
+          "competition_index": 52
+        }
+      ],
+      "grade": "B",
+      "warnings": [],
+      "grade_reasons": [
+        "Trends ❌ 시계열 데이터 없음 또는 UNKNOWN",
+        "KP ✅ 매칭 1개 | 롱테일(3단어+) 0개 | LOW경쟁 0개 | 최대: 'galaxy fold' 월 500",
+        "→ Grade B: 부분 검증 — 발행 가능하나 키워드 최적화 미완"
+      ]
+    },
+    {
+      "cluster_name": "Google Pixel Ecosystem",
+      "slug": "google-pixel-ecosystem",
+      "folder": null,
+      "trends_pattern": "UNKNOWN",
+      "trends_stats": {},
+      "trends_keyword": "",
+      "rising_queries": [],
+      "verified_keywords": [],
+      "grade": "C",
+      "warnings": [],
+      "grade_reasons": [
+        "Trends ❌ 시계열 데이터 없음 또는 UNKNOWN",
+        "KP ❌ 클러스터 관련 키워드 없음",
+        "→ Grade C: 검증 데이터 없음 — 발행 보류 권장"
+      ]
+    },
+    {
+      "cluster_name": "Gaming Ecosystem Strategy",
+      "slug": "gaming-ecosystem-strategy",
+      "folder": null,
+      "trends_pattern": "UNKNOWN",
+      "trends_stats": {},
+      "trends_keyword": "",
+      "rising_queries": [],
+      "verified_keywords": [],
+      "grade": "C",
+      "warnings": [],
+      "grade_reasons": [
+        "Trends ❌ 시계열 데이터 없음 또는 UNKNOWN",
+        "KP ❌ 클러스터 관련 키워드 없음",
+        "→ Grade C: 검증 데이터 없음 — 발행 보류 권장"
+      ]
+    },
+    {
+      "cluster_name": "Samsung Galaxy & Google Pixel Phones",
+      "slug": "samsung-galaxy-google-pixel-phones",
+      "folder": "01-galaxy-fold",
+      "trends_pattern": "RISING",
+      "trends_stats": {
+        "avg_all": 40.1,
+        "avg_recent8": 58,
+        "current": 97,
+        "peak": 100,
+        "recent_ratio": 1.45
+      },
+      "trends_keyword": "galaxy fold",
+      "rising_queries": [],
+      "verified_keywords": [
+        {
+          "keyword": "galaxy fold",
+          "monthly_searches": 500,
+          "competition": "MEDIUM",
+          "competition_index": 52
+        }
+      ],
+      "grade": "A",
+      "warnings": [],
+      "grade_reasons": [
+        "Trends ✅ RISING (최근8주 58 / 전체평균 40 / 비율 1.45)",
+        "KP ✅ 매칭 1개 | 롱테일(3단어+) 0개 | LOW경쟁 0개 | 최대: 'galaxy fold' 월 500",
+        "→ Grade A: Trends 타이밍 + KP 롱테일 모두 검증됨"
+      ]
+    },
+    {
+      "cluster_name": "AI Models and Services",
+      "slug": "ai-models-and-services",
+      "folder": null,
+      "trends_pattern": "UNKNOWN",
+      "trends_stats": {},
+      "trends_keyword": "",
+      "rising_queries": [],
+      "verified_keywords": [],
+      "grade": "C",
+      "warnings": [],
+      "grade_reasons": [
+        "Trends ❌ 시계열 데이터 없음 또는 UNKNOWN",
+        "KP ❌ 클러스터 관련 키워드 없음",
+        "→ Grade C: 검증 데이터 없음 — 발행 보류 권장"
+      ]
+    },
+    {
+      "cluster_name": "Samsung Galaxy Fold/Flip Series",
+      "slug": "samsung-galaxy-foldflip-series",
+      "folder": "01-galaxy-fold",
+      "trends_pattern": "RISING",
+      "trends_stats": {
+        "avg_all": 40.1,
+        "avg_recent8": 58,
+        "current": 97,
+        "peak": 100,
+        "recent_ratio": 1.45
+      },
+      "trends_keyword": "galaxy fold",
+      "rising_queries": [],
+      "verified_keywords": [
+        {
+          "keyword": "galaxy fold",
+          "monthly_searches": 500,
+          "competition": "MEDIUM",
+          "competition_index": 52
+        }
+      ],
+      "grade": "A",
+      "warnings": [],
+      "grade_reasons": [
+        "Trends ✅ RISING (최근8주 58 / 전체평균 40 / 비율 1.45)",
+        "KP ✅ 매칭 1개 | 롱테일(3단어+) 0개 | LOW경쟁 0개 | 최대: 'galaxy fold' 월 500",
+        "→ Grade A: Trends 타이밍 + KP 롱테일 모두 검증됨"
+      ]
+    },
+    {
+      "cluster_name": "Google Pixel & Android Auto",
+      "slug": "google-pixel-android-auto",
+      "folder": "06-android-auto",
+      "trends_pattern": "RISING",
+      "trends_stats": {
+        "avg_all": 54.5,
+        "avg_recent8": 67.1,
+        "current": 44.5,
+        "peak": 100,
+        "recent_ratio": 1.23
+      },
+      "trends_keyword": "android auto",
+      "rising_queries": [],
+      "verified_keywords": [
+        {
+          "keyword": "android android auto",
+          "monthly_searches": 5000,
+          "competition": "LOW",
+          "competition_index": 16
+        },
+        {
+          "keyword": "android auto youtube",
+          "monthly_searches": 500,
+          "competition": "LOW",
+          "competition_index": 4
+        },
+        {
+          "keyword": "android auto",
+          "monthly_searches": 5000,
+          "competition": "LOW",
+          "competition_index": 16
+        }
+      ],
+      "grade": "A",
+      "warnings": [
+        "time_series 키워드 'android auto'가 hub 'Pixel 11 camera'와 무관해 보임 — CSV를 잘못된 폴더에 넣었는지 확인"
+      ],
+      "grade_reasons": [
+        "Trends ✅ RISING (최근8주 67 / 전체평균 54 / 비율 1.23)",
+        "KP ✅ 매칭 3개 | 롱테일(3단어+) 2개 | LOW경쟁 3개 | 최대: 'android android auto' 월 5,000",
+        "→ Grade A: Trends 타이밍 + KP 롱테일 모두 검증됨"
+      ]
+    }
+  ],
+  "kp_parsed": 1281,
+  "kp_error": null,
+  "unassigned_keywords": [
+    "baldur's gate",
+    "smart glasses",
+    "galaxy s27",
+    "fighting souls",
+    "resident evil",
+    "release date",
+    "z fold 3",
+    "zfold 4",
+    "fold4",
+    "zfold",
+    "zfold4",
+    "z fold 2",
+    "galaxy z fold3 5g",
+    "samsung z fold4",
+    "z4 fold"
+  ],
+  "updated": true
+}
