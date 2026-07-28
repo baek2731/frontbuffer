@@ -166,6 +166,20 @@ jobs:
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
 
+      # ── Step 3 자동 연쇄 트리거 ─────────────────────────────────────
+      - name: "🚀 Step 3 자동 트리거"
+        if: success()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.actions.createWorkflowDispatch({
+              owner: context.repo.owner,
+              repo:  context.repo.repo,
+              workflow_id: 'step3_write.yml',
+              ref: 'main'
+            });
+            console.log('✅ Step 3 트리거 완료');
+
       # ── Discord 알림: Step 2 실패 ────────────────────────────────────
       - name: "🔔 Discord 알림 — Step 2 실패"
         if: failure()
