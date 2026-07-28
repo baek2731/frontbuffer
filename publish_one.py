@@ -188,7 +188,34 @@ def update_pipeline_urls(pipeline, cluster_name, content_type, pub_url):
 
 
 def hub_ready(pipeline, cluster_name):
-    """HUB 글은 해당 클러스터 스포크 2개 이상 발행 후에만 발행."""
+    """HUB 글은 해당 클러스터의 모든 스포크 발행 완료 후에만 발행.
+    hub_clusters[].spoke_urls 기준으로 PENDING이 없어야 함."""
+    hub_clusters = pipeline.get("hub_clusters", {})
+
+    # hub_clusters에서 해당 cluster_name의 허브 찾기
+    for hub_key, hub_info in hub_clusters.items():
+        spoke_urls = hub_info.get("spoke_urls", {})
+        # cluster_name이 spoke_urls 키에 포함돼 있는지 확인
+        matched = any(
+            cluster_name.lower() in k.lower()
+            for k in spoke_urls.keys()
+            if "(HUB)" not in k
+        )
+        if not matched:
+            continue
+        # 스포크 URL 중 PENDING이나 빈 값이 있으면 아직 미완성
+        spoke_only = {k: v for k, v in spoke_urls.items() if "(HUB)" not in k}
+        if not spoke_only:
+            return False
+        all_published = all(
+            v and v != "PENDING" and v.startswith("http")
+            for v in spoke_only.values()
+        )
+        pending_count = sum(1 for v in spoke_only.values() if not v or v == "PENDING")
+        print(f"  🔍 HUB 조건 체크: {hub_key} — 스포크 {len(spoke_only)}개 중 PENDING {pending_count}개")
+        return all_published
+
+    # hub_clusters에 없으면 기존 방식 fallback (발행된 스포크 2개 이상)
     published = pipeline.get("published", [])
     spokes = [p for p in published
               if p.get("cluster_name") == cluster_name
