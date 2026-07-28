@@ -388,9 +388,42 @@ def main():
             type_order.get((s.get("content_type") or "GUIDE").upper(), 50),
         )
     )
-    # publish_order 부여 (1부터 시작)
-    for i, sel in enumerate(auto_select, 1):
-        sel["publish_order"] = i
+    # publish_order 부여 (final/ 최대값+1부터 연속, HUB는 H prefix)
+    import re as _re
+    from pathlib import Path as _Path
+    _final_dir = os.path.join("research_data", "write", "final")
+    _max_order = 0
+    _max_hub   = 0
+    if os.path.isdir(_final_dir):
+        for _f in _Path(_final_dir).glob("*.md"):
+            if _f.name.startswith("review_report_"):
+                continue
+            _prefix = _f.name.split("_")[0]
+            if _prefix.upper().startswith("H"):
+                try:
+                    _max_hub = max(_max_hub, int(_prefix[1:]))
+                except ValueError:
+                    pass
+            else:
+                try:
+                    _num = int(_prefix)
+                    _max_order = max(_max_order, _num)
+                except ValueError:
+                    pass
+    _next_order = _max_order + 1
+    _next_hub   = _max_hub + 1
+    print(f"  📋 final/ 스포크 최대: {_max_order} → 신규 시작: {_next_order}")
+    print(f"  📋 final/ HUB 최대: H{_max_hub:03d} → 신규 시작: H{_next_hub:03d}")
+
+    _spoke_count = 0
+    for sel in auto_select:
+        ct = (sel.get("content_type") or "").upper()
+        if ct == "HUB":
+            sel["publish_order"] = f"H{_next_hub:03d}"
+            _next_hub += 1
+        else:
+            sel["publish_order"] = _next_order + _spoke_count
+            _spoke_count += 1
 
     print(f"\n  🔷 자동 선택 (Grade A/B): {len(auto_select)}개")
     for s in auto_select:

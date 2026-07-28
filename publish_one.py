@@ -203,18 +203,50 @@ def main():
     # 파일명 형식: {order:03d}_{week_tag}_{folder_id}_{CT}.md
     # 앞 3자리 숫자가 Step 2에서 정한 발행 순서.
     # 숫자 없는 구버전 파일은 맨 뒤로 (999 처리).
-    def _sort_key(f):
-        name = f.name
-        try:
-            order = int(name.split("_")[0])
-        except (ValueError, IndexError):
-            order = 999
+    def _sort_key(f, hub_ready_names=None):
+        name   = f.name
+        prefix = name.split("_")[0]
+        if prefix.upper().startswith("H"):
+            # HUB: 조건 충족이면 89000대, 미충족이면 99000대
+            try:
+                hub_num = int(prefix[1:])
+            except ValueError:
+                hub_num = 999
+            stem  = f.stem
+            h_fmt = re.match(r'^H\d+_\d{4}-W\d+_(.+)_HUB$', stem)
+            slug  = h_fmt.group(1) if h_fmt else stem
+            ready = hub_ready_names and slug in hub_ready_names
+            order = 89000 + hub_num if ready else 99000 + hub_num
+        else:
+            try:
+                order = int(prefix)
+            except (ValueError, IndexError):
+                order = 88999
         return (order, name)
+
+    # hub_ready 조건 충족된 HUB slug 목록 미리 계산
+    _hub_ready_slugs = set()
+    for _f in Path(FINAL_DIR).glob("H*.md"):
+        _stem  = _f.stem
+        _h_fmt = re.match(r'^H\d+_\d{4}-W\d+_(.+)_HUB$', _stem)
+        if not _h_fmt:
+            continue
+        _slug = _h_fmt.group(1)
+        _cn   = None
+        for _ws in pipeline.get("weekly_selections", {}).values():
+            for _s in _ws:
+                if slugify(_s.get("cluster_name","")) == _slug and _s.get("content_type","").upper() == "HUB":
+                    _cn = _s.get("cluster_name")
+                    break
+            if _cn:
+                break
+        if _cn and hub_ready(pipeline, _cn):
+            _hub_ready_slugs.add(_slug)
 
     final_files = sorted(
         [f for f in Path(FINAL_DIR).glob("*.md")
          if not f.name.startswith("review_report_")],
-        key=_sort_key
+        key=lambda f: _sort_key(f, _hub_ready_slugs)
     )
 
     if not final_files:
@@ -231,7 +263,7 @@ def main():
         stem  = f.stem
         # 신버전: 001_2026-W30_01-galaxy-fold_GUIDE → slug=01-galaxy-fold, ct=GUIDE
         # 구버전: portable-gaming_GUIDE → slug=portable-gaming, ct=GUIDE
-        new_fmt = re.match(r'^\d{3}_\d{4}-W\d+_(.+)_([A-Z]+)$', stem)
+        new_fmt = re.match(r'^(?:H)?\d+_\d{4}-W\d+_(.+)_([A-Z]+)$', stem)
         if new_fmt:
             slug, ct = new_fmt.group(1), new_fmt.group(2).upper()
         else:
