@@ -1,7 +1,7 @@
 {
   "_version": "1.3",
   "_description": "콘텐츠 파이프라인 — 클러스터 단위 관리",
-  "_last_updated": "2026-07-28T16:04:18.130243+00:00",
+  "_last_updated": "2026-07-29T15:48:15.217695+00:00",
   "hub_clusters": {
     "Steam Machine": {
       "hub_keyword": "Steam Machine",
@@ -24,21 +24,21 @@
     },
     "Samsung Health": {
       "hub_keyword": "Samsung Health",
-      "hub_status": "READY",
+      "hub_status": "PUBLISHED",
       "hub_title": "",
-      "hub_url": "",
+      "hub_url": "https://frontbuffer.net/tech/samsung-health-data-ecosystem_hub/",
       "spokes": [
         "Samsung Health Data Ecosystem"
       ],
       "spoke_urls": {
         "Samsung Health Data Ecosystem (GUIDE)": "https://frontbuffer.net/tech/how-to-backup-samsung-health-data-before-account-deletion/",
         "Samsung Health Data Ecosystem (COMPARISON)": "https://frontbuffer.net/tech/samsung-health-vs-google-health-connect-feature-comparison/",
-        "Samsung Health Data Ecosystem (HUB)": "PENDING"
+        "Samsung Health Data Ecosystem (HUB)": "https://frontbuffer.net/tech/samsung-health-data-ecosystem_hub/"
       },
       "internal_links": [
         "https://frontbuffer.net/tech/how-to-backup-samsung-health-data-before-account-deletion/",
         "https://frontbuffer.net/tech/samsung-health-vs-google-health-connect-feature-comparison/",
-        "PENDING"
+        "https://frontbuffer.net/tech/samsung-health-data-ecosystem_hub/"
       ]
     },
     "Black Flag Resynced": {
@@ -398,7 +398,7 @@
         "COMPARISON",
         "HUB"
       ],
-      "last_week": "2026-W29",
+      "last_week": "2026-W30",
       "suggest_next": [
         "EXPLAINER",
         "LISTICLE"
@@ -1661,8 +1661,9 @@
         "verifiability": "HIGH",
         "data_grade": "B",
         "verified_keywords": [],
-        "status": "candidate",
-        "selected_at": "2026-07-20T04:28:32.401611+00:00"
+        "status": "published",
+        "selected_at": "2026-07-20T04:28:32.401611+00:00",
+        "url": "https://frontbuffer.net/tech/samsung-health-data-ecosystem_hub/"
       },
       {
         "cluster_name": "Fallout Series",
@@ -3959,6 +3960,15 @@
       "week_tag": "2026-W30",
       "published_at": "2026-07-28T16:04:18.130141+00:00",
       "hub_cluster": "Portable Gaming"
+    },
+    {
+      "cluster_name": "Samsung Health Data Ecosystem",
+      "title": "Samsung Health Data Management: Backup, Export, and Health Connect Guide",
+      "url": "https://frontbuffer.net/tech/samsung-health-data-ecosystem_hub/",
+      "content_type": "HUB",
+      "week_tag": "2026-W30",
+      "published_at": "2026-07-29T15:48:15.217645+00:00",
+      "hub_cluster": "Samsung Health"
     }
   ]
 }

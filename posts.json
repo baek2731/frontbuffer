@@ -307,7 +307,24 @@
       "internal_links_needed": [],
       "internal_links_resolved": {},
       "status": "live"
+    },
+    {
+      "id": "samsung-health-data-management-backup-export-and-health-conn",
+      "title": "Samsung Health Data Management: Backup, Export, and Health Connect Guide",
+      "slug": "samsung-health-data-management-backup-export-and-health-conn",
+      "cluster_slug": "samsung-health-data-ecosystem",
+      "url": "https://frontbuffer.net/tech/samsung-health-data-ecosystem_hub/",
+      "live_url": "https://frontbuffer.net/tech/samsung-health-data-ecosystem_hub/",
+      "published_date": "2026-07-29",
+      "content_type": "HUB",
+      "hub_cluster": "Samsung Health",
+      "hub_keyword": "Samsung Health",
+      "verified_keywords": [],
+      "data_grade": "B",
+      "internal_links_needed": [],
+      "internal_links_resolved": {},
+      "status": "live"
     }
   ],
-  "_last_updated": "2026-07-28T16:04:18.136928+00:00"
+  "_last_updated": "2026-07-29T15:48:15.220650+00:00"
 }
