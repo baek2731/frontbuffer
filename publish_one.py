@@ -234,7 +234,7 @@ def main():
         name   = f.name
         prefix = name.split("_")[0]
         if prefix.upper().startswith("H"):
-            # HUB: 조건 충족이면 89000대, 미충족이면 99000대
+            # HUB: 조건 충족이면 -9999~-9001 (스포크보다 앞), 미충족이면 99000대 (맨 뒤)
             try:
                 hub_num = int(prefix[1:])
             except ValueError:
@@ -243,7 +243,7 @@ def main():
             h_fmt = re.match(r'^H\d+_\d{4}-W\d+_(.+)_HUB$', stem)
             slug  = h_fmt.group(1) if h_fmt else stem
             ready = hub_ready_names and slug in hub_ready_names
-            order = hub_num if ready else 99000 + hub_num  # ready면 최상위(1~999)
+            order = hub_num - 10000 if ready else 99000 + hub_num  # ready면 최상위(-9999~-9001)
         else:
             try:
                 order = int(prefix)
