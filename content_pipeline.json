@@ -1,25 +1,25 @@
 {
   "_version": "1.3",
   "_description": "콘텐츠 파이프라인 — 클러스터 단위 관리",
-  "_last_updated": "2026-07-29T15:48:15.217695+00:00",
+  "_last_updated": "2026-07-30T15:50:00.789069+00:00",
   "hub_clusters": {
     "Steam Machine": {
       "hub_keyword": "Steam Machine",
-      "hub_status": "READY",
+      "hub_status": "PUBLISHED",
       "hub_title": "",
-      "hub_url": "",
+      "hub_url": "https://frontbuffer.net/gaming/steam-machine-hardware-management/",
       "spokes": [
         "Steam Machine Hardware Management"
       ],
       "spoke_urls": {
         "Steam Machine Hardware Management (GUIDE)": "https://frontbuffer.net/gaming/how-to-troubleshoot-steam-machine-overheating-and-red-light-issues/",
         "Steam Machine Hardware Management (COMPARISON)": "https://frontbuffer.net/gaming/steam-machine-led-error-codes-what-each-warning-light-actually-means/",
-        "Steam Machine Hardware Management (HUB)": "PENDING"
+        "Steam Machine Hardware Management (HUB)": "https://frontbuffer.net/gaming/steam-machine-hardware-management/"
       },
       "internal_links": [
         "https://frontbuffer.net/gaming/how-to-troubleshoot-steam-machine-overheating-and-red-light-issues/",
         "https://frontbuffer.net/gaming/steam-machine-led-error-codes-what-each-warning-light-actually-means/",
-        "PENDING"
+        "https://frontbuffer.net/gaming/steam-machine-hardware-management/"
       ]
     },
     "Samsung Health": {
@@ -373,7 +373,7 @@
         "GUIDE",
         "HUB"
       ],
-      "last_week": "2026-W29",
+      "last_week": "2026-W30",
       "suggest_next": [
         "COMPARISON",
         "EXPLAINER",
@@ -1641,8 +1641,9 @@
         "verifiability": "HIGH",
         "data_grade": "B",
         "verified_keywords": [],
-        "status": "candidate",
-        "selected_at": "2026-07-20T04:28:32.401611+00:00"
+        "status": "published",
+        "selected_at": "2026-07-20T04:28:32.401611+00:00",
+        "url": "https://frontbuffer.net/gaming/steam-machine-hardware-management/"
       },
       {
         "cluster_name": "Samsung Health Data Ecosystem",
@@ -3969,6 +3970,15 @@
       "week_tag": "2026-W30",
       "published_at": "2026-07-29T15:48:15.217645+00:00",
       "hub_cluster": "Samsung Health"
+    },
+    {
+      "cluster_name": "Steam Machine Hardware Management",
+      "title": "Steam Machine (2026) Hardware Troubleshooting: The Complete Guide",
+      "url": "https://frontbuffer.net/gaming/steam-machine-hardware-management/",
+      "content_type": "HUB",
+      "week_tag": "2026-W30",
+      "published_at": "2026-07-30T15:50:00.788994+00:00",
+      "hub_cluster": "Steam Machine"
     }
   ]
 }

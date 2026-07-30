@@ -324,7 +324,24 @@
       "internal_links_needed": [],
       "internal_links_resolved": {},
       "status": "live"
+    },
+    {
+      "id": "steam-machine-2026-hardware-troubleshooting-the-complete-gui",
+      "title": "Steam Machine (2026) Hardware Troubleshooting: The Complete Guide",
+      "slug": "steam-machine-2026-hardware-troubleshooting-the-complete-gui",
+      "cluster_slug": "steam-machine-hardware-management",
+      "url": "https://frontbuffer.net/gaming/steam-machine-hardware-management/",
+      "live_url": "https://frontbuffer.net/gaming/steam-machine-hardware-management/",
+      "published_date": "2026-07-30",
+      "content_type": "HUB",
+      "hub_cluster": "Steam Machine",
+      "hub_keyword": "Steam Machine",
+      "verified_keywords": [],
+      "data_grade": "B",
+      "internal_links_needed": [],
+      "internal_links_resolved": {},
+      "status": "live"
     }
   ],
-  "_last_updated": "2026-07-29T15:48:15.220650+00:00"
+  "_last_updated": "2026-07-30T15:50:00.793614+00:00"
 }
