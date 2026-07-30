@@ -377,6 +377,12 @@ def main():
     jekyll_slug   = post_filename[len(date_str) + 1:-3]
     pub_url       = f"https://frontbuffer.net/{cat}/{jekyll_slug}/"
 
+    # HUB는 permalink에서 _hub 제거 → /tech/samsung-health-data-ecosystem/
+    hub_permalink = None
+    if target_ct.upper() == "HUB":
+        hub_permalink = f"/{cat}/{target_slug}/"
+        pub_url = f"https://frontbuffer.net{hub_permalink}"
+
     # ── [INTERNAL LINK: xxx] → 실제 URL 주입 (PENDING/미매칭은 제거) ─
     content = inject_internal_links(
         content, cluster_name or "", target_ct, pipeline, pub_url
@@ -414,6 +420,7 @@ def main():
     yaml_excerpt = excerpt.replace("'", "''")
 
     # ── front matter ───────────────────────────────────────────────
+    permalink_line = f"permalink: '{hub_permalink}'\n" if hub_permalink else ""
     front_matter = (
         f"---\n"
         f"layout: single\n"
@@ -422,6 +429,7 @@ def main():
         f"categories: [{cat}]\n"
         f"tags: [{tags_str}]\n"
         f"excerpt: '{yaml_excerpt}'\n"
+        f"{permalink_line}"
         f"author_profile: false\n"
         f"read_time: true\n"
         f"share: true\n"
