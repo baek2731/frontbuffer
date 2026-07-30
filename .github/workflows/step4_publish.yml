@@ -71,3 +71,17 @@ jobs:
           git push origin HEAD:main
           echo "✅ 발행 완료: ${{ env.POST_TITLE }}"
           echo "   URL: ${{ env.POST_URL }}"
+
+      # ── 7. IndexNow 제출 (Bing 즉시 색인 요청) ───────────────────
+      - name: Submit to IndexNow
+        if: env.POST_URL != ''
+        run: |
+          curl -s -o /dev/null -w "%{http_code}" \
+            -X POST "https://api.indexnow.org/IndexNow" \
+            -H "Content-Type: application/json; charset=utf-8" \
+            -d "{
+              \"host\": \"frontbuffer.net\",
+              \"key\": \"598f6bef9c054f238ee360ceb0374da3\",
+              \"keyLocation\": \"https://frontbuffer.net/598f6bef9c054f238ee360ceb0374da3.txt\",
+              \"urlList\": [\"${{ env.POST_URL }}\"]
+            }" | xargs -I{} echo "IndexNow 응답 코드: {}"
