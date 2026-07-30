@@ -1,4 +1,7 @@
 User-agent: *
 Allow: /
+Disallow: /tags/
+Disallow: /page/
+Disallow: /feed.xml
 
 Sitemap: https://frontbuffer.net/sitemap.xml
