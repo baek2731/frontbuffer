@@ -31,6 +31,7 @@ PIPELINE_FILE = "content_pipeline.json"
 POSTS_FILE    = "posts.json"
 
 
+
 def slugify(text):
     text = text.lower().strip()
     text = re.sub(r"[^\w\s-]", "", text)
@@ -342,6 +343,24 @@ def main():
 
     # ── 본문 읽기 ──────────────────────────────────────────────────
     content = target.read_text(encoding="utf-8")
+
+    # ── 발행 불가 패턴 사전 차단 (최후 방어선) ─────────────────────
+    BLOCK_PATTERNS = [
+        (r"\[cite:\s*\d+",           "Gemini cite 번호 잔존"),
+        (r"cite:\s*\d+,\s*\d+",     "Gemini cite 연속 번호 잔존"),
+        (r"판정 요약",                   "한국어 판정 메모 잔존"),
+        (r"\[INTERNAL LINK:",           "미처리 내부링크 잔존"),
+        (r"수정 내용 \+ 근거 URL",       "Gemini 검토 메모 잔존"),
+    ]
+    for bp, bp_desc in BLOCK_PATTERNS:
+        if re.search(bp, content):
+            reason = f"발행 불가 패턴 감지 — {bp_desc} ({target.name})"
+            print(f"🚨 {reason}")
+            subprocess.run(
+                ["python", "notify.py", "step4_fail", "--reason", reason],
+                check=False
+            )
+            sys.exit(1)   # Actions 워크플로우 실패로 기록
 
     # ── H1에서 제목 추출 ───────────────────────────────────────────
     title_match = re.search(r"^# (.+)$", content, re.MULTILINE)

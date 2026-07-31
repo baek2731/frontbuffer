@@ -57,6 +57,15 @@ def github_link(filepath: str) -> str:
 # ── 규칙 기반 체크 ──────────────────────────────────────────────────
 
 # R1([INTERNAL LINK])은 final/ 단계에서 정상 잔존 — Step 5 audit에서 _posts/ 기준으로 체크
+# 발행 불가 패턴 목록 (R5) — 이 중 하나라도 감지되면 발행 차단
+BLOCK_PATTERNS = [
+    (r"\[cite:\s*\d+",             "Gemini cite 번호 잔존"),
+    (r"cite:\s*\d+,\s*\d+",       "Gemini cite 연속 번호 잔존"),
+    (r"판정 요약",                     "한국어 판정 메모 잔존"),
+    (r"\[INTERNAL LINK:",             "미처리 내부링크 잔존"),
+    (r"수정 내용 \+ 근거 URL",         "Gemini 검토 메모 잔존"),
+]
+
 RULE_CHECKS = [
     {
         "id":      "R2",
@@ -68,6 +77,11 @@ RULE_CHECKS = [
         "label":   "H1 제목 없음",
         "pattern": None,   # 특수 처리
     },
+    {
+        "id":      "R5",
+        "label":   "발행 불가 — Gemini 내부 메모 잔존",
+        "pattern": None,   # 특수 처리 (BLOCK_PATTERNS)
+    },
 ]
 
 def run_rule_checks(text: str, filepath: str = "") -> list:
@@ -76,9 +90,20 @@ def run_rule_checks(text: str, filepath: str = "") -> list:
 
     for chk in RULE_CHECKS:
         if chk["pattern"] is None:
-            # R4: H1 존재 여부
-            if not re.search(r'^# .+', text, re.MULTILINE):
-                issues.append({"id": chk["id"], "label": chk["label"]})
+            if chk["id"] == "R4":
+                # R4: H1 존재 여부
+                if not re.search(r'^# .+', text, re.MULTILINE):
+                    issues.append({"id": chk["id"], "label": chk["label"]})
+            elif chk["id"] == "R5":
+                # R5: 발행 불가 패턴 감지
+                for pattern, desc in BLOCK_PATTERNS:
+                    if re.search(pattern, text):
+                        issues.append({
+                            "id":    "R5",
+                            "label": f"발행 불가 — {desc}",
+                            "block": True,   # publish_one.py 스킵 신호
+                        })
+                        break  # 첫 번째 감지만 보고
         else:
             if re.search(chk["pattern"], text):
                 issues.append({"id": chk["id"], "label": chk["label"]})
