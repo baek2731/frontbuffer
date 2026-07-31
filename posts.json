@@ -341,7 +341,24 @@
       "internal_links_needed": [],
       "internal_links_resolved": {},
       "status": "live"
+    },
+    {
+      "id": "how-to-stream-pc-games-to-your-android-tablet-with-moonlight",
+      "title": "How to Stream PC Games to Your Android Tablet with Moonlight and Sunshine",
+      "slug": "how-to-stream-pc-games-to-your-android-tablet-with-moonlight",
+      "cluster_slug": "portable-gaming",
+      "url": "https://frontbuffer.net/gaming/portable-gaming_guide/",
+      "live_url": "https://frontbuffer.net/gaming/portable-gaming_guide/",
+      "published_date": "2026-07-31",
+      "content_type": "GUIDE",
+      "hub_cluster": "Portable Gaming",
+      "hub_keyword": "Game Streaming",
+      "verified_keywords": [],
+      "data_grade": "A",
+      "internal_links_needed": [],
+      "internal_links_resolved": {},
+      "status": "live"
     }
   ],
-  "_last_updated": "2026-07-30T15:50:00.793614+00:00"
+  "_last_updated": "2026-07-31T16:00:26.997201+00:00"
 }

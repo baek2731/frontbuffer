@@ -1,4 +1,14 @@
-# How to Stream PC Games to Your Android Tablet with Moonlight and Sunshine
+---
+layout: single
+title: 'How to Stream PC Games to Your Android Tablet with Moonlight and Sunshine'
+date: 2026-07-31 14:02:00 +0000
+categories: [gaming]
+tags: ["guide", "portable", "gaming"]
+excerpt: 'Nvidia ended its GameStream service on February 27, 2023, leaving SHIELD owners without a built-in streaming solution. The open-source combination of…'
+author_profile: false
+read_time: true
+share: true
+---
 
 Nvidia ended its GameStream service on February 27, 2023, leaving SHIELD owners without a built-in streaming solution. The open-source combination of Sunshine (server) and Moonlight (client) has become the standard replacement — and for most setups, it performs better than the proprietary service it replaced.
 
