@@ -1,4 +1,14 @@
-# Samsung Silicon-Carbon Battery Technology: What It Is and Why It Matters for Foldables
+---
+layout: single
+title: 'Samsung Silicon-Carbon Battery Technology: What It Is and Why It Matters for Foldables'
+date: 2026-08-03 14:35:00 +0000
+categories: [tech]
+tags: ["explainer", "01", "galaxy", "fold"]
+excerpt: 'Samsung confirmed silicon-carbon battery technology in the Galaxy Z Fold 8 and Z Flip 8, announced July 22, 2026 — the first time the company has…'
+author_profile: false
+read_time: true
+share: true
+---
 
 Samsung confirmed silicon-carbon battery technology in the Galaxy Z Fold 8 and Z Flip 8, announced July 22, 2026 — the first time the company has used this chemistry in a foldable device. The same technology appeared earlier in the Galaxy S24 series, where Samsung disclosed silicon content exceeding 10% in the anode. Understanding what that actually means helps explain why it matters specifically for foldable form factors.
 
