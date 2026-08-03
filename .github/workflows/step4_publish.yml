@@ -90,7 +90,8 @@ jobs:
       - name: Auto-trigger Step 1 if stack is low
         if: success()
         run: |
-          STACK=$(ls research_data/write/final/*.md 2>/dev/null | wc -l)
+          # 숫자로 시작하는 스포크 + H로 시작하는 HUB만 카운트 (review_report .txt 제외)
+          STACK=$(ls research_data/write/final/[0-9]*.md research_data/write/final/H*.md 2>/dev/null | wc -l)
           echo "현재 final/ 스택: ${STACK}편"
           if [ "${STACK}" -le 10 ]; then
             echo "⚠️ 스택 ${STACK}편 — Step 1 자동 트리거"
