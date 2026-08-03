@@ -1,7 +1,7 @@
 # =====================================================================
 # Step 4: 매일 1편 발행 (final/ → _posts/)
 # =====================================================================
-# 트리거: cron 평일 UTC 14:00 (미국 동부 오전 9시)
+# 트리거: cron 매일 UTC 14:00 (주말 포함)
 #         + 수동 트리거 (테스트용)
 #
 # 흐름:
@@ -20,7 +20,7 @@ name: Step 4 - Publish Article
 
 on:
   schedule:
-    - cron: '0 14 * * 1-5'   # 평일 UTC 14:00 (미국 동부 오전 9시)
+    - cron: '0 14 * * *'     # 매일 UTC 14:00 (주말 포함)
   workflow_dispatch:           # 수동 트리거 (테스트용)
 
 jobs:
@@ -85,3 +85,20 @@ jobs:
               \"keyLocation\": \"https://frontbuffer.net/598f6bef9c054f238ee360ceb0374da3.txt\",
               \"urlList\": [\"${{ env.POST_URL }}\"]
             }" | xargs -I{} echo "IndexNow 응답 코드: {}"
+
+      # ── 8. final/ 스택 10편 이하 시 Step 1 자동 트리거 ───────────
+      - name: Auto-trigger Step 1 if stack is low
+        if: success()
+        run: |
+          STACK=$(ls research_data/write/final/*.md 2>/dev/null | wc -l)
+          echo "현재 final/ 스택: ${STACK}편"
+          if [ "${STACK}" -le 10 ]; then
+            echo "⚠️ 스택 ${STACK}편 — Step 1 자동 트리거"
+            curl -s -X POST \
+              -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+              -H "Accept: application/vnd.github.v3+json" \
+              "https://api.github.com/repos/${{ github.repository }}/actions/workflows/step1_research.yml/dispatches" \
+              -d '{"ref":"main"}'
+          else
+            echo "ℹ️ 스택 ${STACK}편 — Step 1 트리거 불필요"
+          fi

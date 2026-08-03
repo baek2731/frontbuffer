@@ -99,7 +99,7 @@ def check_placeholders(posts, dry_run: bool):
 
     PLACEHOLDER_AUTO = [
         (r'\[AFFILIATE LINK:[^\]]*\](?!\()', ''),
-        (r'\[Source:[^\]]*\](?!\()',           ''),
+        (r'\[Source:[^\]]*\](?!\(',           ''),
     ]
     # [INTERNAL LINK]는 publish_one.py가 처리했어야 하므로
     # _posts/에 잔존하면 수동 확인 대상 (자동 제거 X)
