@@ -90,4 +90,3 @@ These figures will vary based on network conditions, app usage, and display brig
 Sources:
 - [Samsung Galaxy Z Fold 8 Official Page](https://www.samsung.com/us/smartphones/galaxy-z-fold8/)
 - [Samsung Battery Protection — One UI Support](https://www.samsung.com/us/support/answer/ANS00079387/)
-- [Sunshine Streaming — Referenced in cluster context](https://lizardbyte.dev/sunshine/)
