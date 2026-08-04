@@ -1,6 +1,6 @@
 {
   "week_tag": "2026-W31",
-  "collected_at": "2026-08-03T16:27:47.039001+00:00",
+  "collected_at": "2026-08-04T16:13:13.701170+00:00",
   "sources": [
     "arstechnica",
     "theverge",
@@ -15,8 +15,64 @@
     "techradar",
     "hackernews"
   ],
-  "item_count": 441,
+  "item_count": 437,
   "items": [
+    {
+      "title": "2027 Chevrolet Corvette Grand Sport X proves code is as important as hardware",
+      "link": "https://arstechnica.com/cars/2026/08/2027-chevrolet-corvette-grand-sport-x-proves-code-is-as-important-as-hardware/",
+      "source": "arstechnica",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-08-04T14:45:08+00:00"
+    },
+    {
+      "title": "OpenAI says Apple's trade secrets lawsuit is \"aggressive and oddly personal\"",
+      "link": "https://arstechnica.com/tech-policy/2026/08/openai-says-apples-trade-secrets-lawsuit-is-aggressive-and-oddly-personal/",
+      "source": "arstechnica",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-08-04T13:38:29+00:00"
+    },
+    {
+      "title": "US company’s AI lets Ukraine’s cheap kamikaze drones track targets on their own",
+      "link": "https://arstechnica.com/ai/2026/08/ukraines-drones-get-ai-upgrades-for-kamikaze-strikes-future-swarm-attacks/",
+      "source": "arstechnica",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-08-03T22:11:39+00:00"
+    },
+    {
+      "title": "Research roundup: 6 cool science stories we almost missed",
+      "link": "https://arstechnica.com/science/2026/08/research-roundup-6-cool-science-stories-we-almost-missed-5/",
+      "source": "arstechnica",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-08-03T20:13:37+00:00"
+    },
+    {
+      "title": "Lego deploys Hubble Space Telescope as detailed desktop model",
+      "link": "https://arstechnica.com/space/2026/08/lego-deploys-hubble-space-telescope-as-detailed-desktop-model/",
+      "source": "arstechnica",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-08-03T19:21:16+00:00"
+    },
+    {
+      "title": "An AI-supervised remote exam went so badly that 58,000 students must retake it",
+      "link": "https://arstechnica.com/culture/2026/08/an-ai-supervised-remote-exam-went-so-badly-that-58000-students-must-retake-it/",
+      "source": "arstechnica",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-08-03T19:00:50+00:00"
+    },
+    {
+      "title": "2026 Volkswagen Jetta Sport: The cheap car isn't completely extinct yet",
+      "link": "https://arstechnica.com/cars/2026/08/2026-volkswagen-jetta-sport-the-cheap-car-isnt-completely-extinct-yet/",
+      "source": "arstechnica",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-08-03T16:10:22+00:00"
+    },
     {
       "title": "SpaceX is set to acquire 130,000 acres of marshland in southern Louisiana",
       "link": "https://arstechnica.com/space/2026/08/spacex-is-set-to-acquire-130000-acres-of-marshland-in-southern-louisiana/",
@@ -122,300 +178,356 @@
       "pub_date": "2026-07-31T21:19:39+00:00"
     },
     {
-      "title": "Claude published malicious code to the Internet and attacked 3 real companies",
-      "link": "https://arstechnica.com/security/2026/07/likely-illegally-claude-gained-access-to-3-networks-will-anthropic-be-held-to-account/",
-      "source": "arstechnica",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-07-31T20:39:14+00:00"
-    },
-    {
-      "title": "Google Earth risked ruin with retracted AI tool for making fake satellite pics",
-      "link": "https://arstechnica.com/ai/2026/07/google-earth-releases-swiftly-retracts-ai-feature-to-make-fake-satellite-images/",
-      "source": "arstechnica",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-07-31T20:21:05+00:00"
-    },
-    {
-      "title": "Would you get tattooed just to interview at a 7-days-a-week AI startup?",
-      "link": "https://arstechnica.com/culture/2026/07/ai-startup-admits-tattoo-for-interview-stunt-was-reckless/",
-      "source": "arstechnica",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-07-31T19:04:56+00:00"
-    },
-    {
-      "title": "High school defends staying silent while boys made AI nudes of 59 classmates",
-      "link": "https://arstechnica.com/tech-policy/2026/07/high-school-defends-staying-silent-while-boys-made-ai-nudes-of-59-classmates/",
-      "source": "arstechnica",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-07-31T18:11:55+00:00"
-    },
-    {
-      "title": "Researchers devise a full-color night vision goggle",
-      "link": "https://arstechnica.com/science/2026/07/see-the-heat-an-infrared-imaging-system-that-outputs-in-color/",
-      "source": "arstechnica",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-07-31T17:58:38+00:00"
-    },
-    {
-      "title": "China could supply EV manufacturing boom with recycled EVs",
-      "link": "https://arstechnica.com/science/2026/07/china-could-supply-ev-manufacturing-boom-with-recycled-evs/",
-      "source": "arstechnica",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-07-31T17:29:21+00:00"
-    },
-    {
-      "title": "Sony acknowledges backlash, “cautiously” moves ahead with end of PlayStation discs",
-      "link": "https://arstechnica.com/gaming/2026/07/sony-acknowledges-backlash-will-cautiously-move-forward-with-end-of-discs/",
-      "source": "arstechnica",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-07-31T17:07:42+00:00"
-    },
-    {
-      "title": "Bluesky’s new CEO wants a big tent, not a bubble",
-      "link": "https://www.theverge.com/podcast/974387/bluesky-toni-schneider-interview-ai-atproto-atmosphere",
+      "title": "T-Mobile’s $0-down financing plan bundles taxes and fees",
+      "link": "https://www.theverge.com/tech/975115/t-mobile-financing-eip-flex-36-plan",
       "source": "theverge",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-03T11:00:00-04:00"
+      "pub_date": "2026-08-04T12:07:02-04:00"
     },
     {
-      "title": "Palworld’s expanding to mobile with a new MMORPG",
-      "link": "https://www.theverge.com/games/974450/palworld-online-mobile-mmo",
+      "title": "Skylight&#8217;s smart calendars are up to $90 off during its back-to-school sale",
+      "link": "https://www.theverge.com/gadgets/973789/skylight-calendar-2-max-back-to-school-deal-sale",
       "source": "theverge",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-03T10:50:29-04:00"
+      "pub_date": "2026-08-04T12:01:57-04:00"
     },
     {
-      "title": "Spider-Man and The Odyssey are splitting up IMAX screens after a record-breaking weekend",
-      "link": "https://www.theverge.com/entertainment/974411/spider-man-the-odyssey-imax",
+      "title": "Samsung’s HDR10 Plus Advanced is launching this month on Prime Video",
+      "link": "https://www.theverge.com/gadgets/975085/samsung-hdr-10-plus-advanced-prime-video",
       "source": "theverge",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-03T10:26:47-04:00"
+      "pub_date": "2026-08-04T11:43:59-04:00"
     },
     {
-      "title": "Samsung’s 2TB 9100 Pro SSD is actually somewhat reasonably priced",
-      "link": "https://www.theverge.com/gadgets/974391/samsung-nvme-ssd-2tb-steelseries-arctis-omni-pixel-10a-deal-sale",
+      "title": "Texas says data centers must pass an audit before connecting to the grid",
+      "link": "https://www.theverge.com/policy/975071/texas-data-center-audit",
       "source": "theverge",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-03T10:16:13-04:00"
+      "pub_date": "2026-08-04T11:33:21-04:00"
     },
     {
-      "title": "Lenovo Googlebook leaks reveal a laptop and 2-in-1 tablet",
-      "link": "https://www.theverge.com/tech/974377/lenovo-googlebook-google-image-leaks-laptops",
+      "title": "The Asus Chromebook Plus CX34 is at one of its lowest prices",
+      "link": "https://www.theverge.com/gadgets/974732/asus-chromebook-plus-cx34-igloo-playmate-kooltunes-14-quart-cooler-deal-sale",
       "source": "theverge",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-03T09:12:03-04:00"
+      "pub_date": "2026-08-04T11:15:36-04:00"
     },
     {
-      "title": "Big Walk is like co-op Breath of the Wild",
-      "link": "https://www.theverge.com/games/973166/big-walk-review",
+      "title": "Apple is working on iPhone-to-Windows copy-paste",
+      "link": "https://www.theverge.com/tech/975020/apple-windows-pc-copy-paste-eu",
       "source": "theverge",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-03T09:00:00-04:00"
+      "pub_date": "2026-08-04T10:42:31-04:00"
     },
     {
-      "title": "China&#8217;s Alibaba takes another swipe at America’s AI supremacy",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/974342/alibaba-qwen-max-open-weight-ai",
+      "title": "We’re giving away a back-to-school bag filled with over $800 of free tech",
+      "link": "https://www.theverge.com/gadgets/972547/back-to-school-giveaway-sweepstakes",
       "source": "theverge",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-03T07:01:11-04:00"
+      "pub_date": "2026-08-04T10:00:00-04:00"
     },
     {
-      "title": "Rachika Nayar’s Heaven Come Crashing is an instrumental epic of desperate longing",
-      "link": "https://www.theverge.com/entertainment/974271/rachika-nayars-heaven-come-crashing-music-review",
+      "title": "Our favorite memories at the movies",
+      "link": "https://www.theverge.com/entertainment/974920/verge-favorite-movie-memories",
       "source": "theverge",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-02T17:53:15-04:00"
+      "pub_date": "2026-08-04T10:00:00-04:00"
     },
     {
-      "title": "Fender’s CEO seems to think your bandmates are just analog AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/974265/fender-ceo-bud-cole-ai-music",
+      "title": "Peak Design’s latest bags have clever integrated hooks",
+      "link": "https://www.theverge.com/tech/973624/peak-design-city-line-details-price",
       "source": "theverge",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-02T15:36:08-04:00"
+      "pub_date": "2026-08-04T09:00:00-04:00"
     },
     {
-      "title": "Xbox prices are increasing by up to €200 or £170",
-      "link": "https://www.theverge.com/games/974253/xbox-prices-increasing-200-euros",
+      "title": "Nothing CMF is launching its first open earbuds",
+      "link": "https://www.theverge.com/gadgets/974933/nothing-cmf-clip-pro-open-ear-buds-price-launch",
       "source": "theverge",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-02T12:14:20-04:00"
+      "pub_date": "2026-08-04T09:00:00-04:00"
     },
     {
-      "title": "Horizon3 hits $2 billion valuation with $250M Series E as AI threats escalate",
-      "link": "https://techcrunch.com/2026/08/03/horizon3-hits-2-billion-valuation-with-250m-series-e-as-ai-threats-escalate/",
+      "title": "Spotify expands AI remix and covers project with Merlin partnership",
+      "link": "https://techcrunch.com/2026/08/04/spotify-adds-merlin-to-its-ai-music-remix-and-covers-effort/",
       "source": "techcrunch",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-03T12:50:46+00:00"
+      "pub_date": "2026-08-04T15:50:06+00:00"
     },
     {
-      "title": "Samsung bans smart TV apps that share users’ internet connections with strangers",
-      "link": "https://techcrunch.com/2026/08/03/samsung-bans-smart-tv-apps-that-share-users-internet-connections-with-strangers/",
+      "title": "Texas halts new data centers as governor calls for audits",
+      "link": "https://techcrunch.com/2026/08/04/texas-halts-new-data-centers-as-governor-calls-for-audits/",
       "source": "techcrunch",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-03T12:10:41+00:00"
+      "pub_date": "2026-08-04T15:42:35+00:00"
     },
     {
-      "title": "A Marc Benioff-backed startup thinks AI can solve the AI deployment problem",
-      "link": "https://techcrunch.com/2026/08/03/a-marc-benioff-backed-startup-thinks-ai-can-solve-the-ai-deployment-problem/",
+      "title": "Walmart completes its acquisition of TV advertising company Vibe.co",
+      "link": "https://techcrunch.com/2026/08/04/walmart-completes-its-acquisition-of-tv-advertising-company-vibe-co/",
       "source": "techcrunch",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-03T10:00:00+00:00"
+      "pub_date": "2026-08-04T15:38:22+00:00"
     },
     {
-      "title": "The global memory shortage hits the MacBook Air",
-      "link": "https://techcrunch.com/2026/08/02/the-global-memory-shortage-hits-the-macbook-air/",
+      "title": "Elon Musk spends half his time talking robots and AI on Tesla earnings calls",
+      "link": "https://techcrunch.com/2026/08/04/elon-musk-spends-half-his-time-talking-robots-and-ai-on-tesla-earnings-calls/",
       "source": "techcrunch",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-02T21:33:59+00:00"
+      "pub_date": "2026-08-04T15:20:06+00:00"
     },
     {
-      "title": "Sam Altman and AI’s decel debate",
-      "link": "https://techcrunch.com/2026/08/02/sam-altman-and-ais-decel-debate/",
+      "title": "Host a Side Event during TechCrunch Founder Summit Week in Boston",
+      "link": "https://techcrunch.com/2026/08/04/host-a-side-event-during-techcrunch-founder-summit-week-in-boston/",
       "source": "techcrunch",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-02T20:54:22+00:00"
+      "pub_date": "2026-08-04T15:00:00+00:00"
     },
     {
-      "title": "Malaysia is reportedly shutting down Balaji Srinivasan’s Network School",
-      "link": "https://techcrunch.com/2026/08/02/malaysia-is-reportedly-shutting-down-balaji-srinivasans-network-school/",
+      "title": "Apple says more ex-employees may have taken confidential data to OpenAI",
+      "link": "https://techcrunch.com/2026/08/04/apple-says-more-ex-employees-may-have-taken-confidential-data-to-openai/",
       "source": "techcrunch",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-02T17:05:07+00:00"
+      "pub_date": "2026-08-04T14:03:01+00:00"
     },
     {
-      "title": "TechCrunch Mobility: Two roads diverged — for robotaxis",
-      "link": "https://techcrunch.com/2026/08/02/techcrunch-mobility-two-roads-diverged-for-robotaxis/",
+      "title": "Spotify now has over 300M subscribers",
+      "link": "https://techcrunch.com/2026/08/04/spotify-now-has-over-300m-subscribers/",
       "source": "techcrunch",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-02T16:05:00+00:00"
+      "pub_date": "2026-08-04T13:52:58+00:00"
     },
     {
-      "title": "These App Store hidden gems prove there’s still room for great software in the AI era",
-      "link": "https://techcrunch.com/2026/08/02/these-app-store-hidden-gems-prove-theres-still-room-for-great-software-in-the-ai-era/",
+      "title": "India moves to give its instant payments network a business model",
+      "link": "https://techcrunch.com/2026/08/04/india-moves-to-give-its-instant-payments-network-a-business-model/",
       "source": "techcrunch",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-02T15:23:19+00:00"
+      "pub_date": "2026-08-04T13:31:17+00:00"
     },
     {
-      "title": "Inside the London hacker house taking a stand against founder burnout",
-      "link": "https://techcrunch.com/2026/08/01/inside-one-london-founder-house-rewriting-the-founder-house-rules/",
+      "title": "Is the future of data centers portable? Runware builds a pod to find out",
+      "link": "https://techcrunch.com/2026/08/04/is-the-future-of-data-centers-portable-runware-builds-a-pod-to-find-out/",
       "source": "techcrunch",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-01T21:14:48+00:00"
+      "pub_date": "2026-08-04T13:00:00+00:00"
     },
     {
-      "title": "Judge denies xAI’s request to block Minnesota ban on ‘nudify’ apps",
-      "link": "https://techcrunch.com/2026/08/01/judge-denies-xais-request-to-block-minnesota-ban-on-nudify-apps/",
+      "title": "EON wants to move the data superhighway from ocean fiber to space lasers",
+      "link": "https://techcrunch.com/2026/08/04/eon-wants-to-move-the-data-superhighway-from-ocean-fiber-to-space-lasers/",
       "source": "techcrunch",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-01T20:26:04+00:00"
+      "pub_date": "2026-08-04T12:00:00+00:00"
     },
     {
-      "title": "YouTuber Hank Green says his AI usage is ‘not healthy’",
-      "link": "https://techcrunch.com/2026/08/01/youtuber-hank-green-says-his-ai-usage-is-not-healthy/",
+      "title": "After killer quarter, Palantir CEO Alex Karp calls AI industry ‘Marxist’",
+      "link": "https://techcrunch.com/2026/08/03/after-killer-quarter-palantir-ceo-alex-karp-calls-ai-industry-marxist/",
       "source": "techcrunch",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-01T19:45:45+00:00"
+      "pub_date": "2026-08-03T23:19:50+00:00"
     },
     {
-      "title": "Should you still buy your next smartphone — or subscribe to it instead?",
-      "link": "https://techcrunch.com/2026/08/01/should-you-still-buy-your-next-smartphone-or-subscribe-to-it-instead/",
+      "title": "Snap CEO sidesteps Specs preorder questions on Q2 earnings call",
+      "link": "https://techcrunch.com/2026/08/03/snap-ceo-sidesteps-specs-pre-order-questions-on-q2-earnings-call/",
       "source": "techcrunch",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-01T18:47:27+00:00"
+      "pub_date": "2026-08-03T22:10:58+00:00"
     },
     {
-      "title": "Sam Altman is still making the case for parenting via ChatGPT",
-      "link": "https://techcrunch.com/2026/08/01/sam-altman-is-still-making-the-case-for-parenting-via-chatgpt/",
+      "title": "AWS is helping vibe-coding startup Superblocks, and the implications are big",
+      "link": "https://techcrunch.com/2026/08/03/aws-is-helping-vibe-coding-startup-superblocks-and-the-implications-are-big/",
       "source": "techcrunch",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-01T17:07:34+00:00"
+      "pub_date": "2026-08-03T20:00:00+00:00"
     },
     {
-      "title": "This $9 key physically locks your most addictive apps",
-      "link": "https://techcrunch.com/2026/08/01/this-9-key-physically-locks-your-most-addictive-apps/",
+      "title": "Who’s legally to blame for Anthropic and OpenAI’s autonomous AI hacks? It’s complicated",
+      "link": "https://techcrunch.com/2026/08/03/whos-legally-to-blame-for-anthropic-and-openais-autonomous-ai-hacks-its-complicated/",
       "source": "techcrunch",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-01T15:58:17+00:00"
+      "pub_date": "2026-08-03T19:45:35+00:00"
     },
     {
-      "title": "Uber is building an autonomous vehicle empire, and here’s every company it’s using to do it",
-      "link": "https://techcrunch.com/2026/08/01/ubers-autonomous-vehicle-deal-tracker/",
+      "title": "Design Arena creators raise $7.9 million to bring taste to AI models",
+      "link": "https://techcrunch.com/2026/08/03/designarena-creators-raise-7-9-million-to-bring-taste-to-ai-models/",
       "source": "techcrunch",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-01T15:05:00+00:00"
+      "pub_date": "2026-08-03T19:28:57+00:00"
     },
     {
-      "title": "Apps that help you break free from doomscrolling and get active",
-      "link": "https://techcrunch.com/2026/08/01/apps-that-help-you-break-free-from-doomscrolling-and-get-active/",
+      "title": "Influencers draw backlash for attending OpenAI’s first luxury trip",
+      "link": "https://techcrunch.com/2026/08/03/influencers-draw-backlash-for-attending-openais-first-luxury-trip/",
       "source": "techcrunch",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-01T14:00:00+00:00"
+      "pub_date": "2026-08-03T19:09:56+00:00"
     },
     {
-      "title": "What’s the best handheld mini fan?",
-      "link": "https://techcrunch.com/2026/08/01/whats-the-best-handheld-mini-fan/",
+      "title": "Apple challenges UK government’s latest demand for iCloud backdoor: report",
+      "link": "https://techcrunch.com/2026/08/03/apple-challenges-uk-governments-latest-demand-for-icloud-backdoor-report/",
       "source": "techcrunch",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-01T13:36:54+00:00"
+      "pub_date": "2026-08-03T18:54:09+00:00"
     },
     {
-      "title": "OpenAI reportedly finds evidence that more of its agents ran amok",
-      "link": "https://techcrunch.com/2026/07/31/openai-reportedly-finds-evidence-that-more-of-its-agents-ran-amok/",
+      "title": "Apple finally fixed Siri. So why does it feel anticlimactic?",
+      "link": "https://techcrunch.com/2026/08/03/apple-finally-fixed-siri-so-why-does-it-feel-anticlimactic/",
       "source": "techcrunch",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-07-31T22:47:26+00:00"
+      "pub_date": "2026-08-03T18:43:43+00:00"
     },
     {
-      "title": "Rivian spinoff Also to start delivering e-bikes after months of delays",
-      "link": "https://techcrunch.com/2026/07/31/rivian-spinoff-also-to-start-delivering-e-bikes-after-months-of-delays/",
+      "title": "Outernet turns your saved posts into real-world adventures",
+      "link": "https://techcrunch.com/2026/08/03/outernet-turns-your-saved-posts-into-real-world-adventures/",
       "source": "techcrunch",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-07-31T22:00:08+00:00"
+      "pub_date": "2026-08-03T18:00:24+00:00"
     },
     {
-      "title": "Silicon Valley loves young founders. Until it doesn’t.",
-      "link": "https://techcrunch.com/2026/07/31/build-in-public-fail-in-public-what-its-like-to-be-a-founder-under-20-right-now/",
-      "source": "techcrunch",
+      "title": "Texas slams on the breaks for 1,800 data centers, power grid requirements are five times higher than peak record demand — 474 gigawatts of power requests are now subject to new moratorium",
+      "link": "https://www.tomshardware.com/tech-industry/data-centers/texas-slams-on-the-breaks-for-1-800-data-centers-power-grid-requirements-are-five-times-higher-than-peak-record-demand-474-gigawatts-of-power-requests-are-now-subject-to-new-moratorium",
+      "source": "tomshardware",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-07-31T22:00:00+00:00"
+      "pub_date": "2026-08-04T14:57:28+00:00"
+    },
+    {
+      "title": "New HBF spec outlines tech that can give GPUs terabytes of extra memory — Sandisk and SK hynix unveil spec with up to 16-Hi NAND stacks, 3 TB/s bandwidth, UCIe",
+      "link": "https://www.tomshardware.com/pc-components/ssds/sandisk-and-sk-hynix-unveil-hbf-spec-up-to-16-hi-nand-stacks-3-tb-s-bandwidth-ucie",
+      "source": "tomshardware",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-08-04T14:42:58+00:00"
+    },
+    {
+      "title": "PC cooling outfit Arctic reverses tariff-era price hikes after US government refund — lowers prices across lineup, including coolers and case fans",
+      "link": "https://www.tomshardware.com/pc-components/cooling/pc-cooling-outfit-arctic-reverses-tariff-era-price-hikes-after-us-government-refund-lowers-prices-across-lineup-including-coolers-and-case-fans",
+      "source": "tomshardware",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-08-04T13:37:09+00:00"
+    },
+    {
+      "title": "Chinese chipmaking tool roadmaps examined — Beijing's nascent lithography tools target DUV production at five machines a year, and an EUV prototype with no chips",
+      "link": "https://www.tomshardware.com/tech-industry/semiconductors/chinese-chipmaking-tool-roadmap-examined",
+      "source": "tomshardware",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-08-04T13:15:00+00:00"
+    },
+    {
+      "title": "At least 37 people arrested in 2026 so far for protesting against data centers, most for breaking 'petty rules' — most taken into custody acted peacefully",
+      "link": "https://www.tomshardware.com/tech-industry/data-centers/at-least-37-people-arrested-in-2026-so-far-for-protesting-against-data-centers-most-taken-into-custody-acted-peacefully-only-broke-petty-rules",
+      "source": "tomshardware",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-08-04T12:53:03+00:00"
+    },
+    {
+      "title": "Lenovo LOQ Essentials 15 Gen 11 Review: A good display meets a low-power RTX 5060",
+      "link": "https://www.tomshardware.com/laptops/gaming-laptops/lenovo-loq-essentials-15-gen-11-review",
+      "source": "tomshardware",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-08-04T12:00:00+00:00"
+    },
+    {
+      "title": "‘Apple is getting this wrong,’ says OpenAI — startup blasts iPhone maker over lawsuit alleging it stole confidential information through ex-Apple employees",
+      "link": "https://www.tomshardware.com/tech-industry/big-tech/apple-is-getting-this-wrong-says-openai-startup-blasts-iphone-maker-over-lawsuit-alleging-it-stole-confidential-information-through-ex-apple-employees",
+      "source": "tomshardware",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-08-04T11:52:34+00:00"
+    },
+    {
+      "title": "Chinese ship spotted lurking over Taiwan-US undersea cables — 'research vessel' seen loitering above the 8,000-mile Pacific Light Cable Network fiber-optic system",
+      "link": "https://www.tomshardware.com/networking/chinese-ship-spotted-lurking-over-taiwan-us-undersea-cables-research-vessel-seen-loitering-above-the-8-000-mile-pacific-light-cable-network-fiber-optic-system",
+      "source": "tomshardware",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-08-04T11:49:18+00:00"
+    },
+    {
+      "title": "16GB GPUs and 8-core CPUs officially become the most popular configs on Steam — Latest hardware survey shows modern gaming's growing hunger for more resources",
+      "link": "https://www.tomshardware.com/pc-components/16gb-gpus-and-8-core-cpus-officially-become-the-most-popular-configs-on-steam-latest-hardware-survey-shows-modern-gamings-growing-hunger-for-more-resources",
+      "source": "tomshardware",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-08-04T10:30:00+00:00"
+    },
+    {
+      "title": "Three major PC makers now using Chinese memory to fight 'unprecedented memory shortage,' report claims — HP, Asus, and Acer using 'small amounts' of CXMT chips in limited number of notebooks for non-US market",
+      "link": "https://www.tomshardware.com/tech-industry/three-major-pc-makers-now-using-chinese-memory-to-fight-unprecedented-memory-shortage-report-claims-hp-asus-and-acer-using-small-amounts-of-cxmt-chips-in-limited-number-of-notebooks-for-non-us-market",
+      "source": "tomshardware",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-08-04T10:15:23+00:00"
+    },
+    {
+      "title": "China cracks down on copycat chip designs with new regulations and penalties — new guidelines enforce originality and independent development",
+      "link": "https://www.tomshardware.com/tech-industry/semiconductors/china-cracks-down-on-copycat-chip-designs-with-new-regulations-and-penalties-new-guidelines-enforce-originality-and-independent-development",
+      "source": "tomshardware",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-08-04T10:00:00+00:00"
+    },
+    {
+      "title": "This 144-piece toolkit is a must-buy for hobbyists and PC builders for under $40 — pocket a 20% saving on this screwdriver set with two drivers, 120 magnetic bits, and 22 repair tools for your projects",
+      "link": "https://www.tomshardware.com/desktops/pc-building/this-144-piece-toolkit-is-a-must-buy-for-hobbyists-and-pc-builders-for-under-usd40-pocket-a-20-percent-saving-on-this-screwdriver-set-with-two-drivers-120-magnetic-bits-and-22-repair-tools-for-your-projects",
+      "source": "tomshardware",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-08-04T09:43:27+00:00"
+    },
+    {
+      "title": "New Micron lawsuit reignites fight over New York fab — complaint alleges 'forever chemicals' will flow into Oneida River",
+      "link": "https://www.tomshardware.com/pc-components/dram/new-micron-lawsuit-reignites-fight-over-new-york-fab-complaint-alleges-forever-chemicals-will-flow-into-oneida-river",
+      "source": "tomshardware",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-08-03T18:04:36+00:00"
+    },
+    {
+      "title": "In a troubling sign, Nvidia RTX 50 series prices jump up to 30% in South Korea — TSMC wafer hikes and $20 GDDR7 modules push RTX 5090 past $5,100",
+      "link": "https://www.tomshardware.com/pc-components/gpus/in-a-troubling-sign-nvidia-rtx-50-series-prices-jump-up-to-30-percent-in-south-korea-tsmc-wafer-hikes-and-usd20-gddr7-modules-push-rtx-5090-past-usd5-100",
+      "source": "tomshardware",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-08-03T16:39:36+00:00"
+    },
+    {
+      "title": "AI companies are now racing to the bottom — crashing token prices and competitive models push companies to cut costs",
+      "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-companies-are-now-racing-to-the-bottom-crashing-token-prices-and-competitive-models-push-companies-to-cut-costs",
+      "source": "tomshardware",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-08-03T16:26:15+00:00"
     },
     {
       "title": "Drone flyover reveals rapid progress at Elon Musk’s new ATCF chip fab — Texas site prepares for all-in-one logic, memory, and packaging facility",
@@ -666,116 +778,116 @@
       "pub_date": "2026-07-31T15:13:36+00:00"
     },
     {
-      "title": "Tom’s Hardware’s 30th Anniversary — From Intel feuds and DIP switches to 30 years of unbiased testing",
-      "link": "https://www.tomshardware.com/pc-components/toms-hardwares-30th-anniversary-from-dip-switches-and-intel-feuds-to-30-years-of-unbiased-testing",
-      "source": "tomshardware",
+      "title": "Should you buy a new phone now, or wait for the Pixel 11? [Video]",
+      "link": "https://9to5google.com/2026/08/04/should-you-buy-a-new-phone-now-or-wait-for-the-pixel-11-video/",
+      "source": "9to5google",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-07-31T15:05:30+00:00"
+      "pub_date": "2026-08-04T16:00:00+00:00"
     },
     {
-      "title": "Apple CEO Tim Cook says the company is fighting 'a hundred-year flood' on memory pricing — expects to pay even more for memory in September following recent price hikes",
-      "link": "https://www.tomshardware.com/tech-industry/apple-nearly-doubled-its-inventory-to-11-09-billion-as-memory-costs-ate-its-gross-margin",
-      "source": "tomshardware",
+      "title": "Google Password Manager passkeys could be at risk with new ‘Pass-ta-key’ attack",
+      "link": "https://9to5google.com/2026/08/04/google-password-manager-passkeys-could-be-at-risk/",
+      "source": "9to5google",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-07-31T14:54:55+00:00"
+      "pub_date": "2026-08-04T15:50:25+00:00"
     },
     {
-      "title": "Lumentum CEO warns of impending bottleneck on critical material used for silicon photonics  — fab and material shortfall already lags 30% below customer needs as co-packaged optics demand skyrockets",
-      "link": "https://www.tomshardware.com/tech-industry/semiconductors/lumentum-ceo-says-the-indium-phosphide-shortage-will-become-worse-than-memory",
-      "source": "tomshardware",
+      "title": "Pixel Watch 5 specs leak reveals what’s new: ‘Accelerated’ chip, 2nd-gen Active Band, more",
+      "link": "https://9to5google.com/2026/08/04/pixel-watch-5-specs-leak-2/",
+      "source": "9to5google",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-07-31T12:45:27+00:00"
+      "pub_date": "2026-08-04T14:46:01+00:00"
     },
     {
-      "title": "Streaming QR codes at 60 FPS achieves nearly 190 KB/s data rate in phone-to-phone tests — browser-based method requires no app, no networking, no pairing, and no permissions beyond camera access",
-      "link": "https://www.tomshardware.com/networking/streaming-qr-codes-at-60-fps-achieves-nearly-190-kb-s-data-rate-in-phone-to-phone-tests-browser-based-method-requires-no-app-no-networking-no-pairing-and-no-permissions-beyond-camera-access",
-      "source": "tomshardware",
+      "title": "Motorola Razr Fold gets a trade-in boost and freebies, making it a more enticing foldable",
+      "link": "https://9to5google.com/2026/08/04/motorola-razr-fold-trade-in-boost-deal/",
+      "source": "9to5google",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-07-31T12:45:20+00:00"
+      "pub_date": "2026-08-04T14:45:00+00:00"
     },
     {
-      "title": "Sub-$400 Thunderbolt 5 dock roundup — Keychron and Plugable offer dual HDMI, but UGREEN takes top spot with an M.2 NVMe slot",
-      "link": "https://www.tomshardware.com/peripherals/docking-stations-hubs/testing-three-sub-usd400-thunderbolt-5-docking-stations",
-      "source": "tomshardware",
+      "title": "Galaxy Z Fold 8 destroys pre-order record set by the late Note 10, and it isn’t over yet",
+      "link": "https://9to5google.com/2026/08/04/galaxy-z-fold-8-series-breaks-pre-order-record/",
+      "source": "9to5google",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-07-31T12:40:00+00:00"
+      "pub_date": "2026-08-04T14:19:42+00:00"
     },
     {
-      "title": "Valve funding port of Linux RADV Radeon Vulkan driver to Windows — cross-platform effort already runs 'Counter-Strike 2'",
-      "link": "https://www.tomshardware.com/software/linux/valve-funding-port-of-linux-radv-radeon-vulkan-driver-to-windows-cross-platform-effort-already-runs-counter-strike-2",
-      "source": "tomshardware",
+      "title": "Leak confirms Pixel 11 ‘Glow’ is called ‘HiLight’ and what it can do",
+      "link": "https://9to5google.com/2026/08/04/google-pixel-11-hilight-glow-leak/",
+      "source": "9to5google",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-07-31T12:25:00+00:00"
+      "pub_date": "2026-08-04T13:45:00+00:00"
     },
     {
-      "title": "Setting up OpenClaw isn’t as straightforward as the internet wants you to think – running local AI on humble hardware",
-      "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/setting-up-openclaw-isnt-as-straightforward-as-the-internet-wants-you-to-think-running-local-ai-on-humble-hardware",
-      "source": "tomshardware",
+      "title": "Phones are getting fun (and weird) again",
+      "link": "https://9to5google.com/2026/08/04/inbox-newsletter-7/",
+      "source": "9to5google",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-07-31T12:20:00+00:00"
+      "pub_date": "2026-08-04T12:00:00+00:00"
     },
     {
-      "title": "New open source printer has 7 toolheads that swap in 5 seconds for fast, zero-waste multi-color 3D printing — Sovol M1D 3D printer is the first open-source IDEX design with an integrated tool-changer",
-      "link": "https://www.tomshardware.com/3d-printing/sovol-m1d-3d-printer-is-the-first-open-source-idex-design-with-an-integrated-tool-changer-seven-heads-for-quick-swapping-materials-with-two-fully-independent-nozzles",
-      "source": "tomshardware",
+      "title": "What’s new in Android’s August 2026 Google System Updates",
+      "link": "https://9to5google.com/2026/08/03/august-2026-google-system-updates/",
+      "source": "9to5google",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-07-31T12:00:00+00:00"
+      "pub_date": "2026-08-03T22:25:29+00:00"
     },
     {
-      "title": "Single-DIMM DDR5 gaming works better than you probably think — one DDR5 DIMM beats dual-channel DDR4 RAM, AMD's 3D V-Cache chips drop less than 3% with single stick",
-      "link": "https://www.tomshardware.com/pc-components/ddr5/single-dimm-ddr5-gaming-works-better-than-you-probably-think-amds-3d-v-cache-chips-drop-less-than-3-percent-one-ddr5-dimm-beats-dual-channel-ddr4-ram",
-      "source": "tomshardware",
+      "title": "Here’s everything new in Android 17 QPR2 Beta 2 [Gallery]",
+      "link": "https://9to5google.com/2026/08/03/android-17-qpr2-beta-2-everything-new/",
+      "source": "9to5google",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-07-31T11:43:24+00:00"
+      "pub_date": "2026-08-03T21:19:18+00:00"
     },
     {
-      "title": "Your motherboard's M.2 SSD heatsink might be slowing down your SSD — Only 6 of 20 tested boards made full contact",
-      "link": "https://www.tomshardware.com/pc-components/motherboards/are-your-motherboards-m-2-heatsinks-making-good-contact-with-your-ssd-we-tested-20-modern-intel-and-amd-motherboards-to-verify",
-      "source": "tomshardware",
+      "title": "Google rolling out Android 17 QPR2 Beta 2 for Pixel",
+      "link": "https://9to5google.com/2026/08/03/android-17-qpr2-beta-2-pixel/",
+      "source": "9to5google",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-07-31T11:43:19+00:00"
+      "pub_date": "2026-08-03T20:49:08+00:00"
     },
     {
-      "title": "PS5 emulation hits new milestone in record time, multiple 3D games now playable in Kyty — Performance and support steadily improving with 30 FPS gameplay possible today",
-      "link": "https://www.tomshardware.com/video-games/playstation/ps5-emulation-hits-new-milestone-in-record-time-multiple-3d-games-now-playable-in-kyty-performance-and-support-steadily-improving-with-30-fps-gameplay-possible-today",
-      "source": "tomshardware",
+      "title": "Samsung says Galaxy Z Fold 8’s new shape exists because ‘one size does not fit all’",
+      "link": "https://9to5google.com/2026/08/03/samsung-says-galaxy-z-fold-8s-new-shape-exists-because-one-size-does-not-fit-all/",
+      "source": "9to5google",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-07-31T11:40:00+00:00"
+      "pub_date": "2026-08-03T19:05:00+00:00"
     },
     {
-      "title": "AMD's new Radeon RX 9050 is roughly 30% slower than the RTX 5050 in games, early testing shows — the cheapest 8GB RDNA 4 GPU comfortably handles 1080p gaming but doesn't impress",
-      "link": "https://www.tomshardware.com/pc-components/gpus/amds-new-radeon-rx-9050-is-roughly-30-percent-slower-than-the-rtx-5050-in-games-early-testing-shows-the-cheapest-8gb-rdna-4-gpu-comfortably-handles-1080p-gaming-but-doesnt-impress",
-      "source": "tomshardware",
+      "title": "OnePlus 15 and more have fully sold out in the US following shutdown",
+      "link": "https://9to5google.com/2026/08/03/oneplus-15-sold-out-us-shutdown/",
+      "source": "9to5google",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-07-31T11:28:54+00:00"
+      "pub_date": "2026-08-03T17:55:00+00:00"
     },
     {
-      "title": "MSI promises an EXPO ULL-like boost for your existing DDR5 memory — High-Efficiency Mode brings low-latency tuning to older RAM",
-      "link": "https://www.tomshardware.com/pc-components/motherboards/msi-promises-an-expo-ull-like-boost-for-your-existing-ddr5-high-efficiency-mode-brings-low-latency-tuning-to-older-ram",
-      "source": "tomshardware",
+      "title": "Google Clock 9.0 adds stopwatch and timer Live Updates",
+      "link": "https://9to5google.com/2026/08/03/google-clock-9-0-live-updates/",
+      "source": "9to5google",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-07-31T11:20:00+00:00"
+      "pub_date": "2026-08-03T17:24:17+00:00"
     },
     {
-      "title": "Samsung's fastest SSD is back to Prime Day pricing — only $30 difference between the much faster Gen 5 9100 Pro and Gen 4 990",
-      "link": "https://www.tomshardware.com/pc-components/ssds/samsungs-fastest-ssd-is-back-to-prime-day-pricing-only-usd30-difference-between-the-much-faster-gen-5-9100-pro-and-gen-4-990",
-      "source": "tomshardware",
+      "title": "Galaxy S27 Ultra reportedly ditches a telephoto camera for the sake of cost-cutting",
+      "link": "https://9to5google.com/2026/08/03/samsung-galaxy-s27-ultra-telephoto-camera-report/",
+      "source": "9to5google",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-07-31T11:00:29+00:00"
+      "pub_date": "2026-08-03T16:55:00+00:00"
     },
     {
       "title": "Google teases Pixel 11 Pro Fold, early pre-order time on August 12",
@@ -1010,116 +1122,100 @@
       "pub_date": "2026-07-30T16:30:00+00:00"
     },
     {
-      "title": "Spotify rolling out ‘User Notes’ and ‘Running Mode’ features – here’s what they do",
-      "link": "https://9to5google.com/2026/07/30/spotify-rolling-out-user-notes-and-running-mode-features-heres-what-they-do/",
-      "source": "9to5google",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-07-30T15:40:00+00:00"
+      "title": "Sick of rage quitters? This indie dev has created a very funny answer to those inclined to tilt (and turn)",
+      "link": "https://www.eurogamer.net/indie-game-anti-rage-quit-window",
+      "source": "eurogamer",
+      "source_category": "gaming",
+      "kind": "gaming",
+      "pub_date": "2026-08-04T15:24:36+00:00"
     },
     {
-      "title": "Samsung has another brand-new Galaxy Buds design, and they just leaked [Gallery]",
-      "link": "https://9to5google.com/2026/07/30/samsung-galaxy-buds-ear-hook-design-leak/",
-      "source": "9to5google",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-07-30T15:25:00+00:00"
+      "title": "You can try the newly-launched Switch 2 port of Final Fantasy 14 for free, right now, if you have a spare 117GB",
+      "link": "https://www.eurogamer.net/final-fantasy-14-switch-2-space-free-trial",
+      "source": "eurogamer",
+      "source_category": "gaming",
+      "kind": "gaming",
+      "pub_date": "2026-08-04T13:46:04+00:00"
     },
     {
-      "title": "Samsung teases Android XR glasses, Galaxy Tab S12, S26 FE, and more",
-      "link": "https://9to5google.com/2026/07/30/samsung-teases-android-xr-glasses-galaxy-tab-s12-s26-fe-and-more/",
-      "source": "9to5google",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-07-30T14:55:00+00:00"
+      "title": "The developer behind Fifa World Cup - which launched less than two months ago - has laid off 85% of its staff",
+      "link": "https://www.eurogamer.net/fifa-world-cup-game-layoffs",
+      "source": "eurogamer",
+      "source_category": "gaming",
+      "kind": "gaming",
+      "pub_date": "2026-08-04T13:23:57+00:00"
     },
     {
-      "title": "Google says Pixel battery drain should be fixed in July and September updates",
-      "link": "https://9to5google.com/2026/07/30/google-pixel-battery-drain-fix-update-problems/",
-      "source": "9to5google",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-07-30T14:40:00+00:00"
+      "title": "Assassin's Creed Black Flag Resynced patch makes the very important change of letting you hide Edward's blowpipe",
+      "link": "https://www.eurogamer.net/assassins-creed-black-flag-resynced-patch-1-0-6-hide-blowpipe",
+      "source": "eurogamer",
+      "source_category": "gaming",
+      "kind": "gaming",
+      "pub_date": "2026-08-04T13:15:18+00:00"
     },
     {
-      "title": "Chrome for Android now lets you set a custom New Tab Page background",
-      "link": "https://9to5google.com/2026/07/30/chrome-android-custom-background/",
-      "source": "9to5google",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-07-30T12:30:00+00:00"
+      "title": "Rumours of an unannounced Elder Scrolls game are bogus, sadly",
+      "link": "https://www.eurogamer.net/unannounced-elder-scrolls-game-rumours-debunked",
+      "source": "eurogamer",
+      "source_category": "gaming",
+      "kind": "gaming",
+      "pub_date": "2026-08-04T12:06:15+00:00"
     },
     {
-      "title": "Gemini in your living room on wheels",
-      "link": "https://9to5google.com/2026/07/30/inbox-newsletter-6/",
-      "source": "9to5google",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-07-30T12:00:00+00:00"
+      "title": "Don't be alarmed if you get an 'account banned' message in Call of Duty: Black Ops 2 on PS4 or PS5, you may not actually be banned",
+      "link": "https://www.eurogamer.net/call-of-duty-black-ops-2-prestige-hacks-account-banned-message",
+      "source": "eurogamer",
+      "source_category": "gaming",
+      "kind": "gaming",
+      "pub_date": "2026-08-04T11:52:36+00:00"
     },
     {
-      "title": "Samsung’s smartphone division just posted its first-ever loss amid RAMageddon",
-      "link": "https://9to5google.com/2026/07/29/samsungs-smartphone-division-just-posted-its-first-ever-loss-amid-ramageddon/",
-      "source": "9to5google",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-07-30T03:15:00+00:00"
+      "title": "Guardians of the Galaxy's Dave Bautista could take over Kratos role in God of War live-action show, report claims",
+      "link": "https://www.eurogamer.net/dave-bautista-god-of-war-kratos-recast",
+      "source": "eurogamer",
+      "source_category": "gaming",
+      "kind": "gaming",
+      "pub_date": "2026-08-04T11:38:50+00:00"
     },
     {
-      "title": "Snapdragon chip prices are officially going up, maybe by ‘double digits’ [U]",
-      "link": "https://9to5google.com/2026/07/29/qualcomm-snapdragon-price-hike-september-2026/",
-      "source": "9to5google",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-07-30T01:48:12+00:00"
+      "title": "Xbox's FanFest world tour is still going ahead, for some reason, even after Microsoft fired the guy who created it",
+      "link": "https://www.eurogamer.net/xbox-fanfest-world-tour",
+      "source": "eurogamer",
+      "source_category": "gaming",
+      "kind": "gaming",
+      "pub_date": "2026-08-04T09:39:50+00:00"
     },
     {
-      "title": "Robot vacuums are included in US robot ban",
-      "link": "https://9to5google.com/2026/07/29/robot-vacuum-us-government-ban/",
-      "source": "9to5google",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-07-29T20:30:00+00:00"
+      "title": "Microsoft is working on making Xbox 360 games playable on PC, leaked document reveals",
+      "link": "https://www.eurogamer.net/xbox-360-games-playable-on-pc-microsoft-plan-leaked",
+      "source": "eurogamer",
+      "source_category": "gaming",
+      "kind": "gaming",
+      "pub_date": "2026-08-04T09:23:47+00:00"
     },
     {
-      "title": "Samsung’s next pair of Galaxy Buds show off open-ear design in another leak [Gallery]",
-      "link": "https://9to5google.com/2026/07/29/samsung-galaxy-buds-open-ear-leak/",
-      "source": "9to5google",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-07-29T20:15:00+00:00"
+      "title": "Stellar Blade: Blood Rain's AI music video should be viewed with \"understanding in mind\", says studio boss",
+      "link": "https://www.eurogamer.net/stellar-blade-blood-rain-ai-response-ceo",
+      "source": "eurogamer",
+      "source_category": "gaming",
+      "kind": "gaming",
+      "pub_date": "2026-08-04T08:47:17+00:00"
     },
     {
-      "title": "Gemini comes to Waymo for assistance and cabin controls",
-      "link": "https://9to5google.com/2026/07/29/gemini-waymo-ojai/",
-      "source": "9to5google",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-07-29T19:18:12+00:00"
+      "title": "PlayStation and Xbox's most played games are, once again, exactly what you expect them to be",
+      "link": "https://www.eurogamer.net/playstation-xbox-top-20-most-played-games",
+      "source": "eurogamer",
+      "source_category": "gaming",
+      "kind": "gaming",
+      "pub_date": "2026-08-04T08:40:04+00:00"
     },
     {
-      "title": "New Pixel 11 Pro ‘next obvious move’ teaser provides better look at Glow [Video]",
-      "link": "https://9to5google.com/2026/07/29/pixel-11-pro-teaser-2/",
-      "source": "9to5google",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-07-29T16:55:56+00:00"
-    },
-    {
-      "title": "Google TV is reportedly the #3 streaming OS in the US",
-      "link": "https://9to5google.com/2026/07/29/google-tv-is-reportedly-the-3-streaming-os-in-the-us/",
-      "source": "9to5google",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-07-29T16:25:00+00:00"
-    },
-    {
-      "title": "Galaxy Z Fold 8 gives apps new scaling options for its large displays",
-      "link": "https://9to5google.com/2026/07/29/galaxy-z-fold-8-feature-changes-app-content-size/",
-      "source": "9to5google",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-07-29T15:41:48+00:00"
+      "title": "Beast of Reincarnation review",
+      "link": "https://www.eurogamer.net/beast-of-reincarnation-review",
+      "source": "eurogamer",
+      "source_category": "gaming",
+      "kind": "gaming",
+      "pub_date": "2026-08-04T00:00:00+00:00"
     },
     {
       "title": "Indie game bundle saving buyers over $1,000 in support of laid off developers has raised over $100,000 in three days",
@@ -1426,100 +1522,44 @@
       "pub_date": "2026-07-29T13:02:42+00:00"
     },
     {
-      "title": "Clair Obscur: Expedition 33 devs are working on a Nintendo Switch 2 version, but note the \"big technical challenge\" of getting it up and running",
-      "link": "https://www.eurogamer.net/clair-obscur-expedition-33-sandfall-switch-2-version-technical-challenge",
-      "source": "eurogamer",
+      "title": "Is 8GB VRAM enough for a graphics card in 2026? Yes, but GPU makers should still try harder",
+      "link": "https://www.rockpapershotgun.com/is-8gb-vram-enough-for-a-graphics-card-in-2026-yes-but-gpu-makers-should-still-try-harder",
+      "source": "rps",
       "source_category": "gaming",
       "kind": "gaming",
-      "pub_date": "2026-07-29T12:01:23+00:00"
+      "pub_date": "2026-08-04T15:07:03+00:00"
     },
     {
-      "title": "Krafton pledges to turn Subnautica into \"franchise IP\" after Subnautica 2 surpasses 5m sales in just 22 days",
-      "link": "https://www.eurogamer.net/subnautica-2-franchise-ip-krafton-unknown-worlds-5m-sales",
-      "source": "eurogamer",
+      "title": "13th century Mongolian courier sim The Legend of Khiimori becomes a battle against supernatural \"poison of the earth spirit\" with its Corruption Update",
+      "link": "https://www.rockpapershotgun.com/13th-century-mongolian-courier-sim-the-legend-of-khiimori-becomes-a-battle-against-supernatural-poison-of-the-earth-spirit-with-its-corruption-update",
+      "source": "rps",
       "source_category": "gaming",
       "kind": "gaming",
-      "pub_date": "2026-07-29T11:41:16+00:00"
+      "pub_date": "2026-08-04T14:00:00+00:00"
     },
     {
-      "title": "A Dragon Age Trilogy remaster probably won't happen as no one still employed at BioWare knows how the engine works, claims producer",
-      "link": "https://www.eurogamer.net/dragon-age-trilogy-remaster-bioware-dont-know-engine",
-      "source": "eurogamer",
+      "title": "Hooded Horse's watery 4X sequel Endless Legend 2 gets a 1.0 launch date and a new faction of terraforming desert dwellers",
+      "link": "https://www.rockpapershotgun.com/hooded-horses-watery-4x-sequel-endless-legend-2-gets-a-10-launch-date-and-a-new-faction-of-terraforming-desert-dwellers",
+      "source": "rps",
       "source_category": "gaming",
       "kind": "gaming",
-      "pub_date": "2026-07-29T11:11:51+00:00"
+      "pub_date": "2026-08-04T13:00:23+00:00"
     },
     {
-      "title": "Koei Tecmo wants to avoid \"dependence on major titles\", though expectations for Wo Long 2 and Attack on Titan 3 are high",
-      "link": "https://www.eurogamer.net/koei-tecmo-fiscal-year-2027-plans",
-      "source": "eurogamer",
+      "title": "Assassins Creed Black Flag Resynced's Kraken wheel will no longer be \"wheely expensive\" following the latest update, which will also teach you how to throw cash",
+      "link": "https://www.rockpapershotgun.com/assassins-creed-black-flag-resynceds-kraken-wheel-will-no-longer-be-wheely-expensive-following-the-latest-update-which-will-also-teach-you-how-to-throw-cash",
+      "source": "rps",
       "source_category": "gaming",
       "kind": "gaming",
-      "pub_date": "2026-07-29T10:49:42+00:00"
+      "pub_date": "2026-08-04T10:48:04+00:00"
     },
     {
-      "title": "Crazy Taxi: World Tour has competitive multiplayer, and you've got a chance to play it very soon",
-      "link": "https://www.eurogamer.net/crazy-taxi-world-tour-closed-network-test-multiplayer",
-      "source": "eurogamer",
+      "title": "Microsoft will let devs bring more Xbox 360 games to PC in the coming years via backwards compatibility, leaked document suggests",
+      "link": "https://www.rockpapershotgun.com/microsoft-will-let-devs-bring-more-xbox-360-games-to-pc-in-the-coming-years-via-backwards-compatibility-leaked-document-suggests",
+      "source": "rps",
       "source_category": "gaming",
       "kind": "gaming",
-      "pub_date": "2026-07-29T10:47:00+00:00"
-    },
-    {
-      "title": "007 First Light's Switch 2 release date may be closer than we realised",
-      "link": "https://www.eurogamer.net/007-first-light-nintendo-switch-2-release-date-leak",
-      "source": "eurogamer",
-      "source_category": "gaming",
-      "kind": "gaming",
-      "pub_date": "2026-07-29T09:24:07+00:00"
-    },
-    {
-      "title": "After laying off Battlefield 6 devs, EA boss Andrew Wilson's bonus rose $8m to $38m last year, thanks to the game's success across \"all milestones\"",
-      "link": "https://www.eurogamer.net/ea-boss-38-million-bonus-battlefield-6-layoffs",
-      "source": "eurogamer",
-      "source_category": "gaming",
-      "kind": "gaming",
-      "pub_date": "2026-07-29T09:14:10+00:00"
-    },
-    {
-      "title": "Double Fine hit with layoffs after exiting Xbox - \"The people we are losing were all important\"",
-      "link": "https://www.eurogamer.net/double-fine-layoffs-after-xbox-exit",
-      "source": "eurogamer",
-      "source_category": "gaming",
-      "kind": "gaming",
-      "pub_date": "2026-07-29T08:53:19+00:00"
-    },
-    {
-      "title": "Capcom says likelihood of a Pragmata sequel is high, citing strong sales and 'appeal' of its main character, Diana",
-      "link": "https://www.eurogamer.net/pragmata-sequel-capcom-internal-expectations-sales",
-      "source": "eurogamer",
-      "source_category": "gaming",
-      "kind": "gaming",
-      "pub_date": "2026-07-29T08:52:06+00:00"
-    },
-    {
-      "title": "Ubisoft reportedly has yet another Far Cry game in development, but at least this one doesn't appear to be in trouble",
-      "link": "https://www.eurogamer.net/new-far-cry-kodiak-open-world-ubisoft-vantage-studios",
-      "source": "eurogamer",
-      "source_category": "gaming",
-      "kind": "gaming",
-      "pub_date": "2026-07-29T08:16:09+00:00"
-    },
-    {
-      "title": "Silent Hill: Townfall promises to \"massively subvert\" your expectations, and it's left me painfully excited",
-      "link": "https://www.eurogamer.net/silent-hill-townfall-preview-massively-subvert-expectations-okamoto-screen-burn-interview",
-      "source": "eurogamer",
-      "source_category": "gaming",
-      "kind": "gaming",
-      "pub_date": "2026-07-29T07:00:00+00:00"
-    },
-    {
-      "title": "Here are our PS Plus monthly games for August, with a bonus pack for Marvel fans",
-      "link": "https://www.eurogamer.net/playstation-plus-games-august",
-      "source": "eurogamer",
-      "source_category": "gaming",
-      "kind": "gaming",
-      "pub_date": "2026-07-28T15:56:18+00:00"
+      "pub_date": "2026-08-04T09:27:51+00:00"
     },
     {
       "title": "Samsung, who've been accused of worsening the RAM crisis via price fixing, reckon components will only get more expensive in 2027",
@@ -1882,44 +1922,196 @@
       "pub_date": "2026-07-28T18:02:35+00:00"
     },
     {
-      "title": "Two years on from taking the role, Wizards of the Coast's president is stepping down",
-      "link": "https://www.rockpapershotgun.com/two-years-on-from-taking-the-role-wizards-of-the-coasts-president-is-stepping-down",
-      "source": "rps",
+      "title": "Okay, this time it seems like Valve has *actually* fixed Steam's local game transfer problem",
+      "link": "https://www.pcgamer.com/hardware/okay-this-time-it-seems-like-valve-has-actually-fixed-steams-local-game-transfer-problem/",
+      "source": "pcgamer",
       "source_category": "gaming",
       "kind": "gaming",
-      "pub_date": "2026-07-28T17:01:21+00:00"
+      "pub_date": "2026-08-04T15:48:43+00:00"
     },
     {
-      "title": "Mistfall Hunter looks like legally distinct Elden Ring but with a faster paced, extraction spin",
-      "link": "https://www.rockpapershotgun.com/mistfall-hunter-looks-like-legally-distinct-elden-ring-but-with-a-faster-paced-extraction-spin",
-      "source": "rps",
+      "title": "I desperately need this TTRPG to become a videogame—it's one of the coolest things I've ever seen",
+      "link": "https://www.pcgamer.com/games/i-desperately-need-this-new-ttrpg-to-become-a-videogame-its-one-of-the-coolest-things-ive-ever-seen/",
+      "source": "pcgamer",
       "source_category": "gaming",
       "kind": "gaming",
-      "pub_date": "2026-07-28T16:30:23+00:00"
+      "pub_date": "2026-08-04T15:39:11+00:00"
     },
     {
-      "title": "\"I didn’t fully appreciate the scope of it\": a year on from taking over, Nexus Mods owners reflect on the challenges of their push to minimise modding hassle",
-      "link": "https://www.rockpapershotgun.com/i-didnt-fully-appreciate-the-scope-of-it-a-year-on-from-taking-over-nexus-mods-owners-reflect-on-the-challenges-of-their-push-to-minimise-modding-hassle",
-      "source": "rps",
+      "title": "Endless Legend 2 is escaping early access in September and adding new major, minor and rogue factions",
+      "link": "https://www.pcgamer.com/games/strategy/endless-legend-2-is-escaping-early-access-in-september-and-adding-new-major-minor-and-rogue-factions/",
+      "source": "pcgamer",
       "source_category": "gaming",
       "kind": "gaming",
-      "pub_date": "2026-07-28T15:59:46+00:00"
+      "pub_date": "2026-08-04T15:17:14+00:00"
     },
     {
-      "title": "\"I wish I could do that\": A developer on The Sims has been eyeing up Paralives' characters' asymmetric shoes and their wider possibilities",
-      "link": "https://www.rockpapershotgun.com/i-wish-i-could-do-that-a-developer-on-the-sims-has-been-eyeing-up-paralives-characters-asymmetric-shoes-and-their-wider-possibilities",
-      "source": "rps",
+      "title": "Noctua NL-LC1 review",
+      "link": "https://www.pcgamer.com/hardware/cooling/noctua-nl-lc1-review/",
+      "source": "pcgamer",
       "source_category": "gaming",
       "kind": "gaming",
-      "pub_date": "2026-07-28T12:24:11+00:00"
+      "pub_date": "2026-08-04T15:16:05+00:00"
     },
     {
-      "title": "Nioh 3's Hell Rising DLC will sword thrust the soulslike's yokai-battling action into decimated Keian era Edo when it arrives next month",
-      "link": "https://www.rockpapershotgun.com/nioh-3s-hell-rising-dlc-will-sword-thrust-the-soulslikes-yokai-battling-action-into-decimated-keian-era-edo-when-it-arrives-next-month",
-      "source": "rps",
+      "title": "NAND and HBM have been merged into a dorky megazord for datacenters by Sandisk and SK hynix",
+      "link": "https://www.pcgamer.com/hardware/memory/nand-and-hbm-have-been-merged-into-a-dorky-megazord-for-datacenters-by-sandisk-and-sk-hynix/",
+      "source": "pcgamer",
       "source_category": "gaming",
       "kind": "gaming",
-      "pub_date": "2026-07-28T12:00:00+00:00"
+      "pub_date": "2026-08-04T15:15:21+00:00"
+    },
+    {
+      "title": "SpaceXAI pats itself on the back for removing temporary turbines in Memphis under agreed order over the next year: \"We care deeply about being good neighbors\"",
+      "link": "https://www.pcgamer.com/software/ai/spacexai-pats-itself-on-the-back-for-removing-temporary-turbines-in-memphis-under-agreed-order-over-the-next-year-we-care-deeply-about-being-good-neighbors/",
+      "source": "pcgamer",
+      "source_category": "gaming",
+      "kind": "gaming",
+      "pub_date": "2026-08-04T14:52:42+00:00"
+    },
+    {
+      "title": "Resident Evil Veronica hits 2 million wishlists to absolutely no one's surprise—come on, it's got the RE2 and RE4 remake team working on it",
+      "link": "https://www.pcgamer.com/games/resident-evil/resident-evil-veronica-hits-2-million-wishlists-to-absolutely-no-ones-surprise-come-on-its-got-the-re2-and-re4-remake-team-working-on-it/",
+      "source": "pcgamer",
+      "source_category": "gaming",
+      "kind": "gaming",
+      "pub_date": "2026-08-04T14:12:21+00:00"
+    },
+    {
+      "title": "OpenAI calls out Apple's 'careless, aggressive and oddly personal lawsuit' in latest blog post",
+      "link": "https://www.pcgamer.com/software/ai/openai-calls-out-apples-careless-aggressive-and-oddly-personal-lawsuit-in-latest-blog-post/",
+      "source": "pcgamer",
+      "source_category": "gaming",
+      "kind": "gaming",
+      "pub_date": "2026-08-04T13:10:00+00:00"
+    },
+    {
+      "title": "Our long Caribbean nightmare is over: You can hide the blow pipe in Assassin's Creed Black Flag Resynced now",
+      "link": "https://www.pcgamer.com/games/assassins-creed/our-long-caribbean-nightmare-is-over-you-can-hide-the-blow-pipe-in-assassins-creed-black-flag-resynced-now/",
+      "source": "pcgamer",
+      "source_category": "gaming",
+      "kind": "gaming",
+      "pub_date": "2026-08-04T13:03:43+00:00"
+    },
+    {
+      "title": "Gamers report a BIOS update is bricking their Legion Go handhelds, and Lenovo is quoting over $250 to fix the issue outside of warranty",
+      "link": "https://www.pcgamer.com/hardware/handheld-gaming-pcs/gamers-report-a-bios-update-is-bricking-their-legion-go-handhelds-and-lenovo-is-quoting-over-usd250-to-fix-the-issue-outside-of-warranty/",
+      "source": "pcgamer",
+      "source_category": "gaming",
+      "kind": "gaming",
+      "pub_date": "2026-08-04T11:59:14+00:00"
+    },
+    {
+      "title": "Stellar Blade boss completely misses the point of why people are upset with Blood Rain's AI slop video: 'The AI is not creating [Evie] from scratch'",
+      "link": "https://www.pcgamer.com/games/action/stellar-blade-boss-completely-misses-the-point-of-why-people-are-upset-with-blood-rains-ai-slop-video-the-ai-is-not-creating-evie-from-scratch/",
+      "source": "pcgamer",
+      "source_category": "gaming",
+      "kind": "gaming",
+      "pub_date": "2026-08-04T11:38:28+00:00"
+    },
+    {
+      "title": "Gigabyte is launching B550 AM4 motherboards and recommending four-year-old CPUs because the memory crisis is really that bad",
+      "link": "https://www.pcgamer.com/hardware/motherboards/gigabyte-is-launching-b550-am4-motherboards-and-recommending-four-year-old-cpus-because-the-memory-crisis-is-really-that-bad/",
+      "source": "pcgamer",
+      "source_category": "gaming",
+      "kind": "gaming",
+      "pub_date": "2026-08-04T10:54:08+00:00"
+    },
+    {
+      "title": "Onimusha: Way of the Sword's bad guy has 'an edge of eroticism', confirms Capcom dev — he's 'very alluring in the way that he moves'",
+      "link": "https://www.pcgamer.com/games/action/onimusha-way-of-the-swords-bad-guy-has-an-edge-of-eroticism-confirms-capcom-dev-hes-very-alluring-in-the-way-that-he-moves/",
+      "source": "pcgamer",
+      "source_category": "gaming",
+      "kind": "gaming",
+      "pub_date": "2026-08-04T10:17:25+00:00"
+    },
+    {
+      "title": "Arctic announces price rollback thanks to a US gov tariff refund, which will continue until 'every single dollar Arctic received… has been paid back to our customers'",
+      "link": "https://www.pcgamer.com/hardware/cooling/arctic-announces-price-rollback-thanks-to-a-us-gov-tariff-refund-which-will-continue-until-every-single-dollar-arctic-received-has-been-paid-back-to-our-customers/",
+      "source": "pcgamer",
+      "source_category": "gaming",
+      "kind": "gaming",
+      "pub_date": "2026-08-04T10:17:19+00:00"
+    },
+    {
+      "title": "I tried the 'stress test your GPU hopes you never run' and it made my main gaming rig look like a chump",
+      "link": "https://www.pcgamer.com/hardware/graphics-cards/i-tried-the-stress-test-your-gpu-hopes-you-never-run-and-it-made-my-main-gaming-rig-look-like-a-chump/",
+      "source": "pcgamer",
+      "source_category": "gaming",
+      "kind": "gaming",
+      "pub_date": "2026-08-04T09:28:54+00:00"
+    },
+    {
+      "title": "If you hate parrying, projectiles in Beast of Reincarnation are ridiculously overpowered if you focus on leveling them up",
+      "link": "https://www.pcgamer.com/games/action/if-you-hate-parrying-projectiles-in-beast-of-reincarnation-are-ridiculously-overpowered-if-you-focus-on-leveling-them-up/",
+      "source": "pcgamer",
+      "source_category": "gaming",
+      "kind": "gaming",
+      "pub_date": "2026-08-04T03:46:52+00:00"
+    },
+    {
+      "title": "Beast of Reincarnation review",
+      "link": "https://www.pcgamer.com/games/action/beast-of-reincarnation-review/",
+      "source": "pcgamer",
+      "source_category": "gaming",
+      "kind": "gaming",
+      "pub_date": "2026-08-04T00:00:00+00:00"
+    },
+    {
+      "title": "Henry Cavill confirms he'll star in the live action Warhammer 40K series written by Mike Flanagan, but his character 'shall remain a secret for now'",
+      "link": "https://www.pcgamer.com/movies-tv/henry-cavill-confirms-hell-star-in-the-live-action-warhammer-40k-series-written-by-mike-flanagan-but-his-character-shall-remain-a-secret-for-now/",
+      "source": "pcgamer",
+      "source_category": "gaming",
+      "kind": "gaming",
+      "pub_date": "2026-08-03T23:58:14+00:00"
+    },
+    {
+      "title": "Dave Bautista reportedly 'in talks' to take over the role of Kratos in Amazon's God of War series",
+      "link": "https://www.pcgamer.com/movies-tv/dave-bautista-reportedly-in-talks-to-take-over-the-role-of-kratos-in-amazons-god-of-war-series/",
+      "source": "pcgamer",
+      "source_category": "gaming",
+      "kind": "gaming",
+      "pub_date": "2026-08-03T22:51:08+00:00"
+    },
+    {
+      "title": "The original ethernet cable was canonically '1968 Corvette yellow' to distinguish it from a power cable—because you literally had to drill into it to install it",
+      "link": "https://www.pcgamer.com/hardware/the-original-ethernet-cable-was-canonically-1968-corvette-yellow-to-distinguish-it-from-a-power-cable-because-you-literally-had-to-drill-into-it-to-install-it/",
+      "source": "pcgamer",
+      "source_category": "gaming",
+      "kind": "gaming",
+      "pub_date": "2026-08-03T22:26:40+00:00"
+    },
+    {
+      "title": "Big Walk ignores 'friendslop' trends, and is better for it",
+      "link": "https://www.pcgamer.com/games/puzzle/big-walk-ignores-friendslop-trends-and-is-better-for-it/",
+      "source": "pcgamer",
+      "source_category": "gaming",
+      "kind": "gaming",
+      "pub_date": "2026-08-03T21:56:06+00:00"
+    },
+    {
+      "title": "'Wait for me, my Czech friend': Japanese dev adds Czech localization just for the one Steam user who wishlisted his game in the Czech Republic",
+      "link": "https://www.pcgamer.com/games/sports/wait-for-me-my-czech-friend-japanese-dev-adds-czech-localization-just-for-the-one-steam-user-who-wishlisted-his-game-in-the-czech-republic/",
+      "source": "pcgamer",
+      "source_category": "gaming",
+      "kind": "gaming",
+      "pub_date": "2026-08-03T20:47:52+00:00"
+    },
+    {
+      "title": "'I would die': Obsession star Inde Navarrette would love a role in Resident Evil",
+      "link": "https://www.pcgamer.com/games/resident-evil/i-would-die-obsession-star-inde-navarrette-would-love-a-role-in-resident-evil/",
+      "source": "pcgamer",
+      "source_category": "gaming",
+      "kind": "gaming",
+      "pub_date": "2026-08-03T19:40:07+00:00"
+    },
+    {
+      "title": "Microsoft is planning to bring Xbox 360 games to PC, according to leaked documents",
+      "link": "https://www.pcgamer.com/gaming-industry/microsoft-is-reportedly-planning-to-bring-xbox-360-games-to-pc-according-to-leaked-documents/",
+      "source": "pcgamer",
+      "source_category": "gaming",
+      "kind": "gaming",
+      "pub_date": "2026-08-03T19:11:29+00:00"
     },
     {
       "title": "MacBook Neo outperforms Dell XPS 13 in Cyberpunk 2077 benchmark—though I wouldn't recommend gaming on either notebook",
@@ -2130,196 +2322,172 @@
       "pub_date": "2026-08-01T22:12:38+00:00"
     },
     {
-      "title": "10 expansions that were better than the actual game",
-      "link": "https://www.pcgamer.com/games/10-expansions-that-were-better-than-the-actual-game/",
-      "source": "pcgamer",
-      "source_category": "gaming",
-      "kind": "gaming",
-      "pub_date": "2026-08-01T21:51:31+00:00"
+      "title": "ChatGPT Pro replaced Gemini Notebook as my favorite research app, and I didn’t see it coming",
+      "link": "https://www.digitaltrends.com/cool-tech/chatgpt-pro-replaced-gemini-notebook-as-my-favorite-research-app-and-i-didnt-see-it-coming/",
+      "source": "digitaltrends",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-08-04T16:00:00+00:00"
     },
     {
-      "title": "Dead Cells studio thanks Guillermo del Toro for playing its game, gently suggests he try the easy mode",
-      "link": "https://www.pcgamer.com/games/roguelike/dead-cells-studio-thanks-guillermo-del-toro-for-playing-its-game-gently-suggests-he-try-the-easy-mode/",
-      "source": "pcgamer",
-      "source_category": "gaming",
-      "kind": "gaming",
-      "pub_date": "2026-08-01T21:05:40+00:00"
+      "title": "The next Xbox may be backward compatible with every past Xbox generation, if publishers agree",
+      "link": "https://www.digitaltrends.com/gaming/xbox-project-helix-may-be-backward-compatible-with-every-past-xbox-generation-if-publishers-agree/",
+      "source": "digitaltrends",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-08-04T14:54:24+00:00"
     },
     {
-      "title": "The voice of Shinji in Evangelion says AI voice cloning is 'heartbreaking,' calls for Japanese government to intervene",
-      "link": "https://www.pcgamer.com/gaming-industry/the-voice-of-shinji-in-evangelion-says-ai-voice-cloning-is-heartbreaking-calls-for-japanese-government-to-intervene/",
-      "source": "pcgamer",
-      "source_category": "gaming",
-      "kind": "gaming",
-      "pub_date": "2026-08-01T19:49:37+00:00"
+      "title": "Deepfake bosses are crashing video calls, and researchers are trying to expose them",
+      "link": "https://www.digitaltrends.com/computing/deepfake-bosses-are-crashing-video-calls-and-researchers-are-trying-to-expose-them/",
+      "source": "digitaltrends",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-08-04T14:39:10+00:00"
     },
     {
-      "title": "Former Sony exec Shuhei Yoshida is 'a huge fan' of Bloodborne, says it's 'a complete mystery' why it was never put on PC",
-      "link": "https://www.pcgamer.com/games/action/former-sony-exec-shuhei-yoshida-is-a-huge-fan-of-bloodborne-says-its-a-complete-mystery-why-it-was-never-put-on-pc/",
-      "source": "pcgamer",
-      "source_category": "gaming",
-      "kind": "gaming",
-      "pub_date": "2026-08-01T17:58:01+00:00"
+      "title": "RISION’s new pocket-sized cameras turns your phone into a nitfty thermal imaging tool",
+      "link": "https://www.digitaltrends.com/phones/risions-new-pocket-sized-cameras-turns-your-phone-into-a-nitfty-thermal-imaging-tool/",
+      "source": "digitaltrends",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-08-04T12:22:05+00:00"
     },
     {
-      "title": "OpenAI CEO suggests parents make AI-generated podcasts to remember their children's lives for them",
-      "link": "https://www.pcgamer.com/software/ai/openai-ceo-suggests-parents-make-ai-generated-podcasts-to-remember-their-childrens-lives-for-them/",
-      "source": "pcgamer",
-      "source_category": "gaming",
-      "kind": "gaming",
-      "pub_date": "2026-08-01T17:14:49+00:00"
+      "title": "AI chatbots will happily create fake news articles, and tests show ChatGPT is the worst at it",
+      "link": "https://www.digitaltrends.com/cool-tech/ai-chatbots-will-happily-create-fake-news-articles-and-tests-show-chatgpt-is-the-worst-at-it/",
+      "source": "digitaltrends",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-08-04T11:38:51+00:00"
     },
     {
-      "title": "My new favourite Tolkien game is free, has over 40 years of history, and would run on a toaster",
-      "link": "https://www.pcgamer.com/games/roguelike/my-new-favourite-tolkien-game-is-free-has-over-40-years-of-history-and-would-run-on-a-toaster/",
-      "source": "pcgamer",
-      "source_category": "gaming",
-      "kind": "gaming",
-      "pub_date": "2026-08-01T17:00:00+00:00"
+      "title": "Samsung may finally kill the foldable crease next year, and make the screen stronger while it’s at it",
+      "link": "https://www.digitaltrends.com/phones/samsung-may-finally-kill-the-foldable-crease-next-year-and-make-the-screen-stronger-while-its-at-it/",
+      "source": "digitaltrends",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-08-04T11:22:55+00:00"
     },
     {
-      "title": "The great RPG debate: Do RPGs really need romanceable companions?",
-      "link": "https://www.pcgamer.com/games/rpg/the-great-rpg-debate-do-rpgs-really-need-romanceable-companions/",
-      "source": "pcgamer",
-      "source_category": "gaming",
-      "kind": "gaming",
-      "pub_date": "2026-08-01T16:00:00+00:00"
+      "title": "TCL just refreshed the Tab A1 Plus with its NXTPAPER tech and a bigger battery",
+      "link": "https://www.digitaltrends.com/tablets/tcl-refreshes-its-tab-a1-plus-with-nxtpaper-tech-and-a-bigger-battery/",
+      "source": "digitaltrends",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-08-04T11:18:01+00:00"
     },
     {
-      "title": "Crimson Desert adds 133 new trading posts and overhauls the in-game economy with supply and demand",
-      "link": "https://www.pcgamer.com/games/rpg/crimson-desert-adds-133-new-trading-posts-and-overhauls-the-in-game-economy-with-supply-and-demand/",
-      "source": "pcgamer",
-      "source_category": "gaming",
-      "kind": "gaming",
-      "pub_date": "2026-08-01T15:30:57+00:00"
+      "title": "DuckDuckGo’s new iPhone feature stops tracking IDs from hitching a ride in shared links",
+      "link": "https://www.digitaltrends.com/phones/duckduckgos-new-iphone-feature-stops-tracking-ids-from-hitching-a-ride-in-shared-links/",
+      "source": "digitaltrends",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-08-04T10:38:41+00:00"
     },
     {
-      "title": "Question time: What makes a 'good' grind in an MMO?",
-      "link": "https://www.pcgamer.com/games/mmo/question-time-what-makes-a-good-grind-in-an-mmo/",
-      "source": "pcgamer",
-      "source_category": "gaming",
-      "kind": "gaming",
-      "pub_date": "2026-08-01T15:00:00+00:00"
+      "title": "Apple will finally stop making iPhone-to-Windows copy-paste such a chore",
+      "link": "https://www.digitaltrends.com/computing/apple-may-finally-stop-making-iphone-to-windows-copy-paste-such-a-chore/",
+      "source": "digitaltrends",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-08-04T10:31:59+00:00"
     },
     {
-      "title": "The games industry's 'fear of risk is currently the largest risk it faces' according to Nuclear Throne's producer",
-      "link": "https://www.pcgamer.com/gaming-industry/the-games-industrys-fear-of-risk-is-currently-the-largest-risk-it-faces-according-to-nuclear-thrones-producer/",
-      "source": "pcgamer",
-      "source_category": "gaming",
-      "kind": "gaming",
-      "pub_date": "2026-08-01T14:00:00+00:00"
+      "title": "Google Health adds a faster way to share your medical history with doctors",
+      "link": "https://www.digitaltrends.com/phones/google-health-adds-a-faster-way-to-share-your-medical-history-with-doctors/",
+      "source": "digitaltrends",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-08-04T10:05:04+00:00"
     },
     {
-      "title": "Dragon Age's former producer had envisioned a 'Champions Edition' equivalent to Mass Effect's Legendary Edition, but he doesn't think it will happen anymore: 'There are basically no companies that could help you'",
-      "link": "https://www.pcgamer.com/games/rpg/dragon-ages-former-producer-had-envisioned-a-champions-edition-equivalent-to-mass-effects-legendary-edition-but-he-doesnt-think-it-will-happen-anymore-there-are-basically-no-companies-that-could-help-you/",
-      "source": "pcgamer",
-      "source_category": "gaming",
-      "kind": "gaming",
-      "pub_date": "2026-08-01T13:00:00+00:00"
+      "title": "Chrome wants more extension reviews, but good ratings won’t keep malware out",
+      "link": "https://www.digitaltrends.com/computing/chrome-wants-more-extension-reviews-but-good-ratings-wont-keep-malware-out/",
+      "source": "digitaltrends",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-08-04T09:59:26+00:00"
     },
     {
-      "title": "We haven't needed motion blur in games for a long time, so I wish it would stop being the default",
-      "link": "https://www.pcgamer.com/games/we-havent-needed-motion-blur-in-games-for-a-long-time-so-i-wish-it-would-stop-being-the-default/",
-      "source": "pcgamer",
-      "source_category": "gaming",
-      "kind": "gaming",
-      "pub_date": "2026-08-01T12:00:00+00:00"
+      "title": "Passkeys were pushed as a safer future. Hackers have figured out ways to break those synced to Google",
+      "link": "https://www.digitaltrends.com/computing/passkeys-were-pushed-as-a-safer-future-hackers-have-figured-out-ways-to-break-those-synced-to-google/",
+      "source": "digitaltrends",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-08-04T09:38:21+00:00"
     },
     {
-      "title": "I was excited for this Quake port of Half-Life until I discovered the creator's wild AI conspiracy theories",
-      "link": "https://www.pcgamer.com/games/fps/i-was-excited-for-this-quake-port-of-half-life-until-i-discovered-the-creators-wild-ai-conspiracy-theories/",
-      "source": "pcgamer",
-      "source_category": "gaming",
-      "kind": "gaming",
-      "pub_date": "2026-08-01T11:00:00+00:00"
+      "title": "Apple’s OpenAI lawsuit just tripped over an embarrassing wrong-recipient email",
+      "link": "https://www.digitaltrends.com/computing/apples-openai-lawsuit-just-tripped-over-an-embarrassing-wrong-recipient-email/",
+      "source": "digitaltrends",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-08-04T09:04:22+00:00"
     },
     {
-      "title": "Palworld 1.0 review",
-      "link": "https://www.pcgamer.com/games/survival-crafting/palworld-review/",
-      "source": "pcgamer",
-      "source_category": "gaming",
-      "kind": "gaming",
-      "pub_date": "2026-08-01T01:00:59+00:00"
+      "title": "Google Drive steps up its video collaboration game with timestamped comments",
+      "link": "https://www.digitaltrends.com/home-theater/google-drive-steps-up-its-video-collaboration-game-with-timestamped-comments/",
+      "source": "digitaltrends",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-08-04T09:01:16+00:00"
     },
     {
-      "title": "In happier times, Sony was courting PC gamers with lavish magazine ads for its 'most popular CD-ROM titles'",
-      "link": "https://www.pcgamer.com/gaming-industry/in-happier-times-sony-was-courting-pc-gamers-with-lavish-magazine-ads-for-its-most-popular-cd-rom-titles/",
-      "source": "pcgamer",
-      "source_category": "gaming",
-      "kind": "gaming",
-      "pub_date": "2026-08-01T00:34:56+00:00"
+      "title": "Apple is finally bringing one of my favorite Continuity features to Windows",
+      "link": "https://www.digitaltrends.com/computing/apple-is-finally-bringing-one-of-my-favorite-continuity-features-to-windows/",
+      "source": "digitaltrends",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-08-04T07:35:25+00:00"
     },
     {
-      "title": "We've seen a lot of malfunctioning robots this year, but this is my favorite fail yet",
-      "link": "https://www.pcgamer.com/hardware/weve-seen-a-lot-of-malfunctioning-robots-this-year-but-this-is-my-favorite-fail-yet/",
-      "source": "pcgamer",
-      "source_category": "gaming",
-      "kind": "gaming",
-      "pub_date": "2026-07-31T23:19:49+00:00"
+      "title": "Australia just set a horrific example for creep behavior with low-cost smartglasses",
+      "link": "https://www.digitaltrends.com/wearables/these-89-ai-glasses-sold-out-overnight-and-theyre-already-sparking-privacy-fears/",
+      "source": "digitaltrends",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-08-04T05:57:53+00:00"
     },
     {
-      "title": "Ubisoft's NFT tactics game, a thing that still exists, is shutting down in October",
-      "link": "https://www.pcgamer.com/games/strategy/ubisofts-nft-tactics-game-a-thing-that-still-exists-is-shutting-down-in-october/",
-      "source": "pcgamer",
-      "source_category": "gaming",
-      "kind": "gaming",
-      "pub_date": "2026-07-31T21:19:34+00:00"
+      "title": "Xbox may have a surprisingly smart plan for keeping physical games alive",
+      "link": "https://www.digitaltrends.com/gaming/xbox-may-have-a-surprisingly-smart-plan-for-keeping-physical-games-alive/",
+      "source": "digitaltrends",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-08-03T20:16:17+00:00"
     },
     {
-      "title": "After a year and a half of rigorous testing, Path of Exile 2 devs finally convinced Nvidia to fix a driver bug by sending it an entire PC",
-      "link": "https://www.pcgamer.com/games/rpg/after-a-year-and-a-half-of-rigorous-testing-path-of-exile-2-devs-finally-convinced-nvidia-to-fix-a-driver-bug-by-sending-it-an-entire-pc/",
-      "source": "pcgamer",
-      "source_category": "gaming",
-      "kind": "gaming",
-      "pub_date": "2026-07-31T20:51:29+00:00"
+      "title": "Volvo’s purported EX50 could be the budget-friendly plot twist nobody saw coming",
+      "link": "https://www.digitaltrends.com/cars/volvos-purported-ex50-could-be-the-budget-friendly-plot-twist-nobody-saw-coming/",
+      "source": "digitaltrends",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-08-03T20:08:03+00:00"
     },
     {
-      "title": "Get more than 100 games for just $10 in a new bundle supporting laid-off game devs",
-      "link": "https://www.pcgamer.com/games/get-more-than-100-games-for-just-usd10-in-a-new-bundle-supporting-laid-off-game-devs/",
-      "source": "pcgamer",
-      "source_category": "gaming",
-      "kind": "gaming",
-      "pub_date": "2026-07-31T20:35:26+00:00"
+      "title": "Pwnage’s new gaming mouse lets users adjust click force and travel with a screwdriver",
+      "link": "https://www.digitaltrends.com/gaming/pwnages-new-gaming-mouse-lets-users-adjust-click-force-and-travel-with-a-screwdriver/",
+      "source": "digitaltrends",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-08-03T20:06:04+00:00"
     },
     {
-      "title": "Bulletstorm is the stupidest game ever made, and also one of the cleverest shooters ever",
-      "link": "https://www.pcgamer.com/games/fps/bulletstorm-is-the-stupidest-game-ever-made-and-also-one-of-the-cleverest-shooters-ever/",
-      "source": "pcgamer",
-      "source_category": "gaming",
-      "kind": "gaming",
-      "pub_date": "2026-07-31T20:00:25+00:00"
+      "title": "MSI’s new 4K 120Hz OLED monitor uses inkjet tech that could make premium screens cheaper",
+      "link": "https://www.digitaltrends.com/computing/msis-new-4k-120hz-oled-monitor-uses-inkjet-tech-that-could-make-premium-screens-cheaper/",
+      "source": "digitaltrends",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-08-03T18:41:21+00:00"
     },
     {
-      "title": "Anthropic sees OpenAI cybersecurity disaster and says 'hold my beer,' reveals it accidentally hacked 3 companies in as many months without noticing",
-      "link": "https://www.pcgamer.com/software/ai/anthropic-sees-openai-cybersecurity-disaster-and-says-hold-my-beer-reveals-it-accidentally-hacked-3-companies-in-as-many-months-without-noticing/",
-      "source": "pcgamer",
-      "source_category": "gaming",
-      "kind": "gaming",
-      "pub_date": "2026-07-31T19:45:46+00:00"
-    },
-    {
-      "title": "Sony exec says killing discs won't make the PlayStation 6 too much like a PC: 'Going forward, we can coexist peacefully with PC games'",
-      "link": "https://www.pcgamer.com/gaming-industry/sony-exec-says-killing-discs-wont-make-the-playstation-6-too-much-like-a-pc-going-forward-we-can-coexist-peacefully-with-pc-games/",
-      "source": "pcgamer",
-      "source_category": "gaming",
-      "kind": "gaming",
-      "pub_date": "2026-07-31T19:37:29+00:00"
-    },
-    {
-      "title": "Former WoW designer says Blizzard had no way to measure maximum player DPS while building early raids—so the studio enlisted its strongest sickos to grind target dummies",
-      "link": "https://www.pcgamer.com/games/world-of-warcraft/former-wow-designer-says-blizzard-had-no-way-to-measure-maximum-player-dps-while-building-early-raids-so-the-studio-enlisted-its-strongest-sickos-to-grind-target-dummies/",
-      "source": "pcgamer",
-      "source_category": "gaming",
-      "kind": "gaming",
-      "pub_date": "2026-07-31T18:34:40+00:00"
-    },
-    {
-      "title": "Silent Hill producer believes shaking up the series was necessary to win over players because 'at best, only about half of the original users will return with a remake'",
-      "link": "https://www.pcgamer.com/games/horror/silent-hill-producer-believes-shaking-up-the-series-was-necessary-to-win-over-players-because-at-best-only-about-half-of-the-original-users-will-return-with-a-remake/",
-      "source": "pcgamer",
-      "source_category": "gaming",
-      "kind": "gaming",
-      "pub_date": "2026-07-31T16:52:05+00:00"
+      "title": "Google Health just made Fitbit Air a better fit for Apple Health users",
+      "link": "https://www.digitaltrends.com/phones/google-health-just-made-fitbit-air-a-better-fit-for-apple-health-users/",
+      "source": "digitaltrends",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-08-03T18:22:45+00:00"
     },
     {
       "title": "Google can’t catch a break as the Pixel 11 Pro leaks once again",
@@ -2386,172 +2554,364 @@
       "pub_date": "2026-08-03T12:49:47+00:00"
     },
     {
-      "title": "New Lenovo leak just gave us our best look at Google’s post-Chromebook gamble",
-      "link": "https://www.digitaltrends.com/computing/lenovo-just-gave-us-our-best-look-at-googles-post-chromebook-gamble/",
-      "source": "digitaltrends",
+      "title": "Samsung starts notifying Galaxy S26 Ultra owners about red screen fix",
+      "link": "https://www.androidauthority.com/galaxy-s26-ultra-red-tint-calibration-fix-3694415/",
+      "source": "androidauthority",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-03T10:49:07+00:00"
+      "pub_date": "2026-08-04T15:50:11+00:00"
     },
     {
-      "title": "Samsung is once again betting on MediaTek to power its flagship tablet",
-      "link": "https://www.digitaltrends.com/tablets/samsung-is-once-again-betting-on-mediatek-to-power-its-flagship-tablet/",
-      "source": "digitaltrends",
+      "title": "Pixel 11 Pro Fold leak adds support for new notification light’s name",
+      "link": "https://www.androidauthority.com/pixel-11-pro-hilight-3694423/",
+      "source": "androidauthority",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-03T10:10:15+00:00"
+      "pub_date": "2026-08-04T15:35:19+00:00"
     },
     {
-      "title": "Apple may give the iPhone 18e one extra gigabyte and call it an AI upgrade",
-      "link": "https://www.digitaltrends.com/phones/apple-may-give-the-iphone-18e-one-extra-gigabyte-and-call-it-an-ai-upgrade/",
-      "source": "digitaltrends",
+      "title": "T-Mobile’s last outage may net you some compensation",
+      "link": "https://www.androidauthority.com/t-mobile-outage-compensation-3694424/",
+      "source": "androidauthority",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-03T09:47:11+00:00"
+      "pub_date": "2026-08-04T15:20:28+00:00"
     },
     {
-      "title": "Samsung may have downgraded the Galaxy S27 Pro’s zoom lens to cut costs",
-      "link": "https://www.digitaltrends.com/phones/samsung-may-have-downgraded-the-galaxy-s27-pros-zoom-lens-to-cut-costs/",
-      "source": "digitaltrends",
+      "title": "Samsung Galaxy S26 Ultra drops 25% to its best non-Prime-Day price",
+      "link": "https://www.androidauthority.com/samsung-galaxy-s26-ultra-amazon-deal-3694465/",
+      "source": "androidauthority",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-03T09:03:53+00:00"
+      "pub_date": "2026-08-04T15:11:19+00:00"
     },
     {
-      "title": "Samsung Galaxy Z Flip 8: Everything we know",
-      "link": "https://www.digitaltrends.com/phones/samsung-galaxy-z-flip-8-all-the-leaks-and-rumors-about-the-upcoming-clamshell-folding-phone/",
-      "source": "digitaltrends",
+      "title": "Huge Pixel Watch 5 leak leaves little to the imagination",
+      "link": "https://www.androidauthority.com/google-pixel-watch-5-leak-3694404/",
+      "source": "androidauthority",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-03T09:03:27+00:00"
+      "pub_date": "2026-08-04T15:06:29+00:00"
     },
     {
-      "title": "Xiaomi just launched an SUV with seven seats and a bedroom upstairs",
-      "link": "https://www.digitaltrends.com/cars/xiaomi-just-launched-an-suv-with-seven-seats-and-a-bedroom-upstairs/",
-      "source": "digitaltrends",
+      "title": "This highly rated Lenovo IdeaPad Slim 3 Chromebook is just $279 until midnight!",
+      "link": "https://www.androidauthority.com/lenovo-ideapad-slim-3-chromebook-deal-3694450/",
+      "source": "androidauthority",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-03T08:47:41+00:00"
+      "pub_date": "2026-08-04T14:47:29+00:00"
     },
     {
-      "title": "Google’s voice search redesign could make its AI search tools easier to find",
-      "link": "https://www.digitaltrends.com/phones/googles-voice-search-redesign-could-make-its-ai-search-tools-easier-to-find/",
-      "source": "digitaltrends",
+      "title": "Think passkeys protect you from hacking and malware? Think again",
+      "link": "https://www.androidauthority.com/google-password-manager-synced-passkey-vulnerabilities-3694433/",
+      "source": "androidauthority",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-03T08:00:37+00:00"
+      "pub_date": "2026-08-04T14:31:28+00:00"
     },
     {
-      "title": "Google’s next XL Pixel may get lighter and pricier, with less RAM to start",
-      "link": "https://www.digitaltrends.com/phones/googles-next-xl-pixel-may-get-lighter-and-pricier-with-less-ram-to-start/",
-      "source": "digitaltrends",
+      "title": "The best smart home upgrades to make everyday life easier",
+      "link": "https://www.androidauthority.com/smart-home-tech-everyday-3677505/",
+      "source": "androidauthority",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-03T07:11:27+00:00"
+      "pub_date": "2026-08-04T14:17:03+00:00"
     },
     {
-      "title": "Google Pixel 11 Pro leaks in full, revealing minor spec bumps and a higher price",
-      "link": "https://www.digitaltrends.com/phones/google-pixel-11-pro-leaks-in-full-revealing-minor-upgrades-and-a-higher-price/",
-      "source": "digitaltrends",
+      "title": "Your Pixel 11 wishlist is in, and one demand towers over everything else",
+      "link": "https://www.androidauthority.com/google-pixel-11-wishlist-survey-3694376/",
+      "source": "androidauthority",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-03T06:25:12+00:00"
+      "pub_date": "2026-08-04T14:16:39+00:00"
     },
     {
-      "title": "AI slop stories are spoiling the childhood",
-      "link": "https://www.digitaltrends.com/computing/ai-slop-stories-are-spoiling-the-childhood/",
-      "source": "digitaltrends",
+      "title": "Nothing launches CMF Clip Pro to fix open-ear audio’s biggest flaws",
+      "link": "https://www.androidauthority.com/cmf-clip-pro-launch-3694361/",
+      "source": "androidauthority",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-03T02:15:50+00:00"
+      "pub_date": "2026-08-04T13:00:38+00:00"
     },
     {
-      "title": "Xbox price hikes in Europe are wild and now I’m worried about Project Helix",
-      "link": "https://www.digitaltrends.com/gaming/xbox-price-hikes-in-europe-are-wild-and-now-im-worried-about-project-helix/",
-      "source": "digitaltrends",
+      "title": "A less powerful Snapdragon 8 Elite Gen 5 chip is now officially a thing",
+      "link": "https://www.androidauthority.com/redmi-k100-pro-qualcomm-snapdragon-8-elite-gen-5v-chip-3694293/",
+      "source": "androidauthority",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-02T22:14:50+00:00"
+      "pub_date": "2026-08-04T12:13:23+00:00"
     },
     {
-      "title": "The MacBook Air is running in short supply, despite a price hike",
-      "link": "https://www.digitaltrends.com/computing/the-macbook-air-is-running-in-short-supply-despite-a-price-hike/",
-      "source": "digitaltrends",
+      "title": "Sylvox vs Samsung The Terrace vs SunBrite: The outdoor TV comparison you need before buying!",
+      "link": "https://www.androidauthority.com/sylvox-cinema-series-vs-samsung-the-terrace-vs-sunbrite-solis-outdoor-tvs-3685078/",
+      "source": "androidauthority",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-02T18:46:15+00:00"
+      "pub_date": "2026-08-04T12:00:21+00:00"
     },
     {
-      "title": "Apple’s next big health bet could be turning glasses and headsets into fitness companions.",
-      "link": "https://www.digitaltrends.com/wearables/apples-next-big-health-bet-could-be-turning-glasses-and-headsets-into-fitness-companions/",
-      "source": "digitaltrends",
+      "title": "The OnePlus 16 could finally match up to rivals with a long-awaited camera upgrade",
+      "link": "https://www.androidauthority.com/oneplus-16-battery-camera-configurations-pricing-details-3694282/",
+      "source": "androidauthority",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-02T15:32:03+00:00"
+      "pub_date": "2026-08-04T11:56:17+00:00"
     },
     {
-      "title": "Apple’s lease program is just a soft landing for you to spend on pricier iPhones this year",
-      "link": "https://www.digitaltrends.com/phones/apples-lease-program-is-just-a-soft-landing-for-you-to-spend-on-pricier-iphones-this-year/",
-      "source": "digitaltrends",
+      "title": "Samsung follows LG in killing Smart TV apps that rent out your internet",
+      "link": "https://www.androidauthority.com/samsung-smart-tv-residential-proxy-crackdown-3694334/",
+      "source": "androidauthority",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-02T14:48:34+00:00"
+      "pub_date": "2026-08-04T11:40:20+00:00"
     },
     {
-      "title": "OpenAI is investigating more incidents of AI agents going rogue days after hack",
-      "link": "https://www.digitaltrends.com/computing/openai-is-investigating-more-incidents-of-ai-agents-going-rogue-days-after-hack/",
-      "source": "digitaltrends",
+      "title": "Your Pixel’s lock screen may be about to get its biggest shortcut upgrade in years",
+      "link": "https://www.androidauthority.com/pixel-lock-screen-app-launch-shortcut-apk-teardown-article-3694308/",
+      "source": "androidauthority",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-02T13:48:56+00:00"
+      "pub_date": "2026-08-04T11:25:24+00:00"
     },
     {
-      "title": "Pixel 11 leak predicts a weird mix of upgrades and downgrades for a higher price",
-      "link": "https://www.digitaltrends.com/phones/pixel-11-leak-predicts-a-weird-mix-of-upgrades-and-downgrades-for-a-higher-price/",
-      "source": "digitaltrends",
+      "title": "The team behind our favorite PS2 emulator for Android just released a PS1 emulator",
+      "link": "https://www.androidauthority.com/armsx1-emulator-ps1-3694156/",
+      "source": "androidauthority",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-02T13:23:06+00:00"
+      "pub_date": "2026-08-04T11:12:17+00:00"
     },
     {
-      "title": "AI is finding Apple security flaws faster than Apple can sort through them",
-      "link": "https://www.digitaltrends.com/computing/ai-is-finding-apple-security-flaws-faster-than-apple-can-sort-through-them/",
-      "source": "digitaltrends",
+      "title": "First look: This is the Galaxy Fit 4, Samsung’s next budget fitness tracker",
+      "link": "https://www.androidauthority.com/samsung-galaxy-fit-4-render-leak-3694314/",
+      "source": "androidauthority",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-02T11:55:15+00:00"
+      "pub_date": "2026-08-04T10:52:59+00:00"
     },
     {
-      "title": "Anthropic is paying $1.5 billion over pirated books, but it can still legally cut up purchased ones",
-      "link": "https://www.digitaltrends.com/computing/anthropic-is-paying-1-5-billion-over-pirated-books-but-it-can-still-legally-cut-up-purchased-ones/",
-      "source": "digitaltrends",
+      "title": "After a year with the Pixel 10 Pro, here’s why I won’t buy the Pixel 11 Pro",
+      "link": "https://www.androidauthority.com/wont-buy-pixel-11-pro-after-year-with-pixel-10-pro-3693611/",
+      "source": "androidauthority",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-02T11:31:09+00:00"
+      "pub_date": "2026-08-04T10:30:25+00:00"
     },
     {
-      "title": "Ayaneo’s new handheld revives the Game Boy Advance. Nintendo probably wishes it had done it first",
-      "link": "https://www.digitaltrends.com/gaming/ayaneos-new-handheld-revives-the-game-boy-advance-nintendo-probably-wishes-it-had-done-it-first/",
-      "source": "digitaltrends",
+      "title": "The Galaxy Z Fold 8 is almost perfect. I just wish it wasn’t a foldable",
+      "link": "https://www.androidauthority.com/wish-galaxy-z-fold-8-wasnt-foldable-3693408/",
+      "source": "androidauthority",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-02T04:07:58+00:00"
+      "pub_date": "2026-08-04T10:00:18+00:00"
     },
     {
-      "title": "iPhone Air 2 leak points to a smaller Dynamic Island and upgraded cameras",
-      "link": "https://www.digitaltrends.com/phones/iphone-air-2-leak-points-to-a-smaller-dynamic-island-and-upgraded-cameras/",
-      "source": "digitaltrends",
+      "title": "Survey shows Pixel fans are losing faith in Google’s foldable phones",
+      "link": "https://www.androidauthority.com/google-pixel-fold-competitive-poll-results-3694265/",
+      "source": "androidauthority",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-02T03:48:52+00:00"
+      "pub_date": "2026-08-04T09:38:26+00:00"
     },
     {
-      "title": "Ted Lasso season 4 is coming soon with these two major changes",
-      "link": "https://www.digitaltrends.com/movies/ted-lasso-season-4-is-coming-soon-with-these-two-major-changes/",
-      "source": "digitaltrends",
+      "title": "5 things you should do before leaving T-Mobile in 2026",
+      "link": "https://www.androidauthority.com/t-mobile-leaving-guide-3692058/",
+      "source": "androidauthority",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-02T01:27:41+00:00"
+      "pub_date": "2026-08-04T09:30:04+00:00"
+    },
+    {
+      "title": "Samsung’s new foldables just broke a record that’s stood since 2019",
+      "link": "https://www.androidauthority.com/samsung-galaxy-z-fold-8-flip-8-preorder-record-3694262/",
+      "source": "androidauthority",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-08-04T09:10:10+00:00"
+    },
+    {
+      "title": "Google Play Store update brings live sports hub and built-in movie search",
+      "link": "https://www.androidauthority.com/google-play-store-update-sports-hub-movie-search-3694279/",
+      "source": "androidauthority",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-08-04T09:02:45+00:00"
+    },
+    {
+      "title": "I’ve used AirTags for years. Google’s new Pixel Tag needs these 4 things to succeed",
+      "link": "https://www.androidauthority.com/google-pixel-tag-features-from-airtag-user-3693982/",
+      "source": "androidauthority",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-08-04T09:00:44+00:00"
+    },
+    {
+      "title": "Spotify users complain of severe app lag on Android, company acknowledges issue",
+      "link": "https://www.androidauthority.com/spotify-android-app-performance-issues-3694252/",
+      "source": "androidauthority",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-08-04T08:30:59+00:00"
+    },
+    {
+      "title": "Google Drive finally fixes the most tedious part of reviewing videos",
+      "link": "https://www.androidauthority.com/google-drive-timestamped-video-comments-3694224/",
+      "source": "androidauthority",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-08-04T07:26:18+00:00"
+    },
+    {
+      "title": "Pixels could soon catch up to Galaxy phones with a new Voicecast feature",
+      "link": "https://www.androidauthority.com/google-pixel-voicecast-apk-teardown-3694165/",
+      "source": "androidauthority",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-08-04T07:25:27+00:00"
+    },
+    {
+      "title": "Google Home’s latest fix solves a major headache for Tapo camera owners",
+      "link": "https://www.androidauthority.com/google-home-tp-link-tapo-camera-live-feed-working-3694233/",
+      "source": "androidauthority",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-08-04T07:23:37+00:00"
+    },
+    {
+      "title": "Google could soon let you assign tasks to Spark from a regular Gemini chat",
+      "link": "https://www.androidauthority.com/gemini-spark-assign-task-apk-teardown-3694192/",
+      "source": "androidauthority",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-08-04T07:00:34+00:00"
+    },
+    {
+      "title": "Google widely rolling out support for Live Updates for stopwatch and timer",
+      "link": "https://www.androidauthority.com/google-clock-live-updates-rollout-3694162/",
+      "source": "androidauthority",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-08-04T06:53:18+00:00"
+    },
+    {
+      "title": "The days of walking into a T-Mobile store may be numbered",
+      "link": "https://www.androidauthority.com/t-mobile-t-life-app-yearly-transition-3694189/",
+      "source": "androidauthority",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-08-04T06:48:31+00:00"
+    },
+    {
+      "title": "Google Health just made sharing medical records much easier",
+      "link": "https://www.androidauthority.com/google-health-update-medical-records-3694144/",
+      "source": "androidauthority",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-08-04T04:54:09+00:00"
+    },
+    {
+      "title": "Apple is finally closing a significant ecosystem gap with Android on Windows",
+      "link": "https://www.androidauthority.com/apple-iphone-clipboard-access-windows-pc-android-3694110/",
+      "source": "androidauthority",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-08-04T03:55:30+00:00"
+    },
+    {
+      "title": "Telegram’s Apple App Store mystery continues, but it’s still available on Android",
+      "link": "https://www.androidauthority.com/telegram-removed-apple-app-store-latest-update-3694102/",
+      "source": "androidauthority",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-08-04T02:44:29+00:00"
+    },
+    {
+      "title": "Android 17 QPR2 Beta 2 arrives for Pixel 6a and newer devices",
+      "link": "https://www.androidauthority.com/android-17-qpr2-beta-2-3694096/",
+      "source": "androidauthority",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-08-03T21:44:55+00:00"
+    },
+    {
+      "title": "The OnePlus US exit is now feeling very real as remaining stock evaporates",
+      "link": "https://www.androidauthority.com/oneplus-15-us-stock-almost-sold-out-3694081/",
+      "source": "androidauthority",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-08-03T21:29:48+00:00"
+    },
+    {
+      "title": "Familiar face detection is broken on Walmart Onn cameras — but there’s a fix on the way",
+      "link": "https://www.androidauthority.com/walmart-onn-camera-familiar-face-3694084/",
+      "source": "androidauthority",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-08-03T21:27:49+00:00"
+    },
+    {
+      "title": "Google may start Pixel 11 pre-orders way sooner than expected",
+      "link": "https://www.androidauthority.com/pixel-11-countdown-clock-3694078/",
+      "source": "androidauthority",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-08-03T21:18:01+00:00"
+    },
+    {
+      "title": "End of an era: T-Mobile finally closes the door on 2G for good",
+      "link": "https://www.androidauthority.com/t-mobile-2g-service-3693986/",
+      "source": "androidauthority",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-08-03T20:24:35+00:00"
+    },
+    {
+      "title": "Google Keep is finally rolling out the search feature you’ve been asking for",
+      "link": "https://www.androidauthority.com/google-keep-find-in-note-rollout-3694030/",
+      "source": "androidauthority",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-08-03T20:14:54+00:00"
+    },
+    {
+      "title": "Google drops Pixel 11 Pro Fold teaser to hype you up for official launch",
+      "link": "https://www.androidauthority.com/google-teases-pixel-11-pro-fold-3694007/",
+      "source": "androidauthority",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-08-03T18:51:26+00:00"
+    },
+    {
+      "title": "Pixel 11 Pro XL joins the rest of the family with Google image leak",
+      "link": "https://www.androidauthority.com/pixel-11-pro-xl-image-leak-3694004/",
+      "source": "androidauthority",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-08-03T18:37:05+00:00"
+    },
+    {
+      "title": "Windows is testing a new way to preview Android phone notifications",
+      "link": "https://www.androidauthority.com/windows-phone-link-notification-preview-3693965/",
+      "source": "androidauthority",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-08-03T17:44:26+00:00"
+    },
+    {
+      "title": "TCL’s latest tablet with a paper-like display tempts with its budget price tag",
+      "link": "https://www.androidauthority.com/tcl-tab-a1-plus-nxtpaper-launch-3693912/",
+      "source": "androidauthority",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-08-03T17:10:40+00:00"
+    },
+    {
+      "title": "Galaxy S27 Ultra may get a slimmer camera thanks to this hidden upgrade",
+      "link": "https://www.androidauthority.com/galaxy-s27-thinner-camera-3693968/",
+      "source": "androidauthority",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-08-03T16:35:34+00:00"
     },
     {
       "title": "Sony WH-1000XM6 gets a gorgeous new color option",
@@ -2562,756 +2922,524 @@
       "pub_date": "2026-08-03T16:00:40+00:00"
     },
     {
-      "title": "Google Messages is getting much stricter about pinning chats",
-      "link": "https://www.androidauthority.com/google-messages-new-chat-pinning-ui-3693889/",
-      "source": "androidauthority",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-08-03T15:58:56+00:00"
-    },
-    {
-      "title": "Google Health can now sync to Apple Health",
-      "link": "https://www.androidauthority.com/sync-google-health-apple-health-3693886/",
-      "source": "androidauthority",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-08-03T15:39:56+00:00"
-    },
-    {
-      "title": "New Pixel 11 Pro leak highlights camera upgrades and more",
-      "link": "https://www.androidauthority.com/pixel-11-pro-leak-3693900/",
-      "source": "androidauthority",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-08-03T15:20:01+00:00"
-    },
-    {
-      "title": "Amazon’s fight against data-scraping bots is hiding reviews from real users",
-      "link": "https://www.androidauthority.com/amazon-user-reviews-ai-bots-data-scraping-3693844/",
-      "source": "androidauthority",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-08-03T14:20:13+00:00"
-    },
-    {
-      "title": "Google Messages tests a full-screen attachment view and customizable grid",
-      "link": "https://www.androidauthority.com/google-messages-beta-rearrange-attachment-shortcuts-3693847/",
-      "source": "androidauthority",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-08-03T13:39:37+00:00"
-    },
-    {
-      "title": "These tiny USB-C thermal cameras bring professional heat vision to your phones",
-      "link": "https://www.androidauthority.com/rision-magic-pro-ir-usb-c-thermal-cameras-3693747/",
-      "source": "androidauthority",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-08-03T13:00:46+00:00"
-    },
-    {
-      "title": "These luxury Galaxy Z Fold 8 editions have serious dorm poster energy",
-      "link": "https://www.androidauthority.com/caviar-galaxy-z-fold-8-movie-edition-3693826/",
-      "source": "androidauthority",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-08-03T12:50:23+00:00"
-    },
-    {
-      "title": "Gemini could soon let anyone build an AI agent on their phone, no enterprise plan needed",
-      "link": "https://www.androidauthority.com/gemini-custom-ai-agent-android-apk-teardown-article-3693798/",
-      "source": "androidauthority",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-08-03T12:41:47+00:00"
-    },
-    {
-      "title": "Thanks, Qualcomm: This brand-new Android handheld is already getting a price hike",
-      "link": "https://www.androidauthority.com/retroid-pocket-nova-price-increase-3693820/",
-      "source": "androidauthority",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-08-03T12:31:29+00:00"
-    },
-    {
-      "title": "Google is working on a new UI for customizing Gemini Daily Brief",
-      "link": "https://www.androidauthority.com/customize-gemini-daily-brief-ui-tweak-apk-teardown-3693789/",
-      "source": "androidauthority",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-08-03T11:42:12+00:00"
-    },
-    {
-      "title": "You might soon be able to create Gemini Spark skills directly on your Android phone",
-      "link": "https://www.androidauthority.com/gemini-spark-skills-android-apk-teardown-3693782/",
-      "source": "androidauthority",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-08-03T11:37:11+00:00"
-    },
-    {
-      "title": "I used to upgrade my Android phone every year. Here’s why I finally stopped",
-      "link": "https://www.androidauthority.com/stopped-chasing-latest-android-phones-3692577/",
-      "source": "androidauthority",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-08-03T10:30:06+00:00"
-    },
-    {
-      "title": "Survey says OnePlus die-hards feel ‘betrayed’ by sudden US shutdown",
-      "link": "https://www.androidauthority.com/oneplus-us-europe-shutdown-poll-results-3693726/",
-      "source": "androidauthority",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-08-03T10:00:37+00:00"
-    },
-    {
-      "title": "I’m a diehard Android user, but I still envy these 7 iOS features",
-      "link": "https://www.androidauthority.com/diehard-android-user-ios-features-i-want-3691074/",
-      "source": "androidauthority",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-08-03T10:00:05+00:00"
-    },
-    {
-      "title": "This iPhone just survived something almost nobody would believe",
-      "link": "https://www.androidauthority.com/iphone-surviving-fall-from-airplane-canada-3693761/",
-      "source": "androidauthority",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-08-03T09:49:30+00:00"
-    },
-    {
-      "title": "Massive leak reveals Lenovo Googlebook 15 ahead of launch",
-      "link": "https://www.androidauthority.com/lenovo-googlebook-15-leaked-renders-3693742/",
-      "source": "androidauthority",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-08-03T09:41:04+00:00"
-    },
-    {
-      "title": "5 smartwatches you should buy instead of the Samsung Galaxy Watch 9",
-      "link": "https://www.androidauthority.com/samsung-galaxy-watch-9-alternatives-3692792/",
-      "source": "androidauthority",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-08-03T09:30:07+00:00"
-    },
-    {
-      "title": "Gemini Notebook may soon let you build custom learning games out of your study material",
-      "link": "https://www.androidauthority.com/gemini-notebook-lm-interactive-learning-games-3693702/",
-      "source": "androidauthority",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-08-03T09:01:35+00:00"
-    },
-    {
-      "title": "I use this one setting every time I travel, and it saves me a fortune on mobile data",
-      "link": "https://www.androidauthority.com/one-setting-saves-fortune-mobile-data-travel-3688998/",
-      "source": "androidauthority",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-08-03T09:00:26+00:00"
-    },
-    {
-      "title": "Chrome and Edge are getting smarter screen sharing on bad Wi-Fi",
-      "link": "https://www.androidauthority.com/google-chrome-edge-screen-sharing-improvement-3693721/",
-      "source": "androidauthority",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-08-03T08:55:48+00:00"
-    },
-    {
-      "title": "Retroid Pocket Nova gets official Android 16-based LineageOS 23.2",
-      "link": "https://www.androidauthority.com/retroid-pocket-nova-android-16-lineageos-3693722/",
-      "source": "androidauthority",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-08-03T08:53:07+00:00"
-    },
-    {
-      "title": "Google’s Voice Search redesign puts every search option at your fingertips",
-      "link": "https://www.androidauthority.com/google-voice-search-big-revamp-3693696/",
-      "source": "androidauthority",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-08-03T07:53:37+00:00"
-    },
-    {
-      "title": "Google could take another page from Apple’s AirDrop for Android’s Tap to Share",
-      "link": "https://www.androidauthority.com/google-airdrop-style-tap-to-share-apk-teardown-3693681/",
-      "source": "androidauthority",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-08-03T07:44:55+00:00"
-    },
-    {
-      "title": "Galaxy S26 FE case leak shows off Samsung’s next affordable flagship in two shades",
-      "link": "https://www.androidauthority.com/samsung-galaxy-s26-fe-cases-leak-3693668/",
-      "source": "androidauthority",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-08-03T07:39:05+00:00"
-    },
-    {
-      "title": "One UI 9.5 surfaces again, this time with the Galaxy S27 Ultra",
-      "link": "https://www.androidauthority.com/one-ui-9-5-galaxy-s27-ultra-3693676/",
-      "source": "androidauthority",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-08-03T07:17:03+00:00"
-    },
-    {
-      "title": "Mega Pixel 11 series leak leaves nothing to the imagination",
-      "link": "https://www.androidauthority.com/pixel-11-leak-specs-us-price-3693656/",
-      "source": "androidauthority",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-08-03T06:52:33+00:00"
-    },
-    {
-      "title": "Samsung might kill one of the Galaxy S27 Ultra’s rear cameras",
-      "link": "https://www.androidauthority.com/samsung-galaxy-s27-ultra-camera-downgrade-3693651/",
-      "source": "androidauthority",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-08-03T06:14:20+00:00"
-    },
-    {
-      "title": "Google is canceling an unreleased app after 800,000 people pre-ordered it",
-      "link": "https://www.androidauthority.com/google-ai-studio-mobile-app-canceled-3693645/",
-      "source": "androidauthority",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-08-03T03:41:45+00:00"
-    },
-    {
-      "title": "Android 17 QPR2 Beta 1 is randomly sending Pixels to a date that doesn’t exist",
-      "link": "https://www.androidauthority.com/android-17-qpr2-beta-date-bug-3693367/",
-      "source": "androidauthority",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-08-03T02:13:40+00:00"
-    },
-    {
-      "title": "Every household management app I tried came up short, so I built my own with Claude",
-      "link": "https://www.androidauthority.com/custom-household-management-3691965/",
-      "source": "androidauthority",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-08-02T12:00:49+00:00"
-    },
-    {
-      "title": "90% of my searches don’t touch Google anymore — here’s what I use instead",
-      "link": "https://www.androidauthority.com/leaving-google-search-brave-alternative-experience-3691435/",
-      "source": "androidauthority",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-08-02T11:00:48+00:00"
-    },
-    {
-      "title": "I’ve reviewed smartphones for 10 years. Don’t waste your money upgrading in 2026",
-      "link": "https://www.androidauthority.com/dont-waste-money-buying-new-smartphone-2026-3691953/",
-      "source": "androidauthority",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-08-02T10:30:43+00:00"
-    },
-    {
-      "title": "Your Samsung phone already has something better than Android 17 App Bubbles — here’s how to use it",
-      "link": "https://www.androidauthority.com/samsung-pop-up-view-better-than-app-bubbles-how-use-3692326/",
-      "source": "androidauthority",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-08-02T10:00:30+00:00"
-    },
-    {
-      "title": "The Pixel 6 was a glorious mess, and Google is better for it",
-      "link": "https://www.androidauthority.com/google-pixel-6-revisit-2026-3692192/",
-      "source": "androidauthority",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-08-02T09:30:54+00:00"
-    },
-    {
-      "title": "5 fun things you can do with sensors on your Android phone",
-      "link": "https://www.androidauthority.com/use-android-phone-sensors-3687662/",
-      "source": "androidauthority",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-08-02T09:00:37+00:00"
-    },
-    {
-      "title": "It’s not just you: This fundamental Google Search feature is broken worldwide",
-      "link": "https://www.androidauthority.com/google-search-time-filters-broken-3693606/",
-      "source": "androidauthority",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-08-02T02:06:07+00:00"
-    },
-    {
-      "title": "I tried this vibecoded firewood splitting simulator, and I can’t stop playing it",
-      "link": "https://www.androidauthority.com/vibecoded-ai-apps-ai-tool-roundup-3692798/",
-      "source": "androidauthority",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-08-01T14:15:25+00:00"
-    },
-    {
-      "title": "5 of the best new Android apps you need to try this August",
-      "link": "https://www.androidauthority.com/best-new-android-apps-games-august-2026-3693177/",
-      "source": "androidauthority",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-08-01T14:00:38+00:00"
-    },
-    {
-      "title": "Third-party app stores are about to take over Google Play. Here’s how to prepare",
-      "link": "https://www.androidauthority.com/third-party-app-stores-coming-google-play-how-prepare-3689912/",
-      "source": "androidauthority",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-08-01T12:00:39+00:00"
-    },
-    {
-      "title": "The Beatbot Sora 30 and iSkim duo will keep your pool clean without costing a fortune!",
-      "link": "https://www.androidauthority.com/beatbot-sora-30-iskim-due-hands-on-3690811/",
-      "source": "androidauthority",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-08-01T11:41:13+00:00"
-    },
-    {
-      "title": "I’ve used the Galaxy Z Flip 8 and Motorola Razr Ultra 2026. Only one deserves your money",
-      "link": "https://www.androidauthority.com/samsung-galaxy-z-flip-8-vs-motorola-razr-ultra-2026-hands-on-3692170/",
-      "source": "androidauthority",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-08-01T11:00:15+00:00"
-    },
-    {
-      "title": "I was wrong about Google’s new selfie sign-in tool. Here’s how (and why) you should set it up now",
-      "link": "https://www.androidauthority.com/google-selfie-video-sign-in-how-to-use-3692675/",
-      "source": "androidauthority",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-08-01T10:30:04+00:00"
-    },
-    {
-      "title": "My 140 reused passwords finally came back to bite me. Here’s how I fixed it",
-      "link": "https://www.androidauthority.com/fixing-reused-passwords-for-online-security-3685833/",
-      "source": "androidauthority",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-08-01T10:00:07+00:00"
-    },
-    {
-      "title": "I’ve tested dozens of Android launchers. Here are 5 you should skip in 2026",
-      "link": "https://www.androidauthority.com/android-launchers-i-dont-recommend-2026-3691917/",
-      "source": "androidauthority",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-08-01T09:30:27+00:00"
-    },
-    {
-      "title": "Google Health is preparing to take over Nest Hub sleep tracking",
-      "link": "https://www.androidauthority.com/nest-hub-sleep-tracking-moving-to-google-health-3693527/",
-      "source": "androidauthority",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-07-31T21:52:37+00:00"
-    },
-    {
-      "title": "Anthropic found Claude hacking real companies during supposedly sealed tests",
-      "link": "https://www.androidauthority.com/claude-hacked-three-real-companies-3693505/",
-      "source": "androidauthority",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-07-31T20:50:32+00:00"
-    },
-    {
-      "title": "What is the release date for X-Men '97 season 2 episode 8 on Disney+?",
-      "link": "https://www.techradar.com/streaming/disney-plus/what-is-the-release-date-for-x-men-97-season-2-episode-8-on-disney",
+      "title": "'A new era of workplace sabotage': Employees really aren't happy with being forced back to the office - and many are starting to fight back",
+      "link": "https://www.techradar.com/pro/a-new-era-of-workplace-sabotage-employees-really-arent-happy-with-being-forced-back-to-the-office-and-many-are-starting-to-fight-back",
       "source": "techradar",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-03T16:00:00+00:00"
+      "pub_date": "2026-08-04T16:05:00+00:00"
     },
     {
-      "title": "Cape Fear ending explained: Who died, what happened to Max Cady, who is Natalie's real father, and possible season 2 predictions",
-      "link": "https://www.techradar.com/streaming/apple-tv-plus/cape-fear-ending-explained-who-died-what-happened-to-max-cady-who-is-natalies-real-father-and-possible-season-2-predictions",
+      "title": "How to watch Ted Lasso season 4 online – stream the sports comedy's revival from anywhere",
+      "link": "https://www.techradar.com/how-to-watch/tv-shows/ted-lasso-season-4-stream-from-anywhere",
       "source": "techradar",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-03T15:40:04+00:00"
+      "pub_date": "2026-08-04T16:00:00+00:00"
     },
     {
-      "title": "I stopped starting every ChatGPT conversation from scratch — these 5 simple changes made it much more useful",
-      "link": "https://www.techradar.com/ai-platforms-assistants/chatgpt/i-stopped-starting-every-chatgpt-conversation-from-scratch-these-5-simple-changes-made-it-much-more-useful",
+      "title": "‘77% expect domain importance to increase’: Name.com partners with Lovable and others to embed domain access",
+      "link": "https://www.techradar.com/pro/77-percent-expect-domain-importance-to-increase-name-com-partners-with-lovable-and-others-to-embed-domain-access",
       "source": "techradar",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-03T15:24:29+00:00"
+      "pub_date": "2026-08-04T16:00:00+00:00"
     },
     {
-      "title": "'Every small business will eventually have a digital workforce of AI agents': Bluehost CEO on how AI agents are reshaping business",
-      "link": "https://www.techradar.com/pro/every-small-business-will-eventually-have-a-digital-workforce-of-ai-agents-bluehost-ceo-on-how-ai-agents-are-reshaping-business",
+      "title": "This transparent CD player puts the inner workings on full display like a work of art — it's the perfect showpiece for physical media fans",
+      "link": "https://www.techradar.com/audio/this-transparent-cd-player-puts-the-inner-workings-on-full-display-like-a-work-of-art-its-the-perfect-showpiece-for-physical-media-fans",
       "source": "techradar",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-03T15:07:30+00:00"
+      "pub_date": "2026-08-04T15:53:48+00:00"
     },
     {
-      "title": "Meet deGDID: Windscribe's answer to the Windows tracker that VPNs cannot mask",
-      "link": "https://www.techradar.com/vpn/vpn-services/meet-degdid-windscribes-answer-to-the-windows-tracker-that-vpns-cannot-mask",
+      "title": "Amnezia VPN now supports human rights defenders with free premium VPN subscriptions",
+      "link": "https://www.techradar.com/vpn/vpn-privacy-security/amnezia-vpn-now-supports-human-rights-defenders-with-free-premium-vpn-subscriptions",
       "source": "techradar",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-03T15:04:09+00:00"
+      "pub_date": "2026-08-04T15:40:24+00:00"
     },
     {
-      "title": "Millions of downloads, zero security: how clone VPNs are gaming the Google Play Store",
-      "link": "https://www.techradar.com/vpn/vpn-privacy-security/millions-of-downloads-zero-security-how-clone-vpns-are-gaming-the-google-play-store",
+      "title": "BenQ PD2770U review: A self-calibrating 4K monitor that might just get creatives to look away from the Apple Studio display",
+      "link": "https://www.techradar.com/pro/benq-pd2770u-4k-monitor-review",
       "source": "techradar",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-03T15:03:55+00:00"
+      "pub_date": "2026-08-04T15:29:31+00:00"
     },
     {
-      "title": "Creality Falcon T1 review: A 5-star 5-in-1 laser engraver for businesses",
-      "link": "https://www.techradar.com/pro/creality-falcon-t1-5-in-1-laser-engraver-review",
+      "title": "Lenovo ThinkPad P14s Gen 6 review: A portable business-driven shell that's a workstation-grade beast under the hood",
+      "link": "https://www.techradar.com/pro/lenovo-thinkpad-p14s-gen-6-mobile-workstation-review",
       "source": "techradar",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-03T14:55:59+00:00"
+      "pub_date": "2026-08-04T15:16:17+00:00"
     },
     {
-      "title": "I tested the world's first AI spotting scope for birders — and it's brilliant in places, frustrating in others",
-      "link": "https://www.techradar.com/cameras/i-tested-the-worlds-first-ai-spotting-scope-for-birders-and-its-brilliant-in-places-frustrating-in-others",
+      "title": "Experts reveal Google Password Manager can be hijacked to let hackers steal passkeys and gain access to all your secrets",
+      "link": "https://www.techradar.com/pro/security/experts-reveal-google-password-manager-can-be-hijacked-to-let-hackers-steal-passkeys-and-gain-access-to-all-your-secrets",
       "source": "techradar",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-03T14:43:01+00:00"
+      "pub_date": "2026-08-04T15:10:00+00:00"
     },
     {
-      "title": "When AI inherits your technical debt",
-      "link": "https://www.techradar.com/pro/when-ai-inherits-your-technical-debt",
+      "title": "Private Internet Access now lets you ditch Google as it brings its VPN app to F-Droid",
+      "link": "https://www.techradar.com/vpn/vpn-services/private-internet-access-now-lets-you-ditch-google-as-it-brings-its-vpn-app-to-f-droid",
       "source": "techradar",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-03T14:33:44+00:00"
+      "pub_date": "2026-08-04T15:04:18+00:00"
     },
     {
-      "title": "Backpacks, USB hubs, and more: the essential accessories every student needs for their Mac",
-      "link": "https://www.techradar.com/computing/macs/backpacks-usb-hubs-and-more-the-essential-accessories-every-student-needs-for-their-mac",
+      "title": "The vSphere 9 decision: migrate, modernize or maximize with purpose",
+      "link": "https://www.techradar.com/pro/the-vsphere-9-decision-migrate-modernize-or-maximize-with-purpose",
       "source": "techradar",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-03T14:30:17+00:00"
+      "pub_date": "2026-08-04T14:26:48+00:00"
     },
     {
-      "title": "Surfshark pulls the plug on Search as it shifts focus to fighting scams",
-      "link": "https://www.techradar.com/vpn/vpn-services/surfshark-pulls-the-plug-on-search-as-it-shifts-focus-to-fighting-scams",
+      "title": "Philips Hue may be bringing its best ever lightstrip to the back of your TV —but we're primed for a painful price",
+      "link": "https://www.techradar.com/home/smart-lights/philips-hue-may-be-bringing-its-best-ever-lightstrip-to-the-back-of-your-tv-but-were-primed-for-a-painful-price",
       "source": "techradar",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-03T14:15:45+00:00"
+      "pub_date": "2026-08-04T14:25:07+00:00"
     },
     {
-      "title": "How to watch The Sky at Night for *FREE* – stream the long-running astronomy show from anywhere",
-      "link": "https://www.techradar.com/how-to-watch/tv-shows/the-sky-at-night-free",
+      "title": "'Striking the right balance starts with recognising that every user has different expectations of their browser': Mozilla's head of Firefox tells us why the browser is becoming one of the most important layers of the AI era",
+      "link": "https://www.techradar.com/pro/striking-the-right-balance-starts-with-recognising-that-every-user-has-different-expectations-of-their-browser-mozillas-head-of-firefox-tells-us-why-the-browser-is-becoming-one-of-the-most-important-layers-of-the-ai-era",
       "source": "techradar",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-03T13:59:50+00:00"
+      "pub_date": "2026-08-04T13:54:14+00:00"
     },
     {
-      "title": "Why serious AI builders are skipping third-party evals",
-      "link": "https://www.techradar.com/pro/why-serious-ai-builders-are-skipping-third-party-evals",
+      "title": "AI monocultures: the code review problem nobody's talking about",
+      "link": "https://www.techradar.com/pro/ai-monocultures-the-code-review-problem-nobodys-talking-about",
       "source": "techradar",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-03T13:53:10+00:00"
+      "pub_date": "2026-08-04T13:50:11+00:00"
     },
     {
-      "title": "Geekom IT13 Max review: An Ultra 9 mini PC held back by its own configuration",
-      "link": "https://www.techradar.com/computing/geekom-it13-max-mini-pc-review",
+      "title": "AdGuard VPN launches standalone Meta Quest app for system-wide VR protection",
+      "link": "https://www.techradar.com/vpn/vpn-services/adguard-vpn-launches-standalone-meta-quest-app-for-system-wide-vr-protection",
       "source": "techradar",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-03T13:49:33+00:00"
+      "pub_date": "2026-08-04T13:39:40+00:00"
     },
     {
-      "title": "Samsung's latest report suggests the RAM crisis is only just getting started — could we be looking at a new normal?",
-      "link": "https://www.techradar.com/computing/memory/samsungs-latest-report-suggests-the-ram-crisis-is-only-just-getting-started-could-we-be-looking-at-a-new-normal",
+      "title": "I spent two weeks with the Samsung Galaxy S26, and it's a stellar phone with a few annoying compromises",
+      "link": "https://www.techradar.com/phones/samsung-galaxy-phones/samsung-galaxy-s26-review",
       "source": "techradar",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-03T13:41:02+00:00"
+      "pub_date": "2026-08-04T13:29:19+00:00"
     },
     {
-      "title": "Upgrading your PC for summer? Lightning-fast Samsung 990 SSD drops 30% at Amazon, combining high speeds with generous storage capacity for creators and pros",
-      "link": "https://www.techradar.com/computing/storage-backup/upgrading-your-pc-for-summer-lightning-fast-samsung-990-ssd-drops-30-percent-at-amazon-combining-high-speeds-with-generous-storage-capacity-for-creators-and-pros",
+      "title": "Travelers beware — Microsoft experts warn hotel Wi-Fi can be hijacked to infect your devices with dangerous malware",
+      "link": "https://www.techradar.com/pro/security/travelers-beware-microsoft-experts-warn-hotel-wi-fi-can-be-hijacked-to-infect-your-devices-with-dangerous-malware",
       "source": "techradar",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-03T13:34:50+00:00"
+      "pub_date": "2026-08-04T13:00:00+00:00"
     },
     {
-      "title": "Proton VPN quietly unveils a massive under-the-hood upgrade — here's all we know about 'Proton Protocols'",
-      "link": "https://www.techradar.com/vpn/vpn-services/proton-vpn-quietly-unveils-a-massive-under-the-hood-upgrade-heres-all-we-know-about-proton-protocols",
+      "title": "GTA 6 fans waiting for Trailer 3 are convinced they've spotted an easter egg in GTA Online referencing the game's map",
+      "link": "https://www.techradar.com/gaming/gta-6-fans-waiting-for-trailer-3-are-convinced-theyve-spotted-an-easter-egg-in-gta-online-referencing-the-games-map",
       "source": "techradar",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-03T13:30:52+00:00"
+      "pub_date": "2026-08-04T12:58:25+00:00"
     },
     {
-      "title": "'Charging products really don’t get much better than the Anker Prime': Our favorite cable-decluttering device just got a price cut at Amazon — and it's perfect for the home office or back-to-school setup",
-      "link": "https://www.techradar.com/pro/charging-products-really-dont-get-much-better-than-the-anker-prime-our-favorite-cable-decluttering-device-just-got-a-price-cut-at-amazon-and-its-perfect-for-the-home-office-or-back-to-school-setup",
+      "title": "Prime Video's God of War series might have found its new Kratos — and I think he would be the perfect choice to play him",
+      "link": "https://www.techradar.com/streaming/amazon-prime-video/prime-videos-god-of-war-series-might-have-found-its-new-kratos-and-i-think-he-would-be-the-perfect-choice-to-play-him",
       "source": "techradar",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-03T13:27:14+00:00"
+      "pub_date": "2026-08-04T12:51:26+00:00"
     },
     {
-      "title": "'We’ve been behind the ball for so long': Experts say DNA samples from crime-scene forensics can be modified and even switched using an AI tool",
-      "link": "https://www.techradar.com/pro/security/weve-been-behind-the-ball-for-so-long-experts-say-dna-samples-from-crime-scene-forensics-can-be-modified-and-even-switched-using-an-ai-tool",
+      "title": "DJI unveils the Mic Mini 2S — here are 5 upgrades you can expect over the regular Mic Mini 2",
+      "link": "https://www.techradar.com/cameras/camera-accessories/dji-mic-mini-2s-arrives-here-are-5-upgrades-you-can-expect-over-the-regular-mic-mini-2",
       "source": "techradar",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-03T13:08:47+00:00"
+      "pub_date": "2026-08-04T12:00:00+00:00"
     },
     {
-      "title": "What is the release date for Ted Lasso season 4 episode 1 on Apple TV?",
-      "link": "https://www.techradar.com/streaming/apple-tv-plus/what-is-the-release-date-for-ted-lasso-season-4-episode-1-on-apple-tv",
+      "title": "Should Star Trek fans be worried about 'dwindling' Blu-ray, 4K and DVD releases in the streaming era? One star says not — despite Starfleet Academy having no confirmed release date on physical media",
+      "link": "https://www.techradar.com/streaming/star-trek-blu-ray-4k-dvd-releases-jeri-ryan",
       "source": "techradar",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-03T13:00:00+00:00"
+      "pub_date": "2026-08-04T11:37:58+00:00"
     },
     {
-      "title": "Lies of P: Complete Edition is excellent on Nintendo Switch 2, packing solid performance and the excellent Overture expansion",
-      "link": "https://www.techradar.com/gaming/nintendo-switch/lies-of-p-complete-edition-review",
+      "title": "A potentially dangerous macOS security flaw went unreported due to Apple being deluged by AI slop bug reports",
+      "link": "https://www.techradar.com/pro/security/a-potentially-dangerous-macos-security-flaw-went-unreported-due-to-apple-being-deluged-by-ai-slop-bug-reports",
       "source": "techradar",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-03T13:00:00+00:00"
+      "pub_date": "2026-08-04T11:25:00+00:00"
     },
     {
-      "title": "What is the release date for My Life with the Walter Boys season 3 on Netflix?",
-      "link": "https://www.techradar.com/streaming/netflix/my-life-with-the-walter-boys-season-3-release-date-time",
+      "title": "Telemetry in AI and why it may be a ticking bomb for CTOs and CFOs",
+      "link": "https://www.techradar.com/pro/telemetry-in-ai-and-why-it-may-be-a-ticking-bomb-for-ctos-and-cfos",
       "source": "techradar",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-03T12:28:15+00:00"
+      "pub_date": "2026-08-04T10:48:51+00:00"
     },
     {
-      "title": "Casio is going all-out on retro fitness trackers — as two vintage watches with Bluetooth step-tracking join a new version of its wild smart ring",
-      "link": "https://www.techradar.com/health-fitness/smartwatches/casio-is-going-all-out-on-retro-fitness-trackers-as-two-vintage-watches-with-bluetooth-step-tracking-join-a-new-version-of-its-wild-smart-ring",
+      "title": "Our favorite high-end music player brand just unveiled a successor to its 5-star entry-level DAP — though its definition of 'entry-level' might differ to yours",
+      "link": "https://www.techradar.com/audio/our-favorite-high-end-music-player-brand-just-unveiled-a-successor-to-its-5-star-entry-level-dap-though-its-definition-of-entry-level-might-differ-to-yours",
       "source": "techradar",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-03T12:10:39+00:00"
+      "pub_date": "2026-08-04T10:45:27+00:00"
     },
     {
-      "title": "Google Search Console now lets you track social media and video content — here's how to get it up and running",
-      "link": "https://www.techradar.com/pro/google-search-console-now-lets-you-track-social-media-and-video-content-heres-how-to-get-it-up-and-running",
+      "title": "How governance gaps are creating a shadow AI risk for finance leaders",
+      "link": "https://www.techradar.com/pro/how-governance-gaps-are-creating-a-shadow-ai-risk-for-finance-leaders",
       "source": "techradar",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-03T12:05:00+00:00"
+      "pub_date": "2026-08-04T10:31:34+00:00"
     },
     {
-      "title": "New AirPods set to arrive before the end of the year, but don't hold your breath on cameras in Apple earbuds just yet",
-      "link": "https://www.techradar.com/audio/earbuds-airpods/new-airpods-set-to-arrive-before-the-end-of-the-year-but-dont-hold-your-breath-on-cameras-in-apple-earbuds-just-yet",
+      "title": "Google just made managing your Fitbit health data far easier on iOS, and I can’t believe it’s taken this long",
+      "link": "https://www.techradar.com/health-fitness/smartwatches/google-just-made-managing-your-fitbit-health-data-far-easier-on-ios-and-i-cant-believe-its-taken-this-long",
       "source": "techradar",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-03T11:40:13+00:00"
+      "pub_date": "2026-08-04T10:30:31+00:00"
     },
     {
-      "title": "Microsoft acknowledges how dire the RAM crisis is by promising to reduce Windows 11's 'memory footprint' on 8GB laptops — but it should have been this way from the start",
-      "link": "https://www.techradar.com/computing/windows/microsoft-acknowledges-how-dire-the-ram-crisis-is-by-promising-to-reduce-windows-11s-memory-footprint-on-8gb-laptops-but-it-should-have-been-this-way-from-the-start",
+      "title": "Think you know the rest? Then prove it with this ultimate Spider-Man quiz about the superhero's comics, movies, TV shows, games and more",
+      "link": "https://www.techradar.com/streaming/entertainment/think-you-know-the-rest-then-prove-it-with-this-ultimate-spider-man-quiz-about-the-superheros-comics-movies-tv-shows-games-and-more",
       "source": "techradar",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-03T11:24:02+00:00"
+      "pub_date": "2026-08-04T10:14:39+00:00"
     },
     {
-      "title": "'Nobody was buying them so it doesn't really matter' — Xbox console price hike hits the UK",
-      "link": "https://www.techradar.com/gaming/xbox/nobody-was-buying-them-so-it-doesnt-really-matter-xbox-console-price-hike-hits-the-uk",
+      "title": "Why organizations are making trade-offs on software quality in the race to deliver faster",
+      "link": "https://www.techradar.com/pro/why-organizations-are-making-trade-offs-on-software-quality-in-the-race-to-deliver-faster",
       "source": "techradar",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-03T11:17:28+00:00"
+      "pub_date": "2026-08-04T10:14:03+00:00"
     },
     {
-      "title": "Is AI creating the next wave of software sprawl?",
-      "link": "https://www.techradar.com/pro/is-ai-creating-the-next-wave-of-software-sprawl",
+      "title": "Leaked document suggests Microsoft's rumored 'disc-to-digital' feature will roll out this month and allow users to play the Xbox 360 catalogue on Project Helix",
+      "link": "https://www.techradar.com/gaming/leaked-document-suggests-microsofts-rumored-disc-to-digital-feature-will-roll-out-this-month-and-allow-users-to-play-the-xbox-360-catalogue-on-project-helix",
       "source": "techradar",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-03T10:51:03+00:00"
+      "pub_date": "2026-08-04T10:11:12+00:00"
     },
     {
-      "title": "Why security debt belongs on the boardroom agenda",
-      "link": "https://www.techradar.com/pro/why-security-debt-belongs-on-the-boardroom-agenda",
+      "title": "Level up your creativity without paying full price — Adobe cuts Creative Cloud Pro subscriptions by 50% for your first year",
+      "link": "https://www.techradar.com/computing/creative-software/level-up-your-creativity-without-paying-full-price-adobe-cuts-creative-cloud-pro-subscriptions-by-50-percent-for-your-first-year",
       "source": "techradar",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-03T10:38:17+00:00"
+      "pub_date": "2026-08-04T09:58:05+00:00"
     },
     {
-      "title": "Microsoft warns Teams mobile users to update app now or lose Calendar access",
-      "link": "https://www.techradar.com/pro/microsoft-warns-teams-mobile-users-to-update-app-now-or-lose-calendar-access",
+      "title": "Rethinking AI adoption: What UK retailers can learn from their US counterparts",
+      "link": "https://www.techradar.com/pro/rethinking-ai-adoption-what-uk-retailers-can-learn-from-their-us-counterparts",
       "source": "techradar",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-03T10:20:00+00:00"
+      "pub_date": "2026-08-04T09:43:58+00:00"
     },
     {
-      "title": "The six-stage journey: Why 62% of organizations are stuck below the AI value line",
-      "link": "https://www.techradar.com/pro/the-six-stage-journey-why-62-percent-of-organizations-are-stuck-below-the-ai-value-line",
+      "title": "The democratization of AI stopped at the wrong layer",
+      "link": "https://www.techradar.com/pro/the-democratization-of-ai-stopped-at-the-wrong-layer",
       "source": "techradar",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-03T10:17:26+00:00"
+      "pub_date": "2026-08-04T09:05:27+00:00"
     },
     {
-      "title": "Dreo’s misting fan can cool far better than a standard fan — I was blown away by its superior chilling and how long it runs without needing refilling",
-      "link": "https://www.techradar.com/home/air-quality/dreos-misting-fan-can-cool-far-better-than-a-standard-fan-i-was-blown-away-by-its-superior-chilling-and-how-long-it-runs-without-needing-refilling",
+      "title": "Enabling the next generation of AI data centers",
+      "link": "https://www.techradar.com/pro/enabling-the-next-generation-of-ai-data-centers",
       "source": "techradar",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-03T10:00:46+00:00"
+      "pub_date": "2026-08-04T09:00:52+00:00"
     },
     {
-      "title": "I tested the Xiaomi Robot Vacuum X20 Max and it’s a great all-round performer — when it actually works",
-      "link": "https://www.techradar.com/home/robot-vacuums/xiaomi-robot-vacuum-x20-max-review",
+      "title": "Over 100,000 UK Police and staff have personal data leaked in attack on national database",
+      "link": "https://www.techradar.com/pro/security/over-100-000-uk-police-and-staff-have-personal-data-leaked-in-attack-on-national-database",
       "source": "techradar",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-03T09:58:16+00:00"
+      "pub_date": "2026-08-04T08:44:38+00:00"
     },
     {
-      "title": "The InkLeaf is a dual-screen e-paper tablet that lets you read on one display and take notes on the other",
-      "link": "https://www.techradar.com/tablets/ereaders/the-inkleaf-is-a-dual-screen-e-paper-tablet-that-lets-you-read-on-one-display-and-take-notes-on-the-other",
+      "title": "EE launches its fastest fibre broadband ever - 8GB per second speeds should appeal to home workers, gamers and AI developers alike",
+      "link": "https://www.techradar.com/pro/ee-launches-its-fastest-fibre-broadband-ever-8gb-per-second-speeds-should-appeal-to-home-workers-gamers-and-ai-developers-alike",
       "source": "techradar",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-03T09:56:36+00:00"
+      "pub_date": "2026-08-04T06:00:00+00:00"
     },
     {
-      "title": "Why vertical AI is the defining opportunity for enterprise right now",
-      "link": "https://www.techradar.com/pro/why-vertical-ai-is-the-defining-opportunity-for-enterprise-right-now",
+      "title": "What Apple price hike? The Apple Watch 11 is down to its lowest Aussie price of just AU$427",
+      "link": "https://www.techradar.com/health-fitness/smartwatches/what-apple-price-hike-the-apple-watch-11-is-down-to-its-lowest-aussie-price-of-just-aud427",
       "source": "techradar",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-03T09:52:58+00:00"
+      "pub_date": "2026-08-04T03:04:42+00:00"
     },
     {
-      "title": "The infrastructure debt AI creates isn't in the code. It's in the operations",
-      "link": "https://www.techradar.com/pro/the-infrastructure-debt-ai-creates-isnt-in-the-code-its-in-the-operations",
+      "title": "What is the release date for Stuart Fails to Save the Universe episode 3 on HBO Max?",
+      "link": "https://www.techradar.com/streaming/hbo-max/stuart-fails-to-save-the-universe-episode-3-release-date-time",
       "source": "techradar",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-03T09:46:57+00:00"
+      "pub_date": "2026-08-04T01:00:00+00:00"
     },
     {
-      "title": "Why even the biggest brands have low AI readiness",
-      "link": "https://www.techradar.com/pro/why-even-the-biggest-brands-have-low-ai-readiness",
+      "title": "LinkedIn says it won't be spending big on AI hardware this year — but it has a good reason why",
+      "link": "https://www.techradar.com/pro/linkedin-says-it-wont-be-spending-big-on-ai-hardware-this-year-but-it-has-a-good-reason-why",
       "source": "techradar",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-03T09:16:35+00:00"
+      "pub_date": "2026-08-04T00:25:00+00:00"
     },
     {
-      "title": "What's new at Lego for August? 10 new sets to build — including a retro gaming classic, and everyone's favorite extra-terrestrial",
-      "link": "https://www.techradar.com/home/whats-new-at-lego-for-august-10-new-sets-to-build-including-a-retro-gaming-classic-and-everyones-favorite-extra-terrestrial",
+      "title": "Beast of Reincarnation is an emotional journey from start to finish and excels with its Sekiro-like combat that is guaranteed to make players come back for more",
+      "link": "https://www.techradar.com/gaming/beast-of-reincarnation-review",
       "source": "techradar",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-03T08:42:52+00:00"
+      "pub_date": "2026-08-04T00:00:00+00:00"
     },
     {
-      "title": "Vodafone completes £4.3 billion VodafoneThree takeover, promises to 'move faster' and 'deliver better connectivity' for customers across the UK",
-      "link": "https://www.techradar.com/pro/phone-communications/vodafone-completes-gbp4-3-billion-vodafonethree-takeover-promises-to-move-faster-and-deliver-better-connectivity-for-customers-across-the-uk",
+      "title": "Panasonic's new gadget is a bread maker that also churns ice cream — I went hands-on with the wild two-in-one appliance, and the results were seriously tasty",
+      "link": "https://www.techradar.com/home/small-appliances/panasonics-new-gadget-is-a-bread-maker-that-also-churns-ice-cream-i-went-hands-on-with-the-wild-two-in-one-appliance-and-the-results-were-seriously-tasty",
       "source": "techradar",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-03T08:24:29+00:00"
+      "pub_date": "2026-08-04T00:00:00+00:00"
     },
     {
-      "title": "A stratospheric balloon could become a high-altitude drone carrier, capable of loitering for weeks and launching solar-powered UAVs",
-      "link": "https://www.techradar.com/pro/a-stratospheric-balloon-could-become-a-high-altitude-drone-carrier-capable-of-loitering-for-weeks-and-launching-solar-powered-uavs",
+      "title": "GMKTec pairs the fastest laptop CPU ever launched with a desktop RTX5070 GPU in an impressive Neo-X1 workstation PC",
+      "link": "https://www.techradar.com/pro/gmktec-pairs-the-fastest-laptop-cpu-ever-launched-with-a-desktop-rtx5070-gpu-in-an-impressive-neo-x1-workstation-pc",
       "source": "techradar",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-03T01:05:00+00:00"
+      "pub_date": "2026-08-03T23:25:00+00:00"
     },
     {
-      "title": "In a twist of irony, a Chinese open source GLM 5.2 AI model contained 'rogue' OpenAI GPT-5.6 Sol in a Hugging Face hack just as the US mulls banning open-weight AI",
-      "link": "https://www.techradar.com/pro/in-a-twist-of-irony-a-chinese-open-source-glm-5-2-ai-model-contained-rogue-openai-gpt-5-6-sol-in-a-hugging-face-hack-just-as-the-us-mulls-banning-open-weight-ai",
+      "title": "Quordle hints and answers for Tuesday, August 4 (game #1653)",
+      "link": "https://www.techradar.com/computing/websites-apps/quordle-today-answers-clues-4-august-2026",
       "source": "techradar",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-03T00:05:00+00:00"
+      "pub_date": "2026-08-03T23:00:00+00:00"
     },
     {
-      "title": "I love the Samsung Galaxy Watch 8 Classic so much I didn’t even take it off for my wedding — so where’s my Watch 9 Classic Samsung?",
-      "link": "https://www.techradar.com/health-fitness/smartwatches/i-love-the-samsung-galaxy-watch-8-classic-so-much-i-didnt-even-take-it-off-for-my-wedding-so-wheres-my-watch-9-classic-samsung",
+      "title": "NYT Connections hints and answers for Tuesday, August 4 (game #1150)",
+      "link": "https://www.techradar.com/gaming/nyt-connections-today-answers-hints-4-august-2026",
       "source": "techradar",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-03T00:00:00+00:00"
+      "pub_date": "2026-08-03T23:00:00+00:00"
     },
     {
-      "title": "Quordle hints and answers for Monday, August 3 (game #1652)",
-      "link": "https://www.techradar.com/computing/websites-apps/quordle-today-answers-clues-3-august-2026",
+      "title": "NYT Strands hints and answers for Tuesday, August 4 (game #884)",
+      "link": "https://www.techradar.com/computing/websites-apps/nyt-strands-today-answers-hints-4-august-2026",
       "source": "techradar",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-02T23:00:00+00:00"
+      "pub_date": "2026-08-03T23:00:00+00:00"
     },
     {
-      "title": "NYT Connections hints and answers for Monday, August 3 (game #1149)",
-      "link": "https://www.techradar.com/gaming/nyt-connections-today-answers-hints-3-august-2026",
+      "title": "Nvidia could invest $250bn in OpenAI's 10Gw Ohio data center — but costs could balloon to $500bn",
+      "link": "https://www.techradar.com/computing/cpu/nvidia-could-invest-usd250bn-in-openais-10gw-ohio-data-center-but-costs-could-balloon-to-usd500bn",
       "source": "techradar",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-02T23:00:00+00:00"
+      "pub_date": "2026-08-03T22:45:00+00:00"
     },
     {
-      "title": "NYT Strands hints and answers for Monday, August 3 (game #883)",
-      "link": "https://www.techradar.com/computing/websites-apps/nyt-strands-today-answers-hints-3-august-2026",
-      "source": "techradar",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-08-02T23:00:00+00:00"
-    },
-    {
-      "title": "Russia debuts anti-Starlink EW system that can blind terminals by overloading 'satellites' receiving antennas'",
-      "link": "https://www.techradar.com/pro/russia-debuts-anti-starlink-ew-system-that-can-blind-terminals-by-overloading-satellites-receiving-antennas",
-      "source": "techradar",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-08-02T22:35:00+00:00"
-    },
-    {
-      "title": "Quote of the day by pioneer of cybernetics Norbert Wiener: 'The automated machine is the economic equivalent of slave labour' — foreshadowing the displacement of human labor in the years to come",
-      "link": "https://www.techradar.com/pro/quote-of-the-day-by-pioneer-of-cybernetics-norbert-wiener-the-automated-machine-is-the-economic-equivalent-of-slave-labour-foreshadowing-the-displacement-of-human-labor-in-the-years-to-come",
-      "source": "techradar",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-08-02T22:00:00+00:00"
-    },
-    {
-      "title": "Critical CVE issued for hallucinated SQLite vulnerability",
-      "link": "https://research.jfrog.com/post/sqlite-critical-cves-or-llm-slops/",
+      "title": "Show HN: Simple algorithm and color space to generate diverse skin tones",
+      "link": "https://toneyalexander.github.io/inclusive-color-space/",
       "source": "hackernews",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-03T11:28:54+00:00"
+      "pub_date": "2026-08-04T15:16:22+00:00"
+    },
+    {
+      "title": "Ray Bradbury's \"There Will Come Soft Rains\" is set today (2026-08-04)",
+      "link": "https://short-stories.co/@raybradbury/there-will-come-soft-rains-6k8vr4xxlnmj",
+      "source": "hackernews",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-08-04T10:13:13+00:00"
+    },
+    {
+      "title": "DeepSeek V4 Flash on a Single AMD MI300X",
+      "link": "https://github.com/ryanzhou/deepseek-v4-flash-mi300x",
+      "source": "hackernews",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-08-04T10:00:55+00:00"
+    },
+    {
+      "title": "Germany Records Historic 12B KWh Solar Feed-In in July 2026",
+      "link": "https://solarquarter.com/2026/08/03/germany-records-historic-12-billion-kwh-solar-feed-in-in-july-2026/",
+      "source": "hackernews",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-08-04T13:43:00+00:00"
+    },
+    {
+      "title": "Agent skills that bring team coding standards to Claude Code and Codex",
+      "link": "https://github.com/tikalk/adlc-team-skills",
+      "source": "hackernews",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-08-04T14:38:31+00:00"
+    },
+    {
+      "title": "Dates That Don't Exist (2015)",
+      "link": "https://blog.yossarian.net/2015/06/09/Dates-That-Dont-Exist",
+      "source": "hackernews",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-08-01T17:18:48+00:00"
+    },
+    {
+      "title": "LLMs reward expertise",
+      "link": "https://www.seangoedecke.com/llms-reward-expertise/",
+      "source": "hackernews",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-08-03T21:13:53+00:00"
+    },
+    {
+      "title": "Keyv and friends compromised in active Shai-Hulud supply chain attack",
+      "link": "https://www.aikido.dev/blog/keyv-and-friends-compromised-in-npm-supply-chain-attack",
+      "source": "hackernews",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-08-04T11:01:37+00:00"
+    },
+    {
+      "title": "Buckminster Fuller: everything I know",
+      "link": "https://www.bfi.org/about-fuller/everything-i-know/",
+      "source": "hackernews",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-08-04T11:33:32+00:00"
+    },
+    {
+      "title": "Online ad giant Adform was hacked, proving once again why ad blockers are needed",
+      "link": "https://this.weekinsecurity.com/online-advertising-giant-adform-was-hacked-proving-once-again-why-ad-blockers-are-necessary/",
+      "source": "hackernews",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-08-04T15:05:33+00:00"
+    },
+    {
+      "title": "Xbox goes down. You can't play games you own on disc",
+      "link": "https://birchtree.me/blog/xbox-goes-down-you-cant-play-games-you-own-on-disc/",
+      "source": "hackernews",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-08-04T12:01:02+00:00"
+    },
+    {
+      "title": "Show HN: Fine-tune an 8B model on a 4 GB laptop GPU",
+      "link": "https://github.com/MakazhanAlpamys/Soup",
+      "source": "hackernews",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-08-04T11:17:57+00:00"
+    },
+    {
+      "title": "Harness Engineering for Self-Improvement",
+      "link": "https://lilianweng.github.io/posts/2026-07-04-harness/",
+      "source": "hackernews",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-08-04T06:17:54+00:00"
+    },
+    {
+      "title": "Roame (YC S23) Is Hiring Lead Engineer",
+      "link": "https://www.ycombinator.com/companies/roame/jobs/mqqfa38-lead-full-stack-engineer",
+      "source": "hackernews",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-08-04T12:00:51+00:00"
+    },
+    {
+      "title": "\"Clean\" Code, Horrible Performance (2023)",
+      "link": "https://www.computerenhance.com/p/clean-code-horrible-performance",
+      "source": "hackernews",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-08-04T09:52:35+00:00"
+    },
+    {
+      "title": "Where .env Went Wrong",
+      "link": "https://secretspec.dev/blog/where-env-went-wrong/",
+      "source": "hackernews",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-07-31T15:24:25+00:00"
+    },
+    {
+      "title": "Rebuilding and analysing 4 years of Wordle stats from WhatsApp chat logs",
+      "link": "https://blog.omgmog.net/post/rebuilding-wordle-stats-from-whatsapp/",
+      "source": "hackernews",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-08-03T15:20:13+00:00"
+    },
+    {
+      "title": "Show HN: Run an 80B Qwen in 4.3 GB of RAM on a Mac, and a 35B on an iPhone",
+      "link": "https://github.com/leonickson1/Swiftlet",
+      "source": "hackernews",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-08-03T16:54:15+00:00"
+    },
+    {
+      "title": "Why Large Language Models Fail at Tabular Prediction",
+      "link": "https://arxiv.org/abs/2608.02412",
+      "source": "hackernews",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-08-04T10:07:06+00:00"
+    },
+    {
+      "title": "Why etymologies matter: How tracing words can illuminate history (2024)",
+      "link": "https://resobscura.substack.com/p/why-i-love-etymologies",
+      "source": "hackernews",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-07-31T23:13:03+00:00"
+    },
+    {
+      "title": "Ten advances in mathematics and theoretical computer science",
+      "link": "https://openai.com/index/ten-advances-in-mathematics/",
+      "source": "hackernews",
+      "source_category": "tech",
+      "kind": "tech",
+      "pub_date": "2026-08-03T16:27:12+00:00"
     },
     {
       "title": "Devtools must be open source",
@@ -3322,228 +3450,68 @@
       "pub_date": "2026-08-03T14:15:47+00:00"
     },
     {
-      "title": "MiniMax H3 Day-0 Support in ComfyUI: Open Weights, Native Audio, and 2K Video",
-      "link": "https://blog.comfy.org/p/minimax-h3-day-0-support-in-comfyui",
+      "title": "Amazonian civilization had estimated 3M people in 3% of forest area",
+      "link": "https://www.science.org/content/article/odd-shapes-hidden-dense-amazon-rainforest-reveal-sprawling-ancient-civilization",
       "source": "hackernews",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-03T13:34:43+00:00"
+      "pub_date": "2026-07-29T16:07:46+00:00"
     },
     {
-      "title": "Taylor Farms Has Rewritten Its Cyclospora Statement Four Times in Sixteen Days",
-      "link": "https://www.marlerblog.com/case-news/taylor-farms-has-rewritten-its-cyclospora-statement-four-times-in-sixteen-days-it-still-has-not-said-what-changed-at-that-plant-after-2013-or-why-two-thousand-negative-tests-should-mean-an/",
+      "title": "AI-Generated Images Discourage Me from Reading Your Blog",
+      "link": "https://nelson.cloud/ai-generated-images-discourage-me-from-reading-your-blog/",
       "source": "hackernews",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-03T15:31:32+00:00"
+      "pub_date": "2026-08-04T11:30:17+00:00"
     },
     {
-      "title": "Hollywood Stopped Making Movies in Hollywood",
-      "link": "https://www.statsignificant.com/p/how-hollywood-stopped-making-movies",
+      "title": "Homebench – Benchmark local LLMs for speed, memory, and quality",
+      "link": "https://github.com/david-g-3654/homebench",
       "source": "hackernews",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-07-28T12:41:00+00:00"
+      "pub_date": "2026-08-04T09:48:43+00:00"
     },
     {
-      "title": "Don't be a meat proxy",
-      "link": "https://gruhn.me/blog/2026-08-03/",
+      "title": "There Will Come Soft Rains (1950) [pdf]",
+      "link": "https://users.wpi.edu/~zrbutzke/Docs/BradburyStories(1).pdf",
       "source": "hackernews",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-03T06:28:01+00:00"
+      "pub_date": "2026-08-03T23:24:53+00:00"
     },
     {
-      "title": "Andy Pavlo Joins ClickHouse to Establish ClickHouse Labs",
-      "link": "https://clickhouse.com/blog/andy-pavlo-joins-clickhouse",
+      "title": "Archaeologists Find Ancient Glyphs in the Amazon",
+      "link": "https://www.nytimes.com/2026/07/31/world/americas/amazon-archaeology-geoglyphs.html",
       "source": "hackernews",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-03T14:09:00+00:00"
+      "pub_date": "2026-08-01T14:55:32+00:00"
     },
     {
-      "title": "Qwen3.8-Max: A New Bar for Coding and Cowork",
-      "link": "https://qwen.ai/blog?id=qwen3.8",
+      "title": "Mosh in a Lift (2012)",
+      "link": "https://mosh.org/elevator.txt",
       "source": "hackernews",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-03T02:16:09+00:00"
+      "pub_date": "2026-08-02T15:26:47+00:00"
     },
     {
-      "title": "AirLLM 70B inference with single 4GB GPU",
-      "link": "https://github.com/lyogavin/airllm",
+      "title": "Learning-Rust.Github.io: Rust Programming Language Tutorials for Everyone",
+      "link": "https://learning-rust.github.io",
       "source": "hackernews",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-03T11:15:48+00:00"
+      "pub_date": "2026-08-04T10:03:46+00:00"
     },
     {
-      "title": "Bonsai: Janestreet's UI Library",
-      "link": "https://github.com/janestreet/bonsai",
+      "title": "Apple says more ex-employees may have taken confidential data to OpenAI",
+      "link": "https://techcrunch.com/2026/08/04/apple-says-more-ex-employees-may-have-taken-confidential-data-to-openai/",
       "source": "hackernews",
       "source_category": "tech",
       "kind": "tech",
-      "pub_date": "2026-08-03T08:29:57+00:00"
-    },
-    {
-      "title": "SPF Record Syntax: Mechanisms, Qualifiers, Modifiers, and Macros",
-      "link": "https://dmarcguard.io/blog/spf-record-syntax/",
-      "source": "hackernews",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-08-03T13:34:25+00:00"
-    },
-    {
-      "title": "The Abandoned Fish Sauce Terrorizing a Small Canadian Town",
-      "link": "https://defector.com/abandoned-fish-sauce-canada-interview",
-      "source": "hackernews",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-07-31T16:23:10+00:00"
-    },
-    {
-      "title": "Prevent cognitive debt by manually retyping LLM-generated code",
-      "link": "https://ankursethi.com/blog/prevent-cognitive-debt-by-manually-retyping-llm-generated-code/",
-      "source": "hackernews",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-08-03T09:32:07+00:00"
-    },
-    {
-      "title": "Rust project goals: Immobile types and guaranteed destructors",
-      "link": "https://github.com/rust-lang/rust-project-goals/blob/main/src/2026/move-trait.md",
-      "source": "hackernews",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-08-03T06:42:00+00:00"
-    },
-    {
-      "title": "Show HN: Nightcrawler – A local AI pentesting agent running on a smartphone",
-      "link": "https://github.com/garagehq/nightcrawler/",
-      "source": "hackernews",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-08-03T11:06:15+00:00"
-    },
-    {
-      "title": "Games at the press of a button: The Rip-O-Bot (1989)",
-      "link": "https://blog.gingerbeardman.com/2026/08/02/games-at-the-press-of-a-button-the-rip-o-bot/",
-      "source": "hackernews",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-08-02T20:19:16+00:00"
-    },
-    {
-      "title": "Utah produced more power from solar than any other source in May, a new first",
-      "link": "https://www.sltrib.com/news/environment/2026/08/03/utah-sets-solar-power-record/",
-      "source": "hackernews",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-08-03T14:13:24+00:00"
-    },
-    {
-      "title": "Walk on Decomposed Subdomains",
-      "link": "https://clementjambon.github.io/wods/index.html#blogpost",
-      "source": "hackernews",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-07-28T03:17:03+00:00"
-    },
-    {
-      "title": "What DMARC Protects You From, and What It Does Not",
-      "link": "https://senderledger.com/articles/what-dmarc-actually-protects-you-from",
-      "source": "hackernews",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-08-03T09:29:46+00:00"
-    },
-    {
-      "title": "Kraid is a now a real compiler",
-      "link": "https://www.collabora.com/news-and-blog/news-and-events/kraid-is-a-now-a-real-compiler.html",
-      "source": "hackernews",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-07-30T14:52:03+00:00"
-    },
-    {
-      "title": "Finding zombies in our systems: A real-world story of CPU bottlenecks",
-      "link": "https://medium.com/pinterest-engineering/finding-zombies-in-our-systems-a-real-world-story-of-cpu-bottlenecks-ea4722e552eb",
-      "source": "hackernews",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-08-02T14:50:48+00:00"
-    },
-    {
-      "title": "Train Simulator Controller",
-      "link": "https://z80.me/blog/tsc-2026-july/",
-      "source": "hackernews",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-07-30T21:18:39+00:00"
-    },
-    {
-      "title": "Why does Mail app contact iCloud when sending a non-iCloud email?",
-      "link": "https://lapcatsoftware.com/articles/2026/8/2.html",
-      "source": "hackernews",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-08-03T14:29:51+00:00"
-    },
-    {
-      "title": "Octane – React's programming model, compiled",
-      "link": "https://octanejs.dev",
-      "source": "hackernews",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-08-03T08:04:04+00:00"
-    },
-    {
-      "title": "Wind and solar overtake fossil fuels in Germany for the first time",
-      "link": "https://www.intellinews.com/wind-and-solar-overtake-fossil-fuels-in-germany-for-the-first-time-ever-458379/",
-      "source": "hackernews",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-08-03T13:13:02+00:00"
-    },
-    {
-      "title": "Show HN: Isopolis – Isometric pixel map of SF",
-      "link": "https://sf.isopolis.city/",
-      "source": "hackernews",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-08-03T00:46:38+00:00"
-    },
-    {
-      "title": "The true power of regular expressions (2012)",
-      "link": "https://www.npopov.com/2012/06/15/The-true-power-of-regular-expressions.html",
-      "source": "hackernews",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-08-03T08:47:23+00:00"
-    },
-    {
-      "title": "Show HN: We Fixed UniFi's Slow PPPoE Performance with PPPoE Half-Bridge",
-      "link": "https://arcbox.dev/blog/unifi-pppoe-half-bridge-acceleration",
-      "source": "hackernews",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-08-03T08:34:24+00:00"
-    },
-    {
-      "title": "Characterizing Warp Divergence from Pascal to Blackwell",
-      "link": "https://arxiv.org/abs/2607.23402",
-      "source": "hackernews",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-07-30T18:56:00+00:00"
-    },
-    {
-      "title": "Why we write our own C and C++ inference engines",
-      "link": "https://localai.io/blog/why-we-write-our-own-engines/",
-      "source": "hackernews",
-      "source_category": "tech",
-      "kind": "tech",
-      "pub_date": "2026-07-31T16:17:04+00:00"
+      "pub_date": "2026-08-04T15:37:42+00:00"
     }
   ]
 }
