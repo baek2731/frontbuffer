@@ -1,7 +1,7 @@
 {
   "_version": "1.3",
   "_description": "콘텐츠 파이프라인 — 클러스터 단위 관리",
-  "_last_updated": "2026-07-31T16:00:26.993180+00:00",
+  "_last_updated": "2026-08-04T16:12:44.015396+00:00",
   "hub_clusters": {
     "Steam Machine": {
       "hub_keyword": "Steam Machine",
@@ -137,8 +137,12 @@
         "Samsung Galaxy Foldables",
         "Samsung Galaxy Z Fold/Flip Series"
       ],
-      "spoke_urls": {},
-      "internal_links": []
+      "spoke_urls": {
+        "Samsung Galaxy Z Fold/Flip Series (COMPARISON)": "https://frontbuffer.net/tech/samsung-galaxy-z-foldflip-series_comparison/"
+      },
+      "internal_links": [
+        "https://frontbuffer.net/tech/samsung-galaxy-z-foldflip-series_comparison/"
+      ]
     },
     "Google Android Features": {
       "hub_keyword": "Google Android Features",
@@ -595,10 +599,11 @@
       "notes": ""
     },
     "Samsung Galaxy Z Fold/Flip Series": {
-      "types_done": [],
-      "last_week": "2026-W30",
+      "types_done": [
+        "COMPARISON"
+      ],
+      "last_week": "2026-W31",
       "suggest_next": [
-        "COMPARISON",
         "GUIDE",
         "EXPLAINER",
         "LISTICLE"
@@ -2279,9 +2284,10 @@
             "competition_index": 52
           }
         ],
-        "status": "candidate",
+        "status": "published",
         "selected_at": "2026-07-27T08:23:04.048313+00:00",
-        "publish_order": 6
+        "publish_order": 6,
+        "url": "https://frontbuffer.net/tech/samsung-galaxy-z-foldflip-series_comparison/"
       },
       {
         "cluster_name": "Samsung Galaxy Z Fold/Flip Series",
@@ -3989,6 +3995,15 @@
       "week_tag": "2026-W30",
       "published_at": "2026-07-31T16:00:26.993112+00:00",
       "hub_cluster": "Portable Gaming"
+    },
+    {
+      "cluster_name": "Samsung Galaxy Z Fold/Flip Series",
+      "title": "Galaxy Z Fold 8 vs Galaxy Z Fold 8 Ultra: Key Differences Explained",
+      "url": "https://frontbuffer.net/tech/samsung-galaxy-z-foldflip-series_comparison/",
+      "content_type": "COMPARISON",
+      "week_tag": "2026-W31",
+      "published_at": "2026-08-04T16:12:44.015342+00:00",
+      "hub_cluster": "Samsung Galaxy Foldables"
     }
   ]
 }

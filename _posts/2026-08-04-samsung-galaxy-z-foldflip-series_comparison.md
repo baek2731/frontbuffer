@@ -1,4 +1,14 @@
-# Galaxy Z Fold 8 vs Galaxy Z Fold 8 Ultra: Key Differences Explained
+---
+layout: single
+title: 'Galaxy Z Fold 8 vs Galaxy Z Fold 8 Ultra: Key Differences Explained'
+date: 2026-08-04 14:17:00 +0000
+categories: [tech]
+tags: ["comparison", "samsung", "galaxy", "z", "foldflip"]
+excerpt: 'Samsung announced both the Galaxy Z Fold 8 and Galaxy Z Fold 8 Ultra on July 22, 2026, at Galaxy Unpacked in London. Both ship August 7, 2026, and…'
+author_profile: false
+read_time: true
+share: true
+---
 
 Samsung announced both the Galaxy Z Fold 8 and Galaxy Z Fold 8 Ultra on July 22, 2026, at Galaxy Unpacked in London. Both ship August 7, 2026, and both use silicon-carbon battery technology for the first time in a Samsung foldable. But the two models diverge significantly in camera hardware, battery capacity, and build materials — differences that matter depending on how you use the device.
 
