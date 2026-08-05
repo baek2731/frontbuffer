@@ -82,5 +82,5 @@ The optical zoom gap is the clearest deciding factor. If you regularly shoot at 
 Sources:
 - [Samsung Galaxy Z Fold 8 Official Page](https://www.samsung.com/us/smartphones/galaxy-z-fold8/)
 - [Samsung Galaxy Unpacked July 2026](https://www.samsung.com/us/smartphones/galaxy-unpacked/)
-- [The Verge — Galaxy Z Fold 8 hands-on](https://www.theverge.com)
-- [GSMArena — Galaxy Z Fold 8 specs](https://www.gsmarena.com)
+- [GSMArena — Galaxy Z Fold 8 review](https://www.gsmarena.com/samsung_galaxy_z_fold8-review-2984.php)
+- [GSMArena — Galaxy Z Fold 8 Ultra review](https://www.gsmarena.com/samsung_galaxy_z_fold8_ultra-review-2985.php)
