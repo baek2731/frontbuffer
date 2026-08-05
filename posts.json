@@ -377,7 +377,26 @@
       "internal_links_needed": [],
       "internal_links_resolved": {},
       "status": "live"
+    },
+    {
+      "id": "how-samsungs-silicon-carbon-batteries-improve-galaxy-z-fold-",
+      "title": "How Samsung's Silicon-Carbon Batteries Improve Galaxy Z Fold 8 Battery Life",
+      "slug": "how-samsungs-silicon-carbon-batteries-improve-galaxy-z-fold-",
+      "cluster_slug": "samsung-galaxy-z-foldflip-series",
+      "url": "https://frontbuffer.net/tech/samsung-galaxy-z-foldflip-series_explainer/",
+      "live_url": "https://frontbuffer.net/tech/samsung-galaxy-z-foldflip-series_explainer/",
+      "published_date": "2026-08-05",
+      "content_type": "EXPLAINER",
+      "hub_cluster": "Samsung Galaxy Foldables",
+      "hub_keyword": "Galaxy Fold Flip Battery",
+      "verified_keywords": [
+        "galaxy fold"
+      ],
+      "data_grade": "A",
+      "internal_links_needed": [],
+      "internal_links_resolved": {},
+      "status": "live"
     }
   ],
-  "_last_updated": "2026-08-04T16:12:44.019440+00:00"
+  "_last_updated": "2026-08-05T16:02:06.456391+00:00"
 }

@@ -1,4 +1,14 @@
-# How Samsung's Silicon-Carbon Batteries Improve Galaxy Z Fold 8 Battery Life
+---
+layout: single
+title: 'How Samsung''s Silicon-Carbon Batteries Improve Galaxy Z Fold 8 Battery Life'
+date: 2026-08-05 14:19:00 +0000
+categories: [tech]
+tags: ["explainer", "samsung", "galaxy", "z", "foldflip"]
+excerpt: 'Samsung''s Galaxy Z Fold 8, Z Fold 8 Ultra, and Z Flip 8 — announced July 22, 2026 and shipping August 7, 2026 — are the first Samsung foldables to…'
+author_profile: false
+read_time: true
+share: true
+---
 
 Samsung's Galaxy Z Fold 8, Z Fold 8 Ultra, and Z Flip 8 — announced July 22, 2026 and shipping August 7, 2026 — are the first Samsung foldables to use silicon-carbon battery technology. The chemistry change is the primary reason the Fold 8 Ultra fits a 5,000mAh battery into the same chassis size as the Fold 7's 4,400mAh cell.
 
