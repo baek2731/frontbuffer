@@ -1,7 +1,7 @@
 {
   "_version": "1.3",
   "_description": "콘텐츠 파이프라인 — 클러스터 단위 관리",
-  "_last_updated": "2026-08-05T16:02:06.452193+00:00",
+  "_last_updated": "2026-08-07T14:54:21.318211+00:00",
   "hub_clusters": {
     "Steam Machine": {
       "hub_keyword": "Steam Machine",
@@ -139,11 +139,13 @@
       ],
       "spoke_urls": {
         "Samsung Galaxy Z Fold/Flip Series (COMPARISON)": "https://frontbuffer.net/tech/samsung-galaxy-z-foldflip-series_comparison/",
-        "Samsung Galaxy Z Fold/Flip Series (EXPLAINER)": "https://frontbuffer.net/tech/samsung-galaxy-z-foldflip-series_explainer/"
+        "Samsung Galaxy Z Fold/Flip Series (EXPLAINER)": "https://frontbuffer.net/tech/samsung-galaxy-z-foldflip-series_explainer/",
+        "Samsung Galaxy Z Fold/Flip Series (GUIDE)": "https://frontbuffer.net/tech/samsung-galaxy-z-foldflip-series_guide/"
       },
       "internal_links": [
         "https://frontbuffer.net/tech/samsung-galaxy-z-foldflip-series_comparison/",
-        "https://frontbuffer.net/tech/samsung-galaxy-z-foldflip-series_explainer/"
+        "https://frontbuffer.net/tech/samsung-galaxy-z-foldflip-series_explainer/",
+        "https://frontbuffer.net/tech/samsung-galaxy-z-foldflip-series_guide/"
       ]
     },
     "Google Android Features": {
@@ -603,11 +605,11 @@
     "Samsung Galaxy Z Fold/Flip Series": {
       "types_done": [
         "COMPARISON",
-        "EXPLAINER"
+        "EXPLAINER",
+        "GUIDE"
       ],
       "last_week": "2026-W31",
       "suggest_next": [
-        "GUIDE",
         "LISTICLE"
       ],
       "hub_keyword": "Galaxy Flip 8 Cover Screen",
@@ -2352,9 +2354,10 @@
             "competition_index": 52
           }
         ],
-        "status": "candidate",
+        "status": "published",
         "selected_at": "2026-07-27T08:23:04.048313+00:00",
-        "publish_order": 8
+        "publish_order": 8,
+        "url": "https://frontbuffer.net/tech/samsung-galaxy-z-foldflip-series_guide/"
       },
       {
         "cluster_name": "Google AI Features",
@@ -4015,6 +4018,15 @@
       "content_type": "EXPLAINER",
       "week_tag": "2026-W31",
       "published_at": "2026-08-05T16:02:06.452128+00:00",
+      "hub_cluster": "Samsung Galaxy Foldables"
+    },
+    {
+      "cluster_name": "Samsung Galaxy Z Fold/Flip Series",
+      "title": "How to Optimize Cover Screen Apps on Galaxy Z Flip 8",
+      "url": "https://frontbuffer.net/tech/samsung-galaxy-z-foldflip-series_guide/",
+      "content_type": "GUIDE",
+      "week_tag": "2026-W31",
+      "published_at": "2026-08-07T14:54:21.318154+00:00",
       "hub_cluster": "Samsung Galaxy Foldables"
     }
   ]
