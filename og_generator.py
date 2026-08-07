@@ -42,11 +42,12 @@ except ImportError:
     HAS_BOTO3 = False
 
 # ── R2 설정 ─────────────────────────────────────────────────────────
-R2_ACCOUNT_ID    = os.environ.get("R2_ACCOUNT_ID", "")
-R2_ACCESS_TOKEN  = os.environ.get("R2_ACCESS_TOKEN", "")
-R2_BUCKET_NAME   = "frontbuffer-images"
-R2_PUBLIC_URL    = "https://images.frontbuffer.net"
-UNSPLASH_KEY     = os.environ.get("UNSPLASH_ACCESS_KEY", "")
+R2_ACCOUNT_ID      = os.environ.get("R2_ACCOUNT_ID", "")
+R2_ACCESS_KEY_ID   = os.environ.get("R2_ACCESS_KEY_ID", "")
+R2_SECRET_ACCESS_KEY = os.environ.get("R2_SECRET_ACCESS_KEY", "")
+R2_BUCKET_NAME     = "frontbuffer-images"
+R2_PUBLIC_URL      = "https://images.frontbuffer.net"
+UNSPLASH_KEY       = os.environ.get("UNSPLASH_ACCESS_KEY", "")
 
 POSTS_DIR  = "_posts"
 OUTPUT_DIR = "social_output"
@@ -64,19 +65,19 @@ GAMING_KEYS = ["steam", "game", "gaming", "xbox", "playstation",
 
 # Unsplash 검색 키워드 매핑 (클러스터별)
 UNSPLASH_QUERY_MAP = {
-    "samsung":  "samsung smartphone technology",
-    "galaxy":   "samsung foldable smartphone",
-    "fold":     "foldable smartphone technology",
-    "chrome":   "web browser technology",
-    "manifest": "web browser extension technology",
-    "android":  "android smartphone technology",
-    "steam":    "gaming PC hardware",
-    "fallout":  "video game RPG",
-    "portable": "handheld gaming device",
-    "moonlight": "game streaming setup",
-    "auto":     "car dashboard technology",
-    "gaming":   "gaming setup hardware",
-    "tech":     "technology dark minimal",
+    "samsung":   "dark blue technology abstract light",
+    "galaxy":    "dark abstract purple light bokeh",
+    "fold":      "dark technology circuit abstract",
+    "chrome":    "dark blue network abstract light",
+    "manifest":  "dark technology web abstract",
+    "android":   "dark technology abstract minimal",
+    "steam":     "dark gaming neon abstract light",
+    "fallout":   "dark dramatic landscape cinematic",
+    "portable":  "dark technology minimal abstract",
+    "moonlight": "dark night light beam abstract",
+    "auto":      "dark road night light bokeh",
+    "gaming":    "dark neon gaming abstract light",
+    "tech":      "dark technology abstract minimal light",
 }
 
 def get_unsplash_query(title, category):
@@ -84,7 +85,7 @@ def get_unsplash_query(title, category):
     for key, query in UNSPLASH_QUERY_MAP.items():
         if key in t:
             return query
-    return "technology dark minimal" if category == "TECH" else "gaming setup hardware"
+    return "dark technology abstract minimal light" if category == "TECH" else "dark gaming neon abstract light"
 
 # 주제별 해시태그
 HASHTAG_MAP = {
@@ -119,31 +120,28 @@ def fetch_unsplash_image(query):
 
 
 def upload_to_r2(local_path, r2_key):
-    """R2에 파일 업로드 (requests + S3 API) → 공개 URL 반환."""
-    if not R2_ACCOUNT_ID or not R2_ACCESS_TOKEN:
+    """R2에 파일 업로드 (boto3 S3 호환) → 공개 URL 반환."""
+    if not HAS_BOTO3 or not R2_ACCOUNT_ID or not R2_ACCESS_KEY_ID or not R2_SECRET_ACCESS_KEY:
+        print("  ⚠️ R2 자격증명 없음 — 업로드 스킵")
         return None
     try:
-        # Cloudflare R2는 S3 호환 API 사용
-        # API 토큰을 Bearer로 직접 사용
-        endpoint = f"https://{R2_ACCOUNT_ID}.r2.cloudflarestorage.com"
-        url = f"{endpoint}/{R2_BUCKET_NAME}/{r2_key}"
+        import boto3
+        s3 = boto3.client(
+            "s3",
+            endpoint_url=f"https://{R2_ACCOUNT_ID}.r2.cloudflarestorage.com",
+            aws_access_key_id=R2_ACCESS_KEY_ID,
+            aws_secret_access_key=R2_SECRET_ACCESS_KEY,
+            region_name="auto",
+        )
         content_type = "image/png" if local_path.endswith(".png") else "image/jpeg"
         with open(local_path, "rb") as f:
-            data = f.read()
-        resp = requests.put(
-            url,
-            data=data,
-            headers={
-                "Content-Type": content_type,
-                "Authorization": f"Bearer {R2_ACCESS_TOKEN}",
-            },
-            timeout=30,
-        )
-        if resp.status_code in (200, 204):
-            return f"{R2_PUBLIC_URL}/{r2_key}"
-        else:
-            print(f"  ⚠️ R2 업로드 실패 ({resp.status_code}): {resp.text[:100]}")
-            return None
+            s3.put_object(
+                Bucket=R2_BUCKET_NAME,
+                Key=r2_key,
+                Body=f,
+                ContentType=content_type,
+            )
+        return f"{R2_PUBLIC_URL}/{r2_key}"
     except Exception as e:
         print(f"  ⚠️ R2 업로드 실패: {e}")
         return None
@@ -306,11 +304,20 @@ def generate_og_image(title, category, excerpt, out_path, unsplash_img=None):
 
     # ── 배경 생성 ──────────────────────────────────────────────────
     if unsplash_img is not None:
-        # Unsplash 이미지를 배경으로 사용
-        bg = unsplash_img.resize((OG_WIDTH, OG_HEIGHT), Image.LANCZOS)
-        bg = bg.filter(ImageFilter.GaussianBlur(radius=3))
-        # 어두운 오버레이 (텍스트 가독성 확보)
-        overlay = Image.new("RGBA", (OG_WIDTH, OG_HEIGHT), (20, 26, 45, 200))
+        # Unsplash 이미지를 배경으로 사용 — 크롭 후 blur
+        # 이미지를 OG 크기보다 크게 리사이즈해서 중앙 크롭
+        src_w, src_h = unsplash_img.size
+        scale = max(OG_WIDTH / src_w, OG_HEIGHT / src_h)
+        new_w, new_h = int(src_w * scale), int(src_h * scale)
+        bg = unsplash_img.resize((new_w, new_h), Image.LANCZOS)
+        # 중앙 크롭
+        left = (new_w - OG_WIDTH) // 2
+        top  = (new_h - OG_HEIGHT) // 2
+        bg = bg.crop((left, top, left + OG_WIDTH, top + OG_HEIGHT))
+        # blur 강도 높여서 배경처럼 보이게
+        bg = bg.filter(ImageFilter.GaussianBlur(radius=8))
+        # 브랜드 컬러 계열 오버레이 (투명도 낮춰서 이미지가 더 보이게)
+        overlay = Image.new("RGBA", (OG_WIDTH, OG_HEIGHT), (20, 26, 45, 160))
         img = Image.alpha_composite(bg.convert("RGBA"), overlay).convert("RGB")
     else:
         img = Image.new("RGB", (OG_WIDTH, OG_HEIGHT), BG_COLOR)
@@ -365,6 +372,12 @@ def generate_og_image(title, category, excerpt, out_path, unsplash_img=None):
     bbox = draw.textbbox((0, 0), domain, font=font_domain)
     dw = bbox[2] - bbox[0]
     draw.text((OG_WIDTH - 80 - dw, 578), domain, font=font_domain, fill=(*TEAL_COLOR, 130))
+
+    # Unsplash 크레딧 (좌측 하단)
+    if unsplash_img is not None:
+        font_credit = get_font(13)
+        draw.text((80, 585), "Photo: Unsplash",
+                  font=font_credit, fill=(120, 120, 120), anchor="lt")
 
     img.save(out_path, "PNG")
 

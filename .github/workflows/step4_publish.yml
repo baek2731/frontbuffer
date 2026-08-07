@@ -41,7 +41,7 @@ jobs:
 
       # ── 3. 패키지 설치 ─────────────────────────────────────────────
       - name: Install dependencies
-        run: pip install requests
+        run: pip install requests pillow boto3
 
       # ── 4. Git 설정 ────────────────────────────────────────────────
       - name: Configure Git
@@ -86,7 +86,34 @@ jobs:
               \"urlList\": [\"${{ env.POST_URL }}\"]
             }" | xargs -I{} echo "IndexNow 응답 코드: {}"
 
-      # ── 8. final/ 스택 10편 이하 시 Step 1 자동 트리거 ───────────
+      # ── 8. OG 이미지 생성 + R2 업로드 ────────────────────────────
+      - name: Generate OG image and upload to R2
+        if: env.POST_URL != ''
+        run: |
+          # _posts/에서 가장 최근 파일 찾아서 처리
+          LATEST=$(ls -t _posts/*.md 2>/dev/null | head -1)
+          if [ -n "$LATEST" ]; then
+            echo "OG 생성 대상: $LATEST"
+            python og_generator.py --file "$(basename $LATEST)" || true
+          fi
+        env:
+          UNSPLASH_ACCESS_KEY:   ${{ secrets.UNSPLASH_ACCESS_KEY }}
+          R2_ACCESS_KEY_ID:      ${{ secrets.R2_ACCESS_KEY_ID }}
+          R2_SECRET_ACCESS_KEY:  ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          R2_ACCOUNT_ID:         ${{ secrets.R2_ACCOUNT_ID }}
+
+      # ── 9. OG + header 이미지 커밋 ───────────────────────────────
+      - name: Commit OG assets
+        run: |
+          git add social_output/ _posts/ || true
+          if git diff --cached --quiet; then
+            echo "ℹ️ OG 변경사항 없음"
+          else
+            git commit -m "chore: OG 이미지 + header 추가 — ${{ env.POST_TITLE }}"
+            git push origin HEAD:main
+          fi
+
+      # ── 10. final/ 스택 10편 이하 시 Step 1 자동 트리거 ───────────
       - name: Auto-trigger Step 1 if stack is low
         if: success()
         run: |
