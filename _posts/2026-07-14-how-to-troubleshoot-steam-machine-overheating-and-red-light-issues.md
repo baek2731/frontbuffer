@@ -5,6 +5,9 @@ date: 2026-07-14 10:00:00 +0900
 categories: [gaming]
 tags: ["steam machine", "steam machine overheating", "red light fix", "valve hardware"]
 excerpt: "The June 29, 2026 launch of Valve's Steam Machine brought a red light problem with it. Valve confirmed the culprit is a BIOS bug, not the hardware failing."
+header:
+  image: https://images.frontbuffer.net/posts/how-to-troubleshoot-steam-machine-overheating-and-red-light-issues/header.jpg
+  overlay_filter: 0.5
 author_profile: false
 read_time: true
 share: true

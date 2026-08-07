@@ -5,6 +5,9 @@ date: 2026-07-17 10:00:00 +0900
 categories: [tech]
 tags: ["samsung health", "google health connect", "health connect comparison", "fitness data sync"]
 excerpt: "Samsung Health and Google Health Connect are not competing apps — they serve entirely different functions, and most Android users benefit from running both."
+header:
+  image: https://images.frontbuffer.net/posts/samsung-health-vs-google-health-connect-feature-comparison/header.jpg
+  overlay_filter: 0.5
 author_profile: false
 read_time: true
 share: true

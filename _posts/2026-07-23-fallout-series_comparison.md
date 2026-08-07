@@ -5,6 +5,9 @@ date: 2026-07-23 14:55:00 +0000
 categories: [gaming]
 tags: ["fallout remaster", "fallout new vegas remaster", "fallout 3 remaster", "bethesda 2026"]
 excerpt: '*Fallout 3* and *Fallout: New Vegas* are no longer subjects of mere speculation — they are coming back. On July 17, 2026, Bethesda Game Studios…'
+header:
+  image: https://images.frontbuffer.net/posts/fallout-series_comparison/header.jpg
+  overlay_filter: 0.5
 author_profile: false
 read_time: true
 share: true

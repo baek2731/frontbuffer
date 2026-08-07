@@ -5,6 +5,9 @@ date: 2026-08-05 14:19:00 +0000
 categories: [tech]
 tags: ["explainer", "samsung", "galaxy", "z", "foldflip"]
 excerpt: 'Samsung''s Galaxy Z Fold 8, Z Fold 8 Ultra, and Z Flip 8 — announced July 22, 2026 and shipping August 7, 2026 — are the first Samsung foldables to…'
+header:
+  image: https://images.frontbuffer.net/posts/samsung-galaxy-z-foldflip-series_explainer/header.jpg
+  overlay_filter: 0.5
 author_profile: false
 read_time: true
 share: true

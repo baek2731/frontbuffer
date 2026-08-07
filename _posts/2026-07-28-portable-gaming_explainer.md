@@ -5,6 +5,9 @@ date: 2026-07-28 14:22:00 +0000
 categories: [gaming]
 tags: ["explainer", "portable", "gaming"]
 excerpt: 'The Steam Deck Verified badge tells you something — but not everything. Here is what each rating actually means, where it falls short, and how to use ProtonDB alongside it.'
+header:
+  image: https://images.frontbuffer.net/posts/portable-gaming_explainer/header.jpg
+  overlay_filter: 0.5
 author_profile: false
 read_time: true
 share: true

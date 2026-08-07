@@ -5,6 +5,9 @@ date: 2026-07-18 10:00:00 +0900
 categories: [tech]
 tags: ["chrome extensions", "manifest v2", "check extension manifest version", "chrome developer mode"]
 excerpt: "Chrome 138 disabled Manifest V2 extensions for all standard users in July 2025. Here is how to confirm which of your extensions are affected."
+header:
+  image: https://images.frontbuffer.net/posts/how-to-check-if-chrome-extensions-use-manifest-v2/header.jpg
+  overlay_filter: 0.5
 author_profile: false
 read_time: true
 share: true

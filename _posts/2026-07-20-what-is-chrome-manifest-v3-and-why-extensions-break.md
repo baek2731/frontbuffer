@@ -5,6 +5,9 @@ date: 2026-07-20 10:00:00 +0900
 categories: [tech]
 tags: ["chrome extensions", "manifest v3", "mv2 deprecation", "declarative net request"]
 excerpt: "For millions of Chrome users, the sudden disappearance of familiar browser add-ons over the past year came without much warning. Google's transition t"
+header:
+  image: https://images.frontbuffer.net/posts/what-is-chrome-manifest-v3-and-why-extensions-break/header.jpg
+  overlay_filter: 0.5
 author_profile: false
 read_time: true
 share: true
