@@ -65,19 +65,19 @@ GAMING_KEYS = ["steam", "game", "gaming", "xbox", "playstation",
 
 # Unsplash 검색 키워드 매핑 (클러스터별)
 UNSPLASH_QUERY_MAP = {
-    "samsung":   "dark blue technology abstract light",
-    "galaxy":    "dark abstract purple light bokeh",
-    "fold":      "dark technology circuit abstract",
-    "chrome":    "dark blue network abstract light",
-    "manifest":  "dark technology web abstract",
-    "android":   "dark technology abstract minimal",
-    "steam":     "dark gaming neon abstract light",
-    "fallout":   "dark dramatic landscape cinematic",
-    "portable":  "dark technology minimal abstract",
-    "moonlight": "dark night light beam abstract",
-    "auto":      "dark road night light bokeh",
-    "gaming":    "dark neon gaming abstract light",
-    "tech":      "dark technology abstract minimal light",
+    "samsung":   "samsung smartphone",
+    "galaxy":    "samsung galaxy smartphone",
+    "fold":      "foldable smartphone",
+    "chrome":    "laptop computer browser",
+    "manifest":  "laptop computer code",
+    "android":   "android smartphone",
+    "steam":     "gaming setup PC",
+    "fallout":   "post apocalyptic game",
+    "portable":  "handheld gaming device",
+    "moonlight": "streaming gaming setup",
+    "auto":      "car dashboard interior",
+    "gaming":    "gaming setup PC",
+    "tech":      "laptop computer technology",
 }
 
 def get_unsplash_query(title, category):
@@ -85,7 +85,7 @@ def get_unsplash_query(title, category):
     for key, query in UNSPLASH_QUERY_MAP.items():
         if key in t:
             return query
-    return "dark technology abstract minimal light" if category == "TECH" else "dark gaming neon abstract light"
+    return "laptop computer technology" if category == "TECH" else "gaming setup PC"
 
 # 주제별 해시태그
 HASHTAG_MAP = {
@@ -315,7 +315,7 @@ def generate_og_image(title, category, excerpt, out_path, unsplash_img=None):
         top  = (new_h - OG_HEIGHT) // 2
         bg = bg.crop((left, top, left + OG_WIDTH, top + OG_HEIGHT))
         # blur 강도 높여서 배경처럼 보이게
-        bg = bg.filter(ImageFilter.GaussianBlur(radius=8))
+        bg = bg.filter(ImageFilter.GaussianBlur(radius=15))
         # 브랜드 컬러 계열 오버레이 (투명도 낮춰서 이미지가 더 보이게)
         overlay = Image.new("RGBA", (OG_WIDTH, OG_HEIGHT), (20, 26, 45, 160))
         img = Image.alpha_composite(bg.convert("RGBA"), overlay).convert("RGB")
