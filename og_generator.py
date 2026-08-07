@@ -18,14 +18,35 @@
 import os
 import re
 import sys
+import io
 import argparse
+import urllib.request
 from pathlib import Path
 
 try:
-    from PIL import Image, ImageDraw, ImageFont
+    from PIL import Image, ImageDraw, ImageFont, ImageFilter
 except ImportError:
     print("❌ Pillow 없음 — pip install pillow 실행하세요.")
     sys.exit(1)
+
+try:
+    import requests
+except ImportError:
+    print("❌ requests 없음 — pip install requests 실행하세요.")
+    sys.exit(1)
+
+try:
+    import boto3
+    HAS_BOTO3 = True
+except ImportError:
+    HAS_BOTO3 = False
+
+# ── R2 설정 ─────────────────────────────────────────────────────────
+R2_ACCOUNT_ID    = os.environ.get("R2_ACCOUNT_ID", "")
+R2_ACCESS_TOKEN  = os.environ.get("R2_ACCESS_TOKEN", "")
+R2_BUCKET_NAME   = "frontbuffer-images"
+R2_PUBLIC_URL    = "https://images.frontbuffer.net"
+UNSPLASH_KEY     = os.environ.get("UNSPLASH_ACCESS_KEY", "")
 
 POSTS_DIR  = "_posts"
 OUTPUT_DIR = "social_output"
@@ -41,6 +62,30 @@ DARK_TEAL   = (15, 42, 30)
 GAMING_KEYS = ["steam", "game", "gaming", "xbox", "playstation",
                "nintendo", "fallout", "portable", "handheld", "deck"]
 
+# Unsplash 검색 키워드 매핑 (클러스터별)
+UNSPLASH_QUERY_MAP = {
+    "samsung":  "samsung smartphone technology",
+    "galaxy":   "samsung foldable smartphone",
+    "fold":     "foldable smartphone technology",
+    "chrome":   "web browser technology",
+    "manifest": "web browser extension technology",
+    "android":  "android smartphone technology",
+    "steam":    "gaming PC hardware",
+    "fallout":  "video game RPG",
+    "portable": "handheld gaming device",
+    "moonlight": "game streaming setup",
+    "auto":     "car dashboard technology",
+    "gaming":   "gaming setup hardware",
+    "tech":     "technology dark minimal",
+}
+
+def get_unsplash_query(title, category):
+    t = title.lower()
+    for key, query in UNSPLASH_QUERY_MAP.items():
+        if key in t:
+            return query
+    return "technology dark minimal" if category == "TECH" else "gaming setup hardware"
+
 # 주제별 해시태그
 HASHTAG_MAP = {
     "chrome":   "#Chrome #ChromeExtensions #Google #Browser #WebDev",
@@ -54,6 +99,55 @@ HASHTAG_MAP = {
     "default_tech":   "#Tech #Digital #Productivity #Software #Innovation",
     "default_gaming": "#Gaming #PCGaming #Steam #Gamer #VideoGames",
 }
+
+def fetch_unsplash_image(query):
+    """Unsplash에서 이미지 다운로드 → PIL Image 반환."""
+    if not UNSPLASH_KEY:
+        return None
+    try:
+        url = f"https://api.unsplash.com/photos/random?query={urllib.request.quote(query)}&orientation=landscape&content_filter=high"
+        req = urllib.request.Request(url, headers={"Authorization": f"Client-ID {UNSPLASH_KEY}"})
+        with urllib.request.urlopen(req, timeout=10) as resp:
+            data = __import__('json').loads(resp.read())
+        img_url = data["urls"]["regular"]
+        with urllib.request.urlopen(img_url, timeout=15) as resp:
+            img_data = resp.read()
+        return Image.open(io.BytesIO(img_data)).convert("RGB")
+    except Exception as e:
+        print(f"  ⚠️ Unsplash 이미지 다운로드 실패: {e}")
+        return None
+
+
+def upload_to_r2(local_path, r2_key):
+    """R2에 파일 업로드 (requests + S3 API) → 공개 URL 반환."""
+    if not R2_ACCOUNT_ID or not R2_ACCESS_TOKEN:
+        return None
+    try:
+        # Cloudflare R2는 S3 호환 API 사용
+        # API 토큰을 Bearer로 직접 사용
+        endpoint = f"https://{R2_ACCOUNT_ID}.r2.cloudflarestorage.com"
+        url = f"{endpoint}/{R2_BUCKET_NAME}/{r2_key}"
+        content_type = "image/png" if local_path.endswith(".png") else "image/jpeg"
+        with open(local_path, "rb") as f:
+            data = f.read()
+        resp = requests.put(
+            url,
+            data=data,
+            headers={
+                "Content-Type": content_type,
+                "Authorization": f"Bearer {R2_ACCESS_TOKEN}",
+            },
+            timeout=30,
+        )
+        if resp.status_code in (200, 204):
+            return f"{R2_PUBLIC_URL}/{r2_key}"
+        else:
+            print(f"  ⚠️ R2 업로드 실패 ({resp.status_code}): {resp.text[:100]}")
+            return None
+    except Exception as e:
+        print(f"  ⚠️ R2 업로드 실패: {e}")
+        return None
+
 
 def get_hashtags(title, category):
     t = title.lower()
@@ -206,24 +300,36 @@ def draw_rounded_rect(draw, xy, radius, fill, outline=None, outline_width=2):
         draw.rectangle([x2 - outline_width, y1 + radius, x2, y2 - radius], fill=outline)
 
 
-def generate_og_image(title, category, excerpt, out_path):
+def generate_og_image(title, category, excerpt, out_path, unsplash_img=None):
     # 제목 길이에 따라 폰트 크기 자동 조정
     title_font_size = 54 if len(title) <= 40 else (44 if len(title) <= 60 else 36)
 
-    img  = Image.new("RGB", (OG_WIDTH, OG_HEIGHT), BG_COLOR)
+    # ── 배경 생성 ──────────────────────────────────────────────────
+    if unsplash_img is not None:
+        # Unsplash 이미지를 배경으로 사용
+        bg = unsplash_img.resize((OG_WIDTH, OG_HEIGHT), Image.LANCZOS)
+        bg = bg.filter(ImageFilter.GaussianBlur(radius=3))
+        # 어두운 오버레이 (텍스트 가독성 확보)
+        overlay = Image.new("RGBA", (OG_WIDTH, OG_HEIGHT), (20, 26, 45, 200))
+        img = Image.alpha_composite(bg.convert("RGBA"), overlay).convert("RGB")
+    else:
+        img = Image.new("RGB", (OG_WIDTH, OG_HEIGHT), BG_COLOR)
+
     draw = ImageDraw.Draw(img, "RGBA")
 
+    # 그리드 라인 (Unsplash 배경 있을 때는 더 투명하게)
+    grid_alpha = 5 if unsplash_img else 10
     for y in [157, 315, 472]:
-        draw.line([(0, y), (OG_WIDTH, y)], fill=(255, 255, 255, 10), width=1)
+        draw.line([(0, y), (OG_WIDTH, y)], fill=(255, 255, 255, grid_alpha), width=1)
     for x in [300, 600, 900]:
-        draw.line([(x, 0), (x, OG_HEIGHT)], fill=(255, 255, 255, 10), width=1)
+        draw.line([(x, 0), (x, OG_HEIGHT)], fill=(255, 255, 255, grid_alpha), width=1)
 
     cx, cy = 1050, 315
     for r, alpha in [(320, 25), (220, 20), (120, 15)]:
-        overlay = Image.new("RGBA", img.size, (0, 0, 0, 0))
-        ov_draw = ImageDraw.Draw(overlay)
+        overlay_img = Image.new("RGBA", img.size, (0, 0, 0, 0))
+        ov_draw = ImageDraw.Draw(overlay_img)
         ov_draw.ellipse([cx-r, cy-r, cx+r, cy+r], outline=(*TEAL_COLOR, alpha), width=1)
-        img.paste(Image.alpha_composite(img.convert("RGBA"), overlay).convert("RGB"))
+        img.paste(Image.alpha_composite(img.convert("RGBA"), overlay_img).convert("RGB"))
         draw = ImageDraw.Draw(img, "RGBA")
 
     font_brand   = get_font(28, bold=True)
@@ -296,7 +402,53 @@ def process_file(md_path, force=False):
     print(f"     제목: {title[:55]}...")
     os.makedirs(slug_dir, exist_ok=True)
 
-    generate_og_image(title, category, excerpt, out_png)
+    # ── Unsplash 이미지 가져오기 ──────────────────────────────────
+    unsplash_img = None
+    header_image_url = None
+    if UNSPLASH_KEY:
+        query = get_unsplash_query(title, category)
+        print(f"     🔍 Unsplash 검색: {query}")
+        unsplash_img = fetch_unsplash_image(query)
+        if unsplash_img:
+            print(f"     ✅ Unsplash 이미지 다운로드 완료")
+
+    # ── OG 이미지 생성 ────────────────────────────────────────────
+    generate_og_image(title, category, excerpt, out_png, unsplash_img=unsplash_img)
+
+    # ── R2에 header 이미지 업로드 ─────────────────────────────────
+    if unsplash_img and HAS_BOTO3 and R2_ACCOUNT_ID:
+        # header 이미지 저장 (1200x630, 약간 blur 적용)
+        header_path = os.path.join(slug_dir, "header.jpg")
+        header_img = unsplash_img.resize((1200, 630), Image.LANCZOS)
+        header_img.save(header_path, "JPEG", quality=85)
+        r2_key = f"posts/{url_slug}/header.jpg"
+        header_image_url = upload_to_r2(header_path, r2_key)
+        if header_image_url:
+            print(f"     ☁️ R2 업로드 완료: {header_image_url}")
+
+    # ── OG 이미지 R2 업로드 ───────────────────────────────────────
+    if HAS_BOTO3 and R2_ACCOUNT_ID:
+        r2_og_key = f"posts/{url_slug}/og.png"
+        og_url = upload_to_r2(out_png, r2_og_key)
+        if og_url:
+            print(f"     ☁️ OG 이미지 R2 업로드: {og_url}")
+
+    # ── _posts/ 파일에 header.image frontmatter 추가 ─────────────
+    if header_image_url:
+        md_text = Path(md_path).read_text(encoding="utf-8")
+        if "header:" not in md_text:
+            header_block = (
+                "header:\n"
+                f"  image: {header_image_url}\n"
+                "  overlay_filter: 0.5\n"
+            )
+            md_text = md_text.replace(
+                "author_profile: false",
+                f"{header_block}author_profile: false"
+            )
+            Path(md_path).write_text(md_text, encoding="utf-8")
+            print(f"     📝 header.image frontmatter 추가됨")
+
     tweet = generate_tweet(title, category, excerpt, url_slug)
     Path(out_tweet).write_text(tweet, encoding="utf-8")
 
