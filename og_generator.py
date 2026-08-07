@@ -68,8 +68,8 @@ UNSPLASH_QUERY_MAP = {
     "samsung":   "samsung smartphone",
     "galaxy":    "samsung galaxy smartphone",
     "fold":      "foldable smartphone",
-    "chrome":    "laptop computer browser",
-    "manifest":  "laptop computer code",
+    "chrome":    "programming code dark screen",
+    "manifest":  "software development dark",
     "android":   "android smartphone",
     "steam":     "gaming setup PC",
     "fallout":   "post apocalyptic game",
@@ -77,7 +77,7 @@ UNSPLASH_QUERY_MAP = {
     "moonlight": "streaming gaming setup",
     "auto":      "car dashboard interior",
     "gaming":    "gaming setup PC",
-    "tech":      "laptop computer technology",
+    "tech":      "technology minimal dark abstract",
 }
 
 def get_unsplash_query(title, category):
@@ -85,7 +85,7 @@ def get_unsplash_query(title, category):
     for key, query in UNSPLASH_QUERY_MAP.items():
         if key in t:
             return query
-    return "laptop computer technology" if category == "TECH" else "gaming setup PC"
+    return "technology minimal dark abstract" if category == "TECH" else "gaming setup PC"
 
 # 주제별 해시태그
 HASHTAG_MAP = {
@@ -106,7 +106,7 @@ def fetch_unsplash_image(query):
     if not UNSPLASH_KEY:
         return None
     try:
-        url = f"https://api.unsplash.com/photos/random?query={urllib.request.quote(query)}&orientation=landscape&content_filter=high"
+        url = f"https://api.unsplash.com/photos/random?query={urllib.request.quote(query)}&orientation=landscape&content_filter=high&color=black"
         req = urllib.request.Request(url, headers={"Authorization": f"Client-ID {UNSPLASH_KEY}"})
         with urllib.request.urlopen(req, timeout=10) as resp:
             data = __import__('json').loads(resp.read())
