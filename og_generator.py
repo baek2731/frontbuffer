@@ -19,6 +19,7 @@ import os
 import re
 import sys
 import io
+import json
 import argparse
 import urllib.request
 from pathlib import Path
@@ -101,22 +102,96 @@ HASHTAG_MAP = {
     "default_gaming": "#Gaming #PCGaming #Steam #Gamer #VideoGames",
 }
 
+USED_IDS_FILE = "social_output/.used_unsplash_ids.json"
+
+def load_used_ids():
+    """사용한 Unsplash photo ID 목록 로드."""
+    try:
+        if os.path.exists(USED_IDS_FILE):
+            return json.loads(open(USED_IDS_FILE, encoding="utf-8").read())
+    except:
+        pass
+    return []
+
+def save_used_ids(ids):
+    """사용한 Unsplash photo ID 저장."""
+    try:
+        os.makedirs(os.path.dirname(USED_IDS_FILE), exist_ok=True)
+        open(USED_IDS_FILE, "w", encoding="utf-8").write(json.dumps(ids))
+    except:
+        pass
+
+def validate_image(img):
+    """이미지 품질 검증 — 너무 밝거나 단색이면 False."""
+    if img is None:
+        return False
+    gray = img.convert("L")
+    pixels = list(gray.getdata())
+    avg = sum(pixels) / len(pixels)
+    # 너무 밝은 이미지 (평균 밝기 > 140) 거부
+    if avg > 140:
+        print(f"  ⚠️ 이미지 너무 밝음 (avg={avg:.0f}) — 재시도")
+        return False
+    # 너무 어두운 이미지 (평균 밝기 < 10) 거부
+    if avg < 10:
+        print(f"  ⚠️ 이미지 너무 어두움 (avg={avg:.0f}) — 재시도")
+        return False
+    # 색상 다양성 체크 (단색 이미지 거부)
+    r, g, b = img.split()
+    r_avg = sum(r.getdata()) / len(pixels)
+    g_avg = sum(g.getdata()) / len(pixels)
+    b_avg = sum(b.getdata()) / len(pixels)
+    color_variance = max(r_avg, g_avg, b_avg) - min(r_avg, g_avg, b_avg)
+    if color_variance < 5:
+        print(f"  ⚠️ 단색 이미지 (variance={color_variance:.1f}) — 재시도")
+        return False
+    return True
+
 def fetch_unsplash_image(query):
-    """Unsplash에서 이미지 다운로드 → PIL Image 반환."""
+    """Unsplash에서 이미지 다운로드 → PIL Image 반환 (중복/품질 검증 포함)."""
     if not UNSPLASH_KEY:
         return None
-    try:
-        url = f"https://api.unsplash.com/photos/random?query={urllib.request.quote(query)}&orientation=landscape&content_filter=high&color=black"
-        req = urllib.request.Request(url, headers={"Authorization": f"Client-ID {UNSPLASH_KEY}"})
-        with urllib.request.urlopen(req, timeout=10) as resp:
-            data = __import__('json').loads(resp.read())
-        img_url = data["urls"]["regular"]
-        with urllib.request.urlopen(img_url, timeout=15) as resp:
-            img_data = resp.read()
-        return Image.open(io.BytesIO(img_data)).convert("RGB")
-    except Exception as e:
-        print(f"  ⚠️ Unsplash 이미지 다운로드 실패: {e}")
-        return None
+
+    used_ids = load_used_ids()
+    fallback_queries = [query, "dark technology abstract", "dark minimal background"]
+
+    for attempt_query in fallback_queries:
+        for attempt in range(3):
+            try:
+                url = (f"https://api.unsplash.com/photos/random"
+                       f"?query={urllib.request.quote(attempt_query)}"
+                       f"&orientation=landscape&content_filter=high&color=black")
+                req = urllib.request.Request(url, headers={"Authorization": f"Client-ID {UNSPLASH_KEY}"})
+                with urllib.request.urlopen(req, timeout=10) as resp:
+                    data = json.loads(resp.read())
+
+                photo_id = data.get("id", "")
+
+                # 중복 체크
+                if photo_id in used_ids:
+                    print(f"  ⚠️ 중복 이미지 감지 (id={photo_id[:8]}) — 재시도")
+                    continue
+
+                img_url = data["urls"]["regular"]
+                with urllib.request.urlopen(img_url, timeout=15) as resp:
+                    img_data = resp.read()
+                img = Image.open(io.BytesIO(img_data)).convert("RGB")
+
+                # 품질 검증
+                if not validate_image(img):
+                    continue
+
+                # 검증 통과 — ID 저장
+                used_ids.append(photo_id)
+                save_used_ids(used_ids)
+                print(f"  ✅ 이미지 검증 통과 (avg_brightness OK, 중복 없음)")
+                return img
+
+            except Exception as e:
+                print(f"  ⚠️ Unsplash 다운로드 실패 (시도 {attempt+1}): {e}")
+
+    print("  ❌ 모든 시도 실패 — 기본 배경 사용")
+    return None
 
 
 def upload_to_r2(local_path, r2_key):
