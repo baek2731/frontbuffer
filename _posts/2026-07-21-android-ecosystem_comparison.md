@@ -6,8 +6,8 @@ categories: [tech]
 tags: ["comparison", "android", "ecosystem"]
 excerpt: 'Samsung Secure Folder uses Knox hardware-backed encryption and can isolate entire apps. Google Files Safe Folder locks individual files with a PIN. Here is what that difference actually means.'
 header:
-  image: https://images.frontbuffer.net/posts/android-ecosystem_comparison/header.jpg
-  overlay_filter: 0.5
+  image: https://images.frontbuffer.net/posts/android-ecosystem_comparison/og.png
+  overlay_filter: 0
 author_profile: false
 read_time: true
 share: true

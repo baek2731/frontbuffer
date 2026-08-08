@@ -6,8 +6,8 @@ categories: [tech]
 tags: ["guide", "android", "ecosystem"]
 excerpt: 'Samsung Health backs up through Samsung Cloud automatically — but only if you set it up before switching. Here is what actually transfers, what does not, and what to do if the sync fails.'
 header:
-  image: https://images.frontbuffer.net/posts/android-ecosystem_guide/header.jpg
-  overlay_filter: 0.5
+  image: https://images.frontbuffer.net/posts/android-ecosystem_guide/og.png
+  overlay_filter: 0
 author_profile: false
 read_time: true
 share: true

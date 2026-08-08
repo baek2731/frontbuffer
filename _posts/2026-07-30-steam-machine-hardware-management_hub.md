@@ -7,8 +7,8 @@ tags: ["hub", "steam", "machine", "hardware", "management"]
 excerpt: 'The Steam Machine (2026) communicates hardware problems through LED patterns — but not all red lights mean the same thing. Here is how to read them accurately.'
 permalink: '/gaming/steam-machine-hardware-management/'
 header:
-  image: https://images.frontbuffer.net/posts/steam-machine-hardware-management_hub/header.jpg
-  overlay_filter: 0.5
+  image: https://images.frontbuffer.net/posts/steam-machine-hardware-management_hub/og.png
+  overlay_filter: 0
 author_profile: false
 read_time: true
 share: true

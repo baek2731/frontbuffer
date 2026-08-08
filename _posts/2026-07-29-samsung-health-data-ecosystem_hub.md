@@ -7,8 +7,8 @@ tags: ["hub", "samsung", "health", "data", "ecosystem"]
 excerpt: 'Samsung Health accumulates years of personal data — but managing, exporting, and syncing that data requires knowing exactly which tools do what.'
 permalink: '/tech/samsung-health-data-ecosystem/'
 header:
-  image: https://images.frontbuffer.net/posts/samsung-health-data-ecosystem_hub/header.jpg
-  overlay_filter: 0.5
+  image: https://images.frontbuffer.net/posts/samsung-health-data-ecosystem_hub/og.png
+  overlay_filter: 0
 author_profile: false
 read_time: true
 share: true

@@ -7,8 +7,8 @@ categories: [gaming]
 tags: ["ayaneo vs steam deck", "portable gaming handheld", "ayaneo 2s review", "windows handheld pc", "steam deck comparison", "ayaneo 2", "handheld pc gaming"]
 excerpt: "AYANEO handhelds offer raw Windows PC power, while the Steam Deck prioritizes a polished, integrated experience. Here is what actually separates them in practice."
 header:
-  image: https://images.frontbuffer.net/posts/portable-gaming_comparison/header.jpg
-  overlay_filter: 0.5
+  image: https://images.frontbuffer.net/posts/portable-gaming_comparison/og.png
+  overlay_filter: 0
 author_profile: false
 read_time: true
 share: true

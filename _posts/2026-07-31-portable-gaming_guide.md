@@ -6,8 +6,8 @@ categories: [gaming]
 tags: ["guide", "portable", "gaming"]
 excerpt: 'Nvidia ended its GameStream service on February 27, 2023, leaving SHIELD owners without a built-in streaming solution. The open-source combination of…'
 header:
-  image: https://images.frontbuffer.net/posts/portable-gaming_guide/header.jpg
-  overlay_filter: 0.5
+  image: https://images.frontbuffer.net/posts/portable-gaming_guide/og.png
+  overlay_filter: 0
 author_profile: false
 read_time: true
 share: true

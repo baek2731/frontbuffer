@@ -6,8 +6,8 @@ categories: [tech]
 tags: ["guide", "samsung", "galaxy", "z", "foldflip"]
 excerpt: 'On July 22, 2026, Samsung officially announced the Galaxy Z Flip 8 at its Galaxy Unpacked event in London, England, with a release date set for…'
 header:
-  image: https://images.frontbuffer.net/posts/samsung-galaxy-z-foldflip-series_guide/header.jpg
-  overlay_filter: 0.5
+  image: https://images.frontbuffer.net/posts/samsung-galaxy-z-foldflip-series_guide/og.png
+  overlay_filter: 0
 author_profile: false
 read_time: true
 share: true
