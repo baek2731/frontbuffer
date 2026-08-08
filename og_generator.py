@@ -65,12 +65,12 @@ GAMING_KEYS = ["steam", "game", "gaming", "xbox", "playstation",
 
 # Unsplash 검색 키워드 매핑 (클러스터별)
 UNSPLASH_QUERY_MAP = {
-    "samsung":   "samsung smartphone",
+    "samsung":   "fitness health smartwatch app",
     "galaxy":    "samsung galaxy smartphone",
     "fold":      "foldable smartphone",
     "chrome":    "programming code dark screen",
     "manifest":  "software development dark",
-    "android":   "android smartphone",
+    "android":   "smartphone security privacy dark",
     "steam":     "gaming setup PC",
     "fallout":   "post apocalyptic game",
     "portable":  "handheld gaming device",
