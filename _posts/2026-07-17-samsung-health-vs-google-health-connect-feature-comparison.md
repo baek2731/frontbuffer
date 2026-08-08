@@ -88,5 +88,3 @@ Sources:
 * [Wikipedia: Samsung Health](https://en.wikipedia.org/wiki/Samsung_Health)
 * [Wikipedia: Health Connect](https://en.wikipedia.org/wiki/Health_Connect)
 * [Android Developers: Health Connect](https://developer.android.com/health-and-fitness/health-connect)
-* [YouTube: Google Fit vs Samsung Health Discussion](https://www.youtube.com/watch?v=cY8lNohnFAg)
-* [YouTube: Fitbit App vs Samsung Health Review](https://www.youtube.com/watch?v=1dihzu7MWoI)

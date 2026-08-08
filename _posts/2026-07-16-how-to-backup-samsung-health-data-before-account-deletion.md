@@ -33,7 +33,7 @@ Worth keeping in mind: this process targets Samsung Health data specifically. It
 For those who successfully initiate a data export, the resulting package arrives as a compressed folder containing numerous comma-separated values (CSV) files. This format is highly structured but requires a degree of technical familiarity to interpret.
 
 * **File Proliferation:** Rather than receiving a single cohesive document, the export generates a large number of separate CSV files, each dedicated to a distinct category of biometric tracking — sleep cycles, active minutes, dietary logs, and more.
-* **Deciphering Abbreviations:** As users noted in the community discussion around the [Samsung Health Data Export guide](https://www.youtube.com/watch?v=TwrJsCetcZ0), Samsung uses a substantial number of internal abbreviations and codes within these spreadsheets. Without a reference guide to translate the column headers, the raw data can be difficult to work with in third-party analysis tools.
+* **Deciphering Abbreviations:** As users noted in the community discussion around the Samsung Health Data Export guide, Samsung uses a substantial number of internal abbreviations and codes within these spreadsheets. Without a reference guide to translate the column headers, the raw data can be difficult to work with in third-party analysis tools.
 * **Locating Specific Biometrics:** Key metrics like heart rate (HR) details are archived within these files, but finding a specific data point often requires navigating nested directories within the downloaded folder.
 
 ## From the Field: Common Hurdles in the Export Process
@@ -68,4 +68,3 @@ Sources:
 
 * [Samsung Support: Download or erase your personal data from Samsung Health](https://www.samsung.com/us/support/answer/ANS10001379/)
 * [Wikipedia: Samsung Health](https://en.wikipedia.org/wiki/Samsung_Health)
-* [YouTube: How to Export Samsung Health Data (Step by Step)](https://www.youtube.com/watch?v=TwrJsCetcZ0)

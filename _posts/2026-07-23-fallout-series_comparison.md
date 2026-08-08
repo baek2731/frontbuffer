@@ -81,4 +81,3 @@ The question of whether *Fallout 3* and *Fallout: New Vegas* would receive offic
 - Bloomberg (Obsidian restructuring): https://www.bloomberg.com/news/articles/2026-07-08/microsoft-s-xbox-to-shift-obsidian-studio-to-new-fallout-video-game
 - Fallout Wiki (Fallout 3 Remaster): https://fallout.fandom.com/wiki/Fallout_3_remaster
 - Fallout Wiki (Creation Club): https://fallout.fandom.com/wiki/Creation_Club
-- YouTube (Details Explained): https://www.youtube.com/watch?v=-liNASQJGVo

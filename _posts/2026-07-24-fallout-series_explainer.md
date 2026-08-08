@@ -66,5 +66,5 @@ Sources:
 6. [Fallout Wiki: Arcade Gannon](https://fallout.fandom.com/wiki/Arcade_Gannon)
 7. [Fallout Wiki: Eye for an Eye](https://fallout.fandom.com/wiki/Eye_for_an_Eye)
 8. [Fallout Wiki: Reputation (Fallout: New Vegas)](https://fallout.fandom.com/wiki/Reputation_(Fallout:_New_Vegas))
-9. [YouTube: Best Faction to join in Fallout New Vegas?](https://www.youtube.com/watch?v=jTD969sTnWs)
-10. [YouTube: I Made EVERY BAD CHOICE in Fallout New Vegas](https://www.youtube.com/watch?v=b-7WAW8TsIs)
+9. YouTube: Best Faction to join in Fallout New Vegas?
+10. YouTube: I Made EVERY BAD CHOICE in Fallout New Vegas

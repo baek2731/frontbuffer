@@ -67,7 +67,7 @@ For a deeper look at how the Steam Deck handles game compatibility across its li
 7. [AYANEO KUN Product Page](https://ayaneo.com/product/AYANEO-KUN)
 8. [AYANEO 2S Review — IGN](https://www.ign.com/articles/ayaneo-2s-review)
 9. [AYANEO AIR 1S Product Page](https://ayaneo.com/product/AYANEO-AIR-1S)
-10. [Remnant from the Ashes — AYANEO 2 Performance](https://www.youtube.com/watch?v=CCNVneLRhp8)
-11. [Forza Horizon 5 — AYANEO 2 Performance Settings](https://www.youtube.com/watch?v=qFJukNg4_wU)
+10. Remnant from the Ashes — AYANEO 2 Performance
+11. Forza Horizon 5 — AYANEO 2 Performance Settings
 12. [Steam Deck Battery Life Test — PC Gamer](https://www.pcgamer.com/steam-deck-battery-life-test/)
 13. [AYANEO 2S Review — TechRadar](https://www.techradar.com/reviews/ayaneo-2s)
