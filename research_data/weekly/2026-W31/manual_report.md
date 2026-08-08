@@ -1,6 +1,6 @@
 # 📦 주간 리서치 리포트 — 2026-W31
-> 수집: 2026-08-07 14:54 UTC
-> 합계 436건 | 뉴스 (테크) 288건 / 뉴스 (게이밍) 148건
+> 수집: 2026-08-08 14:33 UTC
+> 합계 436건 | 뉴스 (테크) 290건 / 뉴스 (게이밍) 146건
 > 쇼핑/딜 글은 수집 단계에서 이미 제외됨
 > 소스: arstechnica, theverge, techcrunch, tomshardware, 9to5google, eurogamer, rps, pcgamer, digitaltrends, androidauthority, techradar, hackernews
 
@@ -20,6 +20,19 @@
 
 ### 뉴스 (테크)
 
+- [The first self-driving vehicle on Mars has proven to be a smashing success](https://arstechnica.com/space/2026/08/the-first-self-driving-vehicle-on-mars-has-proven-to-be-a-smashing-success/) — arstechnica
+- [DeepMind’s hurricane breakthrough has surprised weather scientists](https://arstechnica.com/science/2026/08/deepminds-hurricane-model-bought-forecasters-an-extra-day/) — arstechnica
+- [Europe's free satellite service just made it easier to track wildfires](https://arstechnica.com/gadgets/2026/08/europes-free-satellite-service-just-made-it-easier-to-track-wildfires/) — arstechnica
+- [Flesh-eating screwworms feast on humans in Mexico; human cases top 500](https://arstechnica.com/health/2026/08/flesh-eating-screwworms-feast-on-humans-in-mexico-human-cases-top-500/) — arstechnica
+- [Judge rules Meta caused "public nuisance" and must fund mental health treatment](https://arstechnica.com/tech-policy/2026/08/meta-ordered-to-pay-567m-to-treat-youth-mental-health-problems-it-helped-create/) — arstechnica
+- [The ultimate eclipse chase: A Concorde raced against the Moon's shadow](https://arstechnica.com/science/2026/08/the-ultimate-eclipse-chase-a-concorde-raced-against-the-moons-shadow/) — arstechnica
+- [New official 30th anniversary Quake mission pack adds new maps and mechanics](https://arstechnica.com/gaming/2026/08/new-official-30th-anniversary-quake-mission-pack-adds-new-maps-and-mechanics/) — arstechnica
+- [DOGE's wild, unverifiable savings claims discredited in US government report](https://arstechnica.com/tech-policy/2026/08/doges-inflated-wall-of-receipts-96-of-grant-savings-unverifiable-gao-says/) — arstechnica
+- [OpenAI’s expensive smart speaker will use moving parts to seem “more alive”](https://arstechnica.com/gadgets/2026/08/openais-expensive-smart-speaker-will-use-moving-parts-to-seem-more-alive/) — arstechnica
+- [How snails engineer their slime](https://arstechnica.com/science/2026/08/how-snails-engineer-their-slime/) — arstechnica
+- [Volkswagen plans to win America back with a pickup, report says](https://arstechnica.com/cars/2026/08/volkswagen-plans-to-win-america-back-with-a-pickup-report-says/) — arstechnica
+- [Report: White House drafting executive order linking vaccines and autism](https://arstechnica.com/health/2026/08/report-white-house-drafting-executive-order-linking-vaccines-and-autism/) — arstechnica
+- [AI chatbots have failed people in crisis. Can that be fixed?](https://arstechnica.com/ai/2026/08/ai-chatbots-have-failed-people-in-crisis-can-that-be-fixed/) — arstechnica
 - [ByteDance trains massive AI model in bid to rival Anthropic](https://arstechnica.com/ai/2026/08/bytedance-trains-massive-ai-model-in-bid-to-rival-anthropic/) — arstechnica
 - [The world's biggest solar telescope caught vortexes on the Sun's surface](https://arstechnica.com/science/2026/08/the-worlds-biggest-solar-telescope-caught-vortexes-on-the-suns-surface/) — arstechnica
 - [Trump is losing his war on wind power](https://arstechnica.com/science/2026/08/trump-is-losing-his-war-on-wind-power/) — arstechnica
@@ -27,29 +40,24 @@
 - [Organ donation group accused of trying to take living man's organs faces shutdown](https://arstechnica.com/health/2026/08/us-to-shutter-organ-donation-group-accused-of-trying-to-take-living-mans-organs/) — arstechnica
 - [Explosive drone found hovering near Ukrainian cargo aircraft at German airport](https://arstechnica.com/gadgets/2026/08/germany-disarms-explosive-drone-found-at-airport-hunts-possible-second-drone/) — arstechnica
 - [X wants to keep suing advertisers, asks 5th Circuit to overrule district judge](https://arstechnica.com/tech-policy/2026/08/elon-musks-x-isnt-done-suing-advertisers-asks-court-to-revive-boycott-case/) — arstechnica
-- [Suno hopes to go legit with watermarks for AI-generated music](https://arstechnica.com/ai/2026/08/suno-hopes-to-go-legit-with-watermarks-for-ai-generated-music/) — arstechnica
-- [Anthropic will design its own hardware to power Claude](https://arstechnica.com/ai/2026/08/anthropic-confirms-plans-to-build-an-in-house-silicon-team/) — arstechnica
-- [Large genome models used to design new viruses](https://arstechnica.com/science/2026/08/large-genome-models-used-to-design-new-viruses/) — arstechnica
-- [Blue Origin narrowing in on root cause of catastrophic rocket accident](https://arstechnica.com/space/2026/08/blue-origin-narrowing-in-on-root-cause-of-catastrophic-rocket-accident/) — arstechnica
-- [Parasitic zombie-ant fungus thrives in mosses, too](https://arstechnica.com/science/2026/08/parasitic-zombie-fungus-thrives-in-mosses-too/) — arstechnica
-- [Trump FCC kills TV ownership cap, claiming authority over limit set by Congress](https://arstechnica.com/tech-policy/2026/08/trump-fcc-kills-tv-ownership-cap-claiming-authority-over-limit-set-by-congress/) — arstechnica
-- [Moderna's mRNA flu shot earns FDA approval after rollercoaster review](https://arstechnica.com/health/2026/08/modernas-mrna-flu-shot-earns-fda-approval-after-rollercoaster-review/) — arstechnica
-- [Cloudflare open-sources vibe-coding platform for people who aren't coders](https://arstechnica.com/ai/2026/08/cloudflare-open-sources-vibe-coding-platform-for-people-who-arent-coders/) — arstechnica
-- [Ford picks "Fathom" for its affordable truck name, starts at $28,350](https://arstechnica.com/cars/2026/08/ford-picks-fathom-for-its-affordable-truck-name-starts-at-28350/) — arstechnica
-- [AI isn’t enough to protect social media communities from AI](https://arstechnica.com/gadgets/2026/08/ai-isnt-enough-to-protect-social-media-communities-from-ai/) — arstechnica
-- [Thousands of servers can be backdoored by exploiting buggy motherboard controllers](https://arstechnica.com/security/2026/08/thousands-of-servers-can-be-backdoored-by-exploiting-buggy-motherboard-controllers/) — arstechnica
-- [Schwartz confirmed as CDC director after bungling confirmation hearing](https://arstechnica.com/health/2026/08/schwartz-confirmed-as-cdc-director-after-bungling-confirmation-hearing/) — arstechnica
-- [Anthropic’s AI used fake identities, malware in rogue attack on GitHub project](https://arstechnica.com/security/2026/08/anthropics-ai-used-fake-identities-malware-in-rogue-attack-on-github-project/) — arstechnica
-- [Samsung’s Z Fold 8 Ultra is more of the same, but better than ever](https://www.theverge.com/tech/976551/samsung-galaxy-z-fold-8-ultra-review) — theverge
-- [Werewolf transformed my old gadgets into USB-C powered ones](https://www.theverge.com/gadgets/975965/werewolf-vflex-usb-c-dc-barrel-jack-preview-hands-on) — theverge
-- [The best classic slasher movie you&#8217;ll never watch](https://www.theverge.com/entertainment/975850/teenage-sex-and-death-at-camp-miasma-production-design) — theverge
-- [Why does Apple keep banning Telegram, but never X?](https://www.theverge.com/tech/976405/apple-telegram-ban-x-app-store-violations) — theverge
-- [Trying to explain One Night Only&#8217;s tech-enforced sex dystopia](https://www.theverge.com/entertainment/975917/one-night-only-sex-purge-movie-questions-tech) — theverge
-- [Meta ordered to pay an additional $567 million in public nuisance ruling](https://www.theverge.com/tech/976537/meta-new-mexico-cild-safety-fine-public-nuisance) — theverge
-- [Trevor Noah is hosting Google’s Pixel 11 launch event](https://www.theverge.com/tech/976454/made-by-google-2026-event-pixel-11-trevor-noah) — theverge
-- [Jony Ive&#8217;s first OpenAI gadget is reportedly a hockey puck-sized smart speaker](https://www.theverge.com/ai-artificial-intelligence/976431/openai-chatgpt-battery-smart-speaker-rumor) — theverge
-- [The AirPods Pro are $60 off, their best price since late June](https://www.theverge.com/gadgets/976276/apple-airpods-pro-3-best-buy-apple-deal-sale) — theverge
-- [The Zelda movie’s Ganondorf casting hints at more movies](https://www.theverge.com/entertainment/976337/the-legend-of-zelda-movie-ganondorf-multi-picture-deal) — theverge
+- [Is this $450 laptop from an unknown brand too good to be true?](https://www.theverge.com/tech/977031/chuwi-unibook-laptop-intel-wildcat-lake-review) — theverge
+- [My favorite feel-good show is back](https://www.theverge.com/tech/977084/ted-lasso-bose-tony-installer) — theverge
+- [Nitecore’s latest power bank is the lightest and most compact yet](https://www.theverge.com/tech/976506/nitecore-nb10000-gen4-review-adventure-battery) — theverge
+- [The gaming site sponsored by Walmart lays off its editorial staff](https://www.theverge.com/games/977056/restart-gaming-site-walmart-moonrock-layoffs) — theverge
+- [Fenix Flexin isn’t even denying using AI to make ‘Rubberz’ anymore](https://www.theverge.com/ai-artificial-intelligence/976801/fenix-flexin-rubberz-ai-song-treblo) — theverge
+- [Watching Roku’s AI channel is like eating from a trough](https://www.theverge.com/entertainment/976939/roku-fairground-ai-fast-channel) — theverge
+- [OpenAI puts the brakes on a new model because it&#8217;s supposedly too powerful](https://www.theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities) — theverge
+- [The only instant cameras worth your money](https://www.theverge.com/23133103/best-instant-cameras-fujifilm-polaroid-kodak) — theverge
+- [Disney Plus tries a new AI-powered search](https://www.theverge.com/streaming/976881/disney-plus-ai-recommendation-espn-search) — theverge
+- [Microsoft Edge is about to lock out older ad blockers, just like Chrome did](https://www.theverge.com/tech/976880/microsoft-edge-extensions-ad-blockers-mv2-mv3) — theverge
+- [OpenAI says it slowed Astra model development over security concerns](https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/) — techcrunch
+- [After Rippling blew millions on AI in months, it built an employee ROI tool](https://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool/) — techcrunch
+- [Wacom’s MovinkPad 11 is a fun, midpriced entry point for digital artists](https://techcrunch.com/2026/08/07/wacoms-movinkpad-11-is-a-fun-and-mid-priced-entry-point-for-digital-artists/) — techcrunch
+- [Security researchers scanned the Polish web and found courts, hospitals, and airports at risk of hacks](https://techcrunch.com/2026/08/07/security-researchers-scanned-the-polish-web-and-found-courts-hospitals-and-airports-at-risk-of-hacks/) — techcrunch
+- [Cloudflare launches Kitesurf, a browser built for AI agents](https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/) — techcrunch
+- [Computer maker Framework notifies ‘all customers’ of a data breach](https://techcrunch.com/2026/08/07/computer-maker-framework-notifies-all-customers-of-a-data-breach/) — techcrunch
+- [Today’s the last day to get up to $400 off your TechCrunch Disrupt 2026 ticket](https://techcrunch.com/2026/08/07/todays-the-last-day-to-get-up-to-400-off-your-techcrunch-disrupt-2026-ticket/) — techcrunch
+- [Trump administration has spent nearly $4B to cancel offshore wind farms](https://techcrunch.com/2026/08/07/trump-administration-has-spent-nearly-4b-to-cancel-offshore-wind-farms/) — techcrunch
 - [Host your own piece of Disrupt: Apply to run a Side Event at TechCrunch Disrupt 2026](https://techcrunch.com/2026/08/07/host-your-own-piece-of-disrupt-apply-to-run-a-side-event-at-techcrunch-disrupt-2026/) — techcrunch
 - [Chinese AI model Kimi escaped its cybersecurity testing environment, researchers say](https://techcrunch.com/2026/08/07/chinese-ai-model-kimi-escaped-its-cybersecurity-testing-environment-researchers-say/) — techcrunch
 - [Airbnb says AI is helping it ship features faster as it tests a new search function](https://techcrunch.com/2026/08/07/airbnb-says-ai-is-helping-it-ship-features-faster-as-it-tests-a-new-search-function/) — techcrunch
@@ -59,19 +67,24 @@
 - [OpenAI’s new AI smart speaker will reportedly sell for between $300 and $400](https://techcrunch.com/2026/08/06/openais-new-ai-smart-speaker-will-reportedly-sell-for-between-300-and-400/) — techcrunch
 - [Your table awaits: Exhibit at TechCrunch Disrupt 2026 to be seen by thousands](https://techcrunch.com/2026/08/06/your-table-awaits-exhibit-at-techcrunch-disrupt-2026-to-be-seen-by-thousands/) — techcrunch
 - [Vogue just gave another nod of approval to the tech world](https://techcrunch.com/2026/08/06/vogue-just-gave-another-nod-of-approval-to-the-tech-world/) — techcrunch
-- [Get up to $400 off your TechCrunch Disrupt 2026 pass until tomorrow](https://techcrunch.com/2026/08/06/get-up-to-400-off-your-techcrunch-disrupt-2026-pass-until-friday/) — techcrunch
 - [Google says hackers are calling financial firm employees to hack and extort victims](https://techcrunch.com/2026/08/06/google-says-hackers-are-calling-financial-firm-employees-to-hack-and-extort-victims/) — techcrunch
 - [China-linked LightSpy spyware caught targeting victims in 13 countries, including the US](https://techcrunch.com/2026/08/06/china-linked-lightspy-spyware-caught-targeting-victims-in-13-countries-including-the-us/) — techcrunch
 - [Defense tech Hadrian raises $1.37B at $8B valuation](https://techcrunch.com/2026/08/06/defense-tech-hadrian-raises-1-37b-at-8b-valuation/) — techcrunch
-- [Ford needs another Taurus, and the $30K Fathom EV pickup isn’t it](https://techcrunch.com/2026/08/06/ford-needs-another-taurus-and-the-30k-fathom-ev-pickup-isnt-it/) — techcrunch
-- [Bumble teases a swipe-free future as it doubles down on IRL meetups](https://techcrunch.com/2026/08/06/bumble-teases-a-swipe-free-future-as-it-doubles-down-on-irl-meetups/) — techcrunch
-- [ChatGPT brings unlimited text chats to free users](https://techcrunch.com/2026/08/06/openai-brings-unlimited-chatgpt-text-chats-to-free-users/) — techcrunch
-- [Naïve raises $28.5M to automate the grunt work of setting up and running a company](https://techcrunch.com/2026/08/06/naive-raises-28-5m-to-automate-the-grunt-work-of-setting-up-and-running-a-company/) — techcrunch
-- [Hacker pleads guilty to stealing data from more than 165 Snowflake customers](https://techcrunch.com/2026/08/06/hacker-pleads-guilty-to-stealing-data-from-more-than-165-snowflake-customers/) — techcrunch
-- [TikTok lays off 250 employees, shutters its Nashville office](https://techcrunch.com/2026/08/06/tiktok-lays-off-250-employees-shutters-its-nashville-office/) — techcrunch
-- [Google Wallet now lets parents set up secure balances for their kids](https://techcrunch.com/2026/08/06/google-wallet-now-lets-parents-set-up-secure-balances-for-their-kids/) — techcrunch
+- [Save $160 off AMD's ultimate gaming CPU combo, includes motherboard and chip cooler — $458 combo features Ryzen 7 9800X3D, B850 motherboard, and a 240mm liquid AIO](https://www.tomshardware.com/pc-components/cpus/save-usd160-off-amds-ultimate-gaming-cpu-combo-includes-motherboard-and-chip-cooler-usd458-combo-features-ryzen-7-9800x3d-b850-motherboard-and-a-240mm-liquid-aio) — tomshardware
+- [Amazon secretly circumvents community vote for massive AI data center using 45-year-old rules — Gilroy residents locked out of public comment window](https://www.tomshardware.com/tech-industry/data-centers/amazon-secretly-circumvents-community-vote-for-massive-ai-data-center-45-year-old-rules-lock-gilroy-residents-out-of-public-comment-window) — tomshardware
+- [Pulsar Feinmann F01 Noctua Edition Review: Extra cool](https://www.tomshardware.com/peripherals/gaming-mice/pulsar-feinmann-f01-noctua-edition-review) — tomshardware
+- [China's memory-making champion smashes DDR5-8800 barrier on AMD platform — CXMT chips close the gap with SK hynix](https://www.tomshardware.com/pc-components/ram/chinas-memory-making-champion-smashes-ddr5-8800-barrier-on-amd-platform-cxmt-chips-close-the-gap-with-sk-hynix) — tomshardware
+- [Atari ST Public Floppy Database now open for everyone — online archive originally designed for ST flash cart packed with classics and homebrew](https://www.tomshardware.com/video-games/retro-gaming/atari-st-public-floppy-database-now-open-for-everyone-online-archive-originally-designed-for-st-flash-cart-packed-with-classics-and-homebrew) — tomshardware
+- [We tested the impact of SSD speed on gaming performance in 11 titles — we analyzed from SATA to PCIe 5.0 to see whether upgrading to a faster NVMe SSD would have an impact](https://www.tomshardware.com/pc-components/gpus/we-tested-the-impact-of-ssd-speed-on-gaming-performance-in-11-titles-we-analyzed-from-sata-to-pcie-5-0-to-see-whether-upgrading-to-a-faster-nvme-ssd-would-have-an-impact) — tomshardware
+- [Intel's proposed orbital data centers would manage thousands of simple LEO satellites —two-tier network puts the brains of satellite constellations in higher orbit](https://www.tomshardware.com/tech-industry/space/intels-proposed-orbital-data-centers-would-manage-thousands-of-simple-leo-satellites-two-tier-network-puts-the-brains-of-satellite-constellations-in-higher-orbit) — tomshardware
+- [Hardware researcher spins up 'CPU deoptimization' project to find the slowest single x86 instruction, creates hall of shame — worst offender takes 198 billion cycles spanning 62 seconds to execute](https://www.tomshardware.com/pc-components/cpus/hardware-researcher-spins-up-cpu-deoptimization-project-to-find-the-slowest-machine-code-worst-offender-takes-198-billion-cycles-to-execute) — tomshardware
+- [AI creates 16 new viruses that never existed in nature after learning DNA’s pattern from 9 trillion nucleotides — experts warn such applications are way ahead of necessary guardrails](https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-creates-16-new-viruses-that-never-existed-in-nature-after-learning-dnas-pattern-from-9-trillion-nucleotides-experts-warn-such-applications-are-way-ahead-of-necessary-guardrails) — tomshardware
+- [NASA modded space station's laptops so everyone could use the same charger — standardizing ISS chargers eliminated useless weight and reduced failure points](https://www.tomshardware.com/tech-industry/space/nasa-modded-space-stations-laptops-so-everyone-could-use-the-same-charger-standardizing-iss-chargers-eliminated-useless-weight-and-reduced-failure-points) — tomshardware
+- [Modder turns Steam Controller trackpad haptics into stereo speakers with custom HID tool — Wired connection transmits 16-bit audio that sounds surprisingly full](https://www.tomshardware.com/peripherals/controllers-gamepads/modder-turns-steam-controller-trackpad-haptics-into-stereo-speakers-with-custom-hid-tool-wired-connection-transmits-16-bit-audio-that-sounds-surprisingly-full) — tomshardware
+- [Scientist says RAM pricing has risen to normalized 2007 levels, AI shortage undid 20 years of progress in a matter of months — memory prices had been falling exponentially for decades](https://www.tomshardware.com/pc-components/ram/scientist-says-ram-pricing-has-reverted-to-normalized-2007-levels-memory-prices-have-been-falling-exponentially-for-decades-but-the-ai-shortage-undid-20-years-of-progress-in-a-matter-of-months) — tomshardware
+- [Amazon cracks down on 'CPU waste' among engineers as agentic AI crunch intensifies — CPU demand makes low-utilization EC2 instances a hot commodity [Updated]](https://www.tomshardware.com/pc-components/cpus/amazon-cracks-down-on-cpu-waste-among-engineers-as-agentic-ai-crunch-intensifies-cpu-demand-makes-low-utilization-ec2-instances-a-hot-commodity) — tomshardware
 - [Protesters haul a guillotine to city council meeting about a potential AI data center, company rep cornered by protestors — ‘ it no longer felt safe to stay,’ developer escorted out by police](https://www.tomshardware.com/tech-industry/data-centers/protesters-haul-a-guillotine-to-city-council-meeting-about-a-potential-ai-data-center-company-rep-cornered-by-protestors-it-no-longer-felt-safe-to-stay-developer-escorted-out-by-police) — tomshardware
-- [This week on Tom's Hardware Premium: August 7, 2026 — Inside China's lithography efforts, co-packaged optics get a spotlight, and Samsung debuts next-gen memory tech](https://www.tomshardware.com/tech-industry/this-week-on-toms-hardware-premium-august-7-2026-inside-chinas-lithography-efforts-co-packaged-optics-get-a-spotlight-and-samsung-debuts-next-gen-memory-tech) — tomshardware
+- [This week on Tom's Hardware Premium: August 8, 2026 — Inside China's lithography efforts, co-packaged optics get a spotlight, and Samsung debuts next-gen memory tech](https://www.tomshardware.com/tech-industry/this-week-on-toms-hardware-premium-august-7-2026-inside-chinas-lithography-efforts-co-packaged-optics-get-a-spotlight-and-samsung-debuts-next-gen-memory-tech) — tomshardware
 - [Grab an entire RTX 5090 PC for just $380 more than the standalone graphics card — save $1,550 off Alienware's Area-51 gaming rig](https://www.tomshardware.com/desktops/gaming-pcs/grab-an-entire-rtx-5090-pc-for-just-usd380-more-than-the-standalone-graphics-card-save-usd1-550-off-alienwares-area-51-gaming-rig) — tomshardware
 - [Introducing Bench 2.0 — a revamped benchmark analyzer, exclusively for Tom's Hardware Premium subscribers](https://www.tomshardware.com/pc-components/introducing-bench-2-0-a-revamped-benchmark-analyzer-exclusively-for-toms-hardware-premium-subscribers) — tomshardware
 - [HyperX Omen Max 16 review: All bark and no bite](https://www.tomshardware.com/laptops/gaming-laptops/hyperx-omen-max-16-review) — tomshardware
@@ -106,19 +119,11 @@
 - [Frore claims its LiquidJet can drop Nvidia Rubin GPU temperatures by 10°C — can also boost performance by 15% as hyperscalers eye using delidded GPUs in production environments](https://www.tomshardware.com/pc-components/liquid-cooling/frore-claims-its-liquidjet-can-drop-nvidia-rubin-gpu-temperatures-by-10-c-can-also-boost-performance-by-15-percent-as-hyperscalers-eye-using-delidded-gpus-in-production-environments) — tomshardware
 - [Montech TG3 Panoramic Mid-tower case review: a fantastic value, with four included RGB fans and panoramic views](https://www.tomshardware.com/pc-components/pc-cases/montech-tg3-panoramic-mid-tower-case-review) — tomshardware
 - [Best Buy has slashed $900 off this MacBook laden with memory — 14-inch M4 Pro with 48GB of memory and 2TB of storage now only $2,999](https://www.tomshardware.com/laptops/macbooks/best-buy-has-slashed-usd900-off-this-macbook-laden-with-memory-14-inch-m4-pro-with-48gb-of-memory-and-2tb-of-storage-now-only-usd2-999) — tomshardware
-- [Glorious Wireless InfinitePlay Gaming Headset Review](https://www.tomshardware.com/peripherals/gaming-headsets/glorious-wireless-infiniteplay-gaming-headset-review) — tomshardware
-- [Crazed modder turns NAS into a gaming PC with RTX 5060 hanging from the side, boosts frame rate by 828% — Frankenstein rig hides dedicated PSU in drive bay, breaks Time Spy world record for the onboard CPU](https://www.tomshardware.com/desktops/gaming-pcs/humble-nas-gets-transformed-into-a-gaming-pc-with-and-rtx-5060-hanging-from-its-side-frankenstein-rig-hides-dedicated-psu-in-drive-bay-to-achieve-vast-performance-increase-over-igpu) — tomshardware
-- [AMD doubles data center revenue year over year, but gaming revenue plunged by 31% — CEO Lisa Su says prices have 'weighed on' consumer demand but is 'optimistic' about client market](https://www.tomshardware.com/tech-industry/amd-doubles-data-center-revenue-year-over-year-but-gaming-revenue-plunged-by-31-percent-ceo-lisa-su-says-prices-have-weighed-on-consumer-demand-but-is-optimistic-about-client-market) — tomshardware
-- [More GPU price hikes loom for Asia as Japanese distributor warns of new increases — CFD Sales signals 20% to 40% higher prices on Gigabyte graphics card orders starting this month](https://www.tomshardware.com/pc-components/gpus/more-gpu-price-hikes-loom-for-asia-as-japanese-distributor-warns-of-new-increases-cfd-sales-signals-20-percent-to-40-percent-higher-prices-on-gigabyte-graphics-card-orders-starting-this-month) — tomshardware
-- [US mulling ban on key Chinese networking tech in data center component crackdown — White House wants to impose restrictions in 2026, China says it will respond if necessary](https://www.tomshardware.com/tech-industry/data-centers/us-mulling-ban-on-key-chinese-networking-tech-in-data-center-component-crackdown-white-house-wants-to-impose-restrictions-in-2026-china-says-it-will-respond-if-necessary) — tomshardware
-- [Texas slams on the brakes for 1,800 data centers, power grid requirements are five times higher than peak record demand — 474 gigawatts of power requests are now subject to new moratorium](https://www.tomshardware.com/tech-industry/data-centers/texas-slams-on-the-breaks-for-1-800-data-centers-power-grid-requirements-are-five-times-higher-than-peak-record-demand-474-gigawatts-of-power-requests-are-now-subject-to-new-moratorium) — tomshardware
-- [Kioxia and Sandisk demonstrate the world's highest-density 3D NAND flash — 332 active layers and up to 4,800 MT/s interface](https://www.tomshardware.com/pc-components/ssds/kioxia-and-sandisk-demonstrate-the-worlds-highest-density-3d-nand-flash-332-active-layers-and-up-to-4-800-mt-s-interface) — tomshardware
-- [New HBF spec outlines tech that can give GPUs terabytes of extra memory — Sandisk and SK hynix unveil spec with up to 16-Hi NAND stacks, 3 TB/s bandwidth, UCIe](https://www.tomshardware.com/pc-components/ssds/sandisk-and-sk-hynix-unveil-hbf-spec-up-to-16-hi-nand-stacks-3-tb-s-bandwidth-ucie) — tomshardware
-- [PC cooling outfit Arctic reverses tariff-era price hikes after US government refund — lowers prices across lineup, including coolers and case fans](https://www.tomshardware.com/pc-components/cooling/pc-cooling-outfit-arctic-reverses-tariff-era-price-hikes-after-us-government-refund-lowers-prices-across-lineup-including-coolers-and-case-fans) — tomshardware
-- [Chinese chipmaking tool roadmaps examined — Beijing's nascent lithography tools target DUV production at five machines a year, and an EUV prototype with no chips](https://www.tomshardware.com/tech-industry/semiconductors/chinese-chipmaking-tool-roadmap-examined) — tomshardware
-- [At least 37 people arrested in 2026 so far for protesting against data centers, most for breaking 'petty rules' — most taken into custody acted peacefully](https://www.tomshardware.com/tech-industry/data-centers/at-least-37-people-arrested-in-2026-so-far-for-protesting-against-data-centers-most-taken-into-custody-acted-peacefully-only-broke-petty-rules) — tomshardware
-- [Lenovo LOQ Essentials 15 Gen 11 Review: A good display meets a low-power RTX 5060](https://www.tomshardware.com/laptops/gaming-laptops/lenovo-loq-essentials-15-gen-11-review) — tomshardware
-- [‘Apple is getting this wrong,’ says OpenAI — startup blasts iPhone maker over lawsuit alleging it stole confidential information through ex-Apple employees](https://www.tomshardware.com/tech-industry/big-tech/apple-is-getting-this-wrong-says-openai-startup-blasts-iphone-maker-over-lawsuit-alleging-it-stole-confidential-information-through-ex-apple-employees) — tomshardware
+- [Pixelated 111: Primetime prep for Made By Google](https://9to5google.com/2026/08/07/pixelated-111-primetime-prep-for-made-by-google/) — 9to5google
+- [Nothing Ear (3a) Review: Simply the best earbuds – and they’re only $99](https://9to5google.com/2026/08/07/nothing-ear-3a-review/) — 9to5google
+- [Audeze is quietly becoming a dominant force in gaming audio](https://9to5google.com/2026/08/07/audeze-is-quietly-becoming-a-dominant-force-in-gaming-audio-sponsored/) — 9to5google
+- [Pixel Watch 5 teaser pokes fun at Apple, Samsung by having ‘decency to look like a watch’](https://9to5google.com/2026/08/07/pixel-watch-5-teaser/) — 9to5google
+- [Sony may re-release its 2020 over-ear headphones for around $250, leak reveals](https://9to5google.com/2026/08/07/sony-wh-1000xm4-re-release-leak/) — 9to5google
 - [Android’s upcoming ‘App Handles’ will bring clever multitasking to Pixel Fold [Video]](https://9to5google.com/2026/08/07/android-app-handles-canary-release-foldable-feature/) — 9to5google
 - [Google Photos now lets you disable that sticker animation – here’s how to turn it off](https://9to5google.com/2026/08/07/google-photos-turn-off-sticker-animation/) — 9to5google
 - [New Gemini overlay for Wear OS rolling out to Pixel Watch](https://9to5google.com/2026/08/06/gemini-overlay-wear-os/) — 9to5google
@@ -155,13 +160,19 @@
 - [Android 17 August update rolling out with three Pixel 10 fixes](https://9to5google.com/2026/08/04/android-17-august-pixel-update/) — 9to5google
 - [Nothing’s new CMF Clip Pro earbuds are $99 with open-ear audio and a clever case](https://9to5google.com/2026/08/04/nothing-cmf-clip-pro-earbuds-launch/) — 9to5google
 - [Should you buy a new phone now, or wait for the Pixel 11? [Video]](https://9to5google.com/2026/08/04/should-you-buy-a-new-phone-now-or-wait-for-the-pixel-11-video/) — 9to5google
-- [Google Password Manager passkeys could be at risk with new ‘Pass-ta-key’ attack](https://9to5google.com/2026/08/04/google-password-manager-passkeys-could-be-at-risk/) — 9to5google
-- [Pixel Watch 5 specs leak reveals what’s new: ‘Accelerated’ chip, 2nd-gen Active Band, more](https://9to5google.com/2026/08/04/pixel-watch-5-specs-leak-2/) — 9to5google
-- [Motorola Razr Fold gets a trade-in boost and freebies, making it a more enticing foldable](https://9to5google.com/2026/08/04/motorola-razr-fold-trade-in-boost-deal/) — 9to5google
-- [Galaxy Z Fold 8 destroys pre-order record set by the late Note 10, and it isn’t over yet](https://9to5google.com/2026/08/04/galaxy-z-fold-8-series-breaks-pre-order-record/) — 9to5google
-- [Leak confirms Pixel 11 ‘Glow’ is called ‘HiLight’ and what it can do](https://9to5google.com/2026/08/04/google-pixel-11-hilight-glow-leak/) — 9to5google
-- [Phones are getting fun (and weird) again](https://9to5google.com/2026/08/04/inbox-newsletter-7/) — 9to5google
-- [What’s new in Android’s August 2026 Google System Updates](https://9to5google.com/2026/08/03/august-2026-google-system-updates/) — 9to5google
+- [Another Googlebook just surfaced online, and this one is from Asus](https://www.digitaltrends.com/computing/another-googlebook-just-surfaced-online-and-this-one-is-from-asus/) — digitaltrends
+- [I’m done charging things that never leave my desk](https://www.digitaltrends.com/computing/im-done-charging-things-that-never-leave-my-desk/) — digitaltrends
+- [iPhone 17 is going to get pricier, hold on to your wallets](https://www.digitaltrends.com/phones/iphone-17-is-going-to-get-pricier-hold-on-to-your-wallets/) — digitaltrends
+- [3 limited series on Hulu you can binge-watch this weekend (August 7-9)](https://www.digitaltrends.com/movies/3-binge-worthy-limited-series-on-hulu-for-this-weekend-august-7-9/) — digitaltrends
+- [3 underrated movies on Hulu you should watch this weekend (August 7-9)](https://www.digitaltrends.com/movies/3-underrated-movies-on-hulu-you-should-watch-this-weekend-august-7-9/) — digitaltrends
+- [ChatGPT could soon become your next WhatsApp sticker maker](https://www.digitaltrends.com/phones/chatgpt-could-soon-become-your-next-whatsapp-sticker-maker/) — digitaltrends
+- [Your favorite Edge extension may stop working soon as Microsoft follows Chrome’s lead](https://www.digitaltrends.com/computing/microsoft-edge-manifest-v3-ad-blockers-mv2-end/) — digitaltrends
+- [Help, I’m talking to my computer. It’s remarkably convenient and utterly embarrassing.](https://www.digitaltrends.com/computing/help-im-talking-to-my-computer-its-remarkably-convenient-and-utterly-embarrassing/) — digitaltrends
+- [Sony WH-1000XM4C leak hints at a cheaper take on the iconic XM4, and it’s coming soon](https://www.digitaltrends.com/home-theater/sony-wh-1000xm4c-leak-hints-at-a-cheaper-take-on-the-iconic-xm4-and-its-coming-soon/) — digitaltrends
+- [Cloudflare’s new browser Kitesurf is designed for AI agents to browse the internet](https://www.digitaltrends.com/computing/cloudflares-new-browser-kitesurf-is-designed-for-ai-agents-to-browse-the-internet/) — digitaltrends
+- [The Pixel 11 is almost here, but I’m more excited about what could come with it](https://www.digitaltrends.com/phones/the-pixel-11-is-almost-here-but-im-more-excited-about-what-could-come-with-it/) — digitaltrends
+- [Kids’ smartwatches are meant to keep children safe, but hackers can turn them into stalking devices](https://www.digitaltrends.com/wearables/kids-smartwatches-are-meant-to-keep-children-safe-but-hackers-can-turn-them-into-stalking-devices/) — digitaltrends
+- [Warehouse Management Systems: The Secret Software Powering e-Commerce](https://www.digitaltrends.com/contributor-content/warehouse-management-systems-the-secret-software-powering-e-commerce/) — digitaltrends
 - [Caviar just gave Meta’s smart glasses the gold treatment but forgot to make it pretty](https://www.digitaltrends.com/wearables/caviar-just-gave-metas-smart-glasses-the-gold-treatment-but-forgot-to-make-it-pretty/) — digitaltrends
 - [Lenovo’s next ThinkBook looks unbelievably thin in this leak](https://www.digitaltrends.com/computing/lenovos-next-thinkbook-looks-unbelievably-thin-in-this-leak/) — digitaltrends
 - [Apple fixed three Mac Screen Sharing flaws, and now it’s patching another one](https://www.digitaltrends.com/computing/apple-fixed-three-mac-screen-sharing-flaws-and-now-its-patching-another-one/) — digitaltrends
@@ -177,24 +188,26 @@
 - [OpenAI’s first gadget sounds like a tiny expressive AI companion](https://www.digitaltrends.com/home-theater/openais-first-gadget-sounds-like-a-tiny-robot-for-your-home/) — digitaltrends
 - [New players are shaking up the memory industry, but even Apple can’t strong-arm the RAM crisis for your wallet](https://www.digitaltrends.com/computing/new-players-are-shaking-up-the-memory-industry-but-even-apple-cant-strong-arm-the-ram-crisis-for-your-wallet/) — digitaltrends
 - [ChatGPT enables unlimited chats on free accounts and upgrades to newer models](https://www.digitaltrends.com/computing/chatgpt-opens-the-doors-for-unlimited-chats-on-free-accounts-and-upgrades-to-newer-models/) — digitaltrends
-- [Google is putting pocket money inside Wallet, and parents control every tap](https://www.digitaltrends.com/phones/google-is-putting-pocket-money-inside-wallet-and-parents-control-every-tap/) — digitaltrends
-- [Adobe is putting its entire creative ecosystem inside ChatGPT with one unified plugin](https://www.digitaltrends.com/computing/adobe-is-putting-its-entire-creative-ecosystem-inside-chatgpt-with-one-unified-plugin/) — digitaltrends
-- [Google Antigravity just built an AI translator that works without the internet](https://www.digitaltrends.com/cool-tech/google-antigravity-just-built-an-ai-translator-that-works-without-the-internet/) — digitaltrends
-- [Why Character Still Wins in a Screen-Filled World](https://www.digitaltrends.com/contributor-content/why-character-still-wins-in-a-screen-filled-world/) — digitaltrends
-- [How US Forex Traders Now Get to Choose Their Own Platform](https://www.digitaltrends.com/contributor-content/how-us-forex-traders-now-get-to-choose-their-own-platform/) — digitaltrends
-- [Marantz upgrades its CINEMA Series 2 with a new DAC, Dirac Live, and better gaming support](https://www.digitaltrends.com/home-theater/marantz-upgrades-its-cinema-series-2-with-a-new-dac-dirac-live-and-better-gaming-support/) — digitaltrends
-- [From Seconds of Visual Impact to Minutes of Storytelling: AI Video Is Moving Toward Narrative Depth](https://www.digitaltrends.com/brc/from-seconds-of-visual-impact-to-minutes-of-storytelling-ai-video-is-moving-toward-narrative-depth/) — digitaltrends
-- [After switching to ChatGPT Voice, typing now feels painfully slow](https://www.digitaltrends.com/cool-tech/after-switching-to-chatgpt-voice-typing-now-feels-painfully-slow/) — digitaltrends
-- [Google Maps is getting dangerously good at planning your day](https://www.digitaltrends.com/phones/google-maps-just-took-a-big-step-toward-becoming-your-personal-ai-assistant/) — digitaltrends
-- [Bose reveals second-gen QuietComfort Headphones and they steal some of the Ultra’s tricks.](https://www.digitaltrends.com/home-theater/bose-reveals-second-gen-quietcomfort-headphones-and-they-steal-some-of-the-ultras-tricks/) — digitaltrends
-- [Microsoft is teaching AI to find the bottlenecks buried inside Windows 11](https://www.digitaltrends.com/computing/microsoft-is-teaching-ai-to-find-the-bottlenecks-buried-inside-windows-11/) — digitaltrends
-- [Pubs and restaurants are treating Meta’s smart glasses like hidden cameras, and I’m completely on board](https://www.digitaltrends.com/wearables/pubs-and-restaurants-are-treating-metas-smart-glasses-like-hidden-cameras-and-im-completely-on-board/) — digitaltrends
-- [Huawei FreeBuds Pro 5 review: Hands down, the best bargain earbuds I’ve tested in a while](https://www.digitaltrends.com/home-theater/huawei-freebuds-pro-5-review/) — digitaltrends
+- [I gave my Samsung phone superpowers with a $6 pack of NFC tags — here’s how](https://www.androidauthority.com/samsung-routines-nfc-tags-superpowers-how-3694682/) — androidauthority
+- [8 free Android productivity apps I can’t live without in 2026](https://www.androidauthority.com/best-free-android-productivity-apps-2026-3693553/) — androidauthority
+- [I’m finally streaming Netflix in 4K on Chrome — here’s how you can too](https://www.androidauthority.com/how-to-watch-netflix-4k-on-chrome-3695889/) — androidauthority
+- [Just got your Galaxy Z Fold 8? Here are the first 5 things you need to do](https://www.androidauthority.com/samsung-galaxy-z-fold-8-first-things-to-do-3695011/) — androidauthority
+- [Before you buy another USB-C charger, make sure it has this critical (and hidden) spec](https://www.androidauthority.com/usb-c-charger-need-to-know-before-buying-3694333/) — androidauthority
+- [Don’t wait for the Pixel 11: Why you should buy the Pixel 10 right now](https://www.androidauthority.com/dont-wait-for-pixel-11-buy-pixel-10-now-3695239/) — androidauthority
+- [YouTube TV subscribers are starting to get access to their latest free perk](https://www.androidauthority.com/youtube-tv-espn-unlimited-3696125/) — androidauthority
+- [Check out the latest Pixel Watch apps to get a new look for their icons](https://www.androidauthority.com/pixel-watch-icons-3696097/) — androidauthority
+- [Google throws shade at ugly smartwatches in Pixel Watch 5 teaser](https://www.androidauthority.com/google-pixel-watch-5-teaser-3696073/) — androidauthority
+- [Google puts the finishing touches on Proactive Assistance ahead of Pixel 11 launch](https://www.androidauthority.com/pixel-11-proactive-assistance-3696051/) — androidauthority
+- [Forget Recorder — Google’s working on a new AI-powered voice notes tool](https://www.androidauthority.com/google-conversation-capture-3696029/) — androidauthority
+- [Nest smart home devices are getting an upgrade that will make pairing easier](https://www.androidauthority.com/google-nest-devices-gain-thread-1-4-3696032/) — androidauthority
+- [Don’t miss your chance to pick up the AirPods Max 2 at $100 off](https://www.androidauthority.com/airpods-max-2-deal-3696054/) — androidauthority
+- [Google’s AI Search seemingly leaked unreleased game content and no one knows how](https://www.androidauthority.com/google-search-ai-allegedly-leaks-game-content-3695972/) — androidauthority
+- [The highly rated Nothing Phone 4a Pro is down to its best price yet](https://www.androidauthority.com/nothing-phone-4a-pro-deal-3696010/) — androidauthority
+- [One of these Googlebook leaks is not like the other](https://www.androidauthority.com/googlebook-leaks-lenovo-asus-3695973/) — androidauthority
 - [Leak spills the beans on the Sony WH-1000XM4 revival](https://www.androidauthority.com/sony-wh-1000xm4c-leak-price-launch-3695933/) — androidauthority
 - [Google Pixelsnap Charger with Stand falls to a record-low $34.99 ahead of Pixel 11 launch](https://www.androidauthority.com/google-pixelsnap-charger-with-stand-deal-3695997/) — androidauthority
 - [Google Photos won’t let you search for your weed pictures, even if cannabis is legal](https://www.androidauthority.com/google-photos-search-guardrails-3695955/) — androidauthority
 - [Act fast: OnePlus is gifting users a free wireless charger for its transition](https://www.androidauthority.com/oneplus-free-50w-airvooc-charger-3695903/) — androidauthority
-- [ARMSX3 is here: PS3 emulation on Android just got more exciting](https://www.androidauthority.com/armsx3-ps3-emulator-android-3695792/) — androidauthority
 - [Google’s Terminal app is next in line for an icon makeover](https://www.androidauthority.com/redesigned-google-terminal-app-3695719/) — androidauthority
 - [5 smartwatches you should buy instead of the Pebble Time 2](https://www.androidauthority.com/pebble-time-2-alternatives-3691179/) — androidauthority
 - [Google Pixels could soon get a useful notification customization feature](https://www.androidauthority.com/android-customize-notification-icons-status-bar-apk-teardown-3695810/) — androidauthority
@@ -208,7 +221,6 @@
 - [POCO Carnival 2026: Big discounts on the POCO F8 Ultra, F8 Pro, and more](https://www.androidauthority.com/poco-carnival-2026-3694764/) — androidauthority
 - [Google is rethinking how Quick Settings tiles behave on locked phones (again)](https://www.androidauthority.com/android-quick-settings-lock-screen-change-apk-teardown-3695702/) — androidauthority
 - [Google built a portable AI translator that works offline, and you can build one too](https://www.androidauthority.com/google-offline-ai-translator-gemma-4-3695674/) — androidauthority
-- [Google is bringing back native app lock for Android, but not for everyone yet](https://www.androidauthority.com/google-android-pixel-app-lock-3695632/) — androidauthority
 - [Google just extended Gemini Omni’s surprisingly generous free offer](https://www.androidauthority.com/free-gemini-omni-videos-3695658/) — androidauthority
 - [Google could soon let you create AI-generated lock screen clocks on Android](https://www.androidauthority.com/google-android-17-ai-lock-screen-clock-3695639/) — androidauthority
 - [Dell’s first Googlebook could borrow one of its most iconic laptop brands](https://www.androidauthority.com/dell-xps-googlebook-leak-3695613/) — androidauthority
@@ -221,96 +233,92 @@
 - [Maybe the FCC was onto something: These routers are phoning home to China with a secret backdoor](https://www.androidauthority.com/routers-china-backdoor-3695345/) — androidauthority
 - [Google’s making it easier to get to Gemini from Chrome on Android](https://www.androidauthority.com/google-gemini-chrome-shortcut-3695461/) — androidauthority
 - [Stop jumping between Adobe apps with this new ChatGPT plugin](https://www.androidauthority.com/adobe-chatgpt-plugin-3695491/) — androidauthority
-- [Google reveals how much free space Chrome wants to install local AI models](https://www.androidauthority.com/chrome-local-ai-storage-install-3695411/) — androidauthority
-- [Here’s our best look yet at the Galaxy S26 FE](https://www.androidauthority.com/samsung-galaxy-s26-fe-design-leak-3695337/) — androidauthority
-- [Google Search patches bug that broke time filters](https://www.androidauthority.com/google-search-time-filter-fix-3695348/) — androidauthority
-- [AYANEO’s new Game Boy Advance clone is more affordable than expected](https://www.androidauthority.com/ayaneo-konkr-pocket-advance-3695434/) — androidauthority
-- [Google Wallet now lets kids tap to pay without giving up parental control](https://www.androidauthority.com/google-wallet-for-kids-3695386/) — androidauthority
-- [Mysterious new Garmin smartwatch spotted in FCC filings](https://www.androidauthority.com/new-garmin-wearable-fcc-filing-3695364/) — androidauthority
-- [The Pixel 11 hasn’t even arrived yet, but the majority of you are already against buying it](https://www.androidauthority.com/planning-to-buy-pixel-11-phones-poll-results-3695062/) — androidauthority
-- [Survey confirms your Fold 8 preference aligns with Samsung pre-orders](https://www.androidauthority.com/galaxy-z-fold-8-survey-results-3695311/) — androidauthority
-- [DeepSeek is preparing users for a big price hike](https://www.androidauthority.com/deepseek-ai-models-price-increase-3695266/) — androidauthority
-- [Our favorite XR glasses brand just launched its lightest, most compact pair yet](https://www.androidauthority.com/viture-pro-2-xr-glasses-launch-3695227/) — androidauthority
-- [TikTok knowingly lied about how its algorithm led to a suicide](https://www.androidauthority.com/tiktok-safety-filters-experiment-3695244/) — androidauthority
-- [Google Maps just added a feature that lets you order food without leaving the app](https://www.androidauthority.com/google-maps-food-ordering-personal-intelligence-live-transit-widget-rollout-3695080/) — androidauthority
-- [I won’t ever leave the country without the Timekettle X1 Meeting Interpreter Hub translator](https://www.androidauthority.com/timekettle-x1-meeting-translator-hands-on-3681162/) — androidauthority
-- [Did the Galaxy Z Fold 8 Ultra’s crease get worse after a couple of weeks?](https://www.androidauthority.com/samsung-galaxy-z-fold-8-ultra-crease-worse-weeks-3695213/) — androidauthority
-- [This Russian VPN has been accused of breaching its no-log policy — here's what we know](https://www.techradar.com/vpn/vpn-privacy-security/this-russian-vpn-has-been-accused-of-breaching-its-no-log-policy-heres-what-we-know) — techradar
-- [Poor data has become enterprise AI's weakest link](https://www.techradar.com/pro/poor-data-has-become-enterprise-ais-weakest-link) — techradar
-- [This 'classic' decades-old SQL injection flaw could let hackers take over entire Windows servers, thanks to a nifty database trick](https://www.techradar.com/pro/security/this-classic-decades-old-sql-injection-flaw-could-let-hackers-take-over-entire-windows-servers-thanks-to-a-nifty-database-trick) — techradar
-- [It doesn't seem like Nintendo plans to drop cartridges anytime soon, as the Switch 2 maker reports 38.5% of its sales are physical](https://www.techradar.com/gaming/it-doesnt-seem-like-nintendo-plans-to-drop-cartridges-anytime-soon-as-the-switch-2-maker-reports-38-5-percent-of-its-sales-come-are-physical) — techradar
-- [How to watch Rugby's Greatest Rivalry: FREE streams, TV channels, schedule for New Zealand's 2026 tour of South Africa](https://www.techradar.com/how-to-watch/rugby/rugbys-greatest-rivalry-2026-free) — techradar
-- [7 new movies and TV shows to watch on Netflix, Prime Video, Disney+, and more this weekend (August 7)](https://www.techradar.com/streaming/7-new-movies-and-tv-shows-to-watch-on-netflix-prime-video-disney-and-more-this-weekend-august-7) — techradar
-- [TechRadar's weekly crossword — puzzle #2, Friday, August 7](https://www.techradar.com/tech/techradars-weekly-crossword-puzzle-2-friday-august-7) — techradar
-- [How to watch DHL Stormers vs New Zealand for FREE: Live streams and TV channels for Rugby's Greatest Rivalry tour opener](https://www.techradar.com/how-to-watch/rugby/dhl-stormers-vs-all-blacks-rugbys-greatest-rivalry-free) — techradar
-- [NordVPN gives Linux users a major upgrade with automatic GUI app installation](https://www.techradar.com/vpn/vpn-services/nordvpn-gives-linux-users-a-major-upgrade-with-automatic-gui-app-installation) — techradar
-- [Exclusive: Turbo VPN releases emergency Windows update after TechRadar uncovers persistent IP leaks](https://www.techradar.com/vpn/vpn-services/exclusive-turbo-vpn-releases-emergency-windows-update-after-techradar-uncovers-persistent-ip-leaks) — techradar
-- [ON1 Photo RAW (2026) review](https://www.techradar.com/pro/software-services/on1-photo-raw-review) — techradar
-- ['Move fast, but do it with trust built in': EY CIO tells us why the rapid pace of AI means trust is now a critical business imperative](https://www.techradar.com/pro/move-fast-but-do-it-with-trust-built-in-ey-cio-tells-us-why-the-rapid-pace-of-ai-means-trust-is-now-a-critical-business-imperative) — techradar
-- [AI was supposed kill my company but we're thriving - here's why](https://www.techradar.com/pro/ai-was-supposed-kill-my-company-but-were-thriving-heres-why) — techradar
-- [Spider-Man: Brand New Day in ScreenX is a total disappointment — I wish I'd paid out to see the new Marvel movie in 4DX 3D instead](https://www.techradar.com/streaming/entertainment/spider-man-brand-new-day-screen-x-review) — techradar
-- [GHS Wireless InfinitePlay isn’t just a marketing name — I’ve used this Glorious gaming headset for weeks and the battery life really is (almost) infinite](https://www.techradar.com/gaming/glorious-ghs-wireless-infiniteplay-review) — techradar
-- ['Locking a gameplay trailer behind a Netflix subscription is a new level of greed' — GTA 6 callout Rockstar for 'paywalling' the game's extended look](https://www.techradar.com/gaming/locking-a-gameplay-trailer-behind-a-netflix-subscription-is-a-new-level-of-greed-gta-6-callout-rockstar-for-paywalling-the-games-extended-look) — techradar
-- [The Legend of Zelda Movie has found its Ganondorf and Impa — and the new Nintendo film will also include a poignant final big-screen role for the late Sam Neill](https://www.techradar.com/streaming/entertainment/the-legend-of-zelda-movie-has-found-its-ganondorf-and-impa-and-the-new-nintendo-film-will-also-include-a-poignant-final-big-screen-role-for-the-late-sam-neill) — techradar
-- [This is getting embarrassing now — Microsoft sabotages its good work in fixing Windows 11 with this baffling OneDrive Photos app misfire](https://www.techradar.com/computing/windows/this-is-getting-embarrassing-now-microsoft-sabotages-its-good-work-in-fixing-windows-11-with-this-baffling-onedrive-photos-app-misfire) — techradar
-- [Ubisoft just made a classic Tom Clancy game free to keep — here's how to add it to your library before time runs out](https://www.techradar.com/gaming/pc-gaming/ubisoft-just-made-a-classic-tom-clancy-game-free-to-keep-heres-how-to-add-it-to-your-library-before-time-runs-out) — techradar
-- [A worrying Google issue could leave small businesses playing catch-up with back-to-school sales – here is what to do](https://www.techradar.com/pro/a-worrying-google-issue-could-leave-small-businesses-playing-catch-up-with-back-to-school-sales-here-is-what-to-do) — techradar
-- [Great news for cheap OLED TVs and monitors: LG's new '2-stack' tech should cost less to make and be more energy efficient than its recent 'OLED SE' panel](https://www.techradar.com/televisions/great-news-for-cheap-oled-tvs-and-monitors-lgs-new-2-stack-tech-should-cost-less-to-make-and-be-more-energy-efficient-than-its-recent-oled-se-panel) — techradar
-- [Starlink might be less of a threat to mobile operators than Elon Musk claims](https://www.techradar.com/phones/network-providers/starlink-might-be-less-of-a-threat-to-mobile-operators-than-elon-musk-claims) — techradar
-- [Quantum's greatest breakthrough may be trust](https://www.techradar.com/pro/quantums-greatest-breakthrough-may-be-trust) — techradar
-- [Why cybersecurity must evolve for the age of AI agents](https://www.techradar.com/pro/why-cybersecurity-must-evolve-for-the-age-of-ai-agents) — techradar
-- [Microsoft has pulled a small but vital Teams update which could have let users ignore all those annoying work chats for good - I just hope it comes back soon](https://www.techradar.com/pro/microsoft-has-pulled-a-small-but-vital-teams-update-which-could-have-let-users-ignore-all-those-annoying-work-chats-for-good-i-just-hope-it-comes-back-soon) — techradar
-- [5 ways AI is changing the way businesses recruit, hire, and train their workforce](https://www.techradar.com/pro/5-ways-ai-is-changing-the-way-businesses-recruit-hire-and-train-their-workforce) — techradar
-- [The Mac Pro is dead. 20 years after its glitzy launch, what went wrong with Apple’s ultimate flagship computer?](https://www.techradar.com/computing/macs/the-mac-pro-is-dead-20-years-after-its-glitzy-launch-what-went-wrong-with-apples-ultimate-flagship-computer) — techradar
-- [To me, my X-Men: Marvel has found its Cyclops in Heartstopper's Kit Connor — and he might not be the only actor who's reportedly been cast for the new MCU movie](https://www.techradar.com/streaming/entertainment/to-me-my-x-men-marvel-has-found-its-cyclops-in-heartstoppers-kit-connor-and-he-might-not-be-the-only-actor-whos-reportedly-been-cast-for-the-new-mcu-movie) — techradar
-- [The latest firmware beta update automatically enables PSSR 2.0 on PS5 Pro, giving supported games 'sharper and clearer' graphics](https://www.techradar.com/gaming/the-latest-firmware-beta-update-automatically-enables-pssr-2-0-on-ps5-pro-giving-supported-games-sharper-and-clearer-graphics) — techradar
-- [Swiss government says SharePoint-linked data breach affected hundreds of accounts](https://www.techradar.com/pro/security/swiss-government-says-sharepoint-linked-data-breach-affected-hundreds-of-accounts) — techradar
-- ['Great music is made by people' — Suno, the biggest AI music company, is finally trying to solve a problem its own success helped create](https://www.techradar.com/ai-platforms-assistants/great-music-is-made-by-people-suno-the-biggest-ai-music-company-is-finally-trying-to-solve-a-problem-its-own-success-helped-create) — techradar
-- [Why AI infrastructure planning must happen now](https://www.techradar.com/pro/why-ai-infrastructure-planning-must-happen-now) — techradar
-- [Behind every goal: the technology delivering the World Cup to billions](https://www.techradar.com/pro/behind-every-goal-the-technology-delivering-the-world-cup-to-billions) — techradar
-- [Do you really know who is on your payroll?](https://www.techradar.com/pro/do-you-really-know-who-is-on-your-payroll) — techradar
-- [UK government could force bosses to consult employees before rolling out worker surveillance tools](https://www.techradar.com/pro/uk-government-could-force-bosses-to-consult-employees-before-rolling-out-worker-surveillance-tools) — techradar
-- [UK SMBs are increasingly turning to AI for their ads — and many consider it their secret weapon for expansion](https://www.techradar.com/pro/uk-smbs-are-increasingly-turning-to-ai-for-their-ads-and-many-consider-it-their-secret-weapon-for-expansion) — techradar
-- [How to watch Possession online from anywhere – stream Gugu Mbatha-Raw's supernatural thriller](https://www.techradar.com/how-to-watch/tv-shows/-possession) — techradar
-- [Xiaomi’s debut full-size hybrid SUV can cover 314 electric miles before it touches a drop of gasoline](https://www.techradar.com/vehicle-tech/hybrid-electric-vehicles/xiaomis-debut-full-size-hybrid-suv-can-cover-314-electric-miles-before-it-touches-a-drop-of-gasoline) — techradar
-- [The Shards review: Ryan Murphy and Bret Easton Ellis are a match made in heaven in Hulu's stylish, blood-soaked new show about privileged teenagers stalked by a serial killer](https://www.techradar.com/streaming/hulu/the-shards-review-ryan-murphy-and-bret-easton-ellis-are-a-match-made-in-heaven-in-hulus-stylish-blood-soaked-new-show-about-privileged-teenagers-stalked-by-a-serial-killer) — techradar
-- [‘You should only buy it when it’s on sale’ — the Samsung Galaxy S26 just dropped to an all-time low AU$992](https://www.techradar.com/phones/samsung-galaxy-phones/you-should-only-buy-it-when-its-on-sale-the-samsung-galaxy-s26-just-dropped-to-an-all-time-low-aud992) — techradar
-- [Keen to get Alexa+ but don’t have the necessary hardware? These are the 9 Amazon devices we recommend to get you up and running](https://www.techradar.com/ai-platforms-assistants/keen-to-get-alexa-but-dont-have-the-necessary-hardware-these-are-the-9-amazon-devices-we-recommend-to-get-you-up-and-running) — techradar
-- ['Enemy rags do not remain on Ukrainian soil for long': Ukrainian forces destroy Russian flag 30 seconds after it was dropped by a drone](https://www.techradar.com/pro/enemy-rags-do-not-remain-on-ukrainian-soil-for-long-ukrainian-forces-destroy-russian-flag-30-seconds-after-it-was-dropped-by-a-drone) — techradar
-- [The best dual-zone air fryers — convenient, multi-component cooking for a crowd](https://www.techradar.com/home/air-fryers/the-best-dual-zone-air-fryers-convenient-multi-component-cooking-for-a-crowd) — techradar
-- [Can ChatGPT really replace your apps? I tried using the chatbot for 12 everyday tasks on my phone — here’s what happened](https://www.techradar.com/ai-platforms-assistants/chatgpt/can-chatgpt-really-replace-your-apps-i-tried-using-the-chatbot-for-12-everyday-tasks-on-my-phone-heres-what-happened) — techradar
-- [China declares it is now the leading global chipmaking power — mainly because it just changed the definition of what a semiconductor is](https://www.techradar.com/pro/china-declares-it-is-now-the-leading-global-chipmaking-power-mainly-because-it-just-changed-the-definition-of-what-a-semiconductor-is) — techradar
-- [My Life with the Walter Boys season 4: release window and everything we know so far about the hit Netflix show's return](https://www.techradar.com/streaming/netflix/my-life-with-the-walter-boys-season-4) — techradar
-- [I didn't think the Inzone M10S gaming monitor could get much better, then I tried the new Inzone M10S 2](https://www.techradar.com/gaming/sony-inzone-m10s-2-review) — techradar
-- [U.S. economy lost 23,000 jobs in July, a sudden reversal](https://www.nbcnews.com/business/economy/july-2026-jobs-report-rcna591138) — hackernews
-- [Show HN: Wyzer Programming Language](https://github.com/Wyzer-Lang/wyzer) — hackernews
-- [New Mexico court orders Meta to pay $567m over harms to children’s mental health](https://www.theguardian.com/technology/2026/aug/06/new-mexico-court-meta) — hackernews
-- [AMD acquires Taalas to boost inference performance by etching models in silicon](https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344) — hackernews
-- [U.S. Lost 23,000 Jobs in July, While Unemployment Ticked Lower](https://www.wsj.com/economy/jobs/july-jobs-report-unemployment-0d7c08a7) — hackernews
-- [Thoroughly Understanding C++ ABI](https://ykiko.me/en/articles/692886292/) — hackernews
-- [Kitesurf: Agent-first browser that runs in V8 isolates](https://blog.cloudflare.com/kitesurf/) — hackernews
-- [The web server deployment model breaks at hobby scale](https://w.on-t.work/web-deployment-model) — hackernews
-- [Taste Is All That's Left](https://notashelf.dev/posts/taste-is-all-thats-left) — hackernews
-- [US's largest newspaper chain partners with Palantir to analyze audience data](https://www.niemanlab.org/2026/08/americas-largest-newspaper-chain-usa-today-co-partners-with-palantir-to-analyze-audience-data/) — hackernews
-- [A quine in Piet – a GIF image that prints itself [video]](https://www.youtube.com/watch?v=GwMtzhjCzyc) — hackernews
-- [São Paulo resident transforms degraded area into urban forest](https://saopaulosecreto.com/en/tiquatira-linear-park-en/) — hackernews
-- [Scientists discover Kelvin-Helmholtz Instability on the surface of the Sun](https://nso.edu/press-release/nsf-inouye-solar-telescope-enables-major-discovery-of-a-hidden-solar-process/) — hackernews
-- [Bioengineered chewing gum may offer a way to fight HPV and other microbes](https://www.sciencedaily.com/releases/2026/08/260803080917.htm) — hackernews
-- [Show HN: textlog – A quiet, text-only microblogging platform, open-source, no JS](https://textlog.cc/about) — hackernews
+- [‘Playing around with your favourite artist’s song is an ultimate expression of fandom’: Spotify is taking another step into participatory music tools with its upcoming AI remix feature — but it signals red flags for industry professionals](https://www.techradar.com/audio/spotify/playing-around-with-your-favourite-artists-song-is-an-ultimate-expression-of-fandom-spotify-is-taking-another-step-into-participatory-music-tools-with-its-upcoming-ai-remix-feature-but-it-signals-red-flags-for-industry-professionals) — techradar
+- [The RAM crisis just hit a new low — here's my advice on what to do based on 30 years of writing about GPUs, memory and PC components](https://www.techradar.com/computing/memory/the-ram-crisis-just-hit-a-new-low-heres-my-advice-on-what-to-do-based-on-30-years-of-writing-about-gpus-memory-and-pc-components) — techradar
+- [I wanted to love this weird foldable mouse from Logitech, but its underwhelming ergonomics and performance left me feeling disappointed](https://www.techradar.com/computing/mice/logitech-mobi-fold-review) — techradar
+- [How to watch Man Utd vs PSG: live stream the 2026/27 pre-season friendly from anywhere](https://www.techradar.com/how-to-watch/football/man-utd-vs-psg-live-stream-2026-27-pre-season-friendly) — techradar
+- [How to choose your first mechanical keyboard — and why it's simpler than the internet wants you to think](https://www.techradar.com/computing/keyboards/how-to-choose-your-first-mechanical-keyboard-and-why-its-simpler-than-the-internet-wants-you-to-think) — techradar
+- [5 of the best Bose headphones and earbuds are up to $130 off ahead of the launch of the QuietComfort Headphones (2nd Gen) — which ones are worth buying?](https://www.techradar.com/audio/headphones/5-of-the-best-bose-headphones-and-earbuds-are-up-to-usd130-off-ahead-of-the-launch-of-the-quietcomfort-headphones-2nd-gen-which-ones-are-worth-buying) — techradar
+- ['You'll own nothing and you'll like it': Google pulls the Lord of the Rings digital editions from one user's library, our latest reminder that digital purchases aren't always forever](https://www.techradar.com/streaming/youll-own-nothing-and-youll-like-it-google-pulls-the-lord-of-the-rings-digital-editions-from-one-users-library-our-latest-reminder-that-digital-purchases-arent-always-forever) — techradar
+- [West Ham vs Portsmouth Live Streams: How to watch Carabao Cup 2026/27 first round online from anywhere](https://www.techradar.com/how-to-watch/football/west-ham-vs-portsmouth-live-streams-carabao-cup-2026-27-first-round) — techradar
+- [After 2 weeks with the Garmin Cirqa, I've fallen back in love with 'vibe running' and ditched my regular watch — and the Strava obsession it enables](https://www.techradar.com/health-fitness/fitness-trackers/after-2-weeks-with-the-garmin-cirqa-ive-fallen-back-in-love-with-vibe-running-and-ditched-my-regular-watch-and-the-strava-obsession-it-enables) — techradar
+- [Why are so many AI models going 'rogue'? The experts weigh in](https://www.techradar.com/pro/security/why-are-so-many-ai-models-going-rogue-the-experts-weigh-in) — techradar
+- [Workers are worried AI will expose they don't know how to do their jobs properly](https://www.techradar.com/pro/workers-are-worried-ai-will-expose-they-dont-know-how-to-do-their-jobs-properly) — techradar
+- [ICYMI: here's the week's 7 biggest tech news stories from our Z Fold 8 Ultra review to GTA 6's Netflix partnership](https://www.techradar.com/tech/icymi-heres-the-weeks-7-biggest-tech-news-stories-from-our-z-fold-8-ultra-review-to-gta-6s-netflix-partnership) — techradar
+- [I asked the cast of Sky TV's Possession what would make the perfect streaming 'double bill' with the new supernatural thriller — and their answer has a surprising twist](https://www.techradar.com/streaming/sky-tv/possession-sinners-what-stars-watch) — techradar
+- [Still using one big overhead bulb? 3 lighting experts explain how layering light sources can bring your home to life, and how you can try it yourself tonight](https://www.techradar.com/home/smart-lights/still-using-one-big-overhead-bulb-3-lighting-experts-explain-how-layering-light-sources-can-bring-your-home-to-life-and-how-you-can-try-it-yourself-tonight) — techradar
+- [How to watch Chelsea vs AC Milan for FREE: pre-season friendly live streams from anywhere](https://www.techradar.com/how-to-watch/football/chelsea-vs-ac-milan-free) — techradar
+- [Working hard or hardly working? More than half of workers have sent unneeded emails or messages just to show they are doing something](https://www.techradar.com/pro/working-hard-or-hardly-working-more-than-half-of-workers-have-sent-unneeded-emails-or-messages-just-to-show-they-are-doing-something) — techradar
+- [I asked ChatGPT, Claude, Gemini and Grok which sci-fi AI they're most like — and their answers were surprisingly different](https://www.techradar.com/ai-platforms-assistants/chatgpt/i-asked-chatgpt-claude-gemini-and-grok-which-sci-fi-ai-theyre-most-like-and-their-answers-were-surprisingly-different) — techradar
+- [How to watch Japan vs Australia: Live streams and TV channels as Brave Blossoms host Wallabies](https://www.techradar.com/how-to-watch/rugby/japan-vs-australia) — techradar
+- [Kensington Expert Mouse Pro TB900 review: I swapped my mouse and trackpad for the new TB900 trackball, and ran a head-to-head video edit against my usual setup — the trackball won.](https://www.techradar.com/computing/kensington-expert-mouse-pro-tb900-eq-review) — techradar
+- [Denza claims its latest Z9S model boasts the world’s longest electric range — allowing owners to drive from New York to Detroit without a stop](https://www.techradar.com/vehicle-tech/hybrid-electric-vehicles/denza-claims-its-latest-z9s-model-boasts-the-worlds-longest-electric-range-allowing-owners-to-drive-from-new-york-to-detroit-without-a-stop) — techradar
+- [Russia is kickstarting its plans to dominate the space race once again — but it will have to depend on Chinese hardware to do so](https://www.techradar.com/pro/russia-is-kickstarting-its-plans-to-dominate-the-space-race-once-again-but-it-will-have-to-depend-on-chinese-hardware-to-do-so) — techradar
+- [Quordle hints and answers for Saturday, August 8 (game #1657)](https://www.techradar.com/computing/websites-apps/quordle-today-answers-clues-8-august-2026) — techradar
+- [NYT Connections hints and answers for Saturday, August 8 (game #1154)](https://www.techradar.com/gaming/nyt-connections-today-answers-hints-8-august-2026) — techradar
+- [NYT Strands hints and answers for Saturday, August 8 (game #888)](https://www.techradar.com/computing/websites-apps/nyt-strands-today-answers-hints-8-august-2026) — techradar
+- [Quote of the day by US President Dwight D Eisenhower: 'Public policy could itself become the captive of a scientific-technological elite' — foreshadowing Silicon Valley's global domination](https://www.techradar.com/pro/quote-of-the-day-by-us-president-dwight-d-eisenhower-public-policy-could-itself-become-the-captive-of-a-scientific-technological-elite-foreshadowing-silicon-valleys-global-domination) — techradar
+- [I've rounded up the best Samsung Galaxy Z Fold 8 cases to keep your passport-shaped foldable safe from scrapes and drops](https://www.techradar.com/phones/samsung-galaxy-phones/ive-rounded-up-the-best-samsung-galaxy-z-fold-8-cases-to-keep-your-passport-shaped-foldable-safe-from-scrapes-and-drops) — techradar
+- [Could this be the end of BIOS-locked laptops? AI tweaker deploys Claude to unlock and change settings for good](https://www.techradar.com/pro/could-this-be-the-end-of-bios-locked-laptops-ai-tweaker-deploys-claude-to-unlock-and-change-settings-for-good) — techradar
+- [WhatsApp scam costs Hong Kong man $1.27 million after criminals used AI voice notes to impersonate his father — experts say secret codewords are the best way to stay safe](https://www.techradar.com/computing/cybercrime/whatsapp-scam-costs-hong-kong-man-usd1-27-million-after-criminals-used-ai-voice-notes-to-impersonate-his-father-experts-say-secret-codewords-are-the-best-way-to-stay-safe) — techradar
+- ['I wasn’t driving. I had Autopilot on': Tesla’s Full Self-Driving system is getting drivers speeding tickets, and owners aren’t happy](https://www.techradar.com/vehicle-tech/hybrid-electric-vehicles/i-wasnt-driving-i-had-autopilot-on-teslas-full-self-driving-system-is-getting-drivers-speeding-tickets-and-owners-arent-happy) — techradar
+- [There's $530 off our number one business PC, the hugely upgradeable Dell Tower Plus](https://www.techradar.com/pro/dell-tower-plus-desktop-ebt2250-deal) — techradar
+- [Hivemind AI software carries out first on-water 'swarming test' in Taiwan mission](https://www.techradar.com/pro/hivemind-ai-software-carries-out-first-on-water-swarming-test-in-taiwan-mission) — techradar
+- [We called the GMKtec K8 Plus an 'understated mini PC that delivers far more power than you'd expect for the price' — and now it's $250 off](https://www.techradar.com/pro/gmktec-k8-plus-mini-pc-deal) — techradar
+- [The next age of LLMs? Dev gets a small LLM running at 10 tokens a second locally on a $10 microcontroller](https://www.techradar.com/pro/the-next-age-of-llms-dev-gets-a-small-llm-running-at-10-tokens-a-second-locally-on-a-usd10-microcontroller) — techradar
+- [SanDisk Extreme 1TB hits lowest ever price on Amazon —  and it's one of our top portable rugged SSDs](https://www.techradar.com/computing/storage-backup/the-sandisk-extreme-1tb-is-one-of-our-favorite-portable-rugged-ssds-ever-fast-sleek-and-now-with-a-usd60-discount) — techradar
+- [4 new 4K Blu-rays from July 2026 to add to your collection](https://www.techradar.com/televisions/blu-ray/3-new-4k-blu-rays-from-july-2026-to-add-to-your-collection) — techradar
+- [Shock horror — AI-generated security patches fall short of actually solving all the problems they were meant to fix](https://www.techradar.com/pro/security/shock-horror-ai-generated-security-patches-fall-short-of-actually-solving-all-the-problems-they-were-meant-to-fix) — techradar
+- [Experts warn malicious AI skills are hitting more victims than ever — with one family amassing 1.7 million downloads](https://www.techradar.com/pro/security/experts-warn-malicious-ai-skills-are-hitting-more-victims-than-ever-with-one-family-amassing-1-7-million-downloads) — techradar
+- [I asked Gemini and ChatGPT to build OpenAI's mythical AI hardware — the results are shockingly good but still don't make me want this $300-plus device](https://www.techradar.com/ai-platforms-assistants/i-asked-gemini-and-chatgpt-to-build-openais-mythical-ai-hardware-the-results-are-shockingly-good-but-still-dont-make-me-want-this-usd300-plus-device) — techradar
+- [Wondering why GTA 6 is a code in a box? Take-Two CEO says it’s because gaming is now ‘well over 90% digital’](https://www.techradar.com/gaming/wondering-why-gta-6-is-a-code-in-a-box-take-two-ceo-says-its-because-gaming-is-now-well-over-90-percent-digital) — techradar
+- [The HP EliteBook X G2i is an AI-powered laptop that can keep up with your business needs](https://www.techradar.com/computing/laptops/the-hp-elitebook-x-g2i-is-an-ai-powered-laptop-that-can-keep-up-with-your-business-needs) — techradar
+- [How to watch Middlesbrough vs Wrexham: Free Streams + TV Channels for Carabao Cup 1st Round](https://www.techradar.com/how-to-watch/football/middlesbrough-vs-wrexham-carabao-cup-first-round-free) — techradar
+- [I tested Turtle Beach’s newest controller, and I can’t imagine using anything else for GTA 6 — it’s got an illuminated skyline and tropical vibes; what more could you want?](https://www.techradar.com/gaming/turtle-beach-pacific-skyline-wireless-controller-review) — techradar
+- ['The level of pre-orders is unprecedented' — Take-Two reportedly made $1.39 billion in sales during GTA 6's pre-order period](https://www.techradar.com/gaming/the-level-of-pre-orders-is-unprecedented-take-two-reportedly-made-usd1-39-billion-in-sales-during-gta-6s-pre-order-period) — techradar
+- [What is the release date for House of the Dragon season 3 episode 8?](https://www.techradar.com/streaming/hbo-max/what-is-the-release-date-for-house-of-the-dragon-season-3-episode-8) — techradar
+- [My whole family used the RunStar 4e Body Scale, and this affordable scale is great for weight — but let down by inaccurate body composition](https://www.techradar.com/home/smart-scales/runstar-4e-body-scale-review) — techradar
+- [Redditor gets sick of waiting for Nvidia and makes a tool to protect RTX 5090 GPUs from melting their power cables](https://www.techradar.com/computing/gpu/redditor-gets-sick-of-waiting-for-nvidia-and-makes-a-tool-to-protect-rtx-5090-gpus-from-melting-their-power-cables) — techradar
+- [The end of anonymous protest — How facial recognition puts democracy at risk](https://www.techradar.com/vpn/vpn-privacy-security/the-end-of-anonymous-protest-how-facial-recognition-puts-democracy-at-risk) — techradar
+- ['Start experimenting and innovating again please': Samsung's spicy Reddit AMA covered foldables, health, and AI — and the company didn't shy away from responding to criticism](https://www.techradar.com/phones/samsung-galaxy-phones/start-experimenting-and-innovating-again-please-samsungs-spicy-reddit-ama-covered-foldables-health-and-ai-and-the-company-didnt-shy-away-from-responding-to-criticism) — techradar
+- [A domain can now say it is for sale, in DNS](https://specification.website/spec/foundations/for-sale-dns/) — hackernews
+- [DeepMind's WeatherNext model achieves breakthrough forecasting cyclones](https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/) — hackernews
+- [Don't use your phone while you poop](https://nate.spot/no-phone-while-poop/) — hackernews
+- [Voyager 1 FDS Computer Emulator](https://zaneham.github.io/voyager-fds-emulator/) — hackernews
+- [A Physicist Rigged His Pet Hamster’s Wheel to Upload to Strava](https://www.runnersworld.com/news/a73355106/hamster-wheel-strava-running/) — hackernews
+- [Hardware backdoors in some x86 CPUs](https://github.com/xoreaxeaxeax/rosenbridge) — hackernews
+- [DeepSeek V4 Flash 0731](https://arcprize.org/results/deepseek-v4-flash-0731) — hackernews
+- [U.S. Department of Energy Launches the Genesis Open Models Initiative](https://genesisopenmodels.anl.gov/) — hackernews
+- [No One Can Afford to Make Myst Games Anymore](https://www.wired.com/story/no-one-can-afford-to-make-myst-games-anymore/) — hackernews
+- [Gateway 2000's hilariously bad ads in the 90s (Part II)](https://buttondown.com/suchbadtechads/archive/gateway-2000-part-2/) — hackernews
+- [What happens if an entire class of workers loses faith in their careers](https://www.noemamag.com/why-is-everyone-in-tech-so-sad/) — hackernews
+- [Gentoo bugzilla closed due AI bot scraper overload](https://social.treehouse.systems/@mgorny/117058483039362779) — hackernews
+- [Europe's free satellite service just made it easier to track wildfires](https://arstechnica.com/gadgets/2026/08/europes-free-satellite-service-just-made-it-easier-to-track-wildfires/) — hackernews
+- [Assembly Hall of Shame](https://github.com/xoreaxeaxeax/asm-hall-of-shame) — hackernews
+- [ao486: x86-compatible Verilog core implementing all features of a 486 SX (2014)](https://github.com/alfikpl/ao486) — hackernews
+- [Ancient Library – 1,060 Greek/Latin texts, click any word to parse it](https://ancientlibrary.net/) — hackernews
+- [Microsoft Edge is about to lock out older ad blockers, just like Chrome did](https://www.theverge.com/tech/976880/microsoft-edge-extensions-ad-blockers-mv2-mv3) — hackernews
+- [NASA figured out how to keep its Voyager 2 probe running for another year](https://www.space.com/space-exploration/voyager/nasa-figured-out-how-to-keep-its-48-year-old-voyager-2-probe-running-for-yet-another-year) — hackernews
+- [Show HN: Rotating torus in terminal (but with kitty graphics protocol)](https://andreadimatteo.com/torus-v0-5.html) — hackernews
+- [2027 memory capacity is reportedly sold out](https://www.ign.com/articles/ramageddon-continues-another-year-as-2027-memory-capacity-is-reportedly-sold-out) — hackernews
+- [Now we have a timeline of the OpenAI accidental attack against Hugging Face](https://simonwillison.net/2026/Aug/7/openai-timeline/) — hackernews
+- [SupererDuperer](https://www.shirtpocket.com/blog/supererduperer) — hackernews
+- [Managing AI Coding Costs at Scale](https://www.databricks.com/blog/managing-ai-coding-costs-scale) — hackernews
+- [The Nixpkgs core team has disbanded](https://discourse.nixos.org/t/the-nixpkgs-core-team-has-disbanded/79413) — hackernews
+- [An all-sky map of half a million supermassive black holes](https://www.sdss.org/black-hole-mapper-release-20/) — hackernews
+- [From One Seed to a Thousand Leaves – Merkle's Authentication Tree](https://0xkrt26.github.io/math_behind_security/2026/08/03/merkle-tree.html) — hackernews
+- [Carl's Required Reading](https://carlkolon.com/reading/) — hackernews
 - [Radical Study Suggests Life on Earth Arose Twice](https://www.sciencealert.com/radical-study-suggests-life-on-earth-arose-from-non-living-matter-twice) — hackernews
-- [GitHub Actions and Pages are experiencing degraded availability](https://www.githubstatus.com/incidents/qcvjkzcs7j74) — hackernews
-- [Improving GPT‑5.6 Sol in ChatGPT, expanding GPT‑5.6 Luna access for free users](https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/) — hackernews
-- [Launch HN: ProvenMetal (YC S26) delivers circuit boards in days instead of weeks](https://provenmetal.com) — hackernews
-- [Welcoming the Nepalese Government to Have I Been Pwned](https://www.troyhunt.com/welcoming-the-nepalese-government-to-have-i-been-pwned/) — hackernews
-- [Why Estonians invite strangers into their back gardens each summer](https://www.bbc.com/travel/article/20260731-why-estonians-invite-strangers-into-their-backyards-each-summer) — hackernews
-- [Herdr is joining Y Combinator. The runtime stays open](https://herdr.dev/blog/herdr-is-joining-y-combinator/) — hackernews
-- [My phone detects going on a run as “someone snatching my phone and running off”](https://mastodon.gamedev.place/@rygorous/117047697255584965) — hackernews
-- [AI psychosis is the new leadership blind spot](https://www.fastcompany.com/91576086/ai-psychosis-is-the-new-leadership-blind-spot-ai-leadership-blind-spots) — hackernews
-- [Mario Meets Pareto](https://www.mayerowitz.io/blog/mario-meets-pareto) — hackernews
-- [Making Postgres 300x faster for analytics: batching, operator fusion, and SIMD](https://malisper.me/how-we-made-postgres-hundreds-of-times-faster-the-query-engine/) — hackernews
+- [New Amazon Data Center Is Set to Have the Most Polluting Power Plant in the U.S.](https://www.nytimes.com/2026/08/08/climate/amazon-data-center-texas-pollution.html) — hackernews
 
 ### 뉴스 (게이밍)
 
+- [Konami investigating Silent Hill 2 Performance Mode issues after latest PS5 patch](https://www.eurogamer.net/silent-hill-2-remake-performance-mode-bugs) — eurogamer
+- [Newly discovered Demon's Souls prototype footage reveals a scrapped first-person mode](https://www.eurogamer.net/demons-souls-cut-first-person-mode) — eurogamer
+- [Club Soko is cartoonishly dark and splattered with beer - and it's a wonderful puzzler, too](https://www.eurogamer.net/club-soko-impressions-cartoonishly-dark-sokoban-puzzle-game) — eurogamer
+- [Stalker 2 is finally letting us explore the Chornobyl Power Plant](https://www.eurogamer.net/stalker-2-cost-of-hope-dlc-showcase) — eurogamer
+- [What we've been playing - "I've wanted to go to demon school for a while"](https://www.eurogamer.net/what-weve-been-playing-ive-wanted-to-go-to-demon-school-for-a-while) — eurogamer
+- [Take-Two boss "not in the least" concerned bad press around Rockstar's employment tribunal will affect GTA 6 launch](https://www.eurogamer.net/take-two-strauss-zelnick-not-concerned-rockstar-union-busting-gta-6) — eurogamer
 - [The late Sam Neill will reportedly feature in The Legend of Zelda film, making it very probably the actor's final on-screen role](https://www.eurogamer.net/sam-neill-legend-of-zelda-film) — eurogamer
 - [Indie game publisher Devolver Digital wants to go private](https://www.eurogamer.net/devolver-digital-goes-private) — eurogamer
 - [We'll all be streaming our games in about "three years", says Take-Two boss, raising some post-release questions about GTA 6](https://www.eurogamer.net/strauss-zelnick-take-two-streaming-gta-6) — eurogamer
@@ -355,12 +363,9 @@
 - [Xbox's FanFest world tour is still going ahead, for some reason, even after Microsoft fired the guy who created it](https://www.eurogamer.net/xbox-fanfest-world-tour) — eurogamer
 - [Microsoft is working on making Xbox 360 games playable on PC, leaked document reveals](https://www.eurogamer.net/xbox-360-games-playable-on-pc-microsoft-plan-leaked) — eurogamer
 - [Stellar Blade: Blood Rain's AI music video should be viewed with "understanding in mind", says studio boss](https://www.eurogamer.net/stellar-blade-blood-rain-ai-response-ceo) — eurogamer
-- [PlayStation and Xbox's most played games are, once again, exactly what you expect them to be](https://www.eurogamer.net/playstation-xbox-top-20-most-played-games) — eurogamer
-- [Beast of Reincarnation review](https://www.eurogamer.net/beast-of-reincarnation-review) — eurogamer
-- [Indie game bundle saving buyers over $1,000 in support of laid off developers has raised over $100,000 in three days](https://www.eurogamer.net/indie-game-bundle-laid-off-developers-support-fund-100000) — eurogamer
-- [Big Walk review](https://www.eurogamer.net/big-walk-review) — eurogamer
-- [Square Enix responds to Kingdom Hearts Collection AI controversy two months after players called it out](https://www.eurogamer.net/kingdom-hearts-collection-ai-accusations-response) — eurogamer
-- [Marvel Tokon: Fighting Souls shows early signs of popularity, soaring up tournament entry leaderboards](https://www.eurogamer.net/marvel-tokon-fighting-souls-early-popularity-tournaments) — eurogamer
+- [What are we all playing this weekend?](https://www.rockpapershotgun.com/what-are-we-all-playing-this-weekend-394) — rps
+- [Space News Network is No Man's Sky but you're a roving journalist, blasting bandits while trying to keep your subscribers happy](https://www.rockpapershotgun.com/space-news-network-is-no-mans-sky-but-youre-a-roving-journalist-blasting-bandits-while-trying-to-keep-your-subscribers-happy) — rps
+- ["Machines that weren't game machines before will become game machines": Take-Two CEO predicts that streaming will help fix the industry's hardware pricing problem](https://www.rockpapershotgun.com/machines-that-werent-game-machines-before-will-become-game-machines-take-two-ceo-predicts-that-streaming-will-help-fix-the-industrys-hardware-pricing-problem) — rps
 - ["Ideas like this usually just die": Inside generative AI’s effect on modding, and how host sites struggle to maintain transparency](https://www.rockpapershotgun.com/ideas-like-this-usually-just-die-inside-generative-ais-effect-on-modding-and-how-host-sites-struggle-to-maintain-transparency) — rps
 - ["Credible military storytelling": Ubisoft announce playtests for new Ghost Recon game alongside a sizeable Wildlands update and a Future Soldier giveaway](https://www.rockpapershotgun.com/credible-military-storytelling-ubisoft-announce-playtests-for-new-ghost-recon-game-alongside-a-sizeable-wildlands-update-and-a-future-soldier-giveaway) — rps
 - [Co-op climber Peak finally reaches the summit, with its last major update bringing two foreboding new biomes next week](https://www.rockpapershotgun.com/co-op-climber-peak-finally-reaches-the-summit-with-its-last-major-update-bringing-two-foreboding-new-biomes-next-week) — rps
@@ -408,9 +413,20 @@
 - [This week in PC games: Beast of Reincarnation, Big Walk, and Marvel Tōkon, plus a round table RPG, some flammable robots, and a flock of lovestruck pigeons](https://www.rockpapershotgun.com/this-week-in-pc-games-beast-of-reincarnation-big-walk-and-marvel-tokon-plus-a-round-table-rpg-some-flammable-robots-and-a-flock-of-lovestruck-pigeons) — rps
 - [American Truck Simulator trundles off to a land of enchanted highways and giant bovines with a freshly announced North Dakota expansion](https://www.rockpapershotgun.com/american-truck-simulator-trundles-off-to-a-land-of-enchanted-highways-and-giant-bovines-with-a-freshly-announced-north-dakota-expansion) — rps
 - [The Sunday Papers](https://www.rockpapershotgun.com/the-sunday-papers-821) — rps
-- [Manage a cafe by day, go to bed and fight in your dreams in a world without sleep by night in Hips N Noses](https://www.rockpapershotgun.com/manage-a-cafe-by-day-go-to-bed-and-fight-in-your-dreams-in-a-world-without-sleep-by-night-in-hips-n-noses) — rps
-- [Silent Hill: Townfall's devs say they're purposefully playing against your nostalgic tech feelings, but I'm not sure it'll work on me](https://www.rockpapershotgun.com/silent-hill-townfalls-devs-say-theyre-purposefully-playing-against-your-nostalgic-tech-feelings-but-im-not-sure-itll-work-on-me) — rps
-- [Crimson Desert's latest patch is good news for all you moneygrubs, as it adds in a bounty of new trading posts and goods to pawn off](https://www.rockpapershotgun.com/crimson-deserts-latest-patch-is-good-news-for-all-you-moneygrubs-as-it-adds-in-a-bounty-of-new-trading-posts-and-goods-to-pawn-off) — rps
+- [Blocky zombie survival sim Unturned releases its source code so players can build a 'lasting legacy' for the game 'regardless of the changes we make'](https://www.pcgamer.com/games/survival-crafting/blocky-zombie-survival-sim-unturned-releases-its-source-code-so-players-can-build-a-lasting-legacy-for-the-game-regardless-of-the-changes-we-make/) — pcgamer
+- [God of War TV series sees further recasts as Amazon seeks older actors for Atreus and Thrud](https://www.pcgamer.com/movies-tv/god-of-war-tv-series-sees-further-recasts-as-amazon-seeks-older-actors-for-atreus-and-thrud/) — pcgamer
+- [Tencent's cyberpunk rival to Grand Theft Auto is in trouble as its developer lays off 80 people](https://www.pcgamer.com/games/action/tencents-cyberpunk-rival-to-grand-theft-auto-is-in-trouble-as-its-developer-lays-off-80-people/) — pcgamer
+- [FromSoftware sleuth unearths earliest footage of Demon's Souls to date: A prototype with a first person camera mode](https://www.pcgamer.com/games/action/fromsoftware-sleuth-unearths-earliest-footage-of-demons-souls-to-date-a-prototype-with-a-first-person-camera-mode/) — pcgamer
+- [From ancient Buddhism, to iconic manga hair, to Keanu Reeves: a PC Gamer Causality Chain™](https://www.pcgamer.com/games/from-ancient-buddhism-to-iconic-manga-hair-to-keanu-reeves-a-pc-gamer-causality-chaintm/) — pcgamer
+- [BioWare veteran says Baldur's Gate 3 was such a great sequel because it didn't try to be too much like Baldur's Gate 2](https://www.pcgamer.com/games/baldurs-gate/bioware-veteran-says-baldurs-gate-3-was-such-a-great-sequel-because-it-didnt-try-to-be-too-much-like-baldurs-gate-2/) — pcgamer
+- [Even with an $80 price tag, 'Grand Theft Auto 6 will be an incredible bargain,' Take-Two boss says](https://www.pcgamer.com/games/grand-theft-auto/even-with-an-usd80-price-tag-grand-theft-auto-6-will-be-an-incredible-bargain-take-two-boss-says/) — pcgamer
+- [Take-Two CEO says he expects the games industry to be in 'commercial streaming mode within 3 years,' which is great news if you hate owning things](https://www.pcgamer.com/gaming-industry/take-two-ceo-says-he-expects-the-games-industry-to-be-in-commercial-streaming-mode-within-3-years-which-is-great-news-if-you-hate-owning-things/) — pcgamer
+- [Big Walk patch addresses voice volume complaints with restraint: 'We consider it an important part of the game's design that you can only hear players who are close to you'](https://www.pcgamer.com/games/puzzle/big-walk-patch-addresses-voice-volume-complaints-with-restraint-we-consider-it-an-important-part-of-the-games-design-that-you-can-only-hear-players-who-are-close-to-you/) — pcgamer
+- [Japan has reportedly asked the US to stop using Mario, Pokemon, and others in social media posts](https://www.pcgamer.com/games/japan-has-reportedly-asked-the-us-to-stop-using-mario-pokemon-and-others-in-social-media-posts/) — pcgamer
+- [Take-Two boss dismisses hand-wringing over the end of disc-based games: 'Our business is well over 90% digitally distributed as it is'](https://www.pcgamer.com/gaming-industry/take-two-boss-dismisses-hand-wringing-over-the-end-of-disc-based-games-our-business-is-well-over-90-percent-digitally-distributed-as-it-is/) — pcgamer
+- [Overwatch's new mech hero is the sword-and-board sequel to D.Va, except her code isn't 'a plate of spaghetti' under the hood](https://www.pcgamer.com/games/fps/overwatchs-new-mech-hero-is-the-sword-and-board-sequel-to-d-va-except-her-code-isnt-a-plate-of-spaghetti-under-the-hood/) — pcgamer
+- [Launch day performance issues and forced logins take another victim: Marvel Tōkon: Fighting Souls sees mixed Steam rating, especially among Linux users](https://www.pcgamer.com/hardware/launch-day-performance-issues-and-forced-logins-take-another-victim-marvel-tokon-fighting-souls-sees-mixed-steam-rating-especially-among-linux-users/) — pcgamer
+- [Asus ROG Zephyrus G16 (2026) review](https://www.pcgamer.com/hardware/gaming-laptops/asus-rog-zephyrus-g16-2026-review/) — pcgamer
 - [The humble Wii Nunchuck has been turned into a video editing tool because it's 'one of the most ergonomic things ever made'](https://www.pcgamer.com/hardware/controllers/the-humble-wii-nunchuck-has-been-turned-into-a-video-editing-tool-because-its-one-of-the-most-ergonomic-things-ever-made/) — pcgamer
 - [ChatTJB is a fake chatbot where a guy called Tucker Bryant answers queries himself: 'I tend to overcommit to bits'](https://www.pcgamer.com/software/ai/chattjb-is-a-fake-chatbot-where-a-guy-called-tucker-bryant-answers-queries-himself-i-tend-to-overcommit-to-bits/) — pcgamer
 - [WoW's changing how world bosses work because they've 'really been a little bit lackluster' in recent years, says dev](https://www.pcgamer.com/games/world-of-warcraft/wows-changing-how-world-bosses-work-because-theyve-really-been-a-little-bit-lackluster-in-recent-years-says-dev/) — pcgamer
@@ -443,22 +459,6 @@
 - [The guy in charge of EA Sports is now in charge of EA everything](https://www.pcgamer.com/gaming-industry/the-guy-in-charge-of-ea-sports-is-now-in-charge-of-ea-everything/) — pcgamer
 - [Path of Exile devs are planning 'an extreme shakeup' in the next major update to address concerns over its stale endgame and lack of exciting loot drops](https://www.pcgamer.com/games/rpg/path-of-exile-devs-are-planning-an-extreme-shakeup-in-the-next-major-update-to-address-concerns-over-its-stale-endgame-and-lack-of-exciting-loot-drops/) — pcgamer
 - [Destiny 2 players are learning how to crack into its infamous content vault by tinkering with old game builds](https://www.pcgamer.com/games/fps/destiny-2-players-are-learning-how-to-crack-into-its-infamous-content-vault-by-tinkering-with-old-builds/) — pcgamer
-- [Fields of Mistria officially becomes the best farm sim since Stardew Valley with its 1.0 update today](https://www.pcgamer.com/games/life-sim/fields-of-mistria-officially-becomes-the-best-farm-sim-since-stardew-valley-now-that-its-launched-a-1-0-update-today/) — pcgamer
-- [Black Library veteran Toby Longworth gives us his tips for voicing the perfect Space Marine](https://www.pcgamer.com/games/board-games/black-library-veteran-toby-longworth-gives-us-his-tips-for-voicing-the-perfect-space-marine/) — pcgamer
-- [Something big is coming to Helldivers 2 next week: Squid is back on the menu](https://www.pcgamer.com/games/third-person-shooter/something-big-is-coming-to-helldivers-2-next-week-squid-is-back-on-the-menu/) — pcgamer
-- ['Sorry about this!' Big Walk is already fixing its biggest complaint](https://www.pcgamer.com/games/puzzle/sorry-about-this-big-walk-is-already-fixing-its-biggest-complaint/) — pcgamer
-- [Grand Theft Auto 6 publisher is holding an investors call at a very unusual time this week](https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-6-publisher-is-holding-an-investors-call-at-a-very-unusual-time-this-week/) — pcgamer
-- [Marvel Rivals is gearing up for season 9.5 with major Vanguard adjustments alongside a teaser for its next hero, The Hood](https://www.pcgamer.com/games/third-person-shooter/marvel-rivals-is-gearing-up-for-season-9-5-with-major-vanguard-adjustments-alongside-a-teaser-for-its-next-hero-the-hood/) — pcgamer
-- [Chinese memory maker CXMT mops up even more market share away from the likes of Samsung, SK hynix, and Micron, giving me hope that competition is the way out of the memory crisis](https://www.pcgamer.com/hardware/memory/chinese-memory-maker-cxmt-mops-up-even-more-market-share-away-from-the-likes-of-samsung-sk-hynix-and-micron-giving-me-hope-that-competition-is-the-way-out-of-the-memory-crisis/) — pcgamer
-- [Assassin's Creed Valhalla director comes back to Ubisoft to be game director for the entire brand](https://www.pcgamer.com/games/assassins-creed/assassins-creed-valhalla-director-comes-back-to-ubisoft-to-be-game-director-for-the-entire-brand/) — pcgamer
-- [Fields of Mistria 1.0 changes: What's new in the full release version?](https://www.pcgamer.com/games/life-sim/fields-of-mistria-1-0-update-changes/) — pcgamer
-- [The next game in a huge Chinese action RPG series has plenty of action, but I hope it hasn't totally abandoned the RPG](https://www.pcgamer.com/games/action/the-next-game-in-a-huge-chinese-action-rpg-series-has-plenty-of-action-but-i-hope-it-hasnt-totally-abandoned-the-rpg/) — pcgamer
-- [We asked the voice of Eisenhorn, Gaunt, and Garro in Warhammer 40k who his favorite character to play is](https://www.pcgamer.com/games/board-games/we-asked-the-voice-of-eisenhorn-gaunt-and-garro-in-warhammer-40k-who-his-favorite-character-to-play-is/) — pcgamer
-- [Pulsar to study how we all use our gaming mice to make them better, offering prizes to those who help them build the mouse of the future](https://www.pcgamer.com/hardware/gaming-mice/pulsar-to-study-how-we-all-use-our-gaming-mice-to-make-them-better-offering-prizes-to-those-who-help-them-build-the-mouse-of-the-future/) — pcgamer
-- [The actors behind Leon Kennedy and Grace Ashcroft will take to the stage for the Future Games Show at Gamescom this month](https://www.pcgamer.com/gaming-industry/events-conferences/the-actors-behind-leon-kennedy-and-grace-ashcroft-will-take-to-the-stage-for-the-future-games-show-at-gamescom-this-month/) — pcgamer
-- ['AI PCs will become more important': AMD's Lisa Su remains optimistic about the market despite runaway pricing caused by *checks notes* the AI industry](https://www.pcgamer.com/software/ai/ai-pcs-will-become-more-important-amds-lisa-su-remains-optimistic-about-the-market-despite-runaway-pricing-caused-by-checks-notes-the-ai-industry/) — pcgamer
-- [Saudi-acquired EA is reportedly planning to make massive cuts after taking $18 billion of debt, and we all know what that means](https://www.pcgamer.com/gaming-industry/saudi-acquired-ea-is-reportedly-planning-to-make-massive-cuts-after-taking-usd18-billion-of-debt-and-we-all-know-what-that-means/) — pcgamer
-- [EA has fixed a niche Battlefield 6 issue where some Nvidia GPUs were crashing while changing attachments or 'playing on maps with large bodies of water'](https://www.pcgamer.com/hardware/graphics-cards/ea-has-fixed-a-niche-battlefield-6-issue-where-some-nvidia-gpus-were-crashing-while-changing-attachments-or-playing-on-maps-with-large-bodies-of-water/) — pcgamer
 
 ---
 
@@ -473,27 +473,27 @@
 |---|---|---|---|---|
 | 1 | **data center** | 6회 | [Trends 검색](https://trends.google.com/trends/explore?q=data+center&geo=US) | `01-data-center/` |
 | 2 | **galaxy fold** | 6회 | [Trends 검색](https://trends.google.com/trends/explore?q=galaxy+fold&geo=US) | `02-galaxy-fold/` |
-| 3 | **big walk** | 6회 | [Trends 검색](https://trends.google.com/trends/explore?q=big+walk&geo=US) | `03-big-walk/` |
-| 4 | **pixel launch** | 5회 | [Trends 검색](https://trends.google.com/trends/explore?q=pixel+launch&geo=US) | `04-pixel-launch/` |
-| 5 | **beast reincarnation** | 5회 | [Trends 검색](https://trends.google.com/trends/explore?q=beast+reincarnation&geo=US) | `05-beast-reincarnation/` |
+| 3 | **pixel launch** | 5회 | [Trends 검색](https://trends.google.com/trends/explore?q=pixel+launch&geo=US) | `03-pixel-launch/` |
+| 4 | **baldur's gate** | 5회 | [Trends 검색](https://trends.google.com/trends/explore?q=baldur's+gate&geo=US) | `04-baldur's-gate/` |
+| 5 | **big walk** | 5회 | [Trends 검색](https://trends.google.com/trends/explore?q=big+walk&geo=US) | `05-big-walk/` |
 | 6 | **techcrunch disrupt** | 4회 | [Trends 검색](https://trends.google.com/trends/explore?q=techcrunch+disrupt&geo=US) | `06-techcrunch-disrupt/` |
-| 7 | **graphics card** | 4회 | [Trends 검색](https://trends.google.com/trends/explore?q=graphics+card&geo=US) | `07-graphics-card/` |
-| 8 | **price hikes** | 4회 | [Trends 검색](https://trends.google.com/trends/explore?q=price+hikes&geo=US) | `08-price-hikes/` |
-| 9 | **data centers** | 4회 | [Trends 검색](https://trends.google.com/trends/explore?q=data+centers&geo=US) | `09-data-centers/` |
-| 10 | **quick settings** | 4회 | [Trends 검색](https://trends.google.com/trends/explore?q=quick+settings&geo=US) | `10-quick-settings/` |
+| 7 | **quick settings** | 4회 | [Trends 검색](https://trends.google.com/trends/explore?q=quick+settings&geo=US) | `07-quick-settings/` |
+| 8 | **take-two boss** | 4회 | [Trends 검색](https://trends.google.com/trends/explore?q=take-two+boss&geo=US) | `08-take-two-boss/` |
+| 9 | **beast reincarnation** | 4회 | [Trends 검색](https://trends.google.com/trends/explore?q=beast+reincarnation&geo=US) | `09-beast-reincarnation/` |
+| 10 | **smart speaker** | 3회 | [Trends 검색](https://trends.google.com/trends/explore?q=smart+speaker&geo=US) | `10-smart-speaker/` |
 
 ### 단일 키워드 보조 참고
 
 | 키워드 | 빈도 |
 |---|---|
-| google | 42회 |
-| pixel | 18회 |
-| their | 16회 |
-| gaming | 16회 |
-| android | 16회 |
-| samsung | 15회 |
-| launch | 15회 |
-| galaxy | 13회 |
+| google | 35회 |
+| pixel | 21회 |
+| their | 17회 |
+| launch | 16회 |
+| gaming | 14회 |
+| samsung | 14회 |
+| android | 14회 |
+| power | 12회 |
 
 ### Trends CSV 넣는 방법
 
@@ -521,19 +521,20 @@
 ```
 data center
 galaxy fold
-big walk
 pixel launch
-beast reincarnation
+baldur's gate
+big walk
 techcrunch disrupt
-graphics card
-price hikes
-data centers
 quick settings
+take-two boss
+beast reincarnation
+smart speaker
 google
 their
 gaming
-android
 samsung
+android
+power
 ```
 
 > 💡 **KP 검색 팁**: 넓은 hub 키워드로 검색해야 롱테일 발굴 가능해요.
