@@ -6,8 +6,8 @@ categories: [tech]
 tags: ["comparison", "android", "auto"]
 excerpt: 'Older vehicles — a 2018 Tahoe Premier, a 2019 VW Golf — typically have wired Android Auto built in but no wireless capability. Wireless Android Auto…'
 header:
-  image: https://images.frontbuffer.net/posts/06-android-auto_comparison/header.jpg
-  overlay_filter: 0.5
+  image: https://images.frontbuffer.net/posts/06-android-auto_comparison/og.png
+  overlay_filter: 0
 author_profile: false
 read_time: true
 share: true
