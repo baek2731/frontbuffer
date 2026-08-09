@@ -43,6 +43,18 @@ defaults:
     values:
       layout: single
       author_profile: false
+  - scope:
+      path: "tags"
+    values:
+      sitemap: false
+  - scope:
+      path: "categories"
+    values:
+      sitemap: false
+  - scope:
+      path: "page"
+    values:
+      sitemap: false
 category_archive:
   type: liquid
   path: /categories/
@@ -57,7 +69,6 @@ analytics:
   google:
     tracking_id: "G-D1CX22H203"
     anonymize_ip: false
-
 footer:
   links:
     - label: "X (Twitter)"
@@ -67,3 +78,8 @@ footer:
       url: "/privacy-policy/"
     - label: "Disclosure"
       url: "/disclosure/"
+exclude:
+  - research_data/
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
