@@ -3,6 +3,7 @@ layout: archive
 title: "Tech"
 permalink: /categories/tech/
 author_profile: false
+sitemap: false
 ---
 
 {% assign posts = site.categories.tech %}

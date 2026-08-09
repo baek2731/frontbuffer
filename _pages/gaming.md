@@ -3,6 +3,7 @@ layout: archive
 title: "Gaming"
 permalink: /categories/gaming/
 author_profile: false
+sitemap: false
 ---
 
 {% assign posts = site.categories.gaming %}
