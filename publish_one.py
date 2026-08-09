@@ -420,6 +420,8 @@ def main():
 
     # ── 태그 생성 ──────────────────────────────────────────────────
     slug_words = target_slug.replace("-", " ").split()
+    # 숫자만 있는 단어 제거 (예: "01", "06" 등 클러스터 번호)
+    slug_words = [w for w in slug_words if not w.isdigit()]
     tags = list(dict.fromkeys([target_ct.lower()] + slug_words[:4]))[:6]
     tags_str = ", ".join(f'"{t}"' for t in tags)
 
