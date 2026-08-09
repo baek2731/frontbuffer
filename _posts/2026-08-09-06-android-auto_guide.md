@@ -5,6 +5,9 @@ date: 2026-08-09 14:46:00 +0000
 categories: [tech]
 tags: ["guide", "android", "auto"]
 excerpt: 'Owners of a 2024 Honda Accord Sport L Hybrid, among others, have frequently reported persistent wireless Android Auto connection issues, often…'
+header:
+  image: https://images.frontbuffer.net/posts/06-android-auto_guide/og.png
+  overlay_filter: 0
 author_profile: false
 read_time: true
 share: true
