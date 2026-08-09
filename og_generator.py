@@ -522,20 +522,20 @@ def process_file(md_path, force=False):
             print(f"     ☁️ OG 이미지 R2 업로드: {og_url}")
 
     # ── _posts/ 파일에 header.image frontmatter 추가 ─────────────
-    if header_image_url:
-        md_text = Path(md_path).read_text(encoding="utf-8")
-        if "header:" not in md_text:
-            header_block = (
-                "header:\n"
-                f"  image: {header_image_url}\n"
-                "  overlay_filter: 0.5\n"
-            )
-            md_text = md_text.replace(
-                "author_profile: false",
-                f"{header_block}author_profile: false"
-            )
-            Path(md_path).write_text(md_text, encoding="utf-8")
-            print(f"     📝 header.image frontmatter 추가됨")
+    og_image_url = f"{R2_PUBLIC_URL}/posts/{url_slug}/og.png"
+    md_text = Path(md_path).read_text(encoding="utf-8")
+    if "header:" not in md_text:
+        header_block = (
+            "header:\n"
+            f"  image: {og_image_url}\n"
+            "  overlay_filter: 0\n"
+        )
+        md_text = md_text.replace(
+            "author_profile: false",
+            f"{header_block}author_profile: false"
+        )
+        Path(md_path).write_text(md_text, encoding="utf-8")
+        print(f"     📝 header.image frontmatter 추가됨 (og.png)")
 
     tweet = generate_tweet(title, category, excerpt, url_slug)
     Path(out_tweet).write_text(tweet, encoding="utf-8")
