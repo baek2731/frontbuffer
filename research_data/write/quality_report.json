@@ -1,9 +1,78 @@
 {
-  "total": 3,
-  "ok": 3,
-  "issue_count": 0,
-  "issue_files": [],
+  "total": 11,
+  "ok": 8,
+  "issue_count": 3,
+  "issue_files": [
+    {
+      "name": "014_2026-W32_gaming-media-formats_COMPARISON",
+      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/014_2026-W32_gaming-media-formats_COMPARISON.md",
+      "issues": [
+        {
+          "id": "R5",
+          "label": "발행 불가 — 미처리 내부링크 잔존",
+          "block": true
+        }
+      ]
+    },
+    {
+      "name": "015_2026-W32_gaming-media-formats_GUIDE",
+      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/015_2026-W32_gaming-media-formats_GUIDE.md",
+      "issues": [
+        {
+          "id": "R5",
+          "label": "발행 불가 — 미처리 내부링크 잔존",
+          "block": true
+        }
+      ]
+    },
+    {
+      "name": "016_2026-W32_02-galaxy-fold_COMPARISON",
+      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/016_2026-W32_02-galaxy-fold_COMPARISON.md",
+      "issues": [
+        {
+          "id": "R5",
+          "label": "발행 불가 — 미처리 내부링크 잔존",
+          "block": true
+        }
+      ]
+    }
+  ],
   "results": [
+    {
+      "file": "research_data/write/final/003_2026-W32_01-galaxy-fold_COMPARISON.md",
+      "name": "003_2026-W32_01-galaxy-fold_COMPARISON",
+      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/003_2026-W32_01-galaxy-fold_COMPARISON.md",
+      "issues": [],
+      "ok": true
+    },
+    {
+      "file": "research_data/write/final/004_2026-W32_01-galaxy-fold_EXPLAINER.md",
+      "name": "004_2026-W32_01-galaxy-fold_EXPLAINER",
+      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/004_2026-W32_01-galaxy-fold_EXPLAINER.md",
+      "issues": [],
+      "ok": true
+    },
+    {
+      "file": "research_data/write/final/005_2026-W32_01-galaxy-fold_GUIDE.md",
+      "name": "005_2026-W32_01-galaxy-fold_GUIDE",
+      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/005_2026-W32_01-galaxy-fold_GUIDE.md",
+      "issues": [],
+      "ok": true
+    },
+    {
+      "file": "research_data/write/final/009_2026-W32_06-android-auto_COMPARISON.md",
+      "name": "009_2026-W32_06-android-auto_COMPARISON",
+      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/009_2026-W32_06-android-auto_COMPARISON.md",
+      "issues": [],
+      "ok": true
+    },
+    {
+      "file": "research_data/write/final/010_2026-W32_06-android-auto_GUIDE.md",
+      "name": "010_2026-W32_06-android-auto_GUIDE",
+      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/010_2026-W32_06-android-auto_GUIDE.md",
+      "issues": [],
+      "ok": true
+    },
     {
       "file": "research_data/write/final/011_2026-W32_google-android-ecosystem_COMPARISON.md",
       "name": "011_2026-W32_google-android-ecosystem_COMPARISON",
@@ -24,6 +93,45 @@
       "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/014_2026-W30_gaming-media-formats_COMPARISON.md",
       "issues": [],
       "ok": true
+    },
+    {
+      "file": "research_data/write/final/014_2026-W32_gaming-media-formats_COMPARISON.md",
+      "name": "014_2026-W32_gaming-media-formats_COMPARISON",
+      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/014_2026-W32_gaming-media-formats_COMPARISON.md",
+      "issues": [
+        {
+          "id": "R5",
+          "label": "발행 불가 — 미처리 내부링크 잔존",
+          "block": true
+        }
+      ],
+      "ok": false
+    },
+    {
+      "file": "research_data/write/final/015_2026-W32_gaming-media-formats_GUIDE.md",
+      "name": "015_2026-W32_gaming-media-formats_GUIDE",
+      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/015_2026-W32_gaming-media-formats_GUIDE.md",
+      "issues": [
+        {
+          "id": "R5",
+          "label": "발행 불가 — 미처리 내부링크 잔존",
+          "block": true
+        }
+      ],
+      "ok": false
+    },
+    {
+      "file": "research_data/write/final/016_2026-W32_02-galaxy-fold_COMPARISON.md",
+      "name": "016_2026-W32_02-galaxy-fold_COMPARISON",
+      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/016_2026-W32_02-galaxy-fold_COMPARISON.md",
+      "issues": [
+        {
+          "id": "R5",
+          "label": "발행 불가 — 미처리 내부링크 잔존",
+          "block": true
+        }
+      ],
+      "ok": false
     }
   ]
 }
