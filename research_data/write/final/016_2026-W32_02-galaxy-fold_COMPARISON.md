@@ -34,7 +34,7 @@ The quest for a thinner and lighter design in both models also pushes the bounda
 
 Ultimately, the advancements seen in the Galaxy Z Fold 7 and Z Fold 8 reflect a mature approach to foldable technology, addressing the foundational aspects that define user confidence and satisfaction. The continuous focus on hinge durability and the overall design evolution underscore Samsung's commitment to perfecting the foldable experience, making these cutting-edge devices more robust and user-friendly with each generation.
 
-The continuous evolution from the Z Fold 7's Armor HingeFlex to the Z Fold 8's Flex Titanium display technology and lighter 201-gram chassis demonstrates Samsung's commitment to perfecting foldable mechanics and design. When making your choice, remember that while both the Z Fold 7 and Z Fold 8 share an IP48 water resistance rating, the '4' signifies only limited dust protection, meaning fine dust and sand can still pose a risk to the hinge mechanism, a crucial detail to consider for long-term care. For a deeper dive into the broader advancements across the series, explore our analysis of [INTERNAL LINK: display technology in Galaxy Foldables].
+The continuous evolution from the Z Fold 7's Armor HingeFlex to the Z Fold 8's Flex Titanium display technology and lighter 201-gram chassis demonstrates Samsung's commitment to perfecting foldable mechanics and design. When making your choice, remember that while both the Z Fold 7 and Z Fold 8 share an IP48 water resistance rating, the '4' signifies only limited dust protection, meaning fine dust and sand can still pose a risk to the hinge mechanism, a crucial detail to consider for long-term care.
 
 ---
 Sources:
