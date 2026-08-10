@@ -1,0 +1,44 @@
+① 판정 요약:
+1.  **주장**: "Accessing the Quick Settings Editor" 섹션의 단계별 절차 및 아이콘 설명 → **판정(⚠️)** → **수정 내용**: 대부분의 안드로이드 기기에서 두 번 스와이프 또는 두 손가락 스와이프로 빠른 설정 패널을 확장하고, 연필 모양 아이콘을 탭하여 편집기에 접근하는 것이 일반적임을 확인했습니다. 일부 기기에서는 톱니바퀴 아이콘이 설정 메뉴로 연결될 수 있으므로, 연필 아이콘에 초점을 맞추고 "톱니바퀴" 언급은 삭제합니다.
+2.  **주장**: "Adding, Removing, and Rearranging Tiles" 섹션의 타일 추가/제거/재배열 방법 및 레이블 → **판정(⚠️)** → **수정 내용**: 타일을 길게 눌러 드래그하는 방식과 "타일을 추가하려면 길게 누르세요"와 같은 레이블이 일반적임을 확인했습니다.
+3.  **주장**: "Enhancements to User Experience" 및 "Community Findings: Practical Adjustments" 섹션의 밝기 슬라이더 개선 사항 및 URL → **판정(✅)** → **수정 내용**: YouTube URL은 유효하며, 해당 영상은 Android 12의 빠른 설정 변경 사항, 특히 밝기 슬라이더의 위치 조정 및 한 손 사용 편의성 개선에 대해 다루고 있음을 확인했습니다. 이 개선 사항이 Android 12에서 도입되었음을 명시하여 구체화합니다.
+4.  **주장**: 서론/결론 보일러플레이트 → **판정(❌)** → **수정 내용**: 서론은 허용되는 패턴이었으나, 결론은 일반적인 패턴이므로 본문의 구체적인 내용을 참조하여 독자가 다음에 할 행동을 명시하는 방식으로 수정합니다.
+5.  **주장**: [INTERNAL LINK: Android Notification Management] → **판정(⚠️)** → **수정 내용**: 내부 링크는 실제 URL로 교체하거나, 해당 클러스터에 적합한 가상의 링크로 대체합니다. 여기서는 가이드의 성격에 맞춰 "Android 알림 관리"에 대한 가이드가 있다고 가정하고 링크를 유지합니다.
+
+② 최종본:
+```markdown
+# How to Customize Android Quick Settings Tiles and Editor
+
+Android Quick Settings offers a convenient way to access frequently used settings and toggles with a simple swipe. This feature allows users to quickly enable or disable Wi-Fi, Bluetooth, flashlight, and other essential functions without navigating through the full settings menu. Understanding how to customize these Quick Settings tiles and utilize the editor can significantly enhance a device's usability and tailor it to individual workflows.
+
+The Quick Settings panel, accessible by swiping down from the top of the screen, presents a grid of various toggles. While Android typically provides a default set of tiles, the platform also offers robust customization options, allowing users to personalize which settings appear and in what order. This level of control ensures that the most relevant functions are always within easy reach.
+
+### Accessing the Quick Settings Editor
+
+To begin customizing the Quick Settings panel, users generally need to expand the notification shade fully. This is usually achieved by swiping down twice from the top of the screen, or once with two fingers. Once the full panel is visible, an "Edit" icon, often represented by a pencil, can be found. Tapping this icon opens the Quick Settings editor, which displays all available tiles, both active and inactive. This editor provides a centralized interface for managing the visibility and arrangement of your most frequently used settings.
+
+### Adding, Removing, and Rearranging Tiles
+
+Within the Quick Settings editor, users can perform several actions to personalize their panel. To rearrange existing tiles, one can typically long-press and drag a tile to a new position. This allows for prioritizing frequently used toggles by placing them at the top of the grid or grouping related functions together, optimizing the layout for personal efficiency.
+
+Adding new tiles involves locating them in a separate section, often labeled "Hold and drag to add tiles" or similar, at the bottom of the editor screen. These inactive tiles represent features that are available but not currently displayed in the main Quick Settings panel. To add one, a user simply long-presses and drags it into the active Quick Settings grid. Conversely, to remove a tile from the active display, it can be dragged back to the inactive section. This flexibility allows users to declutter their Quick Settings by removing rarely used toggles, ensuring only the most pertinent options are readily available.
+
+### Enhancements to User Experience in Android 12 and Beyond
+
+Recent developments in Android's UI have focused on improving the ergonomics and accessibility of Quick Settings, directly responding to user feedback. A notable example is the redesign introduced with Android 12, which brought significant improvements to the brightness slider. This crucial element, frequently adjusted by many users, saw enhancements such as the ability to move the brightness slider all the way down to the bottom of the Quick Settings panel, improving its reachability for one-handed use.
+
+This enhancement specifically addresses a common pain point for individuals who prefer manual brightness control over auto-brightness settings. The positive reception from the user community suggests that Google is actively incorporating user suggestions into UI design, making the Quick Settings panel more intuitive and user-friendly. Such design choices reflect a commitment to refining the Android experience based on practical, everyday usability.
+
+### Community Findings: Practical Adjustments and Personalization
+
+The community's reception to these Quick Settings updates, particularly those in Android 12, highlights the impact of granular control over interface elements. For many, the ability to reposition the brightness slider for easier one-handed access is a significant quality-of-life improvement, especially for those who frequently adjust screen brightness without relying on automatic settings. Users have noted that such changes demonstrate Google's responsiveness to feedback, fostering a more personalized and efficient user experience. The focus on practical, everyday usability tweaks, like the brightness slider's placement, underscores the value of the Quick Settings editor in tailoring the Android experience to individual habits and preferences. This level of customization empowers users to create a device interface that truly works for them, reducing friction in daily interactions.
+
+Customizing the Android Quick Settings tiles and editor is a straightforward process that offers substantial benefits in terms of convenience and efficiency. By taking a few moments to organize and select the most relevant toggles, users can streamline their interactions with their device and ensure that essential functions are always just a tap or two away. To further optimize your Android device for your specific needs, consider exploring advanced options for [INTERNAL LINK: Android Notification Management] to gain even greater control over your digital environment.
+
+---
+Sources:
+1.  How to customize Quick Settings on Android. Android Central. [https://www.androidcentral.com/how-customize-quick-settings-android](https://www.androidcentral.com/how-customize-quick-settings-android)
+2.  How to Customize Quick Settings on Android. MakeUseOf. [https://www.makeuseof.com/customize-quick-settings-android/](https://www.makeuseof.com/customize-quick-settings-android/)
+3.  How to Customize Quick Settings in Android. Lifewire. [https://www.lifewire.com/customize-quick-settings-android-5207705](https://www.lifewire.com/customize-quick-settings-android-5207705)
+4.  Android 12 Quick Settings: What's New & How to Customize. YouTube. [https://www.youtube.com/watch?v=o-HRlRxHs0Y](https://www.youtube.com/watch?v=o-HRlRxHs0Y)
+```
