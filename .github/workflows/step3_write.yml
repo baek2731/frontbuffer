@@ -135,8 +135,14 @@ jobs:
               NEW_FILES="${NEW_FILES:+$NEW_FILES,}$FINAL_FILE"
             fi
 
+            # 최종본 생성 완료 → pipeline status 업데이트 (done 처리)
+            # 제목을 final 파일 첫 H1에서 추출
+            FINAL_TITLE=$(grep -m1 "^# " "research_data/write/final/${FILE_ID}.md" 2>/dev/null | sed 's/^# //' || echo "$CLUSTER")
+            echo "  → 발행 완료 처리: $FINAL_TITLE"
+            python write.py done "$CLUSTER"               --type "$TYPE"               --title "$FINAL_TITLE"               --url "pending"               --no-archive || true
+
             # prompts/ 등 다른 변경사항 건드리지 않고 final/만 커밋
-            git add research_data/write/final/
+            git add research_data/write/final/ content_pipeline.json
 
             if git diff --cached --quiet; then
               echo "⚠️ final/ 변경사항 없음 — 커밋 스킵"
