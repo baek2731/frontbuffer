@@ -1,108 +1,118 @@
 {
-  "total": 12,
-  "ok": 11,
-  "issue_count": 1,
+  "total": 7,
+  "ok": 3,
+  "issue_count": 4,
   "issue_files": [
     {
-      "name": "steam-machine-hardware-management_GUIDE",
-      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/steam-machine-hardware-management_GUIDE.md",
+      "name": "011_2026-W30_google-android-ecosystem_COMPARISON",
+      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/011_2026-W30_google-android-ecosystem_COMPARISON.md",
       "issues": [
         {
           "id": "R3",
-          "label": "단어수 미달 (792단어 / 최소 800)"
+          "label": "단어수 미달 (623단어 / 최소 800)"
+        }
+      ]
+    },
+    {
+      "name": "012_2026-W30_google-android-ecosystem_EXPLAINER",
+      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/012_2026-W30_google-android-ecosystem_EXPLAINER.md",
+      "issues": [
+        {
+          "id": "R3",
+          "label": "단어수 미달 (665단어 / 최소 800)"
+        }
+      ]
+    },
+    {
+      "name": "013_2026-W30_google-android-ecosystem_GUIDE",
+      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/013_2026-W30_google-android-ecosystem_GUIDE.md",
+      "issues": [
+        {
+          "id": "R3",
+          "label": "단어수 미달 (544단어 / 최소 800)"
+        }
+      ]
+    },
+    {
+      "name": "015_2026-W30_gaming-media-formats_GUIDE",
+      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/015_2026-W30_gaming-media-formats_GUIDE.md",
+      "issues": [
+        {
+          "id": "R3",
+          "label": "단어수 미달 (650단어 / 최소 800)"
         }
       ]
     }
   ],
   "results": [
     {
-      "file": "research_data/write/final/google-chrome-manifest-v2-migration_EXPLAINER.md",
-      "name": "google-chrome-manifest-v2-migration_EXPLAINER",
-      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/google-chrome-manifest-v2-migration_EXPLAINER.md",
-      "issues": [],
-      "ok": true
-    },
-    {
-      "file": "research_data/write/final/google-chrome-manifest-v2-migration_GUIDE.md",
-      "name": "google-chrome-manifest-v2-migration_GUIDE",
-      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/google-chrome-manifest-v2-migration_GUIDE.md",
-      "issues": [],
-      "ok": true
-    },
-    {
-      "file": "research_data/write/final/google-chrome-manifest-v2-migration_LISTICLE.md",
-      "name": "google-chrome-manifest-v2-migration_LISTICLE",
-      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/google-chrome-manifest-v2-migration_LISTICLE.md",
-      "issues": [],
-      "ok": true
-    },
-    {
-      "file": "research_data/write/final/portable-gaming_COMPARISON.md",
-      "name": "portable-gaming_COMPARISON",
-      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/portable-gaming_COMPARISON.md",
-      "issues": [],
-      "ok": true
-    },
-    {
-      "file": "research_data/write/final/portable-gaming_EXPLAINER.md",
-      "name": "portable-gaming_EXPLAINER",
-      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/portable-gaming_EXPLAINER.md",
-      "issues": [],
-      "ok": true
-    },
-    {
-      "file": "research_data/write/final/portable-gaming_GUIDE.md",
-      "name": "portable-gaming_GUIDE",
-      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/portable-gaming_GUIDE.md",
-      "issues": [],
-      "ok": true
-    },
-    {
-      "file": "research_data/write/final/samsung-health-data-ecosystem_COMPARISON.md",
-      "name": "samsung-health-data-ecosystem_COMPARISON",
-      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/samsung-health-data-ecosystem_COMPARISON.md",
-      "issues": [],
-      "ok": true
-    },
-    {
-      "file": "research_data/write/final/samsung-health-data-ecosystem_GUIDE.md",
-      "name": "samsung-health-data-ecosystem_GUIDE",
-      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/samsung-health-data-ecosystem_GUIDE.md",
-      "issues": [],
-      "ok": true
-    },
-    {
-      "file": "research_data/write/final/samsung-health-data-ecosystem_HUB.md",
-      "name": "samsung-health-data-ecosystem_HUB",
-      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/samsung-health-data-ecosystem_HUB.md",
-      "issues": [],
-      "ok": true
-    },
-    {
-      "file": "research_data/write/final/steam-machine-hardware-management_COMPARISON.md",
-      "name": "steam-machine-hardware-management_COMPARISON",
-      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/steam-machine-hardware-management_COMPARISON.md",
-      "issues": [],
-      "ok": true
-    },
-    {
-      "file": "research_data/write/final/steam-machine-hardware-management_GUIDE.md",
-      "name": "steam-machine-hardware-management_GUIDE",
-      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/steam-machine-hardware-management_GUIDE.md",
+      "file": "research_data/write/final/011_2026-W30_google-android-ecosystem_COMPARISON.md",
+      "name": "011_2026-W30_google-android-ecosystem_COMPARISON",
+      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/011_2026-W30_google-android-ecosystem_COMPARISON.md",
       "issues": [
         {
           "id": "R3",
-          "label": "단어수 미달 (792단어 / 최소 800)"
+          "label": "단어수 미달 (623단어 / 최소 800)"
         }
       ],
       "ok": false
     },
     {
-      "file": "research_data/write/final/steam-machine-hardware-management_HUB.md",
-      "name": "steam-machine-hardware-management_HUB",
-      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/steam-machine-hardware-management_HUB.md",
+      "file": "research_data/write/final/011_2026-W32_google-android-ecosystem_COMPARISON.md",
+      "name": "011_2026-W32_google-android-ecosystem_COMPARISON",
+      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/011_2026-W32_google-android-ecosystem_COMPARISON.md",
       "issues": [],
       "ok": true
+    },
+    {
+      "file": "research_data/write/final/012_2026-W30_google-android-ecosystem_EXPLAINER.md",
+      "name": "012_2026-W30_google-android-ecosystem_EXPLAINER",
+      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/012_2026-W30_google-android-ecosystem_EXPLAINER.md",
+      "issues": [
+        {
+          "id": "R3",
+          "label": "단어수 미달 (665단어 / 최소 800)"
+        }
+      ],
+      "ok": false
+    },
+    {
+      "file": "research_data/write/final/012_2026-W32_google-android-ecosystem_EXPLAINER.md",
+      "name": "012_2026-W32_google-android-ecosystem_EXPLAINER",
+      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/012_2026-W32_google-android-ecosystem_EXPLAINER.md",
+      "issues": [],
+      "ok": true
+    },
+    {
+      "file": "research_data/write/final/013_2026-W30_google-android-ecosystem_GUIDE.md",
+      "name": "013_2026-W30_google-android-ecosystem_GUIDE",
+      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/013_2026-W30_google-android-ecosystem_GUIDE.md",
+      "issues": [
+        {
+          "id": "R3",
+          "label": "단어수 미달 (544단어 / 최소 800)"
+        }
+      ],
+      "ok": false
+    },
+    {
+      "file": "research_data/write/final/014_2026-W30_gaming-media-formats_COMPARISON.md",
+      "name": "014_2026-W30_gaming-media-formats_COMPARISON",
+      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/014_2026-W30_gaming-media-formats_COMPARISON.md",
+      "issues": [],
+      "ok": true
+    },
+    {
+      "file": "research_data/write/final/015_2026-W30_gaming-media-formats_GUIDE.md",
+      "name": "015_2026-W30_gaming-media-formats_GUIDE",
+      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/015_2026-W30_gaming-media-formats_GUIDE.md",
+      "issues": [
+        {
+          "id": "R3",
+          "label": "단어수 미달 (650단어 / 최소 800)"
+        }
+      ],
+      "ok": false
     }
   ]
 }
