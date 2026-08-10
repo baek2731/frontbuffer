@@ -5,6 +5,9 @@ date: 2026-08-10 14:52:00 +0000
 categories: [tech]
 tags: ["explainer", "galaxy", "fold"]
 excerpt: 'In 2022, Xiaomi launched the 12S Ultra with a silicon-carbon battery, followed by Honor and Apple integrating silicon into their premium models like…'
+header:
+  image: https://images.frontbuffer.net/posts/the-promise-of-silicon-carbon-batteries-and-samsungs-strateg/og.png
+  overlay_filter: 0
 author_profile: false
 read_time: true
 share: true
