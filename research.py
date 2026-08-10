@@ -741,6 +741,32 @@ if __name__ == "__main__":
     now      = datetime.now(timezone.utc)
     week_tag = now.strftime("%Y-W%W")
 
+    # ── 중복 실행 방지 체크 ──────────────────────────────────────────
+    trends_week_dir = os.path.join("research_data", "trends", week_tag)
+    lock_file       = os.path.join(trends_week_dir, ".step1_done")
+    csv_files       = []
+    if os.path.exists(trends_week_dir):
+        import glob
+        # Trends CSV 또는 KP CSV가 이미 있으면 Step 2 대기 중
+        csv_files = (
+            glob.glob(os.path.join(trends_week_dir, "**", "*.csv"), recursive=True) +
+            glob.glob(os.path.join(trends_week_dir, "*.csv"))
+        )
+
+    if os.path.exists(lock_file):
+        print(f"⏭️  Step 1 이미 완료 ({week_tag}) — 중복 실행 방지로 종료합니다.")
+        print(f"   락 파일: {lock_file}")
+        print(f"   Step 2를 실행하거나, 락 파일을 삭제 후 재실행하세요.")
+        raise SystemExit(0)
+
+    if csv_files:
+        print(f"⏭️  CSV 파일 {len(csv_files)}개 감지 — Step 2 대기 중입니다.")
+        print(f"   Step 1을 다시 실행하지 않습니다.")
+        for f in csv_files[:5]:
+            print(f"   • {f}")
+        raise SystemExit(0)
+    # ────────────────────────────────────────────────────────────────
+
     # [1] 수집
     items = collect_news() + collect_community() + collect_reddit()
     if not items:
@@ -782,6 +808,16 @@ if __name__ == "__main__":
     with open(report_path, "w", encoding="utf-8") as f:
         f.write(report)
     print(f"📄 사람용 리포트: {report_path}")
+
+    # ── 완료 락 파일 생성 (중복 실행 방지) ─────────────────────────
+    try:
+        os.makedirs(trends_week_dir, exist_ok=True)
+        with open(lock_file, "w", encoding="utf-8") as f:
+            f.write(f"Step 1 completed at {now.isoformat()}\n")
+        print(f"🔒 락 파일 생성: {lock_file}")
+    except Exception as e:
+        print(f"⚠️ 락 파일 생성 실패 (무시): {e}")
+    # ────────────────────────────────────────────────────────────────
 
     print(f"\n🏁 완료! (비용 발생 없음)")
     print(f"\n다음 단계:")
