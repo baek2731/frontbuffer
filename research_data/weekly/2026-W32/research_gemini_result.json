@@ -1,0 +1,213 @@
+{
+  "ok": true,
+  "week_tag": "2026-W32",
+  "total": 8,
+  "grade_a": [
+    {
+      "cluster_name": "Samsung Galaxy Foldables",
+      "content_type": "COMPARISON",
+      "suggested_title": "Galaxy Z Fold 8 vs Z Fold 7: Hinge Durability and Design Comparison",
+      "hub_keyword": "Galaxy Z Fold",
+      "parent_hub": "Galaxy Fold",
+      "spoke_keywords": [
+        "galaxy z fold 8 vs fold 7 hinge durability",
+        "galaxy z fold 8 vs fold 7 design",
+        "galaxy z fold 8 hinge improvements"
+      ],
+      "evergreen_score": 85,
+      "competition_level": "MEDIUM",
+      "affiliate_potential": "HIGH",
+      "timing": "NOW",
+      "verifiability": "HIGH",
+      "trends_queries": [
+        "Galaxy Z Fold 8",
+        "Galaxy Z Fold 7"
+      ],
+      "reasoning": "Compares official specifications and announced design improvements between two released models, a common evergreen search for potential buyers.",
+      "data_grade": "A",
+      "publish_order": 16,
+      "folder": "02-galaxy-fold"
+    },
+    {
+      "cluster_name": "Samsung Galaxy Foldables",
+      "content_type": "GUIDE",
+      "suggested_title": "Galaxy Z Fold 8 First 5 Things to Do: Essential Setup Guide",
+      "hub_keyword": "Galaxy Z Fold",
+      "parent_hub": "Galaxy Fold",
+      "spoke_keywords": [
+        "galaxy z fold 8 setup guide",
+        "first things to do galaxy z fold 8",
+        "galaxy z fold 8 new user tips"
+      ],
+      "evergreen_score": 90,
+      "competition_level": "MEDIUM",
+      "affiliate_potential": "HIGH",
+      "timing": "NOW",
+      "verifiability": "HIGH",
+      "trends_queries": [
+        "Galaxy Z Fold 8 setup",
+        "Galaxy Z Fold tips"
+      ],
+      "reasoning": "Provides actionable steps for new owners, based on common smartphone setup procedures and documented features, remaining relevant for years.",
+      "data_grade": "A",
+      "publish_order": 20,
+      "folder": "02-galaxy-fold"
+    },
+    {
+      "cluster_name": "Samsung Galaxy Foldables",
+      "content_type": "COMPARISON",
+      "suggested_title": "Galaxy Z Fold 8 vs Galaxy Z Flip 8: Which Foldable Phone is Best",
+      "hub_keyword": "Galaxy Z Fold",
+      "parent_hub": "Galaxy Fold",
+      "spoke_keywords": [
+        "galaxy z fold 8 vs galaxy z flip 8",
+        "best samsung foldable phone",
+        "fold 8 or flip 8 comparison"
+      ],
+      "evergreen_score": 85,
+      "competition_level": "MEDIUM",
+      "affiliate_potential": "HIGH",
+      "timing": "NOW",
+      "verifiability": "HIGH",
+      "trends_queries": [
+        "Galaxy Z Fold vs Flip",
+        "Samsung foldable comparison"
+      ],
+      "reasoning": "Compares key features, use cases, and price points of two currently available foldable devices, helping users decide which suits their needs.",
+      "data_grade": "A",
+      "publish_order": 17,
+      "folder": "02-galaxy-fold"
+    },
+    {
+      "cluster_name": "Android System Features",
+      "content_type": "GUIDE",
+      "suggested_title": "How to Customize Android Quick Settings Tiles and Editor",
+      "hub_keyword": "Android Quick Settings",
+      "parent_hub": "Android Features",
+      "spoke_keywords": [
+        "customize android quick settings",
+        "android quick settings editor",
+        "add tiles android quick settings"
+      ],
+      "evergreen_score": 95,
+      "competition_level": "LOW",
+      "affiliate_potential": "LOW",
+      "timing": "NOW",
+      "verifiability": "HIGH",
+      "trends_queries": [
+        "Android Quick Settings custom",
+        "Android tiles editor"
+      ],
+      "reasoning": "A fundamental Android customization feature that is consistently searched for by users across different device generations and remains relevant.",
+      "data_grade": "A",
+      "publish_order": 21,
+      "folder": ""
+    },
+    {
+      "cluster_name": "Android System Features",
+      "content_type": "COMPARISON",
+      "suggested_title": "Google Assistant vs Gemini AI: Which is Best for Android",
+      "hub_keyword": "Google AI Assistant",
+      "parent_hub": "Android Features",
+      "spoke_keywords": [
+        "google assistant vs gemini ai",
+        "best android voice assistant",
+        "gemini ai features android"
+      ],
+      "evergreen_score": 85,
+      "competition_level": "MEDIUM",
+      "affiliate_potential": "LOW",
+      "timing": "NOW",
+      "verifiability": "HIGH",
+      "trends_queries": [
+        "Google Assistant Gemini",
+        "Gemini AI Android"
+      ],
+      "reasoning": "Compares two major AI assistants from Google, relevant as Gemini integrates more deeply with Android and Assistant's role changes.",
+      "data_grade": "A",
+      "publish_order": 18,
+      "folder": ""
+    },
+    {
+      "cluster_name": "PC Gaming Hardware Guides",
+      "content_type": "EXPLAINER",
+      "suggested_title": "What is VRAM and How Much Do You Need for PC Gaming in 2026",
+      "hub_keyword": "VRAM Gaming",
+      "parent_hub": "PC Gaming Hardware",
+      "spoke_keywords": [
+        "what is vram in gaming",
+        "how much vram for pc gaming",
+        "vram requirements 2026"
+      ],
+      "evergreen_score": 90,
+      "competition_level": "MEDIUM",
+      "affiliate_potential": "HIGH",
+      "timing": "NOW",
+      "verifiability": "HIGH",
+      "trends_queries": [
+        "VRAM explained",
+        "gaming VRAM needs"
+      ],
+      "reasoning": "Explains a core component of graphics cards and its importance, providing general guidance that remains relevant for several years.",
+      "data_grade": "A",
+      "publish_order": 19,
+      "folder": ""
+    },
+    {
+      "cluster_name": "PC Gaming Hardware Guides",
+      "content_type": "GUIDE",
+      "suggested_title": "How to Choose the Best RTX 50 Series GPU for 1440p Gaming",
+      "hub_keyword": "RTX 50 Series GPU",
+      "parent_hub": "PC Gaming Hardware",
+      "spoke_keywords": [
+        "best rtx 50 series 1440p gaming",
+        "nvidia rtx 50 for 1440p",
+        "rtx 50 series gpu guide"
+      ],
+      "evergreen_score": 85,
+      "competition_level": "MEDIUM",
+      "affiliate_potential": "HIGH",
+      "timing": "NOW",
+      "verifiability": "HIGH",
+      "trends_queries": [
+        "RTX 50 series 1440p",
+        "best GPU for 1440p"
+      ],
+      "reasoning": "Guides users on selecting a GPU for a specific resolution, leveraging publicly available specifications and performance tiers.",
+      "data_grade": "A",
+      "publish_order": 22,
+      "folder": ""
+    }
+  ],
+  "grade_b": [
+    {
+      "cluster_name": "Android System Features",
+      "content_type": "EXPLAINER",
+      "suggested_title": "Google Messages Long Press Menu Redesign: How to Use New Features",
+      "hub_keyword": "Google Messages",
+      "parent_hub": "Android Features",
+      "spoke_keywords": [
+        "google messages long press menu",
+        "google messages new features",
+        "how to use google messages redesign"
+      ],
+      "evergreen_score": 80,
+      "competition_level": "LOW",
+      "affiliate_potential": "LOW",
+      "timing": "NOW",
+      "verifiability": "HIGH",
+      "trends_queries": [
+        "Google Messages update",
+        "Google Messages redesign"
+      ],
+      "reasoning": "Explains a specific user interface change and its functionality, providing a guide for users who encounter the update.",
+      "data_grade": "B",
+      "publish_order": 23,
+      "folder": ""
+    }
+  ],
+  "grade_c": [],
+  "auto_selected": 8,
+  "elapsed": 30.1,
+  "timestamp": "2026-08-10T01:27:34.948994+00:00"
+}
