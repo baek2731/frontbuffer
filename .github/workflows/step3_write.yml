@@ -67,9 +67,11 @@ jobs:
             if [ "$ITEM" = "$LAST_ITEM" ]; then
               FAIL_STREAK=$((FAIL_STREAK + 1))
               if [ $FAIL_STREAK -ge 2 ]; then
-                echo "⛔ [$CLUSTER][$TYPE] 2회 연속 실패 — 포기, 루프 종료"
+                echo "⛔ [$CLUSTER][$TYPE] 2회 연속 실패 — 스킵하고 다음으로"
                 FAILURES="${FAILURES:+$FAILURES,}[$TYPE] $CLUSTER"
-                break
+                LAST_ITEM=""
+                FAIL_STREAK=0
+                continue
               fi
               echo "⚠️ 같은 항목 재시도 (${FAIL_STREAK}회차)"
             else
@@ -90,8 +92,15 @@ jobs:
               continue
             fi
 
+            # prep이 저장한 최신 write_prompt 파일에서 file_id 추출
+            FILE_ID=$(ls -t research_data/write/prompts/write_prompt_*.txt 2>/dev/null \
+                      | head -1 \
+                      | xargs -I{} basename {} .txt \
+                      | sed 's/^write_prompt_//')
+            echo "  → file_id: $FILE_ID"
+
             echo "🤖 [2/4] Gemini 초안..."
-            if ! python gemini_api.py --cluster "$CLUSTER" --type "$TYPE"; then
+            if ! python gemini_api.py --cluster "$CLUSTER" --type "$TYPE" ${FILE_ID:+--file-id "$FILE_ID"}; then
               echo "❌ Gemini 초안 실패 — 다음 루프로"
               FAILURES="${FAILURES:+$FAILURES,}[$TYPE] $CLUSTER (초안 실패)"
               continue
@@ -104,8 +113,15 @@ jobs:
               continue
             fi
 
+            # review_prompt 파일에서 file_id 재확인 (review도 동일 file_id 사용)
+            REVIEW_FILE_ID=$(ls -t research_data/write/prompts/review_prompt_*.txt 2>/dev/null \
+                             | head -1 \
+                             | xargs -I{} basename {} .txt \
+                             | sed 's/^review_prompt_//')
+            echo "  → review file_id: $REVIEW_FILE_ID"
+
             echo "✨ [4/4] Gemini 그라운딩 팩트체크..."
-            if ! python gemini_review_api.py --cluster "$CLUSTER" --type "$TYPE"; then
+            if ! python gemini_review_api.py --cluster "$CLUSTER" --type "$TYPE" ${REVIEW_FILE_ID:+--file-id "$REVIEW_FILE_ID"}; then
               echo "❌ Gemini Review 실패 — 다음 루프로"
               FAILURES="${FAILURES:+$FAILURES,}[$TYPE] $CLUSTER (팩트체크 실패)"
               continue
