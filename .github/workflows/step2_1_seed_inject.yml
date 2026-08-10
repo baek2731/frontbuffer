@@ -1,0 +1,85 @@
+# =====================================================================
+# Step 2-1: 개별 주제 추가
+# =====================================================================
+# 역할: 에디터가 직접 선택한 주제 키워드를 받아서
+#       1. Google News RSS로 관련 기사 수집
+#       2. Gemini 기획 → content_pipeline.json에 append
+#       3. Step 3 자동 트리거 (글 생성)
+#
+# 트리거: 수동 트리거만 (schedule 없음)
+#
+# 사용 시점:
+#   - Step 2 실행 전: config.json weekly_seeds로 넣는 것과 동일 효과
+#   - Step 2 실행 후: 추가로 특정 주제만 빠르게 파이프라인에 삽입
+# =====================================================================
+
+name: "Step 2-1 - 개별 주제 추가"
+
+on:
+  workflow_dispatch:
+    inputs:
+      topics:
+        description: '추가할 주제 (콤마 구분, 예: RTX 5090 vs RTX 4090, Android 16 features)'
+        required: true
+        default: ''
+      content_types:
+        description: 'content_type 지정 (콤마 구분, 비우면 자동: GUIDE,COMPARISON,EXPLAINER)'
+        required: false
+        default: ''
+      trigger_step3:
+        description: 'Step 3 자동 트리거 여부'
+        required: false
+        default: 'true'
+
+jobs:
+  seed_inject:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Configure Git
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: 주제 주입 + Google News RSS 수집 + Gemini 기획
+        run: |
+          python seed_inject.py \
+            --topics "${{ github.event.inputs.topics }}" \
+            --types  "${{ github.event.inputs.content_types }}"
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+
+      - name: content_pipeline.json 커밋
+        run: |
+          git add content_pipeline.json research_data/weekly/
+          if git diff --cached --quiet; then
+            echo "ℹ️ 변경사항 없음"
+          else
+            git commit -m "feat: 개별 주제 추가 — ${{ github.event.inputs.topics }}"
+            git pull origin main --rebase || true
+            git push origin HEAD:main
+            echo "✅ 커밋 완료"
+          fi
+
+      - name: Step 3 자동 트리거
+        if: github.event.inputs.trigger_step3 == 'true'
+        run: |
+          echo "🚀 Step 3 트리거..."
+          curl -s -X POST \
+            -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+            -H "Accept: application/vnd.github.v3+json" \
+            "https://api.github.com/repos/${{ github.repository }}/actions/workflows/step3_write.yml/dispatches" \
+            -d '{"ref":"main"}'
+          echo "✅ Step 3 트리거 완료"
