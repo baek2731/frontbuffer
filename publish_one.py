@@ -387,19 +387,22 @@ def main():
 
     gaming_keys = ["steam", "game", "gaming", "xbox", "playstation",
                    "nintendo", "fallout", "portable", "handheld", "deck"]
-    cat = "gaming" if any(k in target_slug for k in gaming_keys) else "tech"
 
-    # content_type을 URL에 노출할 때 HUB → hub 로 소문자 통일
-    # 기존 _HUB 대문자 노출 방지 (언더스코어는 Jekyll 슬러그 구분자로 유지)
-    ct_url = target_ct.lower()
-    post_filename = f"{date_str}-{target_slug}_{ct_url}.md"
-    jekyll_slug   = post_filename[len(date_str) + 1:-3]
+    # ── 카테고리: 제목 기반으로도 판단 (파일명 + 제목 둘 다 체크) ──
+    cat_check = (target_slug + " " + title.lower())
+    cat = "gaming" if any(k in cat_check for k in gaming_keys) else "tech"
+
+    # ── URL 슬러그: H1 제목 기반으로 생성 (SEO 최적화) ──────────────
+    # 기존 파일명 기반 슬러그 대신 실제 제목에서 키워드 포함 슬러그 생성
+    title_slug    = slugify(title)[:60]
+    post_filename = f"{date_str}-{title_slug}.md"
+    jekyll_slug   = title_slug
     pub_url       = f"https://frontbuffer.net/{cat}/{jekyll_slug}/"
 
-    # HUB는 permalink에서 _hub 제거 → /tech/samsung-health-data-ecosystem/
+    # HUB는 permalink에서 타입 접미사 제거
     hub_permalink = None
     if target_ct.upper() == "HUB":
-        hub_permalink = f"/{cat}/{target_slug}/"
+        hub_permalink = f"/{cat}/{title_slug}/"
         pub_url = f"https://frontbuffer.net{hub_permalink}"
 
     # ── [INTERNAL LINK: xxx] → 실제 URL 주입 (PENDING/미매칭은 제거) ─
