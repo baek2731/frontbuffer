@@ -1,7 +1,7 @@
 {
   "_version": "1.3",
   "_description": "콘텐츠 파이프라인 — 클러스터 단위 관리",
-  "_last_updated": "2026-08-10T07:02:37.991911+00:00",
+  "_last_updated": "2026-08-10T07:03:59.257840+00:00",
   "hub_clusters": {
     "Steam Machine": {
       "hub_keyword": "Steam Machine",
@@ -261,8 +261,12 @@
       "spokes": [
         "Google Android Ecosystem"
       ],
-      "spoke_urls": {},
-      "internal_links": []
+      "spoke_urls": {
+        "Google Android Ecosystem (EXPLAINER)": "pending"
+      },
+      "internal_links": [
+        "pending"
+      ]
     },
     "PC Gaming Ecosystem": {
       "hub_keyword": "PC Gaming Ecosystem",
@@ -900,12 +904,13 @@
       "notes": ""
     },
     "Google Android Ecosystem": {
-      "types_done": [],
-      "last_week": "2026-W30",
+      "types_done": [
+        "EXPLAINER"
+      ],
+      "last_week": "2026-W32",
       "suggest_next": [
         "COMPARISON",
         "GUIDE",
-        "EXPLAINER",
         "LISTICLE"
       ],
       "hub_keyword": "Pixel Launcher",
@@ -3008,9 +3013,10 @@
             "competition_index": 16
           }
         ],
-        "status": "candidate",
+        "status": "published",
         "selected_at": "2026-07-27T08:31:32.947383+00:00",
-        "publish_order": 12
+        "publish_order": 12,
+        "url": "pending"
       },
       {
         "cluster_name": "Google Android Ecosystem",
@@ -4364,6 +4370,15 @@
       "week_tag": "2026-W31",
       "published_at": "2026-08-07T14:54:21.318154+00:00",
       "hub_cluster": "Samsung Galaxy Foldables"
+    },
+    {
+      "cluster_name": "Google Android Ecosystem",
+      "title": "Google Gemini for Home Context Memory: How it Works and Benefits",
+      "url": "pending",
+      "content_type": "EXPLAINER",
+      "week_tag": "2026-W32",
+      "published_at": "2026-08-10T07:03:59.257785+00:00",
+      "hub_cluster": "Google Android Ecosystem"
     }
   ]
 }
