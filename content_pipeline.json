@@ -1,7 +1,7 @@
 {
   "_version": "1.3",
   "_description": "콘텐츠 파이프라인 — 클러스터 단위 관리",
-  "_last_updated": "2026-08-10T07:03:59.257840+00:00",
+  "_last_updated": "2026-08-10T07:05:37.309058+00:00",
   "hub_clusters": {
     "Steam Machine": {
       "hub_keyword": "Steam Machine",
@@ -239,8 +239,12 @@
         "Samsung Galaxy Foldable Phones & Wearables",
         "Samsung Galaxy Fold 8 Features"
       ],
-      "spoke_urls": {},
-      "internal_links": []
+      "spoke_urls": {
+        "Samsung Galaxy Fold 8 Features (COMPARISON)": "pending"
+      },
+      "internal_links": [
+        "pending"
+      ]
     },
     "Samsung Galaxy Fold Flip": {
       "hub_keyword": "Samsung Galaxy Fold Flip",
@@ -1122,10 +1126,11 @@
       "notes": ""
     },
     "Samsung Galaxy Fold 8 Features": {
-      "types_done": [],
-      "last_week": "2026-W30",
+      "types_done": [
+        "COMPARISON"
+      ],
+      "last_week": "2026-W32",
       "suggest_next": [
-        "COMPARISON",
         "GUIDE",
         "EXPLAINER",
         "LISTICLE"
@@ -3758,8 +3763,9 @@
         "data_grade": "A",
         "verified_keywords": [],
         "publish_order": 3,
-        "status": "candidate",
-        "selected_at": "2026-07-28T01:48:12.754550+00:00"
+        "status": "published",
+        "selected_at": "2026-07-28T01:48:12.754550+00:00",
+        "url": "pending"
       },
       {
         "cluster_name": "Android Auto Troubleshooting",
@@ -4379,6 +4385,15 @@
       "week_tag": "2026-W32",
       "published_at": "2026-08-10T07:03:59.257785+00:00",
       "hub_cluster": "Google Android Ecosystem"
+    },
+    {
+      "cluster_name": "Samsung Galaxy Fold 8 Features",
+      "title": "Galaxy Z Fold 8 vs. Fold 7 Camera Comparison: Low Light Performance",
+      "url": "pending",
+      "content_type": "COMPARISON",
+      "week_tag": "2026-W32",
+      "published_at": "2026-08-10T07:05:37.308998+00:00",
+      "hub_cluster": "Samsung Galaxy Fold"
     }
   ]
 }
