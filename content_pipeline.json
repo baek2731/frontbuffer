@@ -1,7 +1,7 @@
 {
   "_version": "1.3",
   "_description": "콘텐츠 파이프라인 — 클러스터 단위 관리",
-  "_last_updated": "2026-08-10T07:09:34.731310+00:00",
+  "_last_updated": "2026-08-10T07:10:45.029567+00:00",
   "hub_clusters": {
     "Steam Machine": {
       "hub_keyword": "Steam Machine",
@@ -420,8 +420,12 @@
       "spokes": [
         "PC Gaming Hardware Guides"
       ],
-      "spoke_urls": {},
-      "internal_links": []
+      "spoke_urls": {
+        "PC Gaming Hardware Guides (EXPLAINER)": "pending"
+      },
+      "internal_links": [
+        "pending"
+      ]
     }
   },
   "covered_clusters": {
@@ -1222,12 +1226,13 @@
       "notes": ""
     },
     "PC Gaming Hardware Guides": {
-      "types_done": [],
+      "types_done": [
+        "EXPLAINER"
+      ],
       "last_week": "2026-W32",
       "suggest_next": [
         "COMPARISON",
         "GUIDE",
-        "EXPLAINER",
         "LISTICLE"
       ],
       "hub_keyword": "RTX 50 Series GPU",
@@ -4032,8 +4037,9 @@
         "data_grade": "A",
         "verified_keywords": [],
         "publish_order": 19,
-        "status": "candidate",
-        "selected_at": "2026-08-10T01:27:34.943434+00:00"
+        "status": "published",
+        "selected_at": "2026-08-10T01:27:34.943434+00:00",
+        "url": "pending"
       },
       {
         "cluster_name": "Samsung Galaxy Foldables",
@@ -4424,6 +4430,15 @@
       "week_tag": "2026-W32",
       "published_at": "2026-08-10T07:09:34.731269+00:00",
       "hub_cluster": "Android Features"
+    },
+    {
+      "cluster_name": "PC Gaming Hardware Guides",
+      "title": "What is VRAM and How Much Do You Need for PC Gaming in 2026",
+      "url": "pending",
+      "content_type": "EXPLAINER",
+      "week_tag": "2026-W32",
+      "published_at": "2026-08-10T07:10:45.029525+00:00",
+      "hub_cluster": "PC Gaming Hardware"
     }
   ]
 }
