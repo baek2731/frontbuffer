@@ -1,7 +1,7 @@
 {
   "_version": "1.3",
   "_description": "콘텐츠 파이프라인 — 클러스터 단위 관리",
-  "_last_updated": "2026-08-10T07:13:09.968770+00:00",
+  "_last_updated": "2026-08-10T07:15:54.571455+00:00",
   "hub_clusters": {
     "Steam Machine": {
       "hub_keyword": "Steam Machine",
@@ -4172,8 +4172,9 @@
         "source": "seed_inject",
         "week_tag": "2026-W32",
         "publish_order": 24,
-        "status": "candidate",
-        "selected_at": "2026-08-10T07:02:37.991678+00:00"
+        "status": "published",
+        "selected_at": "2026-08-10T07:02:37.991678+00:00",
+        "url": "pending"
       },
       {
         "cluster_name": "Android Desktop Mode vs Samsung DeX",
@@ -4463,6 +4464,15 @@
       "week_tag": "2026-W32",
       "published_at": "2026-08-10T07:13:09.968728+00:00",
       "hub_cluster": "Android Features"
+    },
+    {
+      "cluster_name": "Android 16 Desktop Mode Setup",
+      "title": "Exploring Android's Desktop Mode: From Developer Options to Future Possibilities",
+      "url": "pending",
+      "content_type": "GUIDE",
+      "week_tag": "2026-W32",
+      "published_at": "2026-08-10T07:15:54.571412+00:00",
+      "hub_cluster": ""
     }
   ]
 }
