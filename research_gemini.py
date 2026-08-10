@@ -199,6 +199,26 @@ def main():
     prompt_text = open(prompt_path, encoding="utf-8").read()
     print(f"  📏 크기: {len(prompt_text.encode())/1024:.1f} KB")
 
+    # ── weekly_seeds 주입 ──────────────────────────────────────────
+    try:
+        import json as _json
+        cfg = _json.loads(open("config.json", encoding="utf-8").read())
+        seeds = cfg.get("weekly_seeds", {}).get(week_tag, [])
+        if seeds:
+            seed_block = "\n\n[WEEKLY SEED KEYWORDS — 이번 주 우선 고려 주제]\n"
+            seed_block += "아래 키워드를 클러스터 선정 시 우선 반영할 것.\n"
+            seed_block += "단, 이미 covered_clusters에 있는 주제와 중복되면 제외.\n"
+            seed_block += "같은 브랜드/카테고리가 2개 이상이면 1개만 선택할 것.\n"
+            for s in seeds:
+                seed_block += f"  - {s}\n"
+            prompt_text += seed_block
+            print(f"  🌱 weekly_seeds 주입: {len(seeds)}개 → {seeds}")
+        else:
+            print(f"  ℹ️  weekly_seeds 없음 ({week_tag}) — 기존 방식으로 진행")
+    except Exception as e:
+        print(f"  ⚠️  weekly_seeds 로드 실패 (무시): {e}")
+    # ────────────────────────────────────────────────────────────────
+
     # 2. Gemini API 호출
     start    = time.time()
     response = call_gemini(prompt_text)
