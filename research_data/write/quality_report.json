@@ -1,11 +1,11 @@
 {
-  "total": 11,
-  "ok": 8,
-  "issue_count": 3,
+  "total": 19,
+  "ok": 14,
+  "issue_count": 5,
   "issue_files": [
     {
-      "name": "014_2026-W32_gaming-media-formats_COMPARISON",
-      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/014_2026-W32_gaming-media-formats_COMPARISON.md",
+      "name": "012_2026-W32_google-android-ecosystem_EXPLAINER",
+      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/012_2026-W32_google-android-ecosystem_EXPLAINER.md",
       "issues": [
         {
           "id": "R5",
@@ -15,8 +15,8 @@
       ]
     },
     {
-      "name": "015_2026-W32_gaming-media-formats_GUIDE",
-      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/015_2026-W32_gaming-media-formats_GUIDE.md",
+      "name": "018_2026-W32_android-system-features_COMPARISON",
+      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/018_2026-W32_android-system-features_COMPARISON.md",
       "issues": [
         {
           "id": "R5",
@@ -26,12 +26,46 @@
       ]
     },
     {
-      "name": "016_2026-W32_02-galaxy-fold_COMPARISON",
-      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/016_2026-W32_02-galaxy-fold_COMPARISON.md",
+      "name": "021_2026-W32_android-system-features_GUIDE",
+      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/021_2026-W32_android-system-features_GUIDE.md",
       "issues": [
         {
           "id": "R5",
           "label": "발행 불가 — 미처리 내부링크 잔존",
+          "block": true
+        }
+      ]
+    },
+    {
+      "name": "022_2026-W32_pc-gaming-hardware-guides_GUIDE",
+      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/022_2026-W32_pc-gaming-hardware-guides_GUIDE.md",
+      "issues": [
+        {
+          "id": "R4",
+          "label": "H1 제목 없음"
+        },
+        {
+          "id": "R5",
+          "label": "발행 불가 — Gemini cite 번호 잔존",
+          "block": true
+        },
+        {
+          "id": "R3",
+          "label": "단어수 미달 (245단어 / 최소 800)"
+        }
+      ]
+    },
+    {
+      "name": "023_2026-W32_android-system-features_EXPLAINER",
+      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/023_2026-W32_android-system-features_EXPLAINER.md",
+      "issues": [
+        {
+          "id": "R4",
+          "label": "H1 제목 없음"
+        },
+        {
+          "id": "R5",
+          "label": "발행 불가 — Gemini cite 번호 잔존",
           "block": true
         }
       ]
@@ -84,33 +118,47 @@
       "file": "research_data/write/final/012_2026-W32_google-android-ecosystem_EXPLAINER.md",
       "name": "012_2026-W32_google-android-ecosystem_EXPLAINER",
       "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/012_2026-W32_google-android-ecosystem_EXPLAINER.md",
-      "issues": [],
-      "ok": true
-    },
-    {
-      "file": "research_data/write/final/014_2026-W30_gaming-media-formats_COMPARISON.md",
-      "name": "014_2026-W30_gaming-media-formats_COMPARISON",
-      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/014_2026-W30_gaming-media-formats_COMPARISON.md",
-      "issues": [],
-      "ok": true
+      "issues": [
+        {
+          "id": "R5",
+          "label": "발행 불가 — 미처리 내부링크 잔존",
+          "block": true
+        }
+      ],
+      "ok": false
     },
     {
       "file": "research_data/write/final/014_2026-W32_gaming-media-formats_COMPARISON.md",
       "name": "014_2026-W32_gaming-media-formats_COMPARISON",
       "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/014_2026-W32_gaming-media-formats_COMPARISON.md",
-      "issues": [
-        {
-          "id": "R5",
-          "label": "발행 불가 — 미처리 내부링크 잔존",
-          "block": true
-        }
-      ],
-      "ok": false
+      "issues": [],
+      "ok": true
     },
     {
       "file": "research_data/write/final/015_2026-W32_gaming-media-formats_GUIDE.md",
       "name": "015_2026-W32_gaming-media-formats_GUIDE",
       "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/015_2026-W32_gaming-media-formats_GUIDE.md",
+      "issues": [],
+      "ok": true
+    },
+    {
+      "file": "research_data/write/final/016_2026-W32_02-galaxy-fold_COMPARISON.md",
+      "name": "016_2026-W32_02-galaxy-fold_COMPARISON",
+      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/016_2026-W32_02-galaxy-fold_COMPARISON.md",
+      "issues": [],
+      "ok": true
+    },
+    {
+      "file": "research_data/write/final/017_2026-W32_02-galaxy-fold_COMPARISON.md",
+      "name": "017_2026-W32_02-galaxy-fold_COMPARISON",
+      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/017_2026-W32_02-galaxy-fold_COMPARISON.md",
+      "issues": [],
+      "ok": true
+    },
+    {
+      "file": "research_data/write/final/018_2026-W32_android-system-features_COMPARISON.md",
+      "name": "018_2026-W32_android-system-features_COMPARISON",
+      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/018_2026-W32_android-system-features_COMPARISON.md",
       "issues": [
         {
           "id": "R5",
@@ -121,9 +169,23 @@
       "ok": false
     },
     {
-      "file": "research_data/write/final/016_2026-W32_02-galaxy-fold_COMPARISON.md",
-      "name": "016_2026-W32_02-galaxy-fold_COMPARISON",
-      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/016_2026-W32_02-galaxy-fold_COMPARISON.md",
+      "file": "research_data/write/final/019_2026-W32_pc-gaming-hardware-guides_EXPLAINER.md",
+      "name": "019_2026-W32_pc-gaming-hardware-guides_EXPLAINER",
+      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/019_2026-W32_pc-gaming-hardware-guides_EXPLAINER.md",
+      "issues": [],
+      "ok": true
+    },
+    {
+      "file": "research_data/write/final/020_2026-W32_02-galaxy-fold_GUIDE.md",
+      "name": "020_2026-W32_02-galaxy-fold_GUIDE",
+      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/020_2026-W32_02-galaxy-fold_GUIDE.md",
+      "issues": [],
+      "ok": true
+    },
+    {
+      "file": "research_data/write/final/021_2026-W32_android-system-features_GUIDE.md",
+      "name": "021_2026-W32_android-system-features_GUIDE",
+      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/021_2026-W32_android-system-features_GUIDE.md",
       "issues": [
         {
           "id": "R5",
@@ -132,6 +194,58 @@
         }
       ],
       "ok": false
+    },
+    {
+      "file": "research_data/write/final/022_2026-W32_pc-gaming-hardware-guides_GUIDE.md",
+      "name": "022_2026-W32_pc-gaming-hardware-guides_GUIDE",
+      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/022_2026-W32_pc-gaming-hardware-guides_GUIDE.md",
+      "issues": [
+        {
+          "id": "R4",
+          "label": "H1 제목 없음"
+        },
+        {
+          "id": "R5",
+          "label": "발행 불가 — Gemini cite 번호 잔존",
+          "block": true
+        },
+        {
+          "id": "R3",
+          "label": "단어수 미달 (245단어 / 최소 800)"
+        }
+      ],
+      "ok": false
+    },
+    {
+      "file": "research_data/write/final/023_2026-W32_android-system-features_EXPLAINER.md",
+      "name": "023_2026-W32_android-system-features_EXPLAINER",
+      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/023_2026-W32_android-system-features_EXPLAINER.md",
+      "issues": [
+        {
+          "id": "R4",
+          "label": "H1 제목 없음"
+        },
+        {
+          "id": "R5",
+          "label": "발행 불가 — Gemini cite 번호 잔존",
+          "block": true
+        }
+      ],
+      "ok": false
+    },
+    {
+      "file": "research_data/write/final/024_2026-W32_android-16-desktop-mode-setup_GUIDE.md",
+      "name": "024_2026-W32_android-16-desktop-mode-setup_GUIDE",
+      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/024_2026-W32_android-16-desktop-mode-setup_GUIDE.md",
+      "issues": [],
+      "ok": true
+    },
+    {
+      "file": "research_data/write/final/025_2026-W32_android-desktop-mode-vs-samsung-dex_COMPARISON.md",
+      "name": "025_2026-W32_android-desktop-mode-vs-samsung-dex_COMPARISON",
+      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/025_2026-W32_android-desktop-mode-vs-samsung-dex_COMPARISON.md",
+      "issues": [],
+      "ok": true
     }
   ]
 }
