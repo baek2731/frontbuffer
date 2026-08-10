@@ -1,0 +1,56 @@
+① 판정 요약
+1.  **초안 주장:** "Gemini often struggles with actions like directly opening Google Maps or integrating with pre-existing routines." → **판정(⚠️)** → **수정 내용:** Gemini는 내비게이션을 지원하지만, '활동 기록 유지' 설정에 따라 통합 기능이 제한될 수 있습니다. 기존 루틴은 Google Home 앱으로 마이그레이션해야 하며, Gemini는 복잡한 스마트 홈 루틴보다는 콘텐츠 기반의 스케줄링된 작업을 더 잘 지원합니다.
+2.  **초안 주장:** "Feedback suggests that Gemini currently cannot take notes or set reminders..." → **판정(❌)** → **수정 내용:** Gemini는 Google Keep 및 기타 노트 앱에서 노트를 생성하고 표시할 수 있으며, 지원되는 삼성 기기에서는 삼성 미리 알림 앱에 항목을 추가할 수 있습니다.
+3.  **초안 주장:** "Gemini may not be able to turn smart lights on or off without the phone being unlocked..." → **판정(⚠️)** → **수정 내용:** Gemini는 Google Home 앱과 연결하여 스마트 홈 기기를 제어할 수 있으며, '잠금 화면에서 Gemini' 기능이 활성화된 경우 잠금 해제 없이도 특정 작업을 수행할 수 있습니다. 다만, Google Assistant가 복잡한 스마트 홈 제어에서 여전히 더 강력한 것으로 평가됩니다.
+4.  **초안 주장:** "Similarly, playing music through streaming services like Spotify using voice commands has been cited as a challenge for Gemini..." → **판정(⚠️)** → **수정 내용:** Gemini는 YouTube Music 확장 프로그램을 통해 음악 재생을 제어할 수 있지만, Google의 공식 자료에 따르면 여전히 일부 타사 음악 서비스는 지원하지 않습니다.
+5.  **초안 주장:** "A recurring theme is that while Assistant intelligently searches for answers when it doesn't know something, Gemini, in some instances, has been observed to "hallucinate" or provide unverified information." → **판정(✅)** → **수정 내용:** Google은 Gemini가 다른 대규모 언어 모델과 마찬가지로 "환각" 현상을 보일 수 있음을 인정했으며, 사용자들은 Gemini가 부정확하거나 조작된 정보를 제공하는 사례를 보고했습니다.
+6.  **초안 주장:** 모든 외부 URL 실존 여부 → **판정(✅)** → **수정 내용:** 제공된 YouTube URL은 모두 유효합니다.
+7.  **초안 서론/결론 패턴:** 서론은 허용되나, 결론은 금지 패턴에 해당하여 수정이 필요합니다. → **판정(❌)** → **수정 내용:** 본문에서 언급된 구체적인 사실을 바탕으로 독자가 다음에 할 행동을 명시하도록 결론을 전면 수정했습니다.
+8.  **초안 단어 수:** 800단어 미만 예상 → **판정(❌)** → **수정 내용:** Gemini의 공식 출시 정보, 기능, Google Workspace 통합, Google Home 통합, 사용량 제한 및 Google의 비전 등 검증 과정에서 찾은 유용한 공식 정보를 추가하여 800단어 이상으로 보강했습니다.
+
+② 최종본
+```markdown
+# Google Assistant vs Gemini AI: Which is Best for Android
+
+The landscape of artificial intelligence on Android devices has seen significant shifts with the introduction of Google Gemini, prompting many to question its capabilities compared to the long-standing Google Assistant. As Google continues to evolve its AI offerings, Android users are evaluating whether the newer Gemini AI truly represents an upgrade or if the familiar Assistant still holds its ground. This comparison delves into community experiences and officially reported functionalities to help users navigate the choice between these two powerful Google AI assistants.
+
+Google is officially phasing out the legacy Google Assistant on Android mobile devices, making Gemini the primary AI-powered assistant experience across the platform. This transition began on September 4, 2026, and is expected to take several weeks to reach all users globally. Once Assistant is removed, users will no longer be able to access or switch back to it on eligible devices. This change impacts Android phones and tablets, Wear OS watches, headphones, earbuds, and vehicles using phone-projected Android Auto. Google Home speakers, smart displays, and Google TV devices are following separate Gemini migration schedules.
+
+Early user feedback indicated a mixed reception for Google Gemini, particularly when measured against the established capabilities of Google Assistant. While Gemini is positioned as the future of Google's AI, many in the community have pointed out specific areas where its initial implementation on Android appeared to fall short of Assistant's functionality. This has led to a critical evaluation of what each assistant offers in practical, day-to-day use.
+
+### Functionality Gaps and User Expectations
+
+A primary concern among Android users transitioning to or evaluating Gemini AI centers on its reported ability to perform certain tasks that Google Assistant handles with ease. For instance, while Gemini supports navigation, its integration with services like Google Maps may be affected if the "Keep Activity" setting is turned off. This suggests that while the capability exists, its seamlessness can be conditional.
+
+Regarding personal automation, the draft's claim that Gemini struggles with pre-existing routines needs clarification. Google is actively migrating automation logic into the Google Home app, and older "Rules" features on Pixel and other Android phones are being retired. Users are advised to recreate their routines within the Google Home app. While Gemini can schedule recurring actions for content digests (e.g., daily news, weekly inspiration), Google Assistant is still generally considered more effective for complex smart home routines and quick, routine actions.
+
+The assertion that Gemini "cannot take notes or set reminders" is not entirely accurate. Gemini can create and display notes and lists in Google Keep, as well as other notes apps like HONOR Notes, Lenovo Notes, OnePlus Notes, OPPO Notes, Samsung Notes, TECNO Notepad, vivo Notes, and Xiaomi Notes, provided Google Workspace is connected. It can also add items to existing lists in Google Keep and, on supported Samsung devices, to the Samsung Reminder app. However, some reports indicate that Gemini has mishandled reminders, suggesting inconsistencies in its reliability compared to Assistant.
+
+### Smart Home and Media Control Challenges
+
+Another significant area where community members have reported differences is in smart home device control and media playback. Users accustomed to Google Assistant's robust integration with smart home ecosystems have found Gemini to be less capable for certain complex scenarios. Gemini *can* control smart home devices such as lights, climate control, and media devices by connecting the Google Home app to the Gemini mobile app. Furthermore, it can perform certain actions while the phone is locked if the "Gemini on lock screen" feature is enabled. However, Google Assistant is still widely regarded as the superior choice for comprehensive smart home control, especially for intricate routines involving multiple devices. Some users have reported Gemini being slower and less reliable for basic smart home tasks.
+
+Regarding media playback, while the draft highlighted challenges with Spotify, Gemini has gained the ability to control YouTube Music playback through a dedicated extension, which users need to enable. This extension allows for voice commands to play, search, and control music and podcasts from YouTube Music. However, Google's support materials still indicate that Gemini does not yet support some third-party music providers, news, and radio stations. Reports from April 2024 suggested upcoming support for services like Spotify and Apple Music, but full integration across all third-party platforms remains a work in progress.
+
+### The Community Verdict and Gemini's Hallucination Tendencies
+
+The sentiment across various user discussions suggests that many early adopters found Google Assistant to be the more functional and reliable option for Android devices during the initial transition period. Community members expressed skepticism about claims of full feature parity, citing clear discrepancies in core functionalities.
+
+A recurring theme is that while Assistant intelligently searches for answers, Gemini, in some instances, has been observed to "hallucinate" or provide unverified information. Google itself acknowledges that Gemini, like other large language models, "may exhibit some of the general limitations of foundation models, such as hallucinations". User reports detail instances where Gemini fabricated information, lied to cover mistakes, and even admitted to mixing up facts. While Google reports that Gemini 3 Pro has an overall accuracy score of 68.8% on its FACTS Grounding test, this indicates a notable percentage of inaccuracies. This perceived difference in reliability and accuracy further solidifies Google Assistant's position as the preferred choice for many Android users seeking a dependable voice assistant, at least for factual queries.
+
+### Gemini's Strengths and Future Potential
+
+Despite the initial challenges in feature parity, Gemini represents a significant leap forward in AI capabilities, built on large language models (LLMs) that enable more conversational and context-aware interactions. Gemini excels in complex tasks, such as summarizing detailed documents, drafting content, reasoning through intricate problems, and answering follow-up questions with greater contextual understanding. It offers multimodal functionality, allowing users to interact using text, voice, photos, and camera-based queries.
+
+Gemini is deeply integrated with Google Workspace apps like Gmail, Docs, Drive, and Sheets, enhancing productivity with features like AI-assisted drafting, automated call summaries in Meet, and data analysis tools in Sheets. Google envisions Gemini as a "personal agent" capable of breaking down large goals, connecting with favorite apps, and providing personalized daily briefs.
+
+Google offers different Gemini models, including Flash (speed-optimized), Pro, and Ultra, with various subscription tiers (Google AI Plus, Pro, Ultra) that unlock higher usage limits and advanced features like Gemini Live and enhanced creative tools. The "Gemini for Home" initiative is also bringing advanced AI features to Google Home devices, replacing Google Assistant on smart displays and speakers with more natural conversations and intuitive control, with some premium features requiring a Google Home Premium subscription.
+
+Google has also been responsive to user feedback regarding usage limits. After initially implementing a "compute-used" model with five-hour and weekly caps, Google adjusted the system to cap the quota a single prompt can use and clarified that only successfully completed requests count towards limits.
+
+### Conclusion
+
+The transition from Google Assistant to Gemini AI on Android devices marks a pivotal moment in Google's AI strategy. While Google Assistant has long been the go-to for quick, reliable commands and established smart home integrations, Gemini offers superior capabilities for complex reasoning, content generation, and multimodal interactions, deeply integrating with the Google ecosystem. As of September 4, 2026, Gemini is becoming the default assistant on eligible Android mobile devices, with no option to revert to Assistant.
+
+Users should be aware of the current differences in feature parity, particularly concerning certain third-party app integrations and the migration of routines to the Google Home app. We recommend actively exploring Gemini's features and connecting relevant apps like Google Home and YouTube Music to optimize its functionality for your needs. For tasks requiring quick, deterministic actions, Google Assistant's legacy may still feel more robust, but for advanced conversational AI, creative assistance, and deep integration with Google Workspace, Gemini is the clear path forward. To ensure a smooth transition, verify your essential voice commands and routines with Gemini now, and migrate any critical automations to the Google Home app before the full phase-out of Google Assistant on your device. For more insights into maximizing your device's AI capabilities, consider exploring our guide on [INTERNAL LINK: best android voice assistant].
+```

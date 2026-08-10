@@ -1,7 +1,7 @@
 {
   "_version": "1.3",
   "_description": "콘텐츠 파이프라인 — 클러스터 단위 관리",
-  "_last_updated": "2026-08-10T07:06:53.808859+00:00",
+  "_last_updated": "2026-08-10T07:09:34.731310+00:00",
   "hub_clusters": {
     "Steam Machine": {
       "hub_keyword": "Steam Machine",
@@ -405,8 +405,12 @@
       "spokes": [
         "Android System Features"
       ],
-      "spoke_urls": {},
-      "internal_links": []
+      "spoke_urls": {
+        "Android System Features (COMPARISON)": "pending"
+      },
+      "internal_links": [
+        "pending"
+      ]
     },
     "PC Gaming Hardware": {
       "hub_keyword": "PC Gaming Hardware",
@@ -1195,10 +1199,11 @@
       "notes": ""
     },
     "Android System Features": {
-      "types_done": [],
+      "types_done": [
+        "COMPARISON"
+      ],
       "last_week": "2026-W32",
       "suggest_next": [
-        "COMPARISON",
         "GUIDE",
         "EXPLAINER",
         "LISTICLE"
@@ -4000,8 +4005,9 @@
         "data_grade": "A",
         "verified_keywords": [],
         "publish_order": 18,
-        "status": "candidate",
-        "selected_at": "2026-08-10T01:27:34.943434+00:00"
+        "status": "published",
+        "selected_at": "2026-08-10T01:27:34.943434+00:00",
+        "url": "pending"
       },
       {
         "cluster_name": "PC Gaming Hardware Guides",
@@ -4409,6 +4415,15 @@
       "week_tag": "2026-W32",
       "published_at": "2026-08-10T07:06:53.808818+00:00",
       "hub_cluster": "Galaxy Fold"
+    },
+    {
+      "cluster_name": "Android System Features",
+      "title": "Google Assistant vs Gemini AI: Which is Best for Android",
+      "url": "pending",
+      "content_type": "COMPARISON",
+      "week_tag": "2026-W32",
+      "published_at": "2026-08-10T07:09:34.731269+00:00",
+      "hub_cluster": "Android Features"
     }
   ]
 }
