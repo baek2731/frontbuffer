@@ -1,7 +1,7 @@
 {
   "_version": "1.3",
   "_description": "콘텐츠 파이프라인 — 클러스터 단위 관리",
-  "_last_updated": "2026-08-10T01:27:34.943652+00:00",
+  "_last_updated": "2026-08-10T07:02:37.991911+00:00",
   "hub_clusters": {
     "Steam Machine": {
       "hub_keyword": "Steam Machine",
@@ -4114,6 +4114,55 @@
         "publish_order": 23,
         "status": "candidate",
         "selected_at": "2026-08-10T01:27:34.943434+00:00"
+      },
+      {
+        "cluster_name": "Android 16 Desktop Mode Setup",
+        "content_type": "GUIDE",
+        "hub_keyword": "Android 16 desktop mode setup",
+        "spoke_keywords": [
+          "how to set up android 16 desktop mode",
+          "android 16 connected display guide",
+          "optimize android 16 desktop experience",
+          "android 16 desktop mode accessories"
+        ],
+        "internal_link_targets": [
+          "How to Stream PC Games to Your Android Tablet with Moonlight and Sunshine",
+          "How to Optimize Cover Screen Apps on Galaxy Z Flip 8"
+        ],
+        "rationale": "Android 16's Desktop Mode is a significant new feature, driving high search intent for setup guides and optimization tips. This content will be evergreen as a core OS functionality.",
+        "data_grade": "A",
+        "trends_pattern": "RISING",
+        "folder": "",
+        "source": "seed_inject",
+        "week_tag": "2026-W32",
+        "publish_order": 24,
+        "status": "candidate",
+        "selected_at": "2026-08-10T07:02:37.991678+00:00"
+      },
+      {
+        "cluster_name": "Android Desktop Mode vs Samsung DeX",
+        "content_type": "COMPARISON",
+        "hub_keyword": "Android 16 connected display vs Samsung DeX",
+        "spoke_keywords": [
+          "pixel desktop mode vs dex",
+          "android 16 desktop mode comparison",
+          "samsung dex features",
+          "best phone desktop experience"
+        ],
+        "internal_link_targets": [
+          "How to Optimize Cover Screen Apps on Galaxy Z Flip 8",
+          "Galaxy Z Fold 8 vs Galaxy Z Fold 8 Ultra: Key Differences Explained",
+          "How to Stream PC Games to Your Android Tablet with Moonlight and Sunshine"
+        ],
+        "rationale": "The direct comparison between Android 16's new Desktop Mode and the established Samsung DeX is a highly searched topic, providing clear value to users deciding between or understanding these two major phone-as-PC solutions. This comparison will remain evergreen.",
+        "data_grade": "A",
+        "trends_pattern": "RISING",
+        "folder": "",
+        "source": "seed_inject",
+        "week_tag": "2026-W32",
+        "publish_order": 25,
+        "status": "candidate",
+        "selected_at": "2026-08-10T07:02:37.991678+00:00"
       }
     ]
   },

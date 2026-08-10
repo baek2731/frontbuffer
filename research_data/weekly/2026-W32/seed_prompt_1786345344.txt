@@ -1,0 +1,222 @@
+You are a senior content strategist for Frontbuffer Editorial, a tech and gaming blog targeting English-speaking readers.
+
+## YOUR TASK
+The editor has manually selected topics to add to the content pipeline.
+Generate ONE cluster entry per topic. Each cluster must:
+1. Be evergreen (valuable beyond this week's news cycle)
+2. Connect organically to existing published articles where possible
+3. Not duplicate any already-covered cluster
+
+## MANUALLY SELECTED TOPICS WITH NEWS CONTEXT
+
+### 주제: Android 16 desktop mode setup
+  - [Android Police] Android 16's Desktop Mode is finally a Windows-style powerhouse - Android Police
+    Android 16's Desktop Mode is finally a Windows-style powerhouse&nbsp;&nbsp;Android Police
+  - [Android Authority] Pixel’s Desktop Mode is amazing — until you hit this one frustration - Android Authority
+    Pixel’s Desktop Mode is amazing — until you hit this one frustration&nbsp;&nbsp;Android Authority
+  - [How-To Geek] How to turn your Android phone into a mini PC with Desktop Mode - How-To Geek
+    How to turn your Android phone into a mini PC with Desktop Mode&nbsp;&nbsp;How-To Geek
+  - [digitaltrends.com] Google’s new desktop mode makes one thing clear: Samsung DeX was onto something - digitaltrends.com
+    Google’s new desktop mode makes one thing clear: Samsung DeX was onto something&nbsp;&nbsp;digitaltrends.com
+  - [MakeUseOf] Pixel desktop mode is only good with these three tweaks - MakeUseOf
+    Pixel desktop mode is only good with these three tweaks&nbsp;&nbsp;MakeUseOf
+  - [Techlicious] Turn your Pixel into a PC with the new Desktop Mode - Techlicious
+    Turn your Pixel into a PC with the new Desktop Mode&nbsp;&nbsp;Techlicious
+
+### 주제: Android 16 connected display vs Samsung DeX
+  - [Lifehacker] Android 16 Now Has a Desktop Mode for Your Pixel 8 or Newer - Lifehacker
+    Android 16 Now Has a Desktop Mode for Your Pixel 8 or Newer&nbsp;&nbsp;Lifehacker
+  - [Android Police] Android 16 finally brought Desktop Mode to Pixel, but I'm still sticking with DeX - Android Police
+    Android 16 finally brought Desktop Mode to Pixel, but I'm still sticking with DeX&nbsp;&nbsp;Android Police
+  - [Thurrott.com] Android 16 QPR3 Delivers Long-Awaited Desktop Mode - Thurrott.com
+    Android 16 QPR3 Delivers Long-Awaited Desktop Mode&nbsp;&nbsp;Thurrott.com
+  - [Android Authority] Pixel Desktop vs Samsung DeX: Which phone-powered PC experience is better? - Android Authority
+    Pixel Desktop vs Samsung DeX: Which phone-powered PC experience is better?&nbsp;&nbsp;Android Authority
+  - [bgr.com] New Android Update Finally Turns Your Phone Into A Portable PC - bgr.com
+    New Android Update Finally Turns Your Phone Into A Portable PC&nbsp;&nbsp;bgr.com
+  - [nokiapoweruser.com] Android 16 Update Expands Beyond Phones With New Connected-Display Features - NPowerUser - nokiapoweruser.com
+    Android 16 Update Expands Beyond Phones With New Connected-Display Features - NPowerUser&nbsp;&nbsp;nokiapoweruser.com
+
+
+## ALREADY PUBLISHED ARTICLES (for internal linking context)
+Use these to:
+- Identify natural internal link opportunities in spoke_keywords
+- Avoid duplicating what's already covered
+- Extend existing cluster themes where relevant
+
+  [Steam Machine 클러스터]
+    - [GUIDE] How to Troubleshoot Steam Machine Overheating and Red Light Issues
+      URL: https://frontbuffer.net/gaming/how-to-troubleshoot-steam-machine-overheating-and-red-light-issues/
+      Keywords: steam machine
+    - [COMPARISON] Steam Machine LED Error Codes: What Each Warning Light Actually Means
+      URL: https://frontbuffer.net/gaming/steam-machine-led-error-codes-what-each-warning-light-actually-means/
+      Keywords: steam machine
+    - [HUB] Steam Machine (2026) Hardware Troubleshooting: The Complete Guide
+      URL: https://frontbuffer.net/gaming/steam-machine-hardware-management/
+      Keywords: 
+
+  [Samsung Health 클러스터]
+    - [GUIDE] How to Backup Samsung Health Data Before Account Deletion
+      URL: https://frontbuffer.net/tech/how-to-backup-samsung-health-data-before-account-deletion/
+      Keywords: samsung health web, samsung health
+    - [COMPARISON] Samsung Health vs Google Health Connect Feature Comparison
+      URL: https://frontbuffer.net/tech/samsung-health-vs-google-health-connect-feature-comparison/
+      Keywords: samsung health web, samsung health
+    - [HUB] Samsung Health Data Management: Backup, Export, and Health Connect Guide
+      URL: https://frontbuffer.net/tech/samsung-health-data-ecosystem_hub/
+      Keywords: 
+
+  [Chrome Extensions 클러스터]
+    - [GUIDE] How to Check If Chrome Extensions Use Manifest V2
+      URL: https://frontbuffer.net/tech/how-to-check-if-chrome-extensions-use-manifest-v2/
+      Keywords: chrome extensions opera, developer extension chrome, extension chrome facebook, extension chrome ios, extension chrome youtube
+    - [LISTICLE] Best Manifest V3 Alternatives for Older Chrome Extensions
+      URL: https://frontbuffer.net/tech/best-manifest-v3-alternatives-for-older-chrome-extensions/
+      Keywords: chrome extensions opera, developer extension chrome, extension chrome facebook, extension chrome ios, extension chrome youtube
+    - [EXPLAINER] What is Chrome Manifest V3 and Why Extensions Break
+      URL: https://frontbuffer.net/tech/what-is-chrome-manifest-v3-and-why-extensions-break/
+      Keywords: chrome extensions opera, developer extension chrome, extension chrome facebook, extension chrome ios, extension chrome youtube
+    - [HUB] Chrome Manifest V2 Deprecation: The Complete Guide for Users and Developers
+      URL: https://frontbuffer.net/tech/chrome-manifest-v2-deprecation-complete-guide/
+      Keywords: 
+
+  [Android Ecosystem 클러스터]
+    - [COMPARISON] Samsung Secure Folder vs Google Files Safe Folder: Privacy Features Comparison
+      URL: https://frontbuffer.net/tech/android-ecosystem-comparison/
+      Keywords: 
+    - [EXPLAINER] Google Photos Free Storage Policy Changes Explained: Impact on Existing Libraries
+      URL: https://frontbuffer.net/tech/android-ecosystem_explainer/
+      Keywords: 
+    - [GUIDE] How to Transfer Samsung Health Data When Switching Android Phones
+      URL: https://frontbuffer.net/tech/android-ecosystem_guide/
+      Keywords: 
+
+  [Fallout Series 클러스터]
+    - [COMPARISON] Fallout New Vegas vs. Fallout 3 Remaster: What We Know and What to Expect
+      URL: https://frontbuffer.net/gaming/fallout-series_comparison/
+      Keywords: 
+    - [EXPLAINER] Fallout New Vegas Endings Explained: How Player Choices Impact the Mojave
+      URL: https://frontbuffer.net/gaming/fallout-series_explainer/
+      Keywords: 
+    - [GUIDE] Fallout New Vegas Modding Guide: Essential Quality of Life and Content Mods
+      URL: https://frontbuffer.net/gaming/fallout-series_guide/
+      Keywords: 
+
+  [Portable Gaming 클러스터]
+    - [COMPARISON] AYANEO Handhelds vs Steam Deck: Performance and Portability Comparison
+      URL: https://frontbuffer.net/gaming/portable-gaming_comparison/
+      Keywords: 
+    - [EXPLAINER] Steam Deck Verified Games: Understanding Compatibility and Performance Ratings
+      URL: https://frontbuffer.net/gaming/portable-gaming_explainer/
+      Keywords: 
+    - [GUIDE] How to Stream PC Games to Your Android Tablet with Moonlight and Sunshine
+      URL: https://frontbuffer.net/gaming/portable-gaming_guide/
+      Keywords: 
+
+  [Samsung Galaxy Foldables 클러스터]
+    - [COMPARISON] Galaxy Z Fold 8 vs Galaxy Z Fold 8 Ultra: Key Differences Explained
+      URL: https://frontbuffer.net/tech/samsung-galaxy-z-foldflip-series_comparison/
+      Keywords: galaxy fold
+    - [EXPLAINER] How Samsung's Silicon-Carbon Batteries Improve Galaxy Z Fold 8 Battery Life
+      URL: https://frontbuffer.net/tech/samsung-galaxy-z-foldflip-series_explainer/
+      Keywords: galaxy fold
+    - [GUIDE] How to Optimize Cover Screen Apps on Galaxy Z Flip 8
+      URL: https://frontbuffer.net/tech/samsung-galaxy-z-foldflip-series_guide/
+      Keywords: galaxy fold
+
+
+## CURRENTLY IN PIPELINE THIS WEEK (do not duplicate)
+  - [COMPARISON] Samsung Galaxy Foldables
+  - [COMPARISON] Samsung Galaxy Foldables
+  - [COMPARISON] Android System Features
+  - [EXPLAINER] PC Gaming Hardware Guides
+  - [GUIDE] Samsung Galaxy Foldables
+  - [GUIDE] Android System Features
+  - [GUIDE] PC Gaming Hardware Guides
+  - [EXPLAINER] Android System Features
+
+
+## ALREADY COVERED CLUSTERS (do not repeat)
+  - ai models and services
+  - android auto troubleshooting
+  - android ecosystem
+  - android system features
+  - assassin's creed black flag resynced modding
+  - fallout series
+  - gaming ecosystem strategy
+  - gaming media formats
+  - gaming physical vs digital
+  - gaming platform choices
+  - google ai features
+  - google android ecosystem
+  - google android features
+  - google chrome manifest v2 migration
+  - google gemini ai features
+  - google gemini for home
+  - google gemini versions
+  - google pixel & android auto
+  - google pixel ecosystem
+  - pc gaming ecosystem
+  - pc gaming hardware guides
+  - pc gaming optimization
+  - portable gaming
+  - samsung battery technology
+  - samsung foldable phones
+  - samsung galaxy & google pixel phones
+  - samsung galaxy fold 8 features
+  - samsung galaxy fold flip series
+  - samsung galaxy fold/flip series
+  - samsung galaxy foldable phones & wearables
+  - samsung galaxy foldables
+  - samsung galaxy z flip 8
+  - samsung galaxy z fold 8
+  - samsung galaxy z fold/flip series
+  - samsung health data ecosystem
+  - steam machine hardware management
+  - xbox pc app issues
+
+## CONTENT TYPES TO USE
+Choose the best fit per topic from: GUIDE, COMPARISON
+- GUIDE: How-to, step-by-step instructions
+- COMPARISON: Side-by-side analysis of 2-3 options
+- EXPLAINER: What/why/how concept explanation
+- LISTICLE: Ranked or categorized list
+
+## INTERNAL LINKING RULES
+- In spoke_keywords, include 1-2 keywords that naturally connect to existing published articles
+- Example: if topic is "Android 16 desktop mode" and we have published "Samsung DeX" articles,
+  include "samsung dex vs android 16 desktop" as a spoke keyword
+- This enables publish_one.py to automatically inject internal links
+
+## OUTPUT FORMAT
+Return ONLY a valid JSON array. No markdown fences. No explanation.
+
+[
+  {
+    "cluster_name": "Android 16 Desktop Mode",
+    "content_type": "GUIDE",
+    "hub_keyword": "Android 16 desktop mode",
+    "spoke_keywords": [
+      "how to use android 16 desktop mode",
+      "android 16 connected display setup",
+      "android 16 desktop mode supported phones",
+      "samsung dex vs android 16 desktop"
+    ],
+    "internal_link_targets": [
+      "Samsung Health vs Google Health Connect Feature Comparison",
+      "How to Optimize Cover Screen Apps on Galaxy Z Flip 8"
+    ],
+    "rationale": "Android 16 desktop mode is GA since March 2026, high search intent for setup guides, evergreen as feature matures",
+    "data_grade": "A",
+    "trends_pattern": "RISING",
+    "folder": "",
+    "source": "seed_inject",
+    "week_tag": "2026-W32"
+  }
+]
+
+IMPORTANT:
+- internal_link_targets: list of EXACT titles from the published articles above that this new article should link to
+- Leave internal_link_targets empty [] if no natural connection exists
+- folder: always empty string ""
+- data_grade: always "A" (manually selected = trusted)
