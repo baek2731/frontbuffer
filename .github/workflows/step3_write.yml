@@ -119,15 +119,14 @@ jobs:
               NEW_FILES="${NEW_FILES:+$NEW_FILES,}$FINAL_FILE"
             fi
 
-            git stash || true
-            git pull origin main --rebase || true
-            git stash pop || true
+            # prompts/ 등 다른 변경사항 건드리지 않고 final/만 커밋
             git add research_data/write/final/
 
             if git diff --cached --quiet; then
               echo "⚠️ final/ 변경사항 없음 — 커밋 스킵"
             else
               git commit -m "feat: [$TYPE] $CLUSTER 최종본 생성"
+              git pull origin main --rebase || true
               git push origin HEAD:main
               echo "✅ 커밋 완료: [$TYPE] $CLUSTER"
             fi
