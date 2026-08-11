@@ -517,6 +517,59 @@ def main():
             env.write(f"POST_TITLE={title}\n")
             env.write(f"POST_URL={pub_url}\n")
 
+    # ── posts.json 업데이트 ───────────────────────────────────────
+    try:
+        posts_data = {"posts": []}
+        if os.path.exists(POSTS_FILE):
+            posts_data = json.loads(open(POSTS_FILE, encoding="utf-8").read())
+
+        existing_urls = {p.get("live_url", "") for p in posts_data.get("posts", [])}
+
+        if pub_url not in existing_urls:
+            # hub_cluster 추출
+            hub_cluster = ""
+            if cluster_name:
+                pipeline_reload = load_pipeline()
+                for week_sels in pipeline_reload.get("weekly_selections", {}).values():
+                    for sel in week_sels:
+                        if sel.get("cluster_name", "").lower() == cluster_name.lower():
+                            hub_cluster = sel.get("cluster_name", "")
+                            break
+
+            # verified_keywords: hub_keyword + spoke_keywords 앞 2개
+            kws = []
+            if cluster_name:
+                for week_sels in pipeline_reload.get("weekly_selections", {}).values():
+                    for sel in week_sels:
+                        if sel.get("cluster_name", "").lower() == cluster_name.lower():
+                            hw = sel.get("hub_keyword", "")
+                            sw = sel.get("spoke_keywords", [])[:2]
+                            kws = ([hw] + sw) if hw else sw
+                            break
+
+            post_entry = {
+                "status":            "live",
+                "date":              date_str,
+                "title":             title,
+                "live_url":          pub_url,
+                "categories":        [cat],
+                "content_type":      target_ct,
+                "hub_cluster":       hub_cluster or cluster_name or "",
+                "verified_keywords": kws,
+                "slug":              post_filename[:-3],
+            }
+            posts_data["posts"].append(post_entry)
+            posts_data["posts"].sort(key=lambda x: x.get("date", ""))
+            open(POSTS_FILE, "w", encoding="utf-8").write(
+                json.dumps(posts_data, ensure_ascii=False, indent=2)
+            )
+            print(f"  📋 posts.json 업데이트: {pub_url}")
+        else:
+            print(f"  ℹ️  posts.json 이미 존재: {pub_url}")
+    except Exception as e:
+        print(f"  ⚠️ posts.json 업데이트 실패 (발행은 완료): {e}")
+    # ────────────────────────────────────────────────────────────────
+
     print(f"\n✅ 발행 완료: {title}")
     print(f"   파일: {post_filename}")
     print(f"   URL:  {pub_url}")

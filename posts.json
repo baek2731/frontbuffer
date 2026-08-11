@@ -415,6 +415,150 @@
       "internal_links_needed": [],
       "internal_links_resolved": {},
       "status": "live"
+    },
+    {
+      "status": "live",
+      "date": "2026-07-20",
+      "title": "Chrome Manifest V2 Deprecation: The Complete Guide for Users",
+      "live_url": "https://frontbuffer.net/tech/google-chrome-manifest-v2-migration_HUB/",
+      "categories": [
+        "tech"
+      ],
+      "content_type": "HUB",
+      "hub_cluster": "Chrome Manifest V2 Migration",
+      "verified_keywords": [
+        "chrome manifest v2 deprecation",
+        "manifest v2 complete guide"
+      ],
+      "slug": "google-chrome-manifest-v2-migration_HUB"
+    },
+    {
+      "status": "live",
+      "date": "2026-07-21",
+      "title": "Samsung Secure Folder vs Google Files Safe Folder: Privacy Feature Comparison",
+      "live_url": "https://frontbuffer.net/tech/android-ecosystem_comparison/",
+      "categories": [
+        "tech"
+      ],
+      "content_type": "COMPARISON",
+      "hub_cluster": "Android Ecosystem",
+      "verified_keywords": [
+        "samsung secure folder vs google files",
+        "android secure storage comparison"
+      ],
+      "slug": "android-ecosystem_comparison"
+    },
+    {
+      "status": "live",
+      "date": "2026-07-30",
+      "title": "Steam Machine (2026) Hardware Troubleshooting: The Complete Guide",
+      "live_url": "https://frontbuffer.net/gaming/steam-machine-hardware-management_hub/",
+      "categories": [
+        "gaming"
+      ],
+      "content_type": "HUB",
+      "hub_cluster": "Steam Machine Hardware Management",
+      "verified_keywords": [
+        "steam machine hardware troubleshooting",
+        "steam machine 2026 guide"
+      ],
+      "slug": "steam-machine-hardware-management_hub"
+    },
+    {
+      "status": "live",
+      "date": "2026-08-01",
+      "title": "Galaxy Z Fold 8 vs Fold 7 Camera: What Actually Changed",
+      "live_url": "https://frontbuffer.net/tech/01-galaxy-fold_comparison/",
+      "categories": [
+        "tech"
+      ],
+      "content_type": "COMPARISON",
+      "hub_cluster": "Samsung Galaxy Fold",
+      "verified_keywords": [
+        "galaxy z fold 8 vs fold 7 camera",
+        "galaxy fold camera comparison"
+      ],
+      "slug": "01-galaxy-fold_comparison"
+    },
+    {
+      "status": "live",
+      "date": "2026-08-02",
+      "title": "Samsung Silicon-Carbon Battery Technology: What It Is and Why It Matters",
+      "live_url": "https://frontbuffer.net/tech/01-galaxy-fold_explainer/",
+      "categories": [
+        "tech"
+      ],
+      "content_type": "EXPLAINER",
+      "hub_cluster": "Samsung Galaxy Fold",
+      "verified_keywords": [
+        "samsung silicon carbon battery",
+        "galaxy fold battery technology"
+      ],
+      "slug": "01-galaxy-fold_explainer"
+    },
+    {
+      "status": "live",
+      "date": "2026-08-03",
+      "title": "How to Maximize Battery Life on the Galaxy Z Fold 8",
+      "live_url": "https://frontbuffer.net/tech/01-galaxy-fold_guide/",
+      "categories": [
+        "tech"
+      ],
+      "content_type": "GUIDE",
+      "hub_cluster": "Samsung Galaxy Fold",
+      "verified_keywords": [
+        "galaxy z fold 8 battery life",
+        "maximize fold 8 battery"
+      ],
+      "slug": "01-galaxy-fold_guide"
+    },
+    {
+      "status": "live",
+      "date": "2026-08-08",
+      "title": "Best Wireless Android Auto Adapters for Older Cars: 2026 Comparison",
+      "live_url": "https://frontbuffer.net/tech/06-android-auto_comparison/",
+      "categories": [
+        "tech"
+      ],
+      "content_type": "COMPARISON",
+      "hub_cluster": "Android Auto",
+      "verified_keywords": [
+        "best wireless android auto adapter",
+        "android auto adapter comparison 2026"
+      ],
+      "slug": "06-android-auto_comparison"
+    },
+    {
+      "status": "live",
+      "date": "2026-08-09",
+      "title": "How to Fix Android Auto Wireless Connection Issues",
+      "live_url": "https://frontbuffer.net/tech/06-android-auto_guide/",
+      "categories": [
+        "tech"
+      ],
+      "content_type": "GUIDE",
+      "hub_cluster": "Android Auto",
+      "verified_keywords": [
+        "android auto wireless connection issues",
+        "fix android auto wireless"
+      ],
+      "slug": "06-android-auto_guide"
+    },
+    {
+      "status": "live",
+      "date": "2026-08-10",
+      "title": "The Promise of Silicon-Carbon Batteries and Samsung's Strategic Hesitation",
+      "live_url": "https://frontbuffer.net/tech/the-promise-of-silicon-carbon-batteries-and-samsungs-strateg/",
+      "categories": [
+        "tech"
+      ],
+      "content_type": "EXPLAINER",
+      "hub_cluster": "Samsung Galaxy Fold",
+      "verified_keywords": [
+        "samsung silicon carbon battery strategy",
+        "silicon carbon battery explainer"
+      ],
+      "slug": "the-promise-of-silicon-carbon-batteries-and-samsungs-strateg"
     }
   ],
   "_last_updated": "2026-08-07T14:54:21.320932+00:00"
