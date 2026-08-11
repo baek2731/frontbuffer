@@ -5,6 +5,9 @@ date: 2026-08-11 14:38:00 +0000
 categories: [tech]
 tags: ["comparison", "android", "auto"]
 excerpt: 'The CarlinKit Ultra, a leading wireless Android Auto adapter, directly converts a vehicle''s wired Android Auto connection into a wireless one, a…'
+header:
+  image: https://images.frontbuffer.net/posts/best-wireless-android-auto-adapter-for-older-cars-comparison/og.png
+  overlay_filter: 0
 author_profile: false
 read_time: true
 share: true
