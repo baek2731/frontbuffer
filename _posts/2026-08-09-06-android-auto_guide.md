@@ -36,7 +36,7 @@ To clear the cache and storage for Android Auto:
 
 ### Verify Permissions and Notifications
 
-Android Auto requires specific permissions and notification access to operate correctly. Issues can arise when these settings are not properly configured. Users have encountered situations where, despite granting notifications permission, the system would still prompt them to "go to your phone and turn on notifications," preventing the setup process from completing. Additionally, clearing the phone's cache and re-enabling notifications has been cited as a successful fix for connection problems. It is essential to ensure all necessary permissions are granted and notification settings are correctly configured for the Android Auto app.
+Android Auto requires specific permissions and notification access to operate correctly. Issues can arise when these settings are not properly configured. Users have encountered situations where, despite granting notifications permission, the system would still prompt them to "go to your phone and turn on notifications," preventing the setup process from completing. Additionally, clearing the phone's cache and re-enabling notifications has been cited as a successful fix for connection problems. Grant every permission Android Auto requests during setup — notification access included. Missing even one will stall the process.
 
 To check and adjust Android Auto permissions:
 1. Open your phone's **Settings** app.
@@ -84,7 +84,7 @@ To manage connected cars in Android Auto:
 
 ### Consider Phone and Car Compatibility
 
-Not all vehicles or smartphones are compatible with wireless Android Auto. It is crucial to verify that both your car and your phone meet the necessary requirements. Wireless Android Auto generally requires an Android phone running Android 11.0 or higher with a 5 GHz Wi-Fi network, or a Google or Samsung phone with Android 10.0. Some Samsung phones with Android 9.0 are also supported. Always check your car manufacturer's specifications and Google's official Android Auto support page for the most up-to-date compatibility information.
+Not all vehicles or smartphones are compatible with wireless Android Auto. Check compatibility before anything else: Android 11+ for wireless, 5GHz Wi-Fi, and your car manufacturer's support list. Wireless Android Auto generally requires an Android phone running Android 11.0 or higher with a 5 GHz Wi-Fi network, or a Google or Samsung phone with Android 10.0. Some Samsung phones with Android 9.0 are also supported. Always check your car manufacturer's specifications and Google's official Android Auto support page for the most up-to-date compatibility information.
 
 ### Check for Environmental Interference
 
