@@ -1,7 +1,7 @@
 {
   "_version": "1.3",
   "_description": "콘텐츠 파이프라인 — 클러스터 단위 관리",
-  "_last_updated": "2026-08-10T07:17:15.753205+00:00",
+  "_last_updated": "2026-08-12T14:58:21.253816+00:00",
   "hub_clusters": {
     "Steam Machine": {
       "hub_keyword": "Steam Machine",
@@ -259,17 +259,19 @@
     },
     "Google Android Ecosystem": {
       "hub_keyword": "Google Android Ecosystem",
-      "hub_status": "PENDING",
+      "hub_status": "READY",
       "hub_title": "",
       "hub_url": "",
       "spokes": [
         "Google Android Ecosystem"
       ],
       "spoke_urls": {
-        "Google Android Ecosystem (EXPLAINER)": "pending"
+        "Google Android Ecosystem (EXPLAINER)": "pending",
+        "Google Android Ecosystem (COMPARISON)": "https://frontbuffer.net/tech/google-pixel-launcher-vs-third-party-android-launchers-featu/"
       },
       "internal_links": [
-        "pending"
+        "pending",
+        "https://frontbuffer.net/tech/google-pixel-launcher-vs-third-party-android-launchers-featu/"
       ]
     },
     "PC Gaming Ecosystem": {
@@ -926,11 +928,11 @@
     },
     "Google Android Ecosystem": {
       "types_done": [
-        "EXPLAINER"
+        "EXPLAINER",
+        "COMPARISON"
       ],
       "last_week": "2026-W32",
       "suggest_next": [
-        "COMPARISON",
         "GUIDE",
         "LISTICLE"
       ],
@@ -3082,9 +3084,10 @@
             "competition_index": 16
           }
         ],
-        "status": "candidate",
+        "status": "published",
         "selected_at": "2026-07-27T08:31:32.947383+00:00",
-        "publish_order": 11
+        "publish_order": 11,
+        "url": "https://frontbuffer.net/tech/google-pixel-launcher-vs-third-party-android-launchers-featu/"
       },
       {
         "cluster_name": "PC Gaming Ecosystem",
@@ -4483,6 +4486,15 @@
       "week_tag": "2026-W32",
       "published_at": "2026-08-10T07:17:15.753143+00:00",
       "hub_cluster": ""
+    },
+    {
+      "cluster_name": "Google Android Ecosystem",
+      "title": "Google Pixel Launcher vs Third-Party Android Launchers: Features and Customization",
+      "url": "https://frontbuffer.net/tech/google-pixel-launcher-vs-third-party-android-launchers-featu/",
+      "content_type": "COMPARISON",
+      "week_tag": "2026-W32",
+      "published_at": "2026-08-12T14:58:21.253750+00:00",
+      "hub_cluster": "Google Android Ecosystem"
     }
   ]
 }
