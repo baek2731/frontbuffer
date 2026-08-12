@@ -5,6 +5,9 @@ date: 2026-08-12 14:10:00 +0000
 categories: [tech]
 tags: ["comparison", "google", "android", "ecosystem"]
 excerpt: 'On July 19, 2022, Branch (also known as Branch Metrics) acquired Nova Launcher, a staple in Android''s customization community since 2011. This event,…'
+header:
+  image: https://images.frontbuffer.net/posts/google-pixel-launcher-vs-third-party-android-launchers-featu/og.png
+  overlay_filter: 0
 author_profile: false
 read_time: true
 share: true
