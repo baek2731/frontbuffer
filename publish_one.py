@@ -21,6 +21,7 @@ import sys
 import json
 import random
 import subprocess
+import urllib.request
 from pathlib import Path
 from datetime import datetime, timezone
 
@@ -30,6 +31,37 @@ POSTS_DIR     = "_posts"
 PIPELINE_FILE = "content_pipeline.json"
 POSTS_FILE    = "posts.json"
 
+
+
+
+# ── Gemini 간단 호출 (SEO 디스크립션 생성용) ──────────────────────
+def call_gemini_simple(prompt_text, max_tokens=200):
+    """단순 텍스트 생성용 Gemini 호출"""
+    api_key = os.environ.get("GEMINI_API_KEY", "")
+    if not api_key:
+        return None
+    model = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
+    url = (f"https://generativelanguage.googleapis.com/v1beta/models/"
+           f"{model}:generateContent?key={api_key}")
+    payload = json.dumps({
+        "contents": [{"parts": [{"text": prompt_text}]}],
+        "generationConfig": {"temperature": 0.3, "maxOutputTokens": max_tokens}
+    }).encode("utf-8")
+    try:
+        req = urllib.request.Request(
+            url, data=payload,
+            headers={"Content-Type": "application/json"}, method="POST"
+        )
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            data = json.loads(resp.read())
+            parts = (data.get("candidates", [{}])[0]
+                        .get("content", {})
+                        .get("parts", [{}]))
+            return "".join(p.get("text", "") for p in parts).strip()
+    except Exception as e:
+        print(f"  ⚠️ Gemini 호출 실패: {e}")
+        return None
+# ────────────────────────────────────────────────────────────────
 
 
 def slugify(text):
@@ -428,17 +460,51 @@ def main():
     tags = list(dict.fromkeys([target_ct.lower()] + slug_words[:4]))[:6]
     tags_str = ", ".join(f'"{t}"' for t in tags)
 
-    # ── excerpt 생성 ───────────────────────────────────────────────
-    body_lines = [l for l in content.splitlines()
-                  if l.strip()
-                  and not l.startswith("#")
-                  and not l.startswith("---")
-                  and not l.startswith("[SOURCES")]
+    # ── excerpt 생성 (Gemini SEO 디스크립션) ─────────────────────
     excerpt = ""
-    if body_lines:
-        raw = body_lines[0]
-        excerpt = (raw[:150].rsplit(" ", 1)[0] + "…"
-                   if len(raw) > 150 else raw)
+    try:
+        # 본문 첫 500단어 추출
+        body_lines = [l for l in content.splitlines()
+                      if l.strip()
+                      and not l.startswith("#")
+                      and not l.startswith("---")
+                      and not l.startswith("[SOURCES")]
+        body_preview = " ".join(body_lines)[:1500]
+
+        seo_prompt = f"""Write a meta description for this article.
+
+Title: {title}
+Content preview: {body_preview}
+
+Rules:
+- 140-155 characters exactly
+- Start with the most compelling fact or hook
+- Do NOT start with "This article", "In this", "Learn", "Discover"
+- No AI-sounding phrases
+- Focus on what the reader will find out
+- Must be unique and specific to this article
+
+Return ONLY the meta description text. No quotes. No explanation."""
+
+        seo_resp = call_gemini_simple(seo_prompt)
+        if seo_resp and 50 < len(seo_resp) < 200:
+            excerpt = seo_resp.strip()[:155]
+        else:
+            # 폴백: 본문 첫 줄
+            if body_lines:
+                raw = body_lines[0]
+                excerpt = (raw[:150].rsplit(" ", 1)[0] + "…"
+                           if len(raw) > 150 else raw)
+    except Exception as e:
+        print(f"  ⚠️ SEO excerpt 생성 실패 (폴백 사용): {e}")
+        body_lines = [l for l in content.splitlines()
+                      if l.strip()
+                      and not l.startswith("#")
+                      and not l.startswith("---")]
+        if body_lines:
+            raw = body_lines[0]
+            excerpt = (raw[:150].rsplit(" ", 1)[0] + "…"
+                       if len(raw) > 150 else raw)
 
     yaml_title   = title.replace("'", "''")
     yaml_excerpt = excerpt.replace("'", "''")
