@@ -1,7 +1,7 @@
 {
   "_version": "1.3",
   "_description": "콘텐츠 파이프라인 — 클러스터 단위 관리",
-  "_last_updated": "2026-08-12T14:58:21.253816+00:00",
+  "_last_updated": "2026-08-13T14:59:15.249569+00:00",
   "hub_clusters": {
     "Steam Machine": {
       "hub_keyword": "Steam Machine",
@@ -381,8 +381,12 @@
       "spokes": [
         "Gaming Media Formats"
       ],
-      "spoke_urls": {},
-      "internal_links": []
+      "spoke_urls": {
+        "Gaming Media Formats (COMPARISON)": "https://frontbuffer.net/gaming/physical-vs-digital-games-ownership-licenses-and-player-choi/"
+      },
+      "internal_links": [
+        "https://frontbuffer.net/gaming/physical-vs-digital-games-ownership-licenses-and-player-choi/"
+      ]
     },
     "Galaxy Fold": {
       "hub_keyword": "Galaxy Fold",
@@ -1188,10 +1192,11 @@
       "notes": ""
     },
     "Gaming Media Formats": {
-      "types_done": [],
-      "last_week": "2026-W30",
+      "types_done": [
+        "COMPARISON"
+      ],
+      "last_week": "2026-W32",
       "suggest_next": [
-        "COMPARISON",
         "GUIDE",
         "EXPLAINER",
         "LISTICLE"
@@ -3836,8 +3841,9 @@
         "data_grade": "A",
         "verified_keywords": [],
         "publish_order": 14,
-        "status": "candidate",
-        "selected_at": "2026-07-28T01:48:12.754550+00:00"
+        "status": "published",
+        "selected_at": "2026-07-28T01:48:12.754550+00:00",
+        "url": "https://frontbuffer.net/gaming/physical-vs-digital-games-ownership-licenses-and-player-choi/"
       },
       {
         "cluster_name": "Samsung Galaxy Fold 8 Features",
@@ -4495,6 +4501,15 @@
       "week_tag": "2026-W32",
       "published_at": "2026-08-12T14:58:21.253750+00:00",
       "hub_cluster": "Google Android Ecosystem"
+    },
+    {
+      "cluster_name": "Gaming Media Formats",
+      "title": "Physical vs Digital Games: Ownership, Licenses, and Player Choice",
+      "url": "https://frontbuffer.net/gaming/physical-vs-digital-games-ownership-licenses-and-player-choi/",
+      "content_type": "COMPARISON",
+      "week_tag": "2026-W32",
+      "published_at": "2026-08-13T14:59:15.249490+00:00",
+      "hub_cluster": "Gaming Physical Media"
     }
   ]
 }
