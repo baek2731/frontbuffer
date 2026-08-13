@@ -5,6 +5,9 @@ date: 2026-08-13 14:22:00 +0000
 categories: [gaming]
 tags: ["comparison", "gaming", "media", "formats"]
 excerpt: 'IGN''s analysis of digital game ownership highlights a key distinction: when you acquire a digital title, you are typically ''just paying a license to…'
+header:
+  image: https://images.frontbuffer.net/posts/physical-vs-digital-games-ownership-licenses-and-player-choi/og.png
+  overlay_filter: 0
 author_profile: false
 read_time: true
 share: true
