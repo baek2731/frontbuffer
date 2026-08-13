@@ -1,6 +1,53 @@
-# How to Customize Android Quick Settings Tiles and Editor First introduced in Android 4.2 Jelly Bean, the Quick Settings panel has evolved into a cornerstone of Android's user interface, offering rapid access to essential device functions. This feature allows users to quickly enable or disable Wi-Fi, Bluetooth, flashlight, and other critical toggles without navigating through the full settings menu. Mastering the customization of these Quick Settings tiles and leveraging the editor can profoundly enhance your device's efficiency and align it perfectly with your daily habits. The Quick Settings panel, accessible by swiping down from the top of the screen, presents a grid of various toggles. While Android typically provides a default set of tiles, the platform also offers robust customization options, allowing users to personalize which settings appear and in what order. This level of control ensures that the most relevant functions are always within easy reach. ### Accessing the Quick Settings Editor To begin customizing the Quick Settings panel, users generally need to expand the notification shade fully. This is usually achieved by swiping down twice from the top of the screen, or once with two fingers. Once the full panel is visible, an "Edit" icon, often represented by a pencil, can be found. Tapping this icon opens the Quick Settings editor, which displays all available tiles, both active and inactive. This editor provides a centralized interface for managing the visibility and arrangement of your most frequently used settings. ### Adding, Removing, and Rearranging Tiles Within the Quick Settings editor, users can perform several actions to personalize their panel. To rearrange existing tiles, one can typically long-press and drag a tile to a new position. This allows for prioritizing frequently used toggles by placing them at the top of the grid or grouping related functions together, optimizing the layout for personal efficiency. Adding new tiles involves locating them in a separate section, often labeled "Hold and drag to add tiles" or similar, at the bottom of the editor screen. These inactive tiles represent features that are available but not currently displayed in the main Quick Settings panel. To add one, a user simply long-presses and drags it into the active Quick Settings grid. Conversely, to remove a tile from the active display, it can be dragged back to the inactive section. This flexibility allows users to declutter their Quick Settings by removing rarely used toggles, ensuring only the most pertinent options are readily available. ### Enhancements to User Experience in Android 12 and Beyond Recent developments in Android's UI have focused on improving the ergonomics and accessibility of Quick Settings, directly responding to user feedback. A notable example is the redesign introduced with Android 12, which brought significant improvements to the brightness slider. This crucial element, frequently adjusted by many users, saw enhancements such as the ability to move the brightness slider all the way down to the bottom of the Quick Settings panel, improving its reachability for one-handed use. This enhancement specifically addresses a common pain point for individuals who prefer manual brightness control over auto-brightness settings. The positive reception from the user community suggests that Google is actively incorporating user suggestions into UI design, making the Quick Settings panel more intuitive and user-friendly. Such design choices reflect a commitment to refining the Android experience based on practical, everyday usability. ### Community Findings: Practical Adjustments and Personalization The community's reception to these Quick Settings updates, particularly those in Android 12, highlights the impact of granular control over interface elements. For many, the ability to reposition the brightness slider for easier one-handed access is a significant quality-of-life improvement, especially for those who frequently adjust screen brightness without relying on automatic settings. Users have noted that such changes demonstrate Google's responsiveness to feedback, fostering a more personalized and efficient user experience. The focus on practical, everyday usability tweaks, like the brightness slider's placement, underscores the value of the Quick Settings editor in tailoring the Android experience to individual habits and preferences. This level of customization empowers users to create a device interface that truly works for them, reducing friction in daily interactions. Customizing your Android Quick Settings tiles and editor offers significant returns in daily efficiency. Instead of navigating through multiple menus, actively use the editor's drag-and-drop functionality to position your most-used toggles, such as the Wi-Fi or Bluetooth switch, to the top row for instant access. This personalized approach, exemplified by Android 12's improved brightness slider placement for one-handed use, ensures your device truly adapts to your habits. To maximize your Android's responsiveness, take five minutes today to rearrange your Quick Settings so that your essential toggles, like the brightness slider, are exactly where you need them for effortless, one-handed operation. ---
+# How to Customize Android Quick Settings Tiles
+
+The Quick Settings panel — the grid of toggles that appears when you swipe down twice from the top of your screen — ships with a default layout that rarely matches how anyone actually uses their phone. Moving the tiles you use most to the front row takes about two minutes and saves real time every day.
+
+### Opening the Editor
+
+Swipe down twice from the top of the screen to expand the full Quick Settings panel. In the bottom-left corner, tap the **pencil icon** (Edit). On some Android skins — Samsung One UI, for example — this icon may appear as "Edit" text instead.
+
+The editor splits into two sections: your active tiles at the top and inactive (available but hidden) tiles below.
+
+### Rearranging, Adding, and Removing Tiles
+
+**To move a tile:** Long-press it and drag it to a new position in the active grid. Tiles in the first row are visible without expanding the panel — put your most-used toggles there.
+
+**To add a tile:** Scroll down to the inactive section, long-press the tile you want, and drag it into the active grid.
+
+**To remove a tile:** Long-press it in the active section and drag it down to the inactive area.
+
+Tap **Done** (or the back button, depending on your Android version) when finished.
+
+### What to Put in the First Row
+
+The first two to four tiles show without swiping. Common high-value placements:
+
+- **Wi-Fi** and **Bluetooth** — toggled constantly when moving between locations
+- **Do Not Disturb** — faster than navigating Settings when you need focus
+- **Flashlight** — the tile most people reach for in a hurry
+- **Screen record** or **Hotspot** — useful if you use these regularly
+
+Remove tiles you never tap: NFC, Nearby Share, and Auto-rotate are commonly present by default but rarely needed on demand.
+
+### Android 12 and Later: Brightness Slider Placement
+
+Starting with Android 12, Google moved the brightness slider to the top of the Quick Settings panel, above the tiles. On stock Android 12 through Android 16, the slider stays there — it is not repositionable through the standard editor.
+
+Samsung One UI gives more flexibility: the brightness slider can be moved to below the notification bar (above Quick Settings) or positioned within the panel. Access this via **Settings > Display > Status bar** on One UI 6 and later.
+
+### Third-Party Tiles
+
+Apps can add their own Quick Settings tiles. Spotify, Shazam, and various VPN apps register tiles that appear in the inactive section after installation. Add them the same way as system tiles — long-press and drag into the active grid.
+
+To remove a third-party tile completely (not just hide it), you need to uninstall the app or revoke the tile permission under **Settings > Apps > [App name] > Other permissions > Add Quick Settings tiles**.
+
+### Pixel-Specific: Custom Tiles
+
+On Pixel phones running Android 13 and later, you can create custom Quick Settings tiles that trigger specific app shortcuts using apps like Tasker or Macrodroid. These appear in the inactive section like any other tile once configured in the respective app.
+
+---
+
 Sources:
-1. How to customize Quick Settings on Android. Android Central. [https://www.androidcentral.com/how-customize-quick-settings-android](https://www.androidcentral.com/how-customize-quick-settings-android)
-2. How to Customize Quick Settings on Android. MakeUseOf. [https://www.makeuseof.com/customize-quick-settings-android/](https://www.makeuseof.com/customize-quick-settings-android/)
-3. How to Customize Quick Settings in Android. Lifewire. [https://www.lifewire.com/customize-quick-settings-android-5207705](https://www.lifewire.com/customize-quick-settings-android/)
-4. Android 12 Quick Settings: What's New & How to Customize. YouTube. [https://www.youtube.com/watch?v=o-HRlRxHs0Y](https://www.youtube.com/watch?v=o-HRlRxHs0Y)
+- [Android — Customize Quick Settings](https://support.google.com/android/answer/9083864)
+- [Android Authority — Quick Settings guide](https://www.androidauthority.com/android-quick-settings-3209902/)
+- [Samsung — One UI Quick Settings](https://www.samsung.com/us/support/answer/ANS00088226/)
