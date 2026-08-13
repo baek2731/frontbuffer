@@ -4,7 +4,7 @@ title: 'Steam Machine (2026) Hardware Troubleshooting: The Complete Guide'
 date: 2026-07-30 14:53:00 +0000
 categories: [gaming]
 tags: ["hub", "steam", "machine", "hardware", "management"]
-excerpt: 'The Steam Machine (2026) communicates hardware problems through LED patterns — but not all red lights mean the same thing. Here is how to read them accurately.'
+excerpt: 'The Steam Machine (2026) communicates hardware problems through LED patterns - but not all red lights mean the same thing. Here is how to read them accurately.'
 permalink: '/gaming/steam-machine-hardware-management/'
 header:
   image: https://images.frontbuffer.net/posts/steam-machine-hardware-management_hub/og.png

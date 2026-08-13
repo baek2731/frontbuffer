@@ -4,7 +4,7 @@ title: 'Fallout New Vegas Modding Guide: Essential Quality of Life and Content M
 date: 2026-07-26 14:13:00 +0000
 categories: [gaming]
 tags: ["fallout new vegas mods", "viva new vegas guide", "new vegas modding 2026", "fallout mod list"]
-excerpt: 'Fallout: New Vegas shipped with significant bugs and no sprint mechanic. A decade later, the modding community has fixed both — here is where to start.'
+excerpt: 'Fallout: New Vegas shipped with significant bugs and no sprint mechanic. A decade later, the modding community has fixed both - here is where to start.'
 header:
   image: https://images.frontbuffer.net/posts/fallout-series_guide/og.png
   overlay_filter: 0

@@ -4,7 +4,7 @@ title: 'Best Wireless Android Auto Adapters for Older Cars: 2026 Comparison'
 date: 2026-08-08 14:40:00 +0000
 categories: [tech]
 tags: ["comparison", "android", "auto"]
-excerpt: 'Older vehicles — a 2018 Tahoe Premier, a 2019 VW Golf — typically have wired Android Auto built in but no wireless capability. Wireless Android Auto…'
+excerpt: 'Older vehicles - a 2018 Tahoe Premier, a 2019 VW Golf - typically have wired Android Auto built in but no wireless capability. Wireless Android Auto…'
 header:
   image: https://images.frontbuffer.net/posts/06-android-auto_comparison/og.png
   overlay_filter: 0

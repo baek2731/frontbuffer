@@ -4,7 +4,7 @@ title: 'Google Photos Free Storage Policy Changes Explained: Impact on Existing 
 date: 2026-07-21 14:49:00 +0000
 categories: [tech]
 tags: ["explainer", "android", "ecosystem"]
-excerpt: 'Google ended unlimited free Google Photos storage in June 2021. Five years later, most workarounds are gone — but a few still work. Here is what actually holds up in 2026.'
+excerpt: 'Google ended unlimited free Google Photos storage in June 2021. Five years later, most workarounds are gone - but a few still work. Here is what actually holds up in 2026.'
 header:
   image: https://images.frontbuffer.net/posts/android-ecosystem_explainer/og.png
   overlay_filter: 0

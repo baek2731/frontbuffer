@@ -4,7 +4,7 @@ title: 'Samsung Silicon-Carbon Battery Technology: What It Is and Why It Matters
 date: 2026-08-02 14:35:00 +0000
 categories: [tech]
 tags: ["explainer", "galaxy", "fold"]
-excerpt: 'Samsung confirmed silicon-carbon battery technology in the Galaxy Z Fold 8 and Z Flip 8, announced July 22, 2026 — the first time the company has…'
+excerpt: 'Samsung confirmed silicon-carbon battery technology in the Galaxy Z Fold 8 and Z Flip 8, announced July 22, 2026 - the first time the company has…'
 header:
   image: https://images.frontbuffer.net/posts/01-galaxy-fold_explainer/og.png
   overlay_filter: 0

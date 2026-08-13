@@ -4,7 +4,7 @@ title: 'How to Transfer Samsung Health Data When Switching Android Phones'
 date: 2026-07-22 14:03:00 +0000
 categories: [tech]
 tags: ["guide", "android", "ecosystem"]
-excerpt: 'Samsung Health backs up through Samsung Cloud automatically — but only if you set it up before switching. Here is what actually transfers, what does not, and what to do if the sync fails.'
+excerpt: 'Samsung Health backs up through Samsung Cloud automatically - but only if you set it up before switching. Here is what actually transfers, what does not, and what to do if the sync fails.'
 header:
   image: https://images.frontbuffer.net/posts/android-ecosystem_guide/og.png
   overlay_filter: 0

@@ -4,7 +4,7 @@ title: 'How to Maximize Battery Life on the Galaxy Z Fold 8'
 date: 2026-08-03 14:45:00 +0000
 categories: [tech]
 tags: ["guide", "galaxy", "fold"]
-excerpt: 'The Galaxy Z Fold 8 ships with a 4,800mAh silicon-carbon battery — a meaningful upgrade over the Fold 7''s 4,400mAh cell, and the first time Samsung…'
+excerpt: 'The Galaxy Z Fold 8 ships with a 4,800mAh silicon-carbon battery - a meaningful upgrade over the Fold 7''s 4,400mAh cell, and the first time Samsung…'
 header:
   image: https://images.frontbuffer.net/posts/01-galaxy-fold_guide/og.png
   overlay_filter: 0

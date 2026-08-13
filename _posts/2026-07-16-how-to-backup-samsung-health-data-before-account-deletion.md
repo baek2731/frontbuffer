@@ -5,7 +5,7 @@ title: "How to Backup Samsung Health Data Before Account Deletion"
 date: 2026-07-16 10:00:00 +0900
 categories: [tech]
 tags: ["samsung health", "export samsung health data", "samsung health backup", "samsung account deletion"]
-excerpt: "Samsung Health does not warn you prominently enough: deleting your Samsung account permanently erases all health data — with no recovery path."
+excerpt: "Samsung Health does not warn you prominently enough: deleting your Samsung account permanently erases all health data - with no recovery path."
 header:
   image: https://images.frontbuffer.net/posts/how-to-backup-samsung-health-data-before-account-deletion/og.png
   overlay_filter: 0

@@ -4,7 +4,7 @@ title: 'Samsung Health Data Management: Backup, Export, and Health Connect Guide
 date: 2026-07-29 14:52:00 +0000
 categories: [tech]
 tags: ["hub", "samsung", "health", "data", "ecosystem"]
-excerpt: 'Samsung Health accumulates years of personal data — but managing, exporting, and syncing that data requires knowing exactly which tools do what.'
+excerpt: 'Samsung Health accumulates years of personal data - but managing, exporting, and syncing that data requires knowing exactly which tools do what.'
 permalink: '/tech/samsung-health-data-ecosystem/'
 header:
   image: https://images.frontbuffer.net/posts/samsung-health-data-ecosystem_hub/og.png
