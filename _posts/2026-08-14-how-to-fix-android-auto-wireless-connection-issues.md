@@ -1,4 +1,14 @@
-# How to Fix Android Auto Wireless Connection Issues
+---
+layout: single
+title: 'How to Fix Android Auto Wireless Connection Issues'
+date: 2026-08-14 14:07:00 +0000
+categories: [tech]
+tags: ["guide", "android", "auto"]
+excerpt: 'Wireless Android Auto drops its connection for a handful of consistent reasons: stale cache data, revoked permissions after a system update, or a…'
+author_profile: false
+read_time: true
+share: true
+---
 
 Wireless Android Auto drops its connection for a handful of consistent reasons: stale cache data, revoked permissions after a system update, or a mismatch between your phone's Android version and what the head unit expects. Working through these in order resolves most cases without a factory reset.
 
