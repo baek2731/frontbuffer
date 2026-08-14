@@ -5,6 +5,9 @@ date: 2026-07-18 10:00:00 +0900
 categories: [tech]
 tags: ["chrome extensions", "manifest v2", "check extension manifest version", "chrome developer mode"]
 excerpt: "Chrome 138 disabled Manifest V2 extensions for all standard users in July 2025. Here is how to confirm which of your extensions are affected."
+header:
+  image: https://images.frontbuffer.net/posts/how-to-check-if-chrome-extensions-use-manifest-v2/og.png
+  overlay_filter: 0
 author_profile: false
 read_time: true
 share: true
@@ -81,6 +84,10 @@ When converting a legacy extension to the modern standard, Google's official gui
 - **Use phased rollouts:** Publish the updated extension to a limited audience first to confirm stability before deploying globally.
 
 For users discovering that a favorite extension has been disabled, the Chrome Web Store provides recommended Manifest V3 alternatives where available for affected add-ons.
+
+---
+
+For working replacements that are already MV3-compliant, see [Best Manifest V3 Alternatives for Older Chrome Extensions](https://frontbuffer.net/tech/best-manifest-v3-alternatives-for-older-chrome-extensions/). For a full architectural overview of what changed, see [What is Chrome Manifest V3 and Why Extensions Break](https://frontbuffer.net/tech/what-is-chrome-manifest-v3-and-why-extensions-break/). The complete reference is available in the [Chrome Manifest V2 Deprecation Guide](https://frontbuffer.net/tech/google-chrome-manifest-v2-migration_HUB/).
 
 ---
 

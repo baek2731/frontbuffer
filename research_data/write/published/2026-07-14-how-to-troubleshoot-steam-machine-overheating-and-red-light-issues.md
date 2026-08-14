@@ -5,6 +5,9 @@ date: 2026-07-14 10:00:00 +0900
 categories: [gaming]
 tags: ["steam machine", "steam machine overheating", "red light fix", "valve hardware"]
 excerpt: "The June 29, 2026 launch of Valve's Steam Machine brought a red light problem with it. Valve confirmed the culprit is a BIOS bug, not the hardware failing."
+header:
+  image: https://images.frontbuffer.net/posts/how-to-troubleshoot-steam-machine-overheating-and-red-light-issues/og.png
+  overlay_filter: 0
 author_profile: false
 read_time: true
 share: true
@@ -54,8 +57,16 @@ Until the BIOS patch ships, the practical threshold to watch is sustained CPU te
 
 ---
 
+For a complete breakdown of what each LED pattern means, see our [Steam Machine LED Error Codes guide](https://frontbuffer.net/gaming/steam-machine-led-error-codes-what-each-warning-light-actually-means/).
+
+---
+
 *Sources:*
 
 - [TechRadar: New Steam Machine red light warning isn't anything to worry about](https://www.techradar.com/computing/gaming-pcs/new-steam-machine-red-light-warning-isnt-anything-to-worry-about-an-overzealous-overheating-warning-is-reportedly-due-to-a-bios-bug)
 - [Wikipedia: Steam Machine (2026)](https://en.wikipedia.org/wiki/Steam_Machine_(2026))
 - [Rock Paper Shotgun: AC Black Flag Resynced — Steam Deck and Steam Machine performance and settings](https://www.rockpapershotgun.com/assassins-creed-black-flag-resynced-steam-deck-and-steam-machine-performance-and-settings)
+
+
+---
+**Want the full picture?** See our complete guide: [Steam Machine](https://frontbuffer.net/gaming/steam-machine-hardware-management/)

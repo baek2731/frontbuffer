@@ -66,3 +66,7 @@ For a complete breakdown of what each LED pattern means, see our [Steam Machine 
 - [TechRadar: New Steam Machine red light warning isn't anything to worry about](https://www.techradar.com/computing/gaming-pcs/new-steam-machine-red-light-warning-isnt-anything-to-worry-about-an-overzealous-overheating-warning-is-reportedly-due-to-a-bios-bug)
 - [Wikipedia: Steam Machine (2026)](https://en.wikipedia.org/wiki/Steam_Machine_(2026))
 - [Rock Paper Shotgun: AC Black Flag Resynced — Steam Deck and Steam Machine performance and settings](https://www.rockpapershotgun.com/assassins-creed-black-flag-resynced-steam-deck-and-steam-machine-performance-and-settings)
+
+
+---
+**Want the full picture?** See our complete guide: [Steam Machine](https://frontbuffer.net/gaming/steam-machine-hardware-management/)

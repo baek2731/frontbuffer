@@ -5,6 +5,9 @@ date: 2026-08-14 14:07:00 +0000
 categories: [tech]
 tags: ["guide", "android", "auto"]
 excerpt: 'Wireless Android Auto drops its connection for a handful of consistent reasons: stale cache data, revoked permissions after a system update, or a…'
+header:
+  image: https://images.frontbuffer.net/posts/how-to-fix-android-auto-wireless-connection-issues/og.png
+  overlay_filter: 0
 author_profile: false
 read_time: true
 share: true

@@ -5,6 +5,9 @@ date: 2026-07-20 11:11:27 +0900
 categories: [tech]
 tags: ["chrome extensions", "hub", "manifest", "deprecation"]
 excerpt: "If your Chrome extensions suddenly stopped working in 2025 or you're trying to stay ahead of Google's August 31, 2026 Web Store deadline, you're in…"
+header:
+  image: https://images.frontbuffer.net/posts/google-chrome-manifest-v2-migration_HUB/og.png
+  overlay_filter: 0
 author_profile: false
 read_time: true
 share: true

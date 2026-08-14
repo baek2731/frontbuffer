@@ -5,6 +5,9 @@ date: 2026-07-19 10:00:00 +0900
 categories: [tech]
 tags: ["chrome extensions", "manifest v3 alternatives", "ublock origin lite", "ad blocker replacement"]
 excerpt: "Chrome 138 permanently disabled the original uBlock Origin in July 2025. Here are the extensions that have already made the switch to Manifest V3."
+header:
+  image: https://images.frontbuffer.net/posts/best-manifest-v3-alternatives-for-older-chrome-extensions/og.png
+  overlay_filter: 0
 author_profile: false
 read_time: true
 share: true
@@ -70,6 +73,10 @@ Manifest V3 completely removes support for remotely hosted code and prohibits th
 For developers converting their own extensions, Google provides an open-source [Extension Manifest Converter on GitHub](https://github.com/GoogleChromeLabs/extension-manifest-converter) that handles basic manifest structure conversions. It does not automate complex API rewrites, but serves as a useful starting point.
 
 When deploying a migrated extension, Google recommends a step-wise rollout to a limited audience first, as outlined in the [Chrome Publishing Guide](https://developer.chrome.com/docs/extensions/migrating/publish-mv3), to catch any runtime issues before full release.
+
+---
+
+If you are not sure whether your current extensions are already MV3-compliant, [How to Check If Chrome Extensions Use Manifest V2](https://frontbuffer.net/tech/how-to-check-if-chrome-extensions-use-manifest-v2/) covers the quickest ways to verify. The complete reference is available in the [Chrome Manifest V2 Deprecation Guide](https://frontbuffer.net/tech/google-chrome-manifest-v2-migration_HUB/).
 
 ---
 

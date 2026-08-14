@@ -4,7 +4,10 @@ title: 'How to Transfer Samsung Health Data When Switching Android Phones'
 date: 2026-07-22 14:03:00 +0000
 categories: [tech]
 tags: ["guide", "android", "ecosystem"]
-excerpt: 'Samsung Health backs up through Samsung Cloud automatically — but only if you set it up before switching. Here is what actually transfers, what does not, and what to do if the sync fails.'
+excerpt: 'Samsung Health backs up through Samsung Cloud automatically - but only if you set it up before switching. Here is what actually transfers, what does not, and what to do if the sync fails.'
+header:
+  image: https://images.frontbuffer.net/posts/android-ecosystem_guide/og.png
+  overlay_filter: 0
 author_profile: false
 read_time: true
 share: true
@@ -62,6 +65,10 @@ Confirm you are using the exact same Samsung account email on both devices. A se
 If you are switching from Samsung to a non-Samsung Android phone, Samsung Health data does not transfer to Google Fit or Health Connect automatically. You would need to export manually and use a third-party conversion tool, or accept that the history stays in Samsung Health on your old device.
 
 ---
+If you are planning to delete your Samsung account after switching, export your data first — the process is covered in [How to Backup Samsung Health Data Before Account Deletion](https://frontbuffer.net/tech/how-to-backup-samsung-health-data-before-account-deletion/). For a comparison of Samsung Health and Google Health Connect, see [Samsung Health vs Google Health Connect Feature Comparison](https://frontbuffer.net/tech/samsung-health-vs-google-health-connect-feature-comparison/).
+
+---
+
 Sources:
 1. [Samsung: How to back up and restore data on your Galaxy phone](https://www.samsung.com/us/support/answer/ANS00081493/)
 2. [Samsung: How to use Samsung Cloud to back up and restore data](https://www.samsung.com/uk/support/mobile-devices/how-to-use-samsung-cloud-to-back-up-and-restore-data-on-your-galaxy-device/)

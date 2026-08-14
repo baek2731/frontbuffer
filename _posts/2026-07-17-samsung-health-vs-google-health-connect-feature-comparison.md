@@ -88,3 +88,7 @@ Sources:
 * [Wikipedia: Samsung Health](https://en.wikipedia.org/wiki/Samsung_Health)
 * [Wikipedia: Health Connect](https://en.wikipedia.org/wiki/Health_Connect)
 * [Android Developers: Health Connect](https://developer.android.com/health-and-fitness/health-connect)
+
+
+---
+**Want the full picture?** See our complete guide: [Samsung Health](https://frontbuffer.net/tech/samsung-health-data-ecosystem_hub/)

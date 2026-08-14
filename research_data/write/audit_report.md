@@ -1,40 +1,72 @@
 # Frontbuffer 주간 품질 감사 리포트
-생성: 2026-07-24 16:50 UTC  |  dry-run: False
+생성: 2026-08-14 15:55 UTC  |  dry-run: False
 
 ## 요약
-- 자동 수정: **11건**
-- 수동 확인 필요: **14건**
-- final/ 스택 잔량: **13편**
+- 자동 수정: **32건**
+- 수동 확인 필요: **21건**
+- final/ 스택 잔량: **8편**
+
+## ✅ 자동 수정 — HUB 역방향 링크 소급
+- 2026-07-14-how-to-troubleshoot-steam-machine-overheating-and-red-light-issues.md → HUB 역방향 링크 추가 [Steam Machine](https://frontbuffer.net/gaming/steam-machine-hardware-management/)
+- 2026-07-15-steam-machine-led-error-codes-what-each-warning-light-actually-means.md → HUB 역방향 링크 추가 [Steam Machine](https://frontbuffer.net/gaming/steam-machine-hardware-management/)
+- 2026-07-16-how-to-backup-samsung-health-data-before-account-deletion.md → HUB 역방향 링크 추가 [Samsung Health](https://frontbuffer.net/tech/samsung-health-data-ecosystem_hub/)
+- 2026-07-17-samsung-health-vs-google-health-connect-feature-comparison.md → HUB 역방향 링크 추가 [Samsung Health](https://frontbuffer.net/tech/samsung-health-data-ecosystem_hub/)
 
 ## ✅ 자동 수정 — published/ 동기화
-- published/2026-07-23-fallout-series_comparison.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-07-21-android-ecosystem_explainer.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-07-16-how-to-backup-samsung-health-data-before-account-deletion.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-07-14-how-to-troubleshoot-steam-machine-overheating-and-red-light-issues.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-07-15-steam-machine-led-error-codes-what-each-warning-light-actually-means.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-07-18-how-to-check-if-chrome-extensions-use-manifest-v2.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-08-01-01-galaxy-fold_comparison.md 동기화 복사
+- published/2026-08-02-01-galaxy-fold_explainer.md 동기화 복사
+- published/2026-07-29-samsung-health-data-ecosystem_hub.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-07-31-portable-gaming_guide.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-07-20-google-chrome-manifest-v2-migration_HUB.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-08-11-best-wireless-android-auto-adapter-for-older-cars-comparison.md 내용 불일치 → _posts/ 기준으로 덮어씀
 - published/2026-07-22-android-ecosystem_guide.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-08-08-06-android-auto_comparison.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-07-18-how-to-check-if-chrome-extensions-use-manifest-v2.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-08-05-samsung-galaxy-z-foldflip-series_explainer.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-08-10-the-promise-of-silicon-carbon-batteries-and-samsungs-strateg.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-07-28-portable-gaming_explainer.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-07-30-steam-machine-hardware-management_hub.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-08-09-06-android-auto_guide.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-08-07-samsung-galaxy-z-foldflip-series_guide.md 내용 불일치 → _posts/ 기준으로 덮어씀
 - published/2026-07-19-best-manifest-v3-alternatives-for-older-chrome-extensions.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-07-21-android-ecosystem_comparison.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-08-13-physical-vs-digital-games-ownership-licenses-and-player-choi.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-08-04-samsung-galaxy-z-foldflip-series_comparison.md 내용 불일치 → _posts/ 기준으로 덮어씀
 - published/2026-07-24-fallout-series_explainer.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-07-17-samsung-health-vs-google-health-connect-feature-comparison.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-07-27-portable-gaming_comparison.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-07-26-fallout-series_guide.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-07-21-android-ecosystem_explainer.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-08-03-01-galaxy-fold_guide.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-07-21-android-ecosystem_comparison.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-08-14-how-to-fix-android-auto-wireless-connection-issues.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-07-20-what-is-chrome-manifest-v3-and-why-extensions-break.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-08-12-google-pixel-launcher-vs-third-party-android-launchers-featu.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-07-23-fallout-series_comparison.md 내용 불일치 → _posts/ 기준으로 덮어씀
 
 ## ⚠️ 수동 확인 필요 — 단어 수 미달
 - 2026-07-20-google-chrome-manifest-v2-migration_HUB.md — 504단어
-- 2026-07-21-android-ecosystem_comparison.md — 539단어
+- 2026-07-21-android-ecosystem_comparison.md — 568단어
+- 2026-07-29-samsung-health-data-ecosystem_hub.md — 347단어
+- 2026-07-30-steam-machine-hardware-management_hub.md — 277단어
+- 2026-08-01-01-galaxy-fold_comparison.md — 567단어
+- 2026-08-02-01-galaxy-fold_explainer.md — 575단어
+- 2026-08-05-samsung-galaxy-z-foldflip-series_explainer.md — 597단어
+- 2026-08-07-samsung-galaxy-z-foldflip-series_guide.md — 463단어
+- 2026-08-08-06-android-auto_comparison.md — 564단어
+- 2026-08-12-google-pixel-launcher-vs-third-party-android-launchers-featu.md — 563단어
+- 2026-08-13-physical-vs-digital-games-ownership-licenses-and-player-choi.md — 595단어
+
+## ⚠️ 수동 확인 필요 — published/ 불일치
+- published/2026-08-03-01-galaxy-fold_comparison.md — _posts/에 없음 (발행 누락?)
+- published/2026-08-03-01-galaxy-fold_explainer.md — _posts/에 없음 (발행 누락?)
 
 ## ⚠️ 수동 확인 필요 — HUB-스포크 연결
-- **Steam Machine** — 스포크 2개 발행됐으나 HUB 없음 (hub_status: READY)
-- **Steam Machine** — spoke_urls PENDING 잔존: Steam Machine Hardware Management (HUB)
-- **Samsung Health** — 스포크 2개 발행됐으나 HUB 없음 (hub_status: READY)
-- **Samsung Health** — spoke_urls PENDING 잔존: Samsung Health Data Ecosystem (HUB)
 - **Android Ecosystem** — 스포크 3개 발행됐으나 HUB 없음 (hub_status: READY)
-- **Fallout Series** — 스포크 2개 발행됐으나 HUB 없음 (hub_status: READY)
-- **Fallout Series** — spoke_urls PENDING 잔존: Fallout Series (GUIDE)
+- **Fallout Series** — 스포크 3개 발행됐으나 HUB 없음 (hub_status: READY)
+- **Portable Gaming** — 스포크 3개 발행됐으나 HUB 없음 (hub_status: READY)
+- **Samsung Galaxy Foldables** — 스포크 3개 발행됐으나 HUB 없음 (hub_status: READY)
+- **Google Android Ecosystem** — 스포크 2개 발행됐으나 HUB 없음 (hub_status: READY)
+- **Galaxy Fold** — 스포크 2개 발행됐으나 HUB 없음 (hub_status: READY)
+- **Android Features** — 스포크 2개 발행됐으나 HUB 없음 (hub_status: READY)
 
 ## ⚠️ 수동 확인 필요 — 외부 링크 404
-- 2026-07-14-how-to-troubleshoot-steam-machine-overheating-and-red-light-issues.md: [https://en.wikipedia.org/wiki/Steam_Machine_(2026]
-- 2026-07-14-how-to-troubleshoot-steam-machine-overheating-and-red-light-issues.md: [https://en.wikipedia.org/wiki/Steam_Machine_(2026]
-- 2026-07-14-how-to-troubleshoot-steam-machine-overheating-and-red-light-issues.md: [https://en.wikipedia.org/wiki/Steam_Machine_(2026]
-- 2026-07-15-steam-machine-led-error-codes-what-each-warning-light-actually-means.md: [https://en.wikipedia.org/wiki/Steam_Machine_(2026]
-- 2026-07-15-steam-machine-led-error-codes-what-each-warning-light-actually-means.md: [https://en.wikipedia.org/wiki/Steam_Machine_(2026]
+- 2026-07-16-how-to-backup-samsung-health-data-before-account-deletion.md: [https://frontbuffer.net/tech/samsung-health-data-ecosystem_hub/]

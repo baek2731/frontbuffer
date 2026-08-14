@@ -5,6 +5,9 @@ date: 2026-07-20 10:00:00 +0900
 categories: [tech]
 tags: ["chrome extensions", "manifest v3", "mv2 deprecation", "declarative net request"]
 excerpt: "For millions of Chrome users, the sudden disappearance of familiar browser add-ons over the past year came without much warning. Google's transition t"
+header:
+  image: https://images.frontbuffer.net/posts/what-is-chrome-manifest-v3-and-why-extensions-break/og.png
+  overlay_filter: 0
 author_profile: false
 read_time: true
 share: true
@@ -86,6 +89,10 @@ Firefox remains the notable exception among major browsers: Mozilla has explicit
 For developers still migrating legacy extensions, Google provides an open-source [Extension Manifest Converter on GitHub](https://github.com/GoogleChromeLabs/extension-manifest-converter) that handles basic `manifest.json` structural updates. It does not automate complex API rewrites, but serves as a useful starting point.
 
 Google's official guidance recommends keeping feature sets identical during migration rather than introducing new functionality — new permissions added during transition can trigger unexpected user-facing permission warnings and complicate the update path for existing installs.
+
+---
+
+For a practical list of MV3-compliant replacements for common extensions, see [Best Manifest V3 Alternatives for Older Chrome Extensions](https://frontbuffer.net/tech/best-manifest-v3-alternatives-for-older-chrome-extensions/). To check whether a specific installed extension is still running on MV2, see [How to Check If Chrome Extensions Use Manifest V2](https://frontbuffer.net/tech/how-to-check-if-chrome-extensions-use-manifest-v2/). The complete reference is available in the [Chrome Manifest V2 Deprecation Guide](https://frontbuffer.net/tech/google-chrome-manifest-v2-migration_HUB/).
 
 ---
 
