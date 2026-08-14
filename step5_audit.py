@@ -141,10 +141,13 @@ def check_placeholders(posts, dry_run: bool):
 
 
 def check_word_count(posts):
-    """단어 수 600 미만 글 목록."""
+    """단어 수 600 미만 글 목록 (HUB 타입 제외)."""
     low = []
     for post in posts:
         text  = post.read_text(encoding="utf-8")
+        # HUB 타입은 구조상 짧아도 되므로 제외
+        if "HUB" in post.name.upper() or '"hub"' in text.lower() or "'hub'" in text.lower():
+            continue
         words = count_words(text)
         if words < 600:
             low.append(f"{post.name} — {words}단어")
