@@ -1,7 +1,7 @@
 {
   "_version": "1.3",
   "_description": "콘텐츠 파이프라인 — 클러스터 단위 관리",
-  "_last_updated": "2026-08-13T14:59:15.249569+00:00",
+  "_last_updated": "2026-08-15T14:24:00.871905+00:00",
   "hub_clusters": {
     "Steam Machine": {
       "hub_keyword": "Steam Machine",
@@ -375,17 +375,19 @@
     },
     "Gaming Physical Media": {
       "hub_keyword": "Gaming Physical Media",
-      "hub_status": "PENDING",
+      "hub_status": "READY",
       "hub_title": "",
       "hub_url": "",
       "spokes": [
         "Gaming Media Formats"
       ],
       "spoke_urls": {
-        "Gaming Media Formats (COMPARISON)": "https://frontbuffer.net/gaming/physical-vs-digital-games-ownership-licenses-and-player-choi/"
+        "Gaming Media Formats (COMPARISON)": "https://frontbuffer.net/gaming/physical-vs-digital-games-ownership-licenses-and-player-choi/",
+        "Gaming Media Formats (GUIDE)": "https://frontbuffer.net/gaming/how-to-manage-a-large-digital-game-library-across-platforms/"
       },
       "internal_links": [
-        "https://frontbuffer.net/gaming/physical-vs-digital-games-ownership-licenses-and-player-choi/"
+        "https://frontbuffer.net/gaming/physical-vs-digital-games-ownership-licenses-and-player-choi/",
+        "https://frontbuffer.net/gaming/how-to-manage-a-large-digital-game-library-across-platforms/"
       ]
     },
     "Galaxy Fold": {
@@ -1193,11 +1195,11 @@
     },
     "Gaming Media Formats": {
       "types_done": [
-        "COMPARISON"
+        "COMPARISON",
+        "GUIDE"
       ],
       "last_week": "2026-W32",
       "suggest_next": [
-        "GUIDE",
         "EXPLAINER",
         "LISTICLE"
       ],
@@ -3942,8 +3944,9 @@
         "data_grade": "A",
         "verified_keywords": [],
         "publish_order": 15,
-        "status": "candidate",
-        "selected_at": "2026-07-28T01:48:12.754550+00:00"
+        "status": "published",
+        "selected_at": "2026-07-28T01:48:12.754550+00:00",
+        "url": "https://frontbuffer.net/gaming/how-to-manage-a-large-digital-game-library-across-platforms/"
       }
     ],
     "2026-W32": [
@@ -4509,6 +4512,15 @@
       "content_type": "COMPARISON",
       "week_tag": "2026-W32",
       "published_at": "2026-08-13T14:59:15.249490+00:00",
+      "hub_cluster": "Gaming Physical Media"
+    },
+    {
+      "cluster_name": "Gaming Media Formats",
+      "title": "How to Manage a Large Digital Game Library Across Platforms",
+      "url": "https://frontbuffer.net/gaming/how-to-manage-a-large-digital-game-library-across-platforms/",
+      "content_type": "GUIDE",
+      "week_tag": "2026-W32",
+      "published_at": "2026-08-15T14:24:00.871703+00:00",
       "hub_cluster": "Gaming Physical Media"
     }
   ]
