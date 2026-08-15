@@ -5,6 +5,9 @@ date: 2026-08-15 14:09:00 +0000
 categories: [gaming]
 tags: ["guide", "gaming", "media", "formats"]
 excerpt: 'Since the launch of Steam in 2003, digital game ownership has exploded, leading many players to accumulate vast collections across PC, Xbox,…'
+header:
+  image: https://images.frontbuffer.net/posts/how-to-manage-a-large-digital-game-library-across-platforms/og.png
+  overlay_filter: 0
 author_profile: false
 read_time: true
 share: true
