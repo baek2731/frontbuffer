@@ -1,4 +1,14 @@
-# Galaxy Z Fold 8 vs. Fold 7 Camera Comparison: Low Light Performance
+---
+layout: single
+title: 'Galaxy Z Fold 8 vs. Fold 7 Camera Comparison: Low Light Performance'
+date: 2026-08-16 14:49:00 +0000
+categories: [tech]
+tags: ["comparison", "galaxy", "fold"]
+excerpt: 'The Samsung Galaxy Z Fold 7, released on July 25, 2025, and the Galaxy Z Fold 8, unveiled on July 22, 2026, represent two generations of Samsung''s…'
+author_profile: false
+read_time: true
+share: true
+---
 
 The Samsung Galaxy Z Fold 7, released on July 25, 2025, and the Galaxy Z Fold 8, unveiled on July 22, 2026, represent two generations of Samsung's foldable camera technology. These devices offer distinct photographic capabilities, particularly in low-light conditions, showcasing Samsung's advancements in the `galaxy z fold camera` experience.
 
