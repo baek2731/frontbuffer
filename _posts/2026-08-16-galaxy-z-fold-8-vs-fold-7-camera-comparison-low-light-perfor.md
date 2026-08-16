@@ -5,6 +5,9 @@ date: 2026-08-16 14:49:00 +0000
 categories: [tech]
 tags: ["comparison", "galaxy", "fold"]
 excerpt: 'The Samsung Galaxy Z Fold 7, released on July 25, 2025, and the Galaxy Z Fold 8, unveiled on July 22, 2026, represent two generations of Samsung''s…'
+header:
+  image: https://images.frontbuffer.net/posts/galaxy-z-fold-8-vs-fold-7-camera-comparison-low-light-perfor/og.png
+  overlay_filter: 0
 author_profile: false
 read_time: true
 share: true
