@@ -5,6 +5,9 @@ date: 2026-08-17 14:50:00 +0000
 categories: [tech]
 tags: ["guide", "galaxy", "fold"]
 excerpt: 'Just days after its highly anticipated unveiling on July 22, 2026, and subsequent release on August 7, 2026, the Samsung Galaxy Z Fold 8 is now in…'
+header:
+  image: https://images.frontbuffer.net/posts/galaxy-z-fold-8-first-5-things-to-do-essential-setup-guide/og.png
+  overlay_filter: 0
 author_profile: false
 read_time: true
 share: true
