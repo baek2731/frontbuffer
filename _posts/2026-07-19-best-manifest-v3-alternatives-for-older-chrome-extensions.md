@@ -1,10 +1,10 @@
 ---
 layout: single
-title: "Best Manifest V3 Alternatives for Older Chrome Extensions"
+title: "uBlock Origin Lite and the Best Manifest V3 Chrome Extension Alternatives (2026)"
 date: 2026-07-19 10:00:00 +0900
 categories: [tech]
 tags: ["chrome extensions", "manifest v3 alternatives", "ublock origin lite", "ad blocker replacement"]
-excerpt: "Chrome 138 permanently disabled the original uBlock Origin in July 2025. Here are the extensions that have already made the switch to Manifest V3."
+excerpt: "Chrome 138 disabled the original uBlock Origin in July 2025. uBlock Origin Lite replaces it at 60-70% blocking effectiveness - here are the strongest MV3-era alternatives for Chrome users."
 header:
   image: https://images.frontbuffer.net/posts/best-manifest-v3-alternatives-for-older-chrome-extensions/og.png
   overlay_filter: 0
