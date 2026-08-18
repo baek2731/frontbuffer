@@ -1,10 +1,10 @@
 ---
 layout: single
-title: 'How to Transfer Samsung Health Data When Switching Android Phones'
+title: 'How to Transfer Samsung Health Data to a New Android Phone (Without Losing Records)'
 date: 2026-07-22 14:03:00 +0000
 categories: [tech]
 tags: ["guide", "android", "ecosystem"]
-excerpt: 'Samsung Health backs up through Samsung Cloud automatically - but only if you set it up before switching. Here is what actually transfers, what does not, and what to do if the sync fails.'
+excerpt: 'Samsung Health data transfers automatically via Samsung Cloud - but only if sync was enabled before you switched. Step counts, sleep data, and workout logs all carry over. Here is exactly how.'
 header:
   image: https://images.frontbuffer.net/posts/android-ecosystem_guide/og.png
   overlay_filter: 0
