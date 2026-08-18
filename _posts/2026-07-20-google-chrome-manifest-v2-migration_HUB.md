@@ -1,10 +1,10 @@
 ---
 layout: single
-title: "Chrome Manifest V2 Deprecation: The Complete Guide for Users and Developers"
+title: "Chrome Manifest V2 Is Dead: What Happened and What to Use Instead"
 date: 2026-07-20 11:11:27 +0900
 categories: [tech]
 tags: ["chrome extensions", "hub", "manifest", "deprecation"]
-excerpt: "If your Chrome extensions suddenly stopped working in 2025 or you're trying to stay ahead of Google's August 31, 2026 Web Store deadline, you're in…"
+excerpt: "Chrome removed all Manifest V2 extensions from the Web Store on August 31, 2026. If uBlock Origin or another extension stopped working, here is what replaced it."
 header:
   image: https://images.frontbuffer.net/posts/google-chrome-manifest-v2-migration_HUB/og.png
   overlay_filter: 0
@@ -43,7 +43,7 @@ If your go-to extension no longer works and you need a replacement that function
 
 ## Conclusion
 
-The Manifest V2 phase-out is not a future concern — the Chrome Web Store's August 31, 2026 removal deadline makes it an immediate one. Whether you're trying to understand why something broke, auditing your current setup, or rebuilding your extension toolkit from scratch, the three guides above cover every step of that process. Start with the explainer if you're new to the transition, or jump directly to the alternatives list if you already know what you've lost.
+The Manifest V2 phase-out is complete. The Chrome Web Store removed all remaining MV2 listings on August 31, 2026. Whether you're trying to understand why something broke, auditing your current setup, or rebuilding your extension toolkit from scratch, the three guides above cover every step of that process. Start with the explainer if you're new to the transition, or jump directly to the alternatives list if you already know what you've lost.
 
 ## Sources
 

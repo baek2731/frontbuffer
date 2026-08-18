@@ -1,10 +1,10 @@
 ---
 layout: single
-title: "What is Chrome Manifest V3 and Why Extensions Break"
+title: "Why Chrome Extensions Stopped Working: Manifest V3 Explained"
 date: 2026-07-20 10:00:00 +0900
 categories: [tech]
 tags: ["chrome extensions", "manifest v3", "mv2 deprecation", "declarative net request"]
-excerpt: "For millions of Chrome users, the sudden disappearance of familiar browser add-ons over the past year came without much warning. Google's transition t"
+excerpt: "Chrome 138 disabled all Manifest V2 extensions in July 2025 - including the original uBlock Origin. Here is exactly what changed in the Chrome extensions platform and why ad blockers broke."
 header:
   image: https://images.frontbuffer.net/posts/what-is-chrome-manifest-v3-and-why-extensions-break/og.png
   overlay_filter: 0
@@ -13,7 +13,7 @@ read_time: true
 share: true
 ---
 
-For millions of Chrome users, the sudden disappearance of familiar browser add-ons over the past year came without much warning. Google's transition to Manifest V3 — the newest version of the Chrome Extensions platform — fundamentally overhauled how browser add-ons interact with the core engine. The migration is now largely complete: as of July 2025, Chrome 138 permanently disabled all Manifest V2 extensions for standard users, and the [Chrome Web Store is set to remove all remaining MV2 listings on August 31, 2026](https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline). This explainer breaks down what changed, why it caused disruptions, and what the shift means going forward.
+For millions of Chrome users, the sudden disappearance of familiar browser add-ons over the past year came without much warning. Google's transition to Manifest V3 — the newest version of the Chrome Extensions platform — fundamentally overhauled how browser add-ons interact with the core engine. The migration is now largely complete: as of July 2025, Chrome 138 permanently disabled all Manifest V2 extensions for standard users, and the [Chrome Web Store removed all remaining MV2 listings on August 31, 2026](https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline). This explainer breaks down what changed, why it caused disruptions, and what the shift means going forward.
 
 ---
 
@@ -63,9 +63,9 @@ The Manifest V2 phase-out unfolded over several years, with the most significant
 - **August 2025 (Chrome 139):** Enterprise users who had received an exemption via the `ExtensionManifestV2Availability` policy also lost MV2 support, as the policy itself was removed from Chrome.
 - **June 30, 2026 (Chrome 150):** The first developer flag allowing MV2 re-enabling was deleted.
 - **July 28, 2026 (Chrome 151):** The final developer flag is deleted, closing every remaining workaround.
-- **August 31, 2026:** All remaining MV2 extension listings are permanently removed from the Chrome Web Store.
+- **August 31, 2026:** All remaining MV2 extension listings permanently removed from the Chrome Web Store. This milestone is now complete.
 
-As of July 2026, if an extension works in Chrome today, it is already Manifest V3 compliant. The August deadline affects only Chrome Web Store listings — not extensions already installed in browsers running Chrome 138 or earlier, which will simply stop receiving updates and become permanently orphaned.
+As of August 2026, if an extension works in Chrome today, it is already Manifest V3 compliant. The August deadline affects only Chrome Web Store listings — not extensions already installed in browsers running Chrome 138 or earlier, which will simply stop receiving updates and become permanently orphaned.
 
 ---
 
