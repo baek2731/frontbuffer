@@ -4443,24 +4443,6 @@
       "hub_cluster": "Galaxy Fold"
     },
     {
-      "cluster_name": "Android System Features",
-      "title": "Google Assistant vs Gemini AI: Which is Best for Android",
-      "url": "pending",
-      "content_type": "COMPARISON",
-      "week_tag": "2026-W32",
-      "published_at": "2026-08-10T07:09:34.731269+00:00",
-      "hub_cluster": "Android Features"
-    },
-    {
-      "cluster_name": "PC Gaming Hardware Guides",
-      "title": "What is VRAM and How Much Do You Need for PC Gaming in 2026",
-      "url": "pending",
-      "content_type": "EXPLAINER",
-      "week_tag": "2026-W32",
-      "published_at": "2026-08-10T07:10:45.029525+00:00",
-      "hub_cluster": "PC Gaming Hardware"
-    },
-    {
       "cluster_name": "Samsung Galaxy Foldables",
       "title": "Galaxy Z Fold 8 First 5 Things to Do: Essential Setup Guide",
       "url": "pending",
@@ -4468,33 +4450,6 @@
       "week_tag": "2026-W32",
       "published_at": "2026-08-10T07:12:07.099560+00:00",
       "hub_cluster": "Galaxy Fold"
-    },
-    {
-      "cluster_name": "Android System Features",
-      "title": "How to Customize Android Quick Settings Tiles and Editor",
-      "url": "pending",
-      "content_type": "GUIDE",
-      "week_tag": "2026-W32",
-      "published_at": "2026-08-10T07:13:09.968728+00:00",
-      "hub_cluster": "Android Features"
-    },
-    {
-      "cluster_name": "Android 16 Desktop Mode Setup",
-      "title": "Exploring Android's Desktop Mode: From Developer Options to Future Possibilities",
-      "url": "pending",
-      "content_type": "GUIDE",
-      "week_tag": "2026-W32",
-      "published_at": "2026-08-10T07:15:54.571412+00:00",
-      "hub_cluster": ""
-    },
-    {
-      "cluster_name": "Android Desktop Mode vs Samsung DeX",
-      "title": "Android Desktop Mode vs Samsung DeX: A Comprehensive Comparison",
-      "url": "pending",
-      "content_type": "COMPARISON",
-      "week_tag": "2026-W32",
-      "published_at": "2026-08-10T07:17:15.753143+00:00",
-      "hub_cluster": ""
     },
     {
       "cluster_name": "Google Android Ecosystem",
