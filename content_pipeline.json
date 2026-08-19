@@ -1,7 +1,7 @@
 {
   "_version": "1.3",
   "_description": "콘텐츠 파이프라인 — 클러스터 단위 관리",
-  "_last_updated": "2026-08-15T14:24:00.871905+00:00",
+  "_last_updated": "2026-08-19T14:35:07.891166+00:00",
   "hub_clusters": {
     "Steam Machine": {
       "hub_keyword": "Steam Machine",
@@ -416,11 +416,11 @@
         "Android System Features"
       ],
       "spoke_urls": {
-        "Android System Features (COMPARISON)": "pending",
+        "Android System Features (COMPARISON)": "https://frontbuffer.net/tech/google-assistant-vs-gemini-what-changes-when-assistant-shuts/",
         "Android System Features (GUIDE)": "pending"
       },
       "internal_links": [
-        "pending",
+        "https://frontbuffer.net/tech/google-assistant-vs-gemini-what-changes-when-assistant-shuts/",
         "pending"
       ]
     },
@@ -1220,7 +1220,7 @@
         "COMPARISON",
         "GUIDE"
       ],
-      "last_week": "2026-W32",
+      "last_week": "2026-W33",
       "suggest_next": [
         "EXPLAINER",
         "LISTICLE"
@@ -4477,6 +4477,15 @@
       "week_tag": "2026-W32",
       "published_at": "2026-08-15T14:24:00.871703+00:00",
       "hub_cluster": "Gaming Physical Media"
+    },
+    {
+      "cluster_name": "Android System Features",
+      "title": "Google Assistant vs Gemini: What Changes When Assistant Shuts Down on September 4",
+      "url": "https://frontbuffer.net/tech/google-assistant-vs-gemini-what-changes-when-assistant-shuts/",
+      "content_type": "COMPARISON",
+      "week_tag": "2026-W33",
+      "published_at": "2026-08-19T14:35:07.891100+00:00",
+      "hub_cluster": "Android Features"
     }
   ]
 }

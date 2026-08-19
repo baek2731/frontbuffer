@@ -1,4 +1,14 @@
-# Google Assistant vs Gemini: What Changes When Assistant Shuts Down on September 4
+---
+layout: single
+title: 'Google Assistant vs Gemini: What Changes When Assistant Shuts Down on September 4'
+date: 2026-08-19 14:13:00 +0000
+categories: [tech]
+tags: ["comparison", "android", "system", "features"]
+excerpt: 'Google confirmed that Assistant will be removed from Android phones, tablets, Wear OS watches, compatible headphones, and phone-projected Android…'
+author_profile: false
+read_time: true
+share: true
+---
 
 Google confirmed that Assistant will be removed from Android phones, tablets, Wear OS watches, compatible headphones, and phone-projected Android Auto starting September 4, 2026. The rollout is gradual — not every device switches on the same day — but once it hits your device, you cannot revert. Cars with Google Built-in, Google Home speakers, smart displays, and Google TV are on separate migration schedules.
 

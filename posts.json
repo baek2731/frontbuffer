@@ -662,6 +662,23 @@
       "hub_cluster": "",
       "verified_keywords": [],
       "slug": "2026-08-17-galaxy-z-fold-8-first-5-things-to-do-essential-setup-guide"
+    },
+    {
+      "status": "live",
+      "date": "2026-08-19",
+      "title": "Google Assistant vs Gemini: What Changes When Assistant Shuts Down on September 4",
+      "live_url": "https://frontbuffer.net/tech/google-assistant-vs-gemini-what-changes-when-assistant-shuts/",
+      "categories": [
+        "tech"
+      ],
+      "content_type": "COMPARISON",
+      "hub_cluster": "Android System Features",
+      "verified_keywords": [
+        "Google AI Assistant",
+        "google assistant vs gemini ai",
+        "best android voice assistant"
+      ],
+      "slug": "2026-08-19-google-assistant-vs-gemini-what-changes-when-assistant-shuts"
     }
   ],
   "_last_updated": "2026-08-07T14:54:21.320932+00:00"
