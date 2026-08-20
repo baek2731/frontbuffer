@@ -1,7 +1,7 @@
 {
   "_version": "1.3",
   "_description": "콘텐츠 파이프라인 — 클러스터 단위 관리",
-  "_last_updated": "2026-08-19T14:35:07.891166+00:00",
+  "_last_updated": "2026-08-20T14:37:29.667444+00:00",
   "hub_clusters": {
     "Steam Machine": {
       "hub_keyword": "Steam Machine",
@@ -433,10 +433,10 @@
         "PC Gaming Hardware Guides"
       ],
       "spoke_urls": {
-        "PC Gaming Hardware Guides (EXPLAINER)": "pending"
+        "PC Gaming Hardware Guides (EXPLAINER)": "https://frontbuffer.net/gaming/what-is-vram-and-how-much-do-you-need-for-pc-gaming-in-2026/"
       },
       "internal_links": [
-        "pending"
+        "https://frontbuffer.net/gaming/what-is-vram-and-how-much-do-you-need-for-pc-gaming-in-2026/"
       ]
     }
   },
@@ -1242,7 +1242,7 @@
       "types_done": [
         "EXPLAINER"
       ],
-      "last_week": "2026-W32",
+      "last_week": "2026-W33",
       "suggest_next": [
         "COMPARISON",
         "GUIDE",
@@ -4486,6 +4486,15 @@
       "week_tag": "2026-W33",
       "published_at": "2026-08-19T14:35:07.891100+00:00",
       "hub_cluster": "Android Features"
+    },
+    {
+      "cluster_name": "PC Gaming Hardware Guides",
+      "title": "What is VRAM and How Much Do You Need for PC Gaming in 2026",
+      "url": "https://frontbuffer.net/gaming/what-is-vram-and-how-much-do-you-need-for-pc-gaming-in-2026/",
+      "content_type": "EXPLAINER",
+      "week_tag": "2026-W33",
+      "published_at": "2026-08-20T14:37:29.667374+00:00",
+      "hub_cluster": "PC Gaming Hardware"
     }
   ]
 }
