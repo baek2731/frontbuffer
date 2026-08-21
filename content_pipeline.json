@@ -1,7 +1,7 @@
 {
   "_version": "1.3",
   "_description": "콘텐츠 파이프라인 — 클러스터 단위 관리",
-  "_last_updated": "2026-08-21T07:38:19.465565+00:00",
+  "_last_updated": "2026-08-21T07:40:08.549826+00:00",
   "hub_clusters": {
     "Steam Machine": {
       "hub_keyword": "Steam Machine",
@@ -370,8 +370,12 @@
       "spokes": [
         "Android Auto Troubleshooting"
       ],
-      "spoke_urls": {},
-      "internal_links": []
+      "spoke_urls": {
+        "Android Auto Troubleshooting (COMPARISON)": "pending"
+      },
+      "internal_links": [
+        "pending"
+      ]
     },
     "Gaming Physical Media": {
       "hub_keyword": "Gaming Physical Media",
@@ -1206,10 +1210,11 @@
       "notes": ""
     },
     "Android Auto Troubleshooting": {
-      "types_done": [],
-      "last_week": "2026-W30",
+      "types_done": [
+        "COMPARISON"
+      ],
+      "last_week": "2026-W33",
       "suggest_next": [
-        "COMPARISON",
         "GUIDE",
         "EXPLAINER",
         "LISTICLE"
@@ -3914,8 +3919,9 @@
         "data_grade": "A",
         "verified_keywords": [],
         "publish_order": 9,
-        "status": "candidate",
-        "selected_at": "2026-07-28T01:48:12.754550+00:00"
+        "status": "published",
+        "selected_at": "2026-07-28T01:48:12.754550+00:00",
+        "url": "pending"
       },
       {
         "cluster_name": "Gaming Media Formats",
@@ -4768,6 +4774,15 @@
       "week_tag": "2026-W33",
       "published_at": "2026-08-20T14:37:29.667374+00:00",
       "hub_cluster": "PC Gaming Hardware"
+    },
+    {
+      "cluster_name": "Android Auto Troubleshooting",
+      "title": "best wireless android auto adapter for older cars comparison",
+      "url": "pending",
+      "content_type": "COMPARISON",
+      "week_tag": "2026-W33",
+      "published_at": "2026-08-21T07:40:08.549756+00:00",
+      "hub_cluster": "Android Auto"
     }
   ]
 }
