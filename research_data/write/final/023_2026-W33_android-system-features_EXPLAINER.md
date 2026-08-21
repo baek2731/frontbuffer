@@ -28,36 +28,26 @@ Beyond feature adoption, privacy and performance concerns have also surfaced. So
 
 Additionally, user concerns regarding the application's memory footprint and storage consumption due to accumulated message content have been noted, with many seeking ways to manage photos and videos within the app. While Google Messages does not currently offer systematic options for automatically deleting old threads, users can manually manage their storage.
 
-The Google Messages long-press menu redesign, with its floating menu and precise text copying, marks a significant enhancement for Android users. To immediately benefit from features like one-handed access to 'Reply' or 'Edit' (for RCS messages within 15 minutes), ensure your app is on the latest beta version. This update specifically streamlines interactions, making tasks like correcting a typo or copying a specific phrase faster and more intuitive than ever before. For more insights into optimizing your Android messaging experience, explore our guide on [INTERNAL LINK: Android privacy settings].
+The Google Messages long-press menu redesign, with its floating menu and precise text copying, marks a significant enhancement for Android users. To immediately benefit from features like one-handed access to 'Reply' or 'Edit' (for RCS messages within 15 minutes), ensure your app is on the latest beta version. This update specifically streamlines interactions, making tasks like correcting a typo or copying a specific phrase faster and more intuitive than ever before.
 
 ---
 Sources:
 [1] What new Google Messages features are rolling out [August 2026] - 9to5Google
-[2] Google Messages 2026 - The BIGGEST Update Ever! - YouTube
-[3] Google Messages rolling out long-press menu redesign with precise copying - 9to5Google
-[4] Google Messages Beta Brings a Redesigned Menu for Easier One-Handed Use
-[5] Google Messages Tests New Long-Press Menu for Easier One-Handed Use | Extremetech
-[6] Google is apparently working on bringing back edit history to Messages, reversing a 2025 redesign that stripped away the ability to see original versions of a text - Facebook
-[7] Google Messages lets you edit texts now but the fine print matters
-[8] You can FINALLY edit Google Messages! #google #messages #android - YouTube
-[9] Google Messages Rolling Out Long‑Press Menu Google has expanded beta access to a redesigned long‑press menu in Messages, adding a blur background and new copy actions to improve one‑hande | UXCentury - Facebook
-[10] Editing Messages Issue - Google Help
-[11] Google Messages could soon bring back a crucial feature that was quietly removed
-[12] How To Update Google Messages App [2026 Guide] - YouTube
-[13] Google Messages makes one-handed use much easier with new rollout - Android Authority
-[14] Can't get google messages previews on lock screen? - Facebook
-[15] - YouTube
-[16] Latest Google Messages update comes with a sharing menu change your group chat will love - PhoneArena
-[17] Google Messages Adds Sweet New Sharing Feature - Droid Life
-[18] Control notifications on Android - Google Help
-[19] Not getting Messages app notifications on lock screen - Google Pixel Community
-[20] Change Messages notifications & settings - Google Help
-[21] How to Hide Google Messages Notification Content on the Lock Screen in Samsung Galaxy S25 Ultra? - YouTube
-[22] Explore group conversations in Google Messages
-[23] Switch to Google Messages | Samsung US
-[24] googlemessages - YouTube
-[25] What new Google Messages features are rolling out [May 2026] - Reddit
-[26] Default lock screen setting no longer applied - Google Messages Community
-[27] Google Messages Just Got a MAJOR Upgrade! Delete Texts for EVERYONE! - YouTube
-[28] How To Use Google Messages | Complete Beginners Tutorial - YouTube
-[29] Google Voice still doesn't have RCS but last week I got a popup when I logged into GV saying it has Gemini features now.
+[2] Google Messages rolling out long-press menu redesign with precise copying - 9to5Google
+[3] Google Messages Beta Brings a Redesigned Menu for Easier One-Handed Use
+[4] Google Messages Tests New Long-Press Menu for Easier One-Handed Use | Extremetech
+[5] Google is apparently working on bringing back edit history to Messages - Facebook
+[6] Google Messages lets you edit texts now but the fine print matters
+[7] Google Messages Rolling Out Long-Press Menu - UXCentury
+[8] Editing Messages Issue - Google Help
+[9] Google Messages could soon bring back a crucial feature that was quietly removed
+[10] Google Messages makes one-handed use much easier with new rollout - Android Authority
+[11] Can't get google messages previews on lock screen? - Facebook
+[12] Latest Google Messages update comes with a sharing menu change - PhoneArena
+[13] Control notifications on Android - Google Help
+[14] Not getting Messages app notifications on lock screen - Google Pixel Community
+[15] Change Messages notifications & settings - Google Help
+[16] Explore group conversations in Google Messages
+[17] Switch to Google Messages | Samsung US
+[18] What new Google Messages features are rolling out [May 2026] - Reddit
+[19] Default lock screen setting no longer applied - Google Messages Community

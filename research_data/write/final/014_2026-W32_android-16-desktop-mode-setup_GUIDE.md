@@ -23,6 +23,10 @@ The display will show a windowed interface with a taskbar. Apps open in resizabl
 
 **Android 14 improvement:** Google added the ability to turn off the phone's screen while in desktop mode — previously the phone screen stayed on, draining battery unnecessarily.
 
+**Android 16 QPR2 improvement:** Android 17 QPR2 introduced the ability to reorder the main sections of the Quick Settings panel (Brightness bar, Tiles, Media player) when in connected display mode, giving users more control over the interface layout while docked.
+
+**Compatible hardware:** Not all USB-C phones support DisplayPort output. Pixel 6 and later support it natively. For other devices, check whether your phone's USB-C port supports Alt Mode — this is distinct from USB power delivery and not universally available.
+
 ---
 
 ## Samsung DeX
@@ -45,6 +49,8 @@ DeX presents a full desktop environment: a taskbar with app launcher, resizable 
 **Multitasking limit:** DeX officially supports up to 20 apps open simultaneously. Samsung's Good Lock app (MultiStar module) can raise this limit further.
 
 **Wireless DeX:** Galaxy S21 and later support wireless DeX to compatible Samsung Smart TVs without any cables. Go to **Settings > Connected devices > DeX** and select your TV from the list.
+
+**S Pen support:** On Galaxy Z Fold models and select Galaxy S Ultra devices, the S Pen works natively in DeX mode, adding handwriting and annotation capabilities that have no equivalent in native desktop mode.
 
 ---
 
@@ -71,8 +77,21 @@ Ready For offers a desktop layout with multi-window support, a game mode that mi
 | Wireless option | No | Yes (S21+) | No |
 | Works on non-brand hardware | Yes | Samsung only | Motorola only |
 | Multi-window | Basic | Full (20 apps) | Yes |
+| S Pen support | No | Yes (select models) | No |
 
-If you own a compatible Samsung device, DeX is the most complete option available without third-party tools. Native Android desktop mode is useful for developers testing app behavior on large screens, or for users on non-Samsung/Motorola hardware who want basic display output.
+If you own a compatible Samsung device, DeX is the most complete option available without third-party tools. Native Android desktop mode is useful for developers testing app behavior on large screens, or for users on non-Samsung/Motorola hardware who want basic display output. Motorola Ready For sits between the two — more polished than native mode, but without the ecosystem depth of DeX.
+
+---
+
+## Peripheral Recommendations
+
+Regardless of which desktop mode you use, the peripheral setup matters.
+
+**Keyboard and mouse:** Any Bluetooth HID-compatible keyboard and mouse works. For a clutter-free desk, a compact 65% or 75% keyboard is practical given the phone serves as the compute unit. Logitech's MX Keys Mini and the MX Anywhere 3 are frequently paired with DeX setups for their multi-device switching.
+
+**Hub:** A USB-C hub with HDMI out, USB-A ports, and pass-through charging covers most setups. Avoid hubs that draw power from the phone rather than the wall — sustained desktop use drains the battery quickly without a powered hub.
+
+**Monitor:** Any HDMI monitor works. For DeX specifically, 1080p at 60Hz is the practical floor; DeX scales well up to 1440p and handles 4K output on newer Galaxy models, though performance varies by app.
 
 ---
 
