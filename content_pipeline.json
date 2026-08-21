@@ -1,7 +1,7 @@
 {
   "_version": "1.3",
   "_description": "콘텐츠 파이프라인 — 클러스터 단위 관리",
-  "_last_updated": "2026-08-21T07:57:38.692081+00:00",
+  "_last_updated": "2026-08-21T07:58:50.616038+00:00",
   "hub_clusters": {
     "Steam Machine": {
       "hub_keyword": "Steam Machine",
@@ -489,16 +489,18 @@
     },
     "Nintendo Switch 2": {
       "hub_keyword": "Nintendo Switch 2",
-      "hub_status": "PENDING",
+      "hub_status": "READY",
       "hub_title": "",
       "hub_url": "",
       "spokes": [
         "Nintendo Switch 2 Hardware"
       ],
       "spoke_urls": {
-        "Nintendo Switch 2 Hardware (EXPLAINER)": "pending"
+        "Nintendo Switch 2 Hardware (EXPLAINER)": "pending",
+        "Nintendo Switch 2 Hardware (GUIDE)": "pending"
       },
       "internal_links": [
+        "pending",
         "pending"
       ]
     }
@@ -1371,12 +1373,12 @@
     },
     "Nintendo Switch 2 Hardware": {
       "types_done": [
-        "EXPLAINER"
+        "EXPLAINER",
+        "GUIDE"
       ],
       "last_week": "2026-W33",
       "suggest_next": [
         "COMPARISON",
-        "GUIDE",
         "LISTICLE"
       ],
       "hub_keyword": "Nintendo Switch 2 Storage",
@@ -4529,8 +4531,9 @@
         "data_grade": "A",
         "verified_keywords": [],
         "publish_order": 22,
-        "status": "candidate",
-        "selected_at": "2026-08-21T07:38:19.465328+00:00"
+        "status": "published",
+        "selected_at": "2026-08-21T07:38:19.465328+00:00",
+        "url": "pending"
       }
     ]
   },
@@ -4912,6 +4915,15 @@
       "week_tag": "2026-W33",
       "published_at": "2026-08-21T07:57:38.692033+00:00",
       "hub_cluster": "Samsung Galaxy Phones"
+    },
+    {
+      "cluster_name": "Nintendo Switch 2 Hardware",
+      "title": "Anticipating Storage Expansion on Nintendo's Next Console: The Potential of MicroSD Express",
+      "url": "pending",
+      "content_type": "GUIDE",
+      "week_tag": "2026-W33",
+      "published_at": "2026-08-21T07:58:50.615987+00:00",
+      "hub_cluster": "Nintendo Switch 2"
     }
   ]
 }
