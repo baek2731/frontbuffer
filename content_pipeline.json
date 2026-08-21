@@ -1,7 +1,7 @@
 {
   "_version": "1.3",
   "_description": "콘텐츠 파이프라인 — 클러스터 단위 관리",
-  "_last_updated": "2026-08-21T07:49:40.203831+00:00",
+  "_last_updated": "2026-08-21T07:51:08.818062+00:00",
   "hub_clusters": {
     "Steam Machine": {
       "hub_keyword": "Steam Machine",
@@ -461,8 +461,12 @@
       "spokes": [
         "Pixel 11 Android Features"
       ],
-      "spoke_urls": {},
-      "internal_links": []
+      "spoke_urls": {
+        "Pixel 11 Android Features (COMPARISON)": "pending"
+      },
+      "internal_links": [
+        "pending"
+      ]
     },
     "Samsung Galaxy Phones": {
       "hub_keyword": "Samsung Galaxy Phones",
@@ -1310,10 +1314,11 @@
       "notes": ""
     },
     "Pixel 11 Android Features": {
-      "types_done": [],
+      "types_done": [
+        "COMPARISON"
+      ],
       "last_week": "2026-W33",
       "suggest_next": [
-        "COMPARISON",
         "GUIDE",
         "EXPLAINER",
         "LISTICLE"
@@ -4355,8 +4360,9 @@
         "data_grade": "A",
         "verified_keywords": [],
         "publish_order": 16,
-        "status": "candidate",
-        "selected_at": "2026-08-21T07:38:19.465328+00:00"
+        "status": "published",
+        "selected_at": "2026-08-21T07:38:19.465328+00:00",
+        "url": "pending"
       },
       {
         "cluster_name": "Pixel 11 Android Features",
@@ -4843,6 +4849,15 @@
       "week_tag": "2026-W33",
       "published_at": "2026-08-21T07:49:40.203765+00:00",
       "hub_cluster": "Android Features"
+    },
+    {
+      "cluster_name": "Pixel 11 Android Features",
+      "title": "Android 15/16 Native App Lock vs Samsung App Lock: Privacy Features Compared",
+      "url": "pending",
+      "content_type": "COMPARISON",
+      "week_tag": "2026-W33",
+      "published_at": "2026-08-21T07:51:08.818012+00:00",
+      "hub_cluster": "Pixel 11 Android"
     }
   ]
 }
