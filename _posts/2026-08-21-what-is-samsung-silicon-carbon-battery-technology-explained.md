@@ -5,6 +5,9 @@ date: 2026-08-21 14:05:00 +0000
 categories: [tech]
 tags: ["explainer", "galaxy", "fold"]
 excerpt: 'The Samsung Galaxy Z Fold series, known for pushing the boundaries of smartphone design and functionality, consistently demands cutting-edge battery…'
+header:
+  image: https://images.frontbuffer.net/posts/what-is-samsung-silicon-carbon-battery-technology-explained/og.png
+  overlay_filter: 0
 author_profile: false
 read_time: true
 share: true
