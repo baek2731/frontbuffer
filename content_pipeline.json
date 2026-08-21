@@ -1,7 +1,7 @@
 {
   "_version": "1.3",
   "_description": "콘텐츠 파이프라인 — 클러스터 단위 관리",
-  "_last_updated": "2026-08-21T07:54:58.659263+00:00",
+  "_last_updated": "2026-08-21T07:56:33.768105+00:00",
   "hub_clusters": {
     "Steam Machine": {
       "hub_keyword": "Steam Machine",
@@ -455,16 +455,18 @@
     },
     "Pixel 11 Android": {
       "hub_keyword": "Pixel 11 Android",
-      "hub_status": "PENDING",
+      "hub_status": "READY",
       "hub_title": "",
       "hub_url": "",
       "spokes": [
         "Pixel 11 Android Features"
       ],
       "spoke_urls": {
-        "Pixel 11 Android Features (COMPARISON)": "pending"
+        "Pixel 11 Android Features (COMPARISON)": "pending",
+        "Pixel 11 Android Features (GUIDE)": "pending"
       },
       "internal_links": [
+        "pending",
         "pending"
       ]
     },
@@ -1323,11 +1325,11 @@
     },
     "Pixel 11 Android Features": {
       "types_done": [
-        "COMPARISON"
+        "COMPARISON",
+        "GUIDE"
       ],
       "last_week": "2026-W33",
       "suggest_next": [
-        "GUIDE",
         "EXPLAINER",
         "LISTICLE"
       ],
@@ -4473,8 +4475,9 @@
         "data_grade": "A",
         "verified_keywords": [],
         "publish_order": 20,
-        "status": "candidate",
-        "selected_at": "2026-08-21T07:38:19.465328+00:00"
+        "status": "published",
+        "selected_at": "2026-08-21T07:38:19.465328+00:00",
+        "url": "pending"
       },
       {
         "cluster_name": "Samsung Galaxy Hardware",
@@ -4888,6 +4891,15 @@
       "week_tag": "2026-W33",
       "published_at": "2026-08-21T07:54:58.659210+00:00",
       "hub_cluster": "Nintendo Switch 2"
+    },
+    {
+      "cluster_name": "Pixel 11 Android Features",
+      "title": "How to Customize Pixel Quick Settings with Android 17 QPR2 Features",
+      "url": "pending",
+      "content_type": "GUIDE",
+      "week_tag": "2026-W33",
+      "published_at": "2026-08-21T07:56:33.768056+00:00",
+      "hub_cluster": "Pixel 11 Android"
     }
   ]
 }
