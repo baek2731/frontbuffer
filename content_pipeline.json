@@ -1,7 +1,7 @@
 {
   "_version": "1.3",
   "_description": "콘텐츠 파이프라인 — 클러스터 단위 관리",
-  "_last_updated": "2026-08-21T07:44:50.466705+00:00",
+  "_last_updated": "2026-08-21T07:47:57.115509+00:00",
   "hub_clusters": {
     "Steam Machine": {
       "hub_keyword": "Steam Machine",
@@ -436,17 +436,19 @@
     },
     "PC Gaming Hardware": {
       "hub_keyword": "PC Gaming Hardware",
-      "hub_status": "PENDING",
+      "hub_status": "READY",
       "hub_title": "",
       "hub_url": "",
       "spokes": [
         "PC Gaming Hardware Guides"
       ],
       "spoke_urls": {
-        "PC Gaming Hardware Guides (EXPLAINER)": "https://frontbuffer.net/gaming/what-is-vram-and-how-much-do-you-need-for-pc-gaming-in-2026/"
+        "PC Gaming Hardware Guides (EXPLAINER)": "https://frontbuffer.net/gaming/what-is-vram-and-how-much-do-you-need-for-pc-gaming-in-2026/",
+        "PC Gaming Hardware Guides (GUIDE)": "pending"
       },
       "internal_links": [
-        "https://frontbuffer.net/gaming/what-is-vram-and-how-much-do-you-need-for-pc-gaming-in-2026/"
+        "https://frontbuffer.net/gaming/what-is-vram-and-how-much-do-you-need-for-pc-gaming-in-2026/",
+        "pending"
       ]
     },
     "Pixel 11 Android": {
@@ -1284,12 +1286,12 @@
     },
     "PC Gaming Hardware Guides": {
       "types_done": [
-        "EXPLAINER"
+        "EXPLAINER",
+        "GUIDE"
       ],
       "last_week": "2026-W33",
       "suggest_next": [
         "COMPARISON",
-        "GUIDE",
         "LISTICLE"
       ],
       "hub_keyword": "RTX 50 Series GPU",
@@ -4245,8 +4247,9 @@
         "data_grade": "A",
         "verified_keywords": [],
         "publish_order": 22,
-        "status": "candidate",
-        "selected_at": "2026-08-10T01:27:34.943434+00:00"
+        "status": "published",
+        "selected_at": "2026-08-10T01:27:34.943434+00:00",
+        "url": "pending"
       },
       {
         "cluster_name": "Android System Features",
@@ -4819,6 +4822,15 @@
       "week_tag": "2026-W33",
       "published_at": "2026-08-21T07:44:50.466630+00:00",
       "hub_cluster": "Android Auto"
+    },
+    {
+      "cluster_name": "PC Gaming Hardware Guides",
+      "title": "How to Choose the Best RTX 50 Series GPU for 1440p Gaming",
+      "url": "pending",
+      "content_type": "GUIDE",
+      "week_tag": "2026-W33",
+      "published_at": "2026-08-21T07:47:57.115444+00:00",
+      "hub_cluster": "PC Gaming Hardware"
     }
   ]
 }
