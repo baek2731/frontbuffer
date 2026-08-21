@@ -1,7 +1,7 @@
 {
   "_version": "1.3",
   "_description": "콘텐츠 파이프라인 — 클러스터 단위 관리",
-  "_last_updated": "2026-08-21T07:53:52.043090+00:00",
+  "_last_updated": "2026-08-21T07:54:58.659263+00:00",
   "hub_clusters": {
     "Steam Machine": {
       "hub_keyword": "Steam Machine",
@@ -491,8 +491,12 @@
       "spokes": [
         "Nintendo Switch 2 Hardware"
       ],
-      "spoke_urls": {},
-      "internal_links": []
+      "spoke_urls": {
+        "Nintendo Switch 2 Hardware (EXPLAINER)": "pending"
+      },
+      "internal_links": [
+        "pending"
+      ]
     }
   },
   "covered_clusters": {
@@ -1362,12 +1366,13 @@
       "notes": ""
     },
     "Nintendo Switch 2 Hardware": {
-      "types_done": [],
+      "types_done": [
+        "EXPLAINER"
+      ],
       "last_week": "2026-W33",
       "suggest_next": [
         "COMPARISON",
         "GUIDE",
-        "EXPLAINER",
         "LISTICLE"
       ],
       "hub_keyword": "Nintendo Switch 2 Storage",
@@ -4442,8 +4447,9 @@
         "data_grade": "A",
         "verified_keywords": [],
         "publish_order": 19,
-        "status": "candidate",
-        "selected_at": "2026-08-21T07:38:19.465328+00:00"
+        "status": "published",
+        "selected_at": "2026-08-21T07:38:19.465328+00:00",
+        "url": "pending"
       },
       {
         "cluster_name": "Pixel 11 Android Features",
@@ -4873,6 +4879,15 @@
       "week_tag": "2026-W33",
       "published_at": "2026-08-21T07:53:52.043039+00:00",
       "hub_cluster": "Samsung Galaxy Phones"
+    },
+    {
+      "cluster_name": "Nintendo Switch 2 Hardware",
+      "title": "Rumored Nintendo Switch Successor: Exploring Potential MicroSD Express Compatibility",
+      "url": "pending",
+      "content_type": "EXPLAINER",
+      "week_tag": "2026-W33",
+      "published_at": "2026-08-21T07:54:58.659210+00:00",
+      "hub_cluster": "Nintendo Switch 2"
     }
   ]
 }
