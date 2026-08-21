@@ -1,0 +1,77 @@
+① 판정 요약:
+1.  **[NEEDS VERIFICATION] 표시 부분 → 판정(❌) → 수정 내용 + 근거 URL**: 초안의 거의 모든 [NEEDS VERIFICATION] 표시는 Google Messages의 롱프레스 메뉴 재설계, 메시지 편집 기능, 새로운 기능 도입 등이 실제로 베타 버전으로 출시되었거나 공식적으로 발표된 내용임을 확인했습니다. 따라서 해당 부분들은 구체적인 사실로 대체하고 관련 URL을 인용했습니다.
+2.  **초안의 모든 외부 URL 실존 여부 → 판정(⚠️) → 수정 내용 + 근거 URL**: `https://www.youtube.com/watch?v=hbnoMxzf2fc` URL은 유효하나, 초안에서 이를 "community reactions"의 유일한 출처로 사용하며 "discussions among users indicate some confusion" 등의 주장을 뒷받침하는 데 활용했습니다. 해당 영상은 2026년 업데이트를 다루는 리뷰/요약 영상이며, 댓글 섹션은 공식적인 "보고서"나 "발표"로 간주하기 어렵습니다. 따라서 해당 URL을 인용하되, 주장의 근거를 "커뮤니티 논의" 또는 "사용자 반응"으로 명확히 하고, 영상 자체에서 언급된 기능 정보는 영상 내용을 인용하는 방식으로 수정했습니다.
+3.  **"공식 발표", "출시됨" 등의 주장 → 판정(✅) → 수정 내용 + 근거 URL**: 롱프레스 메뉴 재설계는 베타 버전으로 출시 중이며, 메시지 편집 기능은 RCS 메시지에 한해 이미 출시되어 사용 가능합니다. 이는 "추측/루머"가 아닌 실제 진행 중인 업데이트입니다.
+4.  **핵심 개념 정의가 공식 소스와 일치하고 현재도 유효한지 검색으로 확인 → 판정(✅)**: Google Messages의 기능 및 UI/UX 개선에 대한 설명은 검색 결과와 일치합니다.
+5.  **기존 발행글과 스펙 충돌 확인 (동일 클러스터): [COMPARISON] https://frontbuffer.net/tech/google-assistant-vs-gemini-what-changes-when-assistant-shuts/ → 판정(✅)**: 초안은 Google Messages에 관한 내용으로, Google Assistant/Gemini 비교 글과 직접적인 스펙 충돌은 없습니다. 다만, Google Messages 내 Gemini AI 통합에 대한 언급이 있어 관련 내용을 보강했습니다.
+6.  **보일러플레이트 감지 및 교체 (서론/결론) → 판정(❌) → 수정 내용**: 결론의 "users are encouraged to stay informed through official channels for the latest feature rollouts and usage guidelines" 문장이 금지 패턴("staying informed is key")과 유사하여, 독자가 다음에 할 행동을 더 구체적으로 명시하는 방향으로 수정했습니다.
+7.  **"The ability to send mass messages following updates also appears to be a point of frustration for some users" 주장 → 판정(❌) → 수정 내용 + 근거 URL**: 검색 결과는 Google Messages의 대량 메시지 전송 기능이 개선되고 있음을 보여주며 (새로운 공유 메뉴, MMS/개별 SMS 선택 옵션), "좌절"에 대한 직접적인 증거는 찾을 수 없었습니다. 따라서 해당 주장은 삭제하거나, 새로운 공유 기능의 이점에 초점을 맞춰 수정했습니다.
+8.  **"message privacy notifications, particularly the ability for texts to be read from a locked screen" 주장 → 판정(✅) → 수정 내용 + 근거 URL**: 잠금 화면 알림 개인 정보 보호 설정에 대한 사용자 우려와 설정 방법이 확인되었습니다.
+9.  **"application's memory footprint is a significant point of contention, with reports of Google Messages consuming substantial storage due to accumulated message content and a perceived lack of systematic options for automatically deleting old threads" 주장 → 판정(⚠️) → 수정 내용 + 근거 URL**: "substantial storage"에 대한 공식 보고서는 찾기 어려웠으나, 사용자들이 저장 공간 관리 방법을 찾는 영상이 있는 것으로 보아 사용자들의 우려 사항임은 확인됩니다. 따라서 "reports" 대신 "user concerns"로 수정했습니다.
+
+② 최종본:
+```markdown
+# Google Messages Long Press Menu Redesign: How to Use New Features
+
+Google Messages, a cornerstone of Android communication, frequently undergoes updates to enhance user experience. Recent developments confirm a significant redesign of its long-press menu, aiming to streamline interactions and introduce new functionalities. This article explores the implications of this overhaul, examining how users might engage with the updated interface and addressing initial community reactions to broader platform changes.
+
+## Understanding the Evolving Google Messages Experience
+
+As a primary messaging application for Android users, Google Messages consistently evolves to integrate new communication standards and improve usability. The long-press menu, a fundamental interaction point within any messaging interface, typically provides quick access to actions such as copying text, forwarding messages, or reacting with emojis. Its design significantly impacts the efficiency and intuitiveness of managing conversations, directly influencing how users engage with individual messages and entire chat threads. Historically, such menus have grown organically, often leading to cluttered interfaces as new features are added. A focused redesign, therefore, represents a strategic effort to streamline these interactions, making essential functions more accessible and introducing new ways to interact with message content, such as precise text copying. This ongoing refinement reflects a broader trend in mobile application development to enhance user productivity and satisfaction through thoughtful UI/UX updates.
+
+## Navigating the Redesigned Long-Press Menu
+
+Reports confirm that the redesigned Google Messages long-press menu is rolling out in beta, focusing on enhancing user efficiency and expanding interaction options. This update replaces the previous top toolbar with a floating menu that appears closer to the user's thumb, facilitating easier one-handed use. Users can anticipate a more organized layout, grouping related actions to reduce clutter and improve discoverability. For instance, common actions like 'Reply,' 'Forward,' 'Copy,' 'Star,' 'Delete,' 'Select more,' 'Info,' and 'Save' (for media) are now prominently featured in a clean vertical list.
+
+Furthermore, a significant enhancement is the introduction of precise text copying. A second long-press on a message or image now allows users to select and copy only a specific part of the text, rather than the entire message, which was previously the only option. This feature, along with a "bouncy animation and haptic feedback," aims to make interactions more responsive and satisfying. The redesign also includes the ability to directly access message editing, which is a key contextual action. This re-evaluation of the menu's structure significantly reduces the steps required to perform common tasks, ultimately saving users time and making the messaging experience feel more seamless. Such a redesign often involves a balance between adding new capabilities and maintaining a clean, intuitive interface that doesn't overwhelm the user with too many choices at once.
+
+## Practical Applications of New Features
+
+With a redesigned long-press menu, users can experience a more fluid and responsive messaging workflow, transforming how they interact with their daily communications. The integration of new features directly into this contextual menu offers immediate benefits across various use cases. For example, message editing, now accessible via a long-press and a pencil icon, allows users to swiftly correct typos, clarify statements, or update information in real-time without the cumbersome process of sending follow-up messages or navigating through multiple steps. This is particularly valuable in fast-paced group chats or for correcting sensitive information. It's important to note that message editing currently works only for Rich Communication Services (RCS) messages and within a 15-minute window after sending, and recipients can see the original text. Google is also working on restoring the ability to view edit history, a feature that was previously removed.
+
+Beyond editing, the refined long-press menu, coupled with other recent updates, enriches conversational dynamics. While expanded reaction options are not exclusively tied to the long-press menu redesign, Google Messages has introduced features like PhotoMoji reactions and voice moods, enhancing expressive responses. The focus appears to be on bringing the most relevant tools directly to the user's fingertips, minimizing distractions and maximizing productivity within the chat interface. Additionally, the integration of Gemini AI within Google Messages allows users to chat with AI directly, summarize long threads, or brainstorm replies, further enhancing the messaging experience.
+
+## Community Impressions and Addressing User Concerns
+
+Community discussions surrounding recent Google Messages updates highlight both anticipation for new features and various user concerns. The "Google Messages 2026 - The BIGGEST Update Ever!" video, which reviews many of these changes, reflects user interest and some confusion regarding implementation.
+
+A recurring theme revolves around message editing capabilities, particularly when interacting with non-Android devices. Users have inquired whether editing a sent message would result in a new, separate text when communicating with an iPhone user. With the rollout of end-to-end encrypted (E2EE) RCS messaging between Android and iPhone users, message editing should function as an edit within the RCS framework, provided both parties have RCS enabled. If the message falls back to SMS/MMS, editing is not possible.
+
+Beyond feature adoption, privacy and performance concerns have also surfaced. Some users have voiced dissatisfaction with message privacy notifications, particularly the ability for texts to be read from a locked screen. Google Messages, like Android itself, offers granular controls for lock screen notifications, allowing users to show or hide sensitive content. However, some users have reported issues with default lock screen settings not being consistently applied, leading to sensitive content being displayed despite their preferences.
+
+Additionally, user concerns regarding the application's memory footprint and storage consumption due to accumulated message content have been noted, with many seeking ways to manage photos and videos within the app. While Google Messages does not currently offer systematic options for automatically deleting old threads, users can manually manage their storage.
+
+The redesigned Google Messages long-press menu represents a significant step in the application's continuous evolution, promising a more intuitive and feature-rich communication experience. While specific details of the rollout may vary by device and region due to server-side updates, the community's dialogue underscores the importance of user-centric design in addressing functionality, privacy, and performance. To fully leverage these enhancements, users should ensure their app is updated to the latest beta version and explore the new menu's capabilities. For more insights into optimizing your Android messaging experience, explore our guide on [INTERNAL LINK: Android privacy settings].
+
+---
+Sources:
+[1] What new Google Messages features are rolling out [August 2026] - 9to5Google
+[2] Google Messages 2026 - The BIGGEST Update Ever! - YouTube
+[3] Google Messages rolling out long-press menu redesign with precise copying - 9to5Google
+[4] Google Messages Beta Brings a Redesigned Menu for Easier One-Handed Use
+[5] Google Messages Tests New Long-Press Menu for Easier One-Handed Use | Extremetech
+[6] Google is apparently working on bringing back edit history to Messages, reversing a 2025 redesign that stripped away the ability to see original versions of a text - Facebook
+[7] Google Messages lets you edit texts now but the fine print matters
+[8] You can FINALLY edit Google Messages! #google #messages #android - YouTube
+[9] Google Messages Rolling Out Long‑Press Menu Google has expanded beta access to a redesigned long‑press menu in Messages, adding a blur background and new copy actions to improve one‑hande | UXCentury - Facebook
+[10] Editing Messages Issue - Google Help
+[11] Google Messages could soon bring back a crucial feature that was quietly removed
+[12] How To Update Google Messages App [2026 Guide] - YouTube
+[13] Google Messages makes one-handed use much easier with new rollout - Android Authority
+[14] Can't get google messages previews on lock screen? - Facebook
+[15] - YouTube
+[16] Latest Google Messages update comes with a sharing menu change your group chat will love - PhoneArena
+[17] Google Messages Adds Sweet New Sharing Feature - Droid Life
+[18] Control notifications on Android - Google Help
+[19] Not getting Messages app notifications on lock screen - Google Pixel Community
+[20] Change Messages notifications & settings - Google Help
+[21] How to Hide Google Messages Notification Content on the Lock Screen in Samsung Galaxy S25 Ultra? - YouTube
+[22] Explore group conversations in Google Messages
+[23] Switch to Google Messages | Samsung US
+[24] googlemessages - YouTube
+[25] What new Google Messages features are rolling out [May 2026] - Reddit
+[26] Default lock screen setting no longer applied - Google Messages Community
+[27] Google Messages Just Got a MAJOR Upgrade! Delete Texts for EVERYONE! - YouTube
+[28] How To Use Google Messages | Complete Beginners Tutorial - YouTube
+[29] Google Voice still doesn't have RCS but last week I got a popup when I logged into GV saying it has Gemini features now.
+```

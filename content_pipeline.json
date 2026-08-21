@@ -1,7 +1,7 @@
 {
   "_version": "1.3",
   "_description": "콘텐츠 파이프라인 — 클러스터 단위 관리",
-  "_last_updated": "2026-08-21T07:47:57.115509+00:00",
+  "_last_updated": "2026-08-21T07:49:40.203831+00:00",
   "hub_clusters": {
     "Steam Machine": {
       "hub_keyword": "Steam Machine",
@@ -427,10 +427,12 @@
       ],
       "spoke_urls": {
         "Android System Features (COMPARISON)": "https://frontbuffer.net/tech/google-assistant-vs-gemini-what-changes-when-assistant-shuts/",
-        "Android System Features (GUIDE)": "pending"
+        "Android System Features (GUIDE)": "pending",
+        "Android System Features (EXPLAINER)": "pending"
       },
       "internal_links": [
         "https://frontbuffer.net/tech/google-assistant-vs-gemini-what-changes-when-assistant-shuts/",
+        "pending",
         "pending"
       ]
     },
@@ -1264,11 +1266,11 @@
     "Android System Features": {
       "types_done": [
         "COMPARISON",
-        "GUIDE"
+        "GUIDE",
+        "EXPLAINER"
       ],
       "last_week": "2026-W33",
       "suggest_next": [
-        "EXPLAINER",
         "LISTICLE"
       ],
       "hub_keyword": "Google Messages",
@@ -4274,8 +4276,9 @@
         "data_grade": "B",
         "verified_keywords": [],
         "publish_order": 23,
-        "status": "candidate",
-        "selected_at": "2026-08-10T01:27:34.943434+00:00"
+        "status": "published",
+        "selected_at": "2026-08-10T01:27:34.943434+00:00",
+        "url": "pending"
       },
       {
         "cluster_name": "Android 16 Desktop Mode Setup",
@@ -4831,6 +4834,15 @@
       "week_tag": "2026-W33",
       "published_at": "2026-08-21T07:47:57.115444+00:00",
       "hub_cluster": "PC Gaming Hardware"
+    },
+    {
+      "cluster_name": "Android System Features",
+      "title": "Google Messages Long Press Menu Redesign: How to Use New Features",
+      "url": "pending",
+      "content_type": "EXPLAINER",
+      "week_tag": "2026-W33",
+      "published_at": "2026-08-21T07:49:40.203765+00:00",
+      "hub_cluster": "Android Features"
     }
   ]
 }
