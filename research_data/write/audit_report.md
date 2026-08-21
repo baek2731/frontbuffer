@@ -1,52 +1,28 @@
 # Frontbuffer 주간 품질 감사 리포트
-생성: 2026-08-14 15:55 UTC  |  dry-run: False
+생성: 2026-08-21 15:37 UTC  |  dry-run: False
 
 ## 요약
-- 자동 수정: **32건**
-- 수동 확인 필요: **21건**
-- final/ 스택 잔량: **8편**
+- 자동 수정: **11건**
+- 수동 확인 필요: **29건**
+- final/ 스택 잔량: **16편**
 
 ## ✅ 자동 수정 — HUB 역방향 링크 소급
-- 2026-07-14-how-to-troubleshoot-steam-machine-overheating-and-red-light-issues.md → HUB 역방향 링크 추가 [Steam Machine](https://frontbuffer.net/gaming/steam-machine-hardware-management/)
-- 2026-07-15-steam-machine-led-error-codes-what-each-warning-light-actually-means.md → HUB 역방향 링크 추가 [Steam Machine](https://frontbuffer.net/gaming/steam-machine-hardware-management/)
 - 2026-07-16-how-to-backup-samsung-health-data-before-account-deletion.md → HUB 역방향 링크 추가 [Samsung Health](https://frontbuffer.net/tech/samsung-health-data-ecosystem_hub/)
-- 2026-07-17-samsung-health-vs-google-health-connect-feature-comparison.md → HUB 역방향 링크 추가 [Samsung Health](https://frontbuffer.net/tech/samsung-health-data-ecosystem_hub/)
 
 ## ✅ 자동 수정 — published/ 동기화
-- published/2026-08-01-01-galaxy-fold_comparison.md 동기화 복사
-- published/2026-08-02-01-galaxy-fold_explainer.md 동기화 복사
-- published/2026-07-29-samsung-health-data-ecosystem_hub.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-07-31-portable-gaming_guide.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-07-20-google-chrome-manifest-v2-migration_HUB.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-08-11-best-wireless-android-auto-adapter-for-older-cars-comparison.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-07-22-android-ecosystem_guide.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-08-08-06-android-auto_comparison.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-07-18-how-to-check-if-chrome-extensions-use-manifest-v2.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-08-05-samsung-galaxy-z-foldflip-series_explainer.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-08-10-the-promise-of-silicon-carbon-batteries-and-samsungs-strateg.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-07-28-portable-gaming_explainer.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-07-30-steam-machine-hardware-management_hub.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-08-09-06-android-auto_guide.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-08-07-samsung-galaxy-z-foldflip-series_guide.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-07-19-best-manifest-v3-alternatives-for-older-chrome-extensions.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-08-13-physical-vs-digital-games-ownership-licenses-and-player-choi.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-08-04-samsung-galaxy-z-foldflip-series_comparison.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-07-24-fallout-series_explainer.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-07-27-portable-gaming_comparison.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-07-26-fallout-series_guide.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-07-21-android-ecosystem_explainer.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-08-03-01-galaxy-fold_guide.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-07-21-android-ecosystem_comparison.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-08-14-how-to-fix-android-auto-wireless-connection-issues.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-08-19-google-assistant-vs-gemini-what-changes-when-assistant-shuts.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-08-17-galaxy-z-fold-8-first-5-things-to-do-essential-setup-guide.md 내용 불일치 → _posts/ 기준으로 덮어씀
 - published/2026-07-20-what-is-chrome-manifest-v3-and-why-extensions-break.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-08-12-google-pixel-launcher-vs-third-party-android-launchers-featu.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-07-23-fallout-series_comparison.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-07-19-best-manifest-v3-alternatives-for-older-chrome-extensions.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-07-22-android-ecosystem_guide.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-07-20-google-chrome-manifest-v2-migration_HUB.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-08-21-what-is-samsung-silicon-carbon-battery-technology-explained.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-08-20-what-is-vram-and-how-much-do-you-need-for-pc-gaming-in-2026.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-08-15-how-to-manage-a-large-digital-game-library-across-platforms.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-08-16-galaxy-z-fold-8-vs-fold-7-camera-comparison-low-light-perfor.md 내용 불일치 → _posts/ 기준으로 덮어씀
 
 ## ⚠️ 수동 확인 필요 — 단어 수 미달
-- 2026-07-20-google-chrome-manifest-v2-migration_HUB.md — 504단어
 - 2026-07-21-android-ecosystem_comparison.md — 568단어
-- 2026-07-29-samsung-health-data-ecosystem_hub.md — 347단어
-- 2026-07-30-steam-machine-hardware-management_hub.md — 277단어
 - 2026-08-01-01-galaxy-fold_comparison.md — 567단어
 - 2026-08-02-01-galaxy-fold_explainer.md — 575단어
 - 2026-08-05-samsung-galaxy-z-foldflip-series_explainer.md — 597단어
@@ -54,6 +30,10 @@
 - 2026-08-08-06-android-auto_comparison.md — 564단어
 - 2026-08-12-google-pixel-launcher-vs-third-party-android-launchers-featu.md — 563단어
 - 2026-08-13-physical-vs-digital-games-ownership-licenses-and-player-choi.md — 595단어
+- 2026-08-15-how-to-manage-a-large-digital-game-library-across-platforms.md — 531단어
+- 2026-08-16-galaxy-z-fold-8-vs-fold-7-camera-comparison-low-light-perfor.md — 493단어
+- 2026-08-17-galaxy-z-fold-8-first-5-things-to-do-essential-setup-guide.md — 556단어
+- 2026-08-19-google-assistant-vs-gemini-what-changes-when-assistant-shuts.md — 585단어
 
 ## ⚠️ 수동 확인 필요 — published/ 불일치
 - published/2026-08-03-01-galaxy-fold_comparison.md — _posts/에 없음 (발행 누락?)
@@ -65,8 +45,15 @@
 - **Portable Gaming** — 스포크 3개 발행됐으나 HUB 없음 (hub_status: READY)
 - **Samsung Galaxy Foldables** — 스포크 3개 발행됐으나 HUB 없음 (hub_status: READY)
 - **Google Android Ecosystem** — 스포크 2개 발행됐으나 HUB 없음 (hub_status: READY)
+- **Samsung Galaxy Fold** — 스포크 3개 발행됐으나 HUB 없음 (hub_status: READY)
 - **Galaxy Fold** — 스포크 2개 발행됐으나 HUB 없음 (hub_status: READY)
+- **Gaming Physical Media** — 스포크 2개 발행됐으나 HUB 없음 (hub_status: READY)
 - **Android Features** — 스포크 2개 발행됐으나 HUB 없음 (hub_status: READY)
+- **PC Gaming Hardware** — 스포크 2개 발행됐으나 HUB 없음 (hub_status: READY)
+- **Android Auto** — 스포크 2개 발행됐으나 HUB 없음 (hub_status: READY)
+- **Pixel 11 Android** — 스포크 2개 발행됐으나 HUB 없음 (hub_status: READY)
+- **Samsung Galaxy Phones** — 스포크 2개 발행됐으나 HUB 없음 (hub_status: READY)
+- **Nintendo Switch 2** — 스포크 2개 발행됐으나 HUB 없음 (hub_status: READY)
 
 ## ⚠️ 수동 확인 필요 — 외부 링크 404
 - 2026-07-16-how-to-backup-samsung-health-data-before-account-deletion.md: [https://frontbuffer.net/tech/samsung-health-data-ecosystem_hub/]
