@@ -1,0 +1,180 @@
+{
+  "ok": true,
+  "week_tag": "2026-W33",
+  "total": 7,
+  "grade_a": [
+    {
+      "cluster_name": "Pixel 11 Android Features",
+      "content_type": "COMPARISON",
+      "suggested_title": "Android 17 QPR2 App Lock vs Samsung App Lock: Privacy Features Compared",
+      "hub_keyword": "Pixel 11 Android 17",
+      "parent_hub": "Pixel 11 Android",
+      "spoke_keywords": [
+        "android 17 qpr2 app lock comparison",
+        "pixel app lock vs samsung app lock privacy"
+      ],
+      "evergreen_score": 90,
+      "competition_level": "MEDIUM",
+      "affiliate_potential": "LOW",
+      "timing": "NOW",
+      "verifiability": "HIGH",
+      "trends_queries": [
+        "android app lock feature",
+        "samsung app lock privacy"
+      ],
+      "reasoning": "This compares two established app lock features, focusing on privacy, which is a constant user concern and verifiable via official documentation.",
+      "data_grade": "A",
+      "publish_order": 16,
+      "folder": "01-pixel-pro"
+    },
+    {
+      "cluster_name": "Pixel 11 Android Features",
+      "content_type": "COMPARISON",
+      "suggested_title": "Pixel 11 Pro Fold vs Pixel 11 Pro: Camera and Display Features Comparison",
+      "hub_keyword": "Pixel 11 Pro Fold Camera",
+      "parent_hub": "Pixel 11 Android",
+      "spoke_keywords": [
+        "pixel 11 pro fold camera specs",
+        "pixel 11 pro display comparison"
+      ],
+      "evergreen_score": 95,
+      "competition_level": "MEDIUM",
+      "affiliate_potential": "MEDIUM",
+      "timing": "NOW",
+      "verifiability": "HIGH",
+      "trends_queries": [
+        "pixel 11 pro fold camera review",
+        "pixel 11 pro display comparison"
+      ],
+      "reasoning": "Comparing two flagship phones from the same series on core features like camera and display remains relevant for years and is based on published specifications.",
+      "data_grade": "A",
+      "publish_order": 17,
+      "folder": "01-pixel-pro"
+    },
+    {
+      "cluster_name": "Pixel 11 Android Features",
+      "content_type": "GUIDE",
+      "suggested_title": "How to Customize Pixel Quick Settings with Android 17 QPR2 Features",
+      "hub_keyword": "Pixel Quick Settings Guide",
+      "parent_hub": "Pixel 11 Android",
+      "spoke_keywords": [
+        "android 17 qpr2 pixel quick settings customization",
+        "pixel quick settings layout changes"
+      ],
+      "evergreen_score": 88,
+      "competition_level": "LOW",
+      "affiliate_potential": "LOW",
+      "timing": "NOW",
+      "verifiability": "HIGH",
+      "trends_queries": [
+        "pixel quick settings customization",
+        "android 17 quick settings features"
+      ],
+      "reasoning": "A guide on customizing core OS features is evergreen as users constantly seek to personalize their devices, verifiable through official Android documentation.",
+      "data_grade": "A",
+      "publish_order": 20,
+      "folder": "01-pixel-pro"
+    },
+    {
+      "cluster_name": "Samsung Galaxy Hardware",
+      "content_type": "COMPARISON",
+      "suggested_title": "Samsung Galaxy Z Fold 8 Ultra vs Galaxy S26 Ultra: Camera Specs and Features Compared",
+      "hub_keyword": "Galaxy Z Fold 8 Camera",
+      "parent_hub": "Samsung Galaxy Phones",
+      "spoke_keywords": [
+        "galaxy z fold 8 ultra camera comparison",
+        "galaxy s26 ultra camera specs"
+      ],
+      "evergreen_score": 95,
+      "competition_level": "MEDIUM",
+      "affiliate_potential": "MEDIUM",
+      "timing": "NOW",
+      "verifiability": "HIGH",
+      "trends_queries": [
+        "galaxy z fold 8 ultra vs s26 ultra",
+        "samsung flagship camera comparison"
+      ],
+      "reasoning": "Comparing the camera capabilities of two top-tier Samsung phones is a perennial search query, verifiable through official product specifications.",
+      "data_grade": "A",
+      "publish_order": 18,
+      "folder": ""
+    },
+    {
+      "cluster_name": "Samsung Galaxy Hardware",
+      "content_type": "GUIDE",
+      "suggested_title": "How to Backup Samsung Health Data Before Switching Phones or Factory Reset",
+      "hub_keyword": "Samsung Health Backup",
+      "parent_hub": "Samsung Galaxy Phones",
+      "spoke_keywords": [
+        "samsung health data transfer guide",
+        "how to save samsung health data"
+      ],
+      "evergreen_score": 98,
+      "competition_level": "LOW",
+      "affiliate_potential": "LOW",
+      "timing": "NOW",
+      "verifiability": "HIGH",
+      "trends_queries": [
+        "samsung health data backup",
+        "transfer samsung health to new phone"
+      ],
+      "reasoning": "Users frequently need to transfer or backup health data when upgrading devices, making this a highly evergreen and verifiable guide from Samsung's support documentation.",
+      "data_grade": "A",
+      "publish_order": 21,
+      "folder": ""
+    },
+    {
+      "cluster_name": "Nintendo Switch 2 Hardware",
+      "content_type": "EXPLAINER",
+      "suggested_title": "Nintendo Switch 2 MicroSD Express Compatibility: Why old cards don't work and new types do",
+      "hub_keyword": "Nintendo Switch 2 MicroSD",
+      "parent_hub": "Nintendo Switch 2",
+      "spoke_keywords": [
+        "nintendo switch 2 microsd express explanation",
+        "switch 2 old microsd card issue"
+      ],
+      "evergreen_score": 92,
+      "competition_level": "MEDIUM",
+      "affiliate_potential": "HIGH",
+      "timing": "NOW",
+      "verifiability": "HIGH",
+      "trends_queries": [
+        "nintendo switch 2 sd card type",
+        "microsd express switch 2"
+      ],
+      "reasoning": "Explaining a fundamental hardware compatibility change for a new console is highly evergreen and offers affiliate potential for compatible storage, verifiable by official specs.",
+      "data_grade": "A",
+      "publish_order": 19,
+      "folder": ""
+    },
+    {
+      "cluster_name": "Nintendo Switch 2 Hardware",
+      "content_type": "GUIDE",
+      "suggested_title": "How to Set Up and Expand Storage on Nintendo Switch 2 with MicroSD Express",
+      "hub_keyword": "Nintendo Switch 2 Storage Guide",
+      "parent_hub": "Nintendo Switch 2",
+      "spoke_keywords": [
+        "nintendo switch 2 storage expansion guide",
+        "install microsd express switch 2"
+      ],
+      "evergreen_score": 90,
+      "competition_level": "LOW",
+      "affiliate_potential": "HIGH",
+      "timing": "NOW",
+      "verifiability": "HIGH",
+      "trends_queries": [
+        "nintendo switch 2 storage setup",
+        "expand switch 2 memory"
+      ],
+      "reasoning": "A step-by-step guide for a common user task like storage expansion on a new console is very evergreen and verifiable through official Nintendo support.",
+      "data_grade": "A",
+      "publish_order": 22,
+      "folder": ""
+    }
+  ],
+  "grade_b": [],
+  "grade_c": [],
+  "auto_selected": 7,
+  "elapsed": 28.3,
+  "timestamp": "2026-08-21T07:38:19.471292+00:00"
+}

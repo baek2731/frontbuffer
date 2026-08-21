@@ -1,186 +1,156 @@
 [
   {
-    "cluster_name": "Samsung Galaxy Foldables",
+    "cluster_name": "Pixel 11 Android Features",
     "content_type": "COMPARISON",
-    "suggested_title": "Galaxy Z Fold 8 vs Z Fold 7: Hinge Durability and Design Comparison",
-    "hub_keyword": "Galaxy Z Fold",
-    "parent_hub": "Galaxy Fold",
+    "suggested_title": "Android 17 QPR2 App Lock vs Samsung App Lock: Privacy Features Compared",
+    "hub_keyword": "Pixel 11 Android 17",
+    "parent_hub": "Pixel 11 Android",
     "spoke_keywords": [
-      "galaxy z fold 8 vs fold 7 hinge durability",
-      "galaxy z fold 8 vs fold 7 design",
-      "galaxy z fold 8 hinge improvements"
-    ],
-    "evergreen_score": 85,
-    "competition_level": "MEDIUM",
-    "affiliate_potential": "HIGH",
-    "timing": "NOW",
-    "verifiability": "HIGH",
-    "trends_queries": [
-      "Galaxy Z Fold 8",
-      "Galaxy Z Fold 7"
-    ],
-    "reasoning": "Compares official specifications and announced design improvements between two released models, a common evergreen search for potential buyers.",
-    "data_grade": "A"
-  },
-  {
-    "cluster_name": "Samsung Galaxy Foldables",
-    "content_type": "GUIDE",
-    "suggested_title": "Galaxy Z Fold 8 First 5 Things to Do: Essential Setup Guide",
-    "hub_keyword": "Galaxy Z Fold",
-    "parent_hub": "Galaxy Fold",
-    "spoke_keywords": [
-      "galaxy z fold 8 setup guide",
-      "first things to do galaxy z fold 8",
-      "galaxy z fold 8 new user tips"
+      "android 17 qpr2 app lock comparison",
+      "pixel app lock vs samsung app lock privacy"
     ],
     "evergreen_score": 90,
     "competition_level": "MEDIUM",
-    "affiliate_potential": "HIGH",
+    "affiliate_potential": "LOW",
     "timing": "NOW",
     "verifiability": "HIGH",
     "trends_queries": [
-      "Galaxy Z Fold 8 setup",
-      "Galaxy Z Fold tips"
+      "android app lock feature",
+      "samsung app lock privacy"
     ],
-    "reasoning": "Provides actionable steps for new owners, based on common smartphone setup procedures and documented features, remaining relevant for years.",
+    "reasoning": "This compares two established app lock features, focusing on privacy, which is a constant user concern and verifiable via official documentation.",
     "data_grade": "A"
   },
   {
-    "cluster_name": "Samsung Galaxy Foldables",
+    "cluster_name": "Pixel 11 Android Features",
     "content_type": "COMPARISON",
-    "suggested_title": "Galaxy Z Fold 8 vs Galaxy Z Flip 8: Which Foldable Phone is Best",
-    "hub_keyword": "Galaxy Z Fold",
-    "parent_hub": "Galaxy Fold",
+    "suggested_title": "Pixel 11 Pro Fold vs Pixel 11 Pro: Camera and Display Features Comparison",
+    "hub_keyword": "Pixel 11 Pro Fold Camera",
+    "parent_hub": "Pixel 11 Android",
     "spoke_keywords": [
-      "galaxy z fold 8 vs galaxy z flip 8",
-      "best samsung foldable phone",
-      "fold 8 or flip 8 comparison"
-    ],
-    "evergreen_score": 85,
-    "competition_level": "MEDIUM",
-    "affiliate_potential": "HIGH",
-    "timing": "NOW",
-    "verifiability": "HIGH",
-    "trends_queries": [
-      "Galaxy Z Fold vs Flip",
-      "Samsung foldable comparison"
-    ],
-    "reasoning": "Compares key features, use cases, and price points of two currently available foldable devices, helping users decide which suits their needs.",
-    "data_grade": "A"
-  },
-  {
-    "cluster_name": "Android System Features",
-    "content_type": "GUIDE",
-    "suggested_title": "How to Customize Android Quick Settings Tiles and Editor",
-    "hub_keyword": "Android Quick Settings",
-    "parent_hub": "Android Features",
-    "spoke_keywords": [
-      "customize android quick settings",
-      "android quick settings editor",
-      "add tiles android quick settings"
+      "pixel 11 pro fold camera specs",
+      "pixel 11 pro display comparison"
     ],
     "evergreen_score": 95,
-    "competition_level": "LOW",
-    "affiliate_potential": "LOW",
-    "timing": "NOW",
-    "verifiability": "HIGH",
-    "trends_queries": [
-      "Android Quick Settings custom",
-      "Android tiles editor"
-    ],
-    "reasoning": "A fundamental Android customization feature that is consistently searched for by users across different device generations and remains relevant.",
-    "data_grade": "A"
-  },
-  {
-    "cluster_name": "Android System Features",
-    "content_type": "EXPLAINER",
-    "suggested_title": "Google Messages Long Press Menu Redesign: How to Use New Features",
-    "hub_keyword": "Google Messages",
-    "parent_hub": "Android Features",
-    "spoke_keywords": [
-      "google messages long press menu",
-      "google messages new features",
-      "how to use google messages redesign"
-    ],
-    "evergreen_score": 80,
-    "competition_level": "LOW",
-    "affiliate_potential": "LOW",
-    "timing": "NOW",
-    "verifiability": "HIGH",
-    "trends_queries": [
-      "Google Messages update",
-      "Google Messages redesign"
-    ],
-    "reasoning": "Explains a specific user interface change and its functionality, providing a guide for users who encounter the update.",
-    "data_grade": "B"
-  },
-  {
-    "cluster_name": "Android System Features",
-    "content_type": "COMPARISON",
-    "suggested_title": "Google Assistant vs Gemini AI: Which is Best for Android",
-    "hub_keyword": "Google AI Assistant",
-    "parent_hub": "Android Features",
-    "spoke_keywords": [
-      "google assistant vs gemini ai",
-      "best android voice assistant",
-      "gemini ai features android"
-    ],
-    "evergreen_score": 85,
     "competition_level": "MEDIUM",
+    "affiliate_potential": "MEDIUM",
+    "timing": "NOW",
+    "verifiability": "HIGH",
+    "trends_queries": [
+      "pixel 11 pro fold camera review",
+      "pixel 11 pro display comparison"
+    ],
+    "reasoning": "Comparing two flagship phones from the same series on core features like camera and display remains relevant for years and is based on published specifications.",
+    "data_grade": "A"
+  },
+  {
+    "cluster_name": "Pixel 11 Android Features",
+    "content_type": "GUIDE",
+    "suggested_title": "How to Customize Pixel Quick Settings with Android 17 QPR2 Features",
+    "hub_keyword": "Pixel Quick Settings Guide",
+    "parent_hub": "Pixel 11 Android",
+    "spoke_keywords": [
+      "android 17 qpr2 pixel quick settings customization",
+      "pixel quick settings layout changes"
+    ],
+    "evergreen_score": 88,
+    "competition_level": "LOW",
     "affiliate_potential": "LOW",
     "timing": "NOW",
     "verifiability": "HIGH",
     "trends_queries": [
-      "Google Assistant Gemini",
-      "Gemini AI Android"
+      "pixel quick settings customization",
+      "android 17 quick settings features"
     ],
-    "reasoning": "Compares two major AI assistants from Google, relevant as Gemini integrates more deeply with Android and Assistant's role changes.",
+    "reasoning": "A guide on customizing core OS features is evergreen as users constantly seek to personalize their devices, verifiable through official Android documentation.",
     "data_grade": "A"
   },
   {
-    "cluster_name": "PC Gaming Hardware Guides",
-    "content_type": "EXPLAINER",
-    "suggested_title": "What is VRAM and How Much Do You Need for PC Gaming in 2026",
-    "hub_keyword": "VRAM Gaming",
-    "parent_hub": "PC Gaming Hardware",
+    "cluster_name": "Samsung Galaxy Hardware",
+    "content_type": "COMPARISON",
+    "suggested_title": "Samsung Galaxy Z Fold 8 Ultra vs Galaxy S26 Ultra: Camera Specs and Features Compared",
+    "hub_keyword": "Galaxy Z Fold 8 Camera",
+    "parent_hub": "Samsung Galaxy Phones",
     "spoke_keywords": [
-      "what is vram in gaming",
-      "how much vram for pc gaming",
-      "vram requirements 2026"
+      "galaxy z fold 8 ultra camera comparison",
+      "galaxy s26 ultra camera specs"
+    ],
+    "evergreen_score": 95,
+    "competition_level": "MEDIUM",
+    "affiliate_potential": "MEDIUM",
+    "timing": "NOW",
+    "verifiability": "HIGH",
+    "trends_queries": [
+      "galaxy z fold 8 ultra vs s26 ultra",
+      "samsung flagship camera comparison"
+    ],
+    "reasoning": "Comparing the camera capabilities of two top-tier Samsung phones is a perennial search query, verifiable through official product specifications.",
+    "data_grade": "A"
+  },
+  {
+    "cluster_name": "Samsung Galaxy Hardware",
+    "content_type": "GUIDE",
+    "suggested_title": "How to Backup Samsung Health Data Before Switching Phones or Factory Reset",
+    "hub_keyword": "Samsung Health Backup",
+    "parent_hub": "Samsung Galaxy Phones",
+    "spoke_keywords": [
+      "samsung health data transfer guide",
+      "how to save samsung health data"
+    ],
+    "evergreen_score": 98,
+    "competition_level": "LOW",
+    "affiliate_potential": "LOW",
+    "timing": "NOW",
+    "verifiability": "HIGH",
+    "trends_queries": [
+      "samsung health data backup",
+      "transfer samsung health to new phone"
+    ],
+    "reasoning": "Users frequently need to transfer or backup health data when upgrading devices, making this a highly evergreen and verifiable guide from Samsung's support documentation.",
+    "data_grade": "A"
+  },
+  {
+    "cluster_name": "Nintendo Switch 2 Hardware",
+    "content_type": "EXPLAINER",
+    "suggested_title": "Nintendo Switch 2 MicroSD Express Compatibility: Why old cards don't work and new types do",
+    "hub_keyword": "Nintendo Switch 2 MicroSD",
+    "parent_hub": "Nintendo Switch 2",
+    "spoke_keywords": [
+      "nintendo switch 2 microsd express explanation",
+      "switch 2 old microsd card issue"
+    ],
+    "evergreen_score": 92,
+    "competition_level": "MEDIUM",
+    "affiliate_potential": "HIGH",
+    "timing": "NOW",
+    "verifiability": "HIGH",
+    "trends_queries": [
+      "nintendo switch 2 sd card type",
+      "microsd express switch 2"
+    ],
+    "reasoning": "Explaining a fundamental hardware compatibility change for a new console is highly evergreen and offers affiliate potential for compatible storage, verifiable by official specs.",
+    "data_grade": "A"
+  },
+  {
+    "cluster_name": "Nintendo Switch 2 Hardware",
+    "content_type": "GUIDE",
+    "suggested_title": "How to Set Up and Expand Storage on Nintendo Switch 2 with MicroSD Express",
+    "hub_keyword": "Nintendo Switch 2 Storage Guide",
+    "parent_hub": "Nintendo Switch 2",
+    "spoke_keywords": [
+      "nintendo switch 2 storage expansion guide",
+      "install microsd express switch 2"
     ],
     "evergreen_score": 90,
-    "competition_level": "MEDIUM",
+    "competition_level": "LOW",
     "affiliate_potential": "HIGH",
     "timing": "NOW",
     "verifiability": "HIGH",
     "trends_queries": [
-      "VRAM explained",
-      "gaming VRAM needs"
+      "nintendo switch 2 storage setup",
+      "expand switch 2 memory"
     ],
-    "reasoning": "Explains a core component of graphics cards and its importance, providing general guidance that remains relevant for several years.",
-    "data_grade": "A"
-  },
-  {
-    "cluster_name": "PC Gaming Hardware Guides",
-    "content_type": "GUIDE",
-    "suggested_title": "How to Choose the Best RTX 50 Series GPU for 1440p Gaming",
-    "hub_keyword": "RTX 50 Series GPU",
-    "parent_hub": "PC Gaming Hardware",
-    "spoke_keywords": [
-      "best rtx 50 series 1440p gaming",
-      "nvidia rtx 50 for 1440p",
-      "rtx 50 series gpu guide"
-    ],
-    "evergreen_score": 85,
-    "competition_level": "MEDIUM",
-    "affiliate_potential": "HIGH",
-    "timing": "NOW",
-    "verifiability": "HIGH",
-    "trends_queries": [
-      "RTX 50 series 1440p",
-      "best GPU for 1440p"
-    ],
-    "reasoning": "Guides users on selecting a GPU for a specific resolution, leveraging publicly available specifications and performance tiers.",
+    "reasoning": "A step-by-step guide for a common user task like storage expansion on a new console is very evergreen and verifiable through official Nintendo support.",
     "data_grade": "A"
   }
 ]

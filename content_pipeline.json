@@ -1,7 +1,7 @@
 {
   "_version": "1.3",
   "_description": "콘텐츠 파이프라인 — 클러스터 단위 관리",
-  "_last_updated": "2026-08-20T14:37:29.667444+00:00",
+  "_last_updated": "2026-08-21T07:38:19.465565+00:00",
   "hub_clusters": {
     "Steam Machine": {
       "hub_keyword": "Steam Machine",
@@ -438,6 +438,39 @@
       "internal_links": [
         "https://frontbuffer.net/gaming/what-is-vram-and-how-much-do-you-need-for-pc-gaming-in-2026/"
       ]
+    },
+    "Pixel 11 Android": {
+      "hub_keyword": "Pixel 11 Android",
+      "hub_status": "PENDING",
+      "hub_title": "",
+      "hub_url": "",
+      "spokes": [
+        "Pixel 11 Android Features"
+      ],
+      "spoke_urls": {},
+      "internal_links": []
+    },
+    "Samsung Galaxy Phones": {
+      "hub_keyword": "Samsung Galaxy Phones",
+      "hub_status": "PENDING",
+      "hub_title": "",
+      "hub_url": "",
+      "spokes": [
+        "Samsung Galaxy Hardware"
+      ],
+      "spoke_urls": {},
+      "internal_links": []
+    },
+    "Nintendo Switch 2": {
+      "hub_keyword": "Nintendo Switch 2",
+      "hub_status": "PENDING",
+      "hub_title": "",
+      "hub_url": "",
+      "spokes": [
+        "Nintendo Switch 2 Hardware"
+      ],
+      "spoke_urls": {},
+      "internal_links": []
     }
   },
   "covered_clusters": {
@@ -1254,6 +1287,69 @@
         "what is vram in gaming",
         "how much vram for pc gaming",
         "vram requirements 2026"
+      ],
+      "competition_level": "MEDIUM",
+      "affiliate_potential": "HIGH",
+      "trends_pattern": "UNKNOWN",
+      "trends_keyword": "",
+      "notes": ""
+    },
+    "Pixel 11 Android Features": {
+      "types_done": [],
+      "last_week": "2026-W33",
+      "suggest_next": [
+        "COMPARISON",
+        "GUIDE",
+        "EXPLAINER",
+        "LISTICLE"
+      ],
+      "hub_keyword": "Pixel Quick Settings",
+      "parent_hub": "Pixel 11 Android",
+      "spoke_keywords": [
+        "android 17 qpr2 app lock comparison",
+        "pixel app lock vs samsung app lock privacy"
+      ],
+      "competition_level": "MEDIUM",
+      "affiliate_potential": "LOW",
+      "trends_pattern": "UNKNOWN",
+      "trends_keyword": "",
+      "notes": ""
+    },
+    "Samsung Galaxy Hardware": {
+      "types_done": [],
+      "last_week": "2026-W33",
+      "suggest_next": [
+        "COMPARISON",
+        "GUIDE",
+        "EXPLAINER",
+        "LISTICLE"
+      ],
+      "hub_keyword": "Samsung Health",
+      "parent_hub": "Samsung Galaxy Phones",
+      "spoke_keywords": [
+        "galaxy z fold 8 ultra camera comparison",
+        "galaxy s26 ultra camera specs"
+      ],
+      "competition_level": "MEDIUM",
+      "affiliate_potential": "MEDIUM",
+      "trends_pattern": "UNKNOWN",
+      "trends_keyword": "",
+      "notes": ""
+    },
+    "Nintendo Switch 2 Hardware": {
+      "types_done": [],
+      "last_week": "2026-W33",
+      "suggest_next": [
+        "COMPARISON",
+        "GUIDE",
+        "EXPLAINER",
+        "LISTICLE"
+      ],
+      "hub_keyword": "Nintendo Switch 2 Storage",
+      "parent_hub": "Nintendo Switch 2",
+      "spoke_keywords": [
+        "nintendo switch 2 microsd express explanation",
+        "switch 2 old microsd card issue"
       ],
       "competition_level": "MEDIUM",
       "affiliate_potential": "HIGH",
@@ -4213,6 +4309,183 @@
         "status": "published",
         "selected_at": "2026-08-10T07:02:37.991678+00:00",
         "url": "pending"
+      }
+    ],
+    "2026-W33": [
+      {
+        "cluster_name": "Pixel 11 Android Features",
+        "content_type": "COMPARISON",
+        "suggested_title": "Android 17 QPR2 App Lock vs Samsung App Lock: Privacy Features Compared",
+        "hub_keyword": "Pixel 11 Android 17",
+        "hub_keyword_raw": "Pixel 11 Android 17",
+        "parent_hub": "Pixel 11 Android",
+        "folder": "01-pixel-pro",
+        "spoke_keywords": [
+          "android 17 qpr2 app lock comparison",
+          "pixel app lock vs samsung app lock privacy"
+        ],
+        "competition_level": "MEDIUM",
+        "timing": "NOW",
+        "affiliate_potential": "LOW",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "publish_order": 16,
+        "status": "candidate",
+        "selected_at": "2026-08-21T07:38:19.465328+00:00"
+      },
+      {
+        "cluster_name": "Pixel 11 Android Features",
+        "content_type": "COMPARISON",
+        "suggested_title": "Pixel 11 Pro Fold vs Pixel 11 Pro: Camera and Display Features Comparison",
+        "hub_keyword": "Pixel 11 Pro Fold Camera",
+        "hub_keyword_raw": "Pixel 11 Pro Fold Camera",
+        "parent_hub": "Pixel 11 Android",
+        "folder": "01-pixel-pro",
+        "spoke_keywords": [
+          "pixel 11 pro fold camera specs",
+          "pixel 11 pro display comparison"
+        ],
+        "competition_level": "MEDIUM",
+        "timing": "NOW",
+        "affiliate_potential": "MEDIUM",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "publish_order": 17,
+        "status": "candidate",
+        "selected_at": "2026-08-21T07:38:19.465328+00:00"
+      },
+      {
+        "cluster_name": "Samsung Galaxy Hardware",
+        "content_type": "COMPARISON",
+        "suggested_title": "Samsung Galaxy Z Fold 8 Ultra vs Galaxy S26 Ultra: Camera Specs and Features Compared",
+        "hub_keyword": "Galaxy Z Fold 8 Camera",
+        "hub_keyword_raw": "Galaxy Z Fold 8 Camera",
+        "parent_hub": "Samsung Galaxy Phones",
+        "folder": "",
+        "spoke_keywords": [
+          "galaxy z fold 8 ultra camera comparison",
+          "galaxy s26 ultra camera specs"
+        ],
+        "competition_level": "MEDIUM",
+        "timing": "NOW",
+        "affiliate_potential": "MEDIUM",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "publish_order": 18,
+        "status": "candidate",
+        "selected_at": "2026-08-21T07:38:19.465328+00:00"
+      },
+      {
+        "cluster_name": "Nintendo Switch 2 Hardware",
+        "content_type": "EXPLAINER",
+        "suggested_title": "Nintendo Switch 2 MicroSD Express Compatibility: Why old cards don't work and new types do",
+        "hub_keyword": "Nintendo Switch 2 MicroSD",
+        "hub_keyword_raw": "Nintendo Switch 2 MicroSD",
+        "parent_hub": "Nintendo Switch 2",
+        "folder": "",
+        "spoke_keywords": [
+          "nintendo switch 2 microsd express explanation",
+          "switch 2 old microsd card issue"
+        ],
+        "competition_level": "MEDIUM",
+        "timing": "NOW",
+        "affiliate_potential": "HIGH",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "publish_order": 19,
+        "status": "candidate",
+        "selected_at": "2026-08-21T07:38:19.465328+00:00"
+      },
+      {
+        "cluster_name": "Pixel 11 Android Features",
+        "content_type": "GUIDE",
+        "suggested_title": "How to Customize Pixel Quick Settings with Android 17 QPR2 Features",
+        "hub_keyword": "Pixel Quick Settings",
+        "hub_keyword_raw": "Pixel Quick Settings Guide",
+        "parent_hub": "Pixel 11 Android",
+        "folder": "01-pixel-pro",
+        "spoke_keywords": [
+          "android 17 qpr2 pixel quick settings customization",
+          "pixel quick settings layout changes"
+        ],
+        "competition_level": "LOW",
+        "timing": "NOW",
+        "affiliate_potential": "LOW",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "publish_order": 20,
+        "status": "candidate",
+        "selected_at": "2026-08-21T07:38:19.465328+00:00"
+      },
+      {
+        "cluster_name": "Samsung Galaxy Hardware",
+        "content_type": "GUIDE",
+        "suggested_title": "How to Backup Samsung Health Data Before Switching Phones or Factory Reset",
+        "hub_keyword": "Samsung Health",
+        "hub_keyword_raw": "Samsung Health Backup",
+        "parent_hub": "Samsung Galaxy Phones",
+        "folder": "",
+        "spoke_keywords": [
+          "samsung health data transfer guide",
+          "how to save samsung health data"
+        ],
+        "competition_level": "LOW",
+        "timing": "NOW",
+        "affiliate_potential": "LOW",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "publish_order": 21,
+        "status": "candidate",
+        "selected_at": "2026-08-21T07:38:19.465328+00:00"
+      },
+      {
+        "cluster_name": "Nintendo Switch 2 Hardware",
+        "content_type": "GUIDE",
+        "suggested_title": "How to Set Up and Expand Storage on Nintendo Switch 2 with MicroSD Express",
+        "hub_keyword": "Nintendo Switch 2 Storage",
+        "hub_keyword_raw": "Nintendo Switch 2 Storage Guide",
+        "parent_hub": "Nintendo Switch 2",
+        "folder": "",
+        "spoke_keywords": [
+          "nintendo switch 2 storage expansion guide",
+          "install microsd express switch 2"
+        ],
+        "competition_level": "LOW",
+        "timing": "NOW",
+        "affiliate_potential": "HIGH",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "publish_order": 22,
+        "status": "candidate",
+        "selected_at": "2026-08-21T07:38:19.465328+00:00"
       }
     ]
   },
