@@ -5,6 +5,9 @@ date: 2026-08-22 14:34:00 +0000
 categories: [tech]
 tags: ["guide", "galaxy", "fold"]
 excerpt: 'The Samsung Galaxy Z Fold 8 Ultra, released on August 7, 2026, features a substantial 5,000 mAh silicon-carbon battery, a significant upgrade in…'
+header:
+  image: https://images.frontbuffer.net/posts/how-to-optimize-galaxy-z-fold-8-battery-life-settings/og.png
+  overlay_filter: 0
 author_profile: false
 read_time: true
 share: true
