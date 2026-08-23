@@ -5,6 +5,9 @@ date: 2026-08-23 14:33:00 +0000
 categories: [tech]
 tags: ["comparison", "android", "auto"]
 excerpt: 'In late 2018, Mazda introduced a retrofit program for its 2016-2018 CX-9 models, enabling factory Apple CarPlay and Android Auto. This move…'
+header:
+  image: https://images.frontbuffer.net/posts/best-wireless-android-auto-adapter-for-older-cars-comparison/og.png
+  overlay_filter: 0
 author_profile: false
 read_time: true
 share: true
