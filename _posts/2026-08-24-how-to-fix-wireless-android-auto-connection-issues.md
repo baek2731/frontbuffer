@@ -5,6 +5,9 @@ date: 2026-08-24 14:58:00 +0000
 categories: [tech]
 tags: ["guide", "android", "auto"]
 excerpt: 'Google''s Android Auto, first introduced in 2015, brought smartphone functionality directly to vehicle infotainment systems, with wireless…'
+header:
+  image: https://images.frontbuffer.net/posts/how-to-fix-wireless-android-auto-connection-issues/og.png
+  overlay_filter: 0
 author_profile: false
 read_time: true
 share: true
