@@ -1,13 +1,25 @@
 ---
 layout: single
+title: 'Android System Features'
+date: 2026-08-25 14:16:00 +0000
+categories: [tech]
+tags: ["guide", "android", "system", "features"]
+excerpt: 'layout: single'
+author_profile: false
+read_time: true
+share: true
+---
+
+---
+layout: single
 title: 'How to Customize Android Quick Settings Tiles'
 date: 2026-08-25 14:00:00 +0000
 categories: [tech]
 tags: ["guide", "android", "system", "features"]
 excerpt: 'The Quick Settings panel ships with a default layout that rarely matches how anyone actually uses their phone. Moving the tiles you use most to the front row takes about two minutes.'
 header:
-  image: https://images.frontbuffer.net/posts/android-system-features_guide/og.png
-  overlay_filter: 0
+ image: https://images.frontbuffer.net/posts/android-system-features_guide/og.png
+ overlay_filter: 0
 author_profile: false
 read_time: true
 share: true

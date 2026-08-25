@@ -1,7 +1,7 @@
 {
   "_version": "1.3",
   "_description": "콘텐츠 파이프라인 — 클러스터 단위 관리",
-  "_last_updated": "2026-08-21T07:58:50.616038+00:00",
+  "_last_updated": "2026-08-25T14:47:09.586805+00:00",
   "hub_clusters": {
     "Steam Machine": {
       "hub_keyword": "Steam Machine",
@@ -427,12 +427,12 @@
       ],
       "spoke_urls": {
         "Android System Features (COMPARISON)": "https://frontbuffer.net/tech/google-assistant-vs-gemini-what-changes-when-assistant-shuts/",
-        "Android System Features (GUIDE)": "pending",
+        "Android System Features (GUIDE)": "https://frontbuffer.net/tech/android-system-features/",
         "Android System Features (EXPLAINER)": "pending"
       },
       "internal_links": [
         "https://frontbuffer.net/tech/google-assistant-vs-gemini-what-changes-when-assistant-shuts/",
-        "pending",
+        "https://frontbuffer.net/tech/android-system-features/",
         "pending"
       ]
     },
@@ -1287,7 +1287,7 @@
         "GUIDE",
         "EXPLAINER"
       ],
-      "last_week": "2026-W33",
+      "last_week": "2026-W34",
       "suggest_next": [
         "LISTICLE"
       ],
@@ -4816,6 +4816,15 @@
       "week_tag": "2026-W33",
       "published_at": "2026-08-20T14:37:29.667374+00:00",
       "hub_cluster": "PC Gaming Hardware"
+    },
+    {
+      "cluster_name": "Android System Features",
+      "title": "Android System Features",
+      "url": "https://frontbuffer.net/tech/android-system-features/",
+      "content_type": "GUIDE",
+      "week_tag": "2026-W34",
+      "published_at": "2026-08-25T14:47:09.586732+00:00",
+      "hub_cluster": "Android Features"
     }
   ]
 }

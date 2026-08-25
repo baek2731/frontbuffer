@@ -735,6 +735,23 @@
       "hub_cluster": "",
       "verified_keywords": [],
       "slug": "2026-08-24-how-to-fix-wireless-android-auto-connection-issues"
+    },
+    {
+      "status": "live",
+      "date": "2026-08-25",
+      "title": "Android System Features",
+      "live_url": "https://frontbuffer.net/tech/android-system-features/",
+      "categories": [
+        "tech"
+      ],
+      "content_type": "GUIDE",
+      "hub_cluster": "Android System Features",
+      "verified_keywords": [
+        "Google AI Assistant",
+        "google assistant vs gemini ai",
+        "best android voice assistant"
+      ],
+      "slug": "2026-08-25-android-system-features"
     }
   ],
   "_last_updated": "2026-08-07T14:54:21.320932+00:00"
