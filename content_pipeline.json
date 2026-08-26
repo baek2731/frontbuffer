@@ -1,7 +1,7 @@
 {
   "_version": "1.3",
   "_description": "콘텐츠 파이프라인 — 클러스터 단위 관리",
-  "_last_updated": "2026-08-25T14:47:09.586805+00:00",
+  "_last_updated": "2026-08-26T14:46:01.217444+00:00",
   "hub_clusters": {
     "Steam Machine": {
       "hub_keyword": "Steam Machine",
@@ -4825,6 +4825,15 @@
       "week_tag": "2026-W34",
       "published_at": "2026-08-25T14:47:09.586732+00:00",
       "hub_cluster": "Android Features"
+    },
+    {
+      "cluster_name": "Android 16 Desktop Mode Setup",
+      "title": "Android 16 Desktop Mode Setup",
+      "url": "https://frontbuffer.net/tech/android-16-desktop-mode-setup/",
+      "content_type": "GUIDE",
+      "week_tag": "2026-W34",
+      "published_at": "2026-08-26T14:46:01.217386+00:00",
+      "hub_cluster": ""
     }
   ]
 }

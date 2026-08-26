@@ -752,6 +752,23 @@
         "best android voice assistant"
       ],
       "slug": "2026-08-25-android-system-features"
+    },
+    {
+      "status": "live",
+      "date": "2026-08-26",
+      "title": "Android 16 Desktop Mode Setup",
+      "live_url": "https://frontbuffer.net/tech/android-16-desktop-mode-setup/",
+      "categories": [
+        "tech"
+      ],
+      "content_type": "GUIDE",
+      "hub_cluster": "Android 16 Desktop Mode Setup",
+      "verified_keywords": [
+        "Android 16 desktop mode setup",
+        "how to set up android 16 desktop mode",
+        "android 16 connected display guide"
+      ],
+      "slug": "2026-08-26-android-16-desktop-mode-setup"
     }
   ],
   "_last_updated": "2026-08-07T14:54:21.320932+00:00"
