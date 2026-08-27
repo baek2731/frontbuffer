@@ -769,6 +769,23 @@
         "android 16 connected display guide"
       ],
       "slug": "2026-08-26-android-16-desktop-mode-setup"
+    },
+    {
+      "status": "live",
+      "date": "2026-08-27",
+      "title": "Android Desktop Mode vs Samsung DeX: A Comprehensive Comparison",
+      "live_url": "https://frontbuffer.net/tech/android-desktop-mode-vs-samsung-dex-a-comprehensive-comparis/",
+      "categories": [
+        "tech"
+      ],
+      "content_type": "COMPARISON",
+      "hub_cluster": "Android Desktop Mode vs Samsung DeX",
+      "verified_keywords": [
+        "Android 16 connected display vs Samsung DeX",
+        "pixel desktop mode vs dex",
+        "android 16 desktop mode comparison"
+      ],
+      "slug": "2026-08-27-android-desktop-mode-vs-samsung-dex-a-comprehensive-comparis"
     }
   ],
   "_last_updated": "2026-08-07T14:54:21.320932+00:00"
