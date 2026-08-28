@@ -5,6 +5,9 @@ date: 2026-08-28 14:55:00 +0000
 categories: [tech]
 tags: ["comparison", "pixel", "pro"]
 excerpt: 'Android 15''s introduction of a native app lock feature marked a significant system-level security enhancement, long sought by privacy-conscious…'
+header:
+  image: https://images.frontbuffer.net/posts/android-1516-native-app-lock-vs-samsung-app-lock-privacy-fea/og.png
+  overlay_filter: 0
 author_profile: false
 read_time: true
 share: true
