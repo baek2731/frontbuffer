@@ -786,6 +786,19 @@
         "android 16 desktop mode comparison"
       ],
       "slug": "2026-08-27-android-desktop-mode-vs-samsung-dex-a-comprehensive-comparis"
+    },
+    {
+      "status": "live",
+      "date": "2026-08-28",
+      "title": "Android 15/16 Native App Lock vs Samsung App Lock: Privacy Features Compared",
+      "live_url": "https://frontbuffer.net/tech/android-1516-native-app-lock-vs-samsung-app-lock-privacy-fea/",
+      "categories": [
+        "tech"
+      ],
+      "content_type": "COMPARISON",
+      "hub_cluster": "",
+      "verified_keywords": [],
+      "slug": "2026-08-28-android-1516-native-app-lock-vs-samsung-app-lock-privacy-fea"
     }
   ],
   "_last_updated": "2026-08-07T14:54:21.320932+00:00"
