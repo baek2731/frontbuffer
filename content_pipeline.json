@@ -1,7 +1,7 @@
 {
   "_version": "1.3",
   "_description": "콘텐츠 파이프라인 — 클러스터 단위 관리",
-  "_last_updated": "2026-08-27T23:38:54.242216+00:00",
+  "_last_updated": "2026-08-30T17:58:09.640669+00:00",
   "hub_clusters": {
     "Steam Machine": {
       "hub_keyword": "Steam Machine",
@@ -479,11 +479,11 @@
         "Samsung Galaxy Hardware"
       ],
       "spoke_urls": {
-        "Samsung Galaxy Hardware (COMPARISON)": "pending",
+        "Samsung Galaxy Hardware (COMPARISON)": "https://frontbuffer.net/tech/samsung-galaxy-z-fold-8-ultra-vs-galaxy-s26-ultra-camera-spe/",
         "Samsung Galaxy Hardware (GUIDE)": "pending"
       },
       "internal_links": [
-        "pending",
+        "https://frontbuffer.net/tech/samsung-galaxy-z-fold-8-ultra-vs-galaxy-s26-ultra-camera-spe/",
         "pending"
       ]
     },
@@ -1354,7 +1354,7 @@
         "COMPARISON",
         "GUIDE"
       ],
-      "last_week": "2026-W33",
+      "last_week": "2026-W34",
       "suggest_next": [
         "EXPLAINER",
         "LISTICLE"
@@ -4843,6 +4843,15 @@
       "week_tag": "2026-W34",
       "published_at": "2026-08-27T23:38:54.242150+00:00",
       "hub_cluster": ""
+    },
+    {
+      "cluster_name": "Samsung Galaxy Hardware",
+      "title": "Samsung Galaxy Z Fold 8 Ultra vs Galaxy S26 Ultra: Camera Specs and Features Compared",
+      "url": "https://frontbuffer.net/tech/samsung-galaxy-z-fold-8-ultra-vs-galaxy-s26-ultra-camera-spe/",
+      "content_type": "COMPARISON",
+      "week_tag": "2026-W34",
+      "published_at": "2026-08-30T17:58:09.640614+00:00",
+      "hub_cluster": "Samsung Galaxy Phones"
     }
   ]
 }
