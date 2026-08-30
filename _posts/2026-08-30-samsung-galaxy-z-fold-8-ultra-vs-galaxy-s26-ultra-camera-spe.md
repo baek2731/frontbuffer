@@ -5,6 +5,9 @@ date: 2026-08-30 14:07:00 +0000
 categories: [tech]
 tags: ["comparison", "samsung", "galaxy", "hardware"]
 excerpt: 'The Galaxy Z Fold 8 Ultra, a top-tier foldable, and the anticipated Galaxy S26 Ultra represent Samsung''s flagship aspirations from two different…'
+header:
+  image: https://images.frontbuffer.net/posts/samsung-galaxy-z-fold-8-ultra-vs-galaxy-s26-ultra-camera-spe/og.png
+  overlay_filter: 0
 author_profile: false
 read_time: true
 share: true
