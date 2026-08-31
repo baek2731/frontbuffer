@@ -5,6 +5,9 @@ date: 2026-08-31 14:02:00 +0000
 categories: [gaming]
 tags: ["explainer", "nintendo", "switch", "hardware"]
 excerpt: 'The ongoing speculation surrounding a successor to the Nintendo Switch frequently highlights potential hardware upgrades, particularly in storage…'
+header:
+  image: https://images.frontbuffer.net/posts/rumored-nintendo-switch-successor-exploring-potential-micros/og.png
+  overlay_filter: 0
 author_profile: false
 read_time: true
 share: true
