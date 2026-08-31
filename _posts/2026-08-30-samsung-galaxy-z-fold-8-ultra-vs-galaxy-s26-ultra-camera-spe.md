@@ -4,7 +4,7 @@ title: 'Samsung Galaxy Z Fold 8 Ultra vs Galaxy S26 Ultra: Camera Specs and Feat
 date: 2026-08-30 14:07:00 +0000
 categories: [tech]
 tags: ["comparison", "samsung", "galaxy", "hardware"]
-excerpt: 'The Galaxy Z Fold 8 Ultra, a top-tier foldable, and the anticipated Galaxy S26 Ultra represent Samsung''s flagship aspirations from two different…'
+excerpt: 'The Galaxy Z Fold 8 Ultra, a top-tier foldable, and the Galaxy S26 Ultra (released March 11, 2026) represent Samsung''s flagships from two different…'
 header:
   image: https://images.frontbuffer.net/posts/samsung-galaxy-z-fold-8-ultra-vs-galaxy-s26-ultra-camera-spe/og.png
   overlay_filter: 0
@@ -13,7 +13,7 @@ read_time: true
 share: true
 ---
 
-The Galaxy Z Fold 8 Ultra, a top-tier foldable, and the anticipated Galaxy S26 Ultra represent Samsung's flagship aspirations from two different design philosophies. This comparison examines how their distinct form factors could influence camera capabilities and photographic performance. For many discerning users, understanding the potential differences in the **Galaxy Z Fold 8 camera** setup compared to its slab-style counterpart is a key part of the buying decision.
+The Galaxy Z Fold 8 Ultra, a top-tier foldable, and the Galaxy S26 Ultra (released March 11, 2026) represent Samsung's flagships from two different design philosophies. This comparison examines how their distinct form factors could influence camera capabilities and photographic performance. For many discerning users, understanding the potential differences in the **Galaxy Z Fold 8 camera** setup compared to its slab-style counterpart is a key part of the buying decision.
 
 ### The Vision for Samsung's Next-Gen Cameras
 
