@@ -5,6 +5,9 @@ date: 2026-09-01 14:34:00 +0000
 categories: [tech]
 tags: ["guide", "pixel", "pro"]
 excerpt: 'Google''s Android 17 Quarterly Platform Release 2 (QPR2) beta, rolled out to Pixel users in August 2026, brings a focused update to Quick Settings…'
+header:
+  image: https://images.frontbuffer.net/posts/how-to-customize-pixel-quick-settings-with-android-17-qpr2-f/og.png
+  overlay_filter: 0
 author_profile: false
 read_time: true
 share: true
