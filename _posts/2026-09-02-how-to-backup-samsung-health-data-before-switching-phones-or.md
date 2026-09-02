@@ -1,4 +1,14 @@
-# How to Backup Samsung Health Data Before Switching Phones or Factory Reset
+---
+layout: single
+title: 'How to Backup Samsung Health Data Before Switching Phones or Factory Reset'
+date: 2026-09-02 14:20:00 +0000
+categories: [tech]
+tags: ["guide", "samsung", "galaxy", "hardware"]
+excerpt: 'When upgrading to a new Samsung Galaxy device or performing a factory reset, Samsung Health data — step counts, workout logs, heart rate records,…'
+author_profile: false
+read_time: true
+share: true
+---
 
 When upgrading to a new Samsung Galaxy device or performing a factory reset, Samsung Health data — step counts, workout logs, heart rate records, sleep patterns — is vulnerable to irreversible loss if you don't back it up first. Samsung Health manages data through two methods: cloud synchronization via your Samsung account, and local data export to CSV files. Knowing how each works before you wipe your phone prevents gaps in your health history.
 
