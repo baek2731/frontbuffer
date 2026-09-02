@@ -5,6 +5,9 @@ date: 2026-09-02 14:20:00 +0000
 categories: [tech]
 tags: ["guide", "samsung", "galaxy", "hardware"]
 excerpt: 'When upgrading to a new Samsung Galaxy device or performing a factory reset, Samsung Health data — step counts, workout logs, heart rate records,…'
+header:
+  image: https://images.frontbuffer.net/posts/how-to-backup-samsung-health-data-before-switching-phones-or/og.png
+  overlay_filter: 0
 author_profile: false
 read_time: true
 share: true
