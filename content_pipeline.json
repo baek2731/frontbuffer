@@ -1,7 +1,7 @@
 {
   "_version": "1.3",
   "_description": "콘텐츠 파이프라인 — 클러스터 단위 관리",
-  "_last_updated": "2026-09-03T07:34:53.011666+00:00",
+  "_last_updated": "2026-09-03T07:39:35.246606+00:00",
   "hub_clusters": {
     "Steam Machine": {
       "hub_keyword": "Steam Machine",
@@ -1379,7 +1379,7 @@
         "COMPARISON",
         "GUIDE"
       ],
-      "last_week": "2026-W33",
+      "last_week": "2026-W35",
       "suggest_next": [
         "EXPLAINER",
         "LISTICLE"
@@ -4603,8 +4603,9 @@
         "data_grade": "A",
         "verified_keywords": [],
         "publish_order": 17,
-        "status": "candidate",
-        "selected_at": "2026-08-21T07:38:19.465328+00:00"
+        "status": "published",
+        "selected_at": "2026-08-21T07:38:19.465328+00:00",
+        "url": "pending"
       },
       {
         "cluster_name": "Samsung Galaxy Hardware",
@@ -5255,6 +5256,15 @@
       "week_tag": "2026-W35",
       "published_at": "2026-09-02T17:40:56.995376+00:00",
       "hub_cluster": "Samsung Galaxy Phones"
+    },
+    {
+      "cluster_name": "Pixel 11 Android Features",
+      "title": "Pixel 11 Pro Fold vs Pixel 11 Pro: Camera and Display Features Comparison",
+      "url": "pending",
+      "content_type": "COMPARISON",
+      "week_tag": "2026-W35",
+      "published_at": "2026-09-03T07:39:35.246551+00:00",
+      "hub_cluster": "Pixel 11 Android"
     }
   ]
 }
