@@ -1,7 +1,7 @@
 {
   "_version": "1.3",
   "_description": "콘텐츠 파이프라인 — 클러스터 단위 관리",
-  "_last_updated": "2026-09-03T07:43:00.006953+00:00",
+  "_last_updated": "2026-09-03T07:45:48.754301+00:00",
   "hub_clusters": {
     "Steam Machine": {
       "hub_keyword": "Steam Machine",
@@ -530,8 +530,12 @@
         "Elden Ring Performance",
         "GTA 6 Performance Analysis"
       ],
-      "spoke_urls": {},
-      "internal_links": []
+      "spoke_urls": {
+        "GTA 6 Performance Analysis (EXPLAINER)": "pending"
+      },
+      "internal_links": [
+        "pending"
+      ]
     },
     "Gaming Graphics Tech": {
       "hub_keyword": "Gaming Graphics Tech",
@@ -1512,12 +1516,13 @@
       "notes": ""
     },
     "GTA 6 Performance Analysis": {
-      "types_done": [],
+      "types_done": [
+        "EXPLAINER"
+      ],
       "last_week": "2026-W35",
       "suggest_next": [
         "COMPARISON",
         "GUIDE",
-        "EXPLAINER",
         "LISTICLE"
       ],
       "hub_keyword": "GTA 6 performance",
@@ -4846,8 +4851,9 @@
         "data_grade": "A",
         "verified_keywords": [],
         "publish_order": 27,
-        "status": "candidate",
-        "selected_at": "2026-09-03T07:34:53.011309+00:00"
+        "status": "published",
+        "selected_at": "2026-09-03T07:34:53.011309+00:00",
+        "url": "pending"
       },
       {
         "cluster_name": "Nvidia DLSS Technology",
@@ -5280,6 +5286,15 @@
       "week_tag": "2026-W35",
       "published_at": "2026-09-03T07:43:00.006910+00:00",
       "hub_cluster": "Galaxy Foldables"
+    },
+    {
+      "cluster_name": "GTA 6 Performance Analysis",
+      "title": "Why Grand Theft Auto 6 console performance is 30 FPS",
+      "url": "pending",
+      "content_type": "EXPLAINER",
+      "week_tag": "2026-W35",
+      "published_at": "2026-09-03T07:45:48.754252+00:00",
+      "hub_cluster": "Gaming Performance"
     }
   ]
 }
