@@ -1,10 +1,10 @@
 ---
 layout: single
-title: 'How to Customize Pixel Quick Settings with Android 17 QPR2 Features'
+title: 'How to Customize Pixel Quick Settings with Android 17 QPR2 Beta Features'
 date: 2026-09-01 14:34:00 +0000
 categories: [tech]
 tags: ["guide", "pixel", "pro"]
-excerpt: 'Google''s Android 17 Quarterly Platform Release 2 (QPR2) beta, rolled out to Pixel users in August 2026, brings a focused update to Quick Settings…'
+excerpt: 'Android 17 QPR2 Beta 3 (August 14, 2026) added a redesigned Quick Settings editor, native App Lock, and lock-screen blur to Pixel devices. Stable release is scheduled for December 2026.'
 header:
   image: https://images.frontbuffer.net/posts/how-to-customize-pixel-quick-settings-with-android-17-qpr2-f/og.png
   overlay_filter: 0
@@ -13,90 +13,86 @@ read_time: true
 share: true
 ---
 
-Google's Android 17 Quarterly Platform Release 2 (QPR2) beta, rolled out to Pixel users in August 2026, brings a focused update to Quick Settings customization. This beta introduces notable changes aimed at improving the functionality and personalization of Quick Settings on Pixel devices, with a stable rollout anticipated in December 2026. This guide explores the new customization options and layout changes, detailing how users can leverage these advancements to craft a more efficient and tailored smartphone experience.
+Android 17 QPR2 Beta 3, released August 14, 2026, brought the biggest changes of the QPR2 cycle so far: a redesigned Quick Settings editor, native App Lock, expanded Dynamic Color, and lock-screen blur. Beta 4 followed on August 28 and reached Platform Stability. Stable release is scheduled for December 2026 alongside the December Pixel Feature Drop.
 
-### The Evolving Landscape of Pixel Quick Settings
+If you're on the Android Beta Program, these features are available now on Pixel 6a through Pixel 10 series (excluding Pixel 6 and 6 Pro, which have reached end of life).
 
-Quick Settings have long been a cornerstone of the Android user experience, providing rapid access to essential system functions and device toggles without navigating through deep settings menus. From Wi-Fi and Bluetooth to flashlight and Do Not Disturb, these tiles offer immediate control over common features, significantly enhancing daily usability. Over successive Android iterations, Google has continuously refined this interface, striving for a balance between simplicity, accessibility, and robust functionality. The goal has always been to empower users with the ability to manage their device's most critical settings from a single, convenient location, adapting to diverse user needs and preferences. For instance, Android 14 introduced the ability to customize Quick Settings tiles directly from the lock screen. The ongoing refinement process in Android development consistently seeks to optimize this crucial element of the operating system, ensuring it remains intuitive and powerful.
+---
 
-A significant leap in Quick Settings customization arrived with Android 16 QPR1, released around May 2025. This update introduced the ability to resize individual Quick Settings tiles between a compact 1x1 size and a larger 2x1 pill shape, allowing users to fit more toggles on a single screen—up to four 1x1 tiles per row. This change also brought a more organized edit screen, categorizing tiles by Connectivity, Utilities, Display, Privacy, Accessibility, From system apps, and From apps you installed, making navigation much easier as the number of available tiles grew.
+## What Changed in Quick Settings
 
-### Unpacking Android 17 QPR2's Customization Features
+The Quick Settings editor redesign in QPR2 Beta 3 makes tile management more direct. Previously, editing required entering a separate mode with unclear affordances. The new editor shows available tiles in a bottom sheet that stays visible while you rearrange the active grid — you can see both your current layout and available tiles at the same time.
 
-With Android 17 QPR2, Pixel Quick Settings are receiving a focused update centered around enhanced layout customization. This release specifically highlights the ability to reorder the primary components within the Quick Settings panel itself. Unlike the individual tile resizing introduced in Android 16 QPR1, Android 17 QPR2 allows users to rearrange the positions of the Brightness bar, the block of Quick Settings Tiles, and the Media player. This concentrated effort gives users more granular control over the overall structure of this critical interface.
+**Tile persistence.** Tiles now remember their position across reboots more reliably. Earlier Android 17 builds had an issue where custom tile arrangements would occasionally reset after a device restart.
 
-The introduction of these enhanced layout customization features aims to further reduce the need for users to navigate away from their primary tasks, streamlining interactions and saving valuable time. For instance, a user who frequently adjusts screen brightness might prioritize placing the Brightness bar at the top, while another might prefer the Media player to be more prominent. The underlying benefit is the reduction of cognitive load and improved efficiency, as the interface adapts to the user rather than the other way around. This emphasis on user control over the interface aligns with a broader trend in modern operating systems to provide highly personalized digital environments.
+**Quick Settings font scaling.** Tile labels now scale with your system font size setting, which matters for accessibility. Previously, Quick Settings labels were fixed regardless of font size preference.
 
-### Navigating the New Layout Changes
+---
 
-Beyond individual tile customization, Android 17 QPR2 specifically brings significant `pixel quick settings layout changes` by allowing users to reorder the main sections of the Quick Settings panel. The term "layout changes" here refers to the restructuring of how the Brightness bar, the Quick Settings Tiles block, and the Media player are presented on the screen. This manifests in six possible combinations for their arrangement:
+## How to Customize Quick Settings on QPR2 Beta
 
-* Brightness bar, Tiles, Media player (default)
-* Brightness bar, Media player, Tiles
-* Tiles, Brightness bar, Media player
-* Tiles, Media player, Brightness bar
-* Media player, Brightness bar, Tiles
-* Media player, Tiles, Brightness bar
+The process is the same as standard Android, but the editor interface is different:
 
-It is important to note that while their order can be changed, these three core elements cannot be removed from the Quick Settings panel. Such layout adjustments can have a profound impact on user interaction. Initially, users may experience a brief period of adaptation as muscle memory adjusts to the new arrangement. However, well-designed layout changes are intended to enhance information density, improve readability, or make the most frequently used functions more prominent. A more optimized layout can lead to quicker recognition of desired toggles and a more fluid overall experience. These changes might also consider varying screen sizes and device orientations, ensuring the Quick Settings panel remains effective whether on a compact Pixel device or a larger model. The intent behind these layout modifications is to create a more intuitive and visually appealing interface that complements the expanded customization options.
+1. Swipe down twice to expand the full Quick Settings panel.
+2. Tap the **pencil icon** (Edit) in the bottom-left corner.
+3. The new bottom sheet appears showing inactive tiles. Drag tiles between the active grid and the sheet.
+4. Tiles in the first row appear without expanding the panel — put your most-used toggles there.
+5. Tap **Done** when finished.
 
-### Practical Steps for Personalizing Your Pixel Quick Settings
+---
 
-Leveraging the new features in Android 17 QPR2 to personalize your Pixel Quick Settings largely follows the familiar Android methodology, albeit with enhanced capabilities. The general process typically involves:
+## New App Lock (QPR2 Beta 3)
 
-1. **Accessing the Quick Settings Panel:** Swipe down once from the top of your screen to reveal the condensed Quick Settings, then swipe down a second time to expand the full panel.
-2. **Entering Edit Mode:** Look for an "Edit" icon, often represented by a pencil, usually located at the bottom or top of the Quick Settings panel. Tapping this icon shifts the panel into customization mode.
-3. **Rearranging Tiles (Android 16 QPR1 and later):** In edit mode, users are generally able to tap, hold, and drag individual tiles to new positions within the active Quick Settings area. This allows for prioritizing frequently used toggles by placing them at the top or in the most accessible rows.
-4. **Adding or Removing Tiles (Android 16 QPR1 and later):** Below the active Quick Settings, there is typically a section of available, but inactive, tiles. Users can drag these tiles into the active area to add them to their Quick Settings. Conversely, active tiles can be dragged out of the main panel to remove them.
-5. **Resizing Tiles (Android 16 QPR1 and later):** To change the size of a Quick Settings tile, tap anywhere inside it in edit mode. A drag handle will appear at the right edge. Move this handle left to shrink the tile to a 1x1 size (removing the text label) or right to expand it to a 2x1 size (showing the label). An "Undo" button is often available to revert the last change.
-6. **Reordering Quick Settings Sections (Android 17 QPR2 Beta):** With Android 17 QPR2, after tapping the pencil icon to enter edit mode, a new "Layout" tab may appear at the bottom of the screen. This tab allows users to reorder the Brightness bar, the Tiles block, and the Media player into one of the six available combinations.
+QPR2 Beta 3 added native App Lock to Android 17 — the first time Android has included this at the system level without requiring a third-party app or Samsung's implementation.
 
-While Android 17 QPR2 introduces specific `pixel quick settings layout changes`, the core interaction model for editing individual tiles is expected to remain consistent with Android's user-friendly design, building upon the enhancements from Android 16 QPR1. These enhancements likely refine the fluidity of this process or introduce new options within the edit interface itself. It is always advisable to experiment with different arrangements to find the configuration that best suits individual usage patterns. Users can typically revert changes or reset to default settings if a particular customization doesn't meet their expectations.
+**How to enable:**
 
-### The Broader Impact on the Pixel Experience
+1. Go to **Settings → Privacy → App Lock**.
+2. Authenticate with your fingerprint or PIN.
+3. Toggle on any app you want locked.
 
-The enhancements to Pixel Quick Settings delivered through Android 17 QPR2 are more than just cosmetic updates; they represent a commitment to the overall Pixel philosophy. This philosophy centers on creating a smart, intuitive, and user-centric experience, where the device adapts to the user's needs rather than dictating interaction. By providing greater control over Quick Settings, Google empowers Pixel owners to fine-tune their device's most frequently accessed controls, leading to a more seamless and personalized daily interaction.
+Locked apps require biometric authentication each time they're opened. The lock persists across sessions — closing and reopening the app triggers the authentication prompt again.
 
-The cumulative effect of these seemingly small UI improvements can significantly enhance user satisfaction. When essential toggles are precisely where one expects them, and the layout feels naturally organized, the device becomes an extension of the user's will. Quarterly Platform Releases (QPRs) like Android 17 QPR2 play a vital role in delivering these continuous improvements, ensuring that Pixel devices evolve and adapt with user feedback and technological advancements. This iterative approach to software development ensures that the user experience remains fresh, efficient, and aligned with modern expectations, allowing users to maintain a sense of control over their digital environment.
+**Supported devices:** Pixel 6a and later running QPR2 Beta 3 or later.
 
-To truly personalize your Pixel's Quick Settings, explore the new 'Layout' tab in Android 17 QPR2's edit mode; strategically placing your Brightness bar, Quick Settings Tiles, and Media player in one of the six available combinations can dramatically streamline your daily interactions.
+---
+
+## Lock Screen Blur (QPR2 Beta 3)
+
+A new blur effect option for the lock screen wallpaper was added in Beta 3.
+
+**How to enable:**
+
+1. Go to **Settings → Wallpaper & style**.
+2. Scroll to **Lock screen** → **Blur intensity**.
+3. Adjust the slider from 0 (no blur) to maximum.
+
+The blur applies to the wallpaper behind your lock screen clock and notifications. It doesn't affect the always-on display.
+
+---
+
+## Status Bar Customization (QPR2 Beta 4)
+
+Beta 4 (August 28) added status bar customization — the ability to show or hide specific status bar indicators and rearrange their order.
+
+**How to enable:**
+
+1. Go to **Settings → Display → Status bar**.
+2. Toggle indicators on or off, or drag to reorder.
+
+Available indicators vary by device. Pixel 9 and 10 series have the most options.
+
+---
+
+## Should You Install the Beta?
+
+Beta 4 has reached Platform Stability, which means the API surface is finalized and major bugs are resolved. Day-to-day use is generally reliable. That said, some users have reported UI glitches and performance issues — banking apps and work tools that require a certified build may not function correctly on beta firmware.
+
+If you need these features now, join the [Android Beta Program](https://www.google.com/android/beta). If stability is the priority, wait for the December 2026 stable release.
 
 ---
 Sources:
-* How to Customise Android 16 Quick Settings on Pixel Phones - Beebom Gadgets
-* Check out what's new in Android 17 - Google AI Summaries
-* Android 17 features and changes list - Android Developers
-* Some tips for customizing Android 16 QPR1 Quick Settings on Pixel - 9to5Google
-* Android 17 is out, and here's all the features! - Reddit
-* Android 17's best new features - Mashable
-* Android 17 - Wikipedia
-* Google Releases Android 17 QPR2 Beta 3 For Pixel - Droid Life
-* Get Android 17 QPR 2 | Android Developers
-* Google releases Android 17 QPR2 Beta 1 for Pixel - 9to5Google
-* Release notes - Android Developers
-* Android 14's best tips and tricks - Android Police
-* Android 16 – How to Customize Quick Settings Panel - YouTube
-* The Pixel's latest Android update has a hidden trick for organizing your Quick Settings - Computerworld
-* The 'Quick Settings' overhaul is the most underrated part of Android 16 - Android Central
-* Android Quick Settings Can Finally Be Resized—Here's How It Works - How-To Geek
-* Android 16 – How to Customize Quick Settings Panel - YouTube
-* Android 17 expected release date, supported devices and must-know features - Android Central
-* How I turned Android's new Quick Settings into the perfect control center (and so should you) - Android Central
-* How to Customize Quick Settings Panel, Easy, Optimize Time on Smartphone Android 15 - YouTube
-* I always add these 6 quick settings tiles to my Android phone when setting it up for the first time - Android Central
-* Change settings quickly on your Pixel phone - Google Help
-* Android 14 | Customizable, Accessible & Protective - Android.com
-* How to completely customize your Android Quick Settings panel - Computerworld
-* Change settings quickly on your Pixel phone - Google Help
-* How to Merge Notifications and Quick Settings in Samsung One UI 7 Android 15 - YouTube
-* How to change back to a single notification and quick settings panel on One UI 7 | Android Central
-* Seven Android Quick Settings Controls You Should Be Using | Lifehacker
-* How I turned Android's Quick Settings into my ultimate control hub - Android Central
-* Change settings quickly - Pixel Phone Help
-* Your guide to resizing your Google Pixel Quick Settings | The Intelligence
-* 20 Hidden Android 15 features you need to try - Eaton Computer Helpdesk
-* Android 17 QPR2 lets you customize Pixel Quick Settings layout - 9to5Google
-* You'll finally be able to reorder the entire Quick Settings panel - Android Headlines
-* Android 15 advanced tricks you'll actually use | Eaton Computer Helpdesk
-* Customize the Quick settings panel on your Samsung Galaxy - Samsung Support
----
+- [9to5Google — Android 17 QPR2 Beta 3 features](https://9to5google.com/2026/08/14/android-17-qpr2-beta-3/)
+- [Droid-Life — Android 17 QPR2 Beta 4](https://www.droid-life.com/2026/08/28/google-releases-android-17-qpr2-beta-4-for-pixel/)
+- [TechPP — Android 17 QPR2 feature tracker](https://techpp.com/roundup/android-17/)
+- [Android Beta Program](https://www.google.com/android/beta)
