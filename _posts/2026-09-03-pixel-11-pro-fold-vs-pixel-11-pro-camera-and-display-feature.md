@@ -1,19 +1,14 @@
-판정 요약:
-1.  **주장:** "Pixel 11 Pro Fold"와 "Pixel 11 Pro"에 대한 정보가 초기 커뮤니티 논의 및 리뷰에서 나타난다고 주장.
-    **판정:** ❌
-    **수정 내용 + 근거 URL:** "Pixel 11 Pro Fold"와 "Pixel 11 Pro"는 2026년 8월 12일 공식 발표되어 8월 20일 출시된 실제 제품임. 초안에서 인용한 YouTube URL들은 1세대 Pixel Fold에 대한 리뷰이므로, 해당 주장은 실제 제품의 공식 스펙 및 기능 정보로 대체하고, 1세대 Pixel Fold의 사용자 경험은 차세대 모델의 기대치를 설명하는 데 활용함.
-2.  **주장:** 서론 오프너 "The landscape of flagship smartphones is continually evolving..." 사용.
-    **판정:** ❌
-    **수정 내용 + 근거 URL:** Google의 최신 Pixel 11 시리즈 및 Pixel 11 Pro Fold의 출시라는 구체적인 상황을 언급하는 문장으로 교체.
-3.  **주장:** 결론 패턴 "Ultimately, the choice is yours" 및 "As the market for foldable technology matures..." 사용.
-    **판정:** ❌
-    **수정 내용 + 근거 URL:** Pixel 11 Pro Fold와 Pixel 11 Pro의 구체적인 장점을 요약하고, 독자가 자신의 우선순위에 따라 선택할 수 있도록 명확한 정보를 제공하는 문장으로 교체.
-4.  **주장:** 초안의 모든 외부 URL은 1세대 Pixel Fold에 대한 YouTube 댓글을 인용하여 "Pixel 11 Pro Fold"의 사용자 경험을 설명.
-    **판정:** ❌
-    **수정 내용 + 근거 URL:** "Pixel 11 Pro Fold" 및 "Pixel 11 Pro"의 실제 공식 스펙 및 기능에 대한 정보로 대체하고, 1세대 Pixel Fold에 대한 YouTube URL의 내용은 해당 모델의 사용자 경험을 바탕으로 미래 모델의 개선점을 유추하는 방식으로 재구성하여 활용함.
-
-```markdown
-# Pixel 11 Pro Fold vs Pixel 11 Pro: Camera and Display Features Comparison
+---
+layout: single
+title: 'Pixel 11 Pro Fold vs Pixel 11 Pro: Camera and Display Features Comparison'
+date: 2026-09-03 14:45:00 +0000
+categories: [tech]
+tags: ["comparison", "pixel", "pro"]
+excerpt: 'Google''s latest innovations in the smartphone market have culminated in the recent launch of the Pixel 11 series, including the highly anticipated…'
+author_profile: false
+read_time: true
+share: true
+---
 
 Google's latest innovations in the smartphone market have culminated in the recent launch of the Pixel 11 series, including the highly anticipated Pixel 11 Pro Fold and its traditional flagship counterpart, the Pixel 11 Pro. Both devices were officially announced on August 12, 2026, with general availability beginning on August 20, 2026. This dual release offers consumers a choice between a cutting-edge foldable form factor and a powerful, conventional smartphone. This analysis delves into the distinct camera and display features of the Pixel 11 Pro Fold, comparing them against the robust specifications of the Pixel 11 Pro, and exploring how Google is pushing the boundaries of mobile technology.
 
@@ -49,5 +44,4 @@ The Pixel 11 Pro comes with 12 GB or 16 GB of RAM and storage options of 256 GB,
 
 The launch of the Pixel 11 Pro Fold and Pixel 11 Pro marks a significant moment in Google's smartphone evolution, offering distinct yet equally compelling options for consumers. The Pixel 11 Pro Fold stands out with its innovative foldable display, offering expansive screen real estate for enhanced productivity and unique multitasking capabilities, alongside pioneering accessibility features like real-time sign language translation. Its redesigned camera system, powered by the Tensor G6 chip, promises a versatile and high-quality photographic experience tailored to its unique form factor.
 
-Conversely, the Pixel 11 Pro delivers a refined traditional flagship experience, featuring a stunning and highly durable Super Actua display, a robust triple-camera system, and the powerful Tensor G6 chip for seamless performance and advanced AI capabilities. For users prioritizing cutting-edge design, adaptive functionality, and groundbreaking accessibility, the Pixel 11 Pro Fold presents a compelling choice. Those who prefer a conventional, high-performance smartphone with top-tier camera and display specifications will find the Pixel 11 Pro to be an excellent option. To make an informed decision, prospective buyers should consider their daily usage patterns, desired form factor, and specific feature priorities, and explore detailed reviews and hands-on experiences with both devices.
-```
+Conversely, the Pixel 11 Pro delivers a refined traditional flagship experience, featuring a stunning and highly durable Super Actua display, a robust triple-camera system, and the powerful Tensor G6 chip for seamless performance and advanced AI capabilities. For users prioritizing cutting-edge design, adaptive functionality, and groundbreaking accessibility, the Pixel 11 Pro Fold presents a compelling choice. Those who prefer a conventional, high-performance smartphone with top-tier camera and display specifications will find the Pixel 11 Pro to be an excellent option. Ultimately, if the groundbreaking real-time sign language translation powered by Google DeepMind's SL2T model is a priority, the Pixel 11 Pro Fold offers an unparalleled accessibility tool; otherwise, the Pixel 11 Pro's 3,600-nit Super Actua display and enhanced scratch resistance provide a robust traditional experience.
