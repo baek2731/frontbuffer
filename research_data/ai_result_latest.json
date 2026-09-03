@@ -1,156 +1,170 @@
 [
   {
-    "cluster_name": "Pixel 11 Android Features",
+    "cluster_name": "Pixel Phone Camera Features",
     "content_type": "COMPARISON",
-    "suggested_title": "Android 17 QPR2 App Lock vs Samsung App Lock: Privacy Features Compared",
-    "hub_keyword": "Pixel 11 Android 17",
-    "parent_hub": "Pixel 11 Android",
+    "suggested_title": "Pixel 11 vs Pixel 11 Pro camera features and differences",
+    "hub_keyword": "Pixel 11 comparison",
+    "parent_hub": "Pixel Phones",
     "spoke_keywords": [
-      "android 17 qpr2 app lock comparison",
-      "pixel app lock vs samsung app lock privacy"
+      "pixel 11 vs pixel 11 pro camera",
+      "pixel 11 camera features",
+      "pixel 11 pro camera review"
     ],
     "evergreen_score": 90,
     "competition_level": "MEDIUM",
-    "affiliate_potential": "LOW",
+    "affiliate_potential": "HIGH",
     "timing": "NOW",
     "verifiability": "HIGH",
     "trends_queries": [
-      "android app lock feature",
-      "samsung app lock privacy"
+      "pixel 11 camera comparison",
+      "pixel 11 pro camera specs",
+      "pixel 11 vs 11 pro camera"
     ],
-    "reasoning": "This compares two established app lock features, focusing on privacy, which is a constant user concern and verifiable via official documentation.",
+    "reasoning": "Compares two released phone models based on official camera specs and widely published reviews, providing evergreen value for buyers.",
     "data_grade": "A"
   },
   {
-    "cluster_name": "Pixel 11 Android Features",
-    "content_type": "COMPARISON",
-    "suggested_title": "Pixel 11 Pro Fold vs Pixel 11 Pro: Camera and Display Features Comparison",
-    "hub_keyword": "Pixel 11 Pro Fold Camera",
-    "parent_hub": "Pixel 11 Android",
-    "spoke_keywords": [
-      "pixel 11 pro fold camera specs",
-      "pixel 11 pro display comparison"
-    ],
-    "evergreen_score": 95,
-    "competition_level": "MEDIUM",
-    "affiliate_potential": "MEDIUM",
-    "timing": "NOW",
-    "verifiability": "HIGH",
-    "trends_queries": [
-      "pixel 11 pro fold camera review",
-      "pixel 11 pro display comparison"
-    ],
-    "reasoning": "Comparing two flagship phones from the same series on core features like camera and display remains relevant for years and is based on published specifications.",
-    "data_grade": "A"
-  },
-  {
-    "cluster_name": "Pixel 11 Android Features",
+    "cluster_name": "Pixel AI Features",
     "content_type": "GUIDE",
-    "suggested_title": "How to Customize Pixel Quick Settings with Android 17 QPR2 Features",
-    "hub_keyword": "Pixel Quick Settings Guide",
-    "parent_hub": "Pixel 11 Android",
+    "suggested_title": "How to use Gemini to adjust Pixel system settings",
+    "hub_keyword": "Gemini Pixel integration",
+    "parent_hub": "Pixel Phones",
     "spoke_keywords": [
-      "android 17 qpr2 pixel quick settings customization",
-      "pixel quick settings layout changes"
+      "gemini pixel system settings",
+      "adjust pixel settings with gemini",
+      "gemini features pixel phones"
     ],
-    "evergreen_score": 88,
+    "evergreen_score": 85,
     "competition_level": "LOW",
     "affiliate_potential": "LOW",
     "timing": "NOW",
     "verifiability": "HIGH",
     "trends_queries": [
-      "pixel quick settings customization",
-      "android 17 quick settings features"
+      "gemini pixel settings",
+      "google gemini pixel commands",
+      "how to use gemini pixel"
     ],
-    "reasoning": "A guide on customizing core OS features is evergreen as users constantly seek to personalize their devices, verifiable through official Android documentation.",
+    "reasoning": "Provides a guide for a specific, announced AI feature on Pixel phones, verifiable through official Google documentation and support pages.",
     "data_grade": "A"
   },
   {
-    "cluster_name": "Samsung Galaxy Hardware",
+    "cluster_name": "Galaxy Fold Durability",
     "content_type": "COMPARISON",
-    "suggested_title": "Samsung Galaxy Z Fold 8 Ultra vs Galaxy S26 Ultra: Camera Specs and Features Compared",
-    "hub_keyword": "Galaxy Z Fold 8 Camera",
-    "parent_hub": "Samsung Galaxy Phones",
+    "suggested_title": "Galaxy Z Fold 8 vs Fold 7 hinge durability comparison",
+    "hub_keyword": "Galaxy Fold durability",
+    "parent_hub": "Galaxy Foldables",
     "spoke_keywords": [
-      "galaxy z fold 8 ultra camera comparison",
-      "galaxy s26 ultra camera specs"
+      "galaxy z fold 8 hinge test",
+      "fold 8 vs fold 7 durability",
+      "galaxy z fold hinge issues"
     ],
-    "evergreen_score": 95,
+    "evergreen_score": 90,
     "competition_level": "MEDIUM",
-    "affiliate_potential": "MEDIUM",
+    "affiliate_potential": "HIGH",
     "timing": "NOW",
-    "verifiability": "HIGH",
+    "verifiability": "MEDIUM",
     "trends_queries": [
-      "galaxy z fold 8 ultra vs s26 ultra",
-      "samsung flagship camera comparison"
+      "galaxy z fold 8 durability",
+      "fold 7 vs fold 8 hinge",
+      "galaxy fold 8 bend test"
     ],
-    "reasoning": "Comparing the camera capabilities of two top-tier Samsung phones is a perennial search query, verifiable through official product specifications.",
+    "reasoning": "Compares the durability of two released foldable phones, a topic of ongoing interest, with information verifiable from published third-party tests and official design details.",
     "data_grade": "A"
   },
   {
-    "cluster_name": "Samsung Galaxy Hardware",
+    "cluster_name": "Google Messages Features",
     "content_type": "GUIDE",
-    "suggested_title": "How to Backup Samsung Health Data Before Switching Phones or Factory Reset",
-    "hub_keyword": "Samsung Health Backup",
-    "parent_hub": "Samsung Galaxy Phones",
+    "suggested_title": "How to enable custom chat bubbles in Google Messages",
+    "hub_keyword": "Google Messages customization",
+    "parent_hub": "Android Apps",
     "spoke_keywords": [
-      "samsung health data transfer guide",
-      "how to save samsung health data"
+      "google messages custom bubbles",
+      "enable chat bubbles messages app",
+      "android messages customization"
     ],
-    "evergreen_score": 98,
+    "evergreen_score": 80,
     "competition_level": "LOW",
     "affiliate_potential": "LOW",
     "timing": "NOW",
     "verifiability": "HIGH",
     "trends_queries": [
-      "samsung health data backup",
-      "transfer samsung health to new phone"
+      "google messages custom chat",
+      "messages app bubbles",
+      "android messages personalization"
     ],
-    "reasoning": "Users frequently need to transfer or backup health data when upgrading devices, making this a highly evergreen and verifiable guide from Samsung's support documentation.",
-    "data_grade": "A"
+    "reasoning": "Offers a step-by-step guide for a new, user-facing feature in a widely used Android app, verifiable through official announcements and app updates.",
+    "data_grade": "B"
   },
   {
-    "cluster_name": "Nintendo Switch 2 Hardware",
+    "cluster_name": "GTA 6 Performance Analysis",
     "content_type": "EXPLAINER",
-    "suggested_title": "Nintendo Switch 2 MicroSD Express Compatibility: Why old cards don't work and new types do",
-    "hub_keyword": "Nintendo Switch 2 MicroSD",
-    "parent_hub": "Nintendo Switch 2",
+    "suggested_title": "Why Grand Theft Auto 6 console performance is 30 FPS",
+    "hub_keyword": "GTA 6 performance",
+    "parent_hub": "Gaming Performance",
     "spoke_keywords": [
-      "nintendo switch 2 microsd express explanation",
-      "switch 2 old microsd card issue"
+      "gta 6 30 fps explanation",
+      "grand theft auto 6 console frame rate",
+      "gta 6 performance limitations"
     ],
-    "evergreen_score": 92,
+    "evergreen_score": 85,
+    "competition_level": "MEDIUM",
+    "affiliate_potential": "LOW",
+    "timing": "NOW",
+    "verifiability": "HIGH",
+    "trends_queries": [
+      "gta 6 30fps why",
+      "gta 6 frame rate console",
+      "gta 6 performance explained"
+    ],
+    "reasoning": "Explains a widely discussed technical decision for a major released game, using official statements and technical analysis from reputable sources.",
+    "data_grade": "A"
+  },
+  {
+    "cluster_name": "Nvidia DLSS Technology",
+    "content_type": "EXPLAINER",
+    "suggested_title": "What is Nvidia DLSS 5 and how it improves game performance",
+    "hub_keyword": "Nvidia DLSS explainer",
+    "parent_hub": "Gaming Graphics Tech",
+    "spoke_keywords": [
+      "nvidia dlss 5 explained",
+      "how dlss 5 works",
+      "dlss 5 gaming benefits"
+    ],
+    "evergreen_score": 90,
     "competition_level": "MEDIUM",
     "affiliate_potential": "HIGH",
     "timing": "NOW",
     "verifiability": "HIGH",
     "trends_queries": [
-      "nintendo switch 2 sd card type",
-      "microsd express switch 2"
+      "what is dlss 5",
+      "nvidia dlss 5 features",
+      "dlss 5 performance gain"
     ],
-    "reasoning": "Explaining a fundamental hardware compatibility change for a new console is highly evergreen and offers affiliate potential for compatible storage, verifiable by official specs.",
+    "reasoning": "Explains a core graphics technology with continuous relevance for PC gaming, verifiable through official Nvidia documentation and tech reviews.",
     "data_grade": "A"
   },
   {
-    "cluster_name": "Nintendo Switch 2 Hardware",
-    "content_type": "GUIDE",
-    "suggested_title": "How to Set Up and Expand Storage on Nintendo Switch 2 with MicroSD Express",
-    "hub_keyword": "Nintendo Switch 2 Storage Guide",
-    "parent_hub": "Nintendo Switch 2",
+    "cluster_name": "Elden Ring Performance",
+    "content_type": "COMPARISON",
+    "suggested_title": "Elden Ring PC vs Console performance differences explained",
+    "hub_keyword": "Elden Ring performance comparison",
+    "parent_hub": "Gaming Performance",
     "spoke_keywords": [
-      "nintendo switch 2 storage expansion guide",
-      "install microsd express switch 2"
+      "elden ring pc performance review",
+      "elden ring console fps comparison",
+      "best platform for elden ring"
     ],
-    "evergreen_score": 90,
-    "competition_level": "LOW",
+    "evergreen_score": 85,
+    "competition_level": "MEDIUM",
     "affiliate_potential": "HIGH",
     "timing": "NOW",
-    "verifiability": "HIGH",
+    "verifiability": "MEDIUM",
     "trends_queries": [
-      "nintendo switch 2 storage setup",
-      "expand switch 2 memory"
+      "elden ring pc vs ps5",
+      "elden ring xbox series x performance",
+      "elden ring best settings pc"
     ],
-    "reasoning": "A step-by-step guide for a common user task like storage expansion on a new console is very evergreen and verifiable through official Nintendo support.",
+    "reasoning": "Compares performance across different platforms for a popular, established game, drawing facts from numerous benchmarks and reviews by gaming publications.",
     "data_grade": "A"
   }
 ]

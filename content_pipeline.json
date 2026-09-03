@@ -1,7 +1,7 @@
 {
   "_version": "1.3",
   "_description": "콘텐츠 파이프라인 — 클러스터 단위 관리",
-  "_last_updated": "2026-09-02T17:40:56.995440+00:00",
+  "_last_updated": "2026-09-03T07:34:53.011666+00:00",
   "hub_clusters": {
     "Steam Machine": {
       "hub_keyword": "Steam Machine",
@@ -200,7 +200,8 @@
       "spokes": [
         "Samsung Galaxy Z Fold 8",
         "Samsung Galaxy Z Flip 8",
-        "Samsung Battery Technology"
+        "Samsung Battery Technology",
+        "Galaxy Fold Durability"
       ],
       "spoke_urls": {},
       "internal_links": []
@@ -503,6 +504,52 @@
         "https://frontbuffer.net/gaming/rumored-nintendo-switch-successor-exploring-potential-micros/",
         "pending"
       ]
+    },
+    "Pixel Phones": {
+      "hub_keyword": "Pixel Phones",
+      "hub_status": "READY",
+      "hub_title": "",
+      "hub_url": "",
+      "spokes": [
+        "Pixel Phone Camera Features",
+        "Pixel AI Features"
+      ],
+      "spoke_urls": {},
+      "internal_links": []
+    },
+    "Gaming Performance": {
+      "hub_keyword": "Gaming Performance",
+      "hub_status": "READY",
+      "hub_title": "",
+      "hub_url": "",
+      "spokes": [
+        "Elden Ring Performance",
+        "GTA 6 Performance Analysis"
+      ],
+      "spoke_urls": {},
+      "internal_links": []
+    },
+    "Gaming Graphics Tech": {
+      "hub_keyword": "Gaming Graphics Tech",
+      "hub_status": "PENDING",
+      "hub_title": "",
+      "hub_url": "",
+      "spokes": [
+        "Nvidia DLSS Technology"
+      ],
+      "spoke_urls": {},
+      "internal_links": []
+    },
+    "Android Apps": {
+      "hub_keyword": "Android Apps",
+      "hub_status": "PENDING",
+      "hub_title": "",
+      "hub_url": "",
+      "spokes": [
+        "Google Messages Features"
+      ],
+      "spoke_urls": {},
+      "internal_links": []
     }
   },
   "covered_clusters": {
@@ -1389,6 +1436,160 @@
       ],
       "competition_level": "MEDIUM",
       "affiliate_potential": "HIGH",
+      "trends_pattern": "UNKNOWN",
+      "trends_keyword": "",
+      "notes": ""
+    },
+    "Pixel Phone Camera Features": {
+      "types_done": [],
+      "last_week": "2026-W35",
+      "suggest_next": [
+        "COMPARISON",
+        "GUIDE",
+        "EXPLAINER",
+        "LISTICLE"
+      ],
+      "hub_keyword": "Pixel 11",
+      "parent_hub": "Pixel Phones",
+      "spoke_keywords": [
+        "pixel 11 vs pixel 11 pro camera",
+        "pixel 11 camera features",
+        "pixel 11 pro camera review"
+      ],
+      "competition_level": "MEDIUM",
+      "affiliate_potential": "HIGH",
+      "trends_pattern": "UNKNOWN",
+      "trends_keyword": "",
+      "notes": ""
+    },
+    "Galaxy Fold Durability": {
+      "types_done": [],
+      "last_week": "2026-W35",
+      "suggest_next": [
+        "COMPARISON",
+        "GUIDE",
+        "EXPLAINER",
+        "LISTICLE"
+      ],
+      "hub_keyword": "Galaxy Fold durability",
+      "parent_hub": "Galaxy Foldables",
+      "spoke_keywords": [
+        "galaxy z fold 8 hinge test",
+        "fold 8 vs fold 7 durability",
+        "galaxy z fold hinge issues"
+      ],
+      "competition_level": "MEDIUM",
+      "affiliate_potential": "HIGH",
+      "trends_pattern": "UNKNOWN",
+      "trends_keyword": "",
+      "notes": ""
+    },
+    "Elden Ring Performance": {
+      "types_done": [],
+      "last_week": "2026-W35",
+      "suggest_next": [
+        "COMPARISON",
+        "GUIDE",
+        "EXPLAINER",
+        "LISTICLE"
+      ],
+      "hub_keyword": "Elden Ring performance",
+      "parent_hub": "Gaming Performance",
+      "spoke_keywords": [
+        "elden ring pc performance review",
+        "elden ring console fps comparison",
+        "best platform for elden ring"
+      ],
+      "competition_level": "MEDIUM",
+      "affiliate_potential": "HIGH",
+      "trends_pattern": "UNKNOWN",
+      "trends_keyword": "",
+      "notes": ""
+    },
+    "GTA 6 Performance Analysis": {
+      "types_done": [],
+      "last_week": "2026-W35",
+      "suggest_next": [
+        "COMPARISON",
+        "GUIDE",
+        "EXPLAINER",
+        "LISTICLE"
+      ],
+      "hub_keyword": "GTA 6 performance",
+      "parent_hub": "Gaming Performance",
+      "spoke_keywords": [
+        "gta 6 30 fps explanation",
+        "grand theft auto 6 console frame rate",
+        "gta 6 performance limitations"
+      ],
+      "competition_level": "MEDIUM",
+      "affiliate_potential": "LOW",
+      "trends_pattern": "UNKNOWN",
+      "trends_keyword": "",
+      "notes": ""
+    },
+    "Nvidia DLSS Technology": {
+      "types_done": [],
+      "last_week": "2026-W35",
+      "suggest_next": [
+        "COMPARISON",
+        "GUIDE",
+        "EXPLAINER",
+        "LISTICLE"
+      ],
+      "hub_keyword": "Nvidia DLSS explainer",
+      "parent_hub": "Gaming Graphics Tech",
+      "spoke_keywords": [
+        "nvidia dlss 5 explained",
+        "how dlss 5 works",
+        "dlss 5 gaming benefits"
+      ],
+      "competition_level": "MEDIUM",
+      "affiliate_potential": "HIGH",
+      "trends_pattern": "UNKNOWN",
+      "trends_keyword": "",
+      "notes": ""
+    },
+    "Pixel AI Features": {
+      "types_done": [],
+      "last_week": "2026-W35",
+      "suggest_next": [
+        "COMPARISON",
+        "GUIDE",
+        "EXPLAINER",
+        "LISTICLE"
+      ],
+      "hub_keyword": "Gemini Pixel integration",
+      "parent_hub": "Pixel Phones",
+      "spoke_keywords": [
+        "gemini pixel system settings",
+        "adjust pixel settings with gemini",
+        "gemini features pixel phones"
+      ],
+      "competition_level": "LOW",
+      "affiliate_potential": "LOW",
+      "trends_pattern": "UNKNOWN",
+      "trends_keyword": "",
+      "notes": ""
+    },
+    "Google Messages Features": {
+      "types_done": [],
+      "last_week": "2026-W35",
+      "suggest_next": [
+        "COMPARISON",
+        "GUIDE",
+        "EXPLAINER",
+        "LISTICLE"
+      ],
+      "hub_keyword": "Google Messages customization",
+      "parent_hub": "Android Apps",
+      "spoke_keywords": [
+        "google messages custom bubbles",
+        "enable chat bubbles messages app",
+        "android messages customization"
+      ],
+      "competition_level": "LOW",
+      "affiliate_potential": "LOW",
       "trends_pattern": "UNKNOWN",
       "trends_keyword": "",
       "notes": ""
@@ -4534,6 +4735,190 @@
         "status": "published",
         "selected_at": "2026-08-21T07:38:19.465328+00:00",
         "url": "pending"
+      }
+    ],
+    "2026-W35": [
+      {
+        "cluster_name": "Pixel Phone Camera Features",
+        "content_type": "COMPARISON",
+        "suggested_title": "Pixel 11 vs Pixel 11 Pro camera features and differences",
+        "hub_keyword": "Pixel 11",
+        "hub_keyword_raw": "Pixel 11 comparison",
+        "parent_hub": "Pixel Phones",
+        "folder": "04-pixel-pro",
+        "spoke_keywords": [
+          "pixel 11 vs pixel 11 pro camera",
+          "pixel 11 camera features",
+          "pixel 11 pro camera review"
+        ],
+        "competition_level": "MEDIUM",
+        "timing": "NOW",
+        "affiliate_potential": "HIGH",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "publish_order": 24,
+        "status": "candidate",
+        "selected_at": "2026-09-03T07:34:53.011309+00:00"
+      },
+      {
+        "cluster_name": "Galaxy Fold Durability",
+        "content_type": "COMPARISON",
+        "suggested_title": "Galaxy Z Fold 8 vs Fold 7 hinge durability comparison",
+        "hub_keyword": "Galaxy Fold durability",
+        "hub_keyword_raw": "Galaxy Fold durability",
+        "parent_hub": "Galaxy Foldables",
+        "folder": "",
+        "spoke_keywords": [
+          "galaxy z fold 8 hinge test",
+          "fold 8 vs fold 7 durability",
+          "galaxy z fold hinge issues"
+        ],
+        "competition_level": "MEDIUM",
+        "timing": "NOW",
+        "affiliate_potential": "HIGH",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "MEDIUM",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "publish_order": 25,
+        "status": "candidate",
+        "selected_at": "2026-09-03T07:34:53.011309+00:00"
+      },
+      {
+        "cluster_name": "Elden Ring Performance",
+        "content_type": "COMPARISON",
+        "suggested_title": "Elden Ring PC vs Console performance differences explained",
+        "hub_keyword": "Elden Ring performance",
+        "hub_keyword_raw": "Elden Ring performance comparison",
+        "parent_hub": "Gaming Performance",
+        "folder": "",
+        "spoke_keywords": [
+          "elden ring pc performance review",
+          "elden ring console fps comparison",
+          "best platform for elden ring"
+        ],
+        "competition_level": "MEDIUM",
+        "timing": "NOW",
+        "affiliate_potential": "HIGH",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "MEDIUM",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "publish_order": 26,
+        "status": "candidate",
+        "selected_at": "2026-09-03T07:34:53.011309+00:00"
+      },
+      {
+        "cluster_name": "GTA 6 Performance Analysis",
+        "content_type": "EXPLAINER",
+        "suggested_title": "Why Grand Theft Auto 6 console performance is 30 FPS",
+        "hub_keyword": "GTA 6 performance",
+        "hub_keyword_raw": "GTA 6 performance",
+        "parent_hub": "Gaming Performance",
+        "folder": "05-gta-6s",
+        "spoke_keywords": [
+          "gta 6 30 fps explanation",
+          "grand theft auto 6 console frame rate",
+          "gta 6 performance limitations"
+        ],
+        "competition_level": "MEDIUM",
+        "timing": "NOW",
+        "affiliate_potential": "LOW",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "publish_order": 27,
+        "status": "candidate",
+        "selected_at": "2026-09-03T07:34:53.011309+00:00"
+      },
+      {
+        "cluster_name": "Nvidia DLSS Technology",
+        "content_type": "EXPLAINER",
+        "suggested_title": "What is Nvidia DLSS 5 and how it improves game performance",
+        "hub_keyword": "Nvidia DLSS explainer",
+        "hub_keyword_raw": "Nvidia DLSS explainer",
+        "parent_hub": "Gaming Graphics Tech",
+        "folder": "",
+        "spoke_keywords": [
+          "nvidia dlss 5 explained",
+          "how dlss 5 works",
+          "dlss 5 gaming benefits"
+        ],
+        "competition_level": "MEDIUM",
+        "timing": "NOW",
+        "affiliate_potential": "HIGH",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "publish_order": 28,
+        "status": "candidate",
+        "selected_at": "2026-09-03T07:34:53.011309+00:00"
+      },
+      {
+        "cluster_name": "Pixel AI Features",
+        "content_type": "GUIDE",
+        "suggested_title": "How to use Gemini to adjust Pixel system settings",
+        "hub_keyword": "Gemini Pixel integration",
+        "hub_keyword_raw": "Gemini Pixel integration",
+        "parent_hub": "Pixel Phones",
+        "folder": "04-pixel-pro",
+        "spoke_keywords": [
+          "gemini pixel system settings",
+          "adjust pixel settings with gemini",
+          "gemini features pixel phones"
+        ],
+        "competition_level": "LOW",
+        "timing": "NOW",
+        "affiliate_potential": "LOW",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "publish_order": 29,
+        "status": "candidate",
+        "selected_at": "2026-09-03T07:34:53.011309+00:00"
+      },
+      {
+        "cluster_name": "Google Messages Features",
+        "content_type": "GUIDE",
+        "suggested_title": "How to enable custom chat bubbles in Google Messages",
+        "hub_keyword": "Google Messages customization",
+        "hub_keyword_raw": "Google Messages customization",
+        "parent_hub": "Android Apps",
+        "folder": "03-google-maps",
+        "spoke_keywords": [
+          "google messages custom bubbles",
+          "enable chat bubbles messages app",
+          "android messages customization"
+        ],
+        "competition_level": "LOW",
+        "timing": "NOW",
+        "affiliate_potential": "LOW",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "B",
+        "verified_keywords": [],
+        "publish_order": 30,
+        "status": "candidate",
+        "selected_at": "2026-09-03T07:34:53.011309+00:00"
       }
     ]
   },

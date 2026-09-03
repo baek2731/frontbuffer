@@ -1,0 +1,195 @@
+{
+  "ok": true,
+  "week_tag": "2026-W35",
+  "total": 7,
+  "grade_a": [
+    {
+      "cluster_name": "Pixel Phone Camera Features",
+      "content_type": "COMPARISON",
+      "suggested_title": "Pixel 11 vs Pixel 11 Pro camera features and differences",
+      "hub_keyword": "Pixel 11 comparison",
+      "parent_hub": "Pixel Phones",
+      "spoke_keywords": [
+        "pixel 11 vs pixel 11 pro camera",
+        "pixel 11 camera features",
+        "pixel 11 pro camera review"
+      ],
+      "evergreen_score": 90,
+      "competition_level": "MEDIUM",
+      "affiliate_potential": "HIGH",
+      "timing": "NOW",
+      "verifiability": "HIGH",
+      "trends_queries": [
+        "pixel 11 camera comparison",
+        "pixel 11 pro camera specs",
+        "pixel 11 vs 11 pro camera"
+      ],
+      "reasoning": "Compares two released phone models based on official camera specs and widely published reviews, providing evergreen value for buyers.",
+      "data_grade": "A",
+      "publish_order": 24,
+      "folder": "04-pixel-pro"
+    },
+    {
+      "cluster_name": "Pixel AI Features",
+      "content_type": "GUIDE",
+      "suggested_title": "How to use Gemini to adjust Pixel system settings",
+      "hub_keyword": "Gemini Pixel integration",
+      "parent_hub": "Pixel Phones",
+      "spoke_keywords": [
+        "gemini pixel system settings",
+        "adjust pixel settings with gemini",
+        "gemini features pixel phones"
+      ],
+      "evergreen_score": 85,
+      "competition_level": "LOW",
+      "affiliate_potential": "LOW",
+      "timing": "NOW",
+      "verifiability": "HIGH",
+      "trends_queries": [
+        "gemini pixel settings",
+        "google gemini pixel commands",
+        "how to use gemini pixel"
+      ],
+      "reasoning": "Provides a guide for a specific, announced AI feature on Pixel phones, verifiable through official Google documentation and support pages.",
+      "data_grade": "A",
+      "publish_order": 29,
+      "folder": "04-pixel-pro"
+    },
+    {
+      "cluster_name": "Galaxy Fold Durability",
+      "content_type": "COMPARISON",
+      "suggested_title": "Galaxy Z Fold 8 vs Fold 7 hinge durability comparison",
+      "hub_keyword": "Galaxy Fold durability",
+      "parent_hub": "Galaxy Foldables",
+      "spoke_keywords": [
+        "galaxy z fold 8 hinge test",
+        "fold 8 vs fold 7 durability",
+        "galaxy z fold hinge issues"
+      ],
+      "evergreen_score": 90,
+      "competition_level": "MEDIUM",
+      "affiliate_potential": "HIGH",
+      "timing": "NOW",
+      "verifiability": "MEDIUM",
+      "trends_queries": [
+        "galaxy z fold 8 durability",
+        "fold 7 vs fold 8 hinge",
+        "galaxy fold 8 bend test"
+      ],
+      "reasoning": "Compares the durability of two released foldable phones, a topic of ongoing interest, with information verifiable from published third-party tests and official design details.",
+      "data_grade": "A",
+      "publish_order": 25,
+      "folder": ""
+    },
+    {
+      "cluster_name": "GTA 6 Performance Analysis",
+      "content_type": "EXPLAINER",
+      "suggested_title": "Why Grand Theft Auto 6 console performance is 30 FPS",
+      "hub_keyword": "GTA 6 performance",
+      "parent_hub": "Gaming Performance",
+      "spoke_keywords": [
+        "gta 6 30 fps explanation",
+        "grand theft auto 6 console frame rate",
+        "gta 6 performance limitations"
+      ],
+      "evergreen_score": 85,
+      "competition_level": "MEDIUM",
+      "affiliate_potential": "LOW",
+      "timing": "NOW",
+      "verifiability": "HIGH",
+      "trends_queries": [
+        "gta 6 30fps why",
+        "gta 6 frame rate console",
+        "gta 6 performance explained"
+      ],
+      "reasoning": "Explains a widely discussed technical decision for a major released game, using official statements and technical analysis from reputable sources.",
+      "data_grade": "A",
+      "publish_order": 27,
+      "folder": "05-gta-6s"
+    },
+    {
+      "cluster_name": "Nvidia DLSS Technology",
+      "content_type": "EXPLAINER",
+      "suggested_title": "What is Nvidia DLSS 5 and how it improves game performance",
+      "hub_keyword": "Nvidia DLSS explainer",
+      "parent_hub": "Gaming Graphics Tech",
+      "spoke_keywords": [
+        "nvidia dlss 5 explained",
+        "how dlss 5 works",
+        "dlss 5 gaming benefits"
+      ],
+      "evergreen_score": 90,
+      "competition_level": "MEDIUM",
+      "affiliate_potential": "HIGH",
+      "timing": "NOW",
+      "verifiability": "HIGH",
+      "trends_queries": [
+        "what is dlss 5",
+        "nvidia dlss 5 features",
+        "dlss 5 performance gain"
+      ],
+      "reasoning": "Explains a core graphics technology with continuous relevance for PC gaming, verifiable through official Nvidia documentation and tech reviews.",
+      "data_grade": "A",
+      "publish_order": 28,
+      "folder": ""
+    },
+    {
+      "cluster_name": "Elden Ring Performance",
+      "content_type": "COMPARISON",
+      "suggested_title": "Elden Ring PC vs Console performance differences explained",
+      "hub_keyword": "Elden Ring performance comparison",
+      "parent_hub": "Gaming Performance",
+      "spoke_keywords": [
+        "elden ring pc performance review",
+        "elden ring console fps comparison",
+        "best platform for elden ring"
+      ],
+      "evergreen_score": 85,
+      "competition_level": "MEDIUM",
+      "affiliate_potential": "HIGH",
+      "timing": "NOW",
+      "verifiability": "MEDIUM",
+      "trends_queries": [
+        "elden ring pc vs ps5",
+        "elden ring xbox series x performance",
+        "elden ring best settings pc"
+      ],
+      "reasoning": "Compares performance across different platforms for a popular, established game, drawing facts from numerous benchmarks and reviews by gaming publications.",
+      "data_grade": "A",
+      "publish_order": 26,
+      "folder": ""
+    }
+  ],
+  "grade_b": [
+    {
+      "cluster_name": "Google Messages Features",
+      "content_type": "GUIDE",
+      "suggested_title": "How to enable custom chat bubbles in Google Messages",
+      "hub_keyword": "Google Messages customization",
+      "parent_hub": "Android Apps",
+      "spoke_keywords": [
+        "google messages custom bubbles",
+        "enable chat bubbles messages app",
+        "android messages customization"
+      ],
+      "evergreen_score": 80,
+      "competition_level": "LOW",
+      "affiliate_potential": "LOW",
+      "timing": "NOW",
+      "verifiability": "HIGH",
+      "trends_queries": [
+        "google messages custom chat",
+        "messages app bubbles",
+        "android messages personalization"
+      ],
+      "reasoning": "Offers a step-by-step guide for a new, user-facing feature in a widely used Android app, verifiable through official announcements and app updates.",
+      "data_grade": "B",
+      "publish_order": 30,
+      "folder": "03-google-maps"
+    }
+  ],
+  "grade_c": [],
+  "auto_selected": 7,
+  "elapsed": 34.0,
+  "timestamp": "2026-09-03T07:34:53.018012+00:00"
+}
