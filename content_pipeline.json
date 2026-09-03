@@ -1,7 +1,7 @@
 {
   "_version": "1.3",
   "_description": "콘텐츠 파이프라인 — 클러스터 단위 관리",
-  "_last_updated": "2026-09-03T07:45:48.754301+00:00",
+  "_last_updated": "2026-09-03T07:47:25.966351+00:00",
   "hub_clusters": {
     "Steam Machine": {
       "hub_keyword": "Steam Machine",
@@ -545,8 +545,12 @@
       "spokes": [
         "Nvidia DLSS Technology"
       ],
-      "spoke_urls": {},
-      "internal_links": []
+      "spoke_urls": {
+        "Nvidia DLSS Technology (EXPLAINER)": "pending"
+      },
+      "internal_links": [
+        "pending"
+      ]
     },
     "Android Apps": {
       "hub_keyword": "Android Apps",
@@ -1539,12 +1543,13 @@
       "notes": ""
     },
     "Nvidia DLSS Technology": {
-      "types_done": [],
+      "types_done": [
+        "EXPLAINER"
+      ],
       "last_week": "2026-W35",
       "suggest_next": [
         "COMPARISON",
         "GUIDE",
-        "EXPLAINER",
         "LISTICLE"
       ],
       "hub_keyword": "Nvidia DLSS explainer",
@@ -4878,8 +4883,9 @@
         "data_grade": "A",
         "verified_keywords": [],
         "publish_order": 28,
-        "status": "candidate",
-        "selected_at": "2026-09-03T07:34:53.011309+00:00"
+        "status": "published",
+        "selected_at": "2026-09-03T07:34:53.011309+00:00",
+        "url": "pending"
       },
       {
         "cluster_name": "Pixel AI Features",
@@ -5295,6 +5301,15 @@
       "week_tag": "2026-W35",
       "published_at": "2026-09-03T07:45:48.754252+00:00",
       "hub_cluster": "Gaming Performance"
+    },
+    {
+      "cluster_name": "Nvidia DLSS Technology",
+      "title": "What is Nvidia DLSS 5 and how it improves game performance",
+      "url": "pending",
+      "content_type": "EXPLAINER",
+      "week_tag": "2026-W35",
+      "published_at": "2026-09-03T07:47:25.966301+00:00",
+      "hub_cluster": "Gaming Graphics Tech"
     }
   ]
 }
