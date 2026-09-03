@@ -1,7 +1,7 @@
 {
   "_version": "1.3",
   "_description": "콘텐츠 파이프라인 — 클러스터 단위 관리",
-  "_last_updated": "2026-09-03T07:48:48.479833+00:00",
+  "_last_updated": "2026-09-03T07:50:15.131338+00:00",
   "hub_clusters": {
     "Steam Machine": {
       "hub_keyword": "Steam Machine",
@@ -564,8 +564,12 @@
       "spokes": [
         "Google Messages Features"
       ],
-      "spoke_urls": {},
-      "internal_links": []
+      "spoke_urls": {
+        "Google Messages Features (GUIDE)": "pending"
+      },
+      "internal_links": [
+        "pending"
+      ]
     }
   },
   "covered_clusters": {
@@ -1593,11 +1597,12 @@
       "notes": ""
     },
     "Google Messages Features": {
-      "types_done": [],
+      "types_done": [
+        "GUIDE"
+      ],
       "last_week": "2026-W35",
       "suggest_next": [
         "COMPARISON",
-        "GUIDE",
         "EXPLAINER",
         "LISTICLE"
       ],
@@ -4942,8 +4947,9 @@
         "data_grade": "B",
         "verified_keywords": [],
         "publish_order": 30,
-        "status": "candidate",
-        "selected_at": "2026-09-03T07:34:53.011309+00:00"
+        "status": "published",
+        "selected_at": "2026-09-03T07:34:53.011309+00:00",
+        "url": "pending"
       }
     ]
   },
@@ -5325,6 +5331,15 @@
       "week_tag": "2026-W35",
       "published_at": "2026-09-03T07:48:48.479780+00:00",
       "hub_cluster": "Pixel Phones"
+    },
+    {
+      "cluster_name": "Google Messages Features",
+      "title": "How to enable custom chat bubbles in Google Messages",
+      "url": "pending",
+      "content_type": "GUIDE",
+      "week_tag": "2026-W35",
+      "published_at": "2026-09-03T07:50:15.131287+00:00",
+      "hub_cluster": "Android Apps"
     }
   ]
 }
