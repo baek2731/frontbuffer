@@ -1,0 +1,64 @@
+① 판정 요약 (한국어, 간결하게):
+1.  **주장**: "How to enable custom chat bubbles in Google Messages" (제목) → **판정(❌)** → **수정 내용**: 초안 작성 시점에는 해당 기능이 명확히 존재하지 않거나 사용자에게 널리 알려지지 않아 '사용자들의 바람'으로 서술되었으나, 2026년 8월 말/9월 초 Google Messages에 '채팅 테마' 기능이 공식 출시되어 개별 채팅의 버블 색상과 배경화면을 사용자 지정할 수 있게 되었습니다. 따라서 제목은 유지하되, 본문 내용은 기능의 존재와 사용법을 설명하는 방향으로 전면 수정됩니다.
+2.  **주장**: 초안의 전반적인 내용이 Google Messages의 맞춤 설정 기능이 부족하다는 사용자 불만에 초점을 맞춤. → **판정(⚠️)** → **수정 내용**: '채팅 테마' 기능 출시로 버블 색상 및 배경화면 맞춤 설정이 가능해졌으므로, 기존 사용자 불만은 과거의 상황으로 언급하고, 현재는 기능이 개선되었음을 강조합니다. 다만, 테마 변경이 사용자 본인에게만 보인다는 점 등 여전히 일부 제한 사항은 존재합니다.
+3.  **주장**: "공식 발표", "출시됨" 등의 주장이 없음. → **판정(❌)** → **수정 내용**: Google은 2026년 8월 말/9월 초에 '채팅 테마' 기능을 공식 발표하고 출시했습니다. 이 사실을 명확히 반영하여 글의 서론과 주요 내용에 포함합니다.
+4.  **주장**: 초안의 외부 URL (YouTube 댓글)은 사용자 의견을 나타내는 데 사용되었으나, 기능의 공식적인 존재 여부나 사용법을 확인하는 데는 부적절함. → **판정(⚠️)** → **수정 내용**: YouTube 댓글은 사용자 불만 및 요구 사항을 뒷받침하는 자료로 유지하되, 기능의 공식적인 설명 및 사용법은 TechRadar, 9to5Google, Android Authority 등 신뢰할 수 있는 기술 매체 및 Google Messages 공식 지원 페이지의 URL을 인용하여 보강합니다.
+5.  **주장**: 메시지 정리 및 카테고리화, 앱 아이콘 일치, 사진 메시지에 이모지 반응, "전송됨/읽음" 라벨 등 특정 기능 요청 사항 언급. → **판정(⚠️)** → **수정 내용**:
+    *   **메시지 정리/카테고리화**: Google Keep 통합을 통한 공유 체크리스트 기능이 2026년 9월에 출시되었으며, 기존에 '읽지 않음', '알려진/알 수 없는 발신자' 등의 필터 기능이 존재합니다.
+    *   **앱 아이콘 일치**: Google Messages 앱 자체에서 아이콘을 직접 사용자 지정하는 기능은 여전히 제한적이며, 주로 서드파티 런처를 통해 가능합니다.
+    *   **사진 메시지에 이모지 반응**: 이 기능은 이미 존재하며, 2025년 초부터 관련 업데이트 및 개선이 있었습니다.
+    *   **"전송됨/읽음" 라벨**: Google Messages는 2023년경부터 텍스트 라벨 대신 체크마크 아이콘을 사용하여 메시지 상태를 표시합니다. 따라서 사용자 요청은 현재 앱의 디자인과 다릅니다.
+6.  **보일러플레이트 서론**: "In the realm of digital communication..." → **판정(❌)** → **수정 내용**: 2026년 8월 말/9월 초에 Google Messages에 '채팅 테마' 기능이 공식 출시되었다는 구체적인 사실로 시작합니다.
+7.  **보일러플레이트 결론**: "The ongoing conversation around Google Messages customization highlights a clear user appetite..." → **판정(❌)** → **수정 내용**: 본문에서 언급된 구체적인 기능(채팅 테마, Google Keep 통합 등)을 참조하여 독자가 새로운 맞춤 설정 기능을 탐색하도록 유도하고, Google의 지속적인 개선 노력을 언급하는 방향으로 교체합니다.
+
+---
+
+② 최종본:
+```markdown
+# How to enable custom chat bubbles in Google Messages
+
+Google Messages has recently introduced a significant update, officially rolling out "Chat themes" that allow users to personalize their messaging experience with custom chat bubble colors and backgrounds. This highly anticipated feature, which began its wider availability in late August and early September 2026, marks a notable evolution in Android messaging customization. For years, users have sought more control over the visual elements of their chat interfaces, and Google's latest enhancement directly addresses this demand, transforming individual conversations into uniquely styled environments.
+
+### The Evolution of Personalization in Google Messages
+
+For a considerable period, Google Messages users expressed a strong desire for deeper personalization options, often extending beyond basic functionalities. Community feedback frequently highlighted a longing for more control over visual elements, including chat bubbles, app icons, and overall themes. For instance, some users voiced frustration when their Google Messages icon did not automatically match their device's theme, indicating a demand for cohesive aesthetic integration. This sentiment underscored a broader desire for an app that seamlessly adapts to personal visual choices, making the messaging experience feel truly their own.
+
+Prior to the recent "Chat themes" rollout, Google Messages offered a more limited "Change colors" feature, introduced around 2024, which allowed for some chat color adjustments. However, this older option was often perceived as less comprehensive and, in some cases, applied changes to all participants in a conversation, which was not always desired. The introduction of "Chat themes" represents a substantial upgrade, replacing the previous, more basic color customization with a robust system for individual chat personalization.
+
+### Enabling Custom Chat Bubbles and Themes: A Step-by-Step Guide
+
+The process of customizing chat bubbles and backgrounds in Google Messages is straightforward, provided your app is updated to the latest version and RCS (Rich Communication Services) chats are enabled. It's important to note that these customization changes are currently visible only to you on your device, not to the recipient.
+
+To personalize your chat experience:
+1.  **Update Google Messages:** Ensure your Google Messages app is updated to the latest version. You can check for updates in the Google Play Store by tapping your profile icon, selecting "Manage apps & device," and then "Updates available."
+2.  **Enable RCS Chats:** Chat themes operate exclusively over RCS. To verify this, open Google Messages, tap your profile icon (or the three-dot menu in the top right), go to "Messages settings," tap "RCS chats," and ensure "Turn on RCS chats" is enabled.
+3.  **Open a Conversation:** Launch the Google Messages app and select the individual or group conversation you wish to customize.
+4.  **Access Chat Theme Settings:** Tap the recipient or group name in the top bar, or tap the three-dot menu (⋮) in the top right corner of the chat screen.
+5.  **Select "Chat theme":** From the dropdown menu, tap "Chat theme." This will open the customization screen.
+6.  **Choose Colors and Wallpaper:**
+    *   **Chat Colors:** You can select a color theme from a palette, which will change the accent color of your message bubbles and other UI elements within that chat.
+    *   **Wallpapers:** Choose from Google's curated categories (such as Animals, Architecture, Landscapes, Space) or tap "Choose a photo" to upload an image from your device's gallery to set as the chat background.
+7.  **Preview and Apply:** After selecting your desired color and wallpaper, you can preview how it looks. Once satisfied, tap "Apply" to save your changes.
+
+To revert a chat back to its default theme, simply return to the "Chat theme" menu and select "Reset to default."
+
+### Beyond Bubbles: Other Customization and Personalization Features
+
+While custom chat bubbles and backgrounds are a significant addition, Google Messages offers several other features that enhance the user experience:
+
+*   **Message Organization and Categorization:** Addressing user requests for better organization, Google Messages has introduced shared checklists powered by Google Keep, allowing collaborative note-taking directly within chats. This feature, part of the September Android Drop, can be accessed via the "+" icon in the message box. Additionally, users can filter their messages by categories such as "Unread," "Known and Unknown" senders, "Starred," "SIM 1 and SIM 2" (for dual SIM devices), "Images," and "Videos" to manage their inbox more efficiently.
+*   **Emoji Reactions to Picture Messages:** Users can react to picture messages with emojis, a feature that has been available and seen updates since early 2025. While some users reported temporary conflicts with AI features, the functionality to react to media attachments is present. The app also supports "Photomoji," allowing users to create custom emoji reactions from their photos.
+*   **Read Receipts and Delivery Indicators:** Google Messages utilizes distinct checkmark icons to indicate message status for RCS chats. A single hollow checkmark signifies the message has been sent, two hollow checkmarks mean it has been delivered, and two filled-in checkmarks indicate the message has been read by the recipient. This system replaced earlier text-based "delivered" and "read" labels, a change that some users have noted.
+*   **App Icon Customization:** While Google Messages itself does not offer direct in-app customization for its icon to match device themes, users seeking this level of personalization can often achieve it through third-party Android launchers like Nova or Microsoft Launcher.
+
+### User Expectations Versus Current Customization Options Revisited
+
+The recent rollout of "Chat themes" significantly bridges the gap between user aspirations for extensive customization and the reality of available options in Google Messages. While users previously lamented a perceived lack of personalization features, with some expressing strong dissatisfaction, the ability to customize chat bubble colors and backgrounds for individual conversations is a major step forward.
+
+However, the fact that these chat theme changes are only visible to the sender remains a point of distinction from some competing messaging platforms where themes can be shared. This aspect, along with the continued reliance on third-party solutions for app icon customization, suggests that while Google Messages has made substantial progress, there are still areas where user expectations for shared and comprehensive aesthetic control could evolve further.
+
+### Conclusion
+
+The introduction of custom chat bubbles and backgrounds through the "Chat themes" feature marks a pivotal moment for personalization in Google Messages. This update, alongside enhancements like Google Keep integration for message organization and robust emoji reactions, demonstrates Google's commitment to evolving its messaging platform. We encourage users to explore these new customization options to tailor their conversations to their individual style. As Google Messages continues to receive updates, we anticipate further refinements that will empower users to create an even more personalized and engaging communication experience.
+
+```
