@@ -5,6 +5,9 @@ date: 2026-09-04 14:30:00 +0000
 categories: [tech]
 tags: ["comparison", "galaxy", "fold"]
 excerpt: 'On August 7, 2026, Samsung officially released the Galaxy Z Fold 8 and Galaxy Z Flip 8, continuing its push to define the future of mobile…'
+header:
+  image: https://images.frontbuffer.net/posts/galaxy-z-fold-8-vs-galaxy-z-flip-8-which-foldable-phone-is-b/og.png
+  overlay_filter: 0
 author_profile: false
 read_time: true
 share: true
