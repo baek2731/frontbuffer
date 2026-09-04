@@ -5,6 +5,9 @@ date: 2026-09-03 14:45:00 +0000
 categories: [tech]
 tags: ["comparison", "pixel", "pro"]
 excerpt: 'Google''s latest innovations in the smartphone market have culminated in the recent launch of the Pixel 11 series, including the highly anticipated…'
+header:
+  image: https://images.frontbuffer.net/posts/pixel-11-pro-fold-vs-pixel-11-pro-camera-and-display-feature/og.png
+  overlay_filter: 0
 author_profile: false
 read_time: true
 share: true
