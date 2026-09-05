@@ -1,7 +1,7 @@
 {
   "_version": "1.3",
   "_description": "콘텐츠 파이프라인 — 클러스터 단위 관리",
-  "_last_updated": "2026-09-03T07:50:15.131338+00:00",
+  "_last_updated": "2026-09-05T16:36:05.587920+00:00",
   "hub_clusters": {
     "Steam Machine": {
       "hub_keyword": "Steam Machine",
@@ -502,11 +502,11 @@
       ],
       "spoke_urls": {
         "Nintendo Switch 2 Hardware (EXPLAINER)": "https://frontbuffer.net/gaming/rumored-nintendo-switch-successor-exploring-potential-micros/",
-        "Nintendo Switch 2 Hardware (GUIDE)": "pending"
+        "Nintendo Switch 2 Hardware (GUIDE)": "https://frontbuffer.net/gaming/how-to-set-up-and-expand-storage-on-nintendo-switch-2-with-m/"
       },
       "internal_links": [
         "https://frontbuffer.net/gaming/rumored-nintendo-switch-successor-exploring-potential-micros/",
-        "pending"
+        "https://frontbuffer.net/gaming/how-to-set-up-and-expand-storage-on-nintendo-switch-2-with-m/"
       ]
     },
     "Pixel Phones": {
@@ -5340,6 +5340,15 @@
       "week_tag": "2026-W35",
       "published_at": "2026-09-03T07:50:15.131287+00:00",
       "hub_cluster": "Android Apps"
+    },
+    {
+      "cluster_name": "Nintendo Switch 2 Hardware",
+      "title": "How to Set Up and Expand Storage on Nintendo Switch 2 with microSD Express",
+      "url": "https://frontbuffer.net/gaming/how-to-set-up-and-expand-storage-on-nintendo-switch-2-with-m/",
+      "content_type": "GUIDE",
+      "week_tag": "2026-W35",
+      "published_at": "2026-09-05T16:36:05.587827+00:00",
+      "hub_cluster": "Nintendo Switch 2"
     }
   ]
 }
