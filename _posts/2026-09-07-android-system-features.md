@@ -1,13 +1,25 @@
 ---
 layout: single
+title: 'Android System Features'
+date: 2026-09-07 14:10:00 +0000
+categories: [tech]
+tags: ["explainer", "android", "system", "features"]
+excerpt: 'layout: single'
+author_profile: false
+read_time: true
+share: true
+---
+
+---
+layout: single
 title: 'Google Messages Long-Press Menu Redesign: What Changed and How to Use It'
 date: 2026-08-27 14:00:00 +0000
 categories: [tech]
 tags: ["explainer", "android", "system", "features"]
 excerpt: 'Google Messages replaced its top toolbar with a floating long-press menu in its August 2026 beta rollout. The change adds precise text copying and one-handed access to Reply and Edit.'
 header:
-  image: https://images.frontbuffer.net/posts/android-system-features_explainer/og.png
-  overlay_filter: 0
+ image: https://images.frontbuffer.net/posts/android-system-features_explainer/og.png
+ overlay_filter: 0
 author_profile: false
 read_time: true
 share: true
