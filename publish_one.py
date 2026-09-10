@@ -526,6 +526,13 @@ Return ONLY the meta description text. No quotes. No explanation."""
         f"---\n\n"
     )
 
+    # ── 기존 front matter 제거 (--- ~ --- 블록) ──────────────────────
+    if content.lstrip().startswith('---'):
+        # 첫 번째 --- 닫힘 이후부터 사용
+        fm_end = content.find('---', content.find('---') + 3)
+        if fm_end != -1:
+            content = content[fm_end + 3:].lstrip()
+
     # ── H1 + 소스 헤더 제거 ────────────────────────────────────────
     body = re.sub(r'^# .+\n', '', content, count=1, flags=re.MULTILINE)
     body = re.sub(r'^\[SOURCES USED:.*\]\n?', '', body, flags=re.MULTILINE)
