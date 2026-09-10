@@ -1,29 +1,84 @@
-① 판정 요약 (한국어, 간결하게):
-*   **주장:** "With the Pixel 11 and Pixel 11 Pro now available" → **판정(❌)** → **수정 내용:** Pixel 11 및 Pixel 11 Pro는 2026년 8월 12일에 공식 발표되었고 2026년 8월 20일부터 구매 가능하므로, "now available"은 정확한 표현으로 유지하되, 출시 날짜를 명시하여 구체화. [근거 URL: 1, 9, 13, 18, 19, 27]
-*   **주장:** "[NEEDS VERIFICATION] detailed technical specifications outlining the specific camera features and performance differences between the Pixel 11 and Pixel 11 Pro are not extensively covered in all early discussions." → **판정(❌)** → **수정 내용:** Pixel 11 및 Pixel 11 Pro의 구체적인 카메라 사양 및 기능 차이점(메인/초광각/망원/전면 카메라 MP, 센서 크기, 줌 배율, 독점 소프트웨어 기능 등)을 검색 결과에서 확인된 내용으로 상세하게 채워넣음. [근거 URL: 8, 9, 10, 11, 12, 20, 24, 30, 31]
-*   **주장:** "[NEEDS VERIFICATION] the precise implementation and any exclusive enhancements for the Pixel 11 Pro over the base Pixel 11 remain a key area of inquiry for consumers." → **판정(❌)** → **수정 내용:** Pixel 11 Pro의 독점 소프트웨어 기능(Pro controls, Camera Coach, Instant Night Sight, High-Res Portrait Mode, 8K video with Video Boost, Zoom Enhance)을 명시하여 수정. [근거 URL: 8]
-*   **주장:** "The Pixel 11's camera bump has been described as 'significantly sized down' compared to previous iterations [Source: https://www.youtube.com/watch?v=m1PMTAEeywI]." 및 "the camera bumps on the Pixel 11 series are symmetric [Source: https://www.youtube.com/watch?v=m1PMTAEeywI]." → **판정(⚠️)** → **수정 내용:** Pixel 11의 카메라 범프는 40% 더 얇아졌으나, Pixel 11 Pro 및 Pro XL의 범프는 이전 세대와 유사하게 더 많이 돌출되어 있다는 점을 명확히 구분하여 수정. "대칭" 주장은 전체 시리즈가 아닌 카메라 바 디자인 자체에 대한 언급으로 해석하여 반영. [근거 URL: 1, 18, 20, 34]
-*   **주장:** "[NEEDS VERIFICATION] These algorithms leverage machine learning and artificial intelligence to enhance images... delivering consistent, high-quality results across various lighting conditions." → **판정(✅)** → **수정 내용:** Google Tensor G6 칩과 Gemini Intelligence 통합을 언급하며 팩트 보강. [근거 URL: 6, 9, 10, 22, 27, 32, 33]
-*   **주장:** "[NEEDS VERIFICATION] Features such as HDR+ for dynamic range, astrophotography mode for capturing stunning night skies, and advanced video stabilization have become hallmarks of the Pixel camera experience." → **판정(✅)** → **수정 내용:** Pixel 11 Pro의 8K Video with Video Boost 기능을 추가하여 팩트 보강. [근거 URL: 8, 9]
-*   **주장:** "[NEEDS VERIFICATION] It is anticipated that both the Pixel 11 and Pixel 11 Pro will continue this tradition, offering robust imaging capabilities driven by Google's proprietary Tensor processing units." → **판정(✅)** → **수정 내용:** 두 모델 모두 Google Tensor G6 칩으로 구동됨을 명시하여 팩트 보강. [근거 URL: 6, 9, 10, 22]
-*   **주장:** "[NEEDS VERIFICATION] However, without specific details, it is difficult to ascertain if the Pro model introduces additional lenses, larger sensors, or exclusive software features that provide a distinct advantage over the base Pixel 11..." → **판정(❌)** → **수정 내용:** Pixel 11 Pro의 카메라 하드웨어(더 큰 메인 센서, 더 진보된 망원/초광각 렌즈, 고해상도 전면 카메라) 및 소프트웨어 차이점을 구체적으로 명시하여 수정. [근거 URL: 8, 9, 10, 11, 12, 24, 30, 31]
-*   **주장:** "[NEEDS VERIFICATION] Typical 'Pro' model enhancements often include a telephoto lens, a wider ultrawide lens, or improved low-light performance through larger sensors, but these specifics for the Pixel 11 series require further verification." → **판정(❌)** → **수정 내용:** Pixel 11 Pro의 실제 하드웨어 및 소프트웨어 이점을 구체적으로 명시하여 수정. [근거 URL: 8, 9, 10, 11, 12, 24, 30, 31]
-*   **주장:** "[NEEDS VERIFICATION] For those prioritizing a balance of features and affordability, the base Pixel 11 often presents an attractive option, especially if its camera system delivers similar core computational photography strengths." → **판정(✅)** → **수정 내용:** Pixel 11의 가격($899) 및 "Pro-level experience" 성능을 언급하며 팩트 보강. [근거 URL: 1, 9, 10, 13, 16, 20, 22]
-*   **주장:** "[NEEDS VERIFICATION] On the other hand, the Pixel 11 Pro is typically aimed at power users or photography enthusiasts who might benefit from any additional camera hardware, such as a dedicated telephoto lens or more advanced sensors, that could differentiate it from the base model." → **판정(✅)** → **수정 내용:** Pixel 11 Pro의 가격($1,099)과 함께 카메라 하드웨어 및 소프트웨어의 구체적인 이점을 언급하며 팩트 보강. [근거 URL: 1, 8, 9, 10, 11, 12, 24, 30, 31]
-*   **주장:** "[NEEDS VERIFICATION] Other non-camera related factors like screen size, RAM, and storage capacity also play a role in the decision-making process, as evidenced by user experiences with previous Pixel models." → **판정(✅)** → **수정 내용:** Pixel 11 및 Pixel 11 Pro의 디스플레이 크기, RAM, 저장 용량 등 비-카메라 관련 사양을 구체적으로 명시하여 팩트 보강. [근거 URL: 6, 8, 10, 22, 30]
-*   **보일러플레이트:** 서론 오프너 "The launch of a new Pixel phone series always ignites considerable interest"는 구체적인 상황을 언급하므로 허용.
-*   **
 ---
-Google officially unveiled the Pixel 11 and Pixel 11 Pro on August 12, 2026, with availability starting August 20, 2026. This launch has immediately focused consumer attention on the camera advancements and nuanced differences between these new models. We will examine the hardware specifications, computational photography strengths, and exclusive enhancements that distinguish the Pixel 11 Pro's imaging capabilities from the base Pixel 11.
+layout: single
+title: 'Pixel 11 vs Pixel 11 Pro: Camera Differences That Actually Matter'
+date: 2026-09-03 14:00:00 +0000
+categories: [tech]
+tags: ["comparison", "pixel", "pro"]
+excerpt: 'The Pixel 11 Pro (released August 20, 2026) adds a larger sensor, 120x zoom, 8K video via Video Boost, and a 42MP front camera over the base Pixel 11. Here is what that means in practice.'
+header:
+  image: https://images.frontbuffer.net/posts/04-pixel-pro_comparison/og.png
+  overlay_filter: 0
+author_profile: false
+read_time: true
+share: true
+---
 
-The Pixel 11 series continues Google's tradition of pushing the boundaries of mobile photography through a blend of sophisticated hardware and cutting-edge computational algorithms. The Pixel 11 features a significantly sized down camera bump compared to previous iterations, being 40% thinner. In contrast, the Pixel 11 Pro and Pro XL maintain a more pronounced camera bump, similar to prior generations, while the overall camera bar design is symmetric across the series. Both models are powered by the Google Tensor G6 chip, which integrates Gemini Intelligence to enhance image processing. These algorithms leverage machine learning and artificial intelligence to enhance images, optimizing for details, color accuracy, and dynamic range, delivering consistent, high-quality results across various lighting conditions.
+Google announced the Pixel 11 and Pixel 11 Pro on August 12, 2026, with both available from August 20. The Pixel 11 starts at $899, the Pixel 11 Pro at $1,099. Both run Tensor G6 and Android 17 with seven years of OS updates guaranteed.
 
-Features such as HDR+ for dynamic range, astrophotography mode for capturing stunning night skies, and advanced video stabilization have become hallmarks of the Pixel camera experience. The Pixel 11 Pro further elevates this with 8K video recording capabilities, enhanced by Video Boost. Both the Pixel 11 and Pixel 11 Pro continue this tradition, offering robust imaging capabilities driven by Google's proprietary Tensor G6 processing units.
+The camera system is where the $200 gap shows up most clearly.
 
-However, the Pixel 11 Pro introduces several distinct advantages over the base Pixel 11. The Pro model boasts a larger main sensor, more advanced telephoto and ultrawide lenses, and a higher-resolution front camera. Specifically, the Pixel 11 Pro includes exclusive software features such as Pro controls, Camera Coach, Instant Night Sight, High-Res Portrait Mode, 8K video with Video Boost, and Zoom Enhance, which are not available on the standard Pixel 11. These enhancements provide a distinct advantage for users seeking professional-grade photography and videography.
+---
 
-For those prioritizing a balance of features and affordability, the base Pixel 11, priced at $899, often presents an attractive option, especially as its camera system delivers a "Pro-level experience" for many core computational photography strengths. It features a 6.3-inch OLED display with 120Hz refresh rate, 8GB of RAM, and storage options up to 256GB.
+## Camera Hardware: Side by Side
 
-On the other hand, the Pixel 11 Pro, starting at $1,099, is typically aimed at power users or photography enthusiasts who benefit from its additional camera hardware and software. The Pro model includes a 6.7-inch LTPO OLED display with a 1-120Hz adaptive refresh rate, 12GB of RAM, and storage up to 512GB. Its larger main sensor, more advanced telephoto lens (with enhanced optical zoom), and wider ultrawide lens, coupled with exclusive software features, provide superior low-light performance and greater versatility for diverse shooting scenarios.
+| | Pixel 11 | Pixel 11 Pro |
+|---|---|---|
+| Main sensor | 48MP, 1/1.56", f/1.7 | 50MP, larger sensor, f/1.7 |
+| Ultrawide | 13MP | 50MP, autofocus |
+| Telephoto | 10.8MP, 5x optical | 50MP, 5x optical |
+| Max zoom | 30x digital | 120x digital |
+| Front camera | 10.5MP | 42MP |
+| Video | 4K@60fps | 8K via Video Boost |
+| Pro Controls | No | Yes |
+| Night Sight Video | No | Yes |
+| High-res capture | No | 50MP |
 
-While both the Pixel 11 and Pixel 11 Pro leverage Google's computational photography prowess, the Pro model's distinct advantages, such as its larger main sensor, advanced telephoto and ultrawide lenses, and exclusive Pro controls, significantly enhance its capabilities. For users who demand the highest fidelity in their mobile videography, opting for the Pixel 11 Pro is essential to unlock the full potential of its 8K video recording with Video Boost, a feature specifically designed to elevate cinematic capture beyond the standard model.
+---
+
+## Main Camera: Closer Than the Specs Look
+
+Both phones use a 48/50MP main sensor with f/1.7 aperture. The Pixel 11's main sensor is a 1/1.56-inch chip — a significant jump from the Pixel 10's 1/2-inch sensor, which Google noted as a weak point. Google claims 56% better light sensitivity over previous base models.
+
+The Pro's main sensor is larger, which gives it an edge in low-light situations where sensor size matters. In daylight, the difference between the two main cameras is narrow. Computational photography — where Tensor G6 does heavy lifting — closes much of the gap regardless of sensor size.
+
+**Camera bar design note:** The Pixel 11's camera bar is thinner and protrudes less than previous generations. The Pixel 11 Pro's bar still protrudes more — something to check when buying third-party cases.
+
+---
+
+## Ultrawide: A Real Difference
+
+The base Pixel 11's 13MP ultrawide is carried over from the Pixel 10. The Pro's 50MP ultrawide adds autofocus, which matters for close-up shots where the standard ultrawide produces blur. If you use ultrawide for anything other than landscapes, this is a meaningful difference.
+
+---
+
+## Telephoto and Zoom
+
+Both phones have a 5x optical telephoto. The difference is in digital zoom range: 30x on the Pixel 11, 120x on the Pro. At 120x the image is heavily processed, but for subjects at distance where you can't get closer, the Pro's zoom ceiling is useful.
+
+---
+
+## Video: Where the Pro Separates
+
+The Pixel 11 captures 4K at 60fps. The Pixel 11 Pro adds Video Boost — Google's server-side HDR video processing that enables 8K capture. Video Boost requires a Google AI Pro subscription for higher usage tiers.
+
+Night Sight Video (low-light video mode) is Pro-only. For anyone who shoots video in dim environments, this is the single most practical exclusive feature.
+
+---
+
+## Front Camera
+
+42MP vs 10.5MP is a large gap. The Pro's front camera produces significantly more detail — visible in portrait shots and video calls. If selfie quality matters to you, this alone may justify the Pro.
+
+---
+
+## Who Should Buy Which
+
+**Pixel 11** — You shoot primarily in daylight, don't use ultrawide for macro, cap out at 4K video, and selfie quality isn't a priority. The main camera improvement over Pixel 10 is real.
+
+**Pixel 11 Pro** — You shoot in low light, use ultrawide frequently, want Night Sight Video, or care about front camera quality. The 8K Video Boost is a bonus if you're already invested in Google's ecosystem.
+
+---
+Sources:
+- [Android Authority — Pixel 11 series review](https://www.androidauthority.com/google-pixel-11-series-3693865/)
+- [9to5Google — Pixel 11 vs Pixel 11 Pro](https://9to5google.com/2026/08/28/pixel-11-vs-pixel-11-pro-more-similar-than-ever-before-video/)
+- [Google — Pixel 11 Pro official](https://blog.google/products-and-platforms/devices/pixel/google-pixel-11-pro-xl/)
