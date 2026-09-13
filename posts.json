@@ -936,6 +936,23 @@
       "hub_cluster": "",
       "verified_keywords": [],
       "slug": "2026-09-10-04-pixel-pro"
+    },
+    {
+      "status": "live",
+      "date": "2026-09-13",
+      "title": "Galaxy Z Fold 8 vs Fold 7 hinge durability comparison",
+      "live_url": "https://frontbuffer.net/tech/galaxy-z-fold-8-vs-fold-7-hinge-durability-comparison/",
+      "categories": [
+        "tech"
+      ],
+      "content_type": "COMPARISON",
+      "hub_cluster": "Galaxy Fold Durability",
+      "verified_keywords": [
+        "Galaxy Fold durability",
+        "galaxy z fold 8 hinge test",
+        "fold 8 vs fold 7 durability"
+      ],
+      "slug": "2026-09-13-galaxy-z-fold-8-vs-fold-7-hinge-durability-comparison"
     }
   ],
   "_last_updated": "2026-08-07T14:54:21.320932+00:00"
