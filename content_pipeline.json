@@ -5243,33 +5243,6 @@
       "hub_cluster": "Android Features"
     },
     {
-      "cluster_name": "Android 16 Desktop Mode Setup",
-      "title": "Android 16 Desktop Mode Setup",
-      "url": "https://frontbuffer.net/tech/android-16-desktop-mode-setup/",
-      "content_type": "GUIDE",
-      "week_tag": "2026-W34",
-      "published_at": "2026-08-26T14:46:01.217386+00:00",
-      "hub_cluster": ""
-    },
-    {
-      "cluster_name": "Android Desktop Mode vs Samsung DeX",
-      "title": "Android Desktop Mode vs Samsung DeX: A Comprehensive Comparison",
-      "url": "https://frontbuffer.net/tech/android-desktop-mode-vs-samsung-dex-a-comprehensive-comparis/",
-      "content_type": "COMPARISON",
-      "week_tag": "2026-W34",
-      "published_at": "2026-08-27T23:38:54.242150+00:00",
-      "hub_cluster": ""
-    },
-    {
-      "cluster_name": "Samsung Galaxy Hardware",
-      "title": "Samsung Galaxy Z Fold 8 Ultra vs Galaxy S26 Ultra: Camera Specs and Features Compared",
-      "url": "https://frontbuffer.net/tech/samsung-galaxy-z-fold-8-ultra-vs-galaxy-s26-ultra-camera-spe/",
-      "content_type": "COMPARISON",
-      "week_tag": "2026-W34",
-      "published_at": "2026-08-30T17:58:09.640614+00:00",
-      "hub_cluster": "Samsung Galaxy Phones"
-    },
-    {
       "cluster_name": "Nintendo Switch 2 Hardware",
       "title": "Rumored Nintendo Switch Successor: Exploring Potential MicroSD Express Compatibility",
       "url": "https://frontbuffer.net/gaming/rumored-nintendo-switch-successor-exploring-potential-micros/",
@@ -5277,96 +5250,6 @@
       "week_tag": "2026-W35",
       "published_at": "2026-08-31T19:51:38.778494+00:00",
       "hub_cluster": "Nintendo Switch 2"
-    },
-    {
-      "cluster_name": "Samsung Galaxy Hardware",
-      "title": "How to Backup Samsung Health Data Before Switching Phones or Factory Reset",
-      "url": "https://frontbuffer.net/tech/how-to-backup-samsung-health-data-before-switching-phones-or/",
-      "content_type": "GUIDE",
-      "week_tag": "2026-W35",
-      "published_at": "2026-09-02T17:40:56.995376+00:00",
-      "hub_cluster": "Samsung Galaxy Phones"
-    },
-    {
-      "cluster_name": "Pixel 11 Android Features",
-      "title": "Pixel 11 Pro Fold vs Pixel 11 Pro: Camera and Display Features Comparison",
-      "url": "pending",
-      "content_type": "COMPARISON",
-      "week_tag": "2026-W35",
-      "published_at": "2026-09-03T07:39:35.246551+00:00",
-      "hub_cluster": "Pixel 11 Android"
-    },
-    {
-      "cluster_name": "Galaxy Fold Durability",
-      "title": "Galaxy Z Fold 8 vs Fold 7 hinge durability comparison",
-      "url": "pending",
-      "content_type": "COMPARISON",
-      "week_tag": "2026-W35",
-      "published_at": "2026-09-03T07:43:00.006910+00:00",
-      "hub_cluster": "Galaxy Foldables"
-    },
-    {
-      "cluster_name": "GTA 6 Performance Analysis",
-      "title": "Why Grand Theft Auto 6 console performance is 30 FPS",
-      "url": "pending",
-      "content_type": "EXPLAINER",
-      "week_tag": "2026-W35",
-      "published_at": "2026-09-03T07:45:48.754252+00:00",
-      "hub_cluster": "Gaming Performance"
-    },
-    {
-      "cluster_name": "Nvidia DLSS Technology",
-      "title": "What is Nvidia DLSS 5 and how it improves game performance",
-      "url": "pending",
-      "content_type": "EXPLAINER",
-      "week_tag": "2026-W35",
-      "published_at": "2026-09-03T07:47:25.966301+00:00",
-      "hub_cluster": "Gaming Graphics Tech"
-    },
-    {
-      "cluster_name": "Pixel AI Features",
-      "title": "Gemini's 'Device Help' Feature: Conversational Control for Pixel System Settings on Android 17",
-      "url": "pending",
-      "content_type": "GUIDE",
-      "week_tag": "2026-W35",
-      "published_at": "2026-09-03T07:48:48.479780+00:00",
-      "hub_cluster": "Pixel Phones"
-    },
-    {
-      "cluster_name": "Google Messages Features",
-      "title": "How to enable custom chat bubbles in Google Messages",
-      "url": "pending",
-      "content_type": "GUIDE",
-      "week_tag": "2026-W35",
-      "published_at": "2026-09-03T07:50:15.131287+00:00",
-      "hub_cluster": "Android Apps"
-    },
-    {
-      "cluster_name": "Nintendo Switch 2 Hardware",
-      "title": "How to Set Up and Expand Storage on Nintendo Switch 2 with microSD Express",
-      "url": "https://frontbuffer.net/gaming/how-to-set-up-and-expand-storage-on-nintendo-switch-2-with-m/",
-      "content_type": "GUIDE",
-      "week_tag": "2026-W35",
-      "published_at": "2026-09-05T16:36:05.587827+00:00",
-      "hub_cluster": "Nintendo Switch 2"
-    },
-    {
-      "cluster_name": "PC Gaming Hardware Guides",
-      "title": "How to Choose the Best RTX 50 Series GPU for 1440p Gaming",
-      "url": "https://frontbuffer.net/gaming/how-to-choose-the-best-rtx-50-series-gpu-for-1440p-gaming/",
-      "content_type": "GUIDE",
-      "week_tag": "2026-W35",
-      "published_at": "2026-09-06T16:44:45.255300+00:00",
-      "hub_cluster": "PC Gaming Hardware"
-    },
-    {
-      "cluster_name": "Android System Features",
-      "title": "Android System Features",
-      "url": "https://frontbuffer.net/tech/android-system-features/",
-      "content_type": "EXPLAINER",
-      "week_tag": "2026-W36",
-      "published_at": "2026-09-07T18:38:06.580161+00:00",
-      "hub_cluster": "Android Features"
     }
   ]
 }
