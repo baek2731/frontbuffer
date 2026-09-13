@@ -5,6 +5,9 @@ date: 2026-09-13 14:55:00 +0000
 categories: [tech]
 tags: ["comparison", "galaxy", "fold", "durability"]
 excerpt: 'The Galaxy Z Fold 8 (August 2026) replaced the Z Fold 7''s Armor FlexHinge with a dual-rail hinge. Samsung claims the new design improves long-term…'
+header:
+  image: https://images.frontbuffer.net/posts/galaxy-z-fold-8-vs-fold-7-hinge-durability-comparison/og.png
+  overlay_filter: 0
 author_profile: false
 read_time: true
 share: true
