@@ -1,10 +1,10 @@
 ---
 layout: single
-title: 'Nintendo Switch 2 MicroSD Express: Why Old Cards Don'\''t Work and What Does'
+title: "Nintendo Switch 2 MicroSD Express: Why Old Cards Don't Work and What Does"
 date: 2026-08-31 14:02:00 +0000
 categories: [gaming]
 tags: ["explainer", "nintendo", "switch", "hardware"]
-excerpt: 'Nintendo Switch 2 requires microSD Express cards — standard microSD cards from the Switch 1 era don'\''t work. Here is why the format changed and which cards are compatible.'
+excerpt: "Nintendo Switch 2 requires microSD Express cards — standard microSD cards from the Switch 1 era don't work. Here is why the format changed and which cards are compatible."
 header:
   image: https://images.frontbuffer.net/posts/rumored-nintendo-switch-successor-exploring-potential-micros/og.png
   overlay_filter: 0
