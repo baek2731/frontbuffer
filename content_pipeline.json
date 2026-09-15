@@ -1,7 +1,7 @@
 {
   "_version": "1.3",
   "_description": "콘텐츠 파이프라인 — 클러스터 단위 관리",
-  "_last_updated": "2026-09-15T00:25:54.694954+00:00",
+  "_last_updated": "2026-09-15T00:27:13.450207+00:00",
   "hub_clusters": {
     "Steam Machine": {
       "hub_keyword": "Steam Machine",
@@ -369,8 +369,12 @@
         "Google Pixel & Android Auto",
         "Google Pixel and Android Ecosystem"
       ],
-      "spoke_urls": {},
-      "internal_links": []
+      "spoke_urls": {
+        "Google Pixel and Android Ecosystem (COMPARISON)": "pending"
+      },
+      "internal_links": [
+        "pending"
+      ]
     },
     "Android Auto": {
       "hub_keyword": "Android Auto",
@@ -1675,10 +1679,11 @@
       "notes": ""
     },
     "Google Pixel and Android Ecosystem": {
-      "types_done": [],
+      "types_done": [
+        "COMPARISON"
+      ],
       "last_week": "2026-W37",
       "suggest_next": [
-        "COMPARISON",
         "GUIDE",
         "EXPLAINER",
         "LISTICLE"
@@ -5100,8 +5105,9 @@
         "data_grade": "A",
         "verified_keywords": [],
         "publish_order": 32,
-        "status": "candidate",
-        "selected_at": "2026-09-15T00:19:39.500137+00:00"
+        "status": "published",
+        "selected_at": "2026-09-15T00:19:39.500137+00:00",
+        "url": "pending"
       },
       {
         "cluster_name": "Steam Frame VR Headset",
@@ -5538,6 +5544,15 @@
       "week_tag": "2026-W37",
       "published_at": "2026-09-15T00:25:54.694903+00:00",
       "hub_cluster": "Steam Frame"
+    },
+    {
+      "cluster_name": "Google Pixel and Android Ecosystem",
+      "title": "Speculative Showdown: Envisioning the Google Pixel 11 Pro and a Future iPhone Camera",
+      "url": "pending",
+      "content_type": "COMPARISON",
+      "week_tag": "2026-W37",
+      "published_at": "2026-09-15T00:27:13.450161+00:00",
+      "hub_cluster": "Google Pixel Android"
     }
   ]
 }
