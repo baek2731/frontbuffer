@@ -5,8 +5,9 @@
 #
 # 사용법:
 #   GitHub Actions → "OG Image Regenerate" → Run workflow
-#   → 파일명 입력 (예: 2026-09-14-05-gta-6s.md)
-#      비워두면 _posts/ 전체 미처리 파일 일괄 처리
+#   → 날짜 입력 (예: 2026-09-14) → 해당 날짜 파일 자동 검색
+#   → 비워두면 _posts/ 전체 미처리 파일 일괄 처리
+#   → force_all: true 이면 전체 강제 재생성
 # =====================================================================
 
 name: OG Image Regenerate
@@ -14,12 +15,12 @@ name: OG Image Regenerate
 on:
   workflow_dispatch:
     inputs:
-      filename:
-        description: '파일명 (예: 2026-09-14-05-gta-6s.md) — 비우면 전체 미처리'
+      date:
+        description: '날짜 (예: 2026-09-14) — 비우면 전체 미처리'
         required: false
         default: ''
       force_all:
-        description: '전체 강제 재생성 (이미 처리된 것도 포함)'
+        description: '전체 강제 재생성 (이미 처리된 것도 포함) true/false'
         required: false
         default: 'false'
 
@@ -47,10 +48,23 @@ jobs:
 
       - name: Generate OG image
         run: |
-          if [ -n "${{ github.event.inputs.filename }}" ]; then
-            echo "📸 단일 파일 처리: ${{ github.event.inputs.filename }}"
-            python og_generator.py --file "${{ github.event.inputs.filename }}"
-          elif [ "${{ github.event.inputs.force_all }}" = "true" ]; then
+          DATE="${{ github.event.inputs.date }}"
+          FORCE="${{ github.event.inputs.force_all }}"
+
+          if [ -n "$DATE" ]; then
+            # 날짜로 파일 검색
+            MATCHED=$(ls _posts/${DATE}-*.md 2>/dev/null)
+            if [ -z "$MATCHED" ]; then
+              echo "❌ ${DATE} 날짜 파일 없음"
+              exit 1
+            fi
+            COUNT=$(echo "$MATCHED" | wc -l)
+            echo "📸 ${DATE} 파일 ${COUNT}개 처리"
+            for FILE in $MATCHED; do
+              echo "  → $(basename $FILE)"
+              python og_generator.py --file "$(basename $FILE)"
+            done
+          elif [ "$FORCE" = "true" ]; then
             echo "📸 전체 강제 재생성"
             python og_generator.py --all
           else
@@ -69,6 +83,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "ℹ️ 변경사항 없음"
           else
-            git commit -m "chore: OG 이미지 재생성 — ${{ github.event.inputs.filename || '전체' }}"
+            git commit -m "chore: OG 이미지 재생성 — ${{ github.event.inputs.date || '전체' }}"
             git push origin HEAD:main
           fi
