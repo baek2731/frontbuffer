@@ -1,7 +1,7 @@
 {
   "_version": "1.3",
   "_description": "콘텐츠 파이프라인 — 클러스터 단위 관리",
-  "_last_updated": "2026-09-15T00:22:59.969107+00:00",
+  "_last_updated": "2026-09-15T00:24:22.941501+00:00",
   "hub_clusters": {
     "Steam Machine": {
       "hub_keyword": "Steam Machine",
@@ -538,9 +538,11 @@
         "GTA 6 Performance Analysis"
       ],
       "spoke_urls": {
-        "GTA 6 Performance Analysis (EXPLAINER)": "pending"
+        "GTA 6 Performance Analysis (EXPLAINER)": "pending",
+        "Elden Ring Performance (COMPARISON)": "pending"
       },
       "internal_links": [
+        "pending",
         "pending"
       ]
     },
@@ -1532,10 +1534,11 @@
       "notes": ""
     },
     "Elden Ring Performance": {
-      "types_done": [],
-      "last_week": "2026-W35",
+      "types_done": [
+        "COMPARISON"
+      ],
+      "last_week": "2026-W37",
       "suggest_next": [
-        "COMPARISON",
         "GUIDE",
         "EXPLAINER",
         "LISTICLE"
@@ -4930,8 +4933,9 @@
         "data_grade": "A",
         "verified_keywords": [],
         "publish_order": 26,
-        "status": "candidate",
-        "selected_at": "2026-09-03T07:34:53.011309+00:00"
+        "status": "published",
+        "selected_at": "2026-09-03T07:34:53.011309+00:00",
+        "url": "pending"
       },
       {
         "cluster_name": "GTA 6 Performance Analysis",
@@ -5510,6 +5514,15 @@
       "week_tag": "2026-W37",
       "published_at": "2026-09-15T00:22:59.969048+00:00",
       "hub_cluster": "Pixel Phones"
+    },
+    {
+      "cluster_name": "Elden Ring Performance",
+      "title": "Elden Ring PC vs Console performance differences explained",
+      "url": "pending",
+      "content_type": "COMPARISON",
+      "week_tag": "2026-W37",
+      "published_at": "2026-09-15T00:24:22.941446+00:00",
+      "hub_cluster": "Gaming Performance"
     }
   ]
 }
