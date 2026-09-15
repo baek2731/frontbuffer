@@ -1,0 +1,61 @@
+① 판정 요약 (한국어, 간결하게):
+1.  **주장:** "Steam Frame"은 아직 구체적인 정보가 공개되지 않은 미발표 VR 헤드셋이다. → **판정(❌)** → **수정 내용:** Steam Frame은 2025년 11월에 발표되었고 2026년 9월 14일에 출시되었거나 출시 예정인 Valve의 실제 VR 헤드셋이다.
+2.  **주장:** "Steam Frame"의 PC VR 연결은 DisplayPort 또는 USB-C와 같은 고대역폭 케이블을 통해 이루어질 것으로 예상된다. → **판정(❌)** → **수정 내용:** Steam Frame은 주로 포함된 Wi-Fi 6E 무선 어댑터를 통해 PC VR 스트리밍을 지원하는 무선 헤드셋이다. USB-C 2.0 포트는 충전 및 데이터 전송을 위한 것이다.
+3.  **주장:** 헤드셋 전원 공급을 위해 전용 전원 어댑터가 필요할 것으로 예상된다. → **판정(❌)** → **수정 내용:** 전원 공급 장치는 제품에 포함되어 있지 않으며, 45W 이상의 USB-C 충전기를 사용해야 한다.
+4.  **주장:** 외부 베이스 스테이션 또는 트래킹 센서가 설정의 일부일 수 있다. → **판정(❌)** → **수정 내용:** Steam Frame은 외부 센서가 필요 없는 인사이드-아웃 트래킹을 사용한다.
+5.  **주장:** PC 사양, 플레이 공간 요구 사항, 소프트웨어 설치 및 보정 절차 등 대부분의 `[NEEDS VERIFICATION]` 표시 부분은 추측성 내용이다. → **판정(⚠️)** → **수정 내용:** Steam Frame의 공식 사양(Snapdragon 8 Gen 3, 16GB RAM 등) 및 기능(SteamOS, Half-Life: Alyx 포함, Wi-Fi 6E 무선 어댑터)을 바탕으로 구체적인 정보로 대체하고, PC VR 스트리밍을 위한 PC 요구 사항은 일반적인 PC VR 시스템의 권장 사항을 따른다.
+6.  **주장:** 결론 부분이 일반적인 보일러플레이트 패턴을 따른다. → **판정(❌)** → **수정 내용:** Steam Frame의 독립형 및 PC VR 스트리밍 기능을 강조하고, 공식 웹사이트 및 지원 문서를 참조하도록 구체적인 다음 행동을 제시하는 내용으로 교체한다.
+7.  **URL 실존 여부:** 초안에 제시된 YouTube URL은 모두 실제하며, Steam Frame 관련 유출/공식 영상이다.
+
+② 최종본:
+```markdown
+# How to set up Valve Steam Frame for PC VR gaming experience
+
+The Valve Steam Frame, a new virtual reality headset, has arrived, marking an exciting development for PC VR enthusiasts and promising an immersive gaming experience. Announced in November 2025 and launched on September 14, 2026, the Steam Frame is a standalone VR headset that also offers robust PC VR streaming capabilities. While the headset functions independently, this guide focuses on preparing for a smooth Steam Frame PC VR setup, outlining the foundational steps and considerations for connecting your Valve VR headset to your PC to dive into virtual worlds.
+
+## Understanding the Steam Frame's Dual Nature
+
+Before delving into PC VR setup, it's important to recognize that the Steam Frame is primarily a standalone device, running Valve's Arch Linux-based SteamOS. It is powered by a Qualcomm Snapdragon 8 Gen 3 system-on-a-chip and features 16 GB of unified LPDDR5X RAM, with storage options of 256 GB or 1 TB UFS, expandable via a microSD card slot. The headset boasts dual 2160 × 2160 LCD displays per eye, supporting refresh rates from 72 Hz to an experimental 144 Hz.
+
+For PC VR gaming, the Steam Frame leverages a dedicated Wi-Fi 6E wireless adapter included in the kit, enabling low-latency streaming from your PC. This wireless approach differentiates it from many tethered PC VR headsets, offering greater freedom of movement.
+
+## Preparing Your PC and Play Space for Steam Frame PC VR
+
+For an optimal PC VR gaming experience with the Steam Frame, thorough preparation of both your computer and your physical play area is essential. While the Steam Frame itself is a powerful standalone device, streaming complex VR environments from your PC still necessitates a robust gaming rig. We recommend a powerful graphics card, a modern multi-core processor, and ample RAM to render demanding VR titles smoothly. Users should consult Valve's official SteamVR documentation for precise minimum and recommended system specifications for PC VR streaming, as these can vary depending on the games you intend to play. Ensuring your graphics drivers are updated to their latest versions is a common prerequisite for new hardware and optimal VR performance.
+
+Beyond hardware, the physical environment plays a critical role. Designate a clear, unobstructed play space that allows for safe movement, typically requiring several square meters free of furniture and hazards. The Steam Frame utilizes inside-out tracking, employing four monochrome cameras and infrared illuminators to track the headset and controllers. While good ambient lighting can generally aid inside-out tracking performance, the infrared illuminators ensure reliable tracking even in darker environments. Consider investing in a non-slip VR playmat to define your boundaries and enhance safety during active gameplay.
+
+## Connecting Your Valve Steam Frame Headset for PC VR
+
+The physical connection of the Steam Frame to your PC for streaming forms the backbone of your PC VR setup. Unlike traditional tethered headsets, the Steam Frame connects wirelessly to your PC via the included Wi-Fi 6E wireless adapter, which operates on the 6 GHz band for low-latency data transmission. This adapter should be connected to your PC, typically via a USB port, to establish the dedicated wireless link.
+
+For power, the Steam Frame features a 21.6 Wh rechargeable lithium-ion battery and charges over USB-C at 45W. It is important to note that a power supply is *not* included in the box. Users can utilize any USB-C charger rated at 45W or higher, such as a Steam Deck charger, or purchase Valve's official 45W power supply separately for $29 USD. The headset itself features a USB-C 2.0 port for charging and data.
+
+Crucially, the Steam Frame employs inside-out tracking, meaning it does not require external base stations or tracking sensors to be placed around your play space. This simplifies the setup process significantly compared to systems that rely on external tracking solutions.
+
+## Software Installation and Configuration for PC VR
+
+Once the Steam Frame is physically prepared and wirelessly linked to your PC, the next step involves installing and configuring the necessary software. Valve's ecosystem means the Steam client will be central to the Steam Frame experience, both for standalone gaming and PC VR streaming. Users will need to ensure their Steam client on their PC is up-to-date and install the latest version of SteamVR software and drivers. This software suite handles the communication between the headset, controllers, and your PC, enabling the PC VR environment.
+
+The installation process for SteamVR is typically guided, walking users through driver installations, firmware updates for the headset and controllers, and initial system checks. It is advisable to follow any on-screen prompts carefully to ensure all components are recognized and functioning correctly for your Steam Frame PC VR setup. The Steam Frame also has a "Great on Frame" verification system for standalone titles, indicating games optimized for native play on the headset.
+
+## Initial Calibration and Room Setup
+
+Following software installation, the Steam Frame will guide users through an initial calibration and room setup process, a standard procedure for most PC VR systems. This step is crucial for defining your virtual play boundaries and ensuring comfortable and safe interaction within VR. The process typically involves:
+
+*   **Controller Pairing:** Synchronizing your Steam Frame controllers with the headset. The controllers are powered by AA batteries.
+*   **Headset Calibration:** Adjusting interpupillary distance (IPD) for visual clarity and comfort. The Steam Frame also features eye tracking, which is utilized for foveated rendering, enhancing performance and visual quality, particularly for demanding titles like *Half-Life: Alyx*.
+*   **Room Scale Setup:** Walking around your physical play space with a controller to map out the boundaries within the virtual environment. This process helps prevent collisions with real-world objects by establishing a "chaperone" system that provides visual warnings when approaching the edge of your play area.
+
+Accurate calibration is vital for an immersive and comfortable experience, reducing potential motion sickness and enhancing tracking precision within the virtual world.
+
+## Early Community Impressions on the Steam Frame
+
+While detailed setup guides are now emerging, the initial glimpses and promotional content for the Steam Frame generated considerable buzz within the online community. Reactions to early videos, such as the "Official Overview and Quick Start Guides" (available on YouTube) and "Our first 30 mins with the Steam Frame" by ShortCircuit, indicated a sense of surprise and excitement among viewers. Many expressed surprise at the sudden appearance of content, with some joking about a "misinput" or an "oopsy posting this early," suggesting that promotional material might have been released ahead of schedule or accidentally leaked.
+
+Beyond the timing, users noted intriguing references within the official overview, particularly a "Valve notification jumpscare" and a direct reference to the G-Man character from Half-Life at the 2:16 mark of the video, with the line "You'll know it when you see it." This sparked speculation among viewers, connecting the device to Valve's iconic franchises and hinting at deeper lore or future game integrations. The community's immediate engagement highlighted the high anticipation for Valve's latest entry into the VR hardware space. The Steam Frame also notably comes bundled with a native 64-bit ARM version of *Half-Life: Alyx*, optimized for standalone play using foveated rendering and eye tracking.
+
+## Optimizing Your Steam Frame PC VR Experience
+
+Setting up your Valve Steam Frame for PC VR gaming is a straightforward process, especially given its wireless design and inside-out tracking. To ensure the best possible experience, we recommend regularly checking the official Steam Frame hardware page on the Steam store for the latest software updates, firmware, and troubleshooting tips. Explore the growing library of PC VR titles compatible with SteamVR and consider the "Great on Frame" verified games for a seamless standalone experience. By following these guidelines and staying informed through official Valve channels, you'll be well-equipped to enjoy the full spectrum of virtual reality gaming that the Steam Frame offers, both tethered and untethered.
+```
