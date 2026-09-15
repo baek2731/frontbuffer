@@ -1,7 +1,7 @@
 {
   "_version": "1.3",
   "_description": "콘텐츠 파이프라인 — 클러스터 단위 관리",
-  "_last_updated": "2026-09-15T00:30:08.982443+00:00",
+  "_last_updated": "2026-09-15T00:31:38.688885+00:00",
   "hub_clusters": {
     "Steam Machine": {
       "hub_keyword": "Steam Machine",
@@ -607,8 +607,12 @@
       "spokes": [
         "Gaming Platform Features and Modding"
       ],
-      "spoke_urls": {},
-      "internal_links": []
+      "spoke_urls": {
+        "Gaming Platform Features and Modding (GUIDE)": "pending"
+      },
+      "internal_links": [
+        "pending"
+      ]
     }
   },
   "covered_clusters": {
@@ -1705,11 +1709,12 @@
       "notes": ""
     },
     "Gaming Platform Features and Modding": {
-      "types_done": [],
+      "types_done": [
+        "GUIDE"
+      ],
       "last_week": "2026-W37",
       "suggest_next": [
         "COMPARISON",
-        "GUIDE",
         "EXPLAINER",
         "LISTICLE"
       ],
@@ -5187,8 +5192,9 @@
         "data_grade": "A",
         "verified_keywords": [],
         "publish_order": 35,
-        "status": "candidate",
-        "selected_at": "2026-09-15T00:19:39.500137+00:00"
+        "status": "published",
+        "selected_at": "2026-09-15T00:19:39.500137+00:00",
+        "url": "pending"
       },
       {
         "cluster_name": "Gaming Platform Features and Modding",
@@ -5577,6 +5583,15 @@
       "week_tag": "2026-W37",
       "published_at": "2026-09-15T00:30:08.982395+00:00",
       "hub_cluster": "Google Pixel Android"
+    },
+    {
+      "cluster_name": "Gaming Platform Features and Modding",
+      "title": "How to Install IKEA-Themed Mods for Skyrim Anniversary Edition",
+      "url": "pending",
+      "content_type": "GUIDE",
+      "week_tag": "2026-W37",
+      "published_at": "2026-09-15T00:31:38.688838+00:00",
+      "hub_cluster": "Gaming Platform Features"
     }
   ]
 }

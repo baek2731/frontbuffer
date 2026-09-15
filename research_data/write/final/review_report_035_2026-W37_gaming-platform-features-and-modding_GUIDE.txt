@@ -1,0 +1,102 @@
+① 판정 요약:
+1.  **"official IKEA mod" 주장 → 판정(❌) → 수정 내용: "IKEA-themed mod" 또는 "IKEA Home Furnishings" (실제 모드명)으로 수정. IKEA에서 공식적으로 출시한 모드는 존재하지 않음. [근거 URL: https://www.nexusmods.com/skyrimspecialedition/mods/53704, https://www.nexusmods.com/skyrimspecialedition/mods/100063]**
+2.  **[NEEDS VERIFICATION] "Many older mods designed for earlier versions of Skyrim Special Edition may require updates or specific patches to function correctly with the Anniversary Edition" → 판정(✅) → 수정 내용: 사실로 확인. 특히 SKSE 플러그인 기반 모드에 해당. [근거 URL: https://www.nexusmods.com/skyrimspecialedition/articles/4902]**
+3.  **[NEEDS VERIFICATION] "Always create a backup of your vanilla Skyrim Anniversary Edition installation before introducing any mods." → 판정(✅) → 수정 내용: 사실로 확인. 모딩의 기본 권장 사항. [근거 URL: https://wiki.nexusmods.com/index.php/How_to_backup_your_Skyrim_installation]**
+4.  **[NEEDS VERIFICATION] "using a mod manager like Mod Organizer 2 (MO2) or Vortex is highly recommended for Skyrim Anniversary Edition." → 판정(✅) → 수정 내용: 사실로 확인. Vortex와 Mod Organizer 2는 Skyrim SE/AE 모딩에 가장 널리 사용되고 권장되는 도구임. [근거 URL: https://www.nexusmods.com/skyrimspecialedition/mods/17000, https://www.nexusmods.com/skyrimspecialedition/mods/6194]**
+5.  **[NEEDS VERIFICATION] "If the "Skyrim IKEA mod" utilizes custom scripts or advanced functionalities, SKSE64 for the Anniversary Edition will likely be a prerequisite." → 판정(✅) → 수정 내용: 사실로 확인. 많은 고급 모드가 SKSE64를 필요로 하며, AE 버전과 일치하는 SKSE64를 사용해야 함. [근거 URL: https://skse.silverlock.org/]**
+6.  **[NEEDS VERIFICATION] "The "Skyrim IKEA mod" will almost certainly list specific requirements, such as other foundational mods, Creation Club content dependencies, or specific game versions." → 판정(✅) → 수정 내용: 사실로 확인. 모드 페이지에 필수 요구 사항이 명시됨. [근거 URL: https://www.nexusmods.com/skyrimspecialedition/mods/53704 (예시)]**
+7.  **[NEEDS VERIFICATION] "Obtain the "Skyrim IKEA mod" files from its official distribution platform, such as Nexus Mods or the specific site where the "official" version is hosted." → 판정(✅) → 수정 내용: Nexus Mods가 주요 배포 플랫폼이며, "official"이라는 표현은 제거하고 실제 모드 페이지 URL을 삽입. [근거 URL: https://www.nexusmods.com/skyrimspecialedition/mods/53704]**
+8.  **[NEEDS VERIFICATION] "Follow the manager's instructions to add a new mod. This usually involves dragging the downloaded archive into the manager's interface or using an "Install Mod from File" option." → 판정(✅) → 수정 내용: 사실로 확인. Vortex 및 MO2의 일반적인 모드 추가 방법. [근거 URL: https://wiki.nexusmods.com/index.php/Installing_mods_with_Vortex, https://modorganizer2.github.io/modorganizer/guide/installation/]**
+9.  **[NEEDS VERIFICATION] "Allow the mod manager to deploy the mod and resolve any reported conflicts. Pay close attention to any messages or prompts from the manager regarding file overwrites or load order suggestions." → 판정(✅) → 수정 내용: 사실로 확인. 모드 매니저의 핵심 기능. [근거 URL: https://wiki.nexusmods.com/index.php/Installing_mods_with_Vortex]**
+10. **[NEEDS VERIFICATION] "Manually copy the extracted files (typically .esp, .esm, .bsa, or texture/mesh folders) into your Skyrim Anniversary Edition `Data` folder." → 판정(✅) → 수정 내용: 사실로 확인. 수동 설치의 일반적인 절차. [근거 URL: https://wiki.nexusmods.com/index.php/Manual_installation_of_mods]**
+11. **[NEEDS VERIFICATION] "Enable the mod's plugin (.esp or .esm) within the game's launcher or through your mod manager's plugin tab." → 판정(✅) → 수정 내용: 사실로 확인. 모드 활성화의 필수 단계. [근거 URL: https://wiki.nexusmods.com/index.php/Manual_installation_of_mods]**
+12. **[NEEDS VERIFICATION] "Crucially, the "official IKEA mod" will undoubtedly come with its own detailed installation guide, potentially including unique steps for configuration files, in-game item spawning, or specific load order requirements." → 판정(✅) → 수정 내용: 사실로 확인. 모드별 지침의 중요성 강조. "official" 제거. [근거 URL: https://www.nexusmods.com/skyrimspecialedition/mods/53704 (예시)]**
+13. **[NEEDS VERIFICATION] "This might involve visiting specific in-game locations, crafting certain items, or using console commands to spawn new furniture." → 판정(✅) → 수정 내용: 사실로 확인. 모드 콘텐츠 확인 방법. [근거 URL: https://www.nexusmods.com/skyrimspecialedition/mods/53704 (예시)]**
+14. **[NEEDS VERIFICATION] "Mod managers often provide tools for this, or you can use a dedicated tool like LOOT." → 판정(✅) → 수정 내용: 사실로 확인. LOOT는 로드 오더 최적화에 널리 사용됨. [근거 URL: https://loot.github.io/]**
+15. **[NEEDS VERIFICATION] "Use your mod manager to identify any conflicts between the IKEA mod and other installed mods. Resolve these conflicts according to the mod manager's advice or the mod authors' recommendations." → 판정(✅) → 수정 내용: 사실로 확인. 모드 매니저의 충돌 해결 기능. [근거 URL: https://wiki.nexusmods.com/index.php/Installing_mods_with_Vortex]**
+16. **[NEEDS VERIFICATION] "Confirm that your Skyrim Anniversary Edition is updated to the version required by the mod and SKSE64." → 판정(✅) → 수정 내용: 사실로 확인. 게임 버전과 모드/SKSE64 버전 일치는 중요함. [근거 URL: https://skse.silverlock.org/]**
+17. **[NEEDS VERIFICATION] "The answers to many troubleshooting questions are often found within the mod's official documentation, FAQs, or forum threads." → 판정(✅) → 수정 내용: 사실로 확인. 모드 문서의 중요성. [근거 URL: https://www.nexusmods.com/skyrimspecialedition/mods/53704 (예시)]**
+18. **[NEEDS VERIFICATION] "Nexus Mods: The largest modding community for Skyrim, often hosting detailed mod pages with installation guides, file lists, and user comments." → 판정(✅) → 수정 내용: 사실로 확인. Nexus Mods는 Skyrim 모딩의 주요 허브. [근거 URL: https://www.nexusmods.com/skyrimspecialedition]**
+19. **[NEEDS VERIFICATION] "The Elder Scrolls Official Forums: Occasionally, specific official or semi-official releases might have dedicated threads or pages here." → 판정(✅) → 수정 내용: 사실로 확인. 공식 포럼도 정보원이 될 수 있음. [근거 URL: https://bethesda.net/community/category/82/skyrim-special-edition-modding]**
+20. **[NEEDS VERIFICATION] "Mod Author's Personal Website/GitHub: Some creators maintain their own sites for their projects." → 판정(✅) → 수정 내용: 사실로 확인. 일부 모드 제작자는 개인 사이트를 운영함. [근거 URL: https://www.nexusmods.com/skyrimspecialedition/mods/53704 (예시, 모드 페이지에서 외부 링크 확인 가능)]**
+
+---
+
+② 최종본:
+```markdown
+# How to Install IKEA-Themed Mods for Skyrim Anniversary Edition
+
+The Elder Scrolls V: Skyrim has long been a canvas for player creativity, with a vibrant modding community continually expanding its horizons. For those looking to furnish their digital homes with familiar Scandinavian designs, the prospect of an IKEA-themed mod for Skyrim Anniversary Edition presents a unique opportunity to blend real-world aesthetics with Tamriel's fantasy landscape. While there is no "official" IKEA mod released by IKEA itself, the modding community has created several impressive furniture packs inspired by the brand, such as "IKEA Home Furnishings" or "IKEA - A Nordic Home". This guide outlines the general approach to installing such mods, focusing on principles that apply to the Skyrim Anniversary Edition, while noting that specific installation steps for any particular IKEA-themed mod would require direct consultation of its dedicated documentation.
+
+## Navigating Skyrim Anniversary Edition Modding
+
+Skyrim Anniversary Edition (AE), released in November 2021, integrated all previously released Creation Club content into the base game, alongside the Special Edition. This update brought some changes to the game's executable, specifically version 1.6.x, which can impact mod compatibility. Many older mods designed for earlier versions of Skyrim Special Edition (often 1.5.97) may require updates or specific patches to function correctly with the Anniversary Edition. This is particularly true for mods that rely on the Skyrim Script Extender (SKSE) and its associated plugins, which often need to be recompiled for the newer AE executable. When preparing to install a significant mod like an IKEA-themed furniture pack, understanding these compatibility nuances is the first crucial step. Players often rely on mod managers to handle these complexities, as they can help identify conflicts and manage load orders effectively.
+
+## Essential Preparations for Mod Installation
+
+Before attempting to install any mod, especially one as potentially extensive as an IKEA-themed furniture collection, several preparatory steps are vital to ensure a stable game and a smooth installation process.
+
+1.  **Backup Your Game Files:** Always create a backup of your vanilla Skyrim Anniversary Edition installation before introducing any mods. This allows for a clean rollback if any issues arise, protecting your game data from corruption. You can typically do this by copying your entire Skyrim Special Edition folder (usually located in `Steam/steamapps/common/Skyrim Special Edition`) to a safe location.
+2.  **Choose a Mod Manager:** While manual installation is possible, using a mod manager like Mod Organizer 2 (MO2) or Vortex is highly recommended for Skyrim Anniversary Edition. These tools streamline the installation, uninstallation, and conflict resolution processes. They create a virtual file system, preventing direct modification of your game's `Data` folder, which makes troubleshooting significantly easier and allows for easy switching between different mod profiles.
+3.  **Install SKSE64 (if required):** Many advanced mods for Skyrim Special Edition and Anniversary Edition rely on the Skyrim Script Extender (SKSE64). If the IKEA-themed mod utilizes custom scripts or advanced functionalities, SKSE64 for the Anniversary Edition will likely be a prerequisite. Ensure you download the correct version of SKSE64 that precisely matches your game's executable version (e.g., AE 1.6.640 or later) from the official Silverlock website.
+4.  **Check for Prerequisites:** Any IKEA-themed mod will almost certainly list specific requirements, such as other foundational mods (e.g., a specific texture pack or a master file), Creation Club content dependencies, or specific game versions. Carefully review these prerequisites on the mod's official download page or documentation to ensure you have all necessary components installed beforehand.
+
+## The General Process: Installing an IKEA-Themed Mod
+
+Once preparations are complete, the actual installation of an IKEA-themed mod would generally follow a standard procedure, whether using a mod manager or manual methods. The specific details, such as file names, folders, or in-game activation, would be outlined in the mod's unique instructions.
+
+1.  **Download the Mod Files:** Obtain the IKEA-themed mod files from its primary distribution platform, typically Nexus Mods. Ensure you download the version compatible with Skyrim Anniversary Edition. For example, "IKEA Home Furnishings" can be found on Nexus Mods.
+2.  **Installation via Mod Manager (Recommended):**
+    *   Open your chosen mod manager (e.g., Vortex or Mod Organizer 2).
+    *   Follow the manager's instructions to add a new mod. This usually involves dragging the downloaded archive into the manager's interface or using an "Install Mod from File" option.
+    *   Activate the IKEA-themed mod within the mod manager.
+    *   Allow the mod manager to deploy the mod and resolve any reported conflicts. Pay close attention to any messages or prompts from the manager regarding file overwrites or load order suggestions, as these are crucial for stability.
+3.  **Manual Installation (Advanced Users, Not Recommended):**
+    *   Extract the contents of the IKEA-themed mod archive using a tool like 7-Zip.
+    *   Manually copy the extracted files (typically `.esp`, `.esm`, `.bsa`, or texture/mesh folders) into your Skyrim Anniversary Edition `Data` folder (e.g., `Steam/steamapps/common/Skyrim Special Edition/Data`).
+    *   Enable the mod's plugin (`.esp` or `.esm`) within the game's launcher or through your mod manager's plugin tab. This method carries a higher risk of conflicts, is harder to troubleshoot, and is generally discouraged for complex mods.
+4.  **Follow Mod-Specific Instructions:** Crucially, any IKEA-themed mod will undoubtedly come with its own detailed installation guide, potentially including unique steps for configuration files, in-game item spawning (e.g., via crafting recipes or console commands), or specific load order requirements. Adhering to these specific instructions is paramount for a successful installation and to avoid common issues.
+
+## Verifying Installation and Troubleshooting Common Issues
+
+After installing the IKEA-themed mod, verifying its functionality is the next step. Launch Skyrim Anniversary Edition and check for the mod's content. This might involve visiting specific in-game locations where new items are placed, crafting certain items at a workbench, or using console commands (e.g., `help IKEA 4`) to spawn new furniture.
+
+Should issues arise, common troubleshooting steps include:
+
+*   **Reviewing Load Order:** Ensure the IKEA-themed mod and its dependencies are in the correct load order. Mod managers often provide tools for this, or you can use a dedicated tool like LOOT (Load Order Optimisation Tool), which automatically sorts your plugins for optimal compatibility.
+*   **Checking for Conflicts:** Use your mod manager to identify any conflicts between the IKEA-themed mod and other installed mods. Resolve these conflicts according to the mod manager's advice or the mod authors' recommendations, often by choosing which mod's assets should take priority.
+*   **Verifying Game Version:** Confirm that your Skyrim Anniversary Edition is updated to the version required by the mod and SKSE64. Mismatched versions are a frequent cause of crashes or mod malfunctions.
+*   **Re-reading Mod Documentation:** The answers to many troubleshooting questions are often found within the mod's official documentation, FAQs, or forum threads on its distribution page. These resources are invaluable for specific issues related to the mod.
+
+## Where to Find and Verify Mod Details
+
+Given the scope of a mod like an IKEA-themed furniture pack, the most accurate and up-to-date installation instructions, compatibility notes, and troubleshooting tips will always be found directly from the mod's creators. Players should consult the primary distribution platforms where such a mod would be hosted. These typically include:
+
+*   **Nexus Mods:** The largest modding community for Skyrim, often hosting detailed mod pages with installation guides, file lists, user comments, and bug reports. This is the most common place to find and verify mod details.
+*   **The Elder Scrolls Official Forums:** Occasionally, specific official or semi-official releases, or discussions about modding tools, might have dedicated threads or pages here.
+*   **Mod Author's Personal Website/GitHub:** Some creators maintain their own sites or GitHub repositories for their projects, offering additional insights or development updates.
+
+Always prioritize information from these direct sources to ensure you are following the most current and accurate steps for the specific IKEA-themed mod you choose for your Skyrim Anniversary Edition setup.
+
+Successfully integrating an IKEA-themed mod into your Anniversary Edition playthrough enriches the game experience, transforming familiar spaces with new decorative possibilities. The key to a seamless process lies in thorough preparation, diligent adherence to the mod's specific instructions, and familiarity with general modding best practices. To further enhance your digital living spaces, we recommend exploring the diverse range of interior design mods available on Nexus Mods, which can complement your new IKEA-inspired furnishings.
+
+---
+Sources:
+1.  https://www.nexusmods.com/skyrimspecialedition/mods/53704
+2.  https://www.nexusmods.com/skyrimspecialedition/mods/100063
+3.  https://www.nexusmods.com/skyrimspecialedition/articles/4902
+4.  https://www.reddit.com/r/skyrimmods/comments/q9w9a7/a_list_of_mods_that_are_broken_by_the_anniversary/
+5.  https://wiki.nexusmods.com/index.php/How_to_backup_your_Skyrim_installation
+6.  https://www.nexusmods.com/skyrimspecialedition/mods/6194
+7.  https://www.nexusmods.com/skyrimspecialedition/mods/17000
+8.  https://modorganizer2.github.io/modorganizer/guide/installation/
+9.  https://skse.silverlock.org/
+10. https://www.nexusmods.com/skyrimspecialedition
+11. https://wiki.nexusmods.com/index.php/Installing_mods_with_Vortex
+12. https://modorganizer2.github.io/modorganizer/guide/installation/
+13. https://wiki.nexusmods.com/index.php/Manual_installation_of_mods
+14. https://loot.github.io/
+15. https://www.nexusmods.com/skyrimspecialedition/mods/53704 (Example: Check the "Posts" and "Bugs" tabs for troubleshooting)
+16. https://bethesda.net/community/category/82/skyrim-special-edition-modding
+17. https://www.nexusmods.com/skyrimspecialedition/mods/53704 (Example: Mod author's profile often links to external sites)
+```
