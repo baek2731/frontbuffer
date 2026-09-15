@@ -1,7 +1,7 @@
 {
   "_version": "1.3",
   "_description": "콘텐츠 파이프라인 — 클러스터 단위 관리",
-  "_last_updated": "2026-09-15T00:28:51.100689+00:00",
+  "_last_updated": "2026-09-15T00:30:08.982443+00:00",
   "hub_clusters": {
     "Steam Machine": {
       "hub_keyword": "Steam Machine",
@@ -370,9 +370,11 @@
         "Google Pixel and Android Ecosystem"
       ],
       "spoke_urls": {
-        "Google Pixel and Android Ecosystem (COMPARISON)": "pending"
+        "Google Pixel and Android Ecosystem (COMPARISON)": "pending",
+        "Google Pixel and Android Ecosystem (GUIDE)": "pending"
       },
       "internal_links": [
+        "pending",
         "pending"
       ]
     },
@@ -1682,11 +1684,11 @@
     },
     "Google Pixel and Android Ecosystem": {
       "types_done": [
-        "COMPARISON"
+        "COMPARISON",
+        "GUIDE"
       ],
       "last_week": "2026-W37",
       "suggest_next": [
-        "GUIDE",
         "EXPLAINER",
         "LISTICLE"
       ],
@@ -5159,8 +5161,9 @@
         "data_grade": "A",
         "verified_keywords": [],
         "publish_order": 34,
-        "status": "candidate",
-        "selected_at": "2026-09-15T00:19:39.500137+00:00"
+        "status": "published",
+        "selected_at": "2026-09-15T00:19:39.500137+00:00",
+        "url": "pending"
       },
       {
         "cluster_name": "Gaming Platform Features and Modding",
@@ -5565,6 +5568,15 @@
       "week_tag": "2026-W37",
       "published_at": "2026-09-15T00:28:51.100645+00:00",
       "hub_cluster": "Steam Frame"
+    },
+    {
+      "cluster_name": "Google Pixel and Android Ecosystem",
+      "title": "How to transfer Android passkeys between devices securely",
+      "url": "pending",
+      "content_type": "GUIDE",
+      "week_tag": "2026-W37",
+      "published_at": "2026-09-15T00:30:08.982395+00:00",
+      "hub_cluster": "Google Pixel Android"
     }
   ]
 }
