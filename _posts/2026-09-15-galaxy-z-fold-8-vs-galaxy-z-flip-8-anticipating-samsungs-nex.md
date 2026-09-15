@@ -5,6 +5,9 @@ date: 2026-09-15 14:00:00 +0000
 categories: [tech]
 tags: ["comparison", "galaxy", "fold"]
 excerpt: 'Samsung''s Galaxy Z Fold 5 and Z Flip 5, launched in July 2023, solidified the company''s position in the foldable market. Now, attention turns to the…'
+header:
+  image: https://images.frontbuffer.net/posts/galaxy-z-fold-8-vs-galaxy-z-flip-8-anticipating-samsungs-nex/og.png
+  overlay_filter: 0
 author_profile: false
 read_time: true
 share: true
