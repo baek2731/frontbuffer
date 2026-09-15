@@ -1,0 +1,74 @@
+# =====================================================================
+# OG 이미지 재생성 워크플로우
+# =====================================================================
+# 트리거: 수동 (workflow_dispatch)
+#
+# 사용법:
+#   GitHub Actions → "OG Image Regenerate" → Run workflow
+#   → 파일명 입력 (예: 2026-09-14-05-gta-6s.md)
+#      비워두면 _posts/ 전체 미처리 파일 일괄 처리
+# =====================================================================
+
+name: OG Image Regenerate
+
+on:
+  workflow_dispatch:
+    inputs:
+      filename:
+        description: '파일명 (예: 2026-09-14-05-gta-6s.md) — 비우면 전체 미처리'
+        required: false
+        default: ''
+      force_all:
+        description: '전체 강제 재생성 (이미 처리된 것도 포함)'
+        required: false
+        default: 'false'
+
+jobs:
+  regenerate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests pillow boto3
+
+      - name: Configure Git
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Generate OG image
+        run: |
+          if [ -n "${{ github.event.inputs.filename }}" ]; then
+            echo "📸 단일 파일 처리: ${{ github.event.inputs.filename }}"
+            python og_generator.py --file "${{ github.event.inputs.filename }}"
+          elif [ "${{ github.event.inputs.force_all }}" = "true" ]; then
+            echo "📸 전체 강제 재생성"
+            python og_generator.py --all
+          else
+            echo "📸 전체 미처리 파일 처리"
+            python og_generator.py
+          fi
+        env:
+          UNSPLASH_ACCESS_KEY:   ${{ secrets.UNSPLASH_ACCESS_KEY }}
+          R2_ACCESS_KEY_ID:      ${{ secrets.R2_ACCESS_KEY_ID }}
+          R2_SECRET_ACCESS_KEY:  ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          R2_ACCOUNT_ID:         ${{ secrets.R2_ACCOUNT_ID }}
+
+      - name: Commit OG assets
+        run: |
+          git add social_output/ _posts/ || true
+          if git diff --cached --quiet; then
+            echo "ℹ️ 변경사항 없음"
+          else
+            git commit -m "chore: OG 이미지 재생성 — ${{ github.event.inputs.filename || '전체' }}"
+            git push origin HEAD:main
+          fi
