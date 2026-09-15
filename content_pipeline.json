@@ -1,7 +1,7 @@
 {
   "_version": "1.3",
   "_description": "콘텐츠 파이프라인 — 클러스터 단위 관리",
-  "_last_updated": "2026-09-15T00:31:38.688885+00:00",
+  "_last_updated": "2026-09-15T00:32:56.609754+00:00",
   "hub_clusters": {
     "Steam Machine": {
       "hub_keyword": "Steam Machine",
@@ -601,16 +601,18 @@
     },
     "Gaming Platform Features": {
       "hub_keyword": "Gaming Platform Features",
-      "hub_status": "PENDING",
+      "hub_status": "READY",
       "hub_title": "",
       "hub_url": "",
       "spokes": [
         "Gaming Platform Features and Modding"
       ],
       "spoke_urls": {
-        "Gaming Platform Features and Modding (GUIDE)": "pending"
+        "Gaming Platform Features and Modding (GUIDE)": "pending",
+        "Gaming Platform Features and Modding (EXPLAINER)": "pending"
       },
       "internal_links": [
+        "pending",
         "pending"
       ]
     }
@@ -1710,12 +1712,12 @@
     },
     "Gaming Platform Features and Modding": {
       "types_done": [
-        "GUIDE"
+        "GUIDE",
+        "EXPLAINER"
       ],
       "last_week": "2026-W37",
       "suggest_next": [
         "COMPARISON",
-        "EXPLAINER",
         "LISTICLE"
       ],
       "hub_keyword": "Ubisoft Connect Steam",
@@ -5218,8 +5220,9 @@
         "data_grade": "B",
         "verified_keywords": [],
         "publish_order": 36,
-        "status": "candidate",
-        "selected_at": "2026-09-15T00:19:39.500137+00:00"
+        "status": "published",
+        "selected_at": "2026-09-15T00:19:39.500137+00:00",
+        "url": "pending"
       }
     ]
   },
@@ -5591,6 +5594,15 @@
       "content_type": "GUIDE",
       "week_tag": "2026-W37",
       "published_at": "2026-09-15T00:31:38.688838+00:00",
+      "hub_cluster": "Gaming Platform Features"
+    },
+    {
+      "cluster_name": "Gaming Platform Features and Modding",
+      "title": "Ubisoft Connect Requirement for Steam Games: Understanding Offline Play and Community Solutions",
+      "url": "pending",
+      "content_type": "EXPLAINER",
+      "week_tag": "2026-W37",
+      "published_at": "2026-09-15T00:32:56.609708+00:00",
       "hub_cluster": "Gaming Platform Features"
     }
   ]
