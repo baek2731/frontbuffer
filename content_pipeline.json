@@ -1,7 +1,7 @@
 {
   "_version": "1.3",
   "_description": "콘텐츠 파이프라인 — 클러스터 단위 관리",
-  "_last_updated": "2026-09-13T17:19:13.347271+00:00",
+  "_last_updated": "2026-09-15T00:19:39.500344+00:00",
   "hub_clusters": {
     "Steam Machine": {
       "hub_keyword": "Steam Machine",
@@ -362,11 +362,12 @@
     },
     "Google Pixel Android": {
       "hub_keyword": "Google Pixel Android",
-      "hub_status": "PENDING",
+      "hub_status": "READY",
       "hub_title": "",
       "hub_url": "",
       "spokes": [
-        "Google Pixel & Android Auto"
+        "Google Pixel & Android Auto",
+        "Google Pixel and Android Ecosystem"
       ],
       "spoke_urls": {},
       "internal_links": []
@@ -570,6 +571,28 @@
       "internal_links": [
         "pending"
       ]
+    },
+    "Steam Frame": {
+      "hub_keyword": "Steam Frame",
+      "hub_status": "PENDING",
+      "hub_title": "",
+      "hub_url": "",
+      "spokes": [
+        "Steam Frame VR Headset"
+      ],
+      "spoke_urls": {},
+      "internal_links": []
+    },
+    "Gaming Platform Features": {
+      "hub_keyword": "Gaming Platform Features",
+      "hub_status": "PENDING",
+      "hub_title": "",
+      "hub_url": "",
+      "spokes": [
+        "Gaming Platform Features and Modding"
+      ],
+      "spoke_urls": {},
+      "internal_links": []
     }
   },
   "covered_clusters": {
@@ -1612,6 +1635,69 @@
         "google messages custom bubbles",
         "enable chat bubbles messages app",
         "android messages customization"
+      ],
+      "competition_level": "LOW",
+      "affiliate_potential": "LOW",
+      "trends_pattern": "UNKNOWN",
+      "trends_keyword": "",
+      "notes": ""
+    },
+    "Steam Frame VR Headset": {
+      "types_done": [],
+      "last_week": "2026-W37",
+      "suggest_next": [
+        "COMPARISON",
+        "GUIDE",
+        "EXPLAINER",
+        "LISTICLE"
+      ],
+      "hub_keyword": "Steam Frame",
+      "parent_hub": "Steam Frame",
+      "spoke_keywords": [
+        "Steam Frame vs Meta Quest 3",
+        "VR headset specification comparison"
+      ],
+      "competition_level": "MEDIUM",
+      "affiliate_potential": "HIGH",
+      "trends_pattern": "UNKNOWN",
+      "trends_keyword": "",
+      "notes": ""
+    },
+    "Google Pixel and Android Ecosystem": {
+      "types_done": [],
+      "last_week": "2026-W37",
+      "suggest_next": [
+        "COMPARISON",
+        "GUIDE",
+        "EXPLAINER",
+        "LISTICLE"
+      ],
+      "hub_keyword": "Android passkey transfer",
+      "parent_hub": "Google Pixel Android",
+      "spoke_keywords": [
+        "Pixel 11 Pro camera features",
+        "iPhone Duo camera specs"
+      ],
+      "competition_level": "MEDIUM",
+      "affiliate_potential": "HIGH",
+      "trends_pattern": "UNKNOWN",
+      "trends_keyword": "",
+      "notes": ""
+    },
+    "Gaming Platform Features and Modding": {
+      "types_done": [],
+      "last_week": "2026-W37",
+      "suggest_next": [
+        "COMPARISON",
+        "GUIDE",
+        "EXPLAINER",
+        "LISTICLE"
+      ],
+      "hub_keyword": "Ubisoft Connect Steam",
+      "parent_hub": "Gaming Platform Features",
+      "spoke_keywords": [
+        "Skyrim mod installation guide IKEA",
+        "Anniversary Edition modding help"
       ],
       "competition_level": "LOW",
       "affiliate_potential": "LOW",
@@ -4950,6 +5036,158 @@
         "status": "published",
         "selected_at": "2026-09-03T07:34:53.011309+00:00",
         "url": "pending"
+      }
+    ],
+    "2026-W37": [
+      {
+        "cluster_name": "Steam Frame VR Headset",
+        "content_type": "COMPARISON",
+        "suggested_title": "Steam Frame vs Meta Quest 3: VR headset specification comparison",
+        "hub_keyword": "Steam Frame VR",
+        "hub_keyword_raw": "Steam Frame VR",
+        "parent_hub": "Steam Frame",
+        "folder": "01-steam-frame",
+        "spoke_keywords": [
+          "Steam Frame vs Meta Quest 3",
+          "VR headset specification comparison"
+        ],
+        "competition_level": "MEDIUM",
+        "timing": "NOW",
+        "affiliate_potential": "HIGH",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "publish_order": 31,
+        "status": "candidate",
+        "selected_at": "2026-09-15T00:19:39.500137+00:00"
+      },
+      {
+        "cluster_name": "Google Pixel and Android Ecosystem",
+        "content_type": "COMPARISON",
+        "suggested_title": "Google Pixel 11 Pro vs iPhone Duo: camera feature comparison",
+        "hub_keyword": "Pixel 11 camera",
+        "hub_keyword_raw": "Pixel 11 camera",
+        "parent_hub": "Google Pixel Android",
+        "folder": "10-android-auto",
+        "spoke_keywords": [
+          "Pixel 11 Pro camera features",
+          "iPhone Duo camera specs"
+        ],
+        "competition_level": "MEDIUM",
+        "timing": "NOW",
+        "affiliate_potential": "HIGH",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "publish_order": 32,
+        "status": "candidate",
+        "selected_at": "2026-09-15T00:19:39.500137+00:00"
+      },
+      {
+        "cluster_name": "Steam Frame VR Headset",
+        "content_type": "GUIDE",
+        "suggested_title": "How to set up Valve Steam Frame for PC VR gaming experience",
+        "hub_keyword": "Steam Frame",
+        "hub_keyword_raw": "Steam Frame setup",
+        "parent_hub": "Steam Frame",
+        "folder": "01-steam-frame",
+        "spoke_keywords": [
+          "Steam Frame PC VR setup",
+          "Valve VR headset connection guide"
+        ],
+        "competition_level": "LOW",
+        "timing": "NOW",
+        "affiliate_potential": "MEDIUM",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "publish_order": 33,
+        "status": "candidate",
+        "selected_at": "2026-09-15T00:19:39.500137+00:00"
+      },
+      {
+        "cluster_name": "Google Pixel and Android Ecosystem",
+        "content_type": "GUIDE",
+        "suggested_title": "How to transfer Android passkeys between devices securely",
+        "hub_keyword": "Android passkey transfer",
+        "hub_keyword_raw": "Android passkey transfer",
+        "parent_hub": "Google Pixel Android",
+        "folder": "10-android-auto",
+        "spoke_keywords": [
+          "Android passkey migration guide",
+          "secure passkey transfer Android"
+        ],
+        "competition_level": "LOW",
+        "timing": "NOW",
+        "affiliate_potential": "LOW",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "publish_order": 34,
+        "status": "candidate",
+        "selected_at": "2026-09-15T00:19:39.500137+00:00"
+      },
+      {
+        "cluster_name": "Gaming Platform Features and Modding",
+        "content_type": "GUIDE",
+        "suggested_title": "How to install official IKEA mod for Skyrim Anniversary Edition",
+        "hub_keyword": "Skyrim IKEA mod",
+        "hub_keyword_raw": "Skyrim IKEA mod",
+        "parent_hub": "Gaming Platform Features",
+        "folder": "",
+        "spoke_keywords": [
+          "Skyrim mod installation guide IKEA",
+          "Anniversary Edition modding help"
+        ],
+        "competition_level": "LOW",
+        "timing": "NOW",
+        "affiliate_potential": "LOW",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "MEDIUM",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "publish_order": 35,
+        "status": "candidate",
+        "selected_at": "2026-09-15T00:19:39.500137+00:00"
+      },
+      {
+        "cluster_name": "Gaming Platform Features and Modding",
+        "content_type": "EXPLAINER",
+        "suggested_title": "Ubisoft Connect requirement removal for Steam games explained",
+        "hub_keyword": "Ubisoft Connect Steam",
+        "hub_keyword_raw": "Ubisoft Connect Steam",
+        "parent_hub": "Gaming Platform Features",
+        "folder": "",
+        "spoke_keywords": [
+          "Ubisoft games Steam without Connect",
+          "Steam Ubisoft launcher changes"
+        ],
+        "competition_level": "LOW",
+        "timing": "NOW",
+        "affiliate_potential": "LOW",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "B",
+        "verified_keywords": [],
+        "publish_order": 36,
+        "status": "candidate",
+        "selected_at": "2026-09-15T00:19:39.500137+00:00"
       }
     ]
   },

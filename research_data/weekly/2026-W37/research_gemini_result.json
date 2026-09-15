@@ -1,0 +1,157 @@
+{
+  "ok": true,
+  "week_tag": "2026-W37",
+  "total": 6,
+  "grade_a": [
+    {
+      "cluster_name": "Steam Frame VR Headset",
+      "content_type": "COMPARISON",
+      "suggested_title": "Steam Frame vs Meta Quest 3: VR headset specification comparison",
+      "hub_keyword": "Steam Frame VR",
+      "parent_hub": "Steam Frame",
+      "spoke_keywords": [
+        "Steam Frame vs Meta Quest 3",
+        "VR headset specification comparison"
+      ],
+      "evergreen_score": 90,
+      "competition_level": "MEDIUM",
+      "affiliate_potential": "HIGH",
+      "timing": "NOW",
+      "verifiability": "HIGH",
+      "trends_queries": [
+        "Steam Frame vs Quest 3",
+        "VR headset specs"
+      ],
+      "reasoning": "Compares two released VR headsets based on publicly available specifications, providing evergreen value for potential buyers without requiring hands-on testing.",
+      "data_grade": "A",
+      "publish_order": 31,
+      "folder": "01-steam-frame"
+    },
+    {
+      "cluster_name": "Steam Frame VR Headset",
+      "content_type": "GUIDE",
+      "suggested_title": "How to set up Valve Steam Frame for PC VR gaming experience",
+      "hub_keyword": "Steam Frame setup",
+      "parent_hub": "Steam Frame",
+      "spoke_keywords": [
+        "Steam Frame PC VR setup",
+        "Valve VR headset connection guide"
+      ],
+      "evergreen_score": 85,
+      "competition_level": "LOW",
+      "affiliate_potential": "MEDIUM",
+      "timing": "NOW",
+      "verifiability": "HIGH",
+      "trends_queries": [
+        "Steam Frame setup",
+        "PC VR connection guide"
+      ],
+      "reasoning": "Provides a detailed guide on connecting and configuring the Steam Frame for PC VR, verifiable through official Valve documentation and stable over time.",
+      "data_grade": "A",
+      "publish_order": 33,
+      "folder": "01-steam-frame"
+    },
+    {
+      "cluster_name": "Google Pixel and Android Ecosystem",
+      "content_type": "COMPARISON",
+      "suggested_title": "Google Pixel 11 Pro vs iPhone Duo: camera feature comparison",
+      "hub_keyword": "Pixel 11 camera",
+      "parent_hub": "Google Pixel Android",
+      "spoke_keywords": [
+        "Pixel 11 Pro camera features",
+        "iPhone Duo camera specs"
+      ],
+      "evergreen_score": 90,
+      "competition_level": "MEDIUM",
+      "affiliate_potential": "HIGH",
+      "timing": "NOW",
+      "verifiability": "HIGH",
+      "trends_queries": [
+        "Pixel 11 Pro camera",
+        "iPhone Duo camera features"
+      ],
+      "reasoning": "Compares camera specifications and announced features of two released flagship phones, offering evergreen advice for users based on official product information.",
+      "data_grade": "A",
+      "publish_order": 32,
+      "folder": "10-android-auto"
+    },
+    {
+      "cluster_name": "Google Pixel and Android Ecosystem",
+      "content_type": "GUIDE",
+      "suggested_title": "How to transfer Android passkeys between devices securely",
+      "hub_keyword": "Android passkey transfer",
+      "parent_hub": "Google Pixel Android",
+      "spoke_keywords": [
+        "Android passkey migration guide",
+        "secure passkey transfer Android"
+      ],
+      "evergreen_score": 95,
+      "competition_level": "LOW",
+      "affiliate_potential": "LOW",
+      "timing": "NOW",
+      "verifiability": "HIGH",
+      "trends_queries": [
+        "Android passkey transfer",
+        "move passkeys Android"
+      ],
+      "reasoning": "Addresses a core and evolving security feature in Android, providing a step-by-step guide on passkey management that will remain relevant as the technology matures.",
+      "data_grade": "A",
+      "publish_order": 34,
+      "folder": "10-android-auto"
+    },
+    {
+      "cluster_name": "Gaming Platform Features and Modding",
+      "content_type": "GUIDE",
+      "suggested_title": "How to install official IKEA mod for Skyrim Anniversary Edition",
+      "hub_keyword": "Skyrim IKEA mod",
+      "parent_hub": "Gaming Platform Features",
+      "spoke_keywords": [
+        "Skyrim mod installation guide IKEA",
+        "Anniversary Edition modding help"
+      ],
+      "evergreen_score": 85,
+      "competition_level": "LOW",
+      "affiliate_potential": "LOW",
+      "timing": "NOW",
+      "verifiability": "MEDIUM",
+      "trends_queries": [
+        "Skyrim IKEA mod install",
+        "official Skyrim mods"
+      ],
+      "reasoning": "Provides a specific mod installation guide for a highly popular and stable game (Skyrim), leveraging an 'official' mod to ensure verifiability and evergreen appeal.",
+      "data_grade": "A",
+      "publish_order": 35,
+      "folder": ""
+    }
+  ],
+  "grade_b": [
+    {
+      "cluster_name": "Gaming Platform Features and Modding",
+      "content_type": "EXPLAINER",
+      "suggested_title": "Ubisoft Connect requirement removal for Steam games explained",
+      "hub_keyword": "Ubisoft Connect Steam",
+      "parent_hub": "Gaming Platform Features",
+      "spoke_keywords": [
+        "Ubisoft games Steam without Connect",
+        "Steam Ubisoft launcher changes"
+      ],
+      "evergreen_score": 80,
+      "competition_level": "LOW",
+      "affiliate_potential": "LOW",
+      "timing": "NOW",
+      "verifiability": "HIGH",
+      "trends_queries": [
+        "Ubisoft Connect removal Steam",
+        "Steam games no Connect"
+      ],
+      "reasoning": "Explains a significant policy change regarding game launchers, providing information that remains relevant for a long time for users considering Ubisoft games on Steam.",
+      "data_grade": "B",
+      "publish_order": 36,
+      "folder": ""
+    }
+  ],
+  "grade_c": [],
+  "auto_selected": 6,
+  "elapsed": 29.0,
+  "timestamp": "2026-09-15T00:19:39.506800+00:00"
+}

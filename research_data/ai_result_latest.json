@@ -1,14 +1,13 @@
 [
   {
-    "cluster_name": "Pixel Phone Camera Features",
+    "cluster_name": "Steam Frame VR Headset",
     "content_type": "COMPARISON",
-    "suggested_title": "Pixel 11 vs Pixel 11 Pro camera features and differences",
-    "hub_keyword": "Pixel 11 comparison",
-    "parent_hub": "Pixel Phones",
+    "suggested_title": "Steam Frame vs Meta Quest 3: VR headset specification comparison",
+    "hub_keyword": "Steam Frame VR",
+    "parent_hub": "Steam Frame",
     "spoke_keywords": [
-      "pixel 11 vs pixel 11 pro camera",
-      "pixel 11 camera features",
-      "pixel 11 pro camera review"
+      "Steam Frame vs Meta Quest 3",
+      "VR headset specification comparison"
     ],
     "evergreen_score": 90,
     "competition_level": "MEDIUM",
@@ -16,71 +15,87 @@
     "timing": "NOW",
     "verifiability": "HIGH",
     "trends_queries": [
-      "pixel 11 camera comparison",
-      "pixel 11 pro camera specs",
-      "pixel 11 vs 11 pro camera"
+      "Steam Frame vs Quest 3",
+      "VR headset specs"
     ],
-    "reasoning": "Compares two released phone models based on official camera specs and widely published reviews, providing evergreen value for buyers.",
+    "reasoning": "Compares two released VR headsets based on publicly available specifications, providing evergreen value for potential buyers without requiring hands-on testing.",
     "data_grade": "A"
   },
   {
-    "cluster_name": "Pixel AI Features",
+    "cluster_name": "Steam Frame VR Headset",
     "content_type": "GUIDE",
-    "suggested_title": "How to use Gemini to adjust Pixel system settings",
-    "hub_keyword": "Gemini Pixel integration",
-    "parent_hub": "Pixel Phones",
+    "suggested_title": "How to set up Valve Steam Frame for PC VR gaming experience",
+    "hub_keyword": "Steam Frame setup",
+    "parent_hub": "Steam Frame",
     "spoke_keywords": [
-      "gemini pixel system settings",
-      "adjust pixel settings with gemini",
-      "gemini features pixel phones"
+      "Steam Frame PC VR setup",
+      "Valve VR headset connection guide"
     ],
     "evergreen_score": 85,
+    "competition_level": "LOW",
+    "affiliate_potential": "MEDIUM",
+    "timing": "NOW",
+    "verifiability": "HIGH",
+    "trends_queries": [
+      "Steam Frame setup",
+      "PC VR connection guide"
+    ],
+    "reasoning": "Provides a detailed guide on connecting and configuring the Steam Frame for PC VR, verifiable through official Valve documentation and stable over time.",
+    "data_grade": "A"
+  },
+  {
+    "cluster_name": "Google Pixel and Android Ecosystem",
+    "content_type": "COMPARISON",
+    "suggested_title": "Google Pixel 11 Pro vs iPhone Duo: camera feature comparison",
+    "hub_keyword": "Pixel 11 camera",
+    "parent_hub": "Google Pixel Android",
+    "spoke_keywords": [
+      "Pixel 11 Pro camera features",
+      "iPhone Duo camera specs"
+    ],
+    "evergreen_score": 90,
+    "competition_level": "MEDIUM",
+    "affiliate_potential": "HIGH",
+    "timing": "NOW",
+    "verifiability": "HIGH",
+    "trends_queries": [
+      "Pixel 11 Pro camera",
+      "iPhone Duo camera features"
+    ],
+    "reasoning": "Compares camera specifications and announced features of two released flagship phones, offering evergreen advice for users based on official product information.",
+    "data_grade": "A"
+  },
+  {
+    "cluster_name": "Google Pixel and Android Ecosystem",
+    "content_type": "GUIDE",
+    "suggested_title": "How to transfer Android passkeys between devices securely",
+    "hub_keyword": "Android passkey transfer",
+    "parent_hub": "Google Pixel Android",
+    "spoke_keywords": [
+      "Android passkey migration guide",
+      "secure passkey transfer Android"
+    ],
+    "evergreen_score": 95,
     "competition_level": "LOW",
     "affiliate_potential": "LOW",
     "timing": "NOW",
     "verifiability": "HIGH",
     "trends_queries": [
-      "gemini pixel settings",
-      "google gemini pixel commands",
-      "how to use gemini pixel"
+      "Android passkey transfer",
+      "move passkeys Android"
     ],
-    "reasoning": "Provides a guide for a specific, announced AI feature on Pixel phones, verifiable through official Google documentation and support pages.",
+    "reasoning": "Addresses a core and evolving security feature in Android, providing a step-by-step guide on passkey management that will remain relevant as the technology matures.",
     "data_grade": "A"
   },
   {
-    "cluster_name": "Galaxy Fold Durability",
-    "content_type": "COMPARISON",
-    "suggested_title": "Galaxy Z Fold 8 vs Fold 7 hinge durability comparison",
-    "hub_keyword": "Galaxy Fold durability",
-    "parent_hub": "Galaxy Foldables",
+    "cluster_name": "Gaming Platform Features and Modding",
+    "content_type": "EXPLAINER",
+    "suggested_title": "Ubisoft Connect requirement removal for Steam games explained",
+    "hub_keyword": "Ubisoft Connect Steam",
+    "parent_hub": "Gaming Platform Features",
     "spoke_keywords": [
-      "galaxy z fold 8 hinge test",
-      "fold 8 vs fold 7 durability",
-      "galaxy z fold hinge issues"
-    ],
-    "evergreen_score": 90,
-    "competition_level": "MEDIUM",
-    "affiliate_potential": "HIGH",
-    "timing": "NOW",
-    "verifiability": "MEDIUM",
-    "trends_queries": [
-      "galaxy z fold 8 durability",
-      "fold 7 vs fold 8 hinge",
-      "galaxy fold 8 bend test"
-    ],
-    "reasoning": "Compares the durability of two released foldable phones, a topic of ongoing interest, with information verifiable from published third-party tests and official design details.",
-    "data_grade": "A"
-  },
-  {
-    "cluster_name": "Google Messages Features",
-    "content_type": "GUIDE",
-    "suggested_title": "How to enable custom chat bubbles in Google Messages",
-    "hub_keyword": "Google Messages customization",
-    "parent_hub": "Android Apps",
-    "spoke_keywords": [
-      "google messages custom bubbles",
-      "enable chat bubbles messages app",
-      "android messages customization"
+      "Ubisoft games Steam without Connect",
+      "Steam Ubisoft launcher changes"
     ],
     "evergreen_score": 80,
     "competition_level": "LOW",
@@ -88,83 +103,32 @@
     "timing": "NOW",
     "verifiability": "HIGH",
     "trends_queries": [
-      "google messages custom chat",
-      "messages app bubbles",
-      "android messages personalization"
+      "Ubisoft Connect removal Steam",
+      "Steam games no Connect"
     ],
-    "reasoning": "Offers a step-by-step guide for a new, user-facing feature in a widely used Android app, verifiable through official announcements and app updates.",
+    "reasoning": "Explains a significant policy change regarding game launchers, providing information that remains relevant for a long time for users considering Ubisoft games on Steam.",
     "data_grade": "B"
   },
   {
-    "cluster_name": "GTA 6 Performance Analysis",
-    "content_type": "EXPLAINER",
-    "suggested_title": "Why Grand Theft Auto 6 console performance is 30 FPS",
-    "hub_keyword": "GTA 6 performance",
-    "parent_hub": "Gaming Performance",
+    "cluster_name": "Gaming Platform Features and Modding",
+    "content_type": "GUIDE",
+    "suggested_title": "How to install official IKEA mod for Skyrim Anniversary Edition",
+    "hub_keyword": "Skyrim IKEA mod",
+    "parent_hub": "Gaming Platform Features",
     "spoke_keywords": [
-      "gta 6 30 fps explanation",
-      "grand theft auto 6 console frame rate",
-      "gta 6 performance limitations"
+      "Skyrim mod installation guide IKEA",
+      "Anniversary Edition modding help"
     ],
     "evergreen_score": 85,
-    "competition_level": "MEDIUM",
+    "competition_level": "LOW",
     "affiliate_potential": "LOW",
-    "timing": "NOW",
-    "verifiability": "HIGH",
-    "trends_queries": [
-      "gta 6 30fps why",
-      "gta 6 frame rate console",
-      "gta 6 performance explained"
-    ],
-    "reasoning": "Explains a widely discussed technical decision for a major released game, using official statements and technical analysis from reputable sources.",
-    "data_grade": "A"
-  },
-  {
-    "cluster_name": "Nvidia DLSS Technology",
-    "content_type": "EXPLAINER",
-    "suggested_title": "What is Nvidia DLSS 5 and how it improves game performance",
-    "hub_keyword": "Nvidia DLSS explainer",
-    "parent_hub": "Gaming Graphics Tech",
-    "spoke_keywords": [
-      "nvidia dlss 5 explained",
-      "how dlss 5 works",
-      "dlss 5 gaming benefits"
-    ],
-    "evergreen_score": 90,
-    "competition_level": "MEDIUM",
-    "affiliate_potential": "HIGH",
-    "timing": "NOW",
-    "verifiability": "HIGH",
-    "trends_queries": [
-      "what is dlss 5",
-      "nvidia dlss 5 features",
-      "dlss 5 performance gain"
-    ],
-    "reasoning": "Explains a core graphics technology with continuous relevance for PC gaming, verifiable through official Nvidia documentation and tech reviews.",
-    "data_grade": "A"
-  },
-  {
-    "cluster_name": "Elden Ring Performance",
-    "content_type": "COMPARISON",
-    "suggested_title": "Elden Ring PC vs Console performance differences explained",
-    "hub_keyword": "Elden Ring performance comparison",
-    "parent_hub": "Gaming Performance",
-    "spoke_keywords": [
-      "elden ring pc performance review",
-      "elden ring console fps comparison",
-      "best platform for elden ring"
-    ],
-    "evergreen_score": 85,
-    "competition_level": "MEDIUM",
-    "affiliate_potential": "HIGH",
     "timing": "NOW",
     "verifiability": "MEDIUM",
     "trends_queries": [
-      "elden ring pc vs ps5",
-      "elden ring xbox series x performance",
-      "elden ring best settings pc"
+      "Skyrim IKEA mod install",
+      "official Skyrim mods"
     ],
-    "reasoning": "Compares performance across different platforms for a popular, established game, drawing facts from numerous benchmarks and reviews by gaming publications.",
+    "reasoning": "Provides a specific mod installation guide for a highly popular and stable game (Skyrim), leveraging an 'official' mod to ensure verifiability and evergreen appeal.",
     "data_grade": "A"
   }
 ]
