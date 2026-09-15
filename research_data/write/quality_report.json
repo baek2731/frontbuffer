@@ -1,21 +1,11 @@
 {
   "total": 12,
-  "ok": 7,
-  "issue_count": 5,
+  "ok": 10,
+  "issue_count": 2,
   "issue_files": [
     {
-      "name": "022_2026-W33_nintendo-switch-2-hardware_GUIDE",
-      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/022_2026-W33_nintendo-switch-2-hardware_GUIDE.md",
-      "issues": [
-        {
-          "id": "R3",
-          "label": "단어수 미달 (772단어 / 최소 800)"
-        }
-      ]
-    },
-    {
-      "name": "023_2026-W33_android-system-features_EXPLAINER",
-      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/023_2026-W33_android-system-features_EXPLAINER.md",
+      "name": "029_2026-W35_04-pixel-pro_GUIDE",
+      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/029_2026-W35_04-pixel-pro_GUIDE.md",
       "issues": [
         {
           "id": "R4",
@@ -28,42 +18,8 @@
       ]
     },
     {
-      "name": "024_2026-W35_04-pixel-pro_COMPARISON",
-      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/024_2026-W35_04-pixel-pro_COMPARISON.md",
-      "issues": [
-        {
-          "id": "R2",
-          "label": "[NEEDS VERIFICATION] 태그 잔존"
-        },
-        {
-          "id": "R4",
-          "label": "H1 제목 없음"
-        },
-        {
-          "id": "R5",
-          "label": "발행 불가 — 한국어 판정 메모 잔존",
-          "block": true
-        }
-      ]
-    },
-    {
-      "name": "026_2026-W35_elden-ring-performance_COMPARISON",
-      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/026_2026-W35_elden-ring-performance_COMPARISON.md",
-      "issues": [
-        {
-          "id": "R4",
-          "label": "H1 제목 없음"
-        },
-        {
-          "id": "R5",
-          "label": "발행 불가 — Gemini cite 번호 잔존",
-          "block": true
-        }
-      ]
-    },
-    {
-      "name": "027_2026-W35_05-gta-6s_EXPLAINER",
-      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/027_2026-W35_05-gta-6s_EXPLAINER.md",
+      "name": "034_2026-W37_10-android-auto_GUIDE",
+      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/034_2026-W37_10-android-auto_GUIDE.md",
       "issues": [
         {
           "id": "R5",
@@ -75,111 +31,25 @@
   ],
   "results": [
     {
-      "file": "research_data/write/final/017_2026-W35_01-pixel-pro_COMPARISON.md",
-      "name": "017_2026-W35_01-pixel-pro_COMPARISON",
-      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/017_2026-W35_01-pixel-pro_COMPARISON.md",
+      "file": "research_data/write/final/017_2026-W37_02-galaxy-fold_COMPARISON.md",
+      "name": "017_2026-W37_02-galaxy-fold_COMPARISON",
+      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/017_2026-W37_02-galaxy-fold_COMPARISON.md",
       "issues": [],
       "ok": true
     },
     {
-      "file": "research_data/write/final/017_2026-W35_02-galaxy-fold_COMPARISON.md",
-      "name": "017_2026-W35_02-galaxy-fold_COMPARISON",
-      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/017_2026-W35_02-galaxy-fold_COMPARISON.md",
+      "file": "research_data/write/final/024_2026-W37_04-pixel-pro_COMPARISON.md",
+      "name": "024_2026-W37_04-pixel-pro_COMPARISON",
+      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/024_2026-W37_04-pixel-pro_COMPARISON.md",
       "issues": [],
       "ok": true
     },
     {
-      "file": "research_data/write/final/022_2026-W33_nintendo-switch-2-hardware_GUIDE.md",
-      "name": "022_2026-W33_nintendo-switch-2-hardware_GUIDE",
-      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/022_2026-W33_nintendo-switch-2-hardware_GUIDE.md",
-      "issues": [
-        {
-          "id": "R3",
-          "label": "단어수 미달 (772단어 / 최소 800)"
-        }
-      ],
-      "ok": false
-    },
-    {
-      "file": "research_data/write/final/022_2026-W33_pc-gaming-hardware-guides_GUIDE.md",
-      "name": "022_2026-W33_pc-gaming-hardware-guides_GUIDE",
-      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/022_2026-W33_pc-gaming-hardware-guides_GUIDE.md",
+      "file": "research_data/write/final/026_2026-W37_elden-ring-performance_COMPARISON.md",
+      "name": "026_2026-W37_elden-ring-performance_COMPARISON",
+      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/026_2026-W37_elden-ring-performance_COMPARISON.md",
       "issues": [],
       "ok": true
-    },
-    {
-      "file": "research_data/write/final/023_2026-W33_android-system-features_EXPLAINER.md",
-      "name": "023_2026-W33_android-system-features_EXPLAINER",
-      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/023_2026-W33_android-system-features_EXPLAINER.md",
-      "issues": [
-        {
-          "id": "R4",
-          "label": "H1 제목 없음"
-        },
-        {
-          "id": "R3",
-          "label": "단어수 미달 (742단어 / 최소 800)"
-        }
-      ],
-      "ok": false
-    },
-    {
-      "file": "research_data/write/final/024_2026-W35_04-pixel-pro_COMPARISON.md",
-      "name": "024_2026-W35_04-pixel-pro_COMPARISON",
-      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/024_2026-W35_04-pixel-pro_COMPARISON.md",
-      "issues": [
-        {
-          "id": "R2",
-          "label": "[NEEDS VERIFICATION] 태그 잔존"
-        },
-        {
-          "id": "R4",
-          "label": "H1 제목 없음"
-        },
-        {
-          "id": "R5",
-          "label": "발행 불가 — 한국어 판정 메모 잔존",
-          "block": true
-        }
-      ],
-      "ok": false
-    },
-    {
-      "file": "research_data/write/final/025_2026-W35_galaxy-fold-durability_COMPARISON.md",
-      "name": "025_2026-W35_galaxy-fold-durability_COMPARISON",
-      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/025_2026-W35_galaxy-fold-durability_COMPARISON.md",
-      "issues": [],
-      "ok": true
-    },
-    {
-      "file": "research_data/write/final/026_2026-W35_elden-ring-performance_COMPARISON.md",
-      "name": "026_2026-W35_elden-ring-performance_COMPARISON",
-      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/026_2026-W35_elden-ring-performance_COMPARISON.md",
-      "issues": [
-        {
-          "id": "R4",
-          "label": "H1 제목 없음"
-        },
-        {
-          "id": "R5",
-          "label": "발행 불가 — Gemini cite 번호 잔존",
-          "block": true
-        }
-      ],
-      "ok": false
-    },
-    {
-      "file": "research_data/write/final/027_2026-W35_05-gta-6s_EXPLAINER.md",
-      "name": "027_2026-W35_05-gta-6s_EXPLAINER",
-      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/027_2026-W35_05-gta-6s_EXPLAINER.md",
-      "issues": [
-        {
-          "id": "R5",
-          "label": "발행 불가 — 미처리 내부링크 잔존",
-          "block": true
-        }
-      ],
-      "ok": false
     },
     {
       "file": "research_data/write/final/028_2026-W35_nvidia-dlss-technology_EXPLAINER.md",
@@ -192,13 +62,70 @@
       "file": "research_data/write/final/029_2026-W35_04-pixel-pro_GUIDE.md",
       "name": "029_2026-W35_04-pixel-pro_GUIDE",
       "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/029_2026-W35_04-pixel-pro_GUIDE.md",
-      "issues": [],
-      "ok": true
+      "issues": [
+        {
+          "id": "R4",
+          "label": "H1 제목 없음"
+        },
+        {
+          "id": "R3",
+          "label": "단어수 미달 (742단어 / 최소 800)"
+        }
+      ],
+      "ok": false
     },
     {
       "file": "research_data/write/final/030_2026-W35_03-google-maps_GUIDE.md",
       "name": "030_2026-W35_03-google-maps_GUIDE",
       "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/030_2026-W35_03-google-maps_GUIDE.md",
+      "issues": [],
+      "ok": true
+    },
+    {
+      "file": "research_data/write/final/031_2026-W37_01-steam-frame_COMPARISON.md",
+      "name": "031_2026-W37_01-steam-frame_COMPARISON",
+      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/031_2026-W37_01-steam-frame_COMPARISON.md",
+      "issues": [],
+      "ok": true
+    },
+    {
+      "file": "research_data/write/final/032_2026-W37_10-android-auto_COMPARISON.md",
+      "name": "032_2026-W37_10-android-auto_COMPARISON",
+      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/032_2026-W37_10-android-auto_COMPARISON.md",
+      "issues": [],
+      "ok": true
+    },
+    {
+      "file": "research_data/write/final/033_2026-W37_01-steam-frame_GUIDE.md",
+      "name": "033_2026-W37_01-steam-frame_GUIDE",
+      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/033_2026-W37_01-steam-frame_GUIDE.md",
+      "issues": [],
+      "ok": true
+    },
+    {
+      "file": "research_data/write/final/034_2026-W37_10-android-auto_GUIDE.md",
+      "name": "034_2026-W37_10-android-auto_GUIDE",
+      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/034_2026-W37_10-android-auto_GUIDE.md",
+      "issues": [
+        {
+          "id": "R5",
+          "label": "발행 불가 — 미처리 내부링크 잔존",
+          "block": true
+        }
+      ],
+      "ok": false
+    },
+    {
+      "file": "research_data/write/final/035_2026-W37_gaming-platform-features-and-modding_GUIDE.md",
+      "name": "035_2026-W37_gaming-platform-features-and-modding_GUIDE",
+      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/035_2026-W37_gaming-platform-features-and-modding_GUIDE.md",
+      "issues": [],
+      "ok": true
+    },
+    {
+      "file": "research_data/write/final/036_2026-W37_gaming-platform-features-and-modding_EXPLAINER.md",
+      "name": "036_2026-W37_gaming-platform-features-and-modding_EXPLAINER",
+      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/036_2026-W37_gaming-platform-features-and-modding_EXPLAINER.md",
       "issues": [],
       "ok": true
     }
