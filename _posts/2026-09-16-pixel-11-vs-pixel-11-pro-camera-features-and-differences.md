@@ -5,6 +5,9 @@ date: 2026-09-16 14:36:00 +0000
 categories: [tech]
 tags: ["comparison", "pixel", "pro"]
 excerpt: 'The highly anticipated Pixel 11 series, comprising the Pixel 11, Pixel 11 Pro, Pixel 11 Pro XL, and Pixel 11 Pro Fold, officially launched on August…'
+header:
+  image: https://images.frontbuffer.net/posts/pixel-11-vs-pixel-11-pro-camera-features-and-differences/og.png
+  overlay_filter: 0
 author_profile: false
 read_time: true
 share: true
