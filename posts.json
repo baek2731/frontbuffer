@@ -992,6 +992,23 @@
       "hub_cluster": "",
       "verified_keywords": [],
       "slug": "2026-09-16-pixel-11-vs-pixel-11-pro-camera-features-and-differences"
+    },
+    {
+      "status": "live",
+      "date": "2026-09-17",
+      "title": "What is Nvidia DLSS 5 and how it improves game performance",
+      "live_url": "https://frontbuffer.net/gaming/what-is-nvidia-dlss-5-and-how-it-improves-game-performance/",
+      "categories": [
+        "gaming"
+      ],
+      "content_type": "EXPLAINER",
+      "hub_cluster": "Nvidia DLSS Technology",
+      "verified_keywords": [
+        "Nvidia DLSS explainer",
+        "nvidia dlss 5 explained",
+        "how dlss 5 works"
+      ],
+      "slug": "2026-09-17-what-is-nvidia-dlss-5-and-how-it-improves-game-performance"
     }
   ],
   "_last_updated": "2026-08-07T14:54:21.320932+00:00"
