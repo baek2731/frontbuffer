@@ -5,6 +5,9 @@ date: 2026-09-17 14:31:00 +0000
 categories: [gaming]
 tags: ["explainer", "nvidia", "dlss", "technology"]
 excerpt: 'September 3, 2026, marks the official launch of Nvidia DLSS 5, a pivotal moment for gaming graphics. This latest iteration of Deep Learning Super…'
+header:
+  image: https://images.frontbuffer.net/posts/what-is-nvidia-dlss-5-and-how-it-improves-game-performance/og.png
+  overlay_filter: 0
 author_profile: false
 read_time: true
 share: true
