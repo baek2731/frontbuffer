@@ -1009,6 +1009,19 @@
         "how dlss 5 works"
       ],
       "slug": "2026-09-17-what-is-nvidia-dlss-5-and-how-it-improves-game-performance"
+    },
+    {
+      "status": "live",
+      "date": "2026-09-19",
+      "title": "How to enable custom chat bubbles in Google Messages",
+      "live_url": "https://frontbuffer.net/tech/how-to-enable-custom-chat-bubbles-in-google-messages/",
+      "categories": [
+        "tech"
+      ],
+      "content_type": "GUIDE",
+      "hub_cluster": "",
+      "verified_keywords": [],
+      "slug": "2026-09-19-how-to-enable-custom-chat-bubbles-in-google-messages"
     }
   ],
   "_last_updated": "2026-08-07T14:54:21.320932+00:00"
