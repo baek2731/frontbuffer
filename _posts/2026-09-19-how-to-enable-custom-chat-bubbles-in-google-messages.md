@@ -5,6 +5,9 @@ date: 2026-09-19 14:20:00 +0000
 categories: [tech]
 tags: ["guide", "google", "maps"]
 excerpt: 'Google Messages has recently introduced a significant update, officially rolling out "Chat themes" that allow users to personalize their messaging…'
+header:
+  image: https://images.frontbuffer.net/posts/how-to-enable-custom-chat-bubbles-in-google-messages/og.png
+  overlay_filter: 0
 author_profile: false
 read_time: true
 share: true
