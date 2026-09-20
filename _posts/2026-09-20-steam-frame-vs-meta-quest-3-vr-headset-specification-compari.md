@@ -5,6 +5,9 @@ date: 2026-09-20 14:20:00 +0000
 categories: [gaming]
 tags: ["comparison", "steam", "frame"]
 excerpt: 'The highly anticipated Steam Frame VR headset officially launched on September 14, 2026, igniting significant discussions within the virtual reality…'
+header:
+  image: https://images.frontbuffer.net/posts/steam-frame-vs-meta-quest-3-vr-headset-specification-compari/og.png
+  overlay_filter: 0
 author_profile: false
 read_time: true
 share: true
