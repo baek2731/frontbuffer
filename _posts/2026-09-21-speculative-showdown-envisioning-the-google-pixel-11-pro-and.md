@@ -5,6 +5,9 @@ date: 2026-09-21 14:51:00 +0000
 categories: [tech]
 tags: ["comparison", "android", "auto"]
 excerpt: 'Google''s Pixel 8 Pro introduced significant AI-driven camera enhancements in late 2023, while Apple''s iPhone 15 Pro Max pushed sensor and…'
+header:
+  image: https://images.frontbuffer.net/posts/speculative-showdown-envisioning-the-google-pixel-11-pro-and/og.png
+  overlay_filter: 0
 author_profile: false
 read_time: true
 share: true
