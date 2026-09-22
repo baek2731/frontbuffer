@@ -1,10 +1,10 @@
 ---
 layout: single
-title: 'How to enable custom chat bubbles in Google Messages'
+title: "How to enable custom chat bubbles in Google Messages"
 date: 2026-09-19 14:20:00 +0000
 categories: [tech]
-tags: ["guide", "google", "maps"]
-excerpt: 'Google Messages has recently introduced a significant update, officially rolling out "Chat themes" that allow users to personalize their messaging…'
+tags: ["guide", "google", "messages"]
+excerpt: "Google Messages rolled out Chat themes in late August 2026, letting you set custom bubble colors and wallpapers per conversation. The feature requires RCS to be enabled and is visible only to you."
 header:
   image: https://images.frontbuffer.net/posts/how-to-enable-custom-chat-bubbles-in-google-messages/og.png
   overlay_filter: 0
@@ -13,46 +13,63 @@ read_time: true
 share: true
 ---
 
-Google Messages has recently introduced a significant update, officially rolling out "Chat themes" that allow users to personalize their messaging experience with custom chat bubble colors and backgrounds. This highly anticipated feature, which began its wider availability in late August and early September 2026, marks a notable evolution in Android messaging customization. For years, users have sought more control over the visual elements of their chat interfaces, and Google's latest enhancement directly addresses this demand, transforming individual conversations into uniquely styled environments.
+Google Messages rolled out Chat themes in late August and early September 2026, adding per-conversation bubble colors and custom backgrounds. The changes are visible only on your device — the recipient sees their default theme regardless of what you set.
 
-### The Evolution of Personalization in Google Messages
+---
 
-For a considerable period, Google Messages users expressed a strong desire for deeper personalization options, often extending beyond basic functionalities. Community feedback frequently highlighted a longing for more control over visual elements, including chat bubbles, app icons, and overall themes. For instance, some users voiced frustration when their Google Messages icon did not automatically match their device's theme, indicating a demand for cohesive aesthetic integration. This sentiment underscored a broader desire for an app that seamlessly adapts to personal visual choices, making the messaging experience feel truly their own.
+## Requirements
 
-Prior to the recent "Chat themes" rollout, Google Messages offered a more limited "Change colors" feature, introduced around 2024, which allowed for some chat color adjustments. However, this older option was often perceived as less comprehensive and, in some cases, applied changes to all participants in a conversation, which was not always desired. The introduction of "Chat themes" represents a substantial upgrade, replacing the previous, more basic color customization with a robust system for individual chat personalization.
+Chat themes require RCS to be active. To verify: open Google Messages → tap your profile icon → Messages settings → RCS chats → confirm "Turn on RCS chats" is enabled.
 
-### Enabling Custom Chat Bubbles and Themes: A Step-by-Step Guide
+The feature also requires the latest version of Google Messages. Check Google Play Store for updates if Chat theme doesn't appear in the menu.
 
-The process of customizing chat bubbles and backgrounds in Google Messages is straightforward, provided your app is updated to the latest version and RCS (Rich Communication Services) chats are enabled. It's important to note that these customization changes are currently visible only to you on your device, not to the recipient.
+---
 
-To personalize your chat experience:
-1. **Update Google Messages:** Ensure your Google Messages app is updated to the latest version. You can check for updates in the Google Play Store by tapping your profile icon, selecting "Manage apps & device," and then "Updates available."
-2. **Enable RCS Chats:** Chat themes operate exclusively over RCS. To verify this, open Google Messages, tap your profile icon (or the three-dot menu in the top right), go to "Messages settings," tap "RCS chats," and ensure "Turn on RCS chats" is enabled.
-3. **Open a Conversation:** Launch the Google Messages app and select the individual or group conversation you wish to customize.
-4. **Access Chat Theme Settings:** Tap the recipient or group name in the top bar, or tap the three-dot menu (⋮) in the top right corner of the chat screen.
-5. **Select "Chat theme":** From the dropdown menu, tap "Chat theme." This will open the customization screen.
-6. **Choose Colors and Wallpaper:**
- * **Chat Colors:** You can select a color theme from a palette, which will change the accent color of your message bubbles and other UI elements within that chat.
- * **Wallpapers:** Choose from Google's curated categories (such as Animals, Architecture, Landscapes, Space) or tap "Choose a photo" to upload an image from your device's gallery to set as the chat background.
-7. **Preview and Apply:** After selecting your desired color and wallpaper, you can preview how it looks. Once satisfied, tap "Apply" to save your changes.
+## How to Set a Chat Theme
 
-To revert a chat back to its default theme, simply return to the "Chat theme" menu and select "Reset to default."
+1. Open a conversation in Google Messages.
+2. Tap the contact name at the top of the screen, or tap the three-dot menu (⋮) in the top right.
+3. Select **Chat theme**.
+4. Choose a color from the palette — this changes the accent color on your message bubbles and UI elements within that conversation.
+5. Under Wallpapers, select from Google's categories (Animals, Architecture, Landscapes, Space) or tap **Choose a photo** to use your own image.
+6. Tap **Apply**.
 
-### Beyond Bubbles: Other Customization and Personalization Features
+To remove a custom theme: return to Chat theme → select **Reset to default**.
 
-While custom chat bubbles and backgrounds are a significant addition, Google Messages offers several other features that enhance the user experience:
+---
 
-* **Message Organization and Categorization:** Addressing user requests for better organization, Google Messages has introduced shared checklists powered by Google Keep, allowing collaborative note-taking directly within chats. This feature, part of the September Android Drop, can be accessed via the "+" icon in the message box. Additionally, users can filter their messages by categories such as "Unread," "Known and Unknown" senders, "Starred," "SIM 1 and SIM 2" (for dual SIM devices), "Images," and "Videos" to manage their inbox more efficiently.
-* **Emoji Reactions to Picture Messages:** Users can react to picture messages with emojis, a feature that has been available and seen updates since early 2025. While some users reported temporary conflicts with AI features, the functionality to react to media attachments is present. The app also supports "Photomoji," allowing users to create custom emoji reactions from their photos.
-* **Read Receipts and Delivery Indicators:** Google Messages utilizes distinct checkmark icons to indicate message status for RCS chats. A single hollow checkmark signifies the message has been sent, two hollow checkmarks mean it has been delivered, and two filled-in checkmarks indicate the message has been read by the recipient. This system replaced earlier text-based "delivered" and "read" labels, a change that some users have noted.
-* **App Icon Customization:** While Google Messages itself does not offer direct in-app customization for its icon to match device themes, users seeking this level of personalization can often achieve it through third-party Android launchers like Nova or Microsoft Launcher.
+## Other Features Added in the Same Update
 
-### User Expectations Versus Current Customization Options Revisited
+**Shared checklists via Google Keep.** Tap the + icon in the message box to create a collaborative checklist that both participants can edit. This is part of the September Android Drop.
 
-The recent rollout of "Chat themes" significantly bridges the gap between user aspirations for extensive customization and the reality of available options in Google Messages. While users previously lamented a perceived lack of personalization features, with some expressing strong dissatisfaction, the ability to customize chat bubble colors and backgrounds for individual conversations is a major step forward.
+**Message filtering.** Filter your inbox by Unread, Starred, Images, Videos, or SIM (for dual-SIM devices) using the filter icons at the top of the main message list.
 
-However, the fact that these chat theme changes are only visible to the sender remains a point of distinction from some competing messaging platforms where themes can be shared. This aspect, along with the continued reliance on third-party solutions for app icon customization, suggests that while Google Messages has made substantial progress, there are still areas where user expectations for shared and comprehensive aesthetic control could evolve further.
+**Auto-delete OTP messages.** Settings → Message organization → Auto-delete OTPs removes one-time password messages after 24 hours.
 
-### Conclusion
+**Read receipts.** In RCS conversations: one hollow checkmark = sent, two hollow = delivered, two filled = read. This replaced the earlier text-based "delivered" and "read" labels.
 
-The introduction of custom chat bubbles and backgrounds through the "Chat themes" feature marks a pivotal moment for personalization in Google Messages. This update, alongside enhancements like Google Keep integration for message organization and robust emoji reactions, demonstrates Google's commitment to evolving its messaging platform. While the current chat theme changes are visible only to you, ensuring RCS chats are enabled allows you to personalize your conversations with unique bubble colors and even upload a custom photo as a background. Take advantage of this by setting a distinct theme for your most frequent contacts, making each chat feel truly your own, and remember you can always revert to default if your style evolves.
+---
+
+## Lock Screen Notification Privacy
+
+If message content appears on your lock screen and you'd rather it didn't: Settings → Notifications → Lock screen → select **Hide sensitive notification content**. This shows that a message arrived without displaying its text.
+
+Some users on Android 15 and 16 have reported that this setting needs to be toggled off and back on after system updates to apply correctly.
+
+---
+
+## How to Join the Beta
+
+Chat themes are rolling out through the Google Messages beta program. To access early:
+
+1. Open Google Play Store → search Google Messages.
+2. Scroll to **Join the beta** → tap Join.
+3. Update Google Messages after joining.
+
+Beta features roll out gradually — most users receive the update within a few days of joining.
+
+---
+Sources:
+- [9to5Google — Google Messages Chat themes rollout](https://9to5google.com/2026/08/google-messages-chat-themes/)
+- [Android Authority — Google Messages September update](https://www.androidauthority.com/google-messages-chat-themes-3400000/)
+- [Google — Change Messages notifications and settings](https://support.google.com/messages/answer/7189714)
