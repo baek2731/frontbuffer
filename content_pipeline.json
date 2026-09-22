@@ -1,7 +1,7 @@
 {
   "_version": "1.3",
   "_description": "콘텐츠 파이프라인 — 클러스터 단위 관리",
-  "_last_updated": "2026-09-22T05:54:03.694661+00:00",
+  "_last_updated": "2026-09-22T05:57:03.758778+00:00",
   "hub_clusters": {
     "Steam Machine": {
       "hub_keyword": "Steam Machine",
@@ -528,9 +528,11 @@
       ],
       "spoke_urls": {
         "Pixel AI Features (GUIDE)": "pending",
-        "Pixel Phone Camera Features (COMPARISON)": "pending"
+        "Pixel Phone Camera Features (COMPARISON)": "pending",
+        "Pixel Phone Features (COMPARISON)": "pending"
       },
       "internal_links": [
+        "pending",
         "pending",
         "pending"
       ]
@@ -1782,10 +1784,11 @@
       "notes": ""
     },
     "Pixel Phone Features": {
-      "types_done": [],
+      "types_done": [
+        "COMPARISON"
+      ],
       "last_week": "2026-W38",
       "suggest_next": [
-        "COMPARISON",
         "GUIDE",
         "EXPLAINER",
         "LISTICLE"
@@ -5390,8 +5393,9 @@
         "data_grade": "A",
         "verified_keywords": [],
         "publish_order": 39,
-        "status": "candidate",
-        "selected_at": "2026-09-22T05:50:50.235664+00:00"
+        "status": "published",
+        "selected_at": "2026-09-22T05:50:50.235664+00:00",
+        "url": "pending"
       },
       {
         "cluster_name": "Steam Portable Gaming",
@@ -5916,6 +5920,15 @@
       "week_tag": "2026-W38",
       "published_at": "2026-09-22T05:54:03.694595+00:00",
       "hub_cluster": "Googlebooks"
+    },
+    {
+      "cluster_name": "Pixel Phone Features",
+      "title": "Google Pixel 10 Camera vs. Anticipated Pixel 11: Low Light and Voice Typing Expectations",
+      "url": "pending",
+      "content_type": "COMPARISON",
+      "week_tag": "2026-W38",
+      "published_at": "2026-09-22T05:57:03.758729+00:00",
+      "hub_cluster": "Pixel Phones"
     }
   ]
 }
