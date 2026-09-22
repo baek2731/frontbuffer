@@ -1,7 +1,7 @@
 {
   "_version": "1.3",
   "_description": "콘텐츠 파이프라인 — 클러스터 단위 관리",
-  "_last_updated": "2026-09-22T06:00:01.921420+00:00",
+  "_last_updated": "2026-09-22T06:01:27.434865+00:00",
   "hub_clusters": {
     "Steam Machine": {
       "hub_keyword": "Steam Machine",
@@ -621,16 +621,18 @@
     },
     "Googlebooks": {
       "hub_keyword": "Googlebooks",
-      "hub_status": "PENDING",
+      "hub_status": "READY",
       "hub_title": "",
       "hub_url": "",
       "spokes": [
         "Googlebooks Overview"
       ],
       "spoke_urls": {
-        "Googlebooks Overview (COMPARISON)": "pending"
+        "Googlebooks Overview (COMPARISON)": "pending",
+        "Googlebooks Overview (EXPLAINER)": "pending"
       },
       "internal_links": [
+        "pending",
         "pending"
       ]
     },
@@ -1767,12 +1769,12 @@
     },
     "Googlebooks Overview": {
       "types_done": [
-        "COMPARISON"
+        "COMPARISON",
+        "EXPLAINER"
       ],
       "last_week": "2026-W38",
       "suggest_next": [
         "GUIDE",
-        "EXPLAINER",
         "LISTICLE"
       ],
       "hub_keyword": "Android on Laptop",
@@ -5450,8 +5452,9 @@
         "data_grade": "A",
         "verified_keywords": [],
         "publish_order": 41,
-        "status": "candidate",
-        "selected_at": "2026-09-22T05:50:50.235664+00:00"
+        "status": "published",
+        "selected_at": "2026-09-22T05:50:50.235664+00:00",
+        "url": "pending"
       },
       {
         "cluster_name": "Pixel Phone Features",
@@ -5944,6 +5947,15 @@
       "week_tag": "2026-W38",
       "published_at": "2026-09-22T06:00:01.921367+00:00",
       "hub_cluster": "Steam Portable Gaming"
+    },
+    {
+      "cluster_name": "Googlebooks Overview",
+      "title": "The \"Googlebook\" Concept: Exploring the Idea of Android on a Laptop",
+      "url": "pending",
+      "content_type": "EXPLAINER",
+      "week_tag": "2026-W38",
+      "published_at": "2026-09-22T06:01:27.434814+00:00",
+      "hub_cluster": "Googlebooks"
     }
   ]
 }
