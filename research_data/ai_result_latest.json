@@ -1,13 +1,13 @@
 [
   {
-    "cluster_name": "Steam Frame VR Headset",
+    "cluster_name": "Googlebooks Overview",
     "content_type": "COMPARISON",
-    "suggested_title": "Steam Frame vs Meta Quest 3: VR headset specification comparison",
-    "hub_keyword": "Steam Frame VR",
-    "parent_hub": "Steam Frame",
+    "suggested_title": "Googlebook vs Chromebook: What's the Difference and Which is Better",
+    "hub_keyword": "Googlebooks",
+    "parent_hub": "Googlebooks",
     "spoke_keywords": [
-      "Steam Frame vs Meta Quest 3",
-      "VR headset specification comparison"
+      "googlebook vs chromebook comparison",
+      "googlebook android os vs chromeos"
     ],
     "evergreen_score": 90,
     "competition_level": "MEDIUM",
@@ -15,120 +15,164 @@
     "timing": "NOW",
     "verifiability": "HIGH",
     "trends_queries": [
-      "Steam Frame vs Quest 3",
-      "VR headset specs"
+      "googlebook vs chromebook",
+      "android laptop vs chromeos"
     ],
-    "reasoning": "Compares two released VR headsets based on publicly available specifications, providing evergreen value for potential buyers without requiring hands-on testing.",
+    "reasoning": "This comparison focuses on the core differences between Google's new Android-based laptops and existing Chromebooks, a fundamental aspect that remains relevant for the product's lifecycle and is verifiable through official specs.",
     "data_grade": "A"
   },
   {
-    "cluster_name": "Steam Frame VR Headset",
-    "content_type": "GUIDE",
-    "suggested_title": "How to set up Valve Steam Frame for PC VR gaming experience",
-    "hub_keyword": "Steam Frame setup",
-    "parent_hub": "Steam Frame",
+    "cluster_name": "Googlebooks Overview",
+    "content_type": "EXPLAINER",
+    "suggested_title": "Googlebook OS Explained: How Android Works on a Laptop",
+    "hub_keyword": "Android on Laptop",
+    "parent_hub": "Googlebooks",
     "spoke_keywords": [
-      "Steam Frame PC VR setup",
-      "Valve VR headset connection guide"
+      "googlebook android os features",
+      "android laptop operating system guide"
     ],
     "evergreen_score": 85,
-    "competition_level": "LOW",
-    "affiliate_potential": "MEDIUM",
-    "timing": "NOW",
-    "verifiability": "HIGH",
-    "trends_queries": [
-      "Steam Frame setup",
-      "PC VR connection guide"
-    ],
-    "reasoning": "Provides a detailed guide on connecting and configuring the Steam Frame for PC VR, verifiable through official Valve documentation and stable over time.",
-    "data_grade": "A"
-  },
-  {
-    "cluster_name": "Google Pixel and Android Ecosystem",
-    "content_type": "COMPARISON",
-    "suggested_title": "Google Pixel 11 Pro vs iPhone Duo: camera feature comparison",
-    "hub_keyword": "Pixel 11 camera",
-    "parent_hub": "Google Pixel Android",
-    "spoke_keywords": [
-      "Pixel 11 Pro camera features",
-      "iPhone Duo camera specs"
-    ],
-    "evergreen_score": 90,
-    "competition_level": "MEDIUM",
-    "affiliate_potential": "HIGH",
-    "timing": "NOW",
-    "verifiability": "HIGH",
-    "trends_queries": [
-      "Pixel 11 Pro camera",
-      "iPhone Duo camera features"
-    ],
-    "reasoning": "Compares camera specifications and announced features of two released flagship phones, offering evergreen advice for users based on official product information.",
-    "data_grade": "A"
-  },
-  {
-    "cluster_name": "Google Pixel and Android Ecosystem",
-    "content_type": "GUIDE",
-    "suggested_title": "How to transfer Android passkeys between devices securely",
-    "hub_keyword": "Android passkey transfer",
-    "parent_hub": "Google Pixel Android",
-    "spoke_keywords": [
-      "Android passkey migration guide",
-      "secure passkey transfer Android"
-    ],
-    "evergreen_score": 95,
     "competition_level": "LOW",
     "affiliate_potential": "LOW",
     "timing": "NOW",
     "verifiability": "HIGH",
     "trends_queries": [
-      "Android passkey transfer",
-      "move passkeys Android"
+      "android os on laptop explained",
+      "googlebook android interface"
     ],
-    "reasoning": "Addresses a core and evolving security feature in Android, providing a step-by-step guide on passkey management that will remain relevant as the technology matures.",
+    "reasoning": "Explaining the unique implementation of Android as a laptop OS is evergreen, as it addresses a new paradigm for Google products and can be verified using official Android documentation and Googlebook announcements.",
     "data_grade": "A"
   },
   {
-    "cluster_name": "Gaming Platform Features and Modding",
-    "content_type": "EXPLAINER",
-    "suggested_title": "Ubisoft Connect requirement removal for Steam games explained",
-    "hub_keyword": "Ubisoft Connect Steam",
-    "parent_hub": "Gaming Platform Features",
+    "cluster_name": "Googlebooks Overview",
+    "content_type": "COMPARISON",
+    "suggested_title": "Googlebook Models Compared: Specs and Features of the Five Flagships",
+    "hub_keyword": "Googlebook Models",
+    "parent_hub": "Googlebooks",
     "spoke_keywords": [
-      "Ubisoft games Steam without Connect",
-      "Steam Ubisoft launcher changes"
+      "googlebook 5 models comparison",
+      "best googlebook model for students"
+    ],
+    "evergreen_score": 90,
+    "competition_level": "MEDIUM",
+    "affiliate_potential": "HIGH",
+    "timing": "NOW",
+    "verifiability": "HIGH",
+    "trends_queries": [
+      "googlebook model differences",
+      "googlebook specs comparison"
+    ],
+    "reasoning": "A comparison of the initial Googlebook models based on official specifications provides lasting value to potential buyers and is easily verifiable from launch announcements.",
+    "data_grade": "A"
+  },
+  {
+    "cluster_name": "Pixel Phone Features",
+    "content_type": "COMPARISON",
+    "suggested_title": "Pixel 11 vs Pixel 10 Camera: Low Light and Voice Typing Comparison",
+    "hub_keyword": "Pixel Camera",
+    "parent_hub": "Pixel Phones",
+    "spoke_keywords": [
+      "pixel 11 vs pixel 10 camera quality",
+      "pixel 11 low light photography comparison"
+    ],
+    "evergreen_score": 90,
+    "competition_level": "MEDIUM",
+    "affiliate_potential": "MEDIUM",
+    "timing": "NOW",
+    "verifiability": "HIGH",
+    "trends_queries": [
+      "pixel 11 camera review",
+      "pixel 10 vs 11 camera"
+    ],
+    "reasoning": "Comparing the camera capabilities, especially for specific features like low light, between successive Pixel generations remains relevant for years and is verifiable via official specs and reviews.",
+    "data_grade": "A"
+  },
+  {
+    "cluster_name": "Pixel Phone Features",
+    "content_type": "GUIDE",
+    "suggested_title": "How to Fix Pixel 11 Gaming Performance and Battery Drain Issues",
+    "hub_keyword": "Pixel Gaming",
+    "parent_hub": "Pixel Phones",
+    "spoke_keywords": [
+      "pixel 11 gaming lag fix",
+      "pixel 11 battery drain during games"
     ],
     "evergreen_score": 80,
     "competition_level": "LOW",
     "affiliate_potential": "LOW",
     "timing": "NOW",
-    "verifiability": "HIGH",
+    "verifiability": "MEDIUM",
     "trends_queries": [
-      "Ubisoft Connect removal Steam",
-      "Steam games no Connect"
+      "pixel 11 gaming issues",
+      "pixel 11 battery life fix"
     ],
-    "reasoning": "Explains a significant policy change regarding game launchers, providing information that remains relevant for a long time for users considering Ubisoft games on Steam.",
+    "reasoning": "Troubleshooting common performance and battery issues is evergreen for any smartphone and can be addressed with general Android optimization tips and officially documented settings.",
     "data_grade": "B"
   },
   {
-    "cluster_name": "Gaming Platform Features and Modding",
-    "content_type": "GUIDE",
-    "suggested_title": "How to install official IKEA mod for Skyrim Anniversary Edition",
-    "hub_keyword": "Skyrim IKEA mod",
-    "parent_hub": "Gaming Platform Features",
+    "cluster_name": "Pixel Phone Features",
+    "content_type": "EXPLAINER",
+    "suggested_title": "What is Pixel 11 Voice Typing and How to Use Its Best Features",
+    "hub_keyword": "Pixel Voice Typing",
+    "parent_hub": "Pixel Phones",
     "spoke_keywords": [
-      "Skyrim mod installation guide IKEA",
-      "Anniversary Edition modding help"
+      "pixel 11 voice typing accuracy",
+      "how to enable pixel 11 voice typing"
     ],
     "evergreen_score": 85,
     "competition_level": "LOW",
     "affiliate_potential": "LOW",
     "timing": "NOW",
+    "verifiability": "HIGH",
+    "trends_queries": [
+      "pixel 11 voice to text",
+      "pixel 11 speech recognition"
+    ],
+    "reasoning": "Explaining a signature Pixel feature like voice typing and its usage provides lasting value as long as the phone is in use, drawing information from official Google support pages.",
+    "data_grade": "A"
+  },
+  {
+    "cluster_name": "Steam Portable Gaming",
+    "content_type": "COMPARISON",
+    "suggested_title": "Steam Frame vs Steam Deck: Performance, Price, and Portability Comparison",
+    "hub_keyword": "Steam Portable",
+    "parent_hub": "Steam Portable Gaming",
+    "spoke_keywords": [
+      "steam frame vs steam deck specs",
+      "steam frame battery life vs steam deck"
+    ],
+    "evergreen_score": 90,
+    "competition_level": "MEDIUM",
+    "affiliate_potential": "HIGH",
+    "timing": "NOW",
+    "verifiability": "HIGH",
+    "trends_queries": [
+      "steam frame review",
+      "steam deck alternative"
+    ],
+    "reasoning": "Comparing two key portable gaming devices based on their official specifications, pricing, and announced features provides evergreen value to potential buyers and is verifiable from product launches.",
+    "data_grade": "A"
+  },
+  {
+    "cluster_name": "Steam Portable Gaming",
+    "content_type": "GUIDE",
+    "suggested_title": "How to Troubleshoot Steam Frame Odd Charging Behavior and Battery Problems",
+    "hub_keyword": "Steam Frame Troubleshooting",
+    "parent_hub": "Steam Portable Gaming",
+    "spoke_keywords": [
+      "steam frame not charging fix",
+      "steam frame charging slow issues"
+    ],
+    "evergreen_score": 80,
+    "competition_level": "LOW",
+    "affiliate_potential": "LOW",
+    "timing": "NOW",
     "verifiability": "MEDIUM",
     "trends_queries": [
-      "Skyrim IKEA mod install",
-      "official Skyrim mods"
+      "steam frame charging bug",
+      "steam frame battery issues"
     ],
-    "reasoning": "Provides a specific mod installation guide for a highly popular and stable game (Skyrim), leveraging an 'official' mod to ensure verifiability and evergreen appeal.",
-    "data_grade": "A"
+    "reasoning": "Troubleshooting common hardware issues like charging problems is an evergreen topic for any electronic device and can be addressed with general troubleshooting steps and officially published support information.",
+    "data_grade": "B"
   }
 ]

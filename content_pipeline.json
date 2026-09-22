@@ -1,7 +1,7 @@
 {
   "_version": "1.3",
   "_description": "콘텐츠 파이프라인 — 클러스터 단위 관리",
-  "_last_updated": "2026-09-17T17:58:42.898181+00:00",
+  "_last_updated": "2026-09-22T05:50:50.235824+00:00",
   "hub_clusters": {
     "Steam Machine": {
       "hub_keyword": "Steam Machine",
@@ -523,7 +523,8 @@
       "hub_url": "",
       "spokes": [
         "Pixel Phone Camera Features",
-        "Pixel AI Features"
+        "Pixel AI Features",
+        "Pixel Phone Features"
       ],
       "spoke_urls": {
         "Pixel AI Features (GUIDE)": "pending",
@@ -615,6 +616,28 @@
         "pending",
         "pending"
       ]
+    },
+    "Googlebooks": {
+      "hub_keyword": "Googlebooks",
+      "hub_status": "PENDING",
+      "hub_title": "",
+      "hub_url": "",
+      "spokes": [
+        "Googlebooks Overview"
+      ],
+      "spoke_urls": {},
+      "internal_links": []
+    },
+    "Steam Portable Gaming": {
+      "hub_keyword": "Steam Portable Gaming",
+      "hub_status": "PENDING",
+      "hub_title": "",
+      "hub_url": "",
+      "spokes": [
+        "Steam Portable Gaming"
+      ],
+      "spoke_urls": {},
+      "internal_links": []
     }
   },
   "covered_clusters": {
@@ -1728,6 +1751,69 @@
       ],
       "competition_level": "LOW",
       "affiliate_potential": "LOW",
+      "trends_pattern": "UNKNOWN",
+      "trends_keyword": "",
+      "notes": ""
+    },
+    "Googlebooks Overview": {
+      "types_done": [],
+      "last_week": "2026-W38",
+      "suggest_next": [
+        "COMPARISON",
+        "GUIDE",
+        "EXPLAINER",
+        "LISTICLE"
+      ],
+      "hub_keyword": "Android on Laptop",
+      "parent_hub": "Googlebooks",
+      "spoke_keywords": [
+        "googlebook vs chromebook comparison",
+        "googlebook android os vs chromeos"
+      ],
+      "competition_level": "MEDIUM",
+      "affiliate_potential": "HIGH",
+      "trends_pattern": "UNKNOWN",
+      "trends_keyword": "",
+      "notes": ""
+    },
+    "Pixel Phone Features": {
+      "types_done": [],
+      "last_week": "2026-W38",
+      "suggest_next": [
+        "COMPARISON",
+        "GUIDE",
+        "EXPLAINER",
+        "LISTICLE"
+      ],
+      "hub_keyword": "Pixel Gaming",
+      "parent_hub": "Pixel Phones",
+      "spoke_keywords": [
+        "pixel 11 vs pixel 10 camera quality",
+        "pixel 11 low light photography comparison"
+      ],
+      "competition_level": "MEDIUM",
+      "affiliate_potential": "MEDIUM",
+      "trends_pattern": "UNKNOWN",
+      "trends_keyword": "",
+      "notes": ""
+    },
+    "Steam Portable Gaming": {
+      "types_done": [],
+      "last_week": "2026-W38",
+      "suggest_next": [
+        "COMPARISON",
+        "GUIDE",
+        "EXPLAINER",
+        "LISTICLE"
+      ],
+      "hub_keyword": "Steam Frame Troubleshooting",
+      "parent_hub": "Steam Portable Gaming",
+      "spoke_keywords": [
+        "steam frame vs steam deck specs",
+        "steam frame battery life vs steam deck"
+      ],
+      "competition_level": "MEDIUM",
+      "affiliate_potential": "HIGH",
       "trends_pattern": "UNKNOWN",
       "trends_keyword": "",
       "notes": ""
@@ -5223,6 +5309,208 @@
         "status": "published",
         "selected_at": "2026-09-15T00:19:39.500137+00:00",
         "url": "pending"
+      }
+    ],
+    "2026-W38": [
+      {
+        "cluster_name": "Googlebooks Overview",
+        "content_type": "COMPARISON",
+        "suggested_title": "Googlebook vs Chromebook: What's the Difference and Which is Better",
+        "hub_keyword": "Googlebooks",
+        "hub_keyword_raw": "Googlebooks",
+        "parent_hub": "Googlebooks",
+        "folder": "",
+        "spoke_keywords": [
+          "googlebook vs chromebook comparison",
+          "googlebook android os vs chromeos"
+        ],
+        "competition_level": "MEDIUM",
+        "timing": "NOW",
+        "affiliate_potential": "HIGH",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "publish_order": 37,
+        "status": "candidate",
+        "selected_at": "2026-09-22T05:50:50.235664+00:00"
+      },
+      {
+        "cluster_name": "Googlebooks Overview",
+        "content_type": "COMPARISON",
+        "suggested_title": "Googlebook Models Compared: Specs and Features of the Five Flagships",
+        "hub_keyword": "Googlebook Models",
+        "hub_keyword_raw": "Googlebook Models",
+        "parent_hub": "Googlebooks",
+        "folder": "",
+        "spoke_keywords": [
+          "googlebook 5 models comparison",
+          "best googlebook model for students"
+        ],
+        "competition_level": "MEDIUM",
+        "timing": "NOW",
+        "affiliate_potential": "HIGH",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "publish_order": 38,
+        "status": "candidate",
+        "selected_at": "2026-09-22T05:50:50.235664+00:00"
+      },
+      {
+        "cluster_name": "Pixel Phone Features",
+        "content_type": "COMPARISON",
+        "suggested_title": "Pixel 11 vs Pixel 10 Camera: Low Light and Voice Typing Comparison",
+        "hub_keyword": "Pixel Camera",
+        "hub_keyword_raw": "Pixel Camera",
+        "parent_hub": "Pixel Phones",
+        "folder": "",
+        "spoke_keywords": [
+          "pixel 11 vs pixel 10 camera quality",
+          "pixel 11 low light photography comparison"
+        ],
+        "competition_level": "MEDIUM",
+        "timing": "NOW",
+        "affiliate_potential": "MEDIUM",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "publish_order": 39,
+        "status": "candidate",
+        "selected_at": "2026-09-22T05:50:50.235664+00:00"
+      },
+      {
+        "cluster_name": "Steam Portable Gaming",
+        "content_type": "COMPARISON",
+        "suggested_title": "Steam Frame vs Steam Deck: Performance, Price, and Portability Comparison",
+        "hub_keyword": "Steam Portable",
+        "hub_keyword_raw": "Steam Portable",
+        "parent_hub": "Steam Portable Gaming",
+        "folder": "04-steam-frame",
+        "spoke_keywords": [
+          "steam frame vs steam deck specs",
+          "steam frame battery life vs steam deck"
+        ],
+        "competition_level": "MEDIUM",
+        "timing": "NOW",
+        "affiliate_potential": "HIGH",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "publish_order": 40,
+        "status": "candidate",
+        "selected_at": "2026-09-22T05:50:50.235664+00:00"
+      },
+      {
+        "cluster_name": "Googlebooks Overview",
+        "content_type": "EXPLAINER",
+        "suggested_title": "Googlebook OS Explained: How Android Works on a Laptop",
+        "hub_keyword": "Android on Laptop",
+        "hub_keyword_raw": "Android on Laptop",
+        "parent_hub": "Googlebooks",
+        "folder": "",
+        "spoke_keywords": [
+          "googlebook android os features",
+          "android laptop operating system guide"
+        ],
+        "competition_level": "LOW",
+        "timing": "NOW",
+        "affiliate_potential": "LOW",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "publish_order": 41,
+        "status": "candidate",
+        "selected_at": "2026-09-22T05:50:50.235664+00:00"
+      },
+      {
+        "cluster_name": "Pixel Phone Features",
+        "content_type": "EXPLAINER",
+        "suggested_title": "What is Pixel 11 Voice Typing and How to Use Its Best Features",
+        "hub_keyword": "Pixel Voice Typing",
+        "hub_keyword_raw": "Pixel Voice Typing",
+        "parent_hub": "Pixel Phones",
+        "folder": "",
+        "spoke_keywords": [
+          "pixel 11 voice typing accuracy",
+          "how to enable pixel 11 voice typing"
+        ],
+        "competition_level": "LOW",
+        "timing": "NOW",
+        "affiliate_potential": "LOW",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "publish_order": 42,
+        "status": "candidate",
+        "selected_at": "2026-09-22T05:50:50.235664+00:00"
+      },
+      {
+        "cluster_name": "Pixel Phone Features",
+        "content_type": "GUIDE",
+        "suggested_title": "How to Fix Pixel 11 Gaming Performance and Battery Drain Issues",
+        "hub_keyword": "Pixel Gaming",
+        "hub_keyword_raw": "Pixel Gaming",
+        "parent_hub": "Pixel Phones",
+        "folder": "",
+        "spoke_keywords": [
+          "pixel 11 gaming lag fix",
+          "pixel 11 battery drain during games"
+        ],
+        "competition_level": "LOW",
+        "timing": "NOW",
+        "affiliate_potential": "LOW",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "MEDIUM",
+        "data_grade": "B",
+        "verified_keywords": [],
+        "publish_order": 43,
+        "status": "candidate",
+        "selected_at": "2026-09-22T05:50:50.235664+00:00"
+      },
+      {
+        "cluster_name": "Steam Portable Gaming",
+        "content_type": "GUIDE",
+        "suggested_title": "How to Troubleshoot Steam Frame Odd Charging Behavior and Battery Problems",
+        "hub_keyword": "Steam Frame Troubleshooting",
+        "hub_keyword_raw": "Steam Frame Troubleshooting",
+        "parent_hub": "Steam Portable Gaming",
+        "folder": "04-steam-frame",
+        "spoke_keywords": [
+          "steam frame not charging fix",
+          "steam frame charging slow issues"
+        ],
+        "competition_level": "LOW",
+        "timing": "NOW",
+        "affiliate_potential": "LOW",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "MEDIUM",
+        "data_grade": "B",
+        "verified_keywords": [],
+        "publish_order": 44,
+        "status": "candidate",
+        "selected_at": "2026-09-22T05:50:50.235664+00:00"
       }
     ]
   },
