@@ -1,19 +1,16 @@
 {
-  "total": 12,
+  "total": 14,
   "ok": 10,
-  "issue_count": 2,
+  "issue_count": 4,
   "issue_files": [
     {
-      "name": "029_2026-W35_04-pixel-pro_GUIDE",
-      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/029_2026-W35_04-pixel-pro_GUIDE.md",
+      "name": "017_2026-W38_02-galaxy-fold_COMPARISON",
+      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/017_2026-W38_02-galaxy-fold_COMPARISON.md",
       "issues": [
         {
-          "id": "R4",
-          "label": "H1 제목 없음"
-        },
-        {
-          "id": "R3",
-          "label": "단어수 미달 (742단어 / 최소 800)"
+          "id": "R5",
+          "label": "발행 불가 — 미처리 내부링크 잔존",
+          "block": true
         }
       ]
     },
@@ -27,71 +24,52 @@
           "block": true
         }
       ]
-    }
-  ],
-  "results": [
-    {
-      "file": "research_data/write/final/017_2026-W37_02-galaxy-fold_COMPARISON.md",
-      "name": "017_2026-W37_02-galaxy-fold_COMPARISON",
-      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/017_2026-W37_02-galaxy-fold_COMPARISON.md",
-      "issues": [],
-      "ok": true
     },
     {
-      "file": "research_data/write/final/024_2026-W37_04-pixel-pro_COMPARISON.md",
-      "name": "024_2026-W37_04-pixel-pro_COMPARISON",
-      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/024_2026-W37_04-pixel-pro_COMPARISON.md",
-      "issues": [],
-      "ok": true
+      "name": "040_2026-W38_04-steam-frame_COMPARISON",
+      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/040_2026-W38_04-steam-frame_COMPARISON.md",
+      "issues": [
+        {
+          "id": "R5",
+          "label": "발행 불가 — Gemini cite 번호 잔존",
+          "block": true
+        }
+      ]
     },
     {
-      "file": "research_data/write/final/026_2026-W37_elden-ring-performance_COMPARISON.md",
-      "name": "026_2026-W37_elden-ring-performance_COMPARISON",
-      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/026_2026-W37_elden-ring-performance_COMPARISON.md",
-      "issues": [],
-      "ok": true
-    },
-    {
-      "file": "research_data/write/final/028_2026-W35_nvidia-dlss-technology_EXPLAINER.md",
-      "name": "028_2026-W35_nvidia-dlss-technology_EXPLAINER",
-      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/028_2026-W35_nvidia-dlss-technology_EXPLAINER.md",
-      "issues": [],
-      "ok": true
-    },
-    {
-      "file": "research_data/write/final/029_2026-W35_04-pixel-pro_GUIDE.md",
-      "name": "029_2026-W35_04-pixel-pro_GUIDE",
-      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/029_2026-W35_04-pixel-pro_GUIDE.md",
+      "name": "044_2026-W38_04-steam-frame_GUIDE",
+      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/044_2026-W38_04-steam-frame_GUIDE.md",
       "issues": [
         {
           "id": "R4",
           "label": "H1 제목 없음"
         },
         {
-          "id": "R3",
-          "label": "단어수 미달 (742단어 / 최소 800)"
+          "id": "R5",
+          "label": "발행 불가 — Gemini cite 번호 잔존",
+          "block": true
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "file": "research_data/write/final/017_2026-W38_02-galaxy-fold_COMPARISON.md",
+      "name": "017_2026-W38_02-galaxy-fold_COMPARISON",
+      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/017_2026-W38_02-galaxy-fold_COMPARISON.md",
+      "issues": [
+        {
+          "id": "R5",
+          "label": "발행 불가 — 미처리 내부링크 잔존",
+          "block": true
         }
       ],
       "ok": false
     },
     {
-      "file": "research_data/write/final/030_2026-W35_03-google-maps_GUIDE.md",
-      "name": "030_2026-W35_03-google-maps_GUIDE",
-      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/030_2026-W35_03-google-maps_GUIDE.md",
-      "issues": [],
-      "ok": true
-    },
-    {
-      "file": "research_data/write/final/031_2026-W37_01-steam-frame_COMPARISON.md",
-      "name": "031_2026-W37_01-steam-frame_COMPARISON",
-      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/031_2026-W37_01-steam-frame_COMPARISON.md",
-      "issues": [],
-      "ok": true
-    },
-    {
-      "file": "research_data/write/final/032_2026-W37_10-android-auto_COMPARISON.md",
-      "name": "032_2026-W37_10-android-auto_COMPARISON",
-      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/032_2026-W37_10-android-auto_COMPARISON.md",
+      "file": "research_data/write/final/026_2026-W37_elden-ring-performance_COMPARISON.md",
+      "name": "026_2026-W37_elden-ring-performance_COMPARISON",
+      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/026_2026-W37_elden-ring-performance_COMPARISON.md",
       "issues": [],
       "ok": true
     },
@@ -128,6 +106,78 @@
       "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/036_2026-W37_gaming-platform-features-and-modding_EXPLAINER.md",
       "issues": [],
       "ok": true
+    },
+    {
+      "file": "research_data/write/final/037_2026-W38_googlebooks-overview_COMPARISON.md",
+      "name": "037_2026-W38_googlebooks-overview_COMPARISON",
+      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/037_2026-W38_googlebooks-overview_COMPARISON.md",
+      "issues": [],
+      "ok": true
+    },
+    {
+      "file": "research_data/write/final/038_2026-W38_googlebooks-overview_COMPARISON.md",
+      "name": "038_2026-W38_googlebooks-overview_COMPARISON",
+      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/038_2026-W38_googlebooks-overview_COMPARISON.md",
+      "issues": [],
+      "ok": true
+    },
+    {
+      "file": "research_data/write/final/039_2026-W38_pixel-phone-features_COMPARISON.md",
+      "name": "039_2026-W38_pixel-phone-features_COMPARISON",
+      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/039_2026-W38_pixel-phone-features_COMPARISON.md",
+      "issues": [],
+      "ok": true
+    },
+    {
+      "file": "research_data/write/final/040_2026-W38_04-steam-frame_COMPARISON.md",
+      "name": "040_2026-W38_04-steam-frame_COMPARISON",
+      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/040_2026-W38_04-steam-frame_COMPARISON.md",
+      "issues": [
+        {
+          "id": "R5",
+          "label": "발행 불가 — Gemini cite 번호 잔존",
+          "block": true
+        }
+      ],
+      "ok": false
+    },
+    {
+      "file": "research_data/write/final/041_2026-W38_googlebooks-overview_EXPLAINER.md",
+      "name": "041_2026-W38_googlebooks-overview_EXPLAINER",
+      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/041_2026-W38_googlebooks-overview_EXPLAINER.md",
+      "issues": [],
+      "ok": true
+    },
+    {
+      "file": "research_data/write/final/042_2026-W38_pixel-phone-features_EXPLAINER.md",
+      "name": "042_2026-W38_pixel-phone-features_EXPLAINER",
+      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/042_2026-W38_pixel-phone-features_EXPLAINER.md",
+      "issues": [],
+      "ok": true
+    },
+    {
+      "file": "research_data/write/final/043_2026-W38_pixel-phone-features_GUIDE.md",
+      "name": "043_2026-W38_pixel-phone-features_GUIDE",
+      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/043_2026-W38_pixel-phone-features_GUIDE.md",
+      "issues": [],
+      "ok": true
+    },
+    {
+      "file": "research_data/write/final/044_2026-W38_04-steam-frame_GUIDE.md",
+      "name": "044_2026-W38_04-steam-frame_GUIDE",
+      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/044_2026-W38_04-steam-frame_GUIDE.md",
+      "issues": [
+        {
+          "id": "R4",
+          "label": "H1 제목 없음"
+        },
+        {
+          "id": "R5",
+          "label": "발행 불가 — Gemini cite 번호 잔존",
+          "block": true
+        }
+      ],
+      "ok": false
     }
   ]
 }
