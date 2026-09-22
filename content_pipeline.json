@@ -1,7 +1,7 @@
 {
   "_version": "1.3",
   "_description": "콘텐츠 파이프라인 — 클러스터 단위 관리",
-  "_last_updated": "2026-09-22T06:03:01.224301+00:00",
+  "_last_updated": "2026-09-22T06:04:33.780660+00:00",
   "hub_clusters": {
     "Steam Machine": {
       "hub_keyword": "Steam Machine",
@@ -530,9 +530,11 @@
         "Pixel AI Features (GUIDE)": "pending",
         "Pixel Phone Camera Features (COMPARISON)": "pending",
         "Pixel Phone Features (COMPARISON)": "pending",
-        "Pixel Phone Features (EXPLAINER)": "pending"
+        "Pixel Phone Features (EXPLAINER)": "pending",
+        "Pixel Phone Features (GUIDE)": "pending"
       },
       "internal_links": [
+        "pending",
         "pending",
         "pending",
         "pending",
@@ -1794,11 +1796,11 @@
     "Pixel Phone Features": {
       "types_done": [
         "COMPARISON",
-        "EXPLAINER"
+        "EXPLAINER",
+        "GUIDE"
       ],
       "last_week": "2026-W38",
       "suggest_next": [
-        "GUIDE",
         "LISTICLE"
       ],
       "hub_keyword": "Pixel Gaming",
@@ -5506,8 +5508,9 @@
         "data_grade": "B",
         "verified_keywords": [],
         "publish_order": 43,
-        "status": "candidate",
-        "selected_at": "2026-09-22T05:50:50.235664+00:00"
+        "status": "published",
+        "selected_at": "2026-09-22T05:50:50.235664+00:00",
+        "url": "pending"
       },
       {
         "cluster_name": "Steam Portable Gaming",
@@ -5967,6 +5970,15 @@
       "content_type": "EXPLAINER",
       "week_tag": "2026-W38",
       "published_at": "2026-09-22T06:03:01.224247+00:00",
+      "hub_cluster": "Pixel Phones"
+    },
+    {
+      "cluster_name": "Pixel Phone Features",
+      "title": "How to Optimize Pixel Phone Gaming Performance and Battery Life",
+      "url": "pending",
+      "content_type": "GUIDE",
+      "week_tag": "2026-W38",
+      "published_at": "2026-09-22T06:04:33.780591+00:00",
       "hub_cluster": "Pixel Phones"
     }
   ]
