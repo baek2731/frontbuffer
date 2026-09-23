@@ -1,4 +1,14 @@
-# How to set up Valve Steam Frame for PC VR gaming
+---
+layout: single
+title: 'How to set up Valve Steam Frame for PC VR gaming'
+date: 2026-09-23 14:25:00 +0000
+categories: [gaming]
+tags: ["guide", "steam", "frame"]
+excerpt: 'The Steam Frame launched September 14, 2026, as Valve''s standalone VR headset and Index replacement. It runs SteamOS on a Snapdragon 8 Gen 3, with…'
+author_profile: false
+read_time: true
+share: true
+---
 
 The Steam Frame launched September 14, 2026, as Valve's standalone VR headset and Index replacement. It runs SteamOS on a Snapdragon 8 Gen 3, with 16GB LPDDR5X RAM and dual 2160×2160 LCD displays per eye supporting 72–144Hz. The box includes the headset, Steam Frame Controllers, a Wi-Fi 6E adapter, and a Half-Life: Alyx digital license. A 45W USB-C power supply is sold separately for $29.
 
