@@ -1,0 +1,5 @@
+Android passkeys use the FIDO2 standard and tie private keys to the device''s secure enclave. The private key never leaves the device in…
+
+https://frontbuffer.net/tech/how-to-transfer-android-passkeys-between-devices-securely/
+
+#Android #Google #Privacy #Tech #Smartphone
