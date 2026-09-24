@@ -1,4 +1,14 @@
-# How to transfer Android passkeys between devices securely
+---
+layout: single
+title: 'How to transfer Android passkeys between devices securely'
+date: 2026-09-24 14:42:00 +0000
+categories: [tech]
+tags: ["guide", "android", "auto"]
+excerpt: 'Android passkeys use the FIDO2 standard and tie private keys to the device''s secure enclave. The private key never leaves the device in plaintext —…'
+author_profile: false
+read_time: true
+share: true
+---
 
 Android passkeys use the FIDO2 standard and tie private keys to the device's secure enclave. The private key never leaves the device in plaintext — migration works through Google Account cloud sync, not direct file transfer.
 
