@@ -5,6 +5,9 @@ date: 2026-09-25 14:08:00 +0000
 categories: [gaming]
 tags: ["comparison", "steam", "frame"]
 excerpt: 'Valve now has two portable gaming devices: the Steam Deck (handheld PC) and the Steam Frame (standalone VR headset). Both run SteamOS and share the…'
+header:
+  image: https://images.frontbuffer.net/posts/steam-frame-vs-steam-deck-performance-price-and-portability-/og.png
+  overlay_filter: 0
 author_profile: false
 read_time: true
 share: true
