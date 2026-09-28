@@ -1,10 +1,10 @@
 ---
 layout: single
-title: 'How to Optimize Cover Screen Apps on Galaxy Z Flip 8'
+title: 'Galaxy Z Flip 8 Cover Screen: Supported Apps List and How to Add More'
 date: 2026-08-07 14:15:00 +0000
 categories: [tech]
 tags: ["guide", "samsung", "galaxy", "z", "foldflip"]
-excerpt: 'On July 22, 2026, Samsung officially announced the Galaxy Z Flip 8 at its Galaxy Unpacked event in London, England, with a release date set for…'
+excerpt: 'The Galaxy Z Flip 8 cover screen natively supports 16 apps including Google Maps, Messages, Netflix, and YouTube. For any app beyond those, Good Lock MultiStar is the solution — here is the full list and setup guide.'
 header:
   image: https://images.frontbuffer.net/posts/samsung-galaxy-z-foldflip-series_guide/og.png
   overlay_filter: 0

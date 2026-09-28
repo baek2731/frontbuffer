@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Galaxy Z Fold 8 vs. Fold 7 Camera Comparison: Low Light Performance'
+title: 'Galaxy Z Fold 7 vs Fold 8 Camera Comparison: Sensor, Zoom, and Low Light'
 date: 2026-08-16 14:49:00 +0000
 categories: [tech]
 tags: ["comparison", "galaxy", "fold"]
@@ -59,4 +59,4 @@ The Fold 8 Ultra addresses this with a 50MP periscope telephoto at 5x optical zo
 Sources:
 - [Samsung Galaxy Z Fold 8 Official Page](https://www.samsung.com/us/smartphones/galaxy-z-fold8/)
 - [Samsung Galaxy Z Fold 7](https://www.samsung.com/levant/smartphones/galaxy-z-fold7/)
-- [GSMArena — Galaxy Z Fold 8 specs](https://www.gsmarena.com/samsung_galaxy_z_fold8-12345.php)
+- [Android Authority — Galaxy Z Fold 8 review](https://www.androidauthority.com/samsung-galaxy-z-fold-8-review/)
