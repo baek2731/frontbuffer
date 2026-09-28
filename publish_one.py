@@ -333,11 +333,39 @@ def main():
             slug, ct = parts[0], parts[1].upper()
 
         # 이미 발행된 파일 스킵
-        already = any(
-            slugify(p.get("cluster_name", "")) == slug
-            and p.get("content_type", "").upper() == ct
-            for p in pipeline.get("published", [])
-        )
+        # 판단 우선순위:
+        #   1. _posts/ 에 동일 원본 파일명(stem)으로 발행된 파일이 있으면 스킵
+        #      → publish_one.py는 발행 후 final/ 파일을 삭제하므로
+        #        final/에 파일이 존재한다는 것 자체가 미발행을 의미.
+        #        하지만 수동으로 파일을 다시 넣은 경우를 위해
+        #        posts.json의 live_url로도 2차 확인.
+        #   2. posts.json에 해당 slug URL이 이미 등록됐으면 스킵
+        already = False
+
+        # posts.json 기반 확인 (가장 신뢰할 수 있는 소스)
+        try:
+            if os.path.exists(POSTS_FILE):
+                posts_data = json.loads(open(POSTS_FILE, encoding="utf-8").read())
+                for post in posts_data.get("posts", []):
+                    live_url = post.get("live_url", "")
+                    # URL에 slug가 포함돼 있으면 이미 발행된 것
+                    if slug.replace("-", "") in live_url.replace("-", ""):
+                        post_ct = post.get("content_type", "").upper()
+                        if post_ct == ct:
+                            already = True
+                            break
+        except Exception:
+            pass
+
+        # posts.json에 없으면 pipeline published 배열로 2차 확인
+        if not already:
+            already = any(
+                slugify(p.get("cluster_name", "")) == slug
+                and p.get("content_type", "").upper() == ct
+                and p.get("url", "PENDING") not in ("PENDING", "", None)
+                for p in pipeline.get("published", [])
+            )
+
         if already:
             print(f"  ⏭️  이미 발행됨 — 스킵: {f.name}")
             continue
