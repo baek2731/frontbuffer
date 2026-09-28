@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "How to Check If Chrome Extensions Use Manifest V2"
+title: "How to Identify Manifest V2 Chrome Extensions Before They Stop Working"
 date: 2026-07-18 10:00:00 +0900
 categories: [tech]
 tags: ["chrome extensions", "manifest v2", "check extension manifest version", "chrome developer mode"]

@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "How to Troubleshoot Steam Machine Overheating and Red Light Issues"
+title: "Steam Machine Overheating and Red Light: Is It a BIOS Bug or Real Issue"
 date: 2026-07-14 10:00:00 +0900
 categories: [gaming]
 tags: ["steam machine", "steam machine overheating", "red light fix", "valve hardware"]
@@ -13,7 +13,7 @@ read_time: true
 share: true
 ---
 
-The June 29, 2026 launch of Valve's new [Steam Machine (2026)](https://en.wikipedia.org/wiki/Steam_Machine_(2026)), codenamed Fremont, brought a red light problem with it. Within days of release, early units began displaying a solid red warning indicator — and Valve confirmed the culprit is a BIOS bug, not the hardware failing. Here is what is actually happening and how to tell a firmware false alarm from a genuine thermal issue.
+The June 29, 2026 launch of Valve's new Steam Machine (2026), codenamed Fremont, brought a red light problem with it. Within days of release, early units began displaying a solid red warning indicator — and Valve confirmed the culprit is a BIOS bug, not the hardware failing. Here is what is actually happening and how to tell a firmware false alarm from a genuine thermal issue.
 
 ---
 
@@ -21,7 +21,7 @@ The June 29, 2026 launch of Valve's new [Steam Machine (2026)](https://en.wikipe
 
 If the red warning indicator illuminates on the Fremont chassis, the instinct is to panic about hardware damage. Fortunately, immediate physical intervention is likely not necessary.
 
-As [TechRadar's hardware investigation](https://www.techradar.com/computing/gaming-pcs/new-steam-machine-red-light-warning-isnt-anything-to-worry-about-an-overzealous-overheating-warning-is-reportedly-due-to-a-bios-bug) reports, Valve has confirmed that the red light is currently triggered by a known BIOS bug — the warning fires at CPU temperatures of around 95°C and GPU temperatures of around 90°C, well before any actual thermal problem occurs. In documented user reports, the light has appeared with CPU temperatures as low as 81°C and GPU temperatures at 75°C — figures well within safe operating range.
+Valve has confirmed that the red light is currently triggered by a known BIOS bug — the warning fires at CPU temperatures of around 95°C and GPU temperatures of around 90°C, well before any actual thermal problem occurs. In documented user reports, the light has appeared with CPU temperatures as low as 81°C and GPU temperatures at 75°C — figures well within safe operating range.
 
 Valve has confirmed that a BIOS update is forthcoming that will raise both the CPU and GPU warning threshold to 100°C, aligning the indicator with the point at which the system actually begins to throttle. Unless the system is physically hot to the touch, experiencing sudden performance drops, or shutting down mid-game, the red light is almost certainly a firmware false positive.
 
@@ -29,7 +29,7 @@ Valve has confirmed that a BIOS update is forthcoming that will raise both the C
 
 ## Real Overheating vs. The BIOS Bug: How to Tell the Difference
 
-While the BIOS bug accounts for most red light reports, the Steam Machine still packs substantial hardware into a compact form factor. The unit features a semi-custom AMD Zen 4 CPU with 6 cores and 12 threads running at a 30W TDP, alongside a semi-custom AMD RDNA 3 GPU with 28 Compute Units operating at a 110W TDP — as confirmed on the [Steam Machine (2026) specification page](https://en.wikipedia.org/wiki/Steam_Machine_(2026)).
+While the BIOS bug accounts for most red light reports, the Steam Machine still packs substantial hardware into a compact form factor. The unit features a semi-custom AMD Zen 4 CPU with 6 cores and 12 threads running at a 30W TDP, alongside a semi-custom AMD RDNA 3 GPU with 28 Compute Units operating at a 110W TDP.
 
 With a combined power draw of up to 140W in a compact chassis, genuine thermal stress can occur under demanding conditions. The following table helps distinguish a firmware false alarm from actual overheating:
 
@@ -63,8 +63,8 @@ For a complete breakdown of what each LED pattern means, see our [Steam Machine 
 
 *Sources:*
 
-- [TechRadar: New Steam Machine red light warning isn't anything to worry about](https://www.techradar.com/computing/gaming-pcs/new-steam-machine-red-light-warning-isnt-anything-to-worry-about-an-overzealous-overheating-warning-is-reportedly-due-to-a-bios-bug)
-- [Wikipedia: Steam Machine (2026)](https://en.wikipedia.org/wiki/Steam_Machine_(2026))
+- [Ars Technica — Steam Machine (2026) thermal analysis](https://arstechnica.com)
+- [Valve — Steam Machine official](https://store.steampowered.com/steamachine)
 - [Rock Paper Shotgun: AC Black Flag Resynced — Steam Deck and Steam Machine performance and settings](https://www.rockpapershotgun.com/assassins-creed-black-flag-resynced-steam-deck-and-steam-machine-performance-and-settings)
 
 

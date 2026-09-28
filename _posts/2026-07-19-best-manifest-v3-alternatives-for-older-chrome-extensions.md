@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "uBlock Origin Lite and the Best Manifest V3 Chrome Extension Alternatives (2026)"
+title: "Best Manifest V3 Chrome Extension Alternatives: uBlock Origin Lite and More (2026)"
 date: 2026-07-19 10:00:00 +0900
 categories: [tech]
 tags: ["chrome extensions", "manifest v3 alternatives", "ublock origin lite", "ad blocker replacement"]
