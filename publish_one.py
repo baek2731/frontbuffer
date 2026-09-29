@@ -362,7 +362,7 @@ def main():
             already = any(
                 slugify(p.get("cluster_name", "")) == slug
                 and p.get("content_type", "").upper() == ct
-                and p.get("url", "PENDING") not in ("PENDING", "", None)
+                and p.get("url", "pending").lower() not in ("pending", "", None)
                 for p in pipeline.get("published", [])
             )
 
