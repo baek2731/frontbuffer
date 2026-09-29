@@ -5,6 +5,9 @@ date: 2026-09-29 14:56:00 +0000
 categories: [tech]
 tags: ["comparison", "elden", "ring", "performance"]
 excerpt: 'FromSoftware''s *Elden Ring* launched in February 2022 across PC, PlayStation, and Xbox. Console versions — particularly PS5 and Xbox Series X —…'
+header:
+  image: https://images.frontbuffer.net/posts/elden-ring-pc-vs-console-performance-differences-explained/og.png
+  overlay_filter: 0
 author_profile: false
 read_time: true
 share: true
