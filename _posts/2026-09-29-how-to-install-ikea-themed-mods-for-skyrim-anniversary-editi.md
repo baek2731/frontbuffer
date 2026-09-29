@@ -1,4 +1,14 @@
-# How to install IKEA-themed mods for Skyrim Anniversary Edition
+---
+layout: single
+title: 'How to install IKEA-themed mods for Skyrim Anniversary Edition'
+date: 2026-09-29 14:42:00 +0000
+categories: [gaming]
+tags: ["guide", "gaming", "platform", "features", "and"]
+excerpt: 'The Skyrim modding community has produced IKEA-themed furniture mods — "IKEA Home Furnishings" and "IKEA - A Nordic Home" are the two most common —…'
+author_profile: false
+read_time: true
+share: true
+---
 
 The Skyrim modding community has produced IKEA-themed furniture mods — "IKEA Home Furnishings" and "IKEA - A Nordic Home" are the two most common — that add Scandinavian-style furniture to the game. Installing them on Anniversary Edition (AE) requires a few extra steps compared to older Special Edition installs due to executable version changes.
 
