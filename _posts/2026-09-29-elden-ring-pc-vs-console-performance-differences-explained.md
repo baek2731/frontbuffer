@@ -1,4 +1,14 @@
-# Elden Ring PC vs Console performance differences explained
+---
+layout: single
+title: 'Elden Ring PC vs Console performance differences explained'
+date: 2026-09-29 14:56:00 +0000
+categories: [tech]
+tags: ["comparison", "elden", "ring", "performance"]
+excerpt: 'FromSoftware''s *Elden Ring* launched in February 2022 across PC, PlayStation, and Xbox. Console versions — particularly PS5 and Xbox Series X —…'
+author_profile: false
+read_time: true
+share: true
+---
 
 FromSoftware's *Elden Ring* launched in February 2022 across PC, PlayStation, and Xbox. Console versions — particularly PS5 and Xbox Series X — delivered a relatively stable experience at launch. The PC version did not. This article covers what went wrong on PC, how the community responded, and where performance stands now.
 

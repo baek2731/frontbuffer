@@ -1100,6 +1100,23 @@
       "hub_cluster": "",
       "verified_keywords": [],
       "slug": "2026-09-25-steam-frame-vs-steam-deck-performance-price-and-portability-"
+    },
+    {
+      "status": "live",
+      "date": "2026-09-29",
+      "title": "Elden Ring PC vs Console performance differences explained",
+      "live_url": "https://frontbuffer.net/tech/elden-ring-pc-vs-console-performance-differences-explained/",
+      "categories": [
+        "tech"
+      ],
+      "content_type": "COMPARISON",
+      "hub_cluster": "Elden Ring Performance",
+      "verified_keywords": [
+        "Elden Ring performance",
+        "elden ring pc performance review",
+        "elden ring console fps comparison"
+      ],
+      "slug": "2026-09-29-elden-ring-pc-vs-console-performance-differences-explained"
     }
   ],
   "_last_updated": "2026-08-07T14:54:21.320932+00:00"
