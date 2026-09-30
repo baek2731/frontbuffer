@@ -5,6 +5,9 @@ date: 2026-09-30 14:59:00 +0000
 categories: [gaming]
 tags: ["explainer", "gaming", "platform", "features", "and"]
 excerpt: 'Ubisoft games purchased on Steam still require Ubisoft Connect. When you launch a Ubisoft title through Steam, Steam opens Ubisoft Connect, which…'
+header:
+  image: https://images.frontbuffer.net/posts/ubisoft-connect-requirement-for-steam-games-offline-play-exp/og.png
+  overlay_filter: 0
 author_profile: false
 read_time: true
 share: true
