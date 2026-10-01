@@ -1,4 +1,14 @@
-# Chromebook vs Googlebook: What's the difference
+---
+layout: single
+title: 'Chromebook vs Googlebook: What''s the difference'
+date: 2026-10-01 14:40:00 +0000
+categories: [tech]
+tags: ["comparison", "googlebooks", "overview"]
+excerpt: 'Google announced Googlebook on September 21, 2026 — a new category of Android-based laptops built around Gemini AI and deep integration with Android…'
+author_profile: false
+read_time: true
+share: true
+---
 
 Google announced Googlebook on September 21, 2026 — a new category of Android-based laptops built around Gemini AI and deep integration with Android phones. This makes a direct comparison with Chromebooks relevant: both run Google's software, but on different OS foundations.
 

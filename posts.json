@@ -1151,6 +1151,23 @@
         "Anniversary Edition modding help"
       ],
       "slug": "2026-09-30-ubisoft-connect-requirement-for-steam-games-offline-play-exp"
+    },
+    {
+      "status": "live",
+      "date": "2026-10-01",
+      "title": "Chromebook vs Googlebook: What's the difference",
+      "live_url": "https://frontbuffer.net/tech/chromebook-vs-googlebook-whats-the-difference/",
+      "categories": [
+        "tech"
+      ],
+      "content_type": "COMPARISON",
+      "hub_cluster": "Googlebooks Overview",
+      "verified_keywords": [
+        "Googlebooks",
+        "googlebook vs chromebook comparison",
+        "googlebook android os vs chromeos"
+      ],
+      "slug": "2026-10-01-chromebook-vs-googlebook-whats-the-difference"
     }
   ],
   "_last_updated": "2026-08-07T14:54:21.320932+00:00"
