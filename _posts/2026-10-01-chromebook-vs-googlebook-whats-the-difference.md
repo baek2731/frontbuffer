@@ -5,6 +5,9 @@ date: 2026-10-01 14:40:00 +0000
 categories: [tech]
 tags: ["comparison", "googlebooks", "overview"]
 excerpt: 'Google announced Googlebook on September 21, 2026 — a new category of Android-based laptops built around Gemini AI and deep integration with Android…'
+header:
+  image: https://images.frontbuffer.net/posts/chromebook-vs-googlebook-whats-the-difference/og.png
+  overlay_filter: 0
 author_profile: false
 read_time: true
 share: true
