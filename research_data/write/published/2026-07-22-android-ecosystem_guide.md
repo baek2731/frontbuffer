@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'How to Transfer Samsung Health Data to a New Android Phone (Without Losing Records)'
+title: 'How to Transfer Samsung Health Data to a New Phone Without Losing Records'
 date: 2026-07-22 14:03:00 +0000
 categories: [tech]
 tags: ["guide", "android", "ecosystem"]
@@ -74,4 +74,3 @@ Sources:
 2. [Samsung: How to use Samsung Cloud to back up and restore data](https://www.samsung.com/uk/support/mobile-devices/how-to-use-samsung-cloud-to-back-up-and-restore-data-on-your-galaxy-device/)
 3. [Samsung: What is Samsung Health and how do I use it?](https://www.samsung.com/us/support/answer/ANS00080645/)
 4. [Android Authority: How to export your Samsung Health data](https://www.androidauthority.com/export-samsung-health-data-3351939/)
-5. [Gadgets 360: How to Export Samsung Health Data](https://www.gadgets360.com/how-to/apps/how-to-export-samsung-health-data-5085352)

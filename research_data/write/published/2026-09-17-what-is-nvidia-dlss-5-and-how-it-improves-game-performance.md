@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "What is Nvidia DLSS 5 and how it improves game performance"
+title: "Nvidia DLSS 5 Explained: How 3D-Guided Neural Rendering Improves Game Performance"
 date: 2026-09-17 14:31:00 +0000
 categories: [gaming]
 tags: ["explainer", "nvidia", "dlss", "technology"]

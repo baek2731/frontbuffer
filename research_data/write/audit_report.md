@@ -1,24 +1,27 @@
 # Frontbuffer 주간 품질 감사 리포트
-생성: 2026-09-25 19:10 UTC  |  dry-run: False
+생성: 2026-10-02 19:49 UTC  |  dry-run: False
 
 ## 요약
-- 자동 수정: **12건**
-- 수동 확인 필요: **46건**
-- final/ 스택 잔량: **9편**
+- 자동 수정: **15건**
+- 수동 확인 필요: **51건**
+- final/ 스택 잔량: **4편**
 
 ## ✅ 자동 수정 — published/ 동기화
-- published/2026-09-10-pixel-11-vs-pixel-11-pro-camera-differences.md 동기화 복사
-- published/2026-09-23-how-to-set-up-valve-steam-frame-for-pc-vr-gaming.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-09-20-steam-frame-vs-meta-quest-3-vr-headset-specification-compari.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-09-19-how-to-enable-custom-chat-bubbles-in-google-messages.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-09-24-how-to-transfer-android-passkeys-between-devices-securely.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-09-21-speculative-showdown-envisioning-the-google-pixel-11-pro-and.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-09-25-steam-frame-vs-steam-deck-performance-price-and-portability-.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-09-22-galaxy-z-fold-8-vs-galaxy-z-flip-8-which-foldable-phone-shou.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-09-18-04-pixel-pro.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-09-16-pixel-11-vs-pixel-11-pro-camera-features-and-differences.md 내용 불일치 → _posts/ 기준으로 덮어씀
 - published/2026-09-17-what-is-nvidia-dlss-5-and-how-it-improves-game-performance.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-09-15-galaxy-z-fold-8-vs-galaxy-z-flip-8-anticipating-samsungs-nex.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-07-14-how-to-troubleshoot-steam-machine-overheating-and-red-light-issues.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-08-07-samsung-galaxy-z-foldflip-series_guide.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-10-01-chromebook-vs-googlebook-whats-the-difference.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-07-18-how-to-check-if-chrome-extensions-use-manifest-v2.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-09-24-how-to-transfer-android-passkeys-between-devices-securely.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-10-02-googlebook-models-compared-specs-and-features-of-the-five-fl.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-08-16-galaxy-z-fold-8-vs-fold-7-camera-comparison-low-light-perfor.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-07-22-android-ecosystem_guide.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-09-29-how-to-install-ikea-themed-mods-for-skyrim-anniversary-editi.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-07-19-best-manifest-v3-alternatives-for-older-chrome-extensions.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-09-29-elden-ring-pc-vs-console-performance-differences-explained.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-07-16-how-to-backup-samsung-health-data-before-account-deletion.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-07-31-portable-gaming_guide.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-09-30-ubisoft-connect-requirement-for-steam-games-offline-play-exp.md 내용 불일치 → _posts/ 기준으로 덮어씀
 
 ## ⚠️ 수동 확인 필요 — 단어 수 미달
 - 2026-07-21-android-ecosystem_comparison.md — 568단어
@@ -30,7 +33,7 @@
 - 2026-08-12-google-pixel-launcher-vs-third-party-android-launchers-featu.md — 563단어
 - 2026-08-13-physical-vs-digital-games-ownership-licenses-and-player-choi.md — 595단어
 - 2026-08-15-how-to-manage-a-large-digital-game-library-across-platforms.md — 531단어
-- 2026-08-16-galaxy-z-fold-8-vs-fold-7-camera-comparison-low-light-perfor.md — 493단어
+- 2026-08-16-galaxy-z-fold-8-vs-fold-7-camera-comparison-low-light-perfor.md — 494단어
 - 2026-08-17-galaxy-z-fold-8-first-5-things-to-do-essential-setup-guide.md — 556단어
 - 2026-08-19-google-assistant-vs-gemini-what-changes-when-assistant-shuts.md — 585단어
 - 2026-08-25-android-system-features.md — 563단어
@@ -46,6 +49,11 @@
 - 2026-09-22-galaxy-z-fold-8-vs-galaxy-z-flip-8-which-foldable-phone-shou.md — 592단어
 - 2026-09-23-how-to-set-up-valve-steam-frame-for-pc-vr-gaming.md — 507단어
 - 2026-09-24-how-to-transfer-android-passkeys-between-devices-securely.md — 443단어
+- 2026-09-29-elden-ring-pc-vs-console-performance-differences-explained.md — 468단어
+- 2026-09-29-how-to-install-ikea-themed-mods-for-skyrim-anniversary-editi.md — 446단어
+- 2026-09-30-ubisoft-connect-requirement-for-steam-games-offline-play-exp.md — 400단어
+- 2026-10-01-chromebook-vs-googlebook-whats-the-difference.md — 480단어
+- 2026-10-02-googlebook-models-compared-specs-and-features-of-the-five-fl.md — 499단어
 
 ## ⚠️ 수동 확인 필요 — published/ 불일치
 - published/2026-08-03-01-galaxy-fold_comparison.md — _posts/에 없음 (발행 누락?)

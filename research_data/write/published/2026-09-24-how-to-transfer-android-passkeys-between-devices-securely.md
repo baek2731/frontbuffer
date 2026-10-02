@@ -3,7 +3,7 @@ layout: single
 title: 'How to transfer Android passkeys between devices securely'
 date: 2026-09-24 14:42:00 +0000
 categories: [tech]
-tags: ["guide", "android", "auto"]
+tags: ["guide", "android", "passkeys", "security"]
 excerpt: 'Android passkeys use the FIDO2 standard and tie private keys to the device''s secure enclave. The private key never leaves the device in plaintext —…'
 header:
   image: https://images.frontbuffer.net/posts/how-to-transfer-android-passkeys-between-devices-securely/og.png

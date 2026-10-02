@@ -5,6 +5,9 @@ date: 2026-09-29 14:42:00 +0000
 categories: [gaming]
 tags: ["guide", "gaming", "platform", "features", "and"]
 excerpt: 'The Skyrim modding community has produced IKEA-themed furniture mods — "IKEA Home Furnishings" and "IKEA - A Nordic Home" are the two most common —…'
+header:
+  image: https://images.frontbuffer.net/posts/how-to-install-ikea-themed-mods-for-skyrim-anniversary-editi/og.png
+  overlay_filter: 0
 author_profile: false
 read_time: true
 share: true

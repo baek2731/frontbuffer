@@ -1,10 +1,10 @@
 ---
 layout: single
-title: 'How to Stream PC Games to Your Android Tablet with Moonlight and Sunshine'
+title: 'How to Use Sunshine and Moonlight to Stream PC Games to Android'
 date: 2026-07-31 14:02:00 +0000
 categories: [gaming]
 tags: ["guide", "portable", "gaming"]
-excerpt: 'Nvidia ended its GameStream service on February 27, 2023, leaving SHIELD owners without a built-in streaming solution. The open-source combination of…'
+excerpt: 'Sunshine runs on your PC as the host; Moonlight runs on your Android tablet as the client. This guide covers setup, pairing, USB tethering, and performance tuning for local and remote streaming.'
 header:
   image: https://images.frontbuffer.net/posts/portable-gaming_guide/og.png
   overlay_filter: 0

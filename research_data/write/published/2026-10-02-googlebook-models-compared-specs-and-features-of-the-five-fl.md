@@ -5,6 +5,9 @@ date: 2026-10-02 14:28:00 +0000
 categories: [tech]
 tags: ["comparison", "googlebooks", "overview"]
 excerpt: 'Google''s September 21, 2026 Googlebook launch brought five devices from Acer, Asus, Dell, HP, and Lenovo. All run the same Android-based desktop OS…'
+header:
+  image: https://images.frontbuffer.net/posts/googlebook-models-compared-specs-and-features-of-the-five-fl/og.png
+  overlay_filter: 0
 author_profile: false
 read_time: true
 share: true
