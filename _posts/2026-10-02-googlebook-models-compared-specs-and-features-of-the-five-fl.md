@@ -1,4 +1,14 @@
-# Googlebook models compared: specs and features of the five flagships
+---
+layout: single
+title: 'Googlebook models compared: specs and features of the five flagships'
+date: 2026-10-02 14:28:00 +0000
+categories: [tech]
+tags: ["comparison", "googlebooks", "overview"]
+excerpt: 'Google''s September 21, 2026 Googlebook launch brought five devices from Acer, Asus, Dell, HP, and Lenovo. All run the same Android-based desktop OS…'
+author_profile: false
+read_time: true
+share: true
+---
 
 Google's September 21, 2026 Googlebook launch brought five devices from Acer, Asus, Dell, HP, and Lenovo. All run the same Android-based desktop OS with Gemini Intelligence and share a common feature set, but differ in chipset, display, form factor, and storage. Here's what separates them.
 
