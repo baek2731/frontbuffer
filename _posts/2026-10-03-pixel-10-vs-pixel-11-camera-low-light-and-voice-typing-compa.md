@@ -1,4 +1,14 @@
-# Pixel 10 vs Pixel 11 camera: low light and voice typing compared
+---
+layout: single
+title: 'Pixel 10 vs Pixel 11 camera: low light and voice typing compared'
+date: 2026-10-03 14:23:00 +0000
+categories: [tech]
+tags: ["comparison", "pixel", "phone", "features"]
+excerpt: 'The Pixel 10 launched October 2025 with Tensor G5. The Pixel 11 launched August 20, 2026 with Tensor G6. Both run Google''s computational photography…'
+author_profile: false
+read_time: true
+share: true
+---
 
 The Pixel 10 launched October 2025 with Tensor G5. The Pixel 11 launched August 20, 2026 with Tensor G6. Both run Google's computational photography stack, but the hardware and software changes between generations are meaningful — especially in low light.
 
