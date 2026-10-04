@@ -1,0 +1,5 @@
+Google announced Googlebook on September 21, 2026 — a laptop category running a new Android-based desktop OS, distinct from ChromeOS.
+
+https://frontbuffer.net/tech/what-is-googlebook-and-how-it-differs-from-chromebooks/
+
+#Chrome #ChromeExtensions #Google #Browser #WebDev
