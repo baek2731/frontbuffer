@@ -1,4 +1,14 @@
-# What is Googlebook and how it differs from Chromebooks
+---
+layout: single
+title: 'What is Googlebook and how it differs from Chromebooks'
+date: 2026-10-04 14:10:00 +0000
+categories: [tech]
+tags: ["explainer", "googlebooks", "overview"]
+excerpt: 'Google announced Googlebook on September 21, 2026 — a laptop category running a new Android-based desktop OS, distinct from ChromeOS. Five…'
+author_profile: false
+read_time: true
+share: true
+---
 
 Google announced Googlebook on September 21, 2026 — a laptop category running a new Android-based desktop OS, distinct from ChromeOS. Five manufacturers (Acer, Asus, Dell, HP, Lenovo) launched the first devices at $899. This article explains what Googlebook is, how it differs from Chromebooks, and what the integration with Android phones actually does.
 

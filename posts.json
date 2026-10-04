@@ -1202,6 +1202,23 @@
         "pixel 11 low light photography comparison"
       ],
       "slug": "2026-10-03-pixel-10-vs-pixel-11-camera-low-light-and-voice-typing-compa"
+    },
+    {
+      "status": "live",
+      "date": "2026-10-04",
+      "title": "What is Googlebook and how it differs from Chromebooks",
+      "live_url": "https://frontbuffer.net/tech/what-is-googlebook-and-how-it-differs-from-chromebooks/",
+      "categories": [
+        "tech"
+      ],
+      "content_type": "EXPLAINER",
+      "hub_cluster": "Googlebooks Overview",
+      "verified_keywords": [
+        "Googlebooks",
+        "googlebook vs chromebook comparison",
+        "googlebook android os vs chromeos"
+      ],
+      "slug": "2026-10-04-what-is-googlebook-and-how-it-differs-from-chromebooks"
     }
   ],
   "_last_updated": "2026-08-07T14:54:21.320932+00:00"
