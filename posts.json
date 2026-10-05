@@ -1219,6 +1219,23 @@
         "googlebook android os vs chromeos"
       ],
       "slug": "2026-10-04-what-is-googlebook-and-how-it-differs-from-chromebooks"
+    },
+    {
+      "status": "live",
+      "date": "2026-10-05",
+      "title": "What is Pixel Voice Typing and how to use its best features",
+      "live_url": "https://frontbuffer.net/tech/what-is-pixel-voice-typing-and-how-to-use-its-best-features/",
+      "categories": [
+        "tech"
+      ],
+      "content_type": "EXPLAINER",
+      "hub_cluster": "Pixel Phone Features",
+      "verified_keywords": [
+        "Pixel Camera",
+        "pixel 11 vs pixel 10 camera quality",
+        "pixel 11 low light photography comparison"
+      ],
+      "slug": "2026-10-05-what-is-pixel-voice-typing-and-how-to-use-its-best-features"
     }
   ],
   "_last_updated": "2026-08-07T14:54:21.320932+00:00"

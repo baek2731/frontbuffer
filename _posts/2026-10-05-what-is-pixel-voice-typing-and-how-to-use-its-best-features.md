@@ -1,4 +1,14 @@
-# What is Pixel Voice Typing and how to use its best features
+---
+layout: single
+title: 'What is Pixel Voice Typing and how to use its best features'
+date: 2026-10-05 14:01:00 +0000
+categories: [tech]
+tags: ["explainer", "pixel", "phone", "features"]
+excerpt: 'Pixel Voice Typing is Google''s on-device speech-to-text system built into Gboard on Pixel phones. It converts spoken words to text in real time,…'
+author_profile: false
+read_time: true
+share: true
+---
 
 Pixel Voice Typing is Google's on-device speech-to-text system built into Gboard on Pixel phones. It converts spoken words to text in real time, handles punctuation automatically, and supports voice commands for editing — all without sending audio to Google's servers for most languages and tasks.
 
