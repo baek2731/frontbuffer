@@ -1,0 +1,102 @@
+# =====================================================================
+# OG 이미지 재생성 워크플로우
+# =====================================================================
+# 트리거: 수동 (workflow_dispatch)
+#
+# 사용법:
+#   GitHub Actions → "OG Image Regenerate" → Run workflow
+#   → 날짜 입력 (여러 개 가능)
+#        예: 2026-09-14
+#        예: 2026-10-01 2026-10-02 2026-10-05      (공백 구분)
+#        예: 2026-10-01,2026-10-02,2026-10-05      (쉼표 구분)
+#   → 비워두면 _posts/ 전체 미처리 파일 일괄 처리
+#   → force_all: true 이면 전체 강제 재생성
+#   → refresh_photo: true 이면 배경 사진도 Unsplash에서 새로 받음
+#        (기본 false: 기존 배경 사진을 재사용해 레이아웃/글자만 갱신)
+# =====================================================================
+
+name: OG Image Regenerate
+
+on:
+  workflow_dispatch:
+    inputs:
+      date:
+        description: '날짜 (여러 개 가능: 2026-10-01 2026-10-02 또는 쉼표 구분) — 비우면 전체 미처리'
+        required: false
+        default: ''
+      force_all:
+        description: '전체 강제 재생성 (이미 처리된 것도 포함) true/false'
+        required: false
+        default: 'false'
+      refresh_photo:
+        description: '배경 사진도 새로 받기 (기본 false = 기존 사진 재사용) true/false'
+        required: false
+        default: 'false'
+
+permissions:
+  contents: write
+
+jobs:
+  regenerate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests pillow boto3
+
+      - name: Configure Git
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Generate OG image
+        run: |
+          REFRESH_FLAG=""
+          if [ "$REFRESH" = "true" ]; then
+            REFRESH_FLAG="--refresh-photo"
+            echo "🔄 배경 사진도 새로 받습니다"
+          fi
+
+          if [ -n "$DATE" ]; then
+            echo "📸 날짜 지정 재생성: ${DATE}"
+            python og_generator.py --date "$DATE" $REFRESH_FLAG
+          elif [ "$FORCE" = "true" ]; then
+            echo "📸 전체 강제 재생성"
+            python og_generator.py --all $REFRESH_FLAG
+          else
+            echo "📸 전체 미처리 파일 처리"
+            python og_generator.py
+          fi
+        env:
+          DATE:                  ${{ github.event.inputs.date }}
+          FORCE:                 ${{ github.event.inputs.force_all }}
+          REFRESH:               ${{ github.event.inputs.refresh_photo }}
+          UNSPLASH_ACCESS_KEY:   ${{ secrets.UNSPLASH_ACCESS_KEY }}
+          R2_ACCESS_KEY_ID:      ${{ secrets.R2_ACCESS_KEY_ID }}
+          R2_SECRET_ACCESS_KEY:  ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          R2_ACCOUNT_ID:         ${{ secrets.R2_ACCOUNT_ID }}
+
+      - name: Commit OG assets
+        run: |
+          git add social_output/ _posts/ || true
+          if git diff --cached --quiet; then
+            echo "ℹ️ 변경사항 없음"
+          else
+            LABEL="${DATE:-전체}"
+            LABEL="$(echo "$LABEL" | cut -c1-80)"
+            git commit -m "chore: OG 이미지 재생성 — ${LABEL}"
+            # 다른 워크플로우(발행 등)가 먼저 푸시했어도 충돌 없이 반영
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+        env:
+          DATE: ${{ github.event.inputs.date }}

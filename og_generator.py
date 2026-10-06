@@ -10,6 +10,9 @@
 #   python og_generator.py              → 전체 미처리 파일 자동 처리
 #   python og_generator.py --all        → 이미 처리된 것도 재생성
 #   python og_generator.py --file 파일명 → 특정 파일만 처리
+#   python og_generator.py --date 2026-10-01 2026-10-02   → 여러 날짜 한 번에 재생성
+#   python og_generator.py --date 2026-10-01,2026-10-02   → 쉼표 구분도 가능
+#   (재생성 시 기존 배경 사진을 재사용합니다. 새 사진을 받으려면 --refresh-photo)
 #
 # 필요:
 #   pip install pillow
@@ -194,6 +197,26 @@ def fetch_unsplash_image(query):
     return None
 
 
+def fetch_existing_header(url_slug, slug_dir):
+    """재생성용: 이전에 저장한 배경 사진(header.jpg)을 재사용한다.
+    1) social_output/{slug}/header.jpg  2) R2 공개 URL 순으로 찾는다.
+    없으면 None → 호출 쪽에서 Unsplash로 새로 받는다."""
+    local = os.path.join(slug_dir, "header.jpg")
+    try:
+        if os.path.exists(local):
+            return Image.open(local).convert("RGB")
+    except Exception:
+        pass
+    url = f"{R2_PUBLIC_URL}/posts/{url_slug}/header.jpg"
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (frontbuffer-og)"})
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            return Image.open(io.BytesIO(resp.read())).convert("RGB")
+    except Exception as e:
+        print(f"     ℹ️ 기존 배경 사진 없음 ({e}) — 새로 받습니다")
+        return None
+
+
 def upload_to_r2(local_path, r2_key):
     """R2에 파일 업로드 (boto3 S3 호환) → 공개 URL 반환."""
     if not HAS_BOTO3 or not R2_ACCOUNT_ID or not R2_ACCESS_KEY_ID or not R2_SECRET_ACCESS_KEY:
@@ -297,6 +320,16 @@ def get_font(size, bold=False):
     return ImageFont.load_default()
 
 
+def _yaml_scalar(raw):
+    """front matter 한 줄 값을 문자열로 변환 (따옴표/이스케이프/마크다운 기호 정리)."""
+    raw = raw.strip()
+    if len(raw) >= 2 and raw[0] == "'" and raw[-1] == "'":
+        raw = raw[1:-1].replace("''", "'")
+    elif len(raw) >= 2 and raw[0] == '"' and raw[-1] == '"':
+        raw = raw[1:-1].replace('\\"', '"')
+    return raw.replace("*", "").replace("`", "").strip()
+
+
 def parse_md(filepath):
     text = Path(filepath).read_text(encoding="utf-8")
     title = ""
@@ -306,12 +339,12 @@ def parse_md(filepath):
     fm_match = re.match(r"^---\s*\n(.*?)\n---", text, re.DOTALL)
     if fm_match:
         fm = fm_match.group(1)
-        t = re.search(r"^title:\s*['\"]?(.+?)['\"]?\s*$", fm, re.MULTILINE)
+        t = re.search(r"^title:\s*(.+?)\s*$", fm, re.MULTILINE)
         if t:
-            title = t.group(1).strip().strip("'\"")
-        e = re.search(r"^excerpt:\s*['\"]?(.+?)['\"]?\s*$", fm, re.MULTILINE)
+            title = _yaml_scalar(t.group(1))
+        e = re.search(r"^excerpt:\s*(.+?)\s*$", fm, re.MULTILINE)
         if e:
-            excerpt = e.group(1).strip().strip("'\"")
+            excerpt = _yaml_scalar(e.group(1))
         c = re.search(r"^categories:\s*\[(.+?)\]", fm, re.MULTILINE)
         if c:
             cats = c.group(1).lower()
@@ -337,28 +370,39 @@ def parse_md(filepath):
     return title, category, excerpt
 
 
-def wrap_text(text, font, max_width, draw):
+def wrap_text(text, font, max_width, draw, max_lines=2):
+    """단어 단위 줄바꿈. max_lines 초과 시 마지막 줄을 말줄임표(…)로 마무리."""
     words = text.split()
     lines = []
     current = ""
     for word in words:
         test = (current + " " + word).strip()
-        bbox = draw.textbbox((0, 0), test, font=font)
-        if bbox[2] <= max_width:
+        if draw.textbbox((0, 0), test, font=font)[2] <= max_width:
             current = test
         else:
             if current:
                 lines.append(current)
             current = word
-        if len(lines) == 2:
-            current = current[:40] + "…"
-            break
-    if current and len(lines) < 3:
+    if current:
         lines.append(current)
-    return lines[:2]
+
+    if len(lines) > max_lines:
+        lines = lines[:max_lines]
+        last = lines[-1]
+        while last and draw.textbbox((0, 0), last + "…", font=font)[2] > max_width:
+            last = last[:-1].rstrip()
+        lines[-1] = last.rstrip(" ,.;:-—") + "…"
+    return lines
 
 
 def draw_rounded_rect(draw, xy, radius, fill, outline=None, outline_width=2):
+    """둥근 사각형. Pillow 내장 함수를 쓰고, 구버전이면 직접 그린다."""
+    try:
+        draw.rounded_rectangle(xy, radius=radius, fill=fill,
+                               outline=outline, width=outline_width)
+        return
+    except AttributeError:
+        pass
     x1, y1, x2, y2 = xy
     draw.rectangle([x1 + radius, y1, x2 - radius, y2], fill=fill)
     draw.rectangle([x1, y1 + radius, x2, y2 - radius], fill=fill)
@@ -451,8 +495,9 @@ def generate_og_image(title, category, excerpt, out_path, unsplash_img=None):
     # Unsplash 크레딧 (좌측 하단)
     if unsplash_img is not None:
         font_credit = get_font(13)
-        draw.text((80, 585), "Photo: Unsplash",
-                  font=font_credit, fill=(120, 120, 120), anchor="lt")
+        # 배지(555~595) 아래쪽에 배치해 겹치지 않게 함
+        draw.text((80, 606), "Photo: Unsplash",
+                  font=font_credit, fill=(140, 150, 165), anchor="lt")
 
     img.save(out_path, "PNG")
 
@@ -470,7 +515,7 @@ def generate_tweet(title, category, excerpt, url_slug):
 {hashtags}"""
 
 
-def process_file(md_path, force=False):
+def process_file(md_path, force=False, refresh_photo=False):
     stem     = Path(md_path).stem
     url_slug = re.sub(r"^\d{4}-\d{2}-\d{2}-", "", stem)
     slug_dir = os.path.join(OUTPUT_DIR, url_slug)
@@ -492,8 +537,15 @@ def process_file(md_path, force=False):
 
     # ── Unsplash 이미지 가져오기 ──────────────────────────────────
     unsplash_img = None
+    reused_photo = False
     header_image_url = None
-    if UNSPLASH_KEY:
+    # 재생성이면 기존 배경 사진을 재사용 (Unsplash API 호출/사진 바뀜 방지)
+    if force and not refresh_photo:
+        unsplash_img = fetch_existing_header(url_slug, slug_dir)
+        if unsplash_img is not None:
+            reused_photo = True
+            print(f"     ♻️ 기존 배경 사진 재사용")
+    if unsplash_img is None and UNSPLASH_KEY:
         query = get_unsplash_query(title, category)
         print(f"     🔍 Unsplash 검색: {query}")
         unsplash_img = fetch_unsplash_image(query)
@@ -504,7 +556,7 @@ def process_file(md_path, force=False):
     generate_og_image(title, category, excerpt, out_png, unsplash_img=unsplash_img)
 
     # ── R2에 header 이미지 업로드 ─────────────────────────────────
-    if unsplash_img and HAS_BOTO3 and R2_ACCOUNT_ID:
+    if unsplash_img and not reused_photo and HAS_BOTO3 and R2_ACCOUNT_ID:
         # header 이미지 저장 (1200x630, 약간 blur 적용)
         header_path = os.path.join(slug_dir, "header.jpg")
         header_img = unsplash_img.resize((1200, 630), Image.LANCZOS)
@@ -545,10 +597,25 @@ def process_file(md_path, force=False):
     return True
 
 
+def parse_dates(tokens):
+    """['2026-10-01,2026-10-02', '2026-10-05'] → ['2026-10-01','2026-10-02','2026-10-05']"""
+    dates = []
+    for tok in tokens:
+        for d in tok.replace(",", " ").split():
+            d = d.strip()
+            if d and d not in dates:
+                dates.append(d)
+    return dates
+
+
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--all",  action="store_true")
-    parser.add_argument("--file", default="")
+    parser.add_argument("--all",  action="store_true", help="이미 처리된 것도 전부 재생성")
+    parser.add_argument("--file", default="", help="특정 파일만 처리")
+    parser.add_argument("--date", nargs="*", default=None,
+                        help="날짜(YYYY-MM-DD) 여러 개 — 공백 또는 쉼표로 구분")
+    parser.add_argument("--refresh-photo", action="store_true",
+                        help="재생성할 때 배경 사진도 Unsplash에서 새로 받기")
     args = parser.parse_args()
 
     print(f"\n{'='*60}")
@@ -565,7 +632,35 @@ def main():
         if not os.path.exists(target):
             print(f"❌ 파일 없음: {target}")
             sys.exit(1)
-        process_file(target, force=True)
+        process_file(target, force=True, refresh_photo=args.refresh_photo)
+        return
+
+    if args.date is not None:
+        dates = parse_dates(args.date)
+        if not dates:
+            print("❌ --date 에 날짜가 없습니다 (예: --date 2026-10-01 2026-10-02)")
+            sys.exit(1)
+        bad = [d for d in dates if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", d)]
+        if bad:
+            print(f"❌ 날짜 형식 오류: {', '.join(bad)} (YYYY-MM-DD)")
+            sys.exit(1)
+        print(f"  대상 날짜 {len(dates)}개: {', '.join(dates)}\n")
+        processed = missing = 0
+        for d in dates:
+            files = sorted(Path(POSTS_DIR).glob(f"{d}-*.md"))
+            if not files:
+                print(f"  ⚠️ {d}: _posts/ 에 해당 날짜 파일 없음")
+                missing += 1
+                continue
+            for md in files:
+                if process_file(str(md), force=True, refresh_photo=args.refresh_photo):
+                    processed += 1
+        print(f"\n{'='*60}")
+        print(f"✅ 완료: 재생성 {processed}개 / 파일 없는 날짜 {missing}개")
+        print(f"{'='*60}\n")
+        if processed == 0:
+            print("❌ 처리된 파일이 없습니다 — 날짜를 확인하세요")
+            sys.exit(1)
         return
 
     md_files = sorted(Path(POSTS_DIR).glob("*.md"))
@@ -576,7 +671,7 @@ def main():
     print(f"  _posts/ 파일: {len(md_files)}개\n")
     processed = skipped = 0
     for md in md_files:
-        if process_file(str(md), force=args.all):
+        if process_file(str(md), force=args.all, refresh_photo=args.refresh_photo):
             processed += 1
         else:
             skipped += 1
