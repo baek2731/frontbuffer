@@ -3,8 +3,8 @@ layout: single
 title: "Chrome Manifest V2 Is Dead: What Happened and What to Use Instead"
 date: 2026-07-20 11:11:27 +0900
 categories: [tech]
-tags: ["chrome extensions", "hub", "manifest", "deprecation"]
-excerpt: "Chrome removed all Manifest V2 extensions from the Web Store on August 31, 2026. If uBlock Origin or another extension stopped working, here is what replaced it."
+tags: ["hub", "chrome", "manifest-v2", "manifest-v3"]
+excerpt: "Chrome removed all Manifest V2 extensions from the Web Store on August 31, 2026. Check what still works, and find MV3 replacements for uBlock Origin and more."
 header:
   image: https://images.frontbuffer.net/posts/google-chrome-manifest-v2-migration_HUB/og.png
   overlay_filter: 0
@@ -13,40 +13,61 @@ read_time: true
 share: true
 ---
 
-If your Chrome extensions suddenly stopped working in 2025 or you're trying to stay ahead of Google's August 31, 2026 Web Store deadline, you're in the right place. Google's transition from Manifest V2 to Manifest V3 has been the most significant overhaul to the Chrome extensions platform in its history — and it has left millions of users scrambling for answers. This guide connects you to the right resources depending on where you are in that process.
+If an extension you relied on, uBlock Origin being the best-known, stopped working in Chrome, or the Chrome Web Store says it is unavailable, this is why. Chrome removed all remaining Manifest V2 (MV2) extensions from the Web Store on August 31, 2026. This page explains what that means for extensions you already have, and points you to the right guide.
+
+*Updated October 6, 2026.*
 
 ---
 
-## What is Chrome Manifest V3 and Why Extensions Break
+## Short answer
 
-If you opened Chrome one day and found that a trusted extension had simply disappeared or stopped functioning, this explainer is the right starting point. Google introduced Manifest V3 to address three core problems with the legacy framework: persistent background processes that consumed memory, broad data access that created privacy risks, and the ability to run code fetched from external servers. The result was a platform-level rewrite that forced developers to rebuild core extension logic from scratch — and why tools like the original uBlock Origin no longer work in Chrome.
+- **You can't install MV2 extensions from the Web Store anymore.** Google removed all remaining ones on August 31, 2026.
+- **Already-installed MV2 extensions** only stay installed on Chrome 138 or earlier, and they get no updates and can't be reinstalled from the Web Store. Chrome 139 and newer support only Manifest V3 (MV3) extensions.
+- **Firefox still supports MV2.** Policy on other Chromium-based browsers differs and changes, so check each browser's own documentation.
+
+---
+
+## How we got here
+
+| When | What changed |
+|---|---|
+| January 2022 | The Web Store stopped accepting new public and unlisted MV2 extensions |
+| Chrome 138 (mid-2025) | MV2 extensions were disabled by default for all users |
+| Chrome 139 | Support for MV2 extensions was removed from Chrome |
+| June 2026 | Chrome removed the flag that let users turn MV2 extensions back on |
+| August 31, 2026 | All remaining MV2 extensions were removed from the Web Store |
+
+The dates come from [Chrome's official MV2 support timeline](https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline), with the June 2026 flag removal reported by [Android Authority](https://androidauthority.com/google-chrome-old-manifest-v2-extensions-delete-3685207).
+
+---
+
+## Where to start
+
+**Your extension disappeared or stopped working, and you want to know why.**
+Google's Manifest V3 changed how extensions run in the browser. It is a stricter platform with limits on background processes, data access, and remotely hosted code, and those limits are why tools like the original uBlock Origin no longer work in Chrome.
 
 → Read more: [What is Chrome Manifest V3 and Why Extensions Break](https://frontbuffer.net/tech/what-is-chrome-manifest-v3-and-why-extensions-break/)
 
----
-
-## How to Check If Chrome Extensions Use Manifest V2
-
-If you want to know which of your installed extensions are still running on the legacy framework before the August 2026 deadline hits, this guide walks through the exact steps. Regular users can check for warning banners directly inside Chrome's extension management page at `chrome://extensions`. Developers and administrators can go deeper by enabling Developer Mode and inspecting individual `manifest.json` files to confirm the version number. Catching legacy extensions early gives you time to find replacements before Chrome cuts off support entirely.
+**You want to know which of your extensions are still on MV2.**
+You can check inside Chrome at `chrome://extensions`, where MV2 extensions have shown a warning banner. Developers can enable Developer Mode and inspect an extension's `manifest.json` to confirm its version.
 
 → Read more: [How to Check If Chrome Extensions Use Manifest V2](https://frontbuffer.net/tech/how-to-check-if-chrome-extensions-use-manifest-v2/)
 
----
-
-## Best Manifest V3 Alternatives for Older Chrome Extensions
-
-If your go-to extension no longer works and you need a replacement that functions under the new rules, this listicle covers the strongest options available today. The Manifest V3 transition forced major tools to rebuild — uBlock Origin Lite, AdGuard, and Adblock Plus have all released compliant versions, while Brave and Firefox offer browser-level alternatives that sidestep Chrome's restrictions entirely. Independent testing shows these replacements remain effective for everyday browsing, even within the stricter declarative ruleset framework.
+**You need a replacement that works under the new rules.**
+uBlock Origin Lite, AdGuard, and Adblock Plus have MV3 versions. Their filtering is more limited than the old MV2 versions, so how much that matters depends on how you use them. Browsers such as Firefox take a different approach, since they still support MV2.
 
 → Read more: [Best Manifest V3 Alternatives for Older Chrome Extensions](https://frontbuffer.net/tech/best-manifest-v3-alternatives-for-older-chrome-extensions/)
 
 ---
 
-## Conclusion
+## Takeaway
 
-The Manifest V2 phase-out is complete. The Chrome Web Store removed all remaining MV2 listings on August 31, 2026. Whether you're trying to understand why something broke, auditing your current setup, or rebuilding your extension toolkit from scratch, the three guides above cover every step of that process. Start with the explainer if you're new to the transition, or jump directly to the alternatives list if you already know what you've lost.
+If an MV2 extension still runs on your current Chrome, treat it as temporary. It won't update, you can't reinstall it from the Web Store, and a new laptop or a clean Chrome install won't bring it back. Check what you have, pick an MV3 replacement, and test it before you reinstall Chrome.
 
+---
 ## Sources
 
-* [What is Chrome Manifest V3 and Why Extensions Break](https://frontbuffer.net/tech/what-is-chrome-manifest-v3-and-why-extensions-break/)
-* [How to Check If Chrome Extensions Use Manifest V2](https://frontbuffer.net/tech/how-to-check-if-chrome-extensions-use-manifest-v2/)
-* [Best Manifest V3 Alternatives for Older Chrome Extensions](https://frontbuffer.net/tech/best-manifest-v3-alternatives-for-older-chrome-extensions/)
+- [Chrome for Developers — Manifest V2 support timeline](https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline)
+- [9to5Google — Google Chrome will remove older Manifest V2 extensions in August](https://9to5google.com/2026/07/08/google-chrome-will-remove-older-manifest-v2-extensions-in-august/)
+- [Android Authority — Chrome Web Store to remove old Manifest V2 extensions](https://androidauthority.com/google-chrome-old-manifest-v2-extensions-delete-3685207)
+- [Gigazine — Google removes Manifest V2 extensions from the Chrome Web Store](https://gigazine.net/gsc_news/en/20260901-manifest-v2-extensions)
