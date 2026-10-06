@@ -3,64 +3,75 @@ layout: single
 title: "Nintendo Switch 2 MicroSD Express: Why Old Cards Don't Work and What Does"
 date: 2026-08-31 14:02:00 +0000
 categories: [gaming]
-tags: ["explainer", "nintendo", "switch", "hardware"]
-excerpt: "Nintendo Switch 2 requires microSD Express cards — standard microSD cards from the Switch 1 era don't work. Here is why the format changed and which cards are compatible."
+tags: ["explainer", "nintendo", "switch-2", "microsd-express"]
+excerpt: "Nintendo Switch 2 needs microSD Express cards, and your old Switch 1 microSD card won't store games. See why, which cards to buy, and how much storage you need."
 header:
   image: https://images.frontbuffer.net/posts/rumored-nintendo-switch-successor-exploring-potential-micros/og.png
   overlay_filter: 0
 author_profile: false
 read_time: true
 share: true
-sitemap: false
-canonical_url: https://frontbuffer.net/gaming/nintendo-switch-2-microssd-explainer/
 ---
 
-Nintendo Switch 2 uses microSD Express cards exclusively. Standard microSD and microSDXC cards — including the ones that worked in the original Switch — are not compatible. Nintendo confirmed this before launch, and it catches players off guard when they try to reuse their existing storage.
+The microSD card from your original Switch won't work for game storage on a Switch 2. The Switch 2 accepts only microSD Express cards, a faster and more expensive format. Nintendo announced this before launch, and it still surprises people who try to reuse the card they already own.
 
----
-
-## Why the Format Changed
-
-The original Nintendo Switch used microSDXC cards, which top out at around 100 MB/s read speeds under the UHS-I bus standard. That was sufficient for Switch 1 games, which were typically 1–15GB with load times that were acceptable for the hardware.
-
-Nintendo Switch 2 games are larger — many first-party titles exceed 20GB, and third-party ports from PS5/Xbox Series can run 50GB or more. The UHS-I bus simply cannot move data fast enough to avoid noticeable load time increases at those file sizes.
-
-MicroSD Express uses the PCIe and NVMe protocol stack, the same technology used in fast SSDs, over the microSD form factor. The Nintendo Switch 2 implementation supports speeds up to 985 MB/s read — roughly 10x faster than what UHS-I cards can deliver.
+*Prices and card availability checked October 6, 2026. Both change often, so confirm before you buy.*
 
 ---
 
-## How to Identify a MicroSD Express Card
+## Why the format changed
 
-MicroSD Express cards carry an **EX** logo on the card itself and packaging. Standard microSDXC cards don't have this marking.
+The original Switch used standard microSD cards on the UHS-I bus, which tops out at roughly 100 MB/s. The Switch 2 uses microSD Express, which runs over the PCIe and NVMe protocols that fast SSDs use, in the same small card format.
 
-Current MicroSD Express cards available as of 2026:
-
-- **Lexar PLAY microSD Express** — available in 256GB and 512GB
-- **ProGrade Digital microSD Express** — 256GB, positioned toward content creators
-- **Sandisk's microSD Express lineup** — announced for 2026, availability expanding
-
-Prices are higher than equivalent-capacity standard microSDXC cards. A 256GB microSD Express card runs $40–60 versus $15–25 for a standard 256GB card.
+Retail microSD Express cards are rated at roughly 800 to 900 MB/s read speeds. That is about eight to nine times what UHS-I can deliver, and it is the reason Nintendo required the newer standard for a console with larger games.
 
 ---
 
-## How Much Storage Do You Need
+## How to tell if a card is microSD Express
 
-Nintendo Switch 2 internal storage is 256GB. The base console ships with enough room for 8–15 large titles depending on size. If you own more than that digitally, external storage becomes necessary.
+Look for "Express" on the card and packaging. The easy mistake is to confuse it with SanDisk's "Extreme" branding, which is used on conventional UHS-I cards and will not work as game storage on a Switch 2.
 
-For most players, a 256GB microSD Express card doubles total storage to 512GB — enough for 20–30 large games. Players with large digital libraries, or who plan to buy primarily digitally going forward, should consider 512GB.
-
-Physical game cards don't require the microSD Express card to run — they load directly from the cartridge. If you primarily buy physical, the Switch 2's internal storage may be sufficient without an expansion card.
+If a card is not Express-rated, the Switch 2 won't use it for game storage.
 
 ---
 
-## What Happens If You Insert an Old Card
+## Which cards to buy
 
-The Switch 2 will display an error indicating the card is incompatible. It won't damage the card or the console. The old card simply won't be read.
+Cards that work with the Switch 2 include:
 
-If you're upgrading from Switch 1 and have games saved to a microSDXC card, those saves aren't transferable via the card itself. Nintendo's save data transfer tool handles Switch 1 to Switch 2 migration separately through the system's data transfer process.
+- **SanDisk microSD Express** and **Samsung microSD Express**, both sold in Nintendo-licensed Switch 2 editions
+- **Lexar Play Pro**, which includes large capacities up to 1TB
+- **PNY, Onn (Walmart), and GameStop** own-brand Express cards
+
+Prices at launch, according to [Tom's Hardware](https://tomshardware.com/video-games/nintendo/nintendo-switch-2s-support-for-microsd-express-standard-is-going-to-hurt-your-wallet-heres-why): SanDisk listed a 128GB card at $49.99 and a 256GB card at $64.99, and a 256GB Samsung card at about $60, compared with about $23 for a conventional 256GB Samsung card. The 1TB Lexar card was priced at $200. [Engadget tested seven Switch 2 cards](https://engadget.com/gaming/nintendo/best-microsd-cards-for-nintendo-switch-2-160052947.html) and recommended SanDisk's card if you want the best-performing option.
+
+Prices have moved since launch, so check the current price on the retailer's page.
+
+---
+
+## How much storage you need
+
+The Switch 2 has 256GB of internal storage. How much more you need depends on how you buy games:
+
+- **Mostly physical cartridges:** the internal storage may be enough.
+- **Mostly digital:** a 256GB card doubles your total. Choose 512GB if you buy most of your games digitally.
+- **Game-Key Cards:** these are physical cartridges that act as a license key. [Tom's Hardware explains](https://tomshardware.com/video-games/nintendo/nintendo-switch-2s-support-for-microsd-express-standard-is-going-to-hurt-your-wallet-heres-why) that the full game must be downloaded and installed to the console's storage. Buying physical doesn't remove the storage need if your games use them.
+
+Check the game's box or store page for a Game-Key Card notice before you assume a physical copy saves space.
+
+---
+
+## What happens with your old card
+
+The Switch 2 won't use a standard microSD card for game storage, whether the game is from the Switch 1 or the Switch 2 library. Your Switch 1 save data doesn't travel on the card either. Use Nintendo's system transfer process to move it to the new console.
+
+---
+
+## Takeaway
+
+Buy a microSD Express card marked "Express," not "Extreme." A 256GB card at around $60 covers most players. Go to 512GB if you buy digital or own Game-Key Card titles, and keep your old microSD card for the original Switch.
 
 ---
 Sources:
-- [Nintendo Switch 2 Official Page](https://www.nintendo.com/us/switch/switch-2/)
-- [Nintendo — microSD Express compatibility](https://www.nintendo.com/us/switch/switch-2/storage/)
-- [The Verge — Nintendo Switch 2 microSD Express explained](https://www.theverge.com/nintendo-switch-2-microsd-express)
+- [Tom's Hardware — Switch 2's microSD Express support will hurt your wallet](https://tomshardware.com/video-games/nintendo/nintendo-switch-2s-support-for-microsd-express-standard-is-going-to-hurt-your-wallet-heres-why)
+- [Engadget — The best microSD cards for the Nintendo Switch 2](https://engadget.com/gaming/nintendo/best-microsd-cards-for-nintendo-switch-2-160052947.html)
