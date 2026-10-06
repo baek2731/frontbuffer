@@ -1,7 +1,7 @@
 {
   "_version": "1.3",
   "_description": "콘텐츠 파이프라인 — 클러스터 단위 관리",
-  "_last_updated": "2026-10-06T00:29:34.352425+00:00",
+  "_last_updated": "2026-10-06T00:34:22.389938+00:00",
   "hub_clusters": {
     "Steam Machine": {
       "hub_keyword": "Steam Machine",
@@ -643,16 +643,18 @@
     },
     "Steam Portable Gaming": {
       "hub_keyword": "Steam Portable Gaming",
-      "hub_status": "PENDING",
+      "hub_status": "READY",
       "hub_title": "",
       "hub_url": "",
       "spokes": [
         "Steam Portable Gaming"
       ],
       "spoke_urls": {
-        "Steam Portable Gaming (COMPARISON)": "pending"
+        "Steam Portable Gaming (COMPARISON)": "pending",
+        "Steam Portable Gaming (GUIDE)": "pending"
       },
       "internal_links": [
+        "pending",
         "pending"
       ]
     },
@@ -1851,11 +1853,11 @@
     },
     "Steam Portable Gaming": {
       "types_done": [
-        "COMPARISON"
+        "COMPARISON",
+        "GUIDE"
       ],
-      "last_week": "2026-W38",
+      "last_week": "2026-W40",
       "suggest_next": [
-        "GUIDE",
         "EXPLAINER",
         "LISTICLE"
       ],
@@ -5631,8 +5633,9 @@
         "data_grade": "B",
         "verified_keywords": [],
         "publish_order": 44,
-        "status": "candidate",
-        "selected_at": "2026-09-22T05:50:50.235664+00:00"
+        "status": "published",
+        "selected_at": "2026-09-22T05:50:50.235664+00:00",
+        "url": "pending"
       }
     ],
     "2026-W40": [
@@ -6254,6 +6257,15 @@
       "week_tag": "2026-W38",
       "published_at": "2026-09-22T06:04:33.780591+00:00",
       "hub_cluster": "Pixel Phones"
+    },
+    {
+      "cluster_name": "Steam Portable Gaming",
+      "title": "How to Troubleshoot Steam Deck Odd Charging Behavior and Battery Problems",
+      "url": "pending",
+      "content_type": "GUIDE",
+      "week_tag": "2026-W40",
+      "published_at": "2026-10-06T00:34:22.389876+00:00",
+      "hub_cluster": "Steam Portable Gaming"
     }
   ]
 }
