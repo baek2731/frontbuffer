@@ -1,4 +1,4 @@
-Google's Chrome extension deadline is August 31. Here's the full picture — what broke, why, and what to do next.
+Chrome removed all Manifest V2 extensions from the Web Store on August 31, 2026. Check what still works, and find MV3 replacements for…
 
 https://frontbuffer.net/tech/google-chrome-manifest-v2-migration_HUB/
 

@@ -1,4 +1,4 @@
-Millions of Chrome users lost extensions without warning. Here's the actual reason — and it's not going away.
+Chrome 138 disabled all Manifest V2 extensions in July 2025 - including the original uBlock Origin. Here is exactly what changed in the…
 
 https://frontbuffer.net/tech/what-is-chrome-manifest-v3-and-why-extensions-break/
 
