@@ -5,6 +5,9 @@ date: 2026-10-06 14:53:00 +0000
 categories: [tech]
 tags: ["comparison", "galaxy", "fold"]
 excerpt: 'The Samsung Galaxy Z Fold 5, designed for tablet-like productivity, and the Galaxy Z Flip 5, prioritizing compact portability, represent Samsung''s…'
+header:
+  image: https://images.frontbuffer.net/posts/galaxy-z-fold-series-vs-galaxy-z-flip-series-which-foldable-/og.png
+  overlay_filter: 0
 author_profile: false
 read_time: true
 share: true
