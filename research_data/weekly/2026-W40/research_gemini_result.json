@@ -1,0 +1,181 @@
+{
+  "ok": true,
+  "week_tag": "2026-W40",
+  "total": 7,
+  "grade_a": [
+    {
+      "cluster_name": "Android Auto & Pixel Ecosystem",
+      "content_type": "GUIDE",
+      "suggested_title": "Android Auto Compatibility Guide: Minimum Android Version Requirements",
+      "hub_keyword": "Android Auto",
+      "parent_hub": "Android Auto",
+      "spoke_keywords": [
+        "android auto requirements",
+        "android auto minimum version"
+      ],
+      "evergreen_score": 90,
+      "competition_level": "MEDIUM",
+      "affiliate_potential": "LOW",
+      "timing": "NOW",
+      "verifiability": "HIGH",
+      "trends_queries": [
+        "android auto requirements",
+        "android auto minimum version"
+      ],
+      "reasoning": "This topic addresses ongoing compatibility concerns for a widely used feature, relying on official documentation for verification.",
+      "data_grade": "A",
+      "publish_order": 47,
+      "folder": "01-android-auto"
+    },
+    {
+      "cluster_name": "Android Auto & Pixel Ecosystem",
+      "content_type": "GUIDE",
+      "suggested_title": "How to Fix Android Auto Missing Signal and Media Playback Issues",
+      "hub_keyword": "Android Auto troubleshooting",
+      "parent_hub": "Android Auto",
+      "spoke_keywords": [
+        "android auto signal fix",
+        "android auto media not working"
+      ],
+      "evergreen_score": 85,
+      "competition_level": "MEDIUM",
+      "affiliate_potential": "LOW",
+      "timing": "NOW",
+      "verifiability": "HIGH",
+      "trends_queries": [
+        "android auto signal fix",
+        "android auto media not working"
+      ],
+      "reasoning": "This guide addresses persistent user problems with Android Auto, using publicly available fixes and troubleshooting steps.",
+      "data_grade": "A",
+      "publish_order": 48,
+      "folder": "01-android-auto"
+    },
+    {
+      "cluster_name": "Android Auto & Pixel Ecosystem",
+      "content_type": "EXPLAINER",
+      "suggested_title": "What is Gemini in Android Auto and How to Use Its Features",
+      "hub_keyword": "Gemini Android Auto",
+      "parent_hub": "Android Auto",
+      "spoke_keywords": [
+        "gemini android auto features",
+        "how to use gemini in car"
+      ],
+      "evergreen_score": 90,
+      "competition_level": "LOW",
+      "affiliate_potential": "LOW",
+      "timing": "NOW",
+      "verifiability": "HIGH",
+      "trends_queries": [
+        "gemini android auto features",
+        "how to use gemini in car"
+      ],
+      "reasoning": "Explaining the functionality of Gemini within Android Auto provides long-term value, relying on official Google feature descriptions.",
+      "data_grade": "A",
+      "publish_order": 45,
+      "folder": "01-android-auto"
+    },
+    {
+      "cluster_name": "AI Models & Integration",
+      "content_type": "EXPLAINER",
+      "suggested_title": "What is AI Watermarking in ChatGPT and How Does It Work",
+      "hub_keyword": "AI watermarking",
+      "parent_hub": "AI Models",
+      "spoke_keywords": [
+        "chatgpt text watermarking explained",
+        "how ai watermarking works"
+      ],
+      "evergreen_score": 95,
+      "competition_level": "LOW",
+      "affiliate_potential": "LOW",
+      "timing": "NOW",
+      "verifiability": "HIGH",
+      "trends_queries": [
+        "chatgpt text watermarking explained",
+        "how ai watermarking works"
+      ],
+      "reasoning": "This explainer delves into a fundamental and lasting aspect of AI content generation, verifiable through official statements and technical documentation.",
+      "data_grade": "A",
+      "publish_order": 46,
+      "folder": ""
+    },
+    {
+      "cluster_name": "AI Models & Integration",
+      "content_type": "COMPARISON",
+      "suggested_title": "Google Gemini Free vs AI Plus: Feature Differences and Limitations",
+      "hub_keyword": "Gemini features",
+      "parent_hub": "AI Models",
+      "spoke_keywords": [
+        "gemini free vs paid",
+        "gemini ai plus features"
+      ],
+      "evergreen_score": 90,
+      "competition_level": "MEDIUM",
+      "affiliate_potential": "LOW",
+      "timing": "NOW",
+      "verifiability": "HIGH",
+      "trends_queries": [
+        "gemini free vs paid",
+        "gemini ai plus features"
+      ],
+      "reasoning": "This comparison provides lasting value by detailing the differences between Gemini's free and paid tiers, drawing facts from official Google sources.",
+      "data_grade": "A",
+      "publish_order": 44,
+      "folder": ""
+    },
+    {
+      "cluster_name": "Samsung Galaxy & Foldable Devices",
+      "content_type": "GUIDE",
+      "suggested_title": "Samsung SmartTag 2 Features: How to Use Enhanced Tracking and Connectivity",
+      "hub_keyword": "Samsung SmartTag guide",
+      "parent_hub": "Samsung Devices",
+      "spoke_keywords": [
+        "samsung smarttag 2 how to use",
+        "smarttag 2 enhanced features"
+      ],
+      "evergreen_score": 90,
+      "competition_level": "LOW",
+      "affiliate_potential": "HIGH",
+      "timing": "NOW",
+      "verifiability": "HIGH",
+      "trends_queries": [
+        "samsung smarttag 2 how to use",
+        "smarttag 2 enhanced features"
+      ],
+      "reasoning": "This guide focuses on the specific new features of the Samsung SmartTag, verifiable directly from Samsung's official product information.",
+      "data_grade": "A",
+      "publish_order": 49,
+      "folder": "08-galaxy-s27"
+    }
+  ],
+  "grade_b": [
+    {
+      "cluster_name": "Samsung Galaxy & Foldable Devices",
+      "content_type": "COMPARISON",
+      "suggested_title": "Samsung Galaxy Z Fold 8 vs Z Fold 7: Key Spec and Feature Comparison",
+      "hub_keyword": "Galaxy Z Fold comparison",
+      "parent_hub": "Samsung Foldables",
+      "spoke_keywords": [
+        "galaxy z fold 8 vs z fold 7 specs",
+        "z fold 8 features vs z fold 7"
+      ],
+      "evergreen_score": 80,
+      "competition_level": "MEDIUM",
+      "affiliate_potential": "HIGH",
+      "timing": "NOW",
+      "verifiability": "HIGH",
+      "trends_queries": [
+        "galaxy z fold 8 vs z fold 7 specs",
+        "z fold 8 features vs z fold 7"
+      ],
+      "reasoning": "This article compares the official specifications and announced features of two major foldable phones, verifiable through Samsung's public documentation.",
+      "data_grade": "B",
+      "publish_order": 50,
+      "folder": "08-galaxy-s27"
+    }
+  ],
+  "grade_c": [],
+  "auto_selected": 7,
+  "elapsed": 38.6,
+  "timestamp": "2026-10-06T00:29:34.356669+00:00"
+}
