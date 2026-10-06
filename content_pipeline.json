@@ -1,7 +1,7 @@
 {
   "_version": "1.3",
   "_description": "콘텐츠 파이프라인 — 클러스터 단위 관리",
-  "_last_updated": "2026-10-06T00:36:18.505643+00:00",
+  "_last_updated": "2026-10-06T00:37:30.565739+00:00",
   "hub_clusters": {
     "Steam Machine": {
       "hub_keyword": "Steam Machine",
@@ -389,9 +389,11 @@
       ],
       "spoke_urls": {
         "Android Auto Troubleshooting (COMPARISON)": "pending",
-        "Android Auto Troubleshooting (GUIDE)": "pending"
+        "Android Auto Troubleshooting (GUIDE)": "pending",
+        "Android Auto & Pixel Ecosystem (EXPLAINER)": "pending"
       },
       "internal_links": [
+        "pending",
         "pending",
         "pending"
       ]
@@ -1900,12 +1902,13 @@
       "notes": ""
     },
     "Android Auto & Pixel Ecosystem": {
-      "types_done": [],
+      "types_done": [
+        "EXPLAINER"
+      ],
       "last_week": "2026-W40",
       "suggest_next": [
         "COMPARISON",
         "GUIDE",
-        "EXPLAINER",
         "LISTICLE"
       ],
       "hub_keyword": "Android Auto troubleshooting",
@@ -5692,8 +5695,9 @@
         "data_grade": "A",
         "verified_keywords": [],
         "publish_order": 45,
-        "status": "candidate",
-        "selected_at": "2026-10-06T00:29:34.352250+00:00"
+        "status": "published",
+        "selected_at": "2026-10-06T00:29:34.352250+00:00",
+        "url": "pending"
       },
       {
         "cluster_name": "AI Models & Integration",
@@ -6281,6 +6285,15 @@
       "week_tag": "2026-W40",
       "published_at": "2026-10-06T00:36:18.505595+00:00",
       "hub_cluster": "AI Models"
+    },
+    {
+      "cluster_name": "Android Auto & Pixel Ecosystem",
+      "title": "What is Gemini in Android Auto: Understanding the Future of In-Car AI",
+      "url": "pending",
+      "content_type": "EXPLAINER",
+      "week_tag": "2026-W40",
+      "published_at": "2026-10-06T00:37:30.565694+00:00",
+      "hub_cluster": "Android Auto"
     }
   ]
 }
