@@ -1,4 +1,4 @@
-Google announced Googlebook on September 21, 2026 — a laptop category running a new Android-based desktop OS, distinct from ChromeOS.
+Googlebook is Google''s new laptop platform built around Android apps and Gemini. Here is what Magic Pointer and the phone features do, and…
 
 https://frontbuffer.net/tech/what-is-googlebook-and-how-it-differs-from-chromebooks/
 
