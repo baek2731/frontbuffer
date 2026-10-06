@@ -1,10 +1,10 @@
 ---
 layout: single
-title: 'Googlebook models compared: specs and features of the five flagships'
+title: 'Googlebook models compared: specs, prices, and which to buy'
 date: 2026-10-02 14:28:00 +0000
 categories: [tech]
-tags: ["comparison", "googlebooks", "overview"]
-excerpt: 'Google''s September 21, 2026 Googlebook launch brought five devices from Acer, Asus, Dell, HP, and Lenovo. All run the same Android-based desktop OS…'
+tags: ["comparison", "googlebooks", "laptops", "specs"]
+excerpt: 'Five Googlebooks from Acer, Dell, ASUS, HP, and Lenovo cost between $899 and $1,299. Here is how chips, screens, weight, and battery claims compare.'
 header:
   image: https://images.frontbuffer.net/posts/googlebook-models-compared-specs-and-features-of-the-five-fl/og.png
   overlay_filter: 0
@@ -13,60 +13,78 @@ read_time: true
 share: true
 ---
 
-Google's September 21, 2026 Googlebook launch brought five devices from Acer, Asus, Dell, HP, and Lenovo. All run the same Android-based desktop OS with Gemini Intelligence and share a common feature set, but differ in chipset, display, form factor, and storage. Here's what separates them.
+Google's first five Googlebooks cost between $899 and $1,299, and they differ more than the shared marketing suggests. The Acer is the only convertible and the only $899 model. Dell and HP use Snapdragon chips. Lenovo is the only one with a 15-inch screen. Here is how they compare.
+
+*Prices and specs checked October 6, 2026. They are US launch prices from multiple outlets, so confirm on the Google Store before buying.*
 
 ---
 
-## Shared Features Across All Five
+## Specs side by side
 
-- **OS**: Google's new Android-based desktop OS (not ChromeOS)
-- **RAM**: 16GB minimum
-- **Storage**: 256GB SSD minimum
-- **Display**: Touchscreen, high-refresh OLED on most models
-- **Connectivity**: Wi-Fi 7, Bluetooth 5.x, USB-C
-- **Security**: Titan C chip, fingerprint or face unlock
-- **Bundled software**: 12 months Google AI Pro (5TB storage + Gemini Advanced), 3 months YouTube Premium and Adobe Photoshop
-- **Updates**: 10 years of OS updates guaranteed
-- **Googlebook-specific hardware**: RGB Glow Bar on lid, dedicated "G" key for Gemini
+| Model | US price | Chip | Display | Weight | Battery claim |
+|---|---|---|---|---|---|
+| **Acer Googlebook 14** | $899 (launch price) | Intel Core Ultra 5/7 (Series 3) | 14" 2.8K OLED touch, convertible | 2.5 lb | Up to 16 hours |
+| **Dell XPS Googlebook** | $1,199 | Snapdragon X Elite | 13.4" 2.5K touch | 2.2 lb | Up to 18 hours |
+| **ASUS Googlebook 14** | $1,299 | Intel Core Ultra (Series 3) | 14" 2.8K OLED | 2.2 lb | Up to 16 hours |
+| **HP Googlebook 14** | $1,299 | Snapdragon X Elite | 14" 2.8K OLED | 2.7 lb | Up to 19 hours |
+| **Lenovo Googlebook 15** | $1,299 in most listings (one outlet lists $1,099) | Intel Core Ultra 5 (Series 3) | 15.3" 2.8K OLED | 2.8 lb | Up to 13 hours |
 
----
-
-## Key Differences by Manufacturer
-
-| Manufacturer | Chipset | Display | Form Factor | Max Storage |
-|---|---|---|---|---|
-| **Acer** | Intel Core Ultra 5/7 | 14" 2.8K OLED, 2-in-1 | Convertible | 1TB |
-| **Asus** | Snapdragon X Elite | 14" 2880×1800 OLED | Clamshell | 512GB |
-| **Dell** | Intel Core Ultra 7 | 14" 2880×1800 OLED | Clamshell | 1TB |
-| **HP** | Snapdragon X Elite | 14" 2880×1800 OLED | Clamshell | 1TB |
-| **Lenovo** | Intel Core Ultra 5 | 14" 2880×1800 OLED | Clamshell | 512GB |
-
-Battery life: up to 14 hours general use across the lineup. Thin-and-light models (Asus, HP) claim up to 45 hours video playback and 16 hours web browsing. Weight starts under 1.3kg on the lightest models.
+Battery figures are manufacturer or launch-coverage estimates, not tested results.
 
 ---
 
-## Chipset Choice: Intel vs Snapdragon
+## What all five share
 
-Intel Core Ultra 5/7 models (Acer, Dell, Lenovo) offer strong performance for productivity workloads and better compatibility with x86 Android apps via emulation. Snapdragon X Elite models (Asus, HP) run ARM-native Android apps without emulation overhead and typically deliver better battery efficiency.
-
-Given that Googlebook's OS is Android-based, ARM-native apps will run with less overhead on Snapdragon models. For users whose app library is heavily ARM-optimized, the Asus or HP models have a practical advantage.
-
----
-
-## The Acer Googlebook 14: Convertible Option
-
-The Acer model is the only 2-in-1 convertible in the lineup, folding into tablet mode. This adds stylus support and touch-first interaction for note-taking or creative work. If tablet mode matters to your workflow, it's the only option in the initial lineup.
+- Google's Googlebook OS, with Android apps from Google Play
+- 16GB of RAM at the base configuration, with 32GB options on some models
+- Gemini features such as Magic Pointer, Rambler voice dictation, and Create My Widget
+- A glow bar built into the hardware, which Google uses to mark a Googlebook
+- 12 months of Google AI Pro, 3 months of YouTube Premium, and Adobe Photoshop access
+- Up to 10 years of feature drops and updates, per Google
 
 ---
 
-## Starting Price and Value
+## Intel vs Snapdragon
 
-All five models start at $899 for the base 16GB/256GB configuration. The bundled software — Google AI Pro alone runs $20/month — effectively reduces the net cost if you'd pay for it separately.
+Acer, ASUS, and Lenovo use Intel Core Ultra Series 3 chips (x86). Dell and HP use Qualcomm's Snapdragon X Elite (Arm). Based on the launch claims, the two Snapdragon models have the longest battery estimates (Dell 18 hours, HP 19), while the Intel models claim 13 to 16.
 
-For students, the convertible Acer model with stylus support and the Snapdragon-based models with longer battery life are the most practical picks. For power users who need maximum storage, the Dell and HP 1TB configurations are the ceiling.
+We haven't found guidance from Google on whether Android app performance differs between the two chip families. Wait for hands-on reviews before assuming one is better for apps.
+
+---
+
+## Model notes
+
+**Acer Googlebook 14, $899.** The cheapest option and the only convertible, so it is the one to look at if you want tablet mode. Acer has described the price as an initial launch price that could change.
+
+**Dell XPS Googlebook, $1,199.** Smallest screen and the thinnest body, at 12.7mm. It is the pick for portability, and the only model with a 2.5K rather than 2.8K panel.
+
+**ASUS Googlebook 14, $1,299.** About 2.2 lb with a haptic touchpad. It costs $400 more than the Acer with a similar 14-inch 2.8K OLED screen, so the case for it is the lighter weight and touchpad.
+
+**HP Googlebook 14, $1,299.** The longest battery estimate in the lineup and an aluminum body. It supports face authentication as well as a fingerprint sensor.
+
+**Lenovo Googlebook 15, $1,299.** The only 15.3-inch model, with Dolby Atmos speakers and a magnesium alloy and carbon fiber build. It has the shortest battery claim at 13 hours and is the heaviest.
+
+---
+
+## Which one to buy
+
+| If you want | Buy |
+|---|---|
+| The lowest price, or tablet mode | Acer Googlebook 14 |
+| The most portable model | Dell XPS Googlebook |
+| The longest battery life | HP Googlebook 14 |
+| A big screen for multitasking | Lenovo Googlebook 15 |
+| A light 14-inch with a haptic touchpad | ASUS Googlebook 14 |
+
+If you haven't decided between a Googlebook and a Chromebook, start with [our Chromebook vs Googlebook comparison]({% post_url 2026-10-01-chromebook-vs-googlebook-whats-the-difference %}).
+
+---
+
+## Takeaway
+
+For most buyers the choice is the Acer at $899 or a $300 to $400 step up for weight, battery, or screen size. If you do step up, decide what you are paying for first: the Dell for size, the HP for battery, the Lenovo for screen. Check current prices before buying, because the Acer's launch price may not last.
 
 ---
 Sources:
-- [Google — Googlebook official announcement](https://blog.google/products/android/googlebook-launch-2026/)
-- [Android Authority — Googlebook lineup hands-on](https://www.androidauthority.com)
-- [9to5Google — Googlebook specs breakdown](https://9to5google.com)
+- [Google — Googlebook's built-in intelligence](https://blog.google/products-and-platforms/devices/googlebook/googlebook-built-in-intelligence/)
+- [TechRepublic — Googlebook models compared](https://www.techrepublic.com/article/news-googlebook-models-compared/)

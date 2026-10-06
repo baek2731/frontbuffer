@@ -1,10 +1,10 @@
 ---
 layout: single
-title: 'Pixel 10 vs Pixel 11 camera: low light and voice typing compared'
+title: 'Pixel 10 vs Pixel 11 camera: is the bigger sensor worth upgrading for?'
 date: 2026-10-03 14:23:00 +0000
 categories: [tech]
-tags: ["comparison", "pixel", "phone", "features"]
-excerpt: 'The Pixel 10 launched October 2025 with Tensor G5. The Pixel 11 launched August 20, 2026 with Tensor G6. Both run Google''s computational photography…'
+tags: ["comparison", "pixel", "camera", "tensor"]
+excerpt: 'The Pixel 11 swaps the Pixel 10''s 1/2-inch main sensor for a 1/1.56-inch one at the same 48MP. Here is what changes in low light and who should upgrade.'
 header:
   image: https://images.frontbuffer.net/posts/pixel-10-vs-pixel-11-camera-low-light-and-voice-typing-compa/og.png
   overlay_filter: 0
@@ -13,51 +13,69 @@ read_time: true
 share: true
 ---
 
-The Pixel 10 launched October 2025 with Tensor G5. The Pixel 11 launched August 20, 2026 with Tensor G6. Both run Google's computational photography stack, but the hardware and software changes between generations are meaningful — especially in low light.
+The Pixel 11's biggest camera change is the main sensor. It stays at 48MP and f/1.7 but moves from a 1/2-inch sensor on the Pixel 10 to a 1/1.56-inch one. Almost everything else on the camera spec sheet is unchanged, so the upgrade question comes down to how often you shoot in the dark.
+
+This is a spec comparison, not a test. We haven't run side-by-side night shots, so low-light expectations below are based on sensor size and the published specs.
+
+*Specs checked October 6, 2026.*
 
 ---
 
-## Camera Hardware
+## Camera specs side by side
 
 | | Pixel 10 | Pixel 11 |
 |---|---|---|
-| Main sensor | 50MP, 1/2" chip, f/1.7 | 48MP, 1/1.56" chip, f/1.7 |
-| Ultrawide | 12MP | 13MP |
-| Telephoto | 10.8MP, 5x optical | 10.8MP, 5x optical |
-| Chipset | Tensor G5 | Tensor G6 |
+| Main camera | 48MP, 1/2" sensor, f/1.7, OIS | 48MP, 1/1.56" sensor, f/1.7, OIS |
+| Main field of view | 82° | 85° |
+| Ultrawide | 13MP, f/2.2 | 13MP, f/2.2 |
+| Telephoto | 10.8MP, 5x optical, f/3.1 | 10.8MP, 5x optical, f/3.1 |
+| Selfie camera | 10.5MP, f/2.2 | 10.5MP, f/2.2, adds autofocus |
+| Chip | Tensor G5 | Tensor G6 (2nm) |
+| Base storage | 128GB | 256GB |
 
-The Pixel 11's main sensor sits on a 1/1.56-inch chip — larger than the Pixel 10's 1/2-inch sensor. Google cited the smaller sensor as a weak point on the Pixel 10 and specifically addressed it in the Pixel 11 redesign. A larger sensor captures more light per pixel, which matters most in low-light conditions.
-
----
-
-## Low Light Photography
-
-**Pixel 10** — Night Sight on Tensor G5 uses multi-frame processing to reduce noise and recover detail in dim conditions. The smaller main sensor is the limiting factor in very low light: more processing is required to compensate for less raw light capture.
-
-**Pixel 11** — The larger 1/1.56-inch sensor gathers more light before processing begins. Combined with Tensor G6's updated noise reduction model, Night Sight on the Pixel 11 produces cleaner images with better preserved texture in shadows. Google claims 56% better light sensitivity over previous base models.
-
-In practice: the Pixel 10 handles typical indoor and evening shots well. The Pixel 11 shows a clearer advantage in genuinely dark environments — concerts, unlit rooms, outdoor night scenes.
+The Pixel 10 launched in August 2025 (announced August 20, on sale August 28). The Pixel 11 followed in August 2026.
 
 ---
 
-## Voice Typing
+## The main sensor change
 
-Both phones use Google's on-device speech recognition through Gboard. The experience is similar in most conditions — accurate transcription, automatic punctuation, voice commands for editing ("delete that," "undo," "send").
+Going by the nominal sensor sizes, the Pixel 11's main sensor has roughly 60 percent more area than the Pixel 10's. Resolution stayed at 48MP, so each pixel can gather more light. Google's own camera processing still does a lot of the work, but a bigger sensor starts that work with cleaner data.
 
-Tensor G6 runs a more recent speech model than Tensor G5, which translates to marginally faster transcription and slightly better handling of background noise and mixed accents. The difference is noticeable in difficult conditions (loud environments, non-native accents) but minor for typical use.
-
-Voice typing on both phones works offline for common languages, with on-device processing keeping spoken words off Google's servers during transcription.
+[Expert Reviews' Pixel 11 preview](https://www.expertreviews.co.uk/technology/phones/google-pixel-11-preview) notes that the larger sensor should in theory improve night photography and overall detail. Whether the gain is obvious in real shots depends on the scene and on Google's tuning, which is why side-by-side reviews will matter.
 
 ---
 
-## Which to Buy
+## Low light: what to expect
 
-**Pixel 10** — Still a capable camera phone with strong Night Sight performance for most shooting conditions. If the price has dropped since the Pixel 11 launch, it's a solid value.
+- **Pixel 10:** Night Sight handles typical indoor and evening shots well. The smaller sensor leaves less raw light to work with in very dark scenes, so the software has more noise to clean up.
+- **Pixel 11:** The larger sensor should help most in genuinely dark scenes such as concerts, unlit rooms, and night streets. In ordinary daylight, expect the two phones to look similar.
 
-**Pixel 11** — The sensor upgrade matters if you shoot frequently in low light or in environments where the 1/2-inch sensor's limitations showed on your Pixel 10. The voice typing improvement is real but not a primary reason to upgrade.
+The ultrawide, 5x telephoto, and selfie specs are effectively unchanged, so a camera-driven upgrade is about the main camera only.
+
+---
+
+## Beyond the camera
+
+Tensor G6 moves to a 2nm process. The Expert Reviews preview cites up to 25 percent faster web browsing, 15 percent faster app loading, and up to 20 percent better power efficiency than the Pixel 10 series. These are launch-material figures, not our measurements.
+
+If you dictate a lot, we cover Gboard's voice typing on Pixel in [our voice typing guide]({% post_url 2026-10-05-what-is-pixel-voice-typing-and-how-to-use-its-best-features %}). It works on both phones.
+
+---
+
+## Which to buy
+
+**Keep or buy the Pixel 10** if you shoot mostly in daylight or good indoor light, already own one, or find it discounted since the Pixel 11 launched.
+
+**Buy the Pixel 11** if low-light photos are your main reason to upgrade, you want 256GB as the base storage, or you are buying new and the price gap is small.
+
+---
+
+## Takeaway
+
+If your Pixel 10's night photos already satisfy you, the camera alone is not a strong reason to upgrade. If you often shoot in dim light and wish for cleaner results, the sensor is the one change worth paying for. Read a few side-by-side night comparisons before deciding.
 
 ---
 Sources:
+- [Expert Reviews — Google Pixel 11 preview](https://www.expertreviews.co.uk/technology/phones/google-pixel-11-preview)
 - [Google — Pixel 11 official](https://blog.google/products-and-platforms/devices/pixel/google-pixel-11-pro-xl/)
-- [Android Authority — Pixel 11 review](https://www.androidauthority.com/google-pixel-11-series-3693865/)
-- [9to5Google — Pixel 11 camera breakdown](https://9to5google.com)
+- [Android Authority — Pixel 11 series](https://www.androidauthority.com/google-pixel-11-series-3693865/)
