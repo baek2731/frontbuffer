@@ -1,4 +1,4 @@
-Not sure which of your Chrome extensions will survive August 31? Here's exactly how to check in 30 seconds.
+Chrome 138 disabled Manifest V2 extensions for all standard users in July 2025. Here is how to confirm which of your extensions are…
 
 https://frontbuffer.net/tech/how-to-check-if-chrome-extensions-use-manifest-v2/
 

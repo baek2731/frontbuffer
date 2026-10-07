@@ -1,4 +1,4 @@
-New on Frontbuffer: Android 16 Desktop Mode Setup
+Android 16 desktop mode is switched on in Developer Options. Here is how to enable it, what hardware you need, and when Samsung DeX is the…
 
 https://frontbuffer.net/tech/android-16-desktop-mode-setup/
 
