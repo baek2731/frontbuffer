@@ -208,7 +208,8 @@ def main():
             seed_block = "\n\n[WEEKLY SEED KEYWORDS — 이번 주 우선 고려 주제]\n"
             seed_block += "아래 키워드를 클러스터 선정 시 우선 반영할 것.\n"
             seed_block += "단, 이미 covered_clusters에 있는 주제와 중복되면 제외.\n"
-            seed_block += "같은 브랜드/카테고리가 2개 이상이면 1개만 선택할 것.\n"
+            seed_block += "같은 대상(기기/서비스) + 같은 목적(설정/문제 해결/비교 등)이 겹치면 1개만 선택할 것.\n"
+            seed_block += "대상이 같아도 목적이 다르면 선택 가능 (예: 설정 / 증상별 문제 해결 / 호환성).\n"
             for s in seeds:
                 seed_block += f"  - {s}\n"
             prompt_text += seed_block
@@ -217,6 +218,19 @@ def main():
             print(f"  ℹ️  weekly_seeds 없음 ({week_tag}) — 기존 방식으로 진행")
     except Exception as e:
         print(f"  ⚠️  weekly_seeds 로드 실패 (무시): {e}")
+    # ────────────────────────────────────────────────────────────────
+
+    # ── 주제 중복 방지: 이미 발행된 글 목록 + 주제 규칙 주입 ──────────
+    _existing = None
+    try:
+        import topic_guard
+        _guard_cfg = topic_guard.load_settings()
+        if _guard_cfg.get("enabled", True):
+            _existing = topic_guard.load_existing_posts()
+            prompt_text += topic_guard.build_existing_topics_block(_existing, _guard_cfg)
+            print(f"  🛡️  기존 글 {len(_existing)}편 목록 주입 (주제 중복 방지)")
+    except Exception as e:
+        print(f"  ⚠️  주제 중복 방지 주입 실패 (무시): {e}")
     # ────────────────────────────────────────────────────────────────
 
     # 2. Gemini API 호출
@@ -240,6 +254,26 @@ def main():
         sys.exit(1)
 
     print(f"  📊 기획안 {len(selections)}개 파싱 완료")
+
+    # ── 기존 글/배치 내 중복 기획안 제외 ────────────────────────────
+    _dropped_dups = []
+    try:
+        import topic_guard as _tg
+        selections, _dropped = _tg.filter_duplicate_selections(selections, _existing)
+        for _sel, _why in _dropped:
+            print(f"  🛡️  중복 제외: {_sel.get('cluster_name')} [{_sel.get('content_type')}] — {_why}")
+            _dropped_dups.append({"cluster_name": _sel.get("cluster_name"),
+                                  "content_type": _sel.get("content_type"),
+                                  "reason": _why})
+        if _dropped:
+            print(f"  🛡️  중복 {len(_dropped)}개 제외 → 남은 기획안 {len(selections)}개")
+        if not selections:
+            print("❌ 모든 기획안이 기존 글과 중복 — 시드/프롬프트를 바꿔 다시 실행하세요.")
+            sys.exit(1)
+    except SystemExit:
+        raise
+    except Exception as e:
+        print(f"  ⚠️  중복 필터 실패 (무시하고 진행): {e}")
 
     # 4. data_grade 자동 부여
     selections = add_data_grade(selections)
@@ -501,6 +535,7 @@ def main():
         "grade_b":      grade_b,
         "grade_c":      grade_c,
         "auto_selected": len(auto_select),
+        "dropped_duplicates": _dropped_dups,
         "elapsed":      round(elapsed, 1),
         "timestamp":    datetime.now(timezone.utc).isoformat(),
     }

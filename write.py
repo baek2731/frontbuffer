@@ -47,6 +47,11 @@ try:
 except ImportError:
     _POSTS_MANAGER_OK = False
 
+try:
+    import topic_guard          # 주제 중복 방지 / 관련 글 링크 (없어도 동작)
+except Exception:
+    topic_guard = None
+
 # ── 경로 설정 ──
 PIPELINE_FILE = "content_pipeline.json"
 CONFIG_FILE   = "config.json"
@@ -1193,6 +1198,13 @@ VERIFIED SEARCH TERMS (KP-validated from hub keyword, grade: {data_grade or 'B'}
     else:
         verified_block = ""
 
+    related_block = ""
+    if topic_guard is not None:
+        try:
+            related_block = topic_guard.build_related_block(cluster_info)
+        except Exception:
+            related_block = ""
+
     prompt = f"""You are a writer for LIFO-LIKE Editorial, an independent tech/gaming media brand.
 Write a high-quality, evergreen blog post based on the information provided.
 {mode_block}{relevance_block}{concrete_entity_warning}
@@ -1271,7 +1283,7 @@ WRITING RULES
    - Introduction: 2-3 sentences, hook + what reader will learn
    - H2 sections: 3-5 sections — vary length naturally by importance
      (avoid perfectly uniform section sizes — it reads as machine-generated)
-   - Conclusion: Key takeaway + [INTERNAL LINK: related topic]
+   - Conclusion: Key takeaway. Link to a RELATED ARTICLE only if one fits (see RELATED ARTICLES section).
    - Word count: 800-1200 words
 
 6. SEO:
@@ -1287,7 +1299,7 @@ WRITING RULES
 
 8. INFORMATION BOUNDARY:
    - Covers ONLY: {cluster_name}
-   - Other topics: mention briefly + [INTERNAL LINK: topic] only
+   - Other topics: mention briefly; link only to a RELATED ARTICLE if one is relevant, otherwise no link
 
 9. COMMUNITY REACTION SECTION (REQUIRED if community sources are available):
    - Community sources include: YouTube comments, Hacker News, Steam forums,
@@ -1312,6 +1324,7 @@ WRITING RULES
    Note: Do NOT include "AI-assisted" or any AI disclosure in the article body.
    AI usage disclosure is handled separately on the site's Disclosure page.
 
+{related_block}
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 SOURCE MATERIAL (candidates — evaluate relevance per rule above)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -1676,6 +1689,24 @@ def cmd_prep(cluster_name, mode="jina", force=False, content_type=None):
     ct_upper     = (content_type or cluster_info.get("content_type","GUIDE")).upper()
     slug         = slugify(actual_name)
     week_tag     = get_week_tag()
+
+    # 주제 중복 게이트: 이미 발행된 글과 같은 주제면 폐기하고 다음 후보로
+    if ct_upper != "HUB" and not force and topic_guard is not None:
+        try:
+            _gs = topic_guard.load_settings()
+            if _gs.get("enabled", True) and actual_name not in _gs.get("allow_duplicates", []):
+                _hit = topic_guard.find_overlap(
+                    topic_guard.selection_title(cluster_info),
+                    topic_guard.load_existing_posts(), _gs)
+                if _hit:
+                    _ex, _why = _hit
+                    print(f"\n🛡️  주제 중복 — '{actual_name}' [{ct_upper}] 폐기")
+                    print(f"   기존 글: {_ex['title']} ({_why})")
+                    discard_cluster(actual_name, content_type=ct_upper,
+                                    reason=f"기존 글과 중복: {_ex['title']}")
+                    return False
+        except Exception as _e:
+            print(f"  ⚠️  주제 중복 검사 실패 (무시하고 진행): {_e}")
 
     print(f"\n{'='*60}")
     print(f"✍️  글쓰기 프롬프트 생성: {actual_name}")

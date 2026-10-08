@@ -187,6 +187,41 @@
       "how to recover missing Samsung Health data after switching to a new phone",
       "GTA VI PC release date and system requirements what we know in 2026",
       "Google Pixel 11 Pro vs Samsung Galaxy S26 Ultra camera and AI features comparison 2026"
+    ],
+    "2026-W40": [
+      "Steam Machine blue light breathing on startup or solid blue light and won't boot: what it means and how to fix",
+      "how to change Steam Machine LED brightness or turn the LED off",
+      "Galaxy Z Flip 8 cover screen app continuity: which apps carry over to the main screen when you unfold",
+      "Chromium-based browsers that still support Manifest V2 extensions in 2026",
+      "Google Messages new features this month: what changed and how to use them",
+      "how to fix Steam Deck problems after a SteamOS update: common issues and fixes"
+    ],
+    "2026-W41": [
+      "what's new in the latest Pixel Drop and how to use the new features",
+      "One UI 9 update: when it arrives on Galaxy S26 and S25 and what changes",
+      "latest stable Chrome release: new features and how to turn them on",
+      "Steam client update: new features in the latest stable release and how to enable them",
+      "Windows 11 game stutter after an update: how to fix the common causes",
+      "uMatrix replacement for Chrome after Manifest V3: what to use instead"
+    ],
+    "2026-W42": [
+      "Gemini in Google Maps: new conversational navigation features and how to use them",
+      "Pixel 11 battery drain or heat problems: causes and fixes",
+      "Galaxy Z Fold 8 crease or hinge noise: is it normal and what to do about it",
+      "Googlebook phone integration: how to set up Cast My Apps and Quick Access",
+      "Steam Frame tracking, controller pairing, and Wi-Fi 6E streaming problems: fixes",
+      "Nintendo Switch 2 latest system update: what changed and how to get it"
     ]
+  },
+  "topic_guard": {
+    "_comment": "주제 중복 방지 설정 (topic_guard.py). 판정: 제목 단어 겹침 기준. HUB는 검사 제외.",
+    "enabled": true,
+    "title_jaccard": 0.6,
+    "coverage": 0.8,
+    "min_shared_words": 4,
+    "max_titles_in_prompt": 120,
+    "max_related_links": 5,
+    "block_speculative": true,
+    "allow_duplicates": []
   }
 }
