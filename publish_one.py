@@ -138,13 +138,19 @@ def fallback_excerpt(body_lines, limit=155):
 
 
 def make_tags(target_ct, target_slug, title):
-    words = [w for w in re.split(r"[-\s]+", target_slug.lower())
-             if w and not w.isdigit() and w not in STOPWORDS and len(w) > 1]
-    if len(words) < 2:
-        title_words = [w for w in re.findall(r"[a-z0-9]+", title.lower())
-                       if w not in STOPWORDS and not w.isdigit() and len(w) > 2]
-        words += [w for w in title_words if w not in words]
-    tags = list(dict.fromkeys([target_ct.lower()] + words[:4]))[:5]
+    stop = STOPWORDS | {"not", "or", "this", "that", "than", "it's"}
+    title_words = []
+    for w in re.findall(r"[a-z0-9]+", title.lower()):
+        if w not in stop and not w.isdigit() and len(w) > 2 and w not in title_words:
+            title_words.append(w)
+    slug_words = [w for w in re.split(r"[-\s]+", target_slug.lower())
+                  if w and not w.isdigit() and w not in stop and len(w) > 1]
+    common = [w for w in slug_words if w in title_words]
+    if len(common) >= 2:
+        words = common[:4]
+    else:
+        words = (common + [w for w in title_words if w not in common])[:3]
+    tags = list(dict.fromkeys([target_ct.lower()] + words))[:5]
     return ", ".join(f'"{t}"' for t in tags)
 
 
@@ -171,12 +177,15 @@ def _front_matter_title(path):
     return ""
 
 
-def find_duplicate(title, title_slug):
+def find_duplicate(title, slugs):
     """이미 발행된 글과 같은 슬러그이거나 제목이 거의 같으면 사유 문자열을 반환."""
     # 1) 같은 슬러그의 파일이 _posts/에 있는가
-    pattern = re.compile(rf"^\d{{4}}-\d{{2}}-\d{{2}}-{re.escape(title_slug)}\.md$")
+    if isinstance(slugs, str):
+        slugs = [slugs]
+    patterns = [re.compile(rf"^\d{{4}}-\d{{2}}-\d{{2}}-{re.escape(s)}\.md$")
+                for s in dict.fromkeys(slugs) if s]
     for p in Path(POSTS_DIR).glob("*.md"):
-        if pattern.match(p.name):
+        if any(pt.match(p.name) for pt in patterns):
             return f"같은 슬러그 글이 이미 발행됨: {p.name}"
 
     # 2) 제목 유사도 (posts.json + _posts/ front matter 제목)
@@ -201,6 +210,21 @@ def find_duplicate(title, title_slug):
         if j >= 0.75:
             return f"제목이 거의 같은 글이 이미 있음({j:.0%}): {t} [{where}]"
     return None
+
+
+def slugify_title(text, limit=60):
+    """글 URL용 슬러그: limit 초과 시 단어 경계에서 자름 (…-how-to-fix-i 같은 잘림 방지)."""
+    s = text.lower().strip()
+    s = re.sub(r"[^\w\s-]", "", s)
+    s = re.sub(r"[\s_]+", "-", s)
+    s = re.sub(r"-{2,}", "-", s).strip("-")
+    if len(s) > limit:
+        cut = s[:limit]
+        # 다음 글자가 '-'면 단어가 온전히 끝난 것, 아니면 마지막 조각을 버림
+        if s[limit] != "-" and "-" in cut:
+            cut = cut.rsplit("-", 1)[0]
+        s = cut.rstrip("-")
+    return s
 
 
 def load_pipeline():
@@ -433,7 +457,8 @@ def prepare_post(target, target_slug, target_ct, pipeline, force=False):
     cat_check = (target_slug + " " + title.lower())
     cat = "gaming" if any(k in cat_check for k in gaming_keys) else "tech"
 
-    title_slug    = slugify(title)
+    title_slug    = slugify_title(title)
+    legacy_slug   = slugify(title)   # 기존 글의 슬러그(60자 단순 절단)와 비교용
     post_filename = f"{date_str}-{title_slug}.md"
     pub_url       = f"https://frontbuffer.net/{cat}/{title_slug}/"
 
@@ -444,7 +469,7 @@ def prepare_post(target, target_slug, target_ct, pipeline, force=False):
 
     # ── 중복 검사 (같은 슬러그 / 제목 유사) ────────────────────────
     if not force:
-        dup = find_duplicate(title, title_slug)
+        dup = find_duplicate(title, [title_slug, legacy_slug])
         if dup:
             raise BlockedPost(f"중복 의심 — {dup} ({target.name})")
 
