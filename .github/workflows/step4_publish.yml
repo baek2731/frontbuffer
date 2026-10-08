@@ -6,14 +6,18 @@
 #
 # 흐름:
 #   publish_one.py 실행
-#     1. final/에서 가장 오래된 파일 1개 선택 (FIFO)
-#        HUB는 스포크 2개 이상 발행 후에만 선택
-#     2. 플레이스홀더 제거 ([INTERNAL LINK: ...] 등)
+#     1. final/에서 번호 순(FIFO)으로 파일 선택
+#        HUB는 스포크 발행 조건 충족 후에만 선택
+#        문제 파일(중복 의심, Gemini 메모 잔존 등)은 건너뛰고 다음 파일로 진행
+#     2. 플레이스홀더 처리 ([INTERNAL LINK: ...] → 링크 / 매칭 실패 시 그 문장 삭제)
 #     3. front matter 생성 (오늘 날짜, UTC 14시 랜덤 분)
-#     4. _posts/YYYY-MM-DD-{slug}_{type}.md 저장
+#     4. _posts/YYYY-MM-DD-{slug}.md 저장
 #     5. write.py done 호출 (실제 URL로 pipeline 기록)
 #     6. final/ 파일 삭제 (중복 발행 방지)
 #   _posts/ + pipeline + posts.json 커밋 → Jekyll 빌드
+#
+# 수동 실행 입력:
+#   force_publish = true → 중복 의심 검사를 무시하고 발행
 # =====================================================================
 
 name: Step 4 - Publish Article
@@ -24,13 +28,20 @@ on:
   workflow_dispatch:           # 수동 트리거
     inputs:
       force_publish:
-        description: '강제 발행 (final/ 스택 무관)'
+        description: '중복 의심 검사 무시하고 발행 (true/false)'
         required: false
         default: 'false'
       topic_seed:
         description: '추가 글 주제 시드 (Step 2 프롬프트 주입용, 선택사항)'
         required: false
-        default: 
+        default: ''
+
+permissions:
+  contents: write
+
+concurrency:
+  group: step4-publish
+  cancel-in-progress: false
 
 jobs:
   publish:
@@ -59,8 +70,14 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
       # ── 5. 발행 실행 ───────────────────────────────────────────────
+      # GEMINI_API_KEY: excerpt(메타 설명) 생성용. 없으면 본문 첫 문장으로 대체됨
+      # DISCORD_WEBHOOK_URL: 발행 보류/실패 알림용 (notify.py)
       - name: Publish one article
         run: python publish_one.py
+        env:
+          GEMINI_API_KEY:      ${{ secrets.GEMINI_API_KEY }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          FORCE_PUBLISH:       ${{ github.event.inputs.force_publish }}
 
       # ── 6. 커밋 + 푸시 ────────────────────────────────────────────
       - name: Commit and push
@@ -77,6 +94,8 @@ jobs:
           fi
 
           git commit -m "feat: 발행 — ${{ env.POST_TITLE }}"
+          # 사용자가 먼저 푸시했어도 충돌 없이 반영
+          git pull --rebase origin main
           git push origin HEAD:main
           echo "✅ 발행 완료: ${{ env.POST_TITLE }}"
           echo "   URL: ${{ env.POST_URL }}"
@@ -96,14 +115,15 @@ jobs:
             }" | xargs -I{} echo "IndexNow 응답 코드: {}"
 
       # ── 8. OG 이미지 생성 + R2 업로드 ────────────────────────────
+      # 방금 발행한 파일(POST_FILENAME)만 대상으로 함
       - name: Generate OG image and upload to R2
         if: env.POST_URL != ''
         run: |
-          # _posts/에서 가장 최근 파일 찾아서 처리
-          LATEST=$(ls -t _posts/*.md 2>/dev/null | head -1)
-          if [ -n "$LATEST" ]; then
-            echo "OG 생성 대상: $LATEST"
-            python og_generator.py --file "$(basename $LATEST)" || true
+          if [ -n "$POST_FILENAME" ] && [ -f "_posts/$POST_FILENAME" ]; then
+            echo "OG 생성 대상: $POST_FILENAME"
+            python og_generator.py --file "$POST_FILENAME" || true
+          else
+            echo "⚠️ POST_FILENAME 없음 — OG 생성 스킵"
           fi
         env:
           UNSPLASH_ACCESS_KEY:   ${{ secrets.UNSPLASH_ACCESS_KEY }}
@@ -119,10 +139,11 @@ jobs:
             echo "ℹ️ OG 변경사항 없음"
           else
             git commit -m "chore: OG 이미지 + header 추가 — ${{ env.POST_TITLE }}"
+            git pull --rebase origin main
             git push origin HEAD:main
           fi
 
-      # ── 10. final/ 스택 10편 이하 시 Step 1 자동 트리거 ───────────
+      # ── 10. final/ 스택 3편 이하 시 Step 1 자동 트리거 ───────────
       - name: Auto-trigger Step 1 if stack is low
         if: success()
         run: |
@@ -139,3 +160,18 @@ jobs:
           else
             echo "ℹ️ 스택 ${STACK}편 — Step 1 트리거 불필요"
           fi
+
+      # ── 11. 실패 시 Discord 알림 (publish_one.py 내부 알림과 별개) ─
+      - name: Notify on failure
+        if: failure()
+        run: |
+          if [ -n "$DISCORD_WEBHOOK_URL" ]; then
+            curl -s -H "Content-Type: application/json" \
+              -d "{\"content\": \"❌ Step 4 발행 실패 — 로그 확인: ${RUN_URL}\"}" \
+              "$DISCORD_WEBHOOK_URL" > /dev/null
+          else
+            echo "⚠️ DISCORD_WEBHOOK_URL 없음 — 알림 스킵"
+          fi
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
