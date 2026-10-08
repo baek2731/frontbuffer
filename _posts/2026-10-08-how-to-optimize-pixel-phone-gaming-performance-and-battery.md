@@ -1,4 +1,14 @@
-# How to optimize Pixel phone gaming performance and battery life
+---
+layout: single
+title: 'How to optimize Pixel phone gaming performance and battery life'
+date: 2026-10-08 14:38:00 +0000
+categories: [gaming]
+tags: ["guide", "pixel", "phone"]
+excerpt: 'If a game on your Pixel starts stuttering after 15 minutes, or the battery drops faster than it should, heat is usually the cause.'
+author_profile: false
+read_time: true
+share: true
+---
 
 If a game on your Pixel starts stuttering after 15 minutes, or the battery drops faster than it should, heat is usually the cause. Most of the fixes below are settings you can change in a minute. The tips come from Google's documentation and general Android guidance, so results vary by Pixel model and game.
 
