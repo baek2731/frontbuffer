@@ -1,4 +1,4 @@
-Sunshine runs on your PC as the host; Moonlight runs on your Android tablet as the client. This guide covers setup, pairing, USB tethering,…
+Sunshine runs on your PC as the host and Moonlight runs on your Android tablet as the client. Here is how to set up and pair
 
 https://frontbuffer.net/gaming/portable-gaming_guide/
 

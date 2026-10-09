@@ -1,4 +1,4 @@
-Android 15's introduction of a native app lock feature marked a system-level security
+Android now includes a native app lock at the system level. Here is how it compares with Samsung's App Lock on privacy and
 
 https://frontbuffer.net/tech/android-1516-native-app-lock-vs-samsung-app-lock-privacy-fea/
 

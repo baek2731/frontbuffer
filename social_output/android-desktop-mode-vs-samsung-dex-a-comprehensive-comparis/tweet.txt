@@ -1,4 +1,4 @@
-Since Samsung introduced DeX with the Galaxy S8 in 2017, the concept of transforming a smartphone into a primary computing device has moved…
+Samsung introduced DeX with the Galaxy S8 in 2017. Here is how Android's native desktop mode compares with DeX
 
 https://frontbuffer.net/tech/android-desktop-mode-vs-samsung-dex-a-comprehensive-comparis/
 
