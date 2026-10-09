@@ -4,7 +4,7 @@ title: 'How to Set Up and Expand Storage on Nintendo Switch 2 with microSD Expre
 date: 2026-09-05 14:00:00 +0000
 categories: [gaming]
 tags: ["guide", "nintendo", "switch", "hardware"]
-excerpt: 'The Nintendo Switch 2 uses microSD Express cards for external storage — a departure from the standard microSD cards supported by the original Switch.…'
+excerpt: 'The Nintendo Switch 2 uses microSD Express cards for external storage — a departure from the standard microSD cards supported by the original Switch.'
 header:
   image: https://images.frontbuffer.net/posts/how-to-set-up-and-expand-storage-on-nintendo-switch-2-with-m/og.png
   overlay_filter: 0

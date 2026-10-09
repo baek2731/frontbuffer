@@ -4,7 +4,7 @@ title: "Pixel 11 Pro vs iPhone Duo: Camera and AI feature comparison"
 date: 2026-09-21 14:51:00 +0000
 categories: [tech]
 tags: ["comparison", "pixel", "iphone"]
-excerpt: "Google's Pixel 11 Pro launched August 20, 2026. Apple's iPhone Duo — the first foldable iPhone — was announced September 9, available October 23. Here's how their camera and AI systems compare."
+excerpt: 'Google''s Pixel 11 Pro launched August 20, 2026. Apple''s iPhone Duo — the first foldable iPhone — was announced September 9, available October 23.'
 header:
   image: https://images.frontbuffer.net/posts/speculative-showdown-envisioning-the-google-pixel-11-pro-and/og.png
   overlay_filter: 0

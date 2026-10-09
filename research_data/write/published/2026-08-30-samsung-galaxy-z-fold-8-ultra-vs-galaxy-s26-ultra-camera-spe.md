@@ -4,7 +4,7 @@ title: 'Samsung Galaxy Z Fold 8 Ultra vs Galaxy S26 Ultra: Camera Specs Compared
 date: 2026-08-30 14:07:00 +0000
 categories: [tech]
 tags: ["comparison", "samsung", "galaxy", "hardware"]
-excerpt: 'The Galaxy Z Fold 8 Ultra and Galaxy S26 Ultra (released March 11, 2026) take different approaches to flagship photography. The Fold 8 Ultra adds a dual-telephoto system the S26 Ultra lacks. The S26 Ultra counters with a brighter f/1.4 main lens.'
+excerpt: 'The Galaxy Z Fold 8 Ultra and Galaxy S26 Ultra (released March 11, 2026) take different approaches to flagship photography.'
 header:
   image: https://images.frontbuffer.net/posts/samsung-galaxy-z-fold-8-ultra-vs-galaxy-s26-ultra-camera-spe/og.png
   overlay_filter: 0

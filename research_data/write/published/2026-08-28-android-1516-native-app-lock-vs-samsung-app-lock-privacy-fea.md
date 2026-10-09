@@ -4,7 +4,7 @@ title: 'Android 15/16 Native App Lock vs Samsung App Lock: Privacy Features Comp
 date: 2026-08-28 14:55:00 +0000
 categories: [tech]
 tags: ["comparison", "pixel", "pro"]
-excerpt: 'Android 15''s introduction of a native app lock feature marked a system-level security feature…'
+excerpt: 'Android now includes a native app lock at the system level. Here is how it compares with Samsung''s App Lock on privacy and features.'
 header:
   image: https://images.frontbuffer.net/posts/android-1516-native-app-lock-vs-samsung-app-lock-privacy-fea/og.png
   overlay_filter: 0

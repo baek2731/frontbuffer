@@ -4,7 +4,7 @@ title: 'How to Manage a Large Digital Game Library Across Platforms'
 date: 2026-08-15 14:09:00 +0000
 categories: [gaming]
 tags: ["guide", "gaming", "media", "formats"]
-excerpt: 'Since the launch of Steam in 2003, digital game ownership has exploded, leading many players to accumulate vast collections across PC, Xbox,…'
+excerpt: 'Steam, Epic, GOG, Xbox, PlayStation, Nintendo — most players who''ve been gaming for more than a few years own titles scattered across at least three.'
 header:
   image: https://images.frontbuffer.net/posts/how-to-manage-a-large-digital-game-library-across-platforms/og.png
   overlay_filter: 0

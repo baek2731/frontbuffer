@@ -4,7 +4,7 @@ title: "Why Chrome Extensions Stopped Working: Manifest V3 Explained"
 date: 2026-07-20 10:00:00 +0900
 categories: [tech]
 tags: ["chrome extensions", "manifest v3", "mv2 deprecation", "declarative net request"]
-excerpt: "Chrome 138 disabled all Manifest V2 extensions in July 2025 - including the original uBlock Origin. Here is exactly what changed in the Chrome extensions platform and why ad blockers broke."
+excerpt: 'Chrome 138 disabled all Manifest V2 extensions in July 2025 - including the original uBlock Origin. Here is exactly what changed in the Chrome extensions.'
 header:
   image: https://images.frontbuffer.net/posts/what-is-chrome-manifest-v3-and-why-extensions-break/og.png
   overlay_filter: 0

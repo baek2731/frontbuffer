@@ -4,7 +4,7 @@ title: "Steam Frame vs Meta Quest 3: VR headset specification comparison"
 date: 2026-09-20 14:20:00 +0000
 categories: [gaming]
 tags: ["comparison", "steam", "vr"]
-excerpt: "Valve's Steam Frame launched September 14, 2026, at $1,059 for 256GB. It runs SteamOS 3 on a Snapdragon 8 Gen 3 with Wi-Fi 6E wireless PC streaming. Here's how it compares to the Meta Quest 3."
+excerpt: 'Valve''s Steam Frame launched September 14, 2026, at $1,059 for 256GB. It runs SteamOS 3 on a Snapdragon 8 Gen 3 with Wi-Fi 6E wireless PC streaming.'
 header:
   image: https://images.frontbuffer.net/posts/steam-frame-vs-meta-quest-3-vr-headset-specification-compari/og.png
   overlay_filter: 0

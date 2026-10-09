@@ -4,7 +4,7 @@ title: 'How to Customize Pixel Quick Settings with Android 17 QPR2 Beta Features
 date: 2026-09-01 14:34:00 +0000
 categories: [tech]
 tags: ["guide", "pixel", "pro"]
-excerpt: 'Android 17 QPR2 Beta 3 (August 14, 2026) added a redesigned Quick Settings editor, native App Lock, and lock-screen blur to Pixel devices. Stable release is scheduled for December 2026.'
+excerpt: 'Android 17 QPR2 Beta 3 (August 14, 2026) added a redesigned Quick Settings editor, native App Lock, and lock-screen blur to Pixel devices.'
 header:
   image: https://images.frontbuffer.net/posts/how-to-customize-pixel-quick-settings-with-android-17-qpr2-f/og.png
   overlay_filter: 0

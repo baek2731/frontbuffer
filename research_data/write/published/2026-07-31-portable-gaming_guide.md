@@ -4,7 +4,7 @@ title: 'How to Use Sunshine and Moonlight to Stream PC Games to Android'
 date: 2026-07-31 14:02:00 +0000
 categories: [gaming]
 tags: ["guide", "portable", "gaming"]
-excerpt: 'Sunshine runs on your PC as the host; Moonlight runs on your Android tablet as the client. This guide covers setup, pairing, USB tethering, and performance tuning for local and remote streaming.'
+excerpt: 'Sunshine runs on your PC as the host and Moonlight runs on your Android tablet as the client. Here is how to set up and pair them.'
 header:
   image: https://images.frontbuffer.net/posts/portable-gaming_guide/og.png
   overlay_filter: 0

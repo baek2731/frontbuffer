@@ -4,7 +4,7 @@ title: "How to enable custom chat bubbles in Google Messages"
 date: 2026-09-19 14:20:00 +0000
 categories: [tech]
 tags: ["guide", "google", "messages"]
-excerpt: "Google Messages rolled out Chat themes in late August 2026, letting you set custom bubble colors and wallpapers per conversation. The feature requires RCS to be enabled and is visible only to you."
+excerpt: 'Google Messages rolled out Chat themes in late August 2026, letting you set custom bubble colors and wallpapers per conversation.'
 header:
   image: https://images.frontbuffer.net/posts/how-to-enable-custom-chat-bubbles-in-google-messages/og.png
   overlay_filter: 0

@@ -1,34 +1,77 @@
 # Frontbuffer 주간 품질 감사 리포트
-생성: 2026-10-02 19:49 UTC  |  dry-run: False
+생성: 2026-10-09 20:02 UTC  |  dry-run: False
 
 ## 요약
-- 자동 수정: **15건**
-- 수동 확인 필요: **51건**
-- final/ 스택 잔량: **4편**
+- 자동 수정: **58건**
+- 수동 확인 필요: **56건**
+- final/ 스택 잔량: **2편**
+
+## ✅ 자동 수정 — HUB 역방향 링크 소급
+- 2026-07-16-how-to-backup-samsung-health-data-before-account-deletion.md → HUB 역방향 링크 추가 [Samsung Health](https://frontbuffer.net/tech/samsung-health-data-ecosystem_hub/)
 
 ## ✅ 자동 수정 — published/ 동기화
-- published/2026-09-17-what-is-nvidia-dlss-5-and-how-it-improves-game-performance.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-07-14-how-to-troubleshoot-steam-machine-overheating-and-red-light-issues.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-08-25-how-to-customize-android-quick-settings-tiles.md 동기화 복사
+- published/2026-09-10-pixel-11-vs-pixel-11-pro-camera-differences.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-09-22-galaxy-z-fold-8-vs-galaxy-z-flip-8-which-foldable-phone-shou.md 내용 불일치 → _posts/ 기준으로 덮어씀
 - published/2026-08-07-samsung-galaxy-z-foldflip-series_guide.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-10-01-chromebook-vs-googlebook-whats-the-difference.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-07-18-how-to-check-if-chrome-extensions-use-manifest-v2.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-09-24-how-to-transfer-android-passkeys-between-devices-securely.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-07-21-android-ecosystem_explainer.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-08-08-06-android-auto_comparison.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-08-17-galaxy-z-fold-8-first-5-things-to-do-essential-setup-guide.md 내용 불일치 → _posts/ 기준으로 덮어씀
 - published/2026-10-02-googlebook-models-compared-specs-and-features-of-the-five-fl.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-08-16-galaxy-z-fold-8-vs-fold-7-camera-comparison-low-light-perfor.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-08-09-06-android-auto_guide.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-08-15-how-to-manage-a-large-digital-game-library-across-platforms.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-10-04-what-is-googlebook-and-how-it-differs-from-chromebooks.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-08-27-android-desktop-mode-vs-samsung-dex-a-comprehensive-comparis.md 내용 불일치 → _posts/ 기준으로 덮어씀
 - published/2026-07-22-android-ecosystem_guide.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-09-29-how-to-install-ikea-themed-mods-for-skyrim-anniversary-editi.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-07-19-best-manifest-v3-alternatives-for-older-chrome-extensions.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-08-03-01-galaxy-fold_guide.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-07-20-what-is-chrome-manifest-v3-and-why-extensions-break.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-07-23-fallout-series_comparison.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-10-08-how-to-optimize-pixel-phone-gaming-performance-and-battery.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-08-13-physical-vs-digital-games-ownership-licenses-and-player-choi.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-10-03-pixel-10-vs-pixel-11-camera-low-light-and-voice-typing-compa.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-09-24-how-to-transfer-android-passkeys-between-devices-securely.md 내용 불일치 → _posts/ 기준으로 덮어씀
 - published/2026-09-29-elden-ring-pc-vs-console-performance-differences-explained.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-07-16-how-to-backup-samsung-health-data-before-account-deletion.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-07-31-portable-gaming_guide.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-08-12-google-pixel-launcher-vs-third-party-android-launchers-featu.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-09-29-how-to-install-ikea-themed-mods-for-skyrim-anniversary-editi.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-10-01-chromebook-vs-googlebook-whats-the-difference.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-09-05-how-to-set-up-and-expand-storage-on-nintendo-switch-2-with-m.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-10-05-what-is-pixel-voice-typing-and-how-to-use-its-best-features.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-08-05-samsung-galaxy-z-foldflip-series_explainer.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-08-04-samsung-galaxy-z-foldflip-series_comparison.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-09-03-pixel-11-pro-fold-vs-pixel-11-pro-camera-and-display-feature.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-09-17-what-is-nvidia-dlss-5-and-how-it-improves-game-performance.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-09-06-how-to-choose-the-best-rtx-50-series-gpu-for-1440p-gaming.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-08-26-android-16-desktop-mode-setup.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-09-23-how-to-set-up-valve-steam-frame-for-pc-vr-gaming.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-08-19-google-assistant-vs-gemini-what-changes-when-assistant-shuts.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-09-16-pixel-11-vs-pixel-11-pro-camera-features-and-differences.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-09-18-04-pixel-pro.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-09-07-android-system-features.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-09-13-galaxy-z-fold-8-vs-fold-7-hinge-durability-comparison.md 내용 불일치 → _posts/ 기준으로 덮어씀
 - published/2026-09-30-ubisoft-connect-requirement-for-steam-games-offline-play-exp.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-08-28-android-1516-native-app-lock-vs-samsung-app-lock-privacy-fea.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-09-25-steam-frame-vs-steam-deck-performance-price-and-portability-.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-09-19-how-to-enable-custom-chat-bubbles-in-google-messages.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-07-28-portable-gaming_explainer.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-08-31-rumored-nintendo-switch-successor-exploring-potential-micros.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-09-20-steam-frame-vs-meta-quest-3-vr-headset-specification-compari.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-08-14-how-to-fix-android-auto-wireless-connection-issues.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-07-20-google-chrome-manifest-v2-migration_HUB.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-07-21-android-ecosystem_comparison.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-08-20-what-is-vram-and-how-much-do-you-need-for-pc-gaming-in-2026.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-08-30-samsung-galaxy-z-fold-8-ultra-vs-galaxy-s26-ultra-camera-spe.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-07-31-portable-gaming_guide.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-07-19-best-manifest-v3-alternatives-for-older-chrome-extensions.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-08-01-01-galaxy-fold_comparison.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-08-16-galaxy-z-fold-8-vs-fold-7-camera-comparison-low-light-perfor.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-09-01-how-to-customize-pixel-quick-settings-with-android-17-qpr2-f.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-09-14-05-gta-6s.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-09-21-speculative-showdown-envisioning-the-google-pixel-11-pro-and.md 내용 불일치 → _posts/ 기준으로 덮어씀
 
 ## ⚠️ 수동 확인 필요 — 단어 수 미달
 - 2026-07-21-android-ecosystem_comparison.md — 568단어
 - 2026-08-01-01-galaxy-fold_comparison.md — 567단어
-- 2026-08-02-01-galaxy-fold_explainer.md — 575단어
 - 2026-08-05-samsung-galaxy-z-foldflip-series_explainer.md — 597단어
-- 2026-08-07-samsung-galaxy-z-foldflip-series_guide.md — 463단어
 - 2026-08-08-06-android-auto_comparison.md — 564단어
 - 2026-08-12-google-pixel-launcher-vs-third-party-android-launchers-featu.md — 563단어
 - 2026-08-13-physical-vs-digital-games-ownership-licenses-and-player-choi.md — 595단어
@@ -36,12 +79,11 @@
 - 2026-08-16-galaxy-z-fold-8-vs-fold-7-camera-comparison-low-light-perfor.md — 494단어
 - 2026-08-17-galaxy-z-fold-8-first-5-things-to-do-essential-setup-guide.md — 556단어
 - 2026-08-19-google-assistant-vs-gemini-what-changes-when-assistant-shuts.md — 585단어
-- 2026-08-25-android-system-features.md — 563단어
-- 2026-08-26-android-16-desktop-mode-setup.md — 269단어
+- 2026-08-25-how-to-customize-android-quick-settings-tiles.md — 563단어
+- 2026-08-26-android-16-desktop-mode-setup.md — 596단어
 - 2026-08-30-samsung-galaxy-z-fold-8-ultra-vs-galaxy-s26-ultra-camera-spe.md — 500단어
-- 2026-08-31-rumored-nintendo-switch-successor-exploring-potential-micros.md — 483단어
+- 2026-08-31-rumored-nintendo-switch-successor-exploring-potential-micros.md — 584단어
 - 2026-09-14-05-gta-6s.md — 458단어
-- 2026-09-15-galaxy-z-fold-8-vs-galaxy-z-flip-8-anticipating-samsungs-nex.md — 595단어
 - 2026-09-16-pixel-11-vs-pixel-11-pro-camera-features-and-differences.md — 547단어
 - 2026-09-17-what-is-nvidia-dlss-5-and-how-it-improves-game-performance.md — 539단어
 - 2026-09-19-how-to-enable-custom-chat-bubbles-in-google-messages.md — 465단어
@@ -49,20 +91,25 @@
 - 2026-09-22-galaxy-z-fold-8-vs-galaxy-z-flip-8-which-foldable-phone-shou.md — 592단어
 - 2026-09-23-how-to-set-up-valve-steam-frame-for-pc-vr-gaming.md — 507단어
 - 2026-09-24-how-to-transfer-android-passkeys-between-devices-securely.md — 443단어
-- 2026-09-29-elden-ring-pc-vs-console-performance-differences-explained.md — 468단어
-- 2026-09-29-how-to-install-ikea-themed-mods-for-skyrim-anniversary-editi.md — 446단어
-- 2026-09-30-ubisoft-connect-requirement-for-steam-games-offline-play-exp.md — 400단어
-- 2026-10-01-chromebook-vs-googlebook-whats-the-difference.md — 480단어
-- 2026-10-02-googlebook-models-compared-specs-and-features-of-the-five-fl.md — 499단어
+- 2026-09-30-ubisoft-connect-requirement-for-steam-games-offline-play-exp.md — 432단어
 
 ## ⚠️ 수동 확인 필요 — published/ 불일치
+- published/2026-08-02-01-galaxy-fold_explainer.md — _posts/에 없음 (발행 누락?)
 - published/2026-08-03-01-galaxy-fold_comparison.md — _posts/에 없음 (발행 누락?)
 - published/2026-08-03-01-galaxy-fold_explainer.md — _posts/에 없음 (발행 누락?)
+- published/2026-08-10-the-promise-of-silicon-carbon-batteries-and-samsungs-strateg.md — _posts/에 없음 (발행 누락?)
+- published/2026-08-11-best-wireless-android-auto-adapter-for-older-cars-comparison.md — _posts/에 없음 (발행 누락?)
 - published/2026-08-21-what-is-samsung-silicon-carbon-battery-technology-explained.md — _posts/에 없음 (발행 누락?)
 - published/2026-08-22-how-to-optimize-galaxy-z-fold-8-battery-life-settings.md — _posts/에 없음 (발행 누락?)
 - published/2026-08-23-best-wireless-android-auto-adapter-for-older-cars-comparison.md — _posts/에 없음 (발행 누락?)
 - published/2026-08-24-how-to-fix-wireless-android-auto-connection-issues.md — _posts/에 없음 (발행 누락?)
+- published/2026-08-25-android-system-features.md — _posts/에 없음 (발행 누락?)
+- published/2026-08-29-galaxy-z-fold-8-vs-galaxy-z-flip-8-which-foldable-phone-is-b.md — _posts/에 없음 (발행 누락?)
+- published/2026-09-02-how-to-backup-samsung-health-data-before-switching-phones-or.md — _posts/에 없음 (발행 누락?)
+- published/2026-09-04-galaxy-z-fold-8-vs-galaxy-z-flip-8-which-foldable-phone-is-b.md — _posts/에 없음 (발행 누락?)
 - published/2026-09-10-04-pixel-pro.md — _posts/에 없음 (발행 누락?)
+- published/2026-09-15-galaxy-z-fold-8-vs-galaxy-z-flip-8-anticipating-samsungs-nex.md — _posts/에 없음 (발행 누락?)
+- published/2026-10-06-galaxy-z-fold-series-vs-galaxy-z-flip-series-which-foldable-.md — _posts/에 없음 (발행 누락?)
 
 ## ⚠️ 수동 확인 필요 — HUB-스포크 연결
 - **Android Ecosystem** — 스포크 3개 발행됐으나 HUB 없음 (hub_status: READY)
@@ -78,6 +125,12 @@
 - **Google Pixel Android** — 스포크 2개 발행됐으나 HUB 없음 (hub_status: READY)
 - **Gaming Platform Features** — 스포크 2개 발행됐으나 HUB 없음 (hub_status: READY)
 - **Googlebooks** — 스포크 2개 발행됐으나 HUB 없음 (hub_status: READY)
+- **Steam Portable Gaming** — 스포크 2개 발행됐으나 HUB 없음 (hub_status: READY)
+- **AI Models** — 스포크 2개 발행됐으나 HUB 없음 (hub_status: READY)
+- **Android Auto** — 스포크 2개 발행됐으나 HUB 없음 (hub_status: READY)
 
 ## ⚠️ 수동 확인 필요 — 외부 링크 404
 - 2026-07-16-how-to-backup-samsung-health-data-before-account-deletion.md: [https://frontbuffer.net/tech/samsung-health-data-ecosystem_hub/]
+
+## 🚨 스택 잔량 부족
+final/ 잔량 2편 — Step 2/3를 수동 실행해 보충하세요.

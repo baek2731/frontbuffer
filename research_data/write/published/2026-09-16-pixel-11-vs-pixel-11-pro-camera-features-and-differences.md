@@ -4,7 +4,7 @@ title: "Pixel 11 vs Pixel 11 Pro camera features and differences"
 date: 2026-09-16 14:36:00 +0000
 categories: [tech]
 tags: ["comparison", "pixel", "pro"]
-excerpt: "The Pixel 11 and Pixel 11 Pro launched August 20, 2026. Both run Tensor G6, but the Pro adds a 50MP ultrawide with autofocus, 120x zoom, Night Sight Video, and 8K Video Boost."
+excerpt: 'The Pixel 11 and Pixel 11 Pro launched August 20, 2026. Both run Tensor G6, but the Pro adds a 50MP ultrawide with autofocus, 120x zoom.'
 header:
   image: https://images.frontbuffer.net/posts/pixel-11-vs-pixel-11-pro-camera-features-and-differences/og.png
   overlay_filter: 0

@@ -4,7 +4,7 @@ title: 'Galaxy Z Fold 8 First 5 Things to Do: Essential Setup Guide'
 date: 2026-08-17 14:50:00 +0000
 categories: [tech]
 tags: ["guide", "galaxy", "fold"]
-excerpt: 'Just days after its  unveiling on July 22, 2026, and subsequent release on August 7, 2026, the Samsung Galaxy Z Fold 8 is now in…'
+excerpt: 'The Galaxy Z Fold 8 shipped August 7, 2026, running Android 17 with One UI 9. The setup process has more moving parts than a standard slab phone.'
 header:
   image: https://images.frontbuffer.net/posts/galaxy-z-fold-8-first-5-things-to-do-essential-setup-guide/og.png
   overlay_filter: 0

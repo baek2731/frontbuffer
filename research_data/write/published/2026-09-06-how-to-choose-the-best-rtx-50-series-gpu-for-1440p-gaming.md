@@ -4,7 +4,7 @@ title: 'How to Choose the Best RTX 50 Series GPU for 1440p Gaming'
 date: 2026-09-06 14:05:00 +0000
 categories: [gaming]
 tags: ["guide", "pc", "gaming", "hardware", "guides"]
-excerpt: 'NVIDIA''s RTX 50 Series GPU family, powered by the Blackwell architecture, reached widespread availability by August 2026. This generation brings…'
+excerpt: 'NVIDIA''s RTX 50 Series GPU family, powered by the Blackwell architecture, reached widespread availability by August 2026.'
 header:
   image: https://images.frontbuffer.net/posts/how-to-choose-the-best-rtx-50-series-gpu-for-1440p-gaming/og.png
   overlay_filter: 0

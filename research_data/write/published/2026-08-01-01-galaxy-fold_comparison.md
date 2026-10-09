@@ -4,7 +4,7 @@ title: 'Galaxy Z Fold 8 vs Fold 7 Camera: What Actually Changed and Why It Matte
 date: 2026-08-01 14:20:00 +0000
 categories: [tech]
 tags: ["comparison", "galaxy", "fold"]
-excerpt: 'The standard Galaxy Z Fold 8, announced July 2026, drops the telephoto lens entirely and moves from a 200MP main sensor to a 50MP dual-camera setup.…'
+excerpt: 'The standard Galaxy Z Fold 8, announced July 2026, drops the telephoto lens entirely and moves from a 200MP main sensor to a 50MP dual-camera setup.'
 header:
   image: https://images.frontbuffer.net/posts/01-galaxy-fold_comparison/og.png
   overlay_filter: 0

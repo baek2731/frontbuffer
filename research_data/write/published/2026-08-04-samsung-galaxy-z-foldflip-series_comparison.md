@@ -4,7 +4,7 @@ title: 'Galaxy Z Fold 8 vs Galaxy Z Fold 8 Ultra: Key Differences Explained'
 date: 2026-08-04 14:17:00 +0000
 categories: [tech]
 tags: ["comparison", "samsung", "galaxy", "z", "foldflip"]
-excerpt: 'Samsung announced both the Galaxy Z Fold 8 and Galaxy Z Fold 8 Ultra on July 22, 2026, at Galaxy Unpacked in London. Both ship August 7, 2026, and…'
+excerpt: 'Samsung announced the Galaxy Z Fold 8 and Fold 8 Ultra on July 22, 2026, and both ship August 7. Here is how the two models differ.'
 header:
   image: https://images.frontbuffer.net/posts/samsung-galaxy-z-foldflip-series_comparison/og.png
   overlay_filter: 0

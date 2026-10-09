@@ -4,7 +4,7 @@ title: 'Google Pixel Launcher vs Third-Party Android Launchers: Features and Cus
 date: 2026-08-12 14:10:00 +0000
 categories: [tech]
 tags: ["comparison", "google", "android", "ecosystem"]
-excerpt: 'On July 19, 2022, Branch (also known as Branch Metrics) acquired Nova Launcher, a staple in Android''s customization community since 2011. This event,…'
+excerpt: 'Nova Launcher changed hands twice in four years. Branch (also known as Branch Metrics) acquired it in July 2022.'
 header:
   image: https://images.frontbuffer.net/posts/google-pixel-launcher-vs-third-party-android-launchers-featu/og.png
   overlay_filter: 0
