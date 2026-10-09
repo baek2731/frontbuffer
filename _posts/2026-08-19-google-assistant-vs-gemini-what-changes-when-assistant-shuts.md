@@ -4,7 +4,7 @@ title: 'Google Assistant vs Gemini: What Changes When Assistant Shuts Down on Se
 date: 2026-08-19 14:13:00 +0000
 categories: [tech]
 tags: ["comparison", "android", "system", "features"]
-excerpt: 'Google confirmed that Assistant will be removed from Android phones, tablets, Wear OS watches, compatible headphones, and phone-projected Android…'
+excerpt: 'Google confirmed Assistant will be removed from Android phones, tablets, Wear OS watches, and more. Here is what changes when Gemini takes over.'
 header:
   image: https://images.frontbuffer.net/posts/google-assistant-vs-gemini-what-changes-when-assistant-shuts/og.png
   overlay_filter: 0

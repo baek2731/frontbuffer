@@ -4,7 +4,7 @@ title: 'What is VRAM and How Much Do You Need for PC Gaming in 2026'
 date: 2026-08-20 14:09:00 +0000
 categories: [gaming]
 tags: ["explainer", "pc", "gaming", "hardware", "guides"]
-excerpt: 'In 2023, the release of games like *Alan Wake 2* and *Cyberpunk 2077: Phantom Liberty* highlighted a growing trend: even at 1080p, some titles began…'
+excerpt: 'Games like Alan Wake 2 and Cyberpunk 2077: Phantom Liberty showed that VRAM can limit performance even at 1080p. Here is how much you need.'
 header:
   image: https://images.frontbuffer.net/posts/what-is-vram-and-how-much-do-you-need-for-pc-gaming-in-2026/og.png
   overlay_filter: 0

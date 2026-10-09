@@ -4,7 +4,7 @@ title: 'How to Transfer Samsung Health Data to a New Phone Without Losing Record
 date: 2026-07-22 14:03:00 +0000
 categories: [tech]
 tags: ["guide", "android", "ecosystem"]
-excerpt: 'Samsung Health data transfers automatically via Samsung Cloud - but only if sync was enabled before you switched. Step counts, sleep data, and workout logs all carry over. Here is exactly how.'
+excerpt: 'Samsung Health data transfers automatically via Samsung Cloud, but only if sync was enabled before you switched. Here is how to move it to a new phone.'
 header:
   image: https://images.frontbuffer.net/posts/android-ecosystem_guide/og.png
   overlay_filter: 0

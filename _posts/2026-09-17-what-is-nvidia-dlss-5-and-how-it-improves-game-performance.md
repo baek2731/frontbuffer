@@ -4,7 +4,7 @@ title: "Nvidia DLSS 5 Explained: How 3D-Guided Neural Rendering Improves Game Pe
 date: 2026-09-17 14:31:00 +0000
 categories: [gaming]
 tags: ["explainer", "nvidia", "dlss", "technology"]
-excerpt: "DLSS 5 launched September 3, 2026, in NBA 2K27. It adds 3D-Guided Neural Rendering to inject photorealistic lighting at the final output stage, exclusive to RTX 50 series GPUs."
+excerpt: 'DLSS 5 launched September 3, 2026, in NBA 2K27. It adds 3D-Guided Neural Rendering to inject photorealistic lighting at the final output stage.'
 header:
   image: https://images.frontbuffer.net/posts/what-is-nvidia-dlss-5-and-how-it-improves-game-performance/og.png
   overlay_filter: 0

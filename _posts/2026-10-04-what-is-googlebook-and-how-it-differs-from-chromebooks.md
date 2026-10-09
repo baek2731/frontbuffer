@@ -4,7 +4,7 @@ title: 'What is Googlebook and how does it differ from Chromebook?'
 date: 2026-10-04 14:10:00 +0000
 categories: [tech]
 tags: ["explainer", "googlebooks", "gemini", "android"]
-excerpt: 'Googlebook is Google''s new laptop platform built around Android apps and Gemini. Here is what Magic Pointer and the phone features do, and how it differs from a Chromebook.'
+excerpt: 'Googlebook is Google''s new laptop platform built around Android apps and Gemini. Here is what Magic Pointer and the phone features do.'
 header:
   image: https://images.frontbuffer.net/posts/what-is-googlebook-and-how-it-differs-from-chromebooks/og.png
   overlay_filter: 0

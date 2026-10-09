@@ -4,7 +4,7 @@ title: 'Pixel 11 Pro Fold vs Pixel 11 Pro: Camera and Display Features Compariso
 date: 2026-09-03 14:45:00 +0000
 categories: [tech]
 tags: ["comparison", "pixel", "pro"]
-excerpt: 'Google''s latest innovations in the smartphone market have resulted in the recent launch of the Pixel 11 series, including the …'
+excerpt: 'Google launched the Pixel 11 series on August 12, 2026, including the Pixel 11 Pro Fold and its traditional flagship counterpart, the Pixel 11 Pro.'
 header:
   image: https://images.frontbuffer.net/posts/pixel-11-pro-fold-vs-pixel-11-pro-camera-and-display-feature/og.png
   overlay_filter: 0

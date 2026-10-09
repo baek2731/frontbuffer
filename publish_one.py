@@ -227,6 +227,48 @@ def slugify_title(text, limit=60):
     return s
 
 
+def resolve_selection(pipeline, stem, slug, ct):
+    """final/ 파일명 → content_pipeline의 기획안(selection) 찾기.
+
+    파일명: {order:03d}_{week}_{folder 또는 클러스터슬러그}_{CT}  (HUB는 앞에 H)
+    folder 가 있는 기획안은 클러스터 이름과 파일명 슬러그가 다르다
+    (예: 파일 02-galaxy-fold ↔ 클러스터 'Samsung Galaxy Foldables').
+    예전에는 클러스터 이름 슬러그로만 찾아서 이런 글은 발행 후 상태가 기록되지 않았고,
+    그 결과 같은 기획안이 다시 작성되는 중복 글이 생겼다.
+    """
+    m = re.match(r'^(H?)(\d+)_(\d{4}-W\d+)_(.+)_([A-Z]+)$', stem)
+    order = week = fid = None
+    if m:
+        order, week, fid = int(m.group(2)), m.group(3), m.group(4).lower()
+    best, best_score = None, 0
+    for week_key, sels in pipeline.get("weekly_selections", {}).items():
+        for sel in sels:
+            if (sel.get("content_type") or "").upper() != ct:
+                continue
+            name_slug = slugify(sel.get("cluster_name", ""))
+            folder = (sel.get("folder") or "").lower().strip()
+            score = 0
+            if fid and (folder == fid or name_slug == fid):
+                score += 2
+            elif name_slug == slug or folder == slug:
+                score += 2
+            else:
+                continue
+            if week and (sel.get("week_tag") == week or week_key == week):
+                score += 1
+            po = sel.get("publish_order")
+            try:
+                if order is not None and po is not None and int(str(po).lstrip("H")) == order:
+                    score += 2
+            except (ValueError, TypeError):
+                pass
+            if sel.get("status") not in ("published", "discarded", "rejected"):
+                score += 1   # 아직 발행되지 않은 기획안 우선
+            if score > best_score:
+                best, best_score = sel, score
+    return best
+
+
 def load_pipeline():
     with open(PIPELINE_FILE, encoding="utf-8") as f:
         return json.load(f)
@@ -437,14 +479,18 @@ def prepare_post(target, target_slug, target_ct, pipeline, force=False):
 
     # ── cluster_name 역추적 ───────────────────────────────────────
     cluster_name = None
-    for week_sels in pipeline.get("weekly_selections", {}).values():
-        for sel in week_sels:
-            if (slugify(sel.get("cluster_name", "")) == target_slug
-                    and sel.get("content_type", "").upper() == target_ct):
-                cluster_name = sel.get("cluster_name")
+    _sel = resolve_selection(pipeline, target.stem, target_slug, target_ct)
+    if _sel:
+        cluster_name = _sel.get("cluster_name")
+    else:
+        for week_sels in pipeline.get("weekly_selections", {}).values():
+            for sel in week_sels:
+                if (slugify(sel.get("cluster_name", "")) == target_slug
+                        and sel.get("content_type", "").upper() == target_ct):
+                    cluster_name = sel.get("cluster_name")
+                    break
+            if cluster_name:
                 break
-        if cluster_name:
-            break
 
     # ── 날짜 / 카테고리 / URL ─────────────────────────────────────
     now      = datetime.now(timezone.utc)

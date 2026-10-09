@@ -4,9 +4,9 @@ title: 'Pixel 11 vs Pixel 11 Pro: Camera Differences That Actually Matter'
 date: 2026-09-10 14:21:00 +0000
 categories: [tech]
 tags: ["comparison", "pixel", "pro"]
-excerpt: 'The Pixel 11 Pro (released August 20, 2026) adds a larger sensor, 120x zoom, 8K video via Video Boost, and a 42MP front camera over the base Pixel 11. Here is what that means in practice.'
+excerpt: 'The Pixel 11 Pro (released August 20, 2026) adds a larger sensor, 120x zoom, 8K video via Video Boost, and a 42MP front camera over the base Pixel 11.'
 header:
- image: https://images.frontbuffer.net/posts/04-pixel-pro_comparison/og.png
+ image: https://images.frontbuffer.net/posts/pixel-11-vs-pixel-11-pro-camera-differences/og.png
  overlay_filter: 0
 author_profile: false
 read_time: true
