@@ -5,6 +5,9 @@ date: 2026-10-10 14:56:00 +0000
 categories: [gaming]
 tags: ["guide", "steam", "deck", "charging"]
 excerpt: 'If your Steam Deck shows a "Slow Charger" warning or the battery percentage won''t go up, the cause is usually the charger, the cable, or a dock sharing…'
+header:
+  image: https://images.frontbuffer.net/posts/steam-deck-not-charging-or-slow-charger-warning-how-to-fix/og.png
+  overlay_filter: 0
 author_profile: false
 read_time: true
 share: true
