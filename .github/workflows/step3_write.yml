@@ -11,6 +11,15 @@ on:
     types:
       - completed
 
+permissions:
+  contents: write
+
+# Step 2 가 이 워크플로우를 workflow_run 으로도, API 호출로도 시작시키므로
+# 같은 Step 3 가 동시에 두 번 돌지 않도록 한 줄로 세운다 (두 번째는 대기 후 할 일이 없으면 바로 끝남)
+concurrency:
+  group: step3-write
+  cancel-in-progress: false
+
 jobs:
   write:
     runs-on: ubuntu-latest
@@ -49,6 +58,20 @@ jobs:
           FAIL_STREAK=0
           FAILURES=""
           NEW_FILES=""    # 이번 배치에서 새로 생성된 final/ 파일 목록
+          PUSH_PENDING=0  # 푸시에 실패한 커밋이 남아 있는지
+
+          # 다른 푸시와 겹쳐도(rebase) 최대 3번까지 다시 시도.
+          # --autostash: 커밋하지 않은 파일(prompts 등)이 있어도 rebase 가 중단되지 않게 함
+          push_with_retry() {
+            for i in 1 2 3; do
+              if git pull --rebase --autostash origin main && git push origin HEAD:main; then
+                return 0
+              fi
+              echo "⚠️ 푸시 실패 ($i/3) — 재시도"
+              sleep $((i * 5))
+            done
+            return 1
+          }
 
           while [ $COUNT -lt $MAX_ARTICLES ]; do
 
@@ -128,10 +151,10 @@ jobs:
             fi
 
             # 새로 생성된 final/ 파일 추적 (품질 체크용)
-            # write.py slugify()와 동일한 로직으로 생성 (특수문자 제거 + 60자 제한)
-            SLUG=$(python -c "import re,sys; t=sys.argv[1].lower().strip(); t=re.sub(r'[^\w\s-]','',t); t=re.sub(r'[\s_]+','-',t); print(t[:60])" "$CLUSTER")
-            FINAL_FILE="research_data/write/final/${SLUG}_${TYPE}.md"
-            if [ -f "$FINAL_FILE" ]; then
+            # 실제 파일명은 {order}_{week}_{folder}_{TYPE}.md (= FILE_ID). 예전에는 slug_TYPE 으로
+            # 찾아서 항상 비어 있었고, 그 때문에 품질 체크가 final/ 전체를 매번 검사했다.
+            FINAL_FILE="research_data/write/final/${FILE_ID}.md"
+            if [ -n "$FILE_ID" ] && [ -f "$FINAL_FILE" ]; then
               NEW_FILES="${NEW_FILES:+$NEW_FILES,}$FINAL_FILE"
             fi
 
@@ -148,9 +171,13 @@ jobs:
               echo "⚠️ final/ 변경사항 없음 — 커밋 스킵"
             else
               git commit -m "feat: [$TYPE] $CLUSTER 최종본 생성"
-              git pull origin main --rebase || true
-              git push origin HEAD:main
-              echo "✅ 커밋 완료: [$TYPE] $CLUSTER"
+              if push_with_retry; then
+                echo "✅ 커밋 완료: [$TYPE] $CLUSTER"
+              else
+                echo "❌ 푸시 3회 실패 — 로컬 커밋은 유지, 마지막 단계에서 다시 시도"
+                PUSH_PENDING=1
+                FAILURES="${FAILURES:+$FAILURES,}[$TYPE] $CLUSTER (푸시 실패)"
+              fi
             fi
 
             FAIL_STREAK=0
@@ -168,6 +195,7 @@ jobs:
           echo "WRITE_STACK=$STACK"        >> $GITHUB_ENV
           echo "WRITE_FAILURES=$FAILURES"  >> $GITHUB_ENV
           echo "NEW_FILES=$NEW_FILES"      >> $GITHUB_ENV
+          echo "PUSH_PENDING=$PUSH_PENDING" >> $GITHUB_ENV
 
       # ── 품질 체크 ─────────────────────────────────────────────────
       # final/ 에 새로 추가된 파일만 대상으로 Gemini YES/NO 평가
@@ -177,9 +205,9 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
-          if [ -n "${{ env.NEW_FILES }}" ]; then
-            echo "📋 체크 대상: ${{ env.NEW_FILES }}"
-            python quality_check.py --files "${{ env.NEW_FILES }}"
+          if [ -n "$NEW_FILES" ]; then
+            echo "📋 체크 대상: $NEW_FILES"
+            python quality_check.py --files "$NEW_FILES"
           else
             # NEW_FILES 추적 실패 시 final/ 전체 체크 (안전망)
             echo "⚠️ NEW_FILES 없음 — final/ 전체 체크로 대체"
@@ -190,22 +218,52 @@ jobs:
       - name: "💾 품질 리포트 커밋"
         if: env.WRITE_COUNT != '0'
         run: |
-          git pull origin main --rebase || true
           git add research_data/write/quality_report.json
           if git diff --cached --quiet; then
             echo "ℹ️ 리포트 변경 없음 — 커밋 스킵"
           else
             git commit -m "chore: quality_report 업데이트"
-            git push origin HEAD:main
           fi
+          # 위에서 푸시하지 못한 커밋이 있으면 함께 올라간다
+          for i in 1 2 3; do
+            if git pull --rebase --autostash origin main && git push origin HEAD:main; then
+              echo "✅ 푸시 완료"
+              exit 0
+            fi
+            echo "⚠️ 푸시 실패 ($i/3) — 재시도"
+            sleep $((i * 5))
+          done
+          echo "❌ 푸시 3회 실패"
+          exit 1
 
       # ── Discord 알림: Step 3 완료 + 품질 체크 결과 ────────────────
       - name: "🔔 Discord 알림 — 글 생성 + 품질 체크 완료"
         if: always()
         run: |
           python notify.py step3_done \
-            --count    "${{ env.WRITE_COUNT }}" \
-            --stack    "${{ env.WRITE_STACK }}" \
-            --failures "${{ env.WRITE_FAILURES }}"
+            --count    "$WRITE_COUNT" \
+            --stack    "$WRITE_STACK" \
+            --failures "$WRITE_FAILURES"
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+
+      # ── 안전망: 아직 원격에 올라가지 않은 커밋이 있으면 마지막으로 다시 푸시 ──
+      - name: "📤 남은 커밋 푸시 (안전망)"
+        if: always()
+        run: |
+          git fetch origin main || true
+          AHEAD=$(git rev-list --count origin/main..HEAD 2>/dev/null || echo 0)
+          if [ "$AHEAD" -gt 0 ]; then
+            echo "⚠️ 원격에 없는 커밋 ${AHEAD}개 — 푸시 시도"
+            for i in 1 2 3; do
+              if git pull --rebase --autostash origin main && git push origin HEAD:main; then
+                echo "✅ 푸시 완료"
+                exit 0
+              fi
+              sleep $((i * 5))
+            done
+            echo "❌ 푸시 실패 — 생성된 글이 원격에 없습니다. 이 실행을 다시 하세요."
+            exit 1
+          else
+            echo "ℹ️ 올릴 커밋 없음"
+          fi

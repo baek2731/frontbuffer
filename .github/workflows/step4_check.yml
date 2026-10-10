@@ -21,6 +21,9 @@ on:
     - cron: '0 16 * * *'     # 매일 UTC 16:00 (주말 포함, Step 4와 동일하게 매일)
   workflow_dispatch:           # 수동 트리거
 
+permissions:
+  contents: read
+
 jobs:
   check:
     runs-on: ubuntu-latest

@@ -136,6 +136,32 @@ def load_existing_posts():
             items.append({"title": fm["title"], "url": url,
                           "category": fm["category"], "source": p.name})
 
+    # final/ · hold/ 에 쌓인 초안(H1 제목)도 비교 대상에 포함:
+    # Step 3 는 글을 쓰자마자 pipeline 상태를 "published"로 바꾸므로, 아직 _posts/ 에 없는
+    # 같은 주제의 두 번째 기획안이 다시 작성되는 일을 막으려면 초안도 봐야 한다.
+    for folder in ("research_data/write/final", "research_data/write/hold"):
+        d = Path(folder)
+        if not d.is_dir():
+            continue
+        for p in sorted(d.glob("*.md")):
+            if p.name.startswith("review_report_"):
+                continue
+            try:
+                with open(p, encoding="utf-8") as fh:
+                    for _ in range(12):
+                        line = fh.readline()
+                        if not line:
+                            break
+                        if line.startswith("# "):
+                            t = line[2:].strip()
+                            if t and t.lower() not in seen:
+                                seen.add(t.lower())
+                                items.append({"title": t, "url": "",
+                                              "category": "tech", "source": f"{folder}/{p.name}"})
+                            break
+            except Exception:
+                pass
+
     # posts.json에만 있는 글(원래 제목)도 비교 대상에 포함 (수정 전 제목 대비)
     try:
         if os.path.exists(POSTS_FILE):
@@ -219,7 +245,12 @@ def filter_duplicate_selections(selections, existing=None, settings=None):
         dup_in_batch = None
         for other_title, other_name, other_ct in kept_titles:
             if other_name == name:
-                continue            # 같은 클러스터의 다른 타입은 의도된 구성
+                # 같은 클러스터의 다른 유형(설명/가이드/비교)은 의도된 구성.
+                # 같은 클러스터 + 같은 유형이 둘이면 같은 글을 두 번 쓰게 되므로 중복.
+                if other_ct == ct:
+                    dup_in_batch = other_title
+                    break
+                continue
             ow, cw = title_words(other_title), title_words(title)
             if _jaccard(ow, cw) >= s["title_jaccard"]:
                 dup_in_batch = other_title

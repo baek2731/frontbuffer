@@ -13,6 +13,15 @@ on:
   # CSV 업로드 후 수동으로 Run workflow 실행
   # (자동 트리거 제거 — CSV 전부 올린 후 수동 실행)
 
+# Step 3 를 API 로 호출하므로 actions: write 가 필요하다
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: step2-plan
+  cancel-in-progress: false
+
 jobs:
   plan:
     runs-on: ubuntu-latest
@@ -30,39 +39,38 @@ jobs:
       - name: "📦 패키지 설치"
         run: pip install requests beautifulsoup4 lxml
 
+      # 입력값은 환경변수로 받는다 (따옴표/특수문자 안전)
       - name: "🗓️ 주차 태그 설정"
+        env:
+          INPUT_WEEK: ${{ github.event.inputs.week_tag }}
         run: |
-          # push 트리거 시 week_tag 입력이 없으므로 항상 자동 계산 fallback
-          WEEK="${{ github.event.inputs.week_tag }}"
+          WEEK="$INPUT_WEEK"
           if [ -z "$WEEK" ]; then
             WEEK=$(python -c "from datetime import datetime,timezone; print(datetime.now(timezone.utc).strftime('%Y-W%W'))")
           fi
-          echo "WEEK_TAG=$WEEK" >> $GITHUB_ENV
-
-          # 트리거 종류 기록 (알림 메시지에 사용)
-          if [ "${{ github.event_name }}" = "push" ]; then
-            echo "TRIGGER_TYPE=csv_push" >> $GITHUB_ENV
-            echo "🚀 CSV push 감지로 자동 시작 (주차: $WEEK)"
-          else
-            echo "TRIGGER_TYPE=manual" >> $GITHUB_ENV
-            echo "🔧 수동 트리거 (주차: $WEEK)"
+          if ! [[ "$WEEK" =~ ^[0-9]{4}-W[0-9]{2}$ ]]; then
+            echo "❌ 주차 태그 형식 오류: '$WEEK' (예: 2026-W41)"
+            exit 1
           fi
+          echo "WEEK_TAG=$WEEK" >> "$GITHUB_ENV"
+          echo "TRIGGER_TYPE=manual" >> "$GITHUB_ENV"
+          echo "🔧 수동 트리거 (주차: $WEEK)"
 
       - name: "🔍 Step 1 완료 여부 확인"
         run: |
-          if [ ! -f "research_data/weekly/${{ env.WEEK_TAG }}/prompt.txt" ]; then
+          if [ ! -f "research_data/weekly/${WEEK_TAG}/prompt.txt" ]; then
             echo "❌ prompt.txt 없음 — Step 1을 먼저 실행하세요."
             exit 1
           fi
-          echo "✅ prompt.txt 확인: research_data/weekly/${{ env.WEEK_TAG }}/prompt.txt"
-          wc -c "research_data/weekly/${{ env.WEEK_TAG }}/prompt.txt"
+          echo "✅ prompt.txt 확인: research_data/weekly/${WEEK_TAG}/prompt.txt"
+          wc -c "research_data/weekly/${WEEK_TAG}/prompt.txt"
 
       - name: "📈 Trends/KP CSV 현황 확인 (없으면 중단)"
         run: |
           echo "=== Trends 폴더 현황 ==="
-          TRENDS_DIR="research_data/trends/${{ env.WEEK_TAG }}"
+          TRENDS_DIR="research_data/trends/${WEEK_TAG}"
           if [ -d "$TRENDS_DIR" ]; then
-            find "$TRENDS_DIR" -name "*.csv" | sort | while read f; do
+            find "$TRENDS_DIR" -name "*.csv" | sort | while read -r f; do
               SIZE=$(wc -c < "$f")
               echo "  ✅ $f ($SIZE bytes)"
             done
@@ -74,11 +82,11 @@ jobs:
               echo "❌ Trends/KP CSV 없음 — Step 2를 중단합니다."
               echo ""
               echo "📋 다음 순서로 진행하세요:"
-              echo "  1. GitHub → research_data/weekly/${{ env.WEEK_TAG }}/manual_report.md 열기"
+              echo "  1. GitHub → research_data/weekly/${WEEK_TAG}/manual_report.md 열기"
               echo "  2. '🔍 Google Trends 검색 추천' 섹션에서 키워드 확인"
               echo "  3. Trends 링크 클릭 → CSV 다운로드"
-              echo "  4. GitHub → research_data/trends/${{ env.WEEK_TAG }}/{폴더명}/ 에 업로드"
-              echo "  5. (선택) KP CSV → research_data/trends/${{ env.WEEK_TAG }}/ 루트에 업로드"
+              echo "  4. GitHub → research_data/trends/${WEEK_TAG}/{폴더명}/ 에 업로드"
+              echo "  5. (선택) KP CSV → research_data/trends/${WEEK_TAG}/ 루트에 업로드"
               echo "  6. Step 2 다시 실행"
               exit 1
             fi
@@ -88,60 +96,58 @@ jobs:
             exit 1
           fi
 
+      # research_gemini.py 는 topic_guard.py 로 기존 글 목록을 프롬프트에 넣고
+      # 기존 글과 겹치는 기획안을 자동 제외한다 (로그의 🛡️ 줄 확인)
       - name: "🤖 Gemini 1차 호출 — 기획안 생성 + Grade 판정"
-        run: python research_gemini.py ${{ env.WEEK_TAG }}
+        run: python research_gemini.py "$WEEK_TAG"
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_MODEL:   "gemini-2.5-flash"
 
       - name: "📊 결과 확인 — 기획안 Grade별 요약"
         run: |
-          echo "=== ai_result_latest.json Grade 분포 ==="
-          python -c "
-          import json
+          python - <<'PY'
+          import json, os
+
+          print("=== ai_result_latest.json Grade 분포 ===")
           data = json.load(open('research_data/ai_result_latest.json', encoding='utf-8'))
           grades = {'A': [], 'B': [], 'C': []}
           for d in data:
-              g = d.get('data_grade', 'C')
-              grades.get(g, grades['C']).append(d)
+              grades.get(d.get('data_grade', 'C'), grades['C']).append(d)
 
-          print(f'총 기획안: {len(data)}개')
-          print()
-          print(f'✅ Grade A (발행 확정): {len(grades[\"A\"])}개')
+          print(f"총 기획안: {len(data)}개\n")
+          print(f"✅ Grade A (발행 확정): {len(grades['A'])}개")
           for d in grades['A']:
-              print(f'   [{d.get(\"content_type\",\"?\")}] {d.get(\"suggested_title\",\"\")}')
+              print(f"   [{d.get('content_type','?')}] {d.get('suggested_title','')}")
           print()
-          print(f'🔶 Grade B (발행 가능): {len(grades[\"B\"])}개')
+          print(f"🔶 Grade B (발행 가능): {len(grades['B'])}개")
           for d in grades['B']:
-              print(f'   [{d.get(\"content_type\",\"?\")}] {d.get(\"suggested_title\",\"\")}')
+              print(f"   [{d.get('content_type','?')}] {d.get('suggested_title','')}")
           print()
-          print(f'❌ Grade C (폐기): {len(grades[\"C\"])}개')
+          print(f"❌ Grade C (폐기): {len(grades['C'])}개")
           for d in grades['C']:
-              print(f'   [{d.get(\"content_type\",\"?\")}] {d.get(\"cluster_name\",\"\")}')
+              print(f"   [{d.get('content_type','?')}] {d.get('cluster_name','')}")
 
           # GitHub ENV로 candidate 수 출력
           candidates = len(grades['A']) + len(grades['B'])
-          with open('$GITHUB_ENV', 'a') as f:
-              f.write(f'CANDIDATE_COUNT={candidates}\n')
-          "
+          with open(os.environ['GITHUB_ENV'], 'a') as f:
+              f.write(f"CANDIDATE_COUNT={candidates}\n")
 
-          echo ""
-          echo "=== content_pipeline.json 등록 현황 ==="
-          python -c "
-          import json
+          print("\n=== content_pipeline.json 등록 현황 ===")
           pipe = json.load(open('content_pipeline.json', encoding='utf-8'))
-          week = '${{ env.WEEK_TAG }}'
+          week = os.environ['WEEK_TAG']
           sels = pipe.get('weekly_selections', {}).get(week, [])
-          candidates = [s for s in sels if s.get('status') == 'candidate']
-          rejected   = [s for s in sels if s.get('status') == 'rejected']
-          print(f'candidate (발행 대기): {len(candidates)}개')
-          for s in candidates:
-              print(f'  [{s.get(\"data_grade\",\"?\")}] [{s.get(\"content_type\",\"?\")}] {s.get(\"cluster_name\",\"\")}')
-          print(f'rejected (폐기): {len(rejected)}개')
-          for s in rejected:
-              print(f'  [C] {s.get(\"cluster_name\",\"\")}')
-          "
+          cands = [s for s in sels if s.get('status') == 'candidate']
+          rej   = [s for s in sels if s.get('status') == 'rejected']
+          print(f"candidate (발행 대기): {len(cands)}개")
+          for s in cands:
+              print(f"  [{s.get('data_grade','?')}] [{s.get('content_type','?')}] {s.get('cluster_name','')}")
+          print(f"rejected (폐기): {len(rej)}개")
+          for s in rej:
+              print(f"  [C] {s.get('cluster_name','')}")
+          PY
 
+      # push 가 거절돼도 3번까지 다시 시도한다 (예전에는 실패를 무시해서 결과가 유실될 수 있었음)
       - name: "💾 결과 커밋"
         run: |
           git config user.name  "github-actions[bot]"
@@ -150,9 +156,21 @@ jobs:
           git add research_data/weekly/
           git add research_data/trends/
           git add content_pipeline.json
-          git diff --cached --quiet || git commit -m "chore: Step2 기획안 생성+Grade판정 완료 ${{ env.WEEK_TAG }}"
-          git pull --rebase origin main || true
-          git push
+          if git diff --cached --quiet; then
+            echo "ℹ️ 변경사항 없음"
+            exit 0
+          fi
+          git commit -m "chore: Step2 기획안 생성+Grade판정 완료 ${WEEK_TAG}"
+          for i in 1 2 3; do
+            if git pull --rebase --autostash origin main && git push origin HEAD:main; then
+              echo "✅ 푸시 완료"
+              exit 0
+            fi
+            echo "⚠️ 푸시 실패 ($i/3) — 재시도"
+            sleep $((i * 5))
+          done
+          echo "❌ 푸시 3회 실패"
+          exit 1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -161,12 +179,14 @@ jobs:
         if: success()
         run: |
           python notify.py step2_done \
-            --week  "${{ env.WEEK_TAG }}" \
-            --count "${{ env.CANDIDATE_COUNT }}"
+            --week  "$WEEK_TAG" \
+            --count "$CANDIDATE_COUNT"
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
 
       # ── Step 3 자동 연쇄 트리거 ─────────────────────────────────────
+      # 참고: step3_write.yml 은 workflow_run 으로도 Step 2 완료 시 시작된다.
+      #       step3_write.yml 에 concurrency 를 걸어서 동시에 두 번 돌지 않게 했다.
       - name: "🚀 Step 3 자동 트리거"
         if: success()
         uses: actions/github-script@v7
