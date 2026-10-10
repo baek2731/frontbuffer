@@ -80,6 +80,8 @@ jobs:
           FORCE_PUBLISH:       ${{ github.event.inputs.force_publish }}
 
       # ── 6. 커밋 + 푸시 ────────────────────────────────────────────
+      # 주의: 글 제목(POST_TITLE)에는 따옴표 등이 들어갈 수 있으므로
+      #       run 스크립트에 ${{ }} 로 직접 끼워 넣지 말고 반드시 $POST_TITLE 로 쓴다.
       - name: Commit and push
         run: |
           git add _posts/ \
@@ -93,12 +95,12 @@ jobs:
             exit 0
           fi
 
-          git commit -m "feat: 발행 — ${{ env.POST_TITLE }}"
+          git commit -m "feat: 발행 — ${POST_TITLE}"
           # 사용자가 먼저 푸시했어도 충돌 없이 반영
           git pull --rebase origin main
           git push origin HEAD:main
-          echo "✅ 발행 완료: ${{ env.POST_TITLE }}"
-          echo "   URL: ${{ env.POST_URL }}"
+          echo "✅ 발행 완료: ${POST_TITLE}"
+          echo "   URL: ${POST_URL}"
 
       # ── 7. IndexNow 제출 (Bing 즉시 색인 요청) ───────────────────
       - name: Submit to IndexNow
@@ -111,7 +113,7 @@ jobs:
               \"host\": \"frontbuffer.net\",
               \"key\": \"598f6bef9c054f238ee360ceb0374da3\",
               \"keyLocation\": \"https://frontbuffer.net/598f6bef9c054f238ee360ceb0374da3.txt\",
-              \"urlList\": [\"${{ env.POST_URL }}\"]
+              \"urlList\": [\"${POST_URL}\"]
             }" | xargs -I{} echo "IndexNow 응답 코드: {}"
 
       # ── 8. OG 이미지 생성 + R2 업로드 ────────────────────────────
@@ -138,7 +140,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "ℹ️ OG 변경사항 없음"
           else
-            git commit -m "chore: OG 이미지 + header 추가 — ${{ env.POST_TITLE }}"
+            git commit -m "chore: OG 이미지 + header 추가 — ${POST_TITLE}"
             git pull --rebase origin main
             git push origin HEAD:main
           fi
