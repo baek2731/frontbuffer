@@ -5,6 +5,9 @@ date: 2026-10-10 14:57:00 +0000
 categories: [tech]
 tags: ["explainer", "android", "auto"]
 excerpt: 'Gemini has replaced Google Assistant in Android Auto.'
+header:
+  image: https://images.frontbuffer.net/posts/gemini-in-android-auto-what-it-does-and-how-to-turn-it-on/og.png
+  overlay_filter: 0
 author_profile: false
 read_time: true
 share: true
