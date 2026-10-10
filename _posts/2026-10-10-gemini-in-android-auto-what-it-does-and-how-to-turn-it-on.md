@@ -1,4 +1,14 @@
-# Gemini in Android Auto: What It Does and How to Turn It On
+---
+layout: single
+title: 'Gemini in Android Auto: What It Does and How to Turn It On'
+date: 2026-10-10 14:57:00 +0000
+categories: [tech]
+tags: ["explainer", "android", "auto"]
+excerpt: 'Gemini has replaced Google Assistant in Android Auto.'
+author_profile: false
+read_time: true
+share: true
+---
 
 Gemini has replaced Google Assistant in Android Auto. Google started a global rollout on November 20, 2025, in 45 languages, beginning with people who had already switched to Gemini on their phone. You still say "Hey Google," but Gemini answers.
 

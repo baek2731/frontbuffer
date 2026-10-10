@@ -1283,6 +1283,23 @@
         "steam frame battery life vs steam deck"
       ],
       "slug": "2026-10-10-steam-deck-not-charging-or-slow-charger-warning-how-to-fix"
+    },
+    {
+      "status": "live",
+      "date": "2026-10-10",
+      "title": "Gemini in Android Auto: What It Does and How to Turn It On",
+      "live_url": "https://frontbuffer.net/tech/gemini-in-android-auto-what-it-does-and-how-to-turn-it-on/",
+      "categories": [
+        "tech"
+      ],
+      "content_type": "EXPLAINER",
+      "hub_cluster": "Android Auto & Pixel Ecosystem",
+      "verified_keywords": [
+        "Gemini Android Auto",
+        "gemini android auto features",
+        "how to use gemini in car"
+      ],
+      "slug": "2026-10-10-gemini-in-android-auto-what-it-does-and-how-to-turn-it-on"
     }
   ],
   "_last_updated": "2026-08-07T14:54:21.320932+00:00"
