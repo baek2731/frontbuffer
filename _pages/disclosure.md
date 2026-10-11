@@ -3,6 +3,7 @@ layout: single
 title: "Disclosure"
 permalink: /disclosure/
 author_profile: false
+description: 'How Frontbuffer researches, writes, and funds its articles, including how we use AI tools.'
 ---
 
 ### Affiliate Disclosure

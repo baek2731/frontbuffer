@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'How to Customize Pixel Quick Settings with Android 17 QPR2 Beta Features'
+title: 'How to Customize Pixel Quick Settings with Android 17 QPR2 Beta'
 date: 2026-09-01 14:34:00 +0000
 categories: [tech]
 tags: ["guide", "pixel", "pro"]

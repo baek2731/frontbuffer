@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Steam Deck Verified Games: What the Compatibility Ratings Actually Mean'
+title: 'Steam Deck Verified: What the Compatibility Ratings Actually Mean'
 date: 2026-07-28 14:22:00 +0000
 categories: [gaming]
 tags: ["explainer", "portable", "gaming"]
@@ -67,7 +67,6 @@ Valve's rating system and the community database complement each other. Neither 
 Sources:
 - [Steam Deck OLED](https://www.steamdeck.com/en/oled)
 - [Steam Community — Steam Deck OLED Launch Announcement](https://store.steampowered.com/news/app/1675200/view/3860471161726084666)
-- [Wikipedia — Steam Deck](https://en.wikipedia.org/wiki/Steam_Deck)
 - [Steam Support — Deck Verified](https://help.steampowered.com/en/faqs/view/6767-270B-4D11-6A81)
 - [Steam Deck Verified Program Overview](https://www.steamdeck.com/en/verified)
 - [ProtonDB](https://www.protondb.com/)

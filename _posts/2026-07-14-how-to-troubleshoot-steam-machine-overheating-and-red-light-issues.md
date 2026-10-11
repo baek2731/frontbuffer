@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Steam Machine Overheating and Red Light: Is It a BIOS Bug or Real Issue"
+title: 'Steam Machine Overheating and Red Light: BIOS Bug or Real Issue?'
 date: 2026-07-14 10:00:00 +0900
 categories: [gaming]
 tags: ["steam machine", "steam machine overheating", "red light fix", "valve hardware"]
@@ -63,7 +63,6 @@ For a complete breakdown of what each LED pattern means, see our [Steam Machine 
 
 *Sources:*
 
-- [Ars Technica — Steam Machine (2026) thermal analysis](https://arstechnica.com)
 - [Valve — Steam Machine official](https://store.steampowered.com/steamachine)
 - [Rock Paper Shotgun: AC Black Flag Resynced — Steam Deck and Steam Machine performance and settings](https://www.rockpapershotgun.com/assassins-creed-black-flag-resynced-steam-deck-and-steam-machine-performance-and-settings)
 

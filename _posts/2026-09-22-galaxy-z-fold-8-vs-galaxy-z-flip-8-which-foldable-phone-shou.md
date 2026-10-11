@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Galaxy Z Fold 8 vs Galaxy Z Flip 8: Which foldable phone should you buy'
+title: 'Galaxy Z Fold 8 vs Z Flip 8: Which Foldable Should You Buy?'
 date: 2026-09-22 14:48:00 +0000
 categories: [tech]
 tags: ["comparison", "galaxy", "fold"]

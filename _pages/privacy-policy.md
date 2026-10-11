@@ -3,6 +3,7 @@ layout: single
 title: "Privacy Policy"
 permalink: /privacy-policy/
 author_profile: false
+description: 'How Frontbuffer handles visitor data, including analytics, cookies, and third-party services.'
 ---
 
 **Last updated: July 29, 2026**

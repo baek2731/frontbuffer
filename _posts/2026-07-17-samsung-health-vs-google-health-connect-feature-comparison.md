@@ -21,9 +21,9 @@ Samsung Health and Google Health Connect are not competing apps — they serve e
 
 To understand how these platforms compare, it is important to recognize that they serve entirely different roles in the Android landscape.
 
-[Samsung Health](https://en.wikipedia.org/wiki/Samsung_Health) is a comprehensive, consumer-facing application designed to log and visualize daily physical activity, diet, sleep, and overall body composition. Originally launched by Samsung Electronics on 2 July 2012 alongside the Galaxy S3, the service has evolved from a brand-exclusive application into a versatile health platform available on Google Play and the Samsung Galaxy Store. It functions as an all-in-one visual hub, presenting detailed metrics like muscle mass, fat percentage, calorie tracking, and sleep stages directly to the user.
+Samsung Health is a complete, consumer-facing application designed to log and visualize daily physical activity, diet, sleep, and overall body composition. Originally launched by Samsung Electronics on 2 July 2012 alongside the Galaxy S3, the service has evolved from a brand-exclusive application into a versatile health platform available on Google Play and the Samsung Galaxy Store. It functions as an all-in-one visual hub, presenting detailed metrics like muscle mass, fat percentage, calorie tracking, and sleep stages directly to the user.
 
-In contrast, [Google Health Connect](https://en.wikipedia.org/wiki/Health_Connect) is not a standalone fitness tracking app with its own dashboard. Instead, it operates as an on-device system database and permissions manager — announced at Google I/O 2022 and integrated directly into Android 14 as a framework module. Its purpose is to act as a secure bridge, allowing different health and fitness apps — such as Samsung Health, Fitbit, or third-party utilities — to share data with one another locally on the device without requiring complex, direct API integrations between every single app. As of 2025, more than 500 applications have integrated with Health Connect.
+In contrast, Google Health Connect is not a standalone fitness tracking app with its own dashboard. Instead, it operates as an on-device system database and permissions manager — announced at Google I/O 2022 and integrated directly into Android 14 as a framework module. Its purpose is to act as a secure bridge, allowing different health and fitness apps — such as Samsung Health, Fitbit, or third-party utilities — to share data with one another locally on the device without requiring complex, direct API integrations between every single app. As of 2025, more than 500 applications have integrated with Health Connect.
 
 Worth noting: Google Fit, the predecessor consumer app, is being phased out with its APIs scheduled for end-of-service by the end of 2026, with Health Connect serving as the recommended Android replacement for health data management.
 
@@ -37,7 +37,7 @@ Because these two systems have fundamentally different architectures, a feature 
 
 While Samsung Health provides a rich, user-friendly interface to view daily progress, Google Health Connect offers no direct visual dashboard for fitness metrics. It provides only a settings menu to manage which apps are allowed to read or write specific categories of health data — handling more than 50 standardized data types organized across categories like activity, sleep, nutrition, and vitals.
 
-Within [Samsung Health](https://en.wikipedia.org/wiki/Samsung_Health), users can access a wide array of native tracking features, including:
+Within Samsung Health, users can access a wide array of native tracking features, including:
 
 * **Exercise and Activity Tracking:** Real-time logging of workouts, active minutes, and step counts.
 * **Sleep Analysis:** In-depth breakdowns of sleep stages (including Deep, Light, REM, and Awake periods).
@@ -63,7 +63,7 @@ The core difference lies in how each system handles data flow. The table below o
 
 For Android users, these two systems are highly complementary. Instead of choosing one over the other, the most effective configuration involves using Google Health Connect to pipe data from other fitness apps directly into Samsung Health.
 
-For example, a user might record a specialized workout in a third-party weightlifting app like Hevy. Rather than manually copying those statistics, Health Connect can automatically transmit the workout duration and active calories directly into [Samsung Health](https://en.wikipedia.org/wiki/Samsung_Health) for a consolidated daily total. This allows users to keep using their preferred dedicated tracking utilities while retaining Samsung's robust dashboard as their central command center.
+For example, a user might record a specialized workout in a third-party weightlifting app like Hevy. Rather than manually copying those statistics, Health Connect can automatically transmit the workout duration and active calories directly into Samsung Health for a consolidated daily total. This allows users to keep using their preferred dedicated tracking utilities while retaining Samsung's strong dashboard as their central command center.
 
 ---
 
@@ -75,7 +75,7 @@ One major point of discussion centers around hardware cross-compatibility. Users
 
 Additionally, native device tracking can hit physical hurdles. Some users have noted that Samsung Health can struggle to accurately register distance and steps during treadmill workouts, even when toggling GPS permissions on or off.
 
-Despite these sync quirks, the general consensus on Samsung Health's overall value remains highly positive. The app is widely praised for remaining completely free while delivering a comprehensive suite of features — sleep staging, calorie counting, and body composition ratios — that competitor platforms often lock behind premium monthly subscriptions.
+Despite these sync quirks, the general consensus on Samsung Health's overall value remains highly positive. The app is widely praised for remaining completely free while delivering a complete suite of features — sleep staging, calorie counting, and body composition ratios — that competitor platforms often lock behind premium monthly subscriptions.
 
 ---
 
@@ -85,10 +85,8 @@ If you are switching phones and want to ensure your Samsung Health data carries 
 
 Sources:
 
-* [Wikipedia: Samsung Health](https://en.wikipedia.org/wiki/Samsung_Health)
-* [Wikipedia: Health Connect](https://en.wikipedia.org/wiki/Health_Connect)
 * [Android Developers: Health Connect](https://developer.android.com/health-and-fitness/health-connect)
 
 
 ---
-**Want the full picture?** See our complete guide: [Samsung Health](https://frontbuffer.net/tech/samsung-health-data-ecosystem_hub/)
+**Want the full picture?** See our complete guide: [Samsung Health](https://frontbuffer.net/tech/samsung-health-data-ecosystem/)

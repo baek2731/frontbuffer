@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Samsung Secure Folder vs Google Files Safe Folder: Privacy Features Comparison'
+title: 'Samsung Secure Folder vs Google Files Safe Folder: Privacy Compared'
 date: 2026-07-21 14:06:00 +0000
 categories: [tech]
 tags: ["comparison", "android", "ecosystem"]

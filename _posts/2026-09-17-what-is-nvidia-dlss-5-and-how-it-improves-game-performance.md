@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Nvidia DLSS 5 Explained: How 3D-Guided Neural Rendering Improves Game Performance"
+title: 'Nvidia DLSS 5 Explained: How 3D-Guided Neural Rendering Works'
 date: 2026-09-17 14:31:00 +0000
 categories: [gaming]
 tags: ["explainer", "nvidia", "dlss", "technology"]
@@ -64,4 +64,3 @@ For RTX 50 series owners, activating DLSS 5 in supported titles is straightforwa
 Sources:
 - [Nvidia — DLSS 5 official announcement](https://www.nvidia.com/en-us/geforce/news/dlss5/)
 - [Digital Foundry — DLSS 5 technical analysis](https://www.eurogamer.net/digitalfoundry)
-- [Ars Technica — DLSS 5 explainer](https://arstechnica.com)

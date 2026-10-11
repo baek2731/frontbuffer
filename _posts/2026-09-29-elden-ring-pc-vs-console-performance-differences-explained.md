@@ -4,7 +4,7 @@ title: 'Elden Ring PC vs console performance: what actually differs'
 date: 2026-09-29 14:56:00 +0000
 categories: [gaming]
 tags: ["comparison", "elden-ring", "pc", "performance"]
-excerpt: 'Elden Ring launched with PC stuttering and uneven console performance. Here is what each platform got right, what patches fixed, and how to smooth out PC play.'
+excerpt: 'Elden Ring launched with PC stuttering and uneven console performance. Here is what each platform got right, what patches fixed.'
 header:
   image: https://images.frontbuffer.net/posts/elden-ring-pc-vs-console-performance-differences-explained/og.png
   overlay_filter: 0

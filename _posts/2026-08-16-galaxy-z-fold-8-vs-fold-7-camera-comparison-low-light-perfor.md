@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Galaxy Z Fold 7 vs Fold 8 Camera Comparison: Sensor, Zoom, and Low Light'
+title: 'Galaxy Z Fold 7 vs Fold 8 Camera: Sensor, Zoom, and Low Light'
 date: 2026-08-16 14:49:00 +0000
 categories: [tech]
 tags: ["comparison", "galaxy", "fold"]

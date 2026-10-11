@@ -13,7 +13,7 @@ read_time: true
 share: true
 ---
 
-Valve's [Steam Machine (2026)](https://en.wikipedia.org/wiki/Steam_Machine) ships with a front LED bar that doubles as a diagnostic display — but the codes it uses are not documented anywhere obvious. Since launch on June 29, 2026, owners have been running into solid reds, pulsating patterns, and the so-called "red line of death" without a clear reference for what each one actually signals. Here is the full breakdown.
+Valve's Steam Machine (2026) ships with a front LED bar that doubles as a diagnostic display — but the codes it uses are not documented anywhere obvious. Since launch on June 29, 2026, owners have been running into solid reds, pulsating patterns, and the so-called "red line of death" without a clear reference for what each one actually signals. Here is the full breakdown.
 
 ---
 
@@ -50,11 +50,11 @@ If a fault code appears, Valve's published recovery steps are:
 5. The LED will cycle through several colors, representing different recovery options. When it turns green, give the power button a short press to trigger a full CMOS reset.
 6. On the next boot, the RGB bar should glow blue, indicating the system is re-training memory — this can add a few extra seconds to boot time and is normal.
 
-These steps follow [TechRadar's coverage of Valve's official fix](https://www.techradar.com/computing/gaming-pcs/steam-machine-users-are-reporting-red-line-of-death-issues-but-theres-now-an-official-fix-and-its-surprisingly-easy).
+These steps follow TechRadar's coverage of Valve's official fix.
 
 ### Component Seating and Upgrades
 
-The Steam Machine's memory and storage are user-replaceable, though the configuration is more limited than some initially assumed: the system uses a **single SO-DIMM DDR5 memory stick** (16GB) rather than dual memory slots, and **one M.2 NVMe SSD slot** supporting both 2230 and 2280 form factors, per the [Steam Machine (2026) specification page](https://en.wikipedia.org/wiki/Steam_Machine_(2026)). Because the internal layout is tight, vibrations or improper reseating during a RAM or SSD swap can trigger the specific "no RAM detected" or "SSD error" light codes described above. If either of these patterns appears after opening the case, reseating the memory stick or storage drive is the first troubleshooting step before attempting a full CMOS reset.
+The Steam Machine's memory and storage are user-replaceable, though the configuration is more limited than some initially assumed: the system uses a **single SO-DIMM DDR5 memory stick** (16GB) rather than dual memory slots, and **one M.2 NVMe SSD slot** supporting both 2230 and 2280 form factors, per the Steam Machine (2026) specification page. Because the internal layout is tight, vibrations or improper reseating during a RAM or SSD swap can trigger the specific "no RAM detected" or "SSD error" light codes described above. If either of these patterns appears after opening the case, reseating the memory stick or storage drive is the first troubleshooting step before attempting a full CMOS reset.
 
 ---
 
@@ -70,9 +70,7 @@ If the red bar appears during normal gaming rather than after a hardware change,
 
 Sources:
 
-* [Wikipedia — Steam Machine (2026)](https://en.wikipedia.org/wiki/Steam_Machine_(2026))
 * [TheFPSReview — Valve Confirms Steam Machine Red Line of Death Fix](https://www.thefpsreview.com/2026/07/07/valve-responds-to-steam-machines-red-line-of-death-reports-telling-users-to-perform-a-cmos-reset/)
-* [TechRadar — Steam Machine "Red Line of Death" Official Fix](https://www.techradar.com/computing/gaming-pcs/steam-machine-users-are-reporting-red-line-of-death-issues-but-theres-now-an-official-fix-and-its-surprisingly-easy)
 * [GamingBolt — Steam Machine Early Adopter Reports Hardware Failure](https://gamingbolt.com/steam-machine-early-adopter-reports-hardware-failure-with-blinking-red-led)
 * [gamermarkt.com — Steam Machine Release Date, Price And Specs](https://www.gamermarkt.com/blog/steam-machine-release-date-price-specs-2026/)
 

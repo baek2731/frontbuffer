@@ -13,7 +13,7 @@ read_time: true
 share: true
 ---
 
-Since Samsung introduced DeX with the Galaxy S8 in 2017, the concept of transforming a smartphone into a primary computing device has moved from aspiration to tangible reality. Samsung's DeX platform has been a pioneer in this space, offering a solid desktop experience powered by a smartphone. More recently, Google has introduced and refined its own Android Desktop Mode, sparking a new wave of comparisons and discussions around what constitutes the best phone desktop experience. This article delves into the key distinctions and community perspectives surrounding Android's connected display capabilities versus Samsung DeX.
+Since Samsung introduced DeX with the Galaxy S8 in 2017, the concept of transforming a smartphone into a primary computing device has moved from aspiration to tangible reality. Samsung's DeX platform has been a pioneer in this space, offering a solid desktop experience powered by a smartphone. More recently, Google has introduced and refined its own Android Desktop Mode, sparking a new wave of comparisons and discussions around what constitutes the best phone desktop experience. This article looks at the key distinctions and community perspectives surrounding Android's connected display capabilities versus Samsung DeX.
 
 ## The Evolution of Mobile Desktop Experiences
 

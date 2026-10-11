@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'How to Set Up and Expand Storage on Nintendo Switch 2 with microSD Express'
+title: 'How to Expand Nintendo Switch 2 Storage with microSD Express'
 date: 2026-09-05 14:00:00 +0000
 categories: [gaming]
 tags: ["guide", "nintendo", "switch", "hardware"]

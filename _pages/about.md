@@ -3,6 +3,7 @@ layout: single
 title: "About Frontbuffer"
 permalink: /about/
 author_profile: false
+description: 'Frontbuffer is an independent tech and gaming site publishing practical guides, fixes, and comparisons.'
 ---
 
 **Frontbuffer** is an independent tech and gaming publication focused on the stories that actually change how you use your hardware and software — not the news cycle.

@@ -1,7 +1,7 @@
 ---
 layout: single
 permalink: /tech/how-to-backup-samsung-health-data-before-account-deletion/
-title: "How to Back Up Samsung Health Data Before Switching Phones or Deleting Your Account"
+title: 'How to Back Up Samsung Health Data Before Switching or Deleting'
 date: 2026-07-16 10:00:00 +0900
 categories: [tech]
 tags: ["samsung health", "export samsung health data", "samsung health backup", "samsung account deletion"]
@@ -107,4 +107,4 @@ Sources:
 
 
 ---
-**Want the full picture?** See our complete guide: [Samsung Health](https://frontbuffer.net/tech/samsung-health-data-ecosystem_hub/)
+**Want the full picture?** See our complete guide: [Samsung Health](https://frontbuffer.net/tech/samsung-health-data-ecosystem/)

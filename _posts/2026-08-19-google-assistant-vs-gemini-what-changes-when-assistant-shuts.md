@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Google Assistant vs Gemini: What Changes When Assistant Shuts Down on September 4'
+title: 'Google Assistant vs Gemini: What Changes When Assistant Goes Away'
 date: 2026-08-19 14:13:00 +0000
 categories: [tech]
 tags: ["comparison", "android", "system", "features"]

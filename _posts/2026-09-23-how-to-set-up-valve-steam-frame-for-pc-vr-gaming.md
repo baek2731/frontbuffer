@@ -76,4 +76,3 @@ Open SteamVR on your PC. The Steam Frame will connect wirelessly via the 6GHz ad
 Sources:
 - [Valve — Steam Frame official](https://www.valvesoftware.com/en/steamframe)
 - [Valve — SteamVR documentation](https://store.steampowered.com/steamvr)
-- [The Verge — Steam Frame hands-on](https://www.theverge.com)

@@ -4,7 +4,7 @@ title: "Chrome Manifest V2 Is Dead: What Happened and What to Use Instead"
 date: 2026-07-20 11:11:27 +0900
 categories: [tech]
 tags: ["hub", "chrome", "manifest-v2", "manifest-v3"]
-excerpt: "Chrome removed all Manifest V2 extensions from the Web Store on August 31, 2026. Check what still works, and find MV3 replacements for uBlock Origin and more."
+excerpt: 'Chrome removed all Manifest V2 extensions from the Web Store on August 31, 2026. Check what still works, and find MV3 replacements for uBlock Origin.'
 header:
   image: https://images.frontbuffer.net/posts/google-chrome-manifest-v2-migration_HUB/og.png
   overlay_filter: 0

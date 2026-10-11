@@ -61,5 +61,3 @@ The Steam Frame is available in 256GB ($1,059) and 1TB ($1,299) configurations. 
 ---
 Sources:
 - [Valve — Steam Frame official](https://www.valvesoftware.com/en/steamframe)
-- [The Verge — Steam Frame hands-on](https://www.theverge.com)
-- [Ars Technica — Steam Frame vs Quest 3](https://arstechnica.com)

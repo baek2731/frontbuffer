@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Galaxy Z Fold 8 vs Fold 7 Camera: What Actually Changed and Why It Matters'
+title: 'Galaxy Z Fold 8 vs Fold 7 Camera: What Actually Changed'
 date: 2026-08-01 14:20:00 +0000
 categories: [tech]
 tags: ["comparison", "galaxy", "fold"]

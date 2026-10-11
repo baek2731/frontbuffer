@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Fallout New Vegas Modding Guide: Essential Quality of Life and Content Mods'
+title: 'Fallout New Vegas Modding Guide: Essential Quality-of-Life Mods'
 date: 2026-07-26 14:13:00 +0000
 categories: [gaming]
 tags: ["fallout new vegas mods", "viva new vegas guide", "new vegas modding 2026", "fallout mod list"]
@@ -37,7 +37,7 @@ For users who don't want to follow the guide step by step, [Wabbajack](https://w
 Once the VNV foundation is in place, additional mods can expand the experience.
 
 **Strip and Freeside access**
-The original Strip is split across multiple load screens to manage performance. "Simple Open Strip" is the recommended option for reducing these — it is more stable than "Strip Open" or "Freeside Open," both of which have documented compatibility issues and are not recommended in comprehensive guides including VNV.
+The original Strip is split across multiple load screens to manage performance. "Simple Open Strip" is the recommended option for reducing these — it is more stable than "Strip Open" or "Freeside Open," both of which have documented compatibility issues and are not recommended in complete guides including VNV.
 
 **Power armor**
 "Titans of the West" reworks power armor to feel more like its lore description — heavier, more imposing, and mechanically distinct from regular armor. Frequently cited as one of the mods that most changes how the late game feels.

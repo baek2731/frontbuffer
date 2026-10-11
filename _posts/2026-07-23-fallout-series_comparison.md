@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Fallout New Vegas vs. Fallout 3 Remaster: What We Know and What to Expect'
+title: 'Fallout New Vegas vs. Fallout 3 Remaster: What We Know So Far'
 date: 2026-07-23 14:55:00 +0000
 categories: [gaming]
 tags: ["fallout remaster", "fallout new vegas remaster", "fallout 3 remaster", "bethesda 2026"]

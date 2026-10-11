@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Steam Frame vs Steam Deck: performance, price, and portability compared'
+title: 'Steam Frame vs Steam Deck: Performance, Price, and Portability'
 date: 2026-09-25 14:08:00 +0000
 categories: [gaming]
 tags: ["comparison", "steam", "frame"]
@@ -77,5 +77,3 @@ The two devices don't overlap — there's no use case where one substitutes for 
 Sources:
 - [Valve — Steam Frame official](https://www.valvesoftware.com/en/steamframe)
 - [Valve — Steam Deck OLED](https://www.steamdeck.com/en/oled)
-- [The Verge — Steam Frame review](https://www.theverge.com)
-- [Ars Technica — Steam Frame vs Quest 3](https://arstechnica.com)

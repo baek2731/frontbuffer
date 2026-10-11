@@ -1,10 +1,10 @@
 ---
 layout: single
-title: 'How Samsung''s Silicon-Carbon Batteries Improve Galaxy Z Fold 8 Battery Life'
+title: 'How Silicon-Carbon Batteries Improve Galaxy Z Fold 8 Battery Life'
 date: 2026-08-05 14:19:00 +0000
 categories: [tech]
 tags: ["explainer", "samsung", "galaxy-z-fold-8", "battery"]
-excerpt: 'Silicon-carbon cells let the Galaxy Z Fold 8 Ultra fit a 5,000mAh battery where the Fold 7 had 4,400mAh. Here is how the chemistry works and what it changes.'
+excerpt: 'Silicon-carbon cells let the Galaxy Z Fold 8 Ultra fit a 5,000mAh battery where the Fold 7 had 4,400mAh.'
 header:
   image: https://images.frontbuffer.net/posts/samsung-galaxy-z-foldflip-series_explainer/og.png
   overlay_filter: 0

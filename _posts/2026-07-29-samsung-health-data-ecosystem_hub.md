@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Samsung Health Data Management: Backup, Export, and Health Connect Guide'
+title: 'Samsung Health Data: Backup, Export, and Health Connect Guide'
 date: 2026-07-29 14:52:00 +0000
 categories: [tech]
 tags: ["hub", "samsung", "health", "data", "ecosystem"]
