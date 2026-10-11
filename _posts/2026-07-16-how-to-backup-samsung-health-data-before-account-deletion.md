@@ -106,5 +106,3 @@ Sources:
 **Want the full picture?** See our complete guide: [Samsung Health](https://frontbuffer.net/tech/samsung-health-data-ecosystem/)
 
 
----
-**Want the full picture?** See our complete guide: [Samsung Health](https://frontbuffer.net/tech/samsung-health-data-ecosystem/)

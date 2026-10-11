@@ -13,7 +13,7 @@ read_time: true
 share: true
 ---
 
-Google launched the Pixel 11 series on August 12, 2026, including the Pixel 11 Pro Fold and its traditional flagship counterpart, the Pixel 11 Pro. Both devices were officially announced on August 12, 2026, with general availability beginning on August 20, 2026. This dual release offers consumers a choice between a advanced foldable form factor and a powerful, conventional smartphone. This analysis looks at the distinct camera and display features of the Pixel 11 Pro Fold, comparing them against the solid specifications of the Pixel 11 Pro, and exploring how Google is advancing of mobile technology.
+Google launched the Pixel 11 series on August 12, 2026, including the Pixel 11 Pro Fold and its traditional flagship counterpart, the Pixel 11 Pro. Both devices were officially announced on August 12, 2026, with general availability beginning on August 20, 2026. This dual release offers consumers a choice between an advanced foldable form factor and a powerful, conventional smartphone. This analysis looks at the distinct camera and display features of the Pixel 11 Pro Fold, comparing them against the solid specifications of the Pixel 11 Pro, and exploring how Google is advancing mobile technology.
 
 ## The Pixel 11 Pro Fold's Distinct Display Experience
 

@@ -4,7 +4,7 @@ title: 'Fallout New Vegas Endings Explained: How Your Choices Matter'
 date: 2026-07-24 14:40:00 +0000
 categories: [gaming]
 tags: ["fallout new vegas endings", "fallout new vegas factions", "new vegas player choice", "obsidian rpg"]
-excerpt: 'Fallout: New Vegas has four main endings - NCR, Legion, Mr. House, and Independent - and which one you get depends on decisions made hours before.'
+excerpt: 'Fallout: New Vegas has four main endings — NCR, Legion, Mr. House, and Independent — and which one you get depends on late-game choices.'
 header:
   image: https://images.frontbuffer.net/posts/fallout-series_explainer/og.png
   overlay_filter: 0

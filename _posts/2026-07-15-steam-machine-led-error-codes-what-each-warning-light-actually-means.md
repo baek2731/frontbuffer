@@ -50,11 +50,11 @@ If a fault code appears, Valve's published recovery steps are:
 5. The LED will cycle through several colors, representing different recovery options. When it turns green, give the power button a short press to trigger a full CMOS reset.
 6. On the next boot, the RGB bar should glow blue, indicating the system is re-training memory — this can add a few extra seconds to boot time and is normal.
 
-These steps follow TechRadar's coverage of Valve's official fix.
+These steps follow the recovery procedure Valve's hardware support account posted on Reddit, as reported by [TweakTown](https://tweaktown.com/news/112530/the-dreaded-steam-machine-red-line-of-death-was-fixed-after-a-simple-cmos-reset/index.html).
 
 ### Component Seating and Upgrades
 
-The Steam Machine's memory and storage are user-replaceable, though the configuration is more limited than some initially assumed: the system uses a **single SO-DIMM DDR5 memory stick** (16GB) rather than dual memory slots, and **one M.2 NVMe SSD slot** supporting both 2230 and 2280 form factors, per the Steam Machine (2026) specification page. Because the internal layout is tight, vibrations or improper reseating during a RAM or SSD swap can trigger the specific "no RAM detected" or "SSD error" light codes described above. If either of these patterns appears after opening the case, reseating the memory stick or storage drive is the first troubleshooting step before attempting a full CMOS reset.
+The Steam Machine's memory and storage are user-replaceable, though the configuration is more limited than some initially assumed: the system ships with a **single 16GB DDR5-5600 SO-DIMM** and has a second SO-DIMM slot you can fill yourself ([TweakTown](https://tweaktown.com/news/112406/steam-machine-loses-up-to-20-percent-of-its-performance-with-its-out-of-the-box-single-16gb-ddr5-so-dimm/index.html)), plus **one M.2 NVMe SSD slot** that holds the stock 2230 drive and also fits 2260 and 2280 drives ([Club386](https://www.club386.com/?p=148778)). Because the internal layout is tight, vibrations or improper reseating during a RAM or SSD swap can trigger the specific "no RAM detected" or "SSD error" light codes described above. If either of these patterns appears after opening the case, reseating the memory stick or storage drive is the first troubleshooting step before attempting a full CMOS reset.
 
 ---
 
@@ -70,6 +70,9 @@ If the red bar appears during normal gaming rather than after a hardware change,
 
 Sources:
 
+* [TweakTown — Steam Machine "Red Line of Death" was fixed after a simple CMOS reset](https://tweaktown.com/news/112530/the-dreaded-steam-machine-red-line-of-death-was-fixed-after-a-simple-cmos-reset/index.html)
+* [TweakTown — Steam Machine ships with a single 16GB DDR5 SO-DIMM](https://tweaktown.com/news/112406/steam-machine-loses-up-to-20-percent-of-its-performance-with-its-out-of-the-box-single-16gb-ddr5-so-dimm/index.html)
+* [Club386 — Steam Machine review](https://www.club386.com/?p=148778)
 * [TheFPSReview — Valve Confirms Steam Machine Red Line of Death Fix](https://www.thefpsreview.com/2026/07/07/valve-responds-to-steam-machines-red-line-of-death-reports-telling-users-to-perform-a-cmos-reset/)
 * [GamingBolt — Steam Machine Early Adopter Reports Hardware Failure](https://gamingbolt.com/steam-machine-early-adopter-reports-hardware-failure-with-blinking-red-led)
 * [gamermarkt.com — Steam Machine Release Date, Price And Specs](https://www.gamermarkt.com/blog/steam-machine-release-date-price-specs-2026/)
