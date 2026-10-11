@@ -204,6 +204,40 @@ def check_published_sync(posts, dry_run: bool):
     return auto_fixed, manual_needed
 
 
+SITE_URL = "https://frontbuffer.net"
+
+
+def hub_key(url):
+    """허브 주소 비교용 키: 마지막 경로 조각을 소문자로, 끝의 _hub 제거.
+    (pipeline 에는 .../samsung-health-data-ecosystem_hub/ 처럼 파일명 기준 주소가 기록된 경우가 있어
+     실제 주소(.../samsung-health-data-ecosystem/)와 같은 글인지 비교하려는 용도)"""
+    seg = url.rstrip("/").split("/")[-1].lower()
+    return re.sub(r"_hub$", "", seg)
+
+
+def load_real_hub_urls(posts):
+    """_posts/ 에서 허브 글을 찾아 {hub_key: 실제 URL} 을 만든다 (permalink 우선)."""
+    urls = {}
+    for post in posts:
+        text = post.read_text(encoding="utf-8")
+        m = re.match(r"^---\s*\n(.*?)\n---", text, re.DOTALL)
+        fm = m.group(1) if m else ""
+        is_hub = (post.stem.lower().endswith("_hub")
+                  or re.search(r"^tags:.*[\"\']hub[\"\']", fm, re.M | re.I))
+        if not is_hub:
+            continue
+        pm = re.search(r"^permalink:\s*[\'\"]?([^\'\"\n]+?)[\'\"]?\s*$", fm, re.M)
+        if pm:
+            path = pm.group(1).strip()
+        else:
+            cm = re.search(r"^categories:\s*\[(.+?)\]", fm, re.M)
+            cat = cm.group(1).split(",")[0].strip().strip("\"'") if cm else "tech"
+            path = f"/{cat}/{post.stem[11:].rstrip('-')}/"
+        url = SITE_URL + (path if path.endswith("/") else path + "/")
+        urls[hub_key(url)] = url
+    return urls
+
+
 def inject_backlinks(posts, pipeline, dry_run: bool):
     """HUB가 발행된 클러스터의 스포크 글에 HUB 역방향 링크 소급 주입.
 
@@ -215,16 +249,20 @@ def inject_backlinks(posts, pipeline, dry_run: bool):
     auto_fixed = []
     hub_clusters = pipeline.get("hub_clusters", {})
     published    = pipeline.get("published", [])
+    real_urls    = load_real_hub_urls(posts)
 
-    for hub_key, hub_info in hub_clusters.items():
+    for hub_key_name, hub_info in hub_clusters.items():
         hub_url    = hub_info.get("hub_url", "")
-        hub_kw     = hub_info.get("hub_keyword", hub_key)
+        hub_kw     = hub_info.get("hub_keyword", hub_key_name)
         if not hub_url or hub_url == "PENDING" or not hub_url.startswith("http"):
             continue
+        # pipeline 에 적힌 주소가 파일명 기준(_hub)이면 실제 발행 주소로 바꾼다
+        hub_url  = real_urls.get(hub_key(hub_url), hub_url)
+        hub_slug = hub_key(hub_url)
 
         # 이 HUB에 속한 스포크 발행 목록
         spokes = [p for p in published
-                  if p.get("hub_cluster") == hub_key
+                  if p.get("hub_cluster") == hub_key_name
                   and p.get("content_type", "").upper() != "HUB"]
 
         for spoke in spokes:
@@ -233,10 +271,12 @@ def inject_backlinks(posts, pipeline, dry_run: bool):
                 continue
 
             # _posts/에서 해당 스포크 파일 찾기 (URL 슬러그 매칭)
-            slug_part = spoke_url.rstrip("/").split("/")[-1]
+            # 파일명(날짜 제외)과 URL 슬러그가 같은 글만 대상 — 예전의 부분 문자열 매칭은
+            # 엉뚱한 글에 푸터를 붙일 수 있었다
+            slug_part = spoke_url.rstrip("/").split("/")[-1].strip("-")
             matched_post = None
             for post in posts:
-                if slug_part and slug_part in post.stem:
+                if slug_part and post.stem[11:].strip("-") == slug_part:
                     matched_post = post
                     break
 
@@ -245,8 +285,10 @@ def inject_backlinks(posts, pipeline, dry_run: bool):
 
             content = matched_post.read_text(encoding="utf-8")
 
-            # 이미 HUB 링크가 있으면 스킵
-            if hub_url in content:
+            # 이미 허브 링크(어떤 형태든)나 같은 푸터가 있으면 스킵 → 중복 푸터 방지
+            if hub_url in content or "Want the full picture?" in content:
+                continue
+            if re.search(r"\]\([^)]*" + re.escape(hub_slug) + r"(?:_hub)?/?\)", content, re.I):
                 continue
 
             # 본문 끝에 HUB 링크 추가
@@ -264,7 +306,7 @@ def inject_backlinks(posts, pipeline, dry_run: bool):
                     pub_copy.write_text(content + hub_link_block, encoding="utf-8")
 
             auto_fixed.append(
-                f"{matched_post.name} → HUB 역방향 링크 추가 [{hub_key}]({hub_url})"
+                f"{matched_post.name} → HUB 역방향 링크 추가 [{hub_key_name}]({hub_url})"
             )
 
     return auto_fixed
