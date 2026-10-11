@@ -37,16 +37,25 @@ POSTS_FILE    = "posts.json"
 
 # ── Gemini 간단 호출 (SEO 디스크립션 생성용) ──────────────────────
 def call_gemini_simple(prompt_text, max_tokens=200):
-    """단순 텍스트 생성용 Gemini 호출"""
+    """단순 텍스트 생성용 Gemini 호출.
+
+    gemini-2.5 계열은 답변 전에 '생각' 토큰을 쓰고, 그 토큰도 maxOutputTokens 에 포함된다.
+    예전처럼 200 으로 제한하면 생각만 하다 끝나 본문이 비어 돌아오는 일이 생긴다
+    (그러면 excerpt 가 본문 첫 문장 대체본으로 들어감). 그래서 출력 한도를 넉넉히 주고,
+    flash 계열은 생각을 끈다(thinkingBudget 0)."""
     api_key = os.environ.get("GEMINI_API_KEY", "")
     if not api_key:
+        print("  ⚠️ GEMINI_API_KEY 없음 — Gemini 호출 생략")
         return None
     model = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
     url = (f"https://generativelanguage.googleapis.com/v1beta/models/"
            f"{model}:generateContent?key={api_key}")
+    gen_cfg = {"temperature": 0.3, "maxOutputTokens": max(max_tokens, 1024)}
+    if "2.5" in model and "pro" not in model:
+        gen_cfg["thinkingConfig"] = {"thinkingBudget": 0}
     payload = json.dumps({
         "contents": [{"parts": [{"text": prompt_text}]}],
-        "generationConfig": {"temperature": 0.3, "maxOutputTokens": max_tokens}
+        "generationConfig": gen_cfg
     }).encode("utf-8")
     try:
         req = urllib.request.Request(
@@ -55,12 +64,21 @@ def call_gemini_simple(prompt_text, max_tokens=200):
         )
         with urllib.request.urlopen(req, timeout=30) as resp:
             data = json.loads(resp.read())
-            parts = (data.get("candidates", [{}])[0]
-                        .get("content", {})
-                        .get("parts", [{}]))
-            return "".join(p.get("text", "") for p in parts).strip()
+            cand = (data.get("candidates") or [{}])[0]
+            parts = cand.get("content", {}).get("parts", [{}])
+            text = "".join(p.get("text", "") for p in parts).strip()
+            if not text:
+                usage = data.get("usageMetadata", {})
+                print(f"  ⚠️ Gemini 응답이 비어 있음 (finishReason={cand.get('finishReason')}, "
+                      f"thoughts={usage.get('thoughtsTokenCount')}, model={model})")
+            return text
     except Exception as e:
-        print(f"  ⚠️ Gemini 호출 실패: {e}")
+        body = ""
+        try:
+            body = e.read().decode("utf-8", "replace")[:300]   # HTTPError 본문
+        except Exception:
+            pass
+        print(f"  ⚠️ Gemini 호출 실패: {e} {body}")
         return None
 # ────────────────────────────────────────────────────────────────
 
@@ -122,19 +140,46 @@ def cut_at_word(text, limit):
     return text[:limit].rsplit(" ", 1)[0].rstrip(" ,;:-—")
 
 
+_TRAIL = {"and", "or", "the", "a", "an", "of", "to", "in", "on", "for", "with", "by", "from",
+          "as", "at", "that", "which", "is", "are", "was", "were", "when", "where", "how",
+          "what", "why", "whether", "than", "then", "but", "if", "because", "while",
+          "although", "between", "including", "into", "about", "your", "you", "it", "its",
+          "this", "these", "those", "also"}
+
+
+def _cut_clause(text, limit):
+    """한 문장이 limit 보다 길 때: 쉼표/대시 경계 → 단어 경계 순으로 자르고 마침표로 끝낸다."""
+    if len(text) <= limit:
+        return text
+    head = text[:limit]
+    best = max(head.rfind(", "), head.rfind(" — "), head.rfind(" - "), head.rfind("; "))
+    out = head[:best] if best >= max(25, int(len(head) * 0.5)) else head.rsplit(" ", 1)[0]
+    words = out.split()
+    while words and words[-1].lower().strip(",.;:") in _TRAIL:
+        words.pop()
+    return " ".join(words).rstrip(" ,;:-—") + "."
+
+
 def fallback_excerpt(body_lines, limit=155):
-    """Gemini 없이 만드는 excerpt: 문장 단위로 limit 이내까지."""
-    text = clean_excerpt(" ".join(body_lines[:4]))
-    out = ""
-    for s in re.split(r"(?<=[.!?])\s+", text):
-        cand = (out + " " + s).strip()
+    """Gemini 없이 만드는 excerpt: 문장 단위로 limit 이내까지, 짧으면 다음 문장 앞부분을 이어 붙임."""
+    text = clean_excerpt(" ".join(body_lines[:6]))
+    sents = re.split(r"(?<=[.!?])\s+", text)
+    out, used = "", 0
+    for sent in sents:
+        cand = (out + " " + sent).strip()
         if len(cand) <= limit:
-            out = cand
+            out, used = cand, used + 1
         else:
             break
-    if len(out) >= 50:
+    if len(out) < 125 and used < len(sents):
+        room = limit - len(out) - 1
+        if room >= 35:
+            part = _cut_clause(sents[used], room)
+            if len(part) >= 30:
+                out = (out + " " + part).strip()
+    if len(out) >= 60:
         return out
-    return cut_at_word(text, limit - 1) + "…"
+    return _cut_clause(text, limit)
 
 
 def make_tags(target_ct, target_slug, title):
@@ -541,9 +586,7 @@ def prepare_post(target, target_slug, target_ct, pipeline, force=False):
     # ── excerpt (Gemini → 실패 시 문장 단위 폴백) ──────────────────
     body_lines = [l for l in content.splitlines()
                   if l.strip()
-                  and not l.startswith("#")
-                  and not l.startswith("---")
-                  and not l.startswith("[SOURCES")]
+                  and not l.startswith(("#", "---", "[SOURCES", "*", "|", "-", ">", "{%", "1."))]
     excerpt = ""
     try:
         body_preview = " ".join(body_lines)[:1500]

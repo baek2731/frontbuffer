@@ -2,7 +2,7 @@
 # =====================================================================
 # ✍️ excerpt 수동 보정 (fix_excerpts_manual.py)
 # =====================================================================
-# fix_excerpts.py 로 자동 정리한 뒤에도 문장 끝이 어색한 글 10개를
+# fix_excerpts.py 로 자동 정리한 뒤에도 문장 끝이 어색한 글(12개)을
 # 직접 쓴 문장으로 교체한다. 해당 글의 excerpt 줄만 바뀐다.
 #
 # 사용법 (저장소 루트에서):
@@ -37,6 +37,10 @@ FIXES = {
         "The Pixel 11 Pro ships with Android 17 and Tensor G6. Here is what to set up first, including Video Boost, Pro Controls, and Night Sight Video.",
     "2026-09-25-steam-frame-vs-steam-deck-performance-price-and-portability-.md":
         "Valve now has two portable devices: the Steam Deck handheld and the Steam Frame VR headset. Both run SteamOS but serve very different uses.",
+    "2026-10-10-gemini-in-android-auto-what-it-does-and-how-to-turn-it-on.md":
+        "Gemini has replaced Google Assistant in Android Auto. Google began a global rollout on November 20, 2025, in 45 languages. Here is how to turn it on.",
+    "2026-10-10-steam-deck-not-charging-or-slow-charger-warning-how-to-fix.md":
+        "A \"Slow Charger\" warning or a battery that won't charge usually points to the charger, cable, or dock, not the battery. Check them in this order.",
 }
 
 

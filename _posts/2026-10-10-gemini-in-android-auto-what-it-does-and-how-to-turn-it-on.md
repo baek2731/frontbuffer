@@ -4,7 +4,7 @@ title: 'Gemini in Android Auto: What It Does and How to Turn It On'
 date: 2026-10-10 14:57:00 +0000
 categories: [tech]
 tags: ["explainer", "android", "auto"]
-excerpt: 'Gemini has replaced Google Assistant in Android Auto.'
+excerpt: 'Gemini has replaced Google Assistant in Android Auto. Google began a global rollout on November 20, 2025, in 45 languages. Here is how to turn it on.'
 header:
   image: https://images.frontbuffer.net/posts/gemini-in-android-auto-what-it-does-and-how-to-turn-it-on/og.png
   overlay_filter: 0
