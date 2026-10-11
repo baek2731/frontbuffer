@@ -1,4 +1,4 @@
-Wireless Android Auto drops its connection for a handful of consistent reasons: stale cache data, revoked permissions after a system
+Wireless Android Auto keeps dropping? Work through restarts, cache, permissions, battery settings, and adapter resets in this order to fix…
 
 https://frontbuffer.net/tech/how-to-fix-android-auto-wireless-connection-issues/
 
