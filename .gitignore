@@ -17,3 +17,10 @@ research_data/write/drafts/
 research_data/write/prompts/ 
 set_env.bat 
 set_env.bat 
+
+audit_report.txt
+site_report.txt
+git_inventory.csv
+*.bak
+__pycache__/
+*.pyc
