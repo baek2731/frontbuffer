@@ -1,7 +1,7 @@
 {
   "_version": "1.3",
   "_description": "콘텐츠 파이프라인 — 클러스터 단위 관리",
-  "_last_updated": "2026-10-12T03:21:42.774624+00:00",
+  "_last_updated": "2026-10-12T03:24:45.948725+00:00",
   "hub_clusters": {
     "Steam Machine": {
       "hub_keyword": "Steam Machine",
@@ -140,12 +140,14 @@
       "spoke_urls": {
         "Samsung Galaxy Z Fold/Flip Series (COMPARISON)": "https://frontbuffer.net/tech/samsung-galaxy-z-foldflip-series_comparison/",
         "Samsung Galaxy Z Fold/Flip Series (EXPLAINER)": "https://frontbuffer.net/tech/samsung-galaxy-z-foldflip-series_explainer/",
-        "Samsung Galaxy Z Fold/Flip Series (GUIDE)": "https://frontbuffer.net/tech/samsung-galaxy-z-foldflip-series_guide/"
+        "Samsung Galaxy Z Fold/Flip Series (GUIDE)": "https://frontbuffer.net/tech/samsung-galaxy-z-foldflip-series_guide/",
+        "Samsung Galaxy Foldables (EXPLAINER)": "pending"
       },
       "internal_links": [
         "https://frontbuffer.net/tech/samsung-galaxy-z-foldflip-series_comparison/",
         "https://frontbuffer.net/tech/samsung-galaxy-z-foldflip-series_explainer/",
-        "https://frontbuffer.net/tech/samsung-galaxy-z-foldflip-series_guide/"
+        "https://frontbuffer.net/tech/samsung-galaxy-z-foldflip-series_guide/",
+        "pending"
       ]
     },
     "Google Android Features": {
@@ -893,11 +895,11 @@
     "Samsung Galaxy Foldables": {
       "types_done": [
         "COMPARISON",
-        "GUIDE"
+        "GUIDE",
+        "EXPLAINER"
       ],
       "last_week": "2026-W41",
       "suggest_next": [
-        "EXPLAINER",
         "LISTICLE"
       ],
       "hub_keyword": "Galaxy Profitability",
@@ -5995,8 +5997,9 @@
         "data_grade": "B",
         "verified_keywords": [],
         "publish_order": 4,
-        "status": "candidate",
-        "selected_at": "2026-10-12T03:20:10.587782+00:00"
+        "status": "published",
+        "selected_at": "2026-10-12T03:20:10.587782+00:00",
+        "url": "pending"
       },
       {
         "cluster_name": "Gaming Technology & Software",
@@ -6547,6 +6550,15 @@
       "week_tag": "2026-W41",
       "published_at": "2026-10-12T03:21:42.774578+00:00",
       "hub_cluster": "Gaming Technology & Software"
+    },
+    {
+      "cluster_name": "Samsung Galaxy Foldables",
+      "title": "Understanding the Profit Dynamics of Samsung Galaxy Foldables: A Strategic Overview",
+      "url": "pending",
+      "content_type": "EXPLAINER",
+      "week_tag": "2026-W41",
+      "published_at": "2026-10-12T03:24:45.948681+00:00",
+      "hub_cluster": "Samsung Galaxy Foldables"
     }
   ]
 }
