@@ -1,7 +1,7 @@
 {
   "_version": "1.3",
   "_description": "콘텐츠 파이프라인 — 클러스터 단위 관리",
-  "_last_updated": "2026-10-12T03:57:13.835114+00:00",
+  "_last_updated": "2026-10-12T03:58:05.800904+00:00",
   "hub_clusters": {
     "Steam Machine": {
       "hub_keyword": "Steam Machine",
@@ -790,8 +790,12 @@
       "spokes": [
         "Steam Client Updates"
       ],
-      "spoke_urls": {},
-      "internal_links": []
+      "spoke_urls": {
+        "Steam Client Updates (GUIDE)": "pending"
+      },
+      "internal_links": [
+        "pending"
+      ]
     },
     "Windows 11 Gaming": {
       "hub_keyword": "Windows 11 Gaming",
@@ -2166,11 +2170,12 @@
       "notes": ""
     },
     "Steam Client Updates": {
-      "types_done": [],
+      "types_done": [
+        "GUIDE"
+      ],
       "last_week": "2026-W41",
       "suggest_next": [
         "COMPARISON",
-        "GUIDE",
         "EXPLAINER",
         "LISTICLE"
       ],
@@ -6377,8 +6382,9 @@
         "data_grade": "B",
         "verified_keywords": [],
         "publish_order": 5,
-        "status": "candidate",
-        "selected_at": "2026-10-12T03:49:23.646084+00:00"
+        "status": "published",
+        "selected_at": "2026-10-12T03:49:23.646084+00:00",
+        "url": "pending"
       },
       {
         "cluster_name": "Windows 11 Gaming Performance",
@@ -6993,6 +6999,15 @@
       "week_tag": "2026-W41",
       "published_at": "2026-10-12T03:57:13.835058+00:00",
       "hub_cluster": "Chrome Browser"
+    },
+    {
+      "cluster_name": "Steam Client Updates",
+      "title": "Steam Client Update: New Features in the Latest Stable Release and How to Enable Them",
+      "url": "pending",
+      "content_type": "GUIDE",
+      "week_tag": "2026-W41",
+      "published_at": "2026-10-12T03:58:05.800862+00:00",
+      "hub_cluster": "Steam Client"
     }
   ]
 }
