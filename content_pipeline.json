@@ -1,7 +1,7 @@
 {
   "_version": "1.3",
   "_description": "콘텐츠 파이프라인 — 클러스터 단위 관리",
-  "_last_updated": "2026-10-12T03:49:23.646481+00:00",
+  "_last_updated": "2026-10-12T03:50:27.776870+00:00",
   "hub_clusters": {
     "Steam Machine": {
       "hub_keyword": "Steam Machine",
@@ -64,12 +64,14 @@
       "spoke_urls": {
         "Google Chrome Manifest V2 Migration (GUIDE)": "https://frontbuffer.net/tech/how-to-check-if-chrome-extensions-use-manifest-v2/",
         "Google Chrome Manifest V2 Migration (LISTICLE)": "https://frontbuffer.net/tech/best-manifest-v3-alternatives-for-older-chrome-extensions/",
-        "Google Chrome Manifest V2 Migration (EXPLAINER)": "https://frontbuffer.net/tech/what-is-chrome-manifest-v3-and-why-extensions-break/"
+        "Google Chrome Manifest V2 Migration (EXPLAINER)": "https://frontbuffer.net/tech/what-is-chrome-manifest-v3-and-why-extensions-break/",
+        "Chrome Extension Alternatives (GUIDE)": "pending"
       },
       "internal_links": [
         "https://frontbuffer.net/tech/how-to-check-if-chrome-extensions-use-manifest-v2/",
         "https://frontbuffer.net/tech/best-manifest-v3-alternatives-for-older-chrome-extensions/",
-        "https://frontbuffer.net/tech/what-is-chrome-manifest-v3-and-why-extensions-break/"
+        "https://frontbuffer.net/tech/what-is-chrome-manifest-v3-and-why-extensions-break/",
+        "pending"
       ]
     },
     "Fallout Series": {
@@ -2060,11 +2062,12 @@
       "notes": ""
     },
     "Chrome Extension Alternatives": {
-      "types_done": [],
+      "types_done": [
+        "GUIDE"
+      ],
       "last_week": "2026-W41",
       "suggest_next": [
         "COMPARISON",
-        "GUIDE",
         "EXPLAINER",
         "LISTICLE"
       ],
@@ -6251,8 +6254,9 @@
         "data_grade": "A",
         "verified_keywords": [],
         "publish_order": 1,
-        "status": "candidate",
-        "selected_at": "2026-10-12T03:49:23.646084+00:00"
+        "status": "published",
+        "selected_at": "2026-10-12T03:49:23.646084+00:00",
+        "url": "pending"
       },
       {
         "cluster_name": "Google Pixel Software Updates",
@@ -6923,6 +6927,15 @@
       "week_tag": "2026-W41",
       "published_at": "2026-10-12T03:25:58.770028+00:00",
       "hub_cluster": "Gaming Technology & Software"
+    },
+    {
+      "cluster_name": "Chrome Extension Alternatives",
+      "title": "uMatrix Replacement for Chrome After Manifest V3: What to Use Instead",
+      "url": "pending",
+      "content_type": "GUIDE",
+      "week_tag": "2026-W41",
+      "published_at": "2026-10-12T03:50:27.776825+00:00",
+      "hub_cluster": "Chrome Extensions"
     }
   ]
 }
