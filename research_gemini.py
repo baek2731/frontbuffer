@@ -65,13 +65,23 @@ def call_gemini(prompt_text):
         print("❌ GEMINI_API_KEY 환경변수가 없어요.")
         sys.exit(1)
 
-    url     = GEMINI_URL.format(api_key=GEMINI_API_KEY)
+    url = GEMINI_URL.format(api_key=GEMINI_API_KEY)
+    # gemini-2.5 계열은 답변 전에 "생각(thinking)" 토큰을 쓰고 그 토큰도 maxOutputTokens 에 포함된다.
+    # 예전 설정(8192, 생각 켜짐)에서는 생각이 출력 한도를 거의 다 써서 JSON 이 중간에서 끊겼고,
+    # 수리 로직이 첫 기획안 1개만 건졌다 (2026-W41 Step 2). 그래서
+    #  - flash 계열은 생각을 끄고(thinkingBudget 0)
+    #  - 출력 한도를 16384 로 늘리고
+    #  - JSON 모드(responseMimeType)로 문법이 깨지지 않게 한다.
+    gen_cfg = {
+        "temperature":      0.7,
+        "maxOutputTokens":  16384,
+        "responseMimeType": "application/json",
+    }
+    if "2.5" in GEMINI_MODEL and "pro" not in GEMINI_MODEL:
+        gen_cfg["thinkingConfig"] = {"thinkingBudget": 0}
     payload = {
         "contents": [{"parts": [{"text": prompt_text}]}],
-        "generationConfig": {
-            "temperature":     0.7,
-            "maxOutputTokens": 8192,
-        }
+        "generationConfig": gen_cfg,
     }
 
     for attempt in range(1, MAX_RETRIES + 1):
@@ -87,6 +97,12 @@ def call_gemini(prompt_text):
                     continue
                 parts = candidates[0].get("content", {}).get("parts", [])
                 text  = "".join(p.get("text", "") for p in parts).strip()
+                finish = candidates[0].get("finishReason")
+                usage  = data.get("usageMetadata", {})
+                print(f"  ℹ️  finishReason={finish} | 출력 {usage.get('candidatesTokenCount')}토큰"
+                      f" | 생각 {usage.get('thoughtsTokenCount', 0)}토큰")
+                if finish == "MAX_TOKENS":
+                    print("  ⚠️ 출력 한도에 걸려 응답이 중간에서 끊겼을 수 있어요 (기획안이 적게 파싱되면 이 때문)")
                 if text:
                     return text
                 print("  ⚠️ 응답 텍스트 비어있음")
