@@ -64,6 +64,7 @@ BLOCK_PATTERNS = [
     (r"판정 요약",                     "한국어 판정 메모 잔존"),
     (r"\[INTERNAL LINK:",             "미처리 내부링크 잔존"),
     (r"수정 내용 \+ 근거 URL",         "Gemini 검토 메모 잔존"),
+    (r"[가-힣]",                       "한글 포함 (검토 메모가 섞였을 가능성)"),
 ]
 
 RULE_CHECKS = [
@@ -107,6 +108,20 @@ def run_rule_checks(text: str, filepath: str = "") -> list:
         else:
             if re.search(chk["pattern"], text):
                 issues.append({"id": chk["id"], "label": chk["label"]})
+
+    # R6: 문장 중간에서 끝난 글 (출력 한도에 걸려 끊긴 경우)
+    _lines = [l.strip() for l in text.rstrip().splitlines() if l.strip()]
+    if _lines:
+        tail = _lines[-1]
+        if (not re.search(r"[.!?)\]*_`\"'\u201d]$", tail)
+                and not tail.startswith(("#", "|", "-", "*", ">", "[", "{%"))):
+            issues.append({"id": "R6", "label": "글이 문장 중간에서 끝남 (끊김)", "block": True})
+
+    # R7: 같은 줄 반복 (깨진 출력)
+    from collections import Counter as _Counter
+    _long = [l for l in _lines if len(l) > 20]
+    if _long and _Counter(_long).most_common(1)[0][1] >= 6:
+        issues.append({"id": "R7", "label": "같은 줄이 반복됨 (깨진 출력)", "block": True})
 
     # R3: 단어수 체크 — HUB는 600단어, 스포크는 800단어 기준
     is_hub     = filepath.upper().endswith("_HUB.MD")
@@ -193,7 +208,9 @@ def run_gemini_checks(excerpt: str) -> list:
     prompt = GEMINI_PROMPT_TEMPLATE.format(excerpt=excerpt)
     payload = {
         "contents": [{"parts": [{"text": prompt}]}],
-        "generationConfig": {"temperature": 0, "maxOutputTokens": 60},
+        # 2.5 flash 는 생각 토큰이 출력 한도(예전 60)를 먼저 써서 응답이 비는 일이 있었다
+        "generationConfig": {"temperature": 0, "maxOutputTokens": 256,
+                             "thinkingConfig": {"thinkingBudget": 0}},
     }
 
     try:
@@ -214,6 +231,10 @@ def run_gemini_checks(excerpt: str) -> list:
     except Exception as e:
         print(f"  ⚠️  Gemini 요청 실패: {e} — 스킵")
         return []
+
+    if not raw.strip():
+        print("  ⚠️  Gemini 응답이 비어 있음 — 이 체크는 수행되지 않았습니다 (수동 확인 필요)")
+        return [{"id": "G0", "label": "AI 서론/결론 체크 응답 없음 (수동 확인)"}]
 
     # 파싱
     label_map = {

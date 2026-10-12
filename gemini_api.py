@@ -90,18 +90,18 @@ def call_gemini_api(prompt_text):
         print("❌ GEMINI_API_KEY 환경변수가 없어요.")
         sys.exit(1)
 
-    url     = GEMINI_URL.format(api_key=GEMINI_API_KEY)
+    url = GEMINI_URL.format(api_key=GEMINI_API_KEY)
+    # gemini-2.5 계열은 답변 전에 "생각(thinking)" 토큰을 쓰고, 그 토큰도 maxOutputTokens 에 포함된다.
+    # 예전 설정(8192, 생각 켜짐)에서는 글이 중간에서 끊겼다 (2026-W41: 초안이 문장 중간에서 끝남).
+    # → flash 계열은 생각을 끄고, 출력 한도를 16384 로 늘린다.
+    gen_cfg = {"temperature": 0.7, "maxOutputTokens": 16384}
+    if "2.5" in GEMINI_MODEL and "pro" not in GEMINI_MODEL:
+        gen_cfg["thinkingConfig"] = {"thinkingBudget": 0}
     payload = {
-        "contents": [
-            {
-                "parts": [{"text": prompt_text}]
-            }
-        ],
-        "generationConfig": {
-            "temperature":     0.7,
-            "maxOutputTokens": 8192,
-        }
+        "contents": [{"parts": [{"text": prompt_text}]}],
+        "generationConfig": gen_cfg,
     }
+    call_gemini_api.last_finish = None
 
     for attempt in range(1, MAX_RETRIES + 1):
         try:
@@ -117,6 +117,11 @@ def call_gemini_api(prompt_text):
                     continue
                 parts = candidates[0].get("content", {}).get("parts", [])
                 text  = "".join(p.get("text", "") for p in parts).strip()
+                finish = candidates[0].get("finishReason")
+                call_gemini_api.last_finish = finish
+                usage = data.get("usageMetadata", {})
+                print(f"  ℹ️  finishReason={finish} | 출력 {usage.get('candidatesTokenCount')}토큰"
+                      f" | 생각 {usage.get('thoughtsTokenCount', 0)}토큰")
                 if text:
                     return text
                 print("  ⚠️ 응답 텍스트 비어있음")
@@ -154,7 +159,7 @@ def save_draft(draft_text, file_id, content_type):
     return draft_path
 
 
-def check_draft_quality(draft_text):
+def check_draft_quality(draft_text, finish=None):
     """기본 품질 체크."""
     word_count = len(draft_text.split())
     errors     = []
@@ -169,6 +174,19 @@ def check_draft_quality(draft_text):
     if nv_count > 0:
         # 경고만 출력 — Claude 검증 단계에서 해소하므로 에러 처리 안 함
         warnings.append(f"[NEEDS VERIFICATION] {nv_count}개 → Claude 검증에서 해소 예정")
+
+    # 끊긴 글 / 같은 줄 반복(깨진 출력) 감지
+    if finish == "MAX_TOKENS":
+        errors.append("출력 한도에 걸려 글이 중간에서 끊김 (finishReason=MAX_TOKENS)")
+    tail = draft_text.rstrip().splitlines()[-1].strip() if draft_text.strip() else ""
+    if tail and not re.search(r"[.!?)\]*_`\"'\u201d]$", tail) and not tail.startswith(("#", "|", "-", "*", ">")):
+        errors.append("마지막 줄이 문장 중간에서 끝남: …" + tail[-40:])
+    lines = [l.strip() for l in draft_text.splitlines() if len(l.strip()) > 20]
+    if lines:
+        from collections import Counter
+        top, cnt = Counter(lines).most_common(1)[0]
+        if cnt >= 6:
+            errors.append(f"같은 줄이 {cnt}번 반복됨 (깨진 출력)")
 
     return {"ok": len(errors) == 0, "errors": errors,
             "warnings": warnings, "word_count": word_count}
@@ -205,6 +223,14 @@ def main():
     print(f"  📄 프롬프트: {prompt_path}")
     print(f"  🔑 file_id: {file_id}")
     prompt_text = open(prompt_path, encoding="utf-8").read()
+    _today = datetime.now(timezone.utc).strftime("%B %d, %Y")
+    prompt_text = (
+        f"[CURRENT DATE: {_today}]\n"
+        "Your training data is older than this date. Do NOT rely on memory for release status, dates, versions, "
+        "prices, or whether a product/game/feature is released. State only facts that are supported by the "
+        "context provided below; otherwise mark the sentence [NEEDS VERIFICATION]. "
+        "Never write that something \"remains unreleased\" or \"is upcoming\" unless the context says so.\n\n"
+    ) + prompt_text
     print(f"  📏 프롬프트 크기: {len(prompt_text.encode())/1024:.1f} KB")
 
     # 2. Gemini API 호출 + 품질 미달 시 내부 재생성 (최대 3회)
@@ -222,7 +248,7 @@ def main():
         candidate = call_gemini_api(prompt_text)
         if not candidate:
             continue
-        q = check_draft_quality(candidate)
+        q = check_draft_quality(candidate, finish=getattr(call_gemini_api, "last_finish", None))
         print(f"  📊 단어 수: {q['word_count']}개")
         if q["ok"]:
             draft_text, quality = candidate, q
@@ -244,8 +270,11 @@ def main():
         print(f"  ❌ {e}")
 
     if not quality["ok"]:
-        print("⚠️  품질 기준 미달 — 저장은 진행 (gemini_review_api 단계에서 재생성 가능)")
-        # exit(1) 제거: 미달이어도 review 단계에서 보강 가능하므로 루프 계속
+        # 예전에는 미달이어도 저장하고 review 로 넘겼는데, 끊긴 초안은 review 에서도 고쳐지지 않고
+        # 그대로 final/ 까지 갔다. 이제는 저장하지 않고 실패로 끝내서 Step 3 가 다시 시도하게 한다.
+        print("❌ 품질 기준 미달 — 초안을 저장하지 않고 종료합니다 (Step 3 가 재시도/건너뜀)")
+        if os.environ.get("ALLOW_BAD_DRAFT") != "1":
+            sys.exit(1)
 
     # 4. 초안 저장 — file_id 사용 (write.py와 파일명 일치)
     draft_path = save_draft(draft_text, file_id, content_type)

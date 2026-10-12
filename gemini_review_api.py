@@ -84,9 +84,20 @@ def find_review_prompt(cluster_name, content_type, file_id=None):
     return None
 
 
+def is_degenerate(text, limit=6):
+    """같은 (긴) 줄이 limit 번 이상 반복되면 깨진 출력으로 본다."""
+    from collections import Counter
+    lines = [l.strip() for l in text.splitlines() if len(l.strip()) > 20]
+    if not lines:
+        return False
+    return Counter(lines).most_common(1)[0][1] >= limit
+
+
 def extract_final_markdown(response_text):
+    """응답에서 최종 글(H1 로 시작하는 마크다운)만 추출. 못 찾으면 빈 문자열.
+    (예전에는 못 찾으면 응답 전체를 돌려줘서 한국어 검토 메모가 그대로 final/ 에 저장됐다)"""
     match = re.search(r"```markdown\s*(.*?)```", response_text, re.DOTALL)
-    if match:
+    if match and re.search(r"^# .+", match.group(1), re.MULTILINE):
         return match.group(1).strip()
     match = re.search(r"```\s*(#.+?)```", response_text, re.DOTALL)
     if match:
@@ -94,7 +105,26 @@ def extract_final_markdown(response_text):
     h1_match = re.search(r"(^# .+)", response_text, re.MULTILINE)
     if h1_match:
         return response_text[h1_match.start():].strip()
-    return response_text.strip()
+    return ""
+
+
+def validate_final(text):
+    """저장 전 최종본 검증. 문제 목록 반환 (비어 있으면 통과)."""
+    problems = []
+    if not text:
+        return ["최종본(H1 로 시작하는 글)을 응답에서 찾지 못함"]
+    if not text.lstrip().startswith("# "):
+        problems.append("H1 으로 시작하지 않음")
+    if re.search(r"[가-힣]", text):
+        problems.append("한글 포함 (검토 메모가 섞였을 가능성)")
+    if re.search(r"판정 요약|근거 URL|수정 내용", text):
+        problems.append("검토 메모 문구 잔존")
+    if is_degenerate(text):
+        problems.append("같은 줄 반복 (깨진 출력)")
+    tail = text.rstrip().splitlines()[-1].strip()
+    if tail and not re.search(r"[.!?)\]*_`\"'\u201d]$", tail) and not tail.startswith(("#", "|", "-", "*", ">")):
+        problems.append("마지막 줄이 문장 중간에서 끝남: …" + tail[-40:])
+    return problems
 
 
 def call_gemini_api(prompt_text):
@@ -111,9 +141,12 @@ def call_gemini_api(prompt_text):
         "tools": [{"google_search": {}}],
         "generationConfig": {
             "temperature":     0.3,   # 팩트체크는 낮은 온도로
-            "maxOutputTokens": 8192,
+            "maxOutputTokens": 16384,
         }
     }
+    # 2.5 flash: 생각 토큰도 출력 한도에 포함됨 → 생각을 1024 로 제한 (끄면 검증 품질이 떨어질 수 있음)
+    if "2.5" in GEMINI_MODEL and "pro" not in GEMINI_MODEL:
+        payload["generationConfig"]["thinkingConfig"] = {"thinkingBudget": 1024}
 
     grounding_on = True
     for attempt in range(1, MAX_RETRIES + 1):
@@ -131,6 +164,17 @@ def call_gemini_api(prompt_text):
                 cand  = candidates[0]
                 parts = cand.get("content", {}).get("parts", [])
                 text  = "".join(p.get("text", "") for p in parts).strip()
+                finish = cand.get("finishReason")
+                usage  = data.get("usageMetadata", {})
+                print(f"  ℹ️  finishReason={finish} | 출력 {usage.get('candidatesTokenCount')}토큰"
+                      f" | 생각 {usage.get('thoughtsTokenCount', 0)}토큰")
+                if text and is_degenerate(text):
+                    # 같은 줄을 계속 반복하다 한도를 다 쓴 경우 (2026-W41: 같은 URL 줄 수십 번 반복)
+                    print("  ⚠️ 같은 줄이 반복되는 깨진 출력 감지 — 재시도 (그라운딩 제거, 온도 상향)")
+                    payload.pop("tools", None)
+                    grounding_on = False
+                    payload["generationConfig"]["temperature"] = 0.6
+                    continue
                 if text:
                     # 그라운딩 실제 수행 여부 로그
                     gm = cand.get("groundingMetadata", {})
@@ -233,9 +277,11 @@ def rewrite_intro_conclusion(final_text, cluster_name):
         "contents": [{"parts": [{"text": prompt}]}],
         "generationConfig": {
             "temperature":     0.4,
-            "maxOutputTokens": 8192,
+            "maxOutputTokens": 16384,
         }
     }
+    if "2.5" in GEMINI_MODEL and "pro" not in GEMINI_MODEL:
+        payload["generationConfig"]["thinkingConfig"] = {"thinkingBudget": 0}
     url = GEMINI_URL.format(api_key=GEMINI_API_KEY)
 
     print(f"  ✍️  서론/결론 보일러플레이트 재검토 중...")
@@ -264,10 +310,17 @@ def rewrite_intro_conclusion(final_text, cluster_name):
             return final_text, "no_change"
         elif "[REWRITTEN:" in tag_line:
             what = tag_line.replace("[REWRITTEN:", "").replace("]", "").strip()
+            # 재작성본이 원문보다 확연히 짧으면(중간에서 끊김) 버리고 원문 유지
+            if len(article.split()) < 0.85 * len(final_text.split()) or validate_final(article):
+                print("  ⚠️  재작성본이 짧거나 이상함 — 원문 유지")
+                return final_text, "rejected_rewrite"
             print(f"  🔧 보일러플레이트 감지 → 재작성 완료 ({what})")
             return article, f"rewritten:{what}"
         else:
-            # 태그 없이 본문만 온 경우 — 변경된 것으로 간주
+            # 태그 없이 본문만 온 경우 — 검증 통과할 때만 채택
+            if len(raw.split()) < 0.85 * len(final_text.split()) or validate_final(raw):
+                print("  ⚠️  재작성본(태그 없음)이 짧거나 이상함 — 원문 유지")
+                return final_text, "rejected_rewrite"
             print(f"  🔧 재작성 완료 (태그 없음)")
             return raw, "rewritten"
 
@@ -339,7 +392,18 @@ def main():
 
     # 3. 최종본 추출
     final_text = extract_final_markdown(response_text)
-    print(f"  📝 최종본 추출 완료 ({len(final_text.split())}단어)")
+    print(f"  📝 최종본 추출 ({len(final_text.split())}단어)")
+    _bad = validate_final(final_text)
+    if _bad:
+        # 깨진 응답은 final/ 에 넣지 않는다. 판정 리포트만 남기고 실패로 종료 → Step 3 가 재시도/건너뜀
+        _dbg = os.path.join(WRITE_DIR, "review_failed")
+        os.makedirs(_dbg, exist_ok=True)
+        with open(os.path.join(_dbg, f"review_failed_{file_id}.txt"), "w", encoding="utf-8") as _f:
+            _f.write(response_text)
+        print("❌ 최종본 검증 실패 — final/ 에 저장하지 않습니다:")
+        for _p in _bad:
+            print(f"   · {_p}")
+        sys.exit(1)
 
     # 4. 서론/결론 보일러플레이트 재검토 + 재작성
     final_text, rewrite_status = rewrite_intro_conclusion(final_text, cluster_name)
@@ -352,6 +416,13 @@ def main():
         print(f"  ⚠️  {w}")
     for e in quality["errors"]:
         print(f"  ❌ {e}")
+
+    _bad2 = validate_final(final_text)
+    if _bad2:
+        print("❌ 재작성 후 검증 실패 — final/ 에 저장하지 않습니다:")
+        for _p in _bad2:
+            print(f"   · {_p}")
+        sys.exit(1)
 
     if not quality["ok"]:
         print("⚠️  품질 경고 있음 — 저장은 진행 (수동 확인 필요)")
