@@ -1,7 +1,25 @@
 {
   "week_tag": "2026-W41",
   "week_dir": "research_data/trends/2026-W41",
-  "clusters": [],
+  "clusters": [
+    {
+      "cluster_name": "Google Pixel Ecosystem",
+      "slug": "google-pixel-ecosystem",
+      "folder": null,
+      "trends_pattern": "UNKNOWN",
+      "trends_stats": {},
+      "trends_keyword": "",
+      "rising_queries": [],
+      "verified_keywords": [],
+      "grade": "C",
+      "warnings": [],
+      "grade_reasons": [
+        "Trends ❌ 시계열 데이터 없음 또는 UNKNOWN",
+        "KP ❌ 클러스터 관련 키워드 없음",
+        "→ Grade C: 검증 데이터 없음 — 발행 보류 권장"
+      ]
+    }
+  ],
   "kp_parsed": 516,
   "kp_error": null,
   "unassigned_keywords": [
@@ -21,5 +39,5 @@
     "lego falcon",
     "lego 75341"
   ],
-  "updated": false
+  "updated": true
 }

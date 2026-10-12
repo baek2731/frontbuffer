@@ -2,25 +2,111 @@
   {
     "cluster_name": "Google Pixel Ecosystem",
     "content_type": "GUIDE",
-    "suggested_title": "Pixel Watch AI Watch Face Customization and Compatibility Guide",
+    "suggested_title": "How to Use Google Pixel Watch AI Watch Face Customization",
     "hub_keyword": "Pixel Watch",
     "parent_hub": "Google Pixel Ecosystem",
     "spoke_keywords": [
-      "pixel watch ai watch face",
-      "customize pixel watch face",
-      "pixel watch 4 features"
+      "Pixel Watch AI watch face features",
+      "customize Pixel Watch faces"
     ],
-    "evergreen_score": 88,
+    "evergreen_score": 85,
     "competition_level": "LOW",
     "affiliate_potential": "LOW",
     "timing": "NOW",
     "verifiability": "HIGH",
     "trends_queries": [
-      "pixel watch ai faces",
-      "customize pixel watch face",
-      "pixel watch 4 features"
+      "Pixel Watch AI watch face",
+      "Pixel Watch customization guide"
     ],
-    "reasoning": "AI watch faces are a new, likely persistent feature for Pixel Watches. A guide on customization and compatibility across models is evergreen and verifiable from official documentation.",
+    "reasoning": "This topic is evergreen as watch face customization is a core feature. It's verifiable through official Google documentation and allows for a practical guide.",
+    "data_grade": "A"
+  },
+  {
+    "cluster_name": "Samsung Galaxy Foldables",
+    "content_type": "EXPLAINER",
+    "suggested_title": "Why Galaxy Phones Yield No Profit: Samsung Business Model Explained",
+    "hub_keyword": "Galaxy Profitability",
+    "parent_hub": "Samsung Galaxy Foldables",
+    "spoke_keywords": [
+      "Galaxy phone no profit explained",
+      "Samsung Galaxy profitability issues"
+    ],
+    "evergreen_score": 75,
+    "competition_level": "LOW",
+    "affiliate_potential": "LOW",
+    "timing": "NOW",
+    "verifiability": "MEDIUM",
+    "trends_queries": [
+      "Galaxy phone profit margin",
+      "Samsung phone business strategy"
+    ],
+    "reasoning": "Explaining business models and economic factors is evergreen, as it delves into the 'why' behind product strategies. Information can be sourced from financial reports and tech analyses.",
+    "data_grade": "B"
+  },
+  {
+    "cluster_name": "Gaming Technology & Software",
+    "content_type": "EXPLAINER",
+    "suggested_title": "What is Arc Raiders AI Anti-Cheat Stack and How Does It Work",
+    "hub_keyword": "Arc Raiders Anti-Cheat",
+    "parent_hub": "Gaming Technology & Software",
+    "spoke_keywords": [
+      "Arc Raiders anti-cheat technology",
+      "AI anti-cheat explanation"
+    ],
+    "evergreen_score": 80,
+    "competition_level": "LOW",
+    "affiliate_potential": "LOW",
+    "timing": "NOW",
+    "verifiability": "MEDIUM",
+    "trends_queries": [
+      "Arc Raiders anti-cheat AI",
+      "game AI anti-cheat explained"
+    ],
+    "reasoning": "Explaining underlying game technologies like anti-cheat systems is evergreen. Details can be verified from developer announcements and interviews, offering an informative explainer.",
+    "data_grade": "B"
+  },
+  {
+    "cluster_name": "Gaming Technology & Software",
+    "content_type": "GUIDE",
+    "suggested_title": "How to Get Planks and Sheet Metal in Arc Raiders for Crafting",
+    "hub_keyword": "Arc Raiders Crafting",
+    "parent_hub": "Gaming Technology & Software",
+    "spoke_keywords": [
+      "Arc Raiders planks location",
+      "Arc Raiders sheet metal guide"
+    ],
+    "evergreen_score": 85,
+    "competition_level": "MEDIUM",
+    "affiliate_potential": "LOW",
+    "timing": "NOW",
+    "verifiability": "MEDIUM",
+    "trends_queries": [
+      "Arc Raiders crafting materials",
+      "Arc Raiders resources guide"
+    ],
+    "reasoning": "Resource gathering guides for released games are evergreen and highly searchable. Information can be pieced together from publicly available game wikis and community discussions.",
+    "data_grade": "A"
+  },
+  {
+    "cluster_name": "Google Android Ecosystem",
+    "content_type": "GUIDE",
+    "suggested_title": "How to Fix Android Auto Auto-Playing Music Issues After Update",
+    "hub_keyword": "Android Auto Troubleshooting",
+    "parent_hub": "Google Android Ecosystem",
+    "spoke_keywords": [
+      "Android Auto music auto-play fix",
+      "Android Auto audio issues"
+    ],
+    "evergreen_score": 90,
+    "competition_level": "MEDIUM",
+    "affiliate_potential": "LOW",
+    "timing": "NOW",
+    "verifiability": "HIGH",
+    "trends_queries": [
+      "Android Auto auto play music",
+      "Android Auto audio fix"
+    ],
+    "reasoning": "Troubleshooting common software bugs like auto-playing music is evergreen for a widely used feature like Android Auto. Fixes are often documented by Google or tech communities.",
     "data_grade": "A"
   }
 ]

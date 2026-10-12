@@ -1,7 +1,7 @@
 {
   "_version": "1.3",
   "_description": "콘텐츠 파이프라인 — 클러스터 단위 관리",
-  "_last_updated": "2026-10-12T01:49:12.686278+00:00",
+  "_last_updated": "2026-10-12T03:20:10.587922+00:00",
   "hub_clusters": {
     "Steam Machine": {
       "hub_keyword": "Steam Machine",
@@ -712,6 +712,17 @@
       "internal_links": [
         "pending"
       ]
+    },
+    "Gaming Technology & Software": {
+      "hub_keyword": "Gaming Technology & Software",
+      "hub_status": "PENDING",
+      "hub_title": "",
+      "hub_url": "",
+      "spokes": [
+        "Gaming Technology & Software"
+      ],
+      "spoke_urls": {},
+      "internal_links": []
     }
   },
   "covered_clusters": {
@@ -880,13 +891,13 @@
         "COMPARISON",
         "GUIDE"
       ],
-      "last_week": "2026-W32",
+      "last_week": "2026-W41",
       "suggest_next": [
         "EXPLAINER",
         "LISTICLE"
       ],
-      "hub_keyword": "Galaxy Z Fold",
-      "parent_hub": "Galaxy Fold",
+      "hub_keyword": "Galaxy Profitability",
+      "parent_hub": "Samsung Galaxy Foldables",
       "spoke_keywords": [
         "galaxy z fold 8 hinge design",
         "galaxy z fold 7 hinge durability",
@@ -1211,12 +1222,12 @@
         "EXPLAINER",
         "COMPARISON"
       ],
-      "last_week": "2026-W32",
+      "last_week": "2026-W41",
       "suggest_next": [
         "GUIDE",
         "LISTICLE"
       ],
-      "hub_keyword": "Pixel Launcher",
+      "hub_keyword": "Android Auto Troubleshooting",
       "parent_hub": "Google Android Ecosystem",
       "spoke_keywords": [
         "android auto whatsapp messages guide",
@@ -1225,7 +1236,7 @@
       ],
       "competition_level": "LOW",
       "affiliate_potential": "LOW",
-      "trends_pattern": "RISING",
+      "trends_pattern": "UNKNOWN",
       "trends_keyword": "",
       "notes": ""
     },
@@ -1958,6 +1969,27 @@
       ],
       "competition_level": "LOW",
       "affiliate_potential": "HIGH",
+      "trends_pattern": "UNKNOWN",
+      "trends_keyword": "",
+      "notes": ""
+    },
+    "Gaming Technology & Software": {
+      "types_done": [],
+      "last_week": "2026-W41",
+      "suggest_next": [
+        "COMPARISON",
+        "GUIDE",
+        "EXPLAINER",
+        "LISTICLE"
+      ],
+      "hub_keyword": "Arc Raiders Anti-Cheat",
+      "parent_hub": "Gaming Technology & Software",
+      "spoke_keywords": [
+        "Arc Raiders planks location",
+        "Arc Raiders sheet metal guide"
+      ],
+      "competition_level": "MEDIUM",
+      "affiliate_potential": "LOW",
       "trends_pattern": "UNKNOWN",
       "trends_keyword": "",
       "notes": ""
@@ -5878,12 +5910,112 @@
         "trends_keyword": "",
         "trends_opportunities": [],
         "verifiability": "HIGH",
-        "data_grade": "A",
+        "data_grade": "C",
         "verified_keywords": [],
         "publish_order": 1,
         "status": "published",
         "selected_at": "2026-10-12T01:47:57.560929+00:00",
         "url": "pending"
+      },
+      {
+        "cluster_name": "Gaming Technology & Software",
+        "content_type": "GUIDE",
+        "suggested_title": "How to Get Planks and Sheet Metal in Arc Raiders for Crafting",
+        "hub_keyword": "Arc Raiders Crafting",
+        "hub_keyword_raw": "Arc Raiders Crafting",
+        "parent_hub": "Gaming Technology & Software",
+        "folder": "",
+        "spoke_keywords": [
+          "Arc Raiders planks location",
+          "Arc Raiders sheet metal guide"
+        ],
+        "competition_level": "MEDIUM",
+        "timing": "NOW",
+        "affiliate_potential": "LOW",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "MEDIUM",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "publish_order": 2,
+        "status": "candidate",
+        "selected_at": "2026-10-12T03:20:10.587782+00:00"
+      },
+      {
+        "cluster_name": "Google Android Ecosystem",
+        "content_type": "GUIDE",
+        "suggested_title": "How to Fix Android Auto Auto-Playing Music Issues After Update",
+        "hub_keyword": "Android Auto Troubleshooting",
+        "hub_keyword_raw": "Android Auto Troubleshooting",
+        "parent_hub": "Google Android Ecosystem",
+        "folder": "07-rolling-android",
+        "spoke_keywords": [
+          "Android Auto music auto-play fix",
+          "Android Auto audio issues"
+        ],
+        "competition_level": "MEDIUM",
+        "timing": "NOW",
+        "affiliate_potential": "LOW",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "publish_order": 3,
+        "status": "candidate",
+        "selected_at": "2026-10-12T03:20:10.587782+00:00"
+      },
+      {
+        "cluster_name": "Samsung Galaxy Foldables",
+        "content_type": "EXPLAINER",
+        "suggested_title": "Why Galaxy Phones Yield No Profit: Samsung Business Model Explained",
+        "hub_keyword": "Galaxy Profitability",
+        "hub_keyword_raw": "Galaxy Profitability",
+        "parent_hub": "Samsung Galaxy Foldables",
+        "folder": "",
+        "spoke_keywords": [
+          "Galaxy phone no profit explained",
+          "Samsung Galaxy profitability issues"
+        ],
+        "competition_level": "LOW",
+        "timing": "NOW",
+        "affiliate_potential": "LOW",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "MEDIUM",
+        "data_grade": "B",
+        "verified_keywords": [],
+        "publish_order": 4,
+        "status": "candidate",
+        "selected_at": "2026-10-12T03:20:10.587782+00:00"
+      },
+      {
+        "cluster_name": "Gaming Technology & Software",
+        "content_type": "EXPLAINER",
+        "suggested_title": "What is Arc Raiders AI Anti-Cheat Stack and How Does It Work",
+        "hub_keyword": "Arc Raiders Anti-Cheat",
+        "hub_keyword_raw": "Arc Raiders Anti-Cheat",
+        "parent_hub": "Gaming Technology & Software",
+        "folder": "",
+        "spoke_keywords": [
+          "Arc Raiders anti-cheat technology",
+          "AI anti-cheat explanation"
+        ],
+        "competition_level": "LOW",
+        "timing": "NOW",
+        "affiliate_potential": "LOW",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "MEDIUM",
+        "data_grade": "B",
+        "verified_keywords": [],
+        "publish_order": 5,
+        "status": "candidate",
+        "selected_at": "2026-10-12T03:20:10.587782+00:00"
       }
     ]
   },
