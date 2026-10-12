@@ -1,7 +1,7 @@
 {
   "_version": "1.3",
   "_description": "콘텐츠 파이프라인 — 클러스터 단위 관리",
-  "_last_updated": "2026-10-12T03:53:00.413762+00:00",
+  "_last_updated": "2026-10-12T03:53:42.513145+00:00",
   "hub_clusters": {
     "Steam Machine": {
       "hub_keyword": "Steam Machine",
@@ -760,8 +760,12 @@
       "spokes": [
         "Samsung One UI Updates"
       ],
-      "spoke_urls": {},
-      "internal_links": []
+      "spoke_urls": {
+        "Samsung One UI Updates (EXPLAINER)": "pending"
+      },
+      "internal_links": [
+        "pending"
+      ]
     },
     "Chrome Browser": {
       "hub_keyword": "Chrome Browser",
@@ -2113,12 +2117,13 @@
       "notes": ""
     },
     "Samsung One UI Updates": {
-      "types_done": [],
+      "types_done": [
+        "EXPLAINER"
+      ],
       "last_week": "2026-W41",
       "suggest_next": [
         "COMPARISON",
         "GUIDE",
-        "EXPLAINER",
         "LISTICLE"
       ],
       "hub_keyword": "One UI 9",
@@ -6315,8 +6320,9 @@
         "data_grade": "B",
         "verified_keywords": [],
         "publish_order": 3,
-        "status": "candidate",
-        "selected_at": "2026-10-12T03:49:23.646084+00:00"
+        "status": "published",
+        "selected_at": "2026-10-12T03:49:23.646084+00:00",
+        "url": "pending"
       },
       {
         "cluster_name": "Chrome Browser Features",
@@ -6963,6 +6969,15 @@
       "week_tag": "2026-W41",
       "published_at": "2026-10-12T03:53:00.413717+00:00",
       "hub_cluster": "Google Pixel Software"
+    },
+    {
+      "cluster_name": "Samsung One UI Updates",
+      "title": "Understanding Samsung's One UI Evolution: What to Expect from Future Updates",
+      "url": "pending",
+      "content_type": "EXPLAINER",
+      "week_tag": "2026-W41",
+      "published_at": "2026-10-12T03:53:42.513092+00:00",
+      "hub_cluster": "Samsung One UI"
     }
   ]
 }
