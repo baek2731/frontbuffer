@@ -18,6 +18,70 @@
         "KP ❌ 클러스터 관련 키워드 없음",
         "→ Grade C: 검증 데이터 없음 — 발행 보류 권장"
       ]
+    },
+    {
+      "cluster_name": "Gaming Technology & Software",
+      "slug": "gaming-technology-software",
+      "folder": null,
+      "trends_pattern": "UNKNOWN",
+      "trends_stats": {},
+      "trends_keyword": "",
+      "rising_queries": [],
+      "verified_keywords": [
+        {
+          "keyword": "arc raiders",
+          "monthly_searches": 5000,
+          "competition": "LOW",
+          "competition_index": 1
+        }
+      ],
+      "grade": "B",
+      "warnings": [],
+      "grade_reasons": [
+        "Trends ❌ 시계열 데이터 없음 또는 UNKNOWN",
+        "KP ✅ 매칭 1개 | 롱테일(3단어+) 0개 | LOW경쟁 1개 | 최대: 'arc raiders' 월 5,000",
+        "→ Grade B: 부분 검증 — 발행 가능하나 키워드 최적화 미완"
+      ]
+    },
+    {
+      "cluster_name": "Google Android Ecosystem",
+      "slug": "google-android-ecosystem",
+      "folder": "07-rolling-android",
+      "trends_pattern": "SPIKE",
+      "trends_stats": {
+        "avg_all": 32.8,
+        "avg_recent8": 7.6,
+        "current": 4,
+        "peak": 100,
+        "recent_ratio": 0.23
+      },
+      "trends_keyword": "rolling android",
+      "rising_queries": [],
+      "verified_keywords": [],
+      "grade": "B",
+      "warnings": [],
+      "grade_reasons": [
+        "Trends ✅ SPIKE (최근8주 8 / 전체평균 33 / 비율 0.23)",
+        "KP ❌ 클러스터 관련 키워드 없음",
+        "→ Grade B: 부분 검증 — 발행 가능하나 키워드 최적화 미완"
+      ]
+    },
+    {
+      "cluster_name": "Samsung Galaxy Foldables",
+      "slug": "samsung-galaxy-foldables",
+      "folder": null,
+      "trends_pattern": "UNKNOWN",
+      "trends_stats": {},
+      "trends_keyword": "",
+      "rising_queries": [],
+      "verified_keywords": [],
+      "grade": "C",
+      "warnings": [],
+      "grade_reasons": [
+        "Trends ❌ 시계열 데이터 없음 또는 UNKNOWN",
+        "KP ❌ 클러스터 관련 키워드 없음",
+        "→ Grade C: 검증 데이터 없음 — 발행 보류 권장"
+      ]
     }
   ],
   "kp_parsed": 516,
@@ -25,7 +89,6 @@
   "unassigned_keywords": [
     "star wars",
     "data center",
-    "arc raiders",
     "wars galactic",
     "galactic racer",
     "rolling android",
@@ -37,7 +100,8 @@
     "lego 75301",
     "lego 75334",
     "lego falcon",
-    "lego 75341"
+    "lego 75341",
+    "lego 75355"
   ],
   "updated": true
 }
