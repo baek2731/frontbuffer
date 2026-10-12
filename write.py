@@ -1689,6 +1689,18 @@ def cmd_check_tiers():
 """)
 
 
+# 약한 소스: 이것만으로는 사실 글을 쓰지 않는다 (YouTube 댓글, 포럼, HN, 앱 리뷰, 위키)
+_WEAK_SOURCES = {"youtube", "steam_forum", "hackernews", "google_play", "wikipedia"}
+
+
+def has_reliable_sources(context_result):
+    """공식 문서(official/official_direct)나 뉴스 원문 같은 '쓸 만한' 소스가 하나라도 있는가."""
+    for src in context_result.get("sources", []) or []:
+        if src.get("status") == "ok" and src.get("source") not in _WEAK_SOURCES:
+            return True
+    return False
+
+
 def cmd_prep(cluster_name, mode="jina", force=False, content_type=None):
     data         = load_pipeline()
     cfg          = load_config()
@@ -1811,6 +1823,19 @@ def cmd_prep(cluster_name, mode="jina", force=False, content_type=None):
             context_result = collect_context_title(cluster_info)
         print(f"\n  최종 모드: {context_result['mode'].upper()} | "
               f"수집 후보: {context_result.get('total_ok', 0)}개")
+
+        # ── 소스 게이트 (2026-W41) ─────────────────────────────────────
+        # 공식 문서·뉴스 원문이 하나도 없으면(YouTube 댓글·제목뿐) 모델이 기억으로 글을 쓰게 되고,
+        # 그러면 "2024년 6월 Pixel Drop 이 최신", "One UI 6.1 이 현재" 같은 낡은 내용이 나온다.
+        # 그런 글은 만들지 않고 이 기획안을 폐기한다 (JINA_API_KEY 가 정상이면 대부분 통과한다).
+        if ct_upper != "HUB" and not force and os.environ.get("ALLOW_UNSOURCED") != "1" \
+                and not has_reliable_sources(context_result):
+            print("\n  🚫 [소스 게이트] 공식 문서/뉴스 원문 소스가 0개 (YouTube·포럼·위키뿐)")
+            print("     모델 기억에 의존한 글은 사실 오류 위험이 커서 작성하지 않습니다.")
+            print("     원인이 Jina 접속이면 JINA_API_KEY 를 확인하세요. 억지로 쓰려면 ALLOW_UNSOURCED=1")
+            discard_cluster(actual_name, content_type=ct_upper,
+                            reason="소스 게이트: 공식/뉴스 원문 소스 없음")
+            return False
 
     prompt_text      = build_write_prompt(cluster_info, context_result)
     os.makedirs(PROMPTS_DIR, exist_ok=True)
@@ -2257,7 +2282,9 @@ if __name__ == "__main__":
         if not args.cluster:
             print("❌ 클러스터명 입력하세요.")
             sys.exit(1)
-        cmd_prep(args.cluster, mode=args.mode, content_type=args.content_type)
+        _ok = cmd_prep(args.cluster, mode=args.mode, content_type=args.content_type)
+        if _ok is False:
+            sys.exit(1)   # 게이트(중복/소스/Grade C)에 걸림 → Step 3 루프가 이 항목을 건너뛴다
     elif args.command == "review":
         if not args.cluster:
             print("❌ 클러스터명 입력하세요.")
