@@ -1,7 +1,7 @@
 {
   "_version": "1.3",
   "_description": "콘텐츠 파이프라인 — 클러스터 단위 관리",
-  "_last_updated": "2026-10-12T03:52:19.039359+00:00",
+  "_last_updated": "2026-10-12T03:53:00.413762+00:00",
   "hub_clusters": {
     "Steam Machine": {
       "hub_keyword": "Steam Machine",
@@ -745,8 +745,12 @@
       "spokes": [
         "Google Pixel Software Updates"
       ],
-      "spoke_urls": {},
-      "internal_links": []
+      "spoke_urls": {
+        "Google Pixel Software Updates (EXPLAINER)": "pending"
+      },
+      "internal_links": [
+        "pending"
+      ]
     },
     "Samsung One UI": {
       "hub_keyword": "Samsung One UI",
@@ -2087,12 +2091,13 @@
       "notes": ""
     },
     "Google Pixel Software Updates": {
-      "types_done": [],
+      "types_done": [
+        "EXPLAINER"
+      ],
       "last_week": "2026-W41",
       "suggest_next": [
         "COMPARISON",
         "GUIDE",
-        "EXPLAINER",
         "LISTICLE"
       ],
       "hub_keyword": "Pixel Drop",
@@ -6283,8 +6288,9 @@
         "data_grade": "B",
         "verified_keywords": [],
         "publish_order": 2,
-        "status": "candidate",
-        "selected_at": "2026-10-12T03:49:23.646084+00:00"
+        "status": "published",
+        "selected_at": "2026-10-12T03:49:23.646084+00:00",
+        "url": "pending"
       },
       {
         "cluster_name": "Samsung One UI Updates",
@@ -6948,6 +6954,15 @@
       "week_tag": "2026-W41",
       "published_at": "2026-10-12T03:52:19.039313+00:00",
       "hub_cluster": "Google Android Ecosystem"
+    },
+    {
+      "cluster_name": "Google Pixel Software Updates",
+      "title": "What's New in the Latest Pixel Drop and How to Use the New Features",
+      "url": "pending",
+      "content_type": "EXPLAINER",
+      "week_tag": "2026-W41",
+      "published_at": "2026-10-12T03:53:00.413717+00:00",
+      "hub_cluster": "Google Pixel Software"
     }
   ]
 }
