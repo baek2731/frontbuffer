@@ -1,7 +1,7 @@
 {
   "_version": "1.3",
   "_description": "콘텐츠 파이프라인 — 클러스터 단위 관리",
-  "_last_updated": "2026-10-12T03:24:45.948725+00:00",
+  "_last_updated": "2026-10-12T03:25:58.770078+00:00",
   "hub_clusters": {
     "Steam Machine": {
       "hub_keyword": "Steam Machine",
@@ -717,16 +717,18 @@
     },
     "Gaming Technology & Software": {
       "hub_keyword": "Gaming Technology & Software",
-      "hub_status": "PENDING",
+      "hub_status": "READY",
       "hub_title": "",
       "hub_url": "",
       "spokes": [
         "Gaming Technology & Software"
       ],
       "spoke_urls": {
-        "Gaming Technology & Software (GUIDE)": "pending"
+        "Gaming Technology & Software (GUIDE)": "pending",
+        "Gaming Technology & Software (EXPLAINER)": "pending"
       },
       "internal_links": [
+        "pending",
         "pending"
       ]
     }
@@ -1981,12 +1983,12 @@
     },
     "Gaming Technology & Software": {
       "types_done": [
-        "GUIDE"
+        "GUIDE",
+        "EXPLAINER"
       ],
       "last_week": "2026-W41",
       "suggest_next": [
         "COMPARISON",
-        "EXPLAINER",
         "LISTICLE"
       ],
       "hub_keyword": "Arc Raiders Anti-Cheat",
@@ -6023,8 +6025,9 @@
         "data_grade": "B",
         "verified_keywords": [],
         "publish_order": 5,
-        "status": "candidate",
-        "selected_at": "2026-10-12T03:20:10.587782+00:00"
+        "status": "published",
+        "selected_at": "2026-10-12T03:20:10.587782+00:00",
+        "url": "pending"
       }
     ]
   },
@@ -6559,6 +6562,15 @@
       "week_tag": "2026-W41",
       "published_at": "2026-10-12T03:24:45.948681+00:00",
       "hub_cluster": "Samsung Galaxy Foldables"
+    },
+    {
+      "cluster_name": "Gaming Technology & Software",
+      "title": "What is Arc Raiders' Anti-Cheat System and How Does Embark Studios Combat Cheating?",
+      "url": "pending",
+      "content_type": "EXPLAINER",
+      "week_tag": "2026-W41",
+      "published_at": "2026-10-12T03:25:58.770028+00:00",
+      "hub_cluster": "Gaming Technology & Software"
     }
   ]
 }
