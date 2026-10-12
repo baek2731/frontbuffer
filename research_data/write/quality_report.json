@@ -1,13 +1,75 @@
 {
-  "total": 1,
-  "ok": 1,
-  "issue_count": 0,
-  "issue_files": [],
+  "total": 4,
+  "ok": 2,
+  "issue_count": 2,
+  "issue_files": [
+    {
+      "name": "002_2026-W41_gaming-technology-software_GUIDE",
+      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/002_2026-W41_gaming-technology-software_GUIDE.md",
+      "issues": [
+        {
+          "id": "R3",
+          "label": "단어수 미달 (236단어 / 최소 800)"
+        }
+      ]
+    },
+    {
+      "name": "003_2026-W41_07-rolling-android_GUIDE",
+      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/003_2026-W41_07-rolling-android_GUIDE.md",
+      "issues": [
+        {
+          "id": "R4",
+          "label": "H1 제목 없음"
+        },
+        {
+          "id": "R5",
+          "label": "발행 불가 — 한국어 판정 메모 잔존",
+          "block": true
+        }
+      ]
+    }
+  ],
   "results": [
     {
-      "file": "research_data/write/final/001_2026-W41_google-pixel-ecosystem_GUIDE.md",
-      "name": "001_2026-W41_google-pixel-ecosystem_GUIDE",
-      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/001_2026-W41_google-pixel-ecosystem_GUIDE.md",
+      "file": "research_data/write/final/002_2026-W41_gaming-technology-software_GUIDE.md",
+      "name": "002_2026-W41_gaming-technology-software_GUIDE",
+      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/002_2026-W41_gaming-technology-software_GUIDE.md",
+      "issues": [
+        {
+          "id": "R3",
+          "label": "단어수 미달 (236단어 / 최소 800)"
+        }
+      ],
+      "ok": false
+    },
+    {
+      "file": "research_data/write/final/003_2026-W41_07-rolling-android_GUIDE.md",
+      "name": "003_2026-W41_07-rolling-android_GUIDE",
+      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/003_2026-W41_07-rolling-android_GUIDE.md",
+      "issues": [
+        {
+          "id": "R4",
+          "label": "H1 제목 없음"
+        },
+        {
+          "id": "R5",
+          "label": "발행 불가 — 한국어 판정 메모 잔존",
+          "block": true
+        }
+      ],
+      "ok": false
+    },
+    {
+      "file": "research_data/write/final/004_2026-W41_samsung-galaxy-foldables_EXPLAINER.md",
+      "name": "004_2026-W41_samsung-galaxy-foldables_EXPLAINER",
+      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/004_2026-W41_samsung-galaxy-foldables_EXPLAINER.md",
+      "issues": [],
+      "ok": true
+    },
+    {
+      "file": "research_data/write/final/005_2026-W41_gaming-technology-software_EXPLAINER.md",
+      "name": "005_2026-W41_gaming-technology-software_EXPLAINER",
+      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/005_2026-W41_gaming-technology-software_EXPLAINER.md",
       "issues": [],
       "ok": true
     }
