@@ -177,6 +177,36 @@ def parse_json_response(text):
     return None
 
 
+_SEED_STOP = {"what", "when", "with", "that", "this", "from", "after", "latest", "stable", "release",
+              "update", "updates", "features", "feature", "turn", "them", "new", "how", "the", "and", "for",
+              "use", "using", "which", "fix", "common", "causes"}
+
+
+def _seed_tokens(text):
+    return {w for w in re.findall(r"[a-z0-9]+", (text or "").lower()) if len(w) > 2 and w not in _SEED_STOP}
+
+
+def mark_seed_plans(selections, seeds):
+    """모델이 from_seed 를 빠뜨려도, 제목·키워드가 시드와 충분히 겹치면 시드 기획안으로 표시한다.
+    반환: 반영되지 않은 시드 목록."""
+    used = set()
+    for sel in selections:
+        text = " ".join([sel.get("suggested_title", ""), sel.get("hub_keyword", ""),
+                         " ".join(sel.get("spoke_keywords", []) or [])])
+        st = _seed_tokens(text)
+        for i, seed in enumerate(seeds):
+            sd = _seed_tokens(seed)
+            if sd and len(st & sd) >= max(2, int(len(sd) * 0.4)):
+                sel["from_seed"] = True
+                used.add(i)
+                break
+        else:
+            if sel.get("from_seed"):
+                pass
+    return [sd for i, sd in enumerate(seeds) if i not in used and not any(
+        x.get("from_seed") and len(_seed_tokens(x.get("suggested_title", "")) & _seed_tokens(sd)) >= 2 for x in selections)]
+
+
 def add_data_grade(selections):
     """
     data_grade 자동 부여.
@@ -216,18 +246,19 @@ def main():
     print(f"  📏 크기: {len(prompt_text.encode())/1024:.1f} KB")
 
     # ── weekly_seeds 주입 ──────────────────────────────────────────
+    seeds = []
     try:
         import json as _json
         cfg = _json.loads(open("config.json", encoding="utf-8").read())
         seeds = cfg.get("weekly_seeds", {}).get(week_tag, [])
         if seeds:
-            seed_block = "\n\n[WEEKLY SEED KEYWORDS — 이번 주 우선 고려 주제]\n"
-            seed_block += "아래 키워드를 클러스터 선정 시 우선 반영할 것.\n"
-            seed_block += "단, 이미 covered_clusters에 있는 주제와 중복되면 제외.\n"
-            seed_block += "같은 대상(기기/서비스) + 같은 목적(설정/문제 해결/비교 등)이 겹치면 1개만 선택할 것.\n"
-            seed_block += "대상이 같아도 목적이 다르면 선택 가능 (예: 설정 / 증상별 문제 해결 / 호환성).\n"
-            for s in seeds:
-                seed_block += f"  - {s}\n"
+            seed_block = "\n\n[WEEKLY SEED KEYWORDS — 이번 주 반드시 반영할 주제]\n"
+            seed_block += "운영자가 직접 고른 주제다. 아래 시드마다 정확히 1개의 기획안을 만들 것 (건너뛰지 말 것).\n"
+            seed_block += "각 기획안 객체에 \"from_seed\": true 를 넣고, suggested_title 은 시드 문구를 바탕으로 자연스러운 영어 제목으로 쓸 것.\n"
+            seed_block += "시드가 새 기능/업데이트 소개면 EXPLAINER 또는 GUIDE, 문제 해결/대체 도구면 GUIDE 로 content_type 을 정할 것.\n"
+            seed_block += "단, [ALREADY PUBLISHED] 목록에 같은 대상 + 같은 목적의 글이 이미 있으면 그 시드만 제외하고 이유를 reasoning 에 적을 것.\n"
+            for s_ in seeds:
+                seed_block += f"  - {s_}\n"
             prompt_text += seed_block
             print(f"  🌱 weekly_seeds 주입: {len(seeds)}개 → {seeds}")
         else:
@@ -290,6 +321,16 @@ def main():
         raise
     except Exception as e:
         print(f"  ⚠️  중복 필터 실패 (무시하고 진행): {e}")
+
+    # ── 시드 기획안 표시 / 반영 현황 ────────────────────────────────
+    if seeds:
+        _missing = mark_seed_plans(selections, seeds)
+        _n_seed = sum(1 for x in selections if x.get("from_seed"))
+        print(f"  🌱 시드 기획안 {_n_seed}/{len(seeds)}개 반영")
+        for _m in _missing:
+            print(f"     ⚠️ 반영 안 된 시드: {_m}")
+        if _missing:
+            print("     → 기존 글과 중복이라 제외됐거나 모델이 건너뛴 것입니다. 필요하면 Step 2-1 로 따로 추가하세요.")
 
     # 4. data_grade 자동 부여
     selections = add_data_grade(selections)
@@ -360,6 +401,17 @@ def main():
                     break
     except Exception:
         pass
+
+    # ── 시드 예외: 운영자가 직접 고른 주제는 Trends/KP 데이터가 없다는 이유로 폐기하지 않는다 ──
+    # (신기능·업데이트 주제는 Trends 검증이 따라오지 못한다. 대신 글은 반드시 검수 후 발행한다)
+    _seed_up = 0
+    for _s in selections:
+        if _s.get("from_seed") and _s.get("data_grade") == "C":
+            _s["data_grade"] = "B"
+            _s["grade_note"] = "시드 주제 — Trends/KP 검증 데이터 없음, 수동 검수 필요"
+            _seed_up += 1
+    if _seed_up:
+        print(f"  🌱 시드 기획안 {_seed_up}개: Grade C → B (Trends 데이터 없어도 유지, 수동 검수 필수)")
 
     grade_a = [s for s in selections if s.get("data_grade") == "A"]
     grade_b = [s for s in selections if s.get("data_grade") == "B"]
