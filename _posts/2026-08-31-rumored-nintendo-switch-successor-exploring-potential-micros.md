@@ -4,7 +4,7 @@ title: 'Nintendo Switch 2 microSD Express: Why Old Cards Don''t Work'
 date: 2026-08-31 14:02:00 +0000
 categories: [gaming]
 tags: ["explainer", "nintendo", "switch-2", "microsd-express"]
-excerpt: 'Nintendo Switch 2 needs microSD Express cards, and your old Switch 1 microSD card won''t store games.'
+excerpt: 'Nintendo Switch 2 needs microSD Express cards, and your old Switch 1 card won''t store games. See which cards work and how much space you need.'
 header:
   image: https://images.frontbuffer.net/posts/rumored-nintendo-switch-successor-exploring-potential-micros/og.png
   overlay_filter: 0

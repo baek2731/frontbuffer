@@ -3,7 +3,9 @@ layout: single
 title: "About Frontbuffer"
 permalink: /about/
 author_profile: false
-description: 'Frontbuffer is an independent tech and gaming site publishing practical guides, fixes, and comparisons.'
+description: 'Frontbuffer is an independent tech and gaming site. We publish practical guides, fixes, and comparisons for Android, Pixel, Galaxy, and Steam.'
+header:
+  og_image: /assets/images/og-default.png
 ---
 
 **Frontbuffer** is an independent tech and gaming publication focused on the stories that actually change how you use your hardware and software — not the news cycle.

@@ -3,7 +3,9 @@ layout: single
 title: "Privacy Policy"
 permalink: /privacy-policy/
 author_profile: false
-description: 'How Frontbuffer handles visitor data, including analytics, cookies, and third-party services.'
+description: 'How Frontbuffer collects and uses visitor data, including analytics and cookies, and what choices you have over that data.'
+header:
+  og_image: /assets/images/og-default.png
 ---
 
 **Last updated: July 29, 2026**
