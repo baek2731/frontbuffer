@@ -297,13 +297,35 @@ def noise_score(text, hub_keyword, spoke_keywords):
     return score
 
 
+JINA_API_KEY   = os.environ.get("JINA_API_KEY", "")
+_JINA_LOGGED   = {}
+
+
 def fetch_jina(url, max_chars=JINA_MAX_CHARS):
-    jina_url = f"{JINA_BASE}{url}"
+    """r.jina.ai(페이지 읽기) / s.jina.ai(검색) 호출.
+
+    2026-W41 에 모든 공식 문서 수집이 "소스 없음"으로 실패했다. 원인 후보:
+      1) API 키 없이 쓰면 읽기는 분당 20회로 제한되고 검색(s.jina.ai)은 막힘 → JINA_API_KEY 를 헤더로 보낸다
+      2) 검색 주소(https://s.jina.ai/...)에 읽기 접두사(https://r.jina.ai/)를 또 붙여서 호출하던 문제
+    실패 시 HTTP 상태를 (종류별 최대 3번) 로그에 남겨 원인을 알 수 있게 한다."""
+    if url.startswith(("https://s.jina.ai/", "https://r.jina.ai/")):
+        jina_url = url                      # 이미 Jina 주소면 접두사를 붙이지 않는다
+    else:
+        jina_url = f"{JINA_BASE}{url}"
+    headers = dict(HEADERS)
+    if JINA_API_KEY:
+        headers["Authorization"] = f"Bearer {JINA_API_KEY}"
     try:
-        resp = requests.get(jina_url, headers=HEADERS, timeout=15)
+        resp = requests.get(jina_url, headers=headers, timeout=20)
         if resp.status_code == 200:
             text = resp.text.strip()
             return text[:max_chars] if len(text) > max_chars else text
+        n = _JINA_LOGGED.get(resp.status_code, 0)
+        if n < 3:
+            _JINA_LOGGED[resp.status_code] = n + 1
+            hint = " (API 키 필요/오류)" if resp.status_code in (401, 402, 403) else (" (속도 제한)" if resp.status_code == 429 else "")
+            key  = "키 있음" if JINA_API_KEY else "JINA_API_KEY 없음"
+            print(f"    ⚠️ Jina HTTP {resp.status_code}{hint} [{key}] {jina_url[:60]}")
         return None
     except Exception as e:
         print(f"    ⚠️ Jina 실패: {e}")

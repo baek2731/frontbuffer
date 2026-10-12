@@ -46,6 +46,18 @@ def slugify(text):
     return text[:60]
 
 
+SEARCH_RULES = """[VERIFICATION RULES — apply on top of the instructions below; do not change the required output format]
+1. You MUST use Google Search to verify every claim about: release status, release dates, version numbers,
+   prices, availability by country/device, and menu/setting paths. Prefer official sources
+   (support.google.com, blog.google, samsung.com, store.steampowered.com, learn.microsoft.com, chromium.org, developer.android.com).
+2. Do NOT add new facts, features, dates or numbers that the search results or the draft's own sources do not support.
+   Do not pad the article to make it longer. If a claim cannot be verified, delete it or say plainly that it is unconfirmed.
+3. Never state that a product, game or feature is unreleased/upcoming/rumored unless a current source says so.
+4. Do not cite YouTube, Reddit, Wikipedia, or comment threads as sources. Cite official pages or reputable outlets by their article URL.
+
+"""
+
+
 def find_review_prompt(cluster_name, content_type, file_id=None):
     """
     write.py review가 생성한 review_prompt 파일 찾기.
@@ -377,6 +389,9 @@ def main():
     print(f"  📄 리뷰 프롬프트: {prompt_path}")
     print(f"  🔑 file_id: {file_id}")
     prompt_text = open(prompt_path, encoding="utf-8").read()
+    # 2026-W41: 그라운딩이 켜져 있어도 모델이 검색을 거의 하지 않았고("검색 미수행"), 검토 단계에서
+    # 글이 600→1,200단어로 늘어나며 근거 없는 내용이 추가됐다. 아래 규칙을 앞에 붙여 이를 막는다.
+    prompt_text = SEARCH_RULES + prompt_text
     print(f"  📏 프롬프트 크기: {len(prompt_text.encode())/1024:.1f} KB")
 
     # 2. Gemini API 호출
