@@ -1,77 +1,88 @@
 {
-  "total": 4,
-  "ok": 2,
+  "total": 7,
+  "ok": 5,
   "issue_count": 2,
   "issue_files": [
     {
-      "name": "002_2026-W41_gaming-technology-software_GUIDE",
-      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/002_2026-W41_gaming-technology-software_GUIDE.md",
+      "name": "005_2026-W41_steam-client-updates_GUIDE",
+      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/005_2026-W41_steam-client-updates_GUIDE.md",
       "issues": [
         {
-          "id": "R3",
-          "label": "단어수 미달 (236단어 / 최소 800)"
+          "id": "G4",
+          "label": "결론 보일러플레이트 (주제 교체해도 통용됨)"
         }
       ]
     },
     {
-      "name": "003_2026-W41_07-rolling-android_GUIDE",
-      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/003_2026-W41_07-rolling-android_GUIDE.md",
+      "name": "006_2026-W41_windows-11-gaming-performance_GUIDE",
+      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/006_2026-W41_windows-11-gaming-performance_GUIDE.md",
       "issues": [
         {
-          "id": "R4",
-          "label": "H1 제목 없음"
-        },
-        {
-          "id": "R5",
-          "label": "발행 불가 — 한국어 판정 메모 잔존",
-          "block": true
+          "id": "G4",
+          "label": "결론 보일러플레이트 (주제 교체해도 통용됨)"
         }
       ]
     }
   ],
   "results": [
     {
-      "file": "research_data/write/final/002_2026-W41_gaming-technology-software_GUIDE.md",
-      "name": "002_2026-W41_gaming-technology-software_GUIDE",
-      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/002_2026-W41_gaming-technology-software_GUIDE.md",
-      "issues": [
-        {
-          "id": "R3",
-          "label": "단어수 미달 (236단어 / 최소 800)"
-        }
-      ],
-      "ok": false
+      "file": "research_data/write/final/001_2026-W41_chrome-extension-alternatives_GUIDE.md",
+      "name": "001_2026-W41_chrome-extension-alternatives_GUIDE",
+      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/001_2026-W41_chrome-extension-alternatives_GUIDE.md",
+      "issues": [],
+      "ok": true
     },
     {
       "file": "research_data/write/final/003_2026-W41_07-rolling-android_GUIDE.md",
       "name": "003_2026-W41_07-rolling-android_GUIDE",
       "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/003_2026-W41_07-rolling-android_GUIDE.md",
+      "issues": [],
+      "ok": true
+    },
+    {
+      "file": "research_data/write/final/002_2026-W41_google-pixel-software-updates_EXPLAINER.md",
+      "name": "002_2026-W41_google-pixel-software-updates_EXPLAINER",
+      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/002_2026-W41_google-pixel-software-updates_EXPLAINER.md",
+      "issues": [],
+      "ok": true
+    },
+    {
+      "file": "research_data/write/final/003_2026-W41_samsung-one-ui-updates_EXPLAINER.md",
+      "name": "003_2026-W41_samsung-one-ui-updates_EXPLAINER",
+      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/003_2026-W41_samsung-one-ui-updates_EXPLAINER.md",
+      "issues": [],
+      "ok": true
+    },
+    {
+      "file": "research_data/write/final/004_2026-W41_chrome-browser-features_GUIDE.md",
+      "name": "004_2026-W41_chrome-browser-features_GUIDE",
+      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/004_2026-W41_chrome-browser-features_GUIDE.md",
+      "issues": [],
+      "ok": true
+    },
+    {
+      "file": "research_data/write/final/005_2026-W41_steam-client-updates_GUIDE.md",
+      "name": "005_2026-W41_steam-client-updates_GUIDE",
+      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/005_2026-W41_steam-client-updates_GUIDE.md",
       "issues": [
         {
-          "id": "R4",
-          "label": "H1 제목 없음"
-        },
-        {
-          "id": "R5",
-          "label": "발행 불가 — 한국어 판정 메모 잔존",
-          "block": true
+          "id": "G4",
+          "label": "결론 보일러플레이트 (주제 교체해도 통용됨)"
         }
       ],
       "ok": false
     },
     {
-      "file": "research_data/write/final/004_2026-W41_samsung-galaxy-foldables_EXPLAINER.md",
-      "name": "004_2026-W41_samsung-galaxy-foldables_EXPLAINER",
-      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/004_2026-W41_samsung-galaxy-foldables_EXPLAINER.md",
-      "issues": [],
-      "ok": true
-    },
-    {
-      "file": "research_data/write/final/005_2026-W41_gaming-technology-software_EXPLAINER.md",
-      "name": "005_2026-W41_gaming-technology-software_EXPLAINER",
-      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/005_2026-W41_gaming-technology-software_EXPLAINER.md",
-      "issues": [],
-      "ok": true
+      "file": "research_data/write/final/006_2026-W41_windows-11-gaming-performance_GUIDE.md",
+      "name": "006_2026-W41_windows-11-gaming-performance_GUIDE",
+      "link": "https://github.com/baek2731/frontbuffer/blob/main/research_data/write/final/006_2026-W41_windows-11-gaming-performance_GUIDE.md",
+      "issues": [
+        {
+          "id": "G4",
+          "label": "결론 보일러플레이트 (주제 교체해도 통용됨)"
+        }
+      ],
+      "ok": false
     }
   ]
 }
