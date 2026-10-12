@@ -1,0 +1,39 @@
+{
+  "ok": true,
+  "week_tag": "2026-W41",
+  "total": 1,
+  "grade_a": [
+    {
+      "cluster_name": "Google Pixel Ecosystem",
+      "content_type": "GUIDE",
+      "suggested_title": "Pixel Watch AI Watch Face Customization and Compatibility Guide",
+      "hub_keyword": "Pixel Watch",
+      "parent_hub": "Google Pixel Ecosystem",
+      "spoke_keywords": [
+        "pixel watch ai watch face",
+        "customize pixel watch face",
+        "pixel watch 4 features"
+      ],
+      "evergreen_score": 88,
+      "competition_level": "LOW",
+      "affiliate_potential": "LOW",
+      "timing": "NOW",
+      "verifiability": "HIGH",
+      "trends_queries": [
+        "pixel watch ai faces",
+        "customize pixel watch face",
+        "pixel watch 4 features"
+      ],
+      "reasoning": "AI watch faces are a new, likely persistent feature for Pixel Watches. A guide on customization and compatibility across models is evergreen and verifiable from official documentation.",
+      "data_grade": "A",
+      "publish_order": 1,
+      "folder": ""
+    }
+  ],
+  "grade_b": [],
+  "grade_c": [],
+  "auto_selected": 1,
+  "dropped_duplicates": [],
+  "elapsed": 36.0,
+  "timestamp": "2026-10-12T01:47:57.565177+00:00"
+}

@@ -1,7 +1,7 @@
 {
   "_version": "1.3",
   "_description": "콘텐츠 파이프라인 — 클러스터 단위 관리",
-  "_last_updated": "2026-10-09T00:22:54.405226+00:00",
+  "_last_updated": "2026-10-12T01:47:57.560952+00:00",
   "hub_clusters": {
     "Steam Machine": {
       "hub_keyword": "Steam Machine",
@@ -1271,14 +1271,14 @@
     },
     "Google Pixel Ecosystem": {
       "types_done": [],
-      "last_week": "2026-W30",
+      "last_week": "2026-W41",
       "suggest_next": [
         "COMPARISON",
         "GUIDE",
         "EXPLAINER",
         "LISTICLE"
       ],
-      "hub_keyword": "Google Gemini AI",
+      "hub_keyword": "Pixel Watch",
       "parent_hub": "Google Pixel Ecosystem",
       "spoke_keywords": [
         "pixel 10 pro vs pixel 9 pro camera",
@@ -5850,6 +5850,34 @@
         "status": "published",
         "selected_at": "2026-10-06T00:29:34.352250+00:00",
         "url": "pending"
+      }
+    ],
+    "2026-W41": [
+      {
+        "cluster_name": "Google Pixel Ecosystem",
+        "content_type": "GUIDE",
+        "suggested_title": "Pixel Watch AI Watch Face Customization and Compatibility Guide",
+        "hub_keyword": "Pixel Watch",
+        "hub_keyword_raw": "Pixel Watch",
+        "parent_hub": "Google Pixel Ecosystem",
+        "folder": "",
+        "spoke_keywords": [
+          "pixel watch ai watch face",
+          "customize pixel watch face",
+          "pixel watch 4 features"
+        ],
+        "competition_level": "LOW",
+        "timing": "NOW",
+        "affiliate_potential": "LOW",
+        "trends_pattern": "UNKNOWN",
+        "trends_keyword": "",
+        "trends_opportunities": [],
+        "verifiability": "HIGH",
+        "data_grade": "A",
+        "verified_keywords": [],
+        "publish_order": 1,
+        "status": "candidate",
+        "selected_at": "2026-10-12T01:47:57.560929+00:00"
       }
     ]
   },
