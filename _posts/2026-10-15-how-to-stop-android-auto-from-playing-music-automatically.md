@@ -5,6 +5,9 @@ date: 2026-10-15 14:33:00 +0000
 categories: [tech]
 tags: ["guide", "android", "auto", "stop", "music"]
 excerpt: 'Stop Android Auto''s auto-play! Turn off the "Start music automatically" toggle. If it fails, you''re not alone; learn why and what users are trying.'
+header:
+  image: https://images.frontbuffer.net/posts/how-to-stop-android-auto-from-playing-music-automatically/og.png
+  overlay_filter: 0
 author_profile: false
 read_time: true
 share: true
