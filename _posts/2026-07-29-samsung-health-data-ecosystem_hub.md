@@ -32,7 +32,7 @@ The backup route is a separate path. A [Samsung support page on backing up and r
 
 ## Situation 1: you are about to erase data or close your account
 
-Start with a download. Samsung's pages checked for this article describe erasing Samsung Health data as permanent. They do not say what happens to your Samsung Health data when you delete the whole Samsung account, so treat a download as the safe step before either one.
+Start with a download. Samsung's support page says erasing Samsung Health data is permanent. Deleting the whole Samsung account removes Samsung Health data as well: [Samsung's UAE support page](https://www.samsung.com/ae/support/apps-services/how-can-i-delete-my-samsung-account/) lists Samsung Cloud, Samsung Pay and Samsung Health among the linked services that go, and [Android Police](https://www.androidpolice.com/delete-samsung-account-tutorial/) reports the same.
 
 The guide for this situation walks through the export in detail and covers how to store the files afterward.
 
@@ -50,7 +50,7 @@ The comparison article covers what each side does and how to set up the sync.
 
 ## Situation 3: you want a safety net without leaving Samsung
 
-The Samsung Cloud backup above is the option aimed at this. Two limits apply. The backup depends on your Samsung account, and the pages checked do not say whether it survives deleting that account. A downloaded copy sits on your own storage, so it is the one to keep if you are unsure.
+The Samsung Cloud backup above is the option aimed at this. It has one important limit: it lives in your Samsung account. Samsung's account-deletion page lists Samsung Cloud among the services removed, so the cloud copy does not protect you from deleting the account. A downloaded copy sits on your own storage, so keep one.
 
 ## Which one to pick
 
@@ -64,6 +64,8 @@ Checked October 15, 2026 against Samsung and Android documentation. Nothing here
 Sources:
 - [Download or delete your Samsung Health data, Samsung Canada Support](https://www.samsung.com/ca/support/apps-services/download-or-delete-your-samsung-health-data/)
 - [How to Restore or Backup Samsung Health Data, Samsung Singapore Support](https://www.samsung.com/sg/support/apps-services/how-to-restore-or-backup-samsung-health-data/)
+- [How can I delete my Samsung account, Samsung UAE Support](https://www.samsung.com/ae/support/apps-services/how-can-i-delete-my-samsung-account/)
+- [How to delete your Samsung account, Android Police](https://www.androidpolice.com/delete-samsung-account-tutorial/)
 - [Accessing Samsung Health Data through Health Connect, Samsung Developers](https://developer.samsung.com/health/blog/en/accessing-samsung-health-data-through-health-connect)
 - [Health Connect availability, Android Developers](https://developer.android.com/health-and-fitness/guides/health-connect/plan/availability)
 - [Your First Health Connect Integrated App, Android Developers](https://developer.android.com/codelabs/health-connect)
