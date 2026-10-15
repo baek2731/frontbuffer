@@ -1,4 +1,4 @@
-The Steam Machine (2026) communicates hardware problems through LED patterns - but not all red lights mean the same
+Every Steam Machine LED color means something different. Here's what each warning light actually tells you.
 
 https://frontbuffer.net/gaming/steam-machine-hardware-management_hub/
 
