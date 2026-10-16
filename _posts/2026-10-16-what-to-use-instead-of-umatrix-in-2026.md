@@ -5,6 +5,9 @@ date: 2026-10-16 14:27:00 +0000
 categories: [tech]
 tags: ["guide", "umatrix", "use", "instead"]
 excerpt: 'uMatrix is dead. In 2026, the best replacement for advanced users is uBlock Origin in advanced mode, but it only fully works on Firefox and Brave.'
+header:
+  image: https://images.frontbuffer.net/posts/what-to-use-instead-of-umatrix-in-2026/og.png
+  overlay_filter: 0
 author_profile: false
 read_time: true
 share: true
