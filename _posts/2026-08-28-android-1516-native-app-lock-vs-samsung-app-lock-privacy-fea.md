@@ -1,10 +1,11 @@
 ---
 layout: single
-title: 'Android Native App Lock vs Samsung App Lock: Privacy Compared'
+title: 'Android App Lock vs Samsung Secure Folder: What Exists Today'
 date: 2026-08-28 14:55:00 +0000
+last_modified_at: 2026-10-16 00:00:00 +0000
 categories: [tech]
-tags: ["comparison", "pixel", "pro"]
-excerpt: 'Android now includes a native app lock at the system level. Here is how it compares with Samsung''s App Lock on privacy and features.'
+tags: ["comparison", "android", "privacy", "samsung"]
+excerpt: 'Android''s native App Lock is still in beta and Samsung has none yet. Private Space and Secure Folder are the options today. What each does, and what is coming.'
 header:
   image: https://images.frontbuffer.net/posts/android-1516-native-app-lock-vs-samsung-app-lock-privacy-fea/og.png
   overlay_filter: 0
@@ -13,50 +14,70 @@ read_time: true
 share: true
 ---
 
-Android 15's introduction of a native app lock feature marked a system-level security feature users. This development directly challenges or complements established privacy solutions like Samsung's Secure Folder, which has offered strong app protection for years. Understanding the nuances of Google's new native app lock and its comparison to Samsung's offerings is crucial for users navigating the diverse Android privacy landscape.
+If you want to lock a single app behind your fingerprint or PIN, Android does not have a finished way to do it yet. Android 15 added Private Space, which is a different tool, and Google's native App Lock is still in beta testing. Samsung phones have Secure Folder, and a built-in App Lock has only appeared in a leak. This article explains what each option does today and what is coming.
 
-## The Official Arrival of Native App Lock in Android 15
+*Checked October 16, 2026 against press reports. Nothing here was tested on a phone, and the App Lock details come from beta builds and leaks that can change.*
 
-For years, Android users have sought strong native tools to enhance their device privacy, often relying on third-party solutions or manufacturer-specific overlays. Google officially addressed this demand with the introduction of a built-in app lock feature in Android 15, which was first previewed in earlier beta versions and subsequently rolled out with the stable release. This feature allows users to secure individual applications with biometric authentication (fingerprint or face unlock) or a device PIN/pattern, preventing unauthorized access even if the device itself is unlocked.
+---
 
-The integration of this app lock directly into the operating system signifies Google's commitment to bolstering core privacy features. This move standardizes a crucial security layer across the Android ecosystem, particularly for Pixel devices and other smartphones running the latest software. The community reception to this feature has been overwhelmingly positive, with many users expressing relief and enthusiasm for its inclusion, highlighting the long-standing demand for such a capability directly integrated into the OS.
+## Where things stand
 
-## Functionality and User Experience on Android 15/16
+| | Pixel and other Android phones | Samsung Galaxy phones |
+|---|---|---|
+| Available now | Private Space (Android 15) | Secure Folder |
+| Per-app lock | App Lock, in testing in Android 17 QPR2 Beta 3 | Not available. A leaked One UI 9.5 build shows one |
+| Expected | Final Android 17 QPR2 is likely in December | One UI 9.5 is expected with the Galaxy S27 series next year |
 
-Android's native app lock, often referred to in the context of "Private Space" or "Locked Folder" features, provides a seamless user experience. Once enabled, users can select specific applications they wish to protect. When an attempt is made to open a locked app, the system prompts for authentication, ensuring that only authorized individuals can access its content. This is particularly useful in scenarios where a device might be temporarily shared with family or friends, or if it's left unattended.
+---
 
-Beyond the app lock, Android 15 and subsequent versions like Android 16 continue to refine other user experience and privacy elements. Discussions around these updates often include enhancements to notification management, improved media controls, and further optimizations for device performance. While these features are distinct from the app lock, they illustrate the broader scope of user expectations and desired improvements within recent Android releases, all contributing to a more secure and personalized mobile experience.
+## Private Space: a separate locked area
 
-## Samsung's Established App Lock Solutions
+Google introduced Private Space with Android 15. [Android Police notes](https://www.androidpolice.com/android-17-native-app-lock-private-space/) it is designed as a segregated space for your data and apps, not specifically as an app locker. [BGR describes](https://www.bgr.com/2215112/google-pixel-adding-app-lock-feature/) it as a second locked interface inside the phone. You cannot tap an app on the home screen and unlock just that app. You open Private Space first, enter your password, and then open the app. The version of an app you install in Private Space is separate from the normal one, so to keep an app out of reach you have to delete it outside Private Space.
 
-In contrast to Google's relatively recent native app lock, Samsung has offered full app security features for many years, primarily through its **Secure Folder** and integrated app lock functionalities.
+[Android Authority](https://www.androidauthority.com/android-17-app-lock-rumor-3623814/) adds that apps inside Private Space cannot be placed on the home screen, and that the container itself lacks a shortcut.
 
-**Secure Folder** is a highly strong, Knox-protected environment that creates a separate, encrypted space on a Samsung device. Users can move apps, photos, videos, and other files into the Secure Folder, effectively isolating them from the main device environment. Apps within the Secure Folder require separate authentication (PIN, pattern, password, or biometrics) to access, and their data is not visible or accessible from outside the folder. This provides an extremely high level of privacy and security, making it ideal for sensitive work applications, personal banking apps, or private media.
+---
 
-Additionally, many Samsung devices offer a more straightforward app lock feature integrated into their device settings, allowing users to lock individual applications without creating a completely separate environment like Secure Folder. This provides a quick and easy way to protect specific apps with a PIN or biometric authentication, similar in concept to Google's native app lock but often with additional customization options provided by Samsung's One UI.
+## Android's native App Lock: in testing
 
-## Privacy Implications and Comparison
+Android Authority found evidence of an App Lock feature in Android Canary 2512 in December 2025. [Forbes quotes](https://www.forbes.com/sites/zakdoffman/2025/12/11/googles-new-android-update-locks-apps-on-pixel-and-samsung-phones/) its finding as a new API that allows the default launcher to lock apps, removing the need for third-party app lockers.
 
-The integration of a native app lock directly into Android 15 (and refined in Android 16) holds significant privacy implications for all Android users. By allowing individuals to secure specific applications, unauthorized access to sensitive data and personal conversations can be effectively prevented. This feature provides an additional layer of security beyond the device-level lock, ensuring that even if the phone is unlocked, specific apps remain protected. This native implementation is expected to be more seamless and potentially more secure than many third-party solutions, which often require broader system permissions and may not be as deeply integrated.
+The feature is now in testing. [Yahoo Tech, citing 9to5Google,](https://tech.yahoo.com/phones/articles/app-lock-finally-coming-android-112804962.html) reports it in Android 17 QPR2 Beta 3 on Pixel phones. You long-press an app icon and choose the option at the end of the list, and after setup the phone's unlock method is required each time you open the selected app. The final Android 17 QPR2 is not likely before December.
 
-When comparing Google's native app lock with Samsung's solutions, several distinctions emerge:
+BGR, citing strings found by Android Authority, says the feature works more like the App Lock on OnePlus phones than like Secure Folder. Each app is locked independently instead of being placed in an isolated space. Beta features can change or be dropped before release.
 
-* **Integration vs. Isolation:** Google's native app lock is a system-level feature that directly secures existing apps on the device. Samsung's Secure Folder, on the other hand, creates an entirely isolated, encrypted environment where apps and data are duplicated or moved, offering a more full separation from the main system.
-* **Scope:** Google's feature primarily focuses on locking individual applications. Samsung's Secure Folder extends beyond just apps to include files, photos, and documents, providing a complete private workspace.
-* **Maturity:** Samsung's app locking solutions, particularly Secure Folder, have been refined over many years, benefiting from Samsung's Knox security platform. Google's native app lock is a newer addition, though it leverages the core Android security framework.
+---
 
-Both approaches offer significant privacy benefits. Google's native app lock provides a streamlined, universal solution for basic app protection across a wider range of Android devices. Samsung's Secure Folder caters to users who require a higher degree of isolation and security for their most sensitive data and applications.
+## Samsung Secure Folder: what Galaxy phones have
 
-## Community Insights and Ongoing Refinement
+[Android Authority says](https://www.androidauthority.com/samsung-one-ui-9-5-app-lock-leak-3698657/) Samsung phones do not have a native app lock. You use Secure Folder, which hides an app by adding it to a protected folder that needs a PIN, password or biometric scan. [Digital Trends describes](https://www.digitaltrends.com/phones/galaxy-phones-may-finally-get-a-basic-privacy-feature-samsung-missed/) Secure Folder as a separate protected environment for apps, files, photos and accounts behind another authentication layer.
 
-The introduction of a native app lock in Android 15 was met with widespread positive feedback from the Android community, highlighting the long-standing demand for such a feature. While initial beta reports for Android 15 and 16 sometimes highlighted minor bugs or areas for refinement, the core functionality of the app lock has been a clear win for users. Such feedback is crucial for developers to address potential issues and ensure a polished user experience for Pixel and other Android-compatible devices. As Android continues its development cycle, we anticipate further enhancements and integrations of these privacy features, making them even stronger and more user-friendly.
+There is a catch. Android Authority points out that adding an app to Secure Folder creates a cloned app, and the original is still in the app drawer, open without a PIN or biometric scan. Samsung users who want only the protected copy have to deal with the original separately.
 
-Ultimately, the choice between Android's native app lock and Samsung's Secure Folder depends on your specific privacy needs: opt for the system-level convenience of Android 15's app lock for quick protection of individual apps, or leverage Samsung's Knox-backed Secure Folder when you require a fully isolated, encrypted environment for sensitive data and applications, as detailed in our comparison of their integration vs. isolation approaches.
+---
+
+## Samsung's App Lock leak
+
+A tipster found an App Lock feature in an unreleased One UI 9.5 build on a Galaxy S26, per Android Authority and Digital Trends. The lock icon appears when you press and hold an app icon in the app drawer, a locked app opens with biometrics or the screen lock, and Digital Trends adds that the feature also hides the app's notifications, widgets and shortcuts.
+
+This is a leak, not an announcement. [Android Headlines](https://www.androidheadlines.com/2026/08/samsung-is-finally-adding-app-lock-soon-heres-how-it-works.html) says the feature was expected with One UI 9, which did not happen, and that One UI 9.5 is expected with the Galaxy S27 series in the first quarter of next year.
+
+---
+
+## Which to use today
+
+- **You have a Pixel and want to hide a few apps:** Private Space works now, but it is an isolated area, not a per-app lock.
+- **You have a Galaxy phone:** Secure Folder is the built-in option. Plan for the cloned-app behavior described above.
+- **You want a simple per-app lock without either of those:** third-party app lockers are the only option today. [Android Authority](https://www.androidauthority.com/android-17-app-lock-rumor-3623814/) notes that Android lacks a native way to do this apart from Private Space, which is why users rely on third-party tools.
+- **You can wait:** Android's App Lock may arrive with the final Android 17 QPR2 in December, and a Samsung version looks more likely next year.
 
 ---
 Sources:
-[1] https://developer.android.com/about/versions/15/features#private-space
-[2] https://www.androidauthority.com/android-15-app-locking-3444853/
-[3] https://www.xda-developers.com/android-15-private-space-app-locking/
-[4] https://www.samsung.com/global/galaxy/apps/secure-folder/
----
+- [Android 17 may finally add the native App Lock feature Pixel users have been waiting for, Android Authority](https://www.androidauthority.com/android-17-app-lock-rumor-3623814/)
+- [Android's native App Lock feature may arrive next year, Android Police](https://www.androidpolice.com/android-17-native-app-lock-private-space/)
+- [App Lock Is Finally Coming to Android: Pixel Up First, Samsung May Be Next, Yahoo Tech](https://tech.yahoo.com/phones/articles/app-lock-finally-coming-android-112804962.html)
+- [Google Pixel May Finally Be Adding A Feature Every Other Android Phone Has, BGR](https://www.bgr.com/2215112/google-pixel-adding-app-lock-feature/)
+- [Google's New Android Update Locks Apps On Pixel And Samsung Phones, Forbes](https://www.forbes.com/sites/zakdoffman/2025/12/11/googles-new-android-update-locks-apps-on-pixel-and-samsung-phones/)
+- [Samsung phones could finally get proper app lock with One UI 9.5, Android Authority](https://www.androidauthority.com/samsung-one-ui-9-5-app-lock-leak-3698657/)
+- [Galaxy phones may finally get a basic privacy feature Samsung missed, Digital Trends](https://www.digitaltrends.com/phones/galaxy-phones-may-finally-get-a-basic-privacy-feature-samsung-missed/)
+- [Samsung Is Finally Adding App Lock, Soon, Android Headlines](https://www.androidheadlines.com/2026/08/samsung-is-finally-adding-app-lock-soon-heres-how-it-works.html)
