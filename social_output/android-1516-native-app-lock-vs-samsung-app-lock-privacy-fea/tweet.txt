@@ -1,4 +1,4 @@
-Android now includes a native app lock at the system level. Here is how it compares with Samsung's App Lock on privacy and
+Samsung Secure Folder vs Google Files Safe Folder — one uses Knox hardware encryption. The other doesn't.
 
 https://frontbuffer.net/tech/android-1516-native-app-lock-vs-samsung-app-lock-privacy-fea/
 
