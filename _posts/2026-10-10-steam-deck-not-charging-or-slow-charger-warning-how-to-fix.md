@@ -2,9 +2,10 @@
 layout: single
 title: 'Steam Deck Not Charging or "Slow Charger" Warning: How to Fix It'
 date: 2026-10-10 14:56:00 +0000
+last_modified_at: 2026-10-16 00:00:00 +0000
 categories: [gaming]
 tags: ["guide", "steam", "deck", "charging"]
-excerpt: 'A "Slow Charger" warning or a battery that won''t charge usually points to the charger, cable, or dock, not the battery. Check them in this order.'
+excerpt: 'A Slow Charger warning or a Deck that won''t charge often starts with the power source. A check order based on iFixit''s guide, plus the Battery Charge Limit.'
 header:
   image: https://images.frontbuffer.net/posts/steam-deck-not-charging-or-slow-charger-warning-how-to-fix/og.png
   overlay_filter: 0
@@ -13,51 +14,63 @@ read_time: true
 share: true
 ---
 
-If your Steam Deck shows a "Slow Charger" warning or the battery percentage won't go up, the cause is usually the charger, the cable, or a dock sharing power, not the battery itself. Work through the checks below in order. Most take under a minute.
+If your Steam Deck shows a "Slow Charger" warning or the battery percentage will not climb, start with the power source. iFixit's troubleshooting guide lists a weak power source first among the causes, followed by software, the battery, the charge port and the motherboard. This guide follows that order and keeps general advice separate from what iFixit says.
 
-*Checked October 8, 2026. Menu names vary by SteamOS version.*
+*Checked October 16, 2026. Menu names vary by SteamOS version, and nothing here was tested on a Deck.*
 
 ---
 
-## What charger the Steam Deck needs
+## What charger the Deck needs
 
-Valve lists a 45W USB-C Power Delivery (PD) input for the Steam Deck, and the charger in the box is rated at 45W. According to [iFixit's Steam Deck charging guide](https://www.ifixit.com/Wiki/Steam_Deck_Not_Charging), a charger below what the Deck needs can trigger a "Slow Charge" warning, and a more powerful charger may be needed to run the system and refill the battery at the same time.
-
-A higher number on the label doesn't guarantee a fix. A phone fast-charge mode is not the same as USB-C PD, and a weak or damaged cable can limit power even with a strong charger. That is why the first tests below swap one part at a time.
+[iFixit says](https://www.ifixit.com/Wiki/Steam_Deck_Not_Charging) a Steam Deck idles at about 15 watts, so a charger has to exceed that to raise the battery level, and the charger in the box is 45 watts. Anything below that may produce a "Slow Charge" warning, and a more powerful charger may be needed to run the system and refill the battery at the same time. [Android Authority](https://www.androidauthority.com/steam-deck-charger-wattage-3339790/) says Valve's bundled USB-C charger supplies 45W, that you do not need a charger made for the Deck, and that the cable should at least be marked as USB Power Delivery. A phone fast-charge mode is a different standard from USB-C PD.
 
 ---
 
 ## Fix it in this order
 
-1. **Restart the Deck.** Hold the power button and choose Restart. This clears many temporary charging glitches.
-2. **Test the charger and cable.** iFixit suggests trying the Deck's charger on another USB-C device, or trying another charger on the Deck. Plug the supplied charger straight into the Deck, with no dock or multi-port charger in between, and see whether the warning goes away.
-3. **Check the dock.** If the warning only appears on a dock, unplug the dock and connect the charger directly. Docks and multi-port chargers can share power with connected devices, so unplug storage, Ethernet, and other accessories and test again.
-4. **Inspect the port.** Look into the USB-C port with a flashlight. Clear lint with a non-metal tool, and make sure the plug sits fully in the port.
-5. **Update SteamOS.** iFixit lists checking for a SteamOS update as a step. Update from Game Mode.
-6. **Try Battery Storage Mode.** If the earlier steps didn't help, iFixit suggests putting the Deck into Battery Storage Mode and then powering it on normally. You reach it from the Deck's Setup Utility (power off, then hold Volume Up and tap the power button), where the Power menu lists Battery Storage Mode. The exact menu names depend on the BIOS version.
-7. **Check battery health.** In Desktop Mode, click the battery icon in the lower right corner. The battery's health percentage appears below the charge level, as iFixit describes. Signs of a swollen battery, such as a gap in the case, mean you should contact Valve.
+1. **Restart the Deck.** iFixit lists this as the first basic step.
+2. **Check the charger and outlet.** Look at the LED near the charge port. iFixit suggests using the Deck's charger on another USB-C device, or another charger on the Deck, and trying a wall outlet you know works.
+3. **Try the other mode.** iFixit says to switch between Desktop Mode and Game Mode depending on where the problem happens. If it charges in the other mode, a software fault is the likely cause.
+4. **Plug the charger straight in.** This is general advice, not from iFixit: connect the supplied charger and cable directly to the Deck with no dock, hub or multi-port charger in between, so you know whether an accessory is the problem.
+5. **Inspect the port.** iFixit says to look into the USB-C port with a flashlight and, if it is clogged, use an air duster and a toothpick shaved to fit. It warns against inserting anything metal.
+6. **Update SteamOS.** iFixit says updates are installed in Game Mode and may include a fix. If no update is available, it points to Valve's guidance for reinstalling or reimaging the system.
+7. **Try Battery Storage Mode.** iFixit says putting the Deck into Battery Storage Mode and then powering it on normally resets the charging circuitry and may clear errors. See the cautions below before you use it.
+8. **Check battery health.** In Desktop Mode, click the battery icon in the lower right corner. iFixit says the battery's health percentage appears below the charge level. It lists separation of the enclosure, localized screen discoloration and bowing of the housing as signs of a swollen battery. If you see those, contact Valve.
 
 ---
 
-## If the battery stops at 80% or doesn't reach 100%
+## Battery Storage Mode: cautions
 
-- **A charge limit may be on.** SteamOS has a Battery Charge Limit setting, which Valve introduced in a SteamOS 3.7.7 beta in May 2025. An 80% limit can help long-term battery health if the Deck is docked a lot. If it stops at a steady 80%, check that setting before assuming the battery is faulty.
-- **A Deck left plugged in can sit slightly below 100%.** That is normal behavior meant to protect the battery.
-- **Gaming while charging wears the battery faster.** iFixit notes that playing while plugged in is expected but reduces battery longevity over time.
+[iFixit's guide](https://www.ifixit.com/Guide/How+to+Enable+Steam+Deck+Battery+Storage+Mode/149962) says Valve recommends this mode before repairs, and that it is also used for long-term storage. The steps it gives are:
+
+1. Power down the Deck.
+2. Hold **volume up** and press the **power** button, then release both to boot into the BIOS.
+3. Use the D-pad to move and the A button to select. Go to **Setup Utility**, then **Power**, then **Battery storage mode**, and confirm with **Yes**.
+
+In storage mode the Deck does not respond to the power button. To exit, plug it into the charger. For long-term storage, iFixit says to bring the battery to 50 to 60% first.
+
+---
+
+## If the battery stops at 80%
+
+SteamOS has a **Battery Charge Limit** control under Settings, then Power. [GamingOnLinux reports](https://www.gamingonlinux.com/2025/05/steam-deck-gets-a-battery-charge-limit-control-in-the-latest-beta/) that Valve added it in a Steam Deck beta client release on May 8, 2025, and its release notes say a limit of 80% can help long-term battery health for a Deck that is constantly charged, such as one that is docked. The control later appeared in a [SteamOS 3.7.7 beta](https://www.gamingonlinux.com/2025/05/steamos-3-7-7-beta-brings-a-battery-charge-limit-option-and-improved-lenovo-legion-go-s-support/).
+
+If the Deck stops at a steady 80%, check that setting before assuming the battery is faulty. Two user reports on Valve's SteamOS issue tracker are worth knowing. One says the [charge LED stays white at the limit instead of turning green](https://github.com/ValveSoftware/SteamOS/issues/2018). Another says the [Deck sometimes charges past the limit](https://github.com/ValveSoftware/SteamOS/issues/2674). Those are user reports, not confirmed by Valve.
+
+iFixit also notes that playing while plugged in is an expected part of using the Deck but reduces battery longevity over time.
 
 ---
 
 ## When to contact Valve
 
-If the supplied charger, connected directly, still fails after the steps above, stop swapping accessories and contact Steam Support. Don't open the Deck just to test chargers.
-
----
-
-## Takeaway
-
-Start with the supplied 45W charger plugged straight into the Deck. If the warning disappears, the dock, cable, or third-party charger was the problem. If it doesn't, work through restart, update, and Battery Storage Mode, and contact Valve if it still won't charge.
+If the supplied charger, plugged straight into the Deck, still fails after these steps, contact Steam Support. iFixit says board faults in the first year without accidental damage are rare and should be covered by warranty.
 
 ---
 Sources:
-- [iFixit — Steam Deck Not Charging](https://www.ifixit.com/Wiki/Steam_Deck_Not_Charging)
-- [Valve — Steam Deck technical specifications](https://www.steamdeck.com/en/tech)
+- [Steam Deck Not Charging, iFixit](https://www.ifixit.com/Wiki/Steam_Deck_Not_Charging)
+- [How to Enable Steam Deck Battery Storage Mode, iFixit](https://www.ifixit.com/Guide/How+to+Enable+Steam+Deck+Battery+Storage+Mode/149962)
+- [What wattage is the official Steam Deck charger, Android Authority](https://www.androidauthority.com/steam-deck-charger-wattage-3339790/)
+- [Steam Deck gets a Battery Charge Limit control in the latest Beta, GamingOnLinux](https://www.gamingonlinux.com/2025/05/steam-deck-gets-a-battery-charge-limit-control-in-the-latest-beta/)
+- [SteamOS 3.7.7 Beta brings a Battery Charge Limit option, GamingOnLinux](https://www.gamingonlinux.com/2025/05/steamos-3-7-7-beta-brings-a-battery-charge-limit-option-and-improved-lenovo-legion-go-s-support/)
+- [Charge LED does not reflect the charge limit, ValveSoftware/SteamOS issue 2018, GitHub](https://github.com/ValveSoftware/SteamOS/issues/2018)
+- [Battery Charge Limit does not always work correctly, ValveSoftware/SteamOS issue 2674, GitHub](https://github.com/ValveSoftware/SteamOS/issues/2674)
