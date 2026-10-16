@@ -1,4 +1,14 @@
-# What to Use Instead of uMatrix in 2026
+---
+layout: single
+title: 'What to Use Instead of uMatrix in 2026'
+date: 2026-10-16 14:27:00 +0000
+categories: [tech]
+tags: ["guide", "umatrix", "use", "instead"]
+excerpt: 'uMatrix is dead. In 2026, the best replacement for advanced users is uBlock Origin in advanced mode, but it only fully works on Firefox and Brave.'
+author_profile: false
+read_time: true
+share: true
+---
 
 If you used uMatrix to decide which scripts, frames and third-party domains a site may load, the practical replacement is uBlock Origin in advanced mode. The catch is that it runs fully only on some browsers, and Chrome is not one of them.
 
@@ -25,8 +35,8 @@ This works in Firefox, and in Brave while it keeps hosting the extension. The st
 2. In the dashboard's **Settings** pane, check **I am an advanced user**. The [wiki](https://github.com/gorhill/uBlock/wiki/Advanced-user-features) says this makes dynamic filtering available, and warns to enable it at your own risk because novices can easily break filtering with it.
 3. Keep uBO's filter lists enabled. The medium mode page lists EasyList, Peter Lowe's Ad server list, EasyPrivacy and the Online Malicious URL Blocklist.
 4. In the **My rules** pane, add these two rules:
-   - `* * 3p-script block`
-   - `* * 3p-frame block`
+ - `* * 3p-script block`
+ - `* * 3p-frame block`
 5. Reload a site. Third-party scripts and frames are now blocked by default, while passive third-party resources such as images and CSS are not. A blue badge on the toolbar button shows that medium mode is active.
 
 The wiki describes this as roughly similar to an ad blocker with many filter lists plus NoScript with first-party scripts trusted, with the difference that you can allow or block scripts per site by clicking.

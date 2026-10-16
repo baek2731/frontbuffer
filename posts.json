@@ -1313,6 +1313,19 @@
       "hub_cluster": "",
       "verified_keywords": [],
       "slug": "2026-10-15-how-to-stop-android-auto-from-playing-music-automatically"
+    },
+    {
+      "status": "live",
+      "date": "2026-10-16",
+      "title": "What to Use Instead of uMatrix in 2026",
+      "live_url": "https://frontbuffer.net/tech/what-to-use-instead-of-umatrix-in-2026/",
+      "categories": [
+        "tech"
+      ],
+      "content_type": "GUIDE",
+      "hub_cluster": "",
+      "verified_keywords": [],
+      "slug": "2026-10-16-what-to-use-instead-of-umatrix-in-2026"
     }
   ],
   "_last_updated": "2026-08-07T14:54:21.320932+00:00"
