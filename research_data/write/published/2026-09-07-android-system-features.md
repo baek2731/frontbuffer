@@ -1,10 +1,11 @@
 ---
 layout: single
-title: 'Google Messages Long-Press Menu Redesign: What Changed and How to Use It'
+title: 'Google Messages Long-Press Menu: What Changed and How to Use It'
 date: 2026-09-07 14:10:00 +0000
+last_modified_at: 2026-10-16 00:00:00 +0000
 categories: [tech]
-tags: ["explainer", "android", "system", "features"]
-excerpt: 'Google Messages replaced its top toolbar with a floating long-press menu in its August 2026 beta rollout. The change adds precise text copying.'
+tags: ["explainer", "android", "google-messages", "features"]
+excerpt: 'Google Messages now opens a floating menu when you long-press a message, and lets you copy just part of the text. What it holds, how to use it, and who gets it.'
 header:
  image: https://images.frontbuffer.net/posts/android-system-features/og.png
  overlay_filter: 0
@@ -13,70 +14,63 @@ read_time: true
 share: true
 ---
 
-Google Messages replaced its top toolbar with a floating long-press menu in its August 2026 beta rollout. The redesign moves common actions — Reply, Forward, Copy, Star, Delete — into a vertical list that appears closer to the thumb, reducing the distance your hand needs to travel for one-handed use.
+Long-pressing a message in Google Messages no longer opens a toolbar at the top of the screen. It opens a floating menu with the actions listed in a vertical list, and a second long-press on the text lets you copy only part of a message. Google says the redesign has officially launched, so it is no longer a beta-only feature.
+
+*Checked October 16, 2026 against press reports and Google's help page. Nothing here was tested in the app.*
 
 ---
 
-## What the Old Menu Did and Why It Changed
+## What the old menu did, and what replaced it
 
-The previous long-press menu appeared as a toolbar at the top of the screen. For users holding their phone with one hand, reaching the top of the display to tap Copy or Reply required either repositioning the phone or using two hands. As screen sizes increased, this became more noticeable.
+Before the redesign, long-pressing a message showed a toolbar at the top of the screen with three actions on the right and everything else in a three-dot overflow menu, [9to5Google reports](https://9to5google.com/2026/08/06/google-messages-menu-redesign/). That was awkward on large phones, which the redesign targets with one-handed use in mind.
 
-The floating menu addresses this by anchoring to the message being long-pressed rather than the top of the screen. The menu position varies based on where the message sits in the conversation — messages near the bottom of the screen produce a menu that appears above them, keeping it within thumb reach.
-
----
-
-## New Features in the Redesigned Menu
-
-**Precise text copying.** A second long-press on a message opens a text selection mode, letting you copy a specific phrase rather than the entire message. Previously, long-pressing copied the full message with no partial selection option.
-
-**Direct Edit access.** For RCS messages sent within the 15-minute editing window, Edit appears directly in the floating menu. The previous toolbar required tapping a three-dot overflow menu to find it.
-
-**Haptic feedback.** The redesigned menu includes haptic feedback when it opens, giving tactile confirmation without looking at the screen.
+The new menu blurs the background and shows a vertical list. For a text message the list holds Reply, Forward, Copy, Star, Delete, Select more and Info. For photos it adds Remix and Save, according to [9to5Google's first report in January](https://9to5google.com/2026/01/07/google-messages-long-press-menu/). The emoji row above the message is unchanged. If there is not enough room for the list, the selected message moves higher on the screen with a bouncy animation, and 9to5Google also noted haptic feedback when the menu opens.
 
 ---
 
-## Message Editing: What to Know
+## How to copy part of a message
 
-Google Messages allows editing sent RCS messages within 15 minutes of sending. After editing, the message displays an "Edited" label visible to the recipient. Edit history is not currently shown to recipients — only the final version of the message appears.
+Previously Copy took the whole message. After the redesign, 9to5Google describes this sequence:
 
-For conversations between Android and iPhone users using RCS (available since iOS 18), editing works within the RCS framework when both parties have RCS enabled. If the conversation falls back to SMS/MMS — which happens when RCS is unavailable on either end — editing is not possible.
-
----
-
-## Privacy Controls for Lock Screen Notifications
-
-A recurring user concern is message content appearing on the lock screen. Google Messages follows Android's notification system for this:
-
-**Settings → Notifications → Lock screen → Notifications on lock screen**
-
-Options are: Show all notification content, Hide sensitive notification content, or Don't show notifications. "Hide sensitive notification content" shows that a message arrived but not its text.
-
-Some users on Android 15 and 16 have reported that default lock screen settings don't consistently apply after system updates. If content appears despite your settings, re-toggle the option off and back on to force it to apply.
+1. Long-press a message to open the new menu.
+2. Long-press again directly on the text in that message.
+3. Drag the selection handles to highlight the part you want.
+4. In the box that appears, choose Copy, Translate or Select All.
 
 ---
 
-## Storage Management in Google Messages
+## Editing a sent message
 
-Google Messages stores photos and videos received in conversations locally. There's no automatic deletion for old threads, but you can manage storage manually:
+Google's [help page for updating a sent message](https://support.google.com/messages/answer/14929292?hl=en) says you can edit an RCS, SMS or MMS message after sending it, in the app only, and that the ability expires after 15 minutes. An "Edited" label appears above the message for both the sender and the recipient. On SMS, the recipient gets another message starting with an asterisk. Editing also works in one-on-one chats with iPhone users who have RCS turned on.
 
-- **Free up space:** Tap your profile photo → Manage storage → Storage usage shows which conversations use the most space
-- **Delete media from a thread:** Open the conversation → tap the contact name → View media → select items → Delete
-- **Auto-delete OTP messages:** Settings → Message organization → Auto-delete OTPs — removes one-time password messages after 24 hours
+The help page still tells you to touch and hold a sent message and tap Edit at the top of the screen. One outlet, [The Tech Basket](https://www.thetechbasket.com/google-messages-update/), says Google's announcement lists editing a recently sent message in the new menu. Which one you see may depend on whether the redesign has reached your app.
 
 ---
 
-## How to Get the Redesigned Menu
+## New swipe gestures in the same rollout
 
-The floating long-press menu is rolling out through the Google Messages beta program as of August 2026. To access it:
+[gHacks](https://www.ghacks.net/2026/09/26/google-messages-adds-a-floating-long-press-menu-and-new-swipe-gestures-for-timestamps-and-replies/) and [Android Central](https://www.androidcentral.com/apps-software/google-messages-gets-a-major-gesture-and-menu-refresh) report two gestures arriving alongside the menu. Swiping left in a conversation shows message timestamps, and Android Central adds the RCS encryption status. Swiping right on a specific bubble replies to that message.
 
-1. Open Google Play Store → search Google Messages
-2. Scroll to "Join the beta" and tap **Join**
-3. Update Google Messages after joining
+---
 
-Beta features roll out gradually — joining the beta doesn't guarantee immediate access, but most beta users receive the update within a few days of joining.
+## When you get it
+
+The timeline from the reports:
+
+- **January 2026:** testing began with a beta build, per 9to5Google.
+- **August 6:** 9to5Google saw the redesign expand in the beta, in build 20260731_00_RC00, through a server-side update.
+- **September:** users reported it on the stable app. [Android Headlines](https://www.androidheadlines.com/2026/09/google-messages-finally-rolls-out-a-handy-new-long-press-menu.html) cites stable build v20260903_04.
+- **September 30:** [9to5Google reports](https://9to5google.com/2026/10/01/google-messages-long-press-menu-wide/) that Google announced the redesign has officially launched.
+
+Because the rollout is server-side, updating Google Messages from the Play Store may not show the new menu right away. Since the feature has reached the stable app, joining the beta is not needed for it. If you do not see the menu yet, check back after updating the app.
 
 ---
 Sources:
-- [9to5Google — Google Messages long-press menu redesign](https://9to5google.com/2026/08/google-messages-long-press-menu-redesign/)
-- [Android Authority — Google Messages one-handed use](https://www.androidauthority.com/google-messages-long-press-menu-3400000/)
-- [Google — Change Messages notifications & settings](https://support.google.com/messages/answer/7189714)
+- [Google Messages rolls out new long-press menu with partial copying, 9to5Google](https://9to5google.com/2026/10/01/google-messages-long-press-menu-wide/)
+- [Google Messages rolling out long-press menu redesign with precise copying, 9to5Google](https://9to5google.com/2026/08/06/google-messages-menu-redesign/)
+- [Google Messages getting new long-press menu for texts, images, 9to5Google](https://9to5google.com/2026/01/07/google-messages-long-press-menu/)
+- [Update a sent message, Google Messages Help](https://support.google.com/messages/answer/14929292?hl=en)
+- [Google Messages Adds a Floating Long-Press Menu and New Swipe Gestures, gHacks](https://www.ghacks.net/2026/09/26/google-messages-adds-a-floating-long-press-menu-and-new-swipe-gestures-for-timestamps-and-replies/)
+- [Google Messages gets a major gesture and menu refresh, Android Central](https://www.androidcentral.com/apps-software/google-messages-gets-a-major-gesture-and-menu-refresh)
+- [Google Messages Finally Rolls Out a Handy New Long-Press Menu, Android Headlines](https://www.androidheadlines.com/2026/09/google-messages-finally-rolls-out-a-handy-new-long-press-menu.html)
+- [Google Messages Update: Partial Copy, New Menu and Games, The Tech Basket](https://www.thetechbasket.com/google-messages-update/)

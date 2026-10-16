@@ -4,7 +4,7 @@ title: 'How to install IKEA-themed mods for Skyrim Anniversary Edition'
 date: 2026-09-29 14:42:00 +0000
 categories: [gaming]
 tags: ["guide", "skyrim", "mods", "anniversary-edition"]
-excerpt: 'Installing IKEA-style furniture mods on Skyrim Anniversary Edition takes a mod manager, a version check, and a few dependencies. Here is the step-by-step setup.'
+excerpt: 'Installing IKEA-style furniture mods on Skyrim Anniversary Edition takes a mod manager, a version check, and a few dependencies.'
 header:
   image: https://images.frontbuffer.net/posts/how-to-install-ikea-themed-mods-for-skyrim-anniversary-editi/og.png
   overlay_filter: 0

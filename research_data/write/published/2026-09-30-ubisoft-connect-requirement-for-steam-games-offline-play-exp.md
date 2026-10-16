@@ -4,7 +4,7 @@ title: 'Ubisoft Connect requirement for Steam games: offline play explained'
 date: 2026-09-30 14:59:00 +0000
 categories: [gaming]
 tags: ["explainer", "ubisoft", "steam", "offline"]
-excerpt: 'Ubisoft games bought on Steam still launch through Ubisoft Connect. Here is why, what offline mode covers, and how to prepare before you lose your connection.'
+excerpt: 'Ubisoft games bought on Steam still launch through Ubisoft Connect. Here is why, what offline mode covers, and how to prepare before you lose.'
 header:
   image: https://images.frontbuffer.net/posts/ubisoft-connect-requirement-for-steam-games-offline-play-exp/og.png
   overlay_filter: 0

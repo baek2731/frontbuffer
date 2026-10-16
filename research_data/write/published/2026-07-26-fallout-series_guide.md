@@ -1,7 +1,8 @@
 ---
 layout: single
-title: 'Fallout New Vegas Modding Guide: Essential Quality of Life and Content Mods'
+title: 'Fallout New Vegas Modding Guide: Essential Quality-of-Life Mods'
 date: 2026-07-26 14:13:00 +0000
+last_modified_at: 2026-10-16 00:00:00 +0000
 categories: [gaming]
 tags: ["fallout new vegas mods", "viva new vegas guide", "new vegas modding 2026", "fallout mod list"]
 excerpt: 'Fallout: New Vegas shipped with significant bugs and no sprint mechanic. A decade later, the modding community has fixed both - here is where to start.'
@@ -13,59 +14,67 @@ read_time: true
 share: true
 ---
 
-*Fallout: New Vegas* shipped with significant bugs, no sprint mechanic, and load screens that cut the Strip into pieces. A decade of modding has fixed all of it. The question is which mods to use and in what order — installing the wrong ones, or in the wrong sequence, will break the game faster than the vanilla bugs ever did.
+*Fallout: New Vegas* shipped with significant bugs and no sprint mechanic, and a long-running modding scene has addressed both. The question is where to start. This article follows the Viva New Vegas guide, which tells you to read everything and follow it in order. Its introduction says you cannot skip paragraphs or instructions and expect the game to work as it should.
+
+*Checked October 16, 2026 against the guide's own pages. Nothing here was tested in the game.*
 
 ---
 
-## Start with Viva New Vegas
+## What Viva New Vegas is
 
-[Viva New Vegas](https://vivanewvegas.moddinglinked.com/) is the standard starting point for a modern, stable *New Vegas* installation. It is a structured guide — not a mod pack — that walks through bug fixes, stability patches, quality-of-life improvements, and optional content additions in a specific order. Following it produces a game that feels close to what the developers intended, with sprint, quick looting, and the major crash sources removed.
+[Viva New Vegas](https://vivanewvegas.moddinglinked.com/intro.html) (VNV) is a modding guide, not a mod pack. It walks you through installing the mods for a stable, smooth experience. The guide is split into two sections:
 
-Key additions in the VNV baseline:
-- **Sprint mechanic** — not in vanilla, included via VNV's recommended mods
-- **Quick looting** — streamlines container and corpse looting significantly
-- **Stability patches** — fixes the infinite load screens that occur in specific areas, including parts of the Strip and Freeside
+- **The base guide** contains the mods the game needs in order to work and perform better. Its pages cover utilities, bug fixes and a base finish step.
+- **VNV Extended** contains the subjective mods that change or add content, and it is fully modular, so you can skip parts you do not want.
 
-For users who don't want to follow the guide step by step, [Wabbajack](https://www.wabbajack.org/) can automate the installation of VNV-compatible mod lists. A Nexus Mods premium subscription speeds up the download process considerably.
+The guide also has a [Wabbajack page](https://vivanewvegas.moddinglinked.com/wabbajack.html) for automated installation instead of the manual step-by-step setup.
 
-**Important:** Mods that introduce major overhauls require starting a new game. Loading existing saves after significant mod additions frequently causes crashes and corrupted saves.
+**What you need first, per the guide's introduction:**
 
----
-
-## Content and Immersion Mods
-
-Once the VNV foundation is in place, additional mods can expand the experience.
-
-**Strip and Freeside access**
-The original Strip is split across multiple load screens to manage performance. "Simple Open Strip" is the recommended option for reducing these — it is more stable than "Strip Open" or "Freeside Open," both of which have documented compatibility issues and are not recommended in comprehensive guides including VNV.
-
-**Power armor**
-"Titans of the West" reworks power armor to feel more like its lore description — heavier, more imposing, and mechanically distinct from regular armor. Frequently cited as one of the mods that most changes how the late game feels.
-
-**Freeside atmosphere**
-"This is Freeside" expands the area with additional NPCs and ambient detail, making it feel more like a functioning district rather than a loading screen between the Strip and the rest of the map.
-
-**VR**
-A dedicated *Fallout: New Vegas* VR mod exists on Nexus Mods. Combined with proper motion controls, it significantly changes the feel of exploration and combat. Performance demands are higher, and compatibility with other mods requires careful testing.
-
-**Josh Sawyer's balance mod**
-JSawyer Ultimate Edition is a rebalancing overhaul created by *New Vegas*'s original director. It addresses economy, difficulty scaling, and some equipment stats. It aligns closely with the design intent VNV tries to preserve, and many players run it alongside VNV's recommendations.
+- An English copy of the game with all DLCs from Steam, GOG or the Epic Games Store. The Microsoft Store versions are not supported.
+- Windows 10 or higher, 64-bit, and at least 19GB of free drive space with the game included, or 17GB if you delete the downloads afterward.
+- A Nexus Mods account. A Premium subscription allows uncapped download speeds.
+- A text editor, an archiving tool and the latest GPU drivers.
 
 ---
 
-## The Short Version
+## Where sprint and quick looting come from
 
-Install Viva New Vegas first. Follow the guide in order. Do not skip the stability patches. Everything else — sprint, quick loot, open Strip, power armor overhaul — goes on top of that foundation. Building a mod list from scratch without it is how you end up with infinite load screens three hours in.
+Sprint and quick looting are not in the vanilla game, and in VNV they sit in the optional Extended section. The guide's [Gameplay page](https://vivanewvegas.moddinglinked.com/gameplay.html) lists:
+
+- **JAM (Just Assorted Mods).** It adds configurable modern features. VNV's preset uses a dynamic crosshair, hit markers, hit indicators, a Fallout 4-style loot menu that opens when you look at a container, and a quick-use wheel. JAM's own sprinting is disabled by default in that preset because Enhanced Movement replaces it.
+- **Enhanced Movement.** A movement expansion with enhanced sprint, enhanced sneak and leaning. The guide gives recommended settings for sprint speed bonus, agility speed bonus and action point cost.
+
+The same page lists several smaller additions, including Manual Reload and Ammo Memory, Cookable Grenades, Faster Sleep-Wait, an Auto-Save Manager and Better Caravan.
 
 ---
 
-For context on the confirmed *New Vegas* remaster, see [Fallout New Vegas vs. Fallout 3 Remaster](https://frontbuffer.net/gaming/fallout-series_comparison/). For a breakdown of New Vegas's faction endings before starting a modded playthrough, see [Fallout New Vegas Endings Explained](https://frontbuffer.net/gaming/fallout-series_explainer/).
+## Content and balance mods
+
+The guide's [Content page](https://vivanewvegas.moddinglinked.com/content.html) lists The Living Desert, which adds hundreds of new NPCs and scripted events, Better Brotherhood, and Goodies, a collection of restored content, consistency fixes and gray-area bug fixes.
+
+For balance, the guide recommends **Agua Fria - JSawyer Redone**, which it describes as a reworked version of the original JSawyer rebalance. It lists lower starting Health and Carry Weight, slower leveling, a lower level cap and a rebalanced Hardcore mode among its changes. The introduction calls it not recommended for first-time players.
+
+Other well-known mods, such as open-Strip or power-armor overhauls, are not part of the guide. Their installation order and compatibility with the VNV setup are not covered by the sources checked, so test them yourself and read each mod's page before adding them.
+
+---
+
+## The remaster
+
+On July 17, 2026, Bethesda Game Studios confirmed that it has been working on remasters for both Fallout 3 and Fallout: New Vegas, as [GamesRadar reported](https://www.gamesradar.com/games/fallout/fallout-3-and-fallout-new-vegas-are-both-getting-remasters-bethesda-announces/), without announcing dates. [VGC adds](https://www.videogameschronicle.com/news/fallout-3-and-new-vegas-remasters-now-in-development/) that no gameplay footage or screenshots were shown. The sources checked do not mention mod support, so this guide applies to the original game. For more on the announcement, see [Fallout New Vegas vs. Fallout 3 Remaster](https://frontbuffer.net/gaming/fallout-series_comparison/).
+
+---
+
+## The short version
+
+Follow Viva New Vegas in the order it gives, and do not skip the base section. Treat sprint, quick looting and the content mods as optional layers from VNV Extended. If you want to know how your choices matter in the story before you start, see [Fallout New Vegas Endings Explained](https://frontbuffer.net/gaming/fallout-series_explainer/).
 
 ---
 
 Sources:
-- [Viva New Vegas Official Guide](https://vivanewvegas.moddinglinked.com/)
-- [Wabbajack Official Website](https://www.wabbajack.org/)
-- [Titans of the West — Nexus Mods](https://www.nexusmods.com/newvegas/mods/62811)
-- [This is Freeside — Nexus Mods](https://www.nexusmods.com/newvegas/mods/72147)
-- [Fallout New Vegas VR — Nexus Mods](https://www.nexusmods.com/newvegas/mods/73772)
+- [Viva New Vegas, Introduction](https://vivanewvegas.moddinglinked.com/intro.html)
+- [Viva New Vegas, Gameplay](https://vivanewvegas.moddinglinked.com/gameplay.html)
+- [Viva New Vegas, Content](https://vivanewvegas.moddinglinked.com/content.html)
+- [Viva New Vegas, Wabbajack](https://vivanewvegas.moddinglinked.com/wabbajack.html)
+- [Fallout 3 and Fallout: New Vegas are both getting remasters, GamesRadar](https://www.gamesradar.com/games/fallout/fallout-3-and-fallout-new-vegas-are-both-getting-remasters-bethesda-announces/)
+- [Fallout 3 and New Vegas remasters now in development, VGC](https://www.videogameschronicle.com/news/fallout-3-and-new-vegas-remasters-now-in-development/)

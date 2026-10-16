@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Google Photos Free Storage Policy Changes Explained: Impact on Existing Libraries'
+title: 'Google Photos Free Storage Policy: What Changed for Your Library'
 date: 2026-07-21 14:49:00 +0000
 categories: [tech]
 tags: ["explainer", "android", "ecosystem"]

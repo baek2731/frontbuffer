@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'How to Transfer Samsung Health Data to a New Phone Without Losing Records'
+title: 'How to Transfer Samsung Health Data to a New Phone Without Loss'
 date: 2026-07-22 14:03:00 +0000
 categories: [tech]
 tags: ["guide", "android", "ecosystem"]

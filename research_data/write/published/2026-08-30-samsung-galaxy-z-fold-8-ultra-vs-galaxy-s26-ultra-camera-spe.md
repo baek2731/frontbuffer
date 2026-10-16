@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Samsung Galaxy Z Fold 8 Ultra vs Galaxy S26 Ultra: Camera Specs Compared'
+title: 'Galaxy Z Fold 8 Ultra vs Galaxy S26 Ultra: Camera Specs Compared'
 date: 2026-08-30 14:07:00 +0000
 categories: [tech]
 tags: ["comparison", "samsung", "galaxy", "hardware"]
