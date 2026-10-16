@@ -83,3 +83,16 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor/
+  # 내부 도구·데이터는 사이트에 공개하지 않음 (ads.txt, robots.txt, IndexNow 키 파일은 공개 유지)
+  - social_output/
+  - "*.py"
+  - README.md
+  - temp_check.md
+  - "적용_가이드.md"
+  - excerpts.txt
+  - config.json
+  - posts.json
+  - content_pipeline.json
+  - adsense_audit_report.json
+  - step1_research.yml
+  - step4_check.yml
