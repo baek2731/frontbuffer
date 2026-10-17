@@ -1,4 +1,14 @@
-# September 2026 Pixel Drop: What's New and Who Gets It
+---
+layout: single
+title: 'September 2026 Pixel Drop: What''s New and Who Gets It'
+date: 2026-10-17 14:30:00 +0000
+categories: [tech]
+tags: ["explainer", "pixel", "drop", "september"]
+excerpt: 'Get the scoop on the September 2026 Pixel Drop! See new features like updated VIPs widget, Scam Detection, Watch improvements & Harry Potter themes.'
+author_profile: false
+read_time: true
+share: true
+---
 
 The September 2026 Pixel Drop is a small one. Google says it brings an updated Pixel VIPs widget, expanded chat Scam Detection, Pixel Watch improvements and Harry Potter themes. Android Authority describes it as [essentially Android 17 QPR1 going stable for Pixel devices](https://www.androidauthority.com/pixel-drop-september-2026-all-new-features-3711242/), with Pixel-specific features added on top. Google announced it on [September 15, 2026](https://blog.google/products-and-platforms/devices/pixel/september-2026-pixel-drop/), and several features depend on your Pixel model and country, so check what applies before looking for a setting that is not there.
 
