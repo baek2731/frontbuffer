@@ -5,6 +5,9 @@ date: 2026-10-17 14:30:00 +0000
 categories: [tech]
 tags: ["explainer", "pixel", "drop", "september"]
 excerpt: 'Get the scoop on the September 2026 Pixel Drop! See new features like updated VIPs widget, Scam Detection, Watch improvements & Harry Potter themes.'
+header:
+  image: https://images.frontbuffer.net/posts/september-2026-pixel-drop-whats-new-and-who-gets-it/og.png
+  overlay_filter: 0
 author_profile: false
 read_time: true
 share: true
