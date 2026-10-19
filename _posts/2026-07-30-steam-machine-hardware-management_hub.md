@@ -30,6 +30,8 @@ The patterns below come from Valve's support page as [reported by The FPS Review
 
 [Mezha reports](https://mezha.ua/en/news/valve-steam-machine-bios-red-indicator-313196/) that Valve's page also defines a GPU failure code, with the right half of the bar pulsing red and the indicator LED solid red.
 
+One caution before you match a pattern. In a reply to an owner, Valve said that due to a miscommunication the front panel code is flipped horizontally out of the box. Left and right in the table may therefore appear mirrored on your machine. Valve's reply does not say whether every unit is affected, and no fix for the panel turned up in the sources checked.
+
 ## Solid red: a threshold that fires too early
 
 Valve's support told an owner that [a known BIOS issue makes the red LED appear much earlier than it should](https://www.tomshardware.com/pc-components/cooling/valve-confirms-steam-machine-red-light-overheating-warning-is-showing-earlier-than-it-should-bios-fix-on-the-way-will-raise-temperature-warning-threshold-to-100-degrees-celsius). A planned BIOS update would move the warning to 100°C for both CPU and GPU, replacing 95°C and 90°C. [VideoCardz](https://videocardz.com/newz/valve-to-raise-steam-machine-red-led-warning-to-100c-with-bios-update) adds that Valve says the machine begins reducing performance at 100°C, so after the change the red bar would show up when throttling begins.
@@ -42,7 +44,7 @@ The overheating guide covers how to tell a false alarm from a real thermal probl
 
 ## Pulsing red: faults and the CMOS reset
 
-For owners whose machines showed a red line and would not boot, Valve's support pointed to a CMOS reset. The FPS Review quotes the steps: hold the power button for about six seconds until the power indicator LED flashes, release it, let the LED cycle through colors, and short-press the button when it turns green. Mezha adds that the machine should first be unplugged, the power button pressed a few times to discharge it, and the machine plugged back in. It also reports that Valve's support said the problem most likely occurs during or after a BIOS update.
+For owners whose machines showed a red line and would not boot, Valve's support pointed to a CMOS reset. The FPS Review quotes the steps: hold the power button for about six seconds until the power indicator LED flashes, release it, let the LED cycle through colors, and short-press the button when it turns green. Mezha adds that the machine should first be unplugged, the power button pressed a few times to discharge it, and the machine plugged back in. It also reports that Valve's support said the problem most likely occurs during or after a BIOS update, which fits the flipped-panel note above: a pattern first read as a GPU error was more likely a memory training problem.
 
 The LED code guide covers each pattern in more detail.
 
