@@ -1,4 +1,14 @@
-# Samsung Health Not Syncing: Last Synced Date and Fixes
+---
+layout: single
+title: 'Samsung Health Not Syncing: Last Synced Date and Fixes'
+date: 2026-10-19 14:18:00 +0000
+categories: [tech]
+tags: ["guide", "samsung", "health", "syncing", "fixes"]
+excerpt: 'Samsung Health not syncing? Fix old "Last synced" dates, missing data, or app issues. Troubleshoot Samsung account, Health Connect, and watch sync'
+author_profile: false
+read_time: true
+share: true
+---
 
 If Samsung Health shows an old "Last synced" date, or your data is missing on a new phone or in another app, first work out which sync is failing. Samsung Health has two separate ones: a sync with your Samsung account that backs data up and restores it on other devices, and a sync with Health Connect that shares data with other apps on the same phone. A watch also feeds the phone separately. The fixes differ for each, and most of the steps below come from Samsung support pages and from replies by Samsung staff on Samsung's community forums.
 
