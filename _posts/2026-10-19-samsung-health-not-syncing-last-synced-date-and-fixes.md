@@ -5,6 +5,9 @@ date: 2026-10-19 14:18:00 +0000
 categories: [tech]
 tags: ["guide", "samsung", "health", "syncing", "fixes"]
 excerpt: 'Samsung Health not syncing? Fix old "Last synced" dates, missing data, or app issues. Troubleshoot Samsung account, Health Connect, and watch sync'
+header:
+  image: https://images.frontbuffer.net/posts/samsung-health-not-syncing-last-synced-date-and-fixes/og.png
+  overlay_filter: 0
 author_profile: false
 read_time: true
 share: true
