@@ -1,4 +1,4 @@
-Sunshine runs on your PC as the host and Moonlight runs on your Android tablet as the client. Here is how to set up and pair
+Sunshine runs on your gaming PC and Moonlight on your Android tablet. Install both, pair them with a PIN, and fix choppy video, black…
 
 https://frontbuffer.net/gaming/portable-gaming_guide/
 
