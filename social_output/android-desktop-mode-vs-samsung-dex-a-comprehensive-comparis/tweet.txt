@@ -1,4 +1,4 @@
-Samsung introduced DeX with the Galaxy S8 in 2017. Here is how Android's native desktop mode compares with DeX
+Android 16 desktop windowing reached general availability in March 2026, and Samsung DeX has run since the Galaxy S8. How they compare on…
 
 https://frontbuffer.net/tech/android-desktop-mode-vs-samsung-dex-a-comprehensive-comparis/
 
