@@ -1,4 +1,4 @@
-Games like Alan Wake 2 and Cyberpunk 2077: Phantom Liberty showed that VRAM can limit performance even at 1080p. Here is how much you
+VRAM is your graphics card's own memory. What it does, how much 1080p, 1440p and 4K need based on TechSpot's testing, and how the RTX 50…
 
 https://frontbuffer.net/gaming/what-is-vram-and-how-much-do-you-need-for-pc-gaming-in-2026/
 
