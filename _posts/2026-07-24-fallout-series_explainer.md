@@ -2,9 +2,10 @@
 layout: single
 title: 'Fallout New Vegas Endings Explained: How Your Choices Matter'
 date: 2026-07-24 14:40:00 +0000
+last_modified_at: 2026-10-16 00:00:00 +0000
 categories: [gaming]
 tags: ["fallout new vegas endings", "fallout new vegas factions", "new vegas player choice", "obsidian rpg"]
-excerpt: 'Fallout: New Vegas has four main endings — NCR, Legion, Mr. House, and Independent — and which one you get depends on late-game choices.'
+excerpt: 'Fallout: New Vegas has four main outcomes and dozens of ending slides. Which ones you get depends on the final quest you pick and what you did before.'
 header:
   image: https://images.frontbuffer.net/posts/fallout-series_explainer/og.png
   overlay_filter: 0
@@ -13,62 +14,62 @@ read_time: true
 share: true
 ---
 
-*Fallout: New Vegas* has four main endings, and which one you get depends on decisions made hours — sometimes dozens of hours — before the final battle at Hoover Dam. The factions, companion quests, and reputation systems all feed into a finale that plays out differently depending on how you've played. Here is how the major choices shape the Mojave's fate.
+*Fallout: New Vegas* has four main outcomes for Hoover Dam, and the ending slideshow that follows also covers dozens of companions, towns and factions, each with its own conditions. The main outcome is set by which of four final quests you complete. The rest of the slideshow depends on choices you made earlier. This guide covers both.
+
+*The details below come from the [Fallout Wiki's page on the endings](https://fallout.fandom.com/wiki/Fallout:_New_Vegas_endings), which transcribes the in-game slides and their conditions. It is a community-maintained wiki, and nothing here was tested in the game.*
 
 ---
 
-## The Four Factions
+## The four main outcomes
 
-**New California Republic (NCR)** — a democratic federal republic descended from the survivors of Vault 15 and Shady Sands. Bureaucratic, overstretched, but broadly committed to law and civilian infrastructure. Their interest in the Mojave centers on Hoover Dam's power output. Siding with the NCR means backing an imperfect institution in exchange for relative stability.
+| Outcome | Final quest (per the wiki) | What happens at Hoover Dam |
+|---|---|---|
+| **NCR** | Eureka! | The NCR wins the second battle and takes control of the Mojave, then arranges to annex the Strip and Freeside |
+| **Mr. House** | All or Nothing | His Securitron army takes the dam and the Strip and pushes out both the Legion and the NCR |
+| **Caesar's Legion** | Veni, Vidi, Vici | The Legion pushes the NCR out and occupies New Vegas. The tone depends on whether Caesar is alive (see below) |
+| **Independent** | No Gods, No Masters | You drive out both armies and the city stands on its own. The result depends on the Securitron army (see below) |
 
-**Caesar's Legion** — an expansionist empire built on slavery and conquest, modeled loosely on ancient Rome. Led by Caesar (Edward Sallow, a former NCR academic who studied tribal societies). The Legion eliminates drug use, banditry, and corruption through absolute control — and eliminates most other things too. The ending for Legion territory is orderly and brutal.
+Two of these have a built-in variation:
 
-**Mr. House** — Robert Edwin House, pre-war CEO of RobCo Industries, preserved in a life-support chamber beneath the Lucky 38. He spent decades preparing for the war and has been running New Vegas through a network of Securitron robots ever since. House's vision is technological progress under his singular authority — no democracy, no religion, no ideology competing with his long-range plan for humanity.
+- **Legion: Caesar alive or dead.** If Caesar survives the quest *Et Tumor, Brute?*, the Legion's slide shows Caesar entering the Strip in triumph, with much of the population enslaved. If he dies there, the slide shows his Legate crowned as the new Caesar, destroying anyone who resists and killing and enslaving a large part of the population.
+- **Independent: the Securitron army.** If you finish the Independent route without upgrading the Securitron army, the slide describes anarchy in the streets before the city settles. If you upgrade it, part of the army keeps order and the slide describes minimal loss of life.
 
-**Independent (Yes Man)** — the Courier takes control of the Mojave directly, using Yes Man, a reprogrammed Securitron hardwired to follow the Courier's instructions. The outcome depends entirely on what you've done throughout the game. Yes Man's ending is the most variable and the most reliant on the player's prior choices about factions and settlements.
-
----
-
-## How the Ending Is Actually Determined
-
-The game reaches a point of no return at the Second Battle of Hoover Dam. Before that point, completing major faction quests locks in your allegiance — "The House Always Wins V" for Mr. House, "Render Unto Caesar" for Legion, "For the Republic, Part 2" for NCR. Completing one of these often triggers hostile responses from the other factions.
-
-The ending slides that play after the credits cover more than just the main faction. They track what happened to:
-- Individual settlements (Goodsprings, Novac, Freeside, the Strip)
-- Companion characters (each has an independent ending based on their quest completion and your choices)
-- Minor factions (Boomers, Followers of the Apocalypse, Great Khans, Brotherhood of Steel)
-
-A Courier who sides with Mr. House but never helped Goodsprings, let Arcade Gannon get captured by the Legion, and wiped out the Followers will get a substantially different slide sequence than one who did the same main quest with opposite companion and settlement outcomes.
+The ending also depends on your karma. A separate slide about the Courier has fifteen versions, one for each combination of karma and outcome, such as being honored by the NCR with the Golden Branch, or by Caesar with a golden coin.
 
 ---
 
-## Choices That Matter More Than They Look
+## How choices before the end change the other slides
 
-**Caesar's survival or death.** If you kill Caesar during "Et Tumor, Brute?" before the final battle, the Legion becomes more unstable — Legate Lanius takes full command, and the post-game slides note the Legion's long-term fragmentation without Caesar's unifying ideology. Some players consider this the actual worst outcome for the Mojave even among Legion-adjacent runs.
+After the main outcome, the game plays slides for companions, towns and groups. Many have conditions that tie to the final quest you picked and to earlier quests. Examples from the wiki:
 
-**Arcade Gannon.** Selling him to the Legion during his companion quest sends him into slavery and torture. The community consistently marks this as one of the most consequential bad choices — not because it changes the main ending, but because the slide sequence is explicit about what happens to him.
-
-**Bitter Springs.** During "Eye for an Eye," you can support the Legion's attack on a refugee camp. With Boone in the party, this triggers a direct confrontation with his trauma — he was involved in the original Bitter Springs Massacre. The game doesn't penalize you mechanically, but it forces the scene.
-
-**The Followers of the Apocalypse.** Depending on your ending choice and faction reputation, the Followers either continue operating across the wasteland or get expelled. Their post-game slide is one of the few that can be positive or negative regardless of your main faction choice.
-
----
-
-## The Ending You Actually Get
-
-The ending isn't determined at Hoover Dam — it's the sum of who you sided with, which companions you completed quests for, which settlements you helped or ignored, and whether you let Caesar live long enough for his Legion to show structural cracks. That's what makes replaying it worthwhile: the Mojave is different every time, because the decisions that shaped it were different every time.
+- **The Followers of the Apocalypse.** On the Legion route, they are allowed to leave if Caesar is alive and are exterminated if he is dead. On the NCR route, the outcome depends on whether you convinced them to support the NCR. On the Independent route, they are overwhelmed by patients.
+- **The Boomers.** Whether you completed *Volare!* changes their slide under each outcome. For example, if you did not complete it and the Legion wins, they are enslaved. If you did and the Legion wins, Caesar leaves them alone.
+- **The Brotherhood of Steel.** Destroying the Hidden Valley bunker gives a slide that overrides the others and ends the Mojave chapter.
+- **Arcade Gannon.** If you sell him into slavery as Caesar's doctor during *Et Tumor, Brute?* and the Legion wins, his slide ends in his death. A different slide plays if Caesar died first, and another if the Independent route wins. Otherwise, his slide depends on the quest *For Auld Lang Syne* and the advice you gave him.
+- **Craig Boone.** The quest *I Forgot to Remember to Forget* decides whether you convince him to make amends over Bitter Springs or leave him vengeful, and each choice changes his slide under every outcome.
+- **Companions who die.** Dying overrides the other endings for Raul, Veronica, Arcade and several others, according to the wiki's notes.
+- **Towns.** Goodsprings, Novac and Primm each have slides tied to local quests and to the final quest. For example, Primm's slide depends on who you made sheriff.
 
 ---
 
-For context on the confirmed remasters of *New Vegas* and *Fallout 3*, see [Fallout New Vegas vs. Fallout 3 Remaster](https://frontbuffer.net/gaming/fallout-series_comparison/). For a modding guide before starting a playthrough, see [Fallout New Vegas Modding Guide](https://frontbuffer.net/gaming/fallout-series_guide/).
+## Can you keep playing after the ending?
+
+No. The wiki says the game ends after the slides and cannot be continued, so the options are to reload a recent save or start a new game. Plan for this before the second battle of Hoover Dam. The downloadable expansions have their own endings, listed on the wiki's separate pages.
+
+One trivia point from the same page: the slideshow format came from Josh Sawyer, who thought it was easier than making videos in the engine.
+
+---
+
+## What to plan around
+
+- **If you want the Legion route,** decide what happens to Caesar before you start *Et Tumor, Brute?*, because it changes the Legion slide and several others.
+- **If you care about a particular companion,** check their quest conditions before the final quest, since some slides depend on their personal quest.
+- **If you want the Independent route,** decide whether to upgrade the Securitron army, because it changes the main slide.
+- **If you want to save a faction,** note which of its quests control its slide. The Boomers and the Brotherhood are the clearest cases.
+
+For context on the confirmed remasters, see [Fallout New Vegas vs. Fallout 3 Remaster](https://frontbuffer.net/gaming/fallout-series_comparison/). For a modded playthrough, see [our modding guide](https://frontbuffer.net/gaming/fallout-series_guide/).
 
 ---
 
 Sources:
-- [Fallout Wiki — Fallout New Vegas endings](https://fallout.fandom.com/wiki/Fallout:_New_Vegas_endings)
-- [Fallout Wiki — New California Republic](https://fallout.fandom.com/wiki/New_California_Republic)
-- [Fallout Wiki — Caesar's Legion](https://fallout.fandom.com/wiki/Caesar%27s_Legion)
-- [Fallout Wiki — Robert House](https://fallout.fandom.com/wiki/Robert_House)
-- [Fallout Wiki — Yes Man](https://fallout.fandom.com/wiki/Yes_Man)
-- [Fallout Wiki — Arcade Gannon](https://fallout.fandom.com/wiki/Arcade_Gannon)
-- [Fallout Wiki — Reputation](https://fallout.fandom.com/wiki/Reputation_(Fallout:_New_Vegas))
+- [Fallout: New Vegas endings, Fallout Wiki](https://fallout.fandom.com/wiki/Fallout:_New_Vegas_endings)

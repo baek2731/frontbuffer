@@ -123,6 +123,15 @@ def categories_of(fm):
     return [unquote(c) for c in raw.split(",") if c.strip()]
 
 
+def jekyll_slug(fname):
+    """Jekyll 의 :title(pretty 모드) 슬러그: 소문자, 허용 문자 외에는 '-', 앞뒤 '-' 제거."""
+    slug = re.sub(r"^\d{4}-\d{2}-\d{2}-", "", fname)
+    if slug.endswith(".md"):
+        slug = slug[:-3]
+    slug = re.sub(r"[^\w.~!$&'()+,;=@]+", "-", slug.lower())
+    return slug.strip("-")
+
+
 def post_url(base, fname, fm):
     perm = unquote(fm.get("permalink", ""))
     if perm:
@@ -130,8 +139,7 @@ def post_url(base, fname, fm):
     cats = categories_of(fm)
     if not cats:
         return ""
-    slug = re.sub(r"^\d{4}-\d{2}-\d{2}-", "", fname)[:-3]
-    return "%s/%s/%s/" % (base, "/".join(cats), slug)  # Jekyll :categories 는 여러 개면 / 로 이어 붙임
+    return "%s/%s/%s/" % (base, "/".join(cats), jekyll_slug(fname))  # Jekyll :categories 는 여러 개면 / 로 이어 붙임
 
 
 def read_base_url():

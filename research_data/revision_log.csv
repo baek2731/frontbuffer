@@ -8,19 +8,19 @@
 2026-07-20-google-chrome-manifest-v2-migration_HUB.md,verified,Five,,전달 완료. 푸시·OG 대기 확인 필요,671
 2026-07-20-what-is-chrome-manifest-v3-and-why-extensions-break.md,verified,Chrome1,,전달 완료. 푸시 전,812
 2026-07-21-android-ecosystem_comparison.md,verified,Five,,전달 완료. 푸시·OG 대기 확인 필요,695
-2026-07-21-android-ecosystem_explainer.md,unverified,,,,
-2026-07-22-android-ecosystem_guide.md,unverified,,,,
-2026-07-23-fallout-series_comparison.md,unverified,,,,
-2026-07-24-fallout-series_explainer.md,unverified,,,,
+2026-07-21-android-ecosystem_explainer.md,verified,Batch2,,전달 완료. 푸시 전,637
+2026-07-22-android-ecosystem_guide.md,verified,Batch2,,전달 완료. 푸시 전. 004 발행 후 004 링크 추가 예정,642
+2026-07-23-fallout-series_comparison.md,verified,Batch2,,"전달 완료. 푸시 전. 얇은 글(약 500단어), 정확성 우선",564
+2026-07-24-fallout-series_explainer.md,verified,Batch2,,전달 완료. 푸시 전. 출처가 Fallout Wiki 한 곳(커뮤니티 위키),845
 2026-07-26-fallout-series_guide.md,verified,Five,,전달 완료. 푸시·OG 대기 확인 필요,664
 2026-07-27-portable-gaming_comparison.md,unverified,,,,
 2026-07-28-portable-gaming_explainer.md,unverified,,,,
 2026-07-29-samsung-health-data-ecosystem_hub.md,verified,Hub+Spokes,,,720
 2026-07-30-steam-machine-hardware-management_hub.md,verified,Hub+Spokes,,최종본(좌우 반전 경고 포함) 재전달. 반영 여부는 post_status.py 로 확인,623
 2026-07-31-portable-gaming_guide.md,unverified,,,,
-2026-08-03-01-galaxy-fold_guide.md,verified,v37,,날짜로 매칭(추정). 실제 대상 확인 필요,
-2026-08-04-samsung-galaxy-z-foldflip-series_comparison.md,verified,v37,,날짜로 매칭(추정). 실제 대상 확인 필요,
-2026-08-05-samsung-galaxy-z-foldflip-series_explainer.md,verified,v37,,날짜로 매칭(추정). 실제 대상 확인 필요,
+2026-08-03-01-galaxy-fold_guide.md,verified,v37,,날짜로 매칭(추정). 실제 대상 확인 필요,692
+2026-08-04-samsung-galaxy-z-foldflip-series_comparison.md,verified,v37,,날짜로 매칭(추정). 실제 대상 확인 필요,670
+2026-08-05-samsung-galaxy-z-foldflip-series_explainer.md,verified,v37,,날짜로 매칭(추정). 실제 대상 확인 필요,586
 2026-08-07-samsung-galaxy-z-foldflip-series_guide.md,verified,Six,,,698
 2026-08-08-06-android-auto_comparison.md,unverified,,,,
 2026-08-12-google-pixel-launcher-vs-third-party-android-launchers-featu.md,unverified,,,,
@@ -42,7 +42,7 @@
 2026-09-05-how-to-set-up-and-expand-storage-on-nintendo-switch-2-with-m.md,unverified,,,,
 2026-09-06-how-to-choose-the-best-rtx-50-series-gpu-for-1440p-gaming.md,unverified,,,,
 2026-09-07-android-system-features.md,verified,Six,,,576
-2026-09-13-galaxy-z-fold-8-vs-fold-7-hinge-durability-comparison.md,verified,v37,,날짜로 매칭(추정). 실제 대상 확인 필요,
+2026-09-13-galaxy-z-fold-8-vs-fold-7-hinge-durability-comparison.md,verified,v37,,날짜로 매칭(추정). 실제 대상 확인 필요,560
 2026-09-14-05-gta-6s.md,unverified,,,,
 2026-09-16-pixel-11-vs-pixel-11-pro-camera-features-and-differences.md,verified,Pixel4,,,617
 2026-09-17-what-is-nvidia-dlss-5-and-how-it-improves-game-performance.md,unverified,,,,
@@ -65,6 +65,6 @@
 2026-10-08-how-to-optimize-pixel-phone-gaming-performance-and-battery.md,unverified,,,,
 2026-10-10-gemini-in-android-auto-what-it-does-and-how-to-turn-it-on.md,verified,Five,,전달 완료. 푸시·OG 대기 확인 필요,606
 2026-10-10-steam-deck-not-charging-or-slow-charger-warning-how-to-fix.md,verified,Five,,전달 완료. 푸시·OG 대기 확인 필요,786
-2026-10-15-how-to-stop-android-auto-from-playing-music-automatically.md,verified,New,,final/ 작성 후 Step 4 발행,
-2026-10-16-what-to-use-instead-of-umatrix-in-2026.md,verified,New,,"final/002 작성, Step 4 발행. 슬러그 확인됨",
-2026-10-17-september-2026-pixel-drop-whats-new-and-who-gets-it.md,verified,New,,final/003 재작성본(공식 Google 블로그 기준) 푸시 후 발행,
+2026-10-15-how-to-stop-android-auto-from-playing-music-automatically.md,verified,New,,final/ 작성 후 Step 4 발행,641
+2026-10-16-what-to-use-instead-of-umatrix-in-2026.md,verified,New,,"final/002 작성, Step 4 발행. 슬러그 확인됨",788
+2026-10-17-september-2026-pixel-drop-whats-new-and-who-gets-it.md,verified,New,,final/003 재작성본(공식 Google 블로그 기준) 푸시 후 발행,752
