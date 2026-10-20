@@ -5,6 +5,9 @@ date: 2026-10-20 14:52:00 +0000
 categories: [tech]
 tags: ["explainer", "google", "fit", "health", "connect"]
 excerpt: 'Google Fit and Health Connect are NOT the same. Fit APIs end in 2026; Health Connect is Android''s future. Learn how they differ & sync with Samsung Health.'
+header:
+  image: https://images.frontbuffer.net/posts/google-fit-vs-health-connect-are-they-the-same/og.png
+  overlay_filter: 0
 author_profile: false
 read_time: true
 share: true
