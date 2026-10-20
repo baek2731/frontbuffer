@@ -1,4 +1,14 @@
-# Google Fit vs Health Connect: Are They the Same?
+---
+layout: single
+title: 'Google Fit vs Health Connect: Are They the Same?'
+date: 2026-10-20 14:52:00 +0000
+categories: [tech]
+tags: ["explainer", "google", "fit", "health", "connect"]
+excerpt: 'Google Fit and Health Connect are NOT the same. Fit APIs end in 2026; Health Connect is Android''s future. Learn how they differ & sync with Samsung Health.'
+author_profile: false
+read_time: true
+share: true
+---
 
 No. Google Fit and Health Connect are different things, and they are on different paths. Google Fit was a health app plus a set of developer APIs. Google has said the APIs end in 2026 and that it is consolidating the Fit app into the Google Health app. Health Connect is a storage and permissions layer built into Android, and it is the path Google recommends for Android apps. Google says it will invite Fit app users to move their data into the Google Health app later this year, but it has not given a date.
 

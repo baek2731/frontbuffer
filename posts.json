@@ -1352,6 +1352,19 @@
       "hub_cluster": "",
       "verified_keywords": [],
       "slug": "2026-10-19-samsung-health-not-syncing-last-synced-date-and-fixes"
+    },
+    {
+      "status": "live",
+      "date": "2026-10-20",
+      "title": "Google Fit vs Health Connect: Are They the Same?",
+      "live_url": "https://frontbuffer.net/tech/google-fit-vs-health-connect-are-they-the-same/",
+      "categories": [
+        "tech"
+      ],
+      "content_type": "EXPLAINER",
+      "hub_cluster": "",
+      "verified_keywords": [],
+      "slug": "2026-10-20-google-fit-vs-health-connect-are-they-the-same"
     }
   ],
   "_last_updated": "2026-08-07T14:54:21.320932+00:00"
