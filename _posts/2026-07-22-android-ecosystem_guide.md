@@ -2,7 +2,7 @@
 layout: single
 title: 'How to Transfer Samsung Health Data to a New Phone Without Loss'
 date: 2026-07-22 14:03:00 +0000
-last_modified_at: 2026-10-16 00:00:00 +0000
+last_modified_at: 2026-10-20 00:00:00 +0000
 categories: [tech]
 tags: ["guide", "android", "ecosystem"]
 excerpt: 'Samsung Health data transfers automatically via Samsung Cloud, but only if sync was enabled before you switched. Here is how to move it to a new phone.'
@@ -24,7 +24,7 @@ To move Samsung Health to a new phone, sync your data to your Samsung account on
 
 1. **On the old phone, open Samsung Health and find the sync setting.** [Samsung's Canada page](https://www.samsung.com/ca/support/mobile-devices/galaxy-phone-sync-your-data-in-samsung-health/), updated November 2024, calls it **Sync with Samsung account**. [Samsung's US page](https://www.samsung.com/us/support/answer/ANS10001399) calls it **Sync with Samsung Cloud**. Same feature, different label.
 2. **Turn it on and tap Sync now.** The Canada page also describes a **Sync only on Wi-Fi** switch, which you can leave off if you want to use mobile data.
-3. **Make sure the sync finished** before you set up the new phone. For a second copy of your data as a precaution, see our guide to [backing up Samsung Health data](https://frontbuffer.net/tech/how-to-backup-samsung-health-data-before-account-deletion/).
+3. **Make sure the sync finished** before you set up the new phone. For a second copy of your data as a precaution, see our guide to [backing up Samsung Health data](https://frontbuffer.net/tech/how-to-backup-samsung-health-data-before-account-deletion/). If the Last synced date is old or the sync fails, fix that first with our guide to [Samsung Health not syncing](https://frontbuffer.net/tech/samsung-health-not-syncing-last-synced-date-and-fixes/).
 4. **On the new phone, install or open Samsung Health and sign in with the same Samsung account.** A different account will not have your data.
 5. **Wait for the data to appear,** then check your activity history to confirm.
 
@@ -49,7 +49,7 @@ Health Connect is separate. It shares data between apps on a phone and is not a 
 ## If data is missing after the switch
 
 - **Check the account.** Make sure you used the same Samsung account on both phones.
-- **Check that the old phone had synced.** Samsung's community thread on a [transfer between two Galaxy phones](https://eu.community.samsung.com/t5/mobile-apps-services/samsung-health-data-transfer/td-p/14124140) shows a user missing only daily step counts after syncing. A reply there suggests waiting at least three days for everything to sync. The user later restored the missing data by backing up the app with Smart Switch on the old phone and restoring it on the new one. Both are single community reports, not Samsung statements.
+- **Check that the old phone had synced.** If it never finished, see [Samsung Health not syncing](https://frontbuffer.net/tech/samsung-health-not-syncing-last-synced-date-and-fixes/). Samsung's community thread on a [transfer between two Galaxy phones](https://eu.community.samsung.com/t5/mobile-apps-services/samsung-health-data-transfer/td-p/14124140) shows a user missing only daily step counts after syncing. A reply there suggests waiting at least three days for everything to sync. The user later restored the missing data by backing up the app with Smart Switch on the old phone and restoring it on the new one. Both are single community reports, not Samsung statements.
 - **If sync was never on,** the data was not backed up to your account. The Samsung Members reply makes enabling sync before the switch the condition for the restore.
 
 ---
