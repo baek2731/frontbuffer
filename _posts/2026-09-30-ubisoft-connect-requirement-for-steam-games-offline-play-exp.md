@@ -1,10 +1,11 @@
 ---
 layout: single
-title: 'Ubisoft Connect requirement for Steam games: offline play explained'
+title: 'Ubisoft Connect on Steam: offline play explained'
 date: 2026-09-30 14:59:00 +0000
+last_modified_at: 2026-10-20 00:00:00 +0000
 categories: [gaming]
 tags: ["explainer", "ubisoft", "steam", "offline"]
-excerpt: 'Ubisoft games bought on Steam still launch through Ubisoft Connect. Here is why, what offline mode covers, and how to prepare before you lose.'
+excerpt: 'Ubisoft games bought on Steam still go through Ubisoft Connect. Why that is, what Ubisoft''s own page says about offline play, and what to do before you travel.'
 header:
   image: https://images.frontbuffer.net/posts/ubisoft-connect-requirement-for-steam-games-offline-play-exp/og.png
   overlay_filter: 0
@@ -13,57 +14,66 @@ read_time: true
 share: true
 ---
 
-Ubisoft games bought on Steam still require Ubisoft Connect. When you press Play in Steam, it opens Ubisoft Connect, and Ubisoft Connect launches the game. You run two launchers no matter where you bought it.
+Ubisoft games bought on Steam still need Ubisoft Connect. Ubisoft Support says in a Steam forum reply that there is no way to bypass Ubisoft Connect to launch most of its games purchased on Steam. Ubisoft documents an offline mode for PC games, including Steam copies, but it only works if you prepare while you are still online.
 
-There is no official way to remove that requirement for Ubisoft titles on Steam. What you can do is use Ubisoft Connect's offline mode, which lets many single-player games run without an internet connection once they are set up.
-
----
-
-## What offline mode requires
-
-Ubisoft's support documentation describes offline mode as something you prepare for while still online. In practice:
-
-1. Sign in to Ubisoft Connect with an internet connection.
-2. Launch the game online at least once so it activates and any pending updates install.
-3. Only then use offline mode for later sessions.
-
-If a game hasn't been activated and updated online first, offline mode will not help you.
+*Checked October 20, 2026 against Ubisoft's support page on offline play, Ubisoft Support replies on Steam, ASUS's offline guide for the ROG Ally and Notebookcheck. Offline behavior has changed between client versions, and we did not test it.*
 
 ---
 
-## How to start a game in offline mode
+## What Ubisoft says you need
 
-The exact wording and location of the offline option in Ubisoft Connect has changed between versions. Ubisoft's [offline mode help page](https://www.ubisoft.com/en-us/help/ubisoft-connect/article/offline-mode-in-ubisoft-connect/000025484) is the reference to follow. In general:
+[Ubisoft's page on offline play in Ubisoft games on PC](https://www.ubisoft.com/en-ca/help/connectivity-and-performance/article/offline-play-in-ubisoft-games-on-pc/000063188) covers Steam, Steam Deck, Ubisoft Connect PC, the Epic Games Launcher and the Xbox PC app. Before you go offline, it says to:
 
-1. Open Ubisoft Connect and confirm the game is installed and up to date.
-2. Choose the offline option when Ubisoft Connect offers it, either from its menu or when it can't reach the network at launch.
-3. Launch the game from Ubisoft Connect.
+1. Log in to Ubisoft Connect PC with the "Remember me" box ticked.
+2. Update Ubisoft Connect PC to the latest version.
+3. Launch your game while online at least once on the platform you plan to use offline.
+4. Follow the instructions to activate offline mode on Steam, the Epic Games Launcher or the Xbox PC app, where that applies.
 
-Steam's own Offline Mode only covers Steam. It does not remove the Ubisoft Connect step, so you still need Ubisoft Connect set up for offline play.
-
----
-
-## What does not work offline
-
-- Multiplayer and co-op
-- Cloud save syncing
-- Online-only features and in-game stores
-- Games that run additional online checks. Not every title is guaranteed to support offline play, so check the specific game's Ubisoft support page before you rely on it.
-
-Do not assume offline mode carries over between sessions. Updates, DLC installs, and a returning connection can send Ubisoft Connect back to online mode, so you may have to choose offline again.
+To play offline, launch the game and, if a Connection lost message appears, select **Go Offline**.
 
 ---
 
-## Before a flight, trip, or outage
+## Steam's side
 
-1. Launch each Ubisoft game you plan to play while online, and let updates finish.
-2. Let cloud saves sync, then close the game.
-3. Test offline mode at home with your network off.
-4. Check the game's Ubisoft support page for known offline limits.
-
-Doing this once, while you still have a connection, takes a few minutes and answers the question that matters: does your specific game start offline?
+Steam has its own offline mode, and Ubisoft's page asks you to activate it where it applies. ASUS's [offline guide for the ROG Ally](https://rog.asus.com/se/articles/guides/how-to-play-games-offline-with-the-rog-ally/) adds that Steam may need an internet check-in every few weeks, that only one device per account can be the designated offline device, and that you can change that device only three times a year.
 
 ---
+
+## Ubisoft Connect's side
+
+The same ASUS guide says Ubisoft Connect should start in offline mode automatically when you have no connection, provided you logged in before disconnecting. To switch manually, open the menu button in the upper left corner and choose **Go Offline**. Ubisoft Support's replies on a [Steam forum thread](https://steamcommunity.com/app/242050/discussions/0/5174040687099957604) say you can also set the Ubisoft Connect client to offline mode in its settings.
+
+---
+
+## What stops working offline
+
+Ubisoft lists cross-progression, online services and in-game stores as unavailable offline. The page says saves are handled differently depending on whether the game uses cloud saves or local saves. We found no list of which games support offline play, so check the specific game before you rely on it.
+
+---
+
+## A conflicting report
+
+[Notebookcheck](https://www.notebookcheck.net/How-to-run-Ubisoft-Connect-in-offline-mode.1164697.0.html), in a November 2025 article updated in February 2026, wrote that Ubisoft Connect lacks an official offline mode and described a workaround it used. That conflicts with Ubisoft's own page. Test offline mode at home with your network off before a flight or trip.
+
+---
+
+## Before a trip
+
+1. Log in to Ubisoft Connect with Remember me, and update it.
+2. Launch each game you plan to play while online, and let updates finish.
+3. Turn on Steam's offline mode too, where Ubisoft's page asks for it.
+4. Switch your network off and confirm each game starts.
+
+---
+
+## Takeaway
+
+You cannot skip Ubisoft Connect for a Steam copy, but Ubisoft documents a way to play offline after one online launch. Prepare on both Steam and Ubisoft Connect, and test it before you depend on it.
+
+---
+
 Sources:
-- [Ubisoft Support — Offline mode in Ubisoft Connect](https://www.ubisoft.com/en-us/help/ubisoft-connect/article/offline-mode-in-ubisoft-connect/000025484)
-- [Steam Support — Offline mode](https://help.steampowered.com/en/faqs/view/6E39-6B44-1A06-B95F)
+- [Offline play in Ubisoft games on PC, Ubisoft Support](https://www.ubisoft.com/en-ca/help/connectivity-and-performance/article/offline-play-in-ubisoft-games-on-pc/000063188)
+- [Assassin's Creed IV Black Flag, Steam Community discussion with Ubisoft Support replies](https://steamcommunity.com/app/242050/discussions/0/5174040687099957604)
+- [How to play games offline with the ROG Ally or Ally X, ASUS ROG](https://rog.asus.com/se/articles/guides/how-to-play-games-offline-with-the-rog-ally/)
+- [How to run Ubisoft Connect in offline mode, Notebookcheck](https://www.notebookcheck.net/How-to-run-Ubisoft-Connect-in-offline-mode.1164697.0.html)
