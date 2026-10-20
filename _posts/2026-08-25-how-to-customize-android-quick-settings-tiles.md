@@ -2,72 +2,73 @@
 layout: single
 title: 'How to Customize Android Quick Settings Tiles'
 date: 2026-08-25 14:16:00 +0000
+last_modified_at: 2026-10-20 00:00:00 +0000
 categories: [tech]
 tags: ["guide", "android", "system", "features"]
-excerpt: 'The Quick Settings panel ships with a default layout that rarely matches how anyone actually uses their phone. Moving the tiles you use most to the front.'
+excerpt: 'Swipe down twice, tap Edit, then add, remove, move or resize Quick Settings tiles. Steps from Google''s help page, some needing Android 13, plus Samsung One UI.'
 header:
- image: https://images.frontbuffer.net/posts/how-to-customize-android-quick-settings-tiles/og.png
- overlay_filter: 0
+  image: https://images.frontbuffer.net/posts/how-to-customize-android-quick-settings-tiles/og.png
+  overlay_filter: 0
 author_profile: false
 read_time: true
 share: true
 ---
 
-The Quick Settings panel — the grid of toggles that appears when you swipe down twice from the top of your screen — ships with a default layout that rarely matches how anyone actually uses their phone. Moving the tiles you use most to the front row takes about two minutes and saves real time every day.
+Quick Settings is the grid of toggles for Wi-Fi, Bluetooth, the flashlight and more. You can add, remove, move and resize those tiles from the panel itself. Google's help page says some of its steps work only on Android 13 and later, and Samsung phones use their own layout, so labels may differ on your phone.
 
-## Opening the Editor
-
-Swipe down twice from the top of the screen to expand the full Quick Settings panel. In the bottom-left corner, tap the **pencil icon** (Edit). On Samsung One UI, this may appear as "Edit" text instead.
-
-The editor splits into two sections: your active tiles at the top and inactive tiles below.
-
-## Rearranging, Adding, and Removing Tiles
-
-**To move a tile:** Long-press it and drag it to a new position. Tiles in the first row are visible without expanding the panel — put your most-used toggles there.
-
-**To add a tile:** Scroll down to the inactive section, long-press the tile, and drag it into the active grid.
-
-**To remove a tile:** Long-press it in the active section and drag it down to the inactive area.
-
-Tap **Done** when finished.
-
-## What to Put in the First Row
-
-The first two to four tiles show without swiping. High-value placements:
-
-- **Wi-Fi** and **Bluetooth** — toggled constantly when moving between locations
-- **Do Not Disturb** — faster than navigating Settings during meetings
-- **Flashlight** — the tile most people reach for in a hurry
-- **Screen record** or **Hotspot** — if you use these regularly
-
-Remove tiles you never tap. NFC, Nearby Share, and Auto-rotate are commonly present by default but rarely needed on demand.
-
-## Android 12 and Later: Brightness Slider
-
-Starting with Android 12, Google moved the brightness slider above the tiles. On stock Android 12 through 16, the slider position is fixed. Samsung One UI gives more flexibility — the brightness slider can be moved under **Settings → Display → Status bar** on One UI 6 and later.
-
-## Samsung One UI: Additional Options
-
-One UI adds several Quick Settings options not available on stock Android:
-
-**Reorder within rows.** One UI lets you set the number of columns in the Quick Settings grid (Settings → Display → Status bar → Quick panel layout), giving more control over how many tiles appear per row.
-
-**Media output tile.** One UI includes a dedicated media output tile that lets you switch audio between Bluetooth devices, the speaker, and connected displays without opening Settings.
-
-**SmartThings integration.** Devices registered in SmartThings (lights, appliances, TV) can be controlled directly from a Quick Settings tile without opening the SmartThings app.
-
-## Third-Party Tiles
-
-Apps can register their own Quick Settings tiles. Spotify, Shazam, and VPN apps add tiles that appear in the inactive section after installation. Add them the same way as system tiles — long-press and drag into the active grid.
-
-To remove a third-party tile completely, revoke the permission under **Settings → Apps → [App name] → Other permissions → Add Quick Settings tiles**, or uninstall the app.
-
-## Pixel-Specific: Custom Tiles
-
-On Pixel phones running Android 13 and later, apps like Tasker or Macrodroid can create custom Quick Settings tiles that trigger specific shortcuts. These appear in the inactive section once configured.
+*Checked October 20, 2026 against Google's Android Help page and Samsung's support pages. Nothing here was tested on a phone.*
 
 ---
+
+## Open Quick Settings
+
+According to [Google's Android Help](https://support.google.com/android/answer/9083864):
+
+1. Swipe down from the top of the screen to see your first few settings.
+2. Swipe down again to see all of them.
+
+Tap a tile's icon to turn the setting on or off. Dimmed tiles are off. Tap a tile's name to adjust it, or touch and hold a tile to open its advanced settings.
+
+---
+
+## Add, remove, move or resize a tile
+
+1. Swipe down twice from the top of the screen.
+2. Tap **Edit**, the pencil icon.
+3. To add a tile, scroll down to the available settings and tap **Add**. To remove a tile, tap **Remove**.
+4. To rearrange tiles, tap and drag them to where you want them.
+5. To resize a tile, tap and drag the right side of its icon. Dragging left shrinks it to just the icon, and dragging right shows its name.
+
+Google adds two tips. Some apps may ask whether you want to add their icon as a tile, and you can remove or re-add those later. If many settings are on, your phone may hide some icons to save space, and a dot at the top marks where to find them.
+
+The tiles that appear first are the ones you see on the first swipe, so put the toggles you reach for most there.
+
+---
+
+## Samsung One UI
+
+Samsung's [support page](https://www.samsung.com/ca/support/mobile-devices/galaxy-phone-customize-and-use-quick-settings-panel) says phones running One UI 7.0 and later separate Notifications from Quick settings, while One UI 6.1.1 and lower use one swipe gesture for both. The steps differ by version:
+
+- **One UI 7.0 and later:** open Quick settings and tap **Edit** to choose which buttons appear.
+- **One UI 6.1.1 and lower:** tap **Edit buttons**. To adjust the layout of certain controls, open the panel's menu and tap **Quick panel layout**.
+
+On One UI 8.5, Samsung says [Quick panel controls can be edited one by one](https://www.samsung.com/ie/support/mobile-devices/how-to-customise-the-quick-panel-on-the-samsung-galaxy-s26-series/) rather than in groups, with options to resize and change orientation. Its top quick settings are edited by setting **Panel settings** to **Together** and then tapping **Edit top quick settings**.
+
+---
+
+## Android 17 QPR2 beta
+
+Android 17 QPR2 Beta 3 added a new Quick Settings layout editor for Pixel phones. It is a beta feature and may change before the stable release, which we cover in [our guide to Pixel Quick Settings on the QPR2 beta]({% post_url 2026-09-01-how-to-customize-pixel-quick-settings-with-android-17-qpr2-f %}).
+
+---
+
+## Takeaway
+
+Swipe down twice, tap Edit, and move your most-used toggles to the front. If your Galaxy phone looks different, check its One UI version first, since the editing steps changed between One UI 6.1.1 and 7.0.
+
+---
+
 Sources:
-- [Android — Customize Quick Settings](https://support.google.com/android/answer/9083864)
-- [Android Authority — Quick Settings guide](https://www.androidauthority.com/android-quick-settings-3209902/)
-- [Samsung — One UI Quick Settings](https://www.samsung.com/us/support/answer/ANS00088226/)
+- [Change settings quickly on your Android phone, Android Help](https://support.google.com/android/answer/9083864)
+- [Customize the Quick settings panel on your Samsung Galaxy, Samsung Canada](https://www.samsung.com/ca/support/mobile-devices/galaxy-phone-customize-and-use-quick-settings-panel)
+- [How to customise the Quick panel on the Samsung Galaxy S26 series, Samsung Ireland](https://www.samsung.com/ie/support/mobile-devices/how-to-customise-the-quick-panel-on-the-samsung-galaxy-s26-series/)
