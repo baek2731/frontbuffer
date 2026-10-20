@@ -2,7 +2,7 @@
 layout: single
 title: 'Steam Machine Red Light and LED Codes: Which Guide to Read'
 date: 2026-07-30 14:53:00 +0000
-last_modified_at: 2026-10-15 00:00:00 +0000
+last_modified_at: 2026-10-20 00:00:00 +0000
 categories: [gaming]
 tags: ["hub", "steam machine", "led codes", "troubleshooting"]
 excerpt: 'A red light on the Steam Machine can be a BIOS threshold bug or a real fault. A map of the LED codes and which guide covers overheating, RAM and SSD errors.'
@@ -19,14 +19,14 @@ The Steam Machine went on sale at the end of June 2026 and is a small box: [PC G
 
 ## What the light bar says
 
-The patterns below come from Valve's support page as [reported by The FPS Review](https://www.thefpsreview.com/2026/07/07/valve-responds-to-steam-machines-red-line-of-death-reports-telling-users-to-perform-a-cmos-reset/). Valve's own page was not opened for this article, so check it if your pattern is not listed.
+The patterns below come from Valve's support page as [reported by The FPS Review](https://www.thefpsreview.com/2026/07/07/valve-responds-to-steam-machines-red-line-of-death-reports-telling-users-to-perform-a-cmos-reset/). We could not open Valve's own page, so check it if your pattern is not listed. The normal patterns for booting, ready, downloading and BIOS updates are in the LED code guide below.
 
 | Pattern | Meaning |
 |---|---|
 | Solid red across the whole bar | Overheating warning: CPU above 95°C or GPU above 90°C |
 | Pulsing red, right quarter | No RAM detected |
 | Pulsing red, second quarter from the left | SSD error |
-| Pulsing red, far left | Failed memory test |
+| Pulsing red, far left | Failed memory test (other reports describe the left side of the bar) |
 
 [Mezha reports](https://mezha.ua/en/news/valve-steam-machine-bios-red-indicator-313196/) that Valve's page also defines a GPU failure code, with the right half of the bar pulsing red and the indicator LED solid red.
 
@@ -36,7 +36,7 @@ One caution before you match a pattern. In a reply to an owner, Valve said that 
 
 Valve's support told an owner that [a known BIOS issue makes the red LED appear much earlier than it should](https://www.tomshardware.com/pc-components/cooling/valve-confirms-steam-machine-red-light-overheating-warning-is-showing-earlier-than-it-should-bios-fix-on-the-way-will-raise-temperature-warning-threshold-to-100-degrees-celsius). A planned BIOS update would move the warning to 100°C for both CPU and GPU, replacing 95°C and 90°C. [VideoCardz](https://videocardz.com/newz/valve-to-raise-steam-machine-red-led-warning-to-100c-with-bios-update) adds that Valve says the machine begins reducing performance at 100°C, so after the change the red bar would show up when throttling begins.
 
-Two limits on that. Valve gave no release date for the update, and the reports checked are from July, so whether it has shipped by October 15, 2026 was not confirmed here. And an early false alarm is not a reason to ignore airflow: [KitGuru reports](https://www.kitguru.net/?p=741692) that Valve notes restricted placement and high room temperatures can still cause overheating.
+Two limits on that. Valve gave no release date for the update, and the reports checked are from July, so whether it has shipped was not confirmed in our checks through October 20, 2026. And an early false alarm is not a reason to ignore airflow: [KitGuru reports](https://www.kitguru.net/?p=741692) that Valve notes restricted placement and high room temperatures can still cause overheating.
 
 The overheating guide covers how to tell a false alarm from a real thermal problem.
 
@@ -54,9 +54,10 @@ The LED code guide covers each pattern in more detail.
 
 - **The whole bar is solid red during games and the machine otherwise runs fine:** start with the overheating guide.
 - **A pulsing red pattern, no boot, or the light appeared after opening the case to swap RAM or storage:** start with the LED code guide.
+- **The light is white or blue and nothing seems wrong:** those are usually normal patterns, listed in the LED code guide.
 - **You are not sure which pattern you see:** match it against the table above first.
 
-Checked October 15, 2026 against the sources listed below. Nothing here was tested on a Steam Machine.
+Checked October 15, 2026 and updated October 20, 2026 against the sources listed below. Nothing here was tested on a Steam Machine.
 
 ---
 Sources:

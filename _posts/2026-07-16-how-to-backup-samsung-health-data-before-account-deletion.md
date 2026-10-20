@@ -3,7 +3,7 @@ layout: single
 permalink: /tech/how-to-backup-samsung-health-data-before-account-deletion/
 title: 'How to Back Up Samsung Health Data Before Switching or Deleting'
 date: 2026-07-16 10:00:00 +0900
-last_modified_at: 2026-10-15 00:00:00 +0900
+last_modified_at: 2026-10-20 00:00:00 +0900
 categories: [tech]
 tags: ["samsung health", "export samsung health data", "samsung health backup", "samsung account deletion"]
 excerpt: "Deleting your Samsung account erases Samsung Health data for good. Here is how to back it up, restore it on a new phone, and carry it to Health Connect."
@@ -33,7 +33,7 @@ Samsung describes the download as a copy for your records. The pages checked des
 
 ---
 
-## Switching to a new Galaxy phone or resetting: use Samsung Cloud
+## Transfer Samsung Health data to a new Galaxy phone, or restore after a reset: use Samsung Cloud
 
 [Samsung's support page](https://www.samsung.com/sg/support/apps-services/how-to-restore-or-backup-samsung-health-data/) says you need a network connection and a Samsung account signed in with your health data synced to it. The page was last updated in 2022, so labels may have moved. The steps it gives:
 

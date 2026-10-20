@@ -2,7 +2,7 @@
 layout: single
 title: 'Samsung Secure Folder vs Google Files Safe Folder: Privacy Compared'
 date: 2026-07-21 14:06:00 +0000
-last_modified_at: 2026-10-16 00:00:00 +0000
+last_modified_at: 2026-10-20 00:00:00 +0000
 categories: [tech]
 tags: ["comparison", "android", "ecosystem"]
 excerpt: 'Samsung Secure Folder is a Knox-protected space for apps and files. Google Files Safe Folder locks files behind a PIN or pattern. Here is how they differ.'
@@ -16,7 +16,7 @@ share: true
 
 Samsung and Google both offer a "secure folder" on Android, but they protect different things. Samsung's Secure Folder is a protected space that can hold apps as well as files. Google's Safe Folder, inside the Files by Google app, holds files only. If you are deciding which to use, here is what each one does, and where each one falls short.
 
-*Checked October 16, 2026 against Samsung and press sources. Nothing here was tested on a phone, and menu names vary by version.*
+*Checked October 16, 2026 and updated October 20, 2026 against Samsung and press sources. Nothing here was tested on a phone, and menu names vary by version.*
 
 ---
 
@@ -55,6 +55,12 @@ Safe Folder stores files. It is not a place to run apps.
 
 ---
 
+## Does a Pixel have Secure Folder?
+
+No, because Secure Folder is a Samsung Galaxy feature. On Android 15 and later, [Android's guide](https://www.android.com/articles/how-to-set-up-private-space/) describes Private Space, which hides apps and files behind a separate lock, and the Files by Google Safe Folder described above holds files only. Our comparison of [Android App Lock vs Samsung Secure Folder](https://frontbuffer.net/tech/android-1516-native-app-lock-vs-samsung-app-lock-privacy-fea/) covers Private Space in more detail.
+
+---
+
 ## Which one to use
 
 **Use Secure Folder** if you have a Galaxy phone and want a second login for an app, such as a separate messaging account, or a protected place for apps and files together. Remember to remove the original app if you want the app to exist only inside Secure Folder.
@@ -80,3 +86,4 @@ Sources:
 6. [How to Protect Your Files Using Files by Google on Android, MakeUseOf](https://www.makeuseof.com/protect-files-android-devices-files-by-google/)
 7. [How to Hide Files with Google's Safe Folder on Android, How-To Geek](https://www.howtogeek.com/684738/how-to-hide-files-with-googles-safe-folder-on-android/)
 8. [Files by Google starts rolling out a Safe Folder, XDA Developers](https://www.xda-developers.com/files-by-google-safe-folder-hide-private-files/)
+9. [How to set up private space, Android](https://www.android.com/articles/how-to-set-up-private-space/)
