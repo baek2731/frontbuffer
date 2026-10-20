@@ -124,11 +124,11 @@ def categories_of(fm):
 
 
 def jekyll_slug(fname):
-    """Jekyll 의 :title(pretty 모드) 슬러그: 소문자, 허용 문자 외에는 '-', 앞뒤 '-' 제거."""
+    """Jekyll 의 :title 슬러그: 대소문자는 그대로 두고, 허용 문자 외에는 '-', 앞뒤 '-' 제거."""
     slug = re.sub(r"^\d{4}-\d{2}-\d{2}-", "", fname)
     if slug.endswith(".md"):
         slug = slug[:-3]
-    slug = re.sub(r"[^\w.~!$&'()+,;=@]+", "-", slug.lower())
+    slug = re.sub(r"[^\w.~!$&'()+,;=@]+", "-", slug)
     return slug.strip("-")
 
 
