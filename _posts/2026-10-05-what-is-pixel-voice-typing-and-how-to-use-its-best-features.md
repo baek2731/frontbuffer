@@ -1,10 +1,11 @@
 ---
 layout: single
-title: 'Pixel voice typing: how to turn it on and the commands worth knowing'
+title: 'Pixel voice typing: how to turn it on and key voice commands'
 date: 2026-10-05 14:01:00 +0000
+last_modified_at: 2026-10-20 00:00:00 +0000
 categories: [tech]
 tags: ["guide", "pixel", "voice-typing", "gboard"]
-excerpt: 'Voice typing in Gboard turns speech into text on Pixel phones. Here is how to turn it on, download offline languages, and fix a missing microphone icon.'
+excerpt: 'Voice typing in Gboard turns speech into text on Pixel phones. How to start it, the commands Google documents, what Rambler changes on Pixel 11, and fixes.'
 header:
   image: https://images.frontbuffer.net/posts/what-is-pixel-voice-typing-and-how-to-use-its-best-features/og.png
   overlay_filter: 0
@@ -13,78 +14,73 @@ read_time: true
 share: true
 ---
 
-If the microphone icon is missing from your Pixel keyboard, or dictation stops working offline, the fix is almost always in Gboard's settings. This guide covers how to turn voice typing on, set it up for offline use, which commands to try, and what to check when it fails.
+If the microphone is missing from your Pixel keyboard, or dictation stops working, the fix is usually in Gboard or its language settings. Voice typing is a Gboard feature. Google says Pixel 6 and later phones, including the Fold and Tablet, get advanced voice typing, and the Pixel 11 added a newer voice input called Rambler.
 
-Voice typing is a Gboard feature, so it also works on other Android phones that use Gboard. On Pixel phones, speech recognition runs on the device for supported languages, which is why it can work without a connection. Menu names vary slightly by Android and Gboard version.
-
----
-
-## How to turn on voice typing
-
-1. Open **Settings → System → Languages & input**.
-2. Tap **On-screen keyboard → Gboard**.
-3. Tap **Voice typing** and switch on **Use voice typing**.
-
-To dictate, tap any text field, tap the microphone icon on the Gboard toolbar, and start speaking. Text appears as you talk.
+*Checked October 20, 2026 against Google's Gboard Help pages and 9to5Google's Pixel 11 coverage. Menu names vary by Android and Gboard version, and nothing here was tested on a phone.*
 
 ---
 
-## Dictating with punctuation
+## How to start voice typing
 
-Voice typing adds punctuation automatically in many cases, based on pauses and tone. It is less reliable with technical text or unusual formatting. In those cases, say the punctuation you want, for example "question mark" or "new line," or fix it by hand afterward.
+[Google's Gboard Help](https://support.google.com/gboard/answer/2781851) gives these steps:
 
-For cleaner results, speak in full phrases and pause at the end of a sentence rather than mid-thought.
+1. Install Gboard on your Android phone.
+2. Open an app where you can type, such as Gmail or Keep, and tap a text area.
+3. Tap the microphone at the top of the keyboard.
+4. When you see "Speak now," say what you want written.
 
----
-
-## Voice commands to try
-
-While voice typing is active, you can edit by voice. Commands commonly supported on Pixel include:
-
-| Say | What it does |
-|---|---|
-| "Delete" or "Clear" | Removes text |
-| "Undo" | Reverses the last change |
-| "Select all" | Selects all text in the field |
-| "New line" / "New paragraph" | Adds a line or paragraph break |
-| "Send" | Sends the message in supported apps |
-
-The supported commands vary by language, app, and Gboard version. Google's [Type with your voice page](https://support.google.com/pixelphone/answer/2811925) lists the current set for your phone.
+The first time, Android asks for microphone access, with choices to allow it while using the app, only this time, or not at all. Tap the microphone again to pause. In the voice toolbar you can say a command or tap one of the suggestions, and **Show voice commands** lists more.
 
 ---
 
-## Offline use
+## Punctuation and line breaks
 
-Offline dictation needs a downloaded language pack:
-
-1. Go back to **Gboard → Voice typing**.
-2. Look for the language or offline speech recognition setting and select your language.
-3. Download the pack.
-
-Once downloaded, voice typing should work without a connection for that language. Some languages and dialects are online only, and Gboard will show a message if you try to dictate without a connection in one of them.
+Google says you can add punctuation by saying phrases such as "period," "comma," "new line" or "new paragraph." Punctuation may not be available in every language.
 
 ---
 
-## If voice typing isn't working
+## Commands for Pixel 6 and later
 
-- **No microphone icon:** Confirm Gboard is your active keyboard and that Use voice typing is switched on.
-- **Nothing is transcribed:** Check that Gboard has microphone permission under Settings → Apps → Gboard → Permissions.
-- **Doesn't work in one app:** Apps that use their own custom keyboard may not support Gboard's voice typing.
-- **Fails offline:** Re-download the language pack, or check whether your language supports offline use.
+[Google's advanced voice typing page](https://support.google.com/gboard/answer/11197787) lists these for supported Pixels:
+
+- "Delete last word" deletes the last word.
+- "Clear" deletes the last sentence.
+- "Delete" followed by a word removes that word.
+- "Undo" reverses a correction.
+- "Stop" ends voice typing.
+- You can insert emoji by voice. While you speak, tap **Info** to see more commands.
+
+If you use several languages, Google says voice typing can detect your spoken language automatically on Pixel 6 and later. You can turn that off under Voice typing, then **Auto-switch language**. Under "Improve Gboard & voice typing," **Personalize for you** controls whether it learns from your corrections.
 
 ---
 
-## Where it helps most
+## Rambler on Pixel 11
 
-Voice typing fits messages, quick notes in Google Keep, and longer drafts when typing is slow. It also helps people who find touch typing difficult. If you are choosing a Pixel partly for dictation, voice typing works on both the Pixel 10 and Pixel 11, so it shouldn't drive the choice. See [our Pixel 10 vs Pixel 11 camera comparison]({% post_url 2026-10-03-pixel-10-vs-pixel-11-camera-low-light-and-voice-typing-compa %}) for what does differ.
+[9to5Google reports](https://9to5google.com/2026/08/12/pixel-11-gemini-intelligence/) that Rambler, a Gboard feature launched with the Pixel 11, filters run-on sentences and filler words such as "umm" and "ah" to produce a cleaner transcription. When it is active it takes over the keyboard's suggestion strip with a waveform animation, and Gboard settings include an option to use the previous speech-to-text system instead. For the other Pixel 11 differences, see [our Pixel 10 vs Pixel 11 comparison]({% post_url 2026-10-03-pixel-10-vs-pixel-11-camera-low-light-and-voice-typing-compa %}).
+
+---
+
+## If voice typing is not working
+
+Google's page lists these causes for advanced voice typing:
+
+- **Just set up a new Pixel.** It can take a few hours for the phone to download the necessary updates. Connect to Wi-Fi so they download automatically.
+- **Language mismatch.** Your primary Gboard language and device language must be the same. You may need to add the language to Gboard and drag it to the top of the list.
+- **Android System Intelligence.** Update that app on Google Play.
+- **Microphone permission.** Gboard's help says to allow recording while using the app, or choose Only this time.
+- **Older phone.** Advanced voice typing requires Pixel 6 or newer.
+
+Google's pages we checked do not describe offline language packs, so we cannot say which languages dictate without a connection.
 
 ---
 
 ## Takeaway
 
-Turn on voice typing in Gboard, download your language for offline use, and learn two or three edit commands such as "delete" and "undo." If it fails, check the keyboard, microphone permission, and language pack in that order.
+Tap the microphone in Gboard, learn "delete last word," "clear" and "undo," and if it stops working check the language match, the microphone permission and Android System Intelligence in that order.
 
 ---
+
 Sources:
-- [Google Pixel support — Type with your voice](https://support.google.com/pixelphone/answer/2811925)
-- [Gboard support — Use voice typing](https://support.google.com/gboard/answer/9044810)
+- [Type with your voice, Gboard Help](https://support.google.com/gboard/answer/2781851)
+- [Use advanced voice typing features, Gboard Help](https://support.google.com/gboard/answer/11197787)
+- [Pixel 11 Gemini Intelligence, 9to5Google](https://9to5google.com/2026/08/12/pixel-11-gemini-intelligence/)

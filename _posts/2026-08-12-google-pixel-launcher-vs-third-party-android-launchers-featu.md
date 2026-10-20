@@ -1,10 +1,11 @@
 ---
 layout: single
-title: 'Pixel Launcher vs Third-Party Android Launchers: Features Compared'
+title: 'Pixel Launcher vs Third-Party Android Launchers Compared'
 date: 2026-08-12 14:10:00 +0000
+last_modified_at: 2026-10-20 00:00:00 +0000
 categories: [tech]
 tags: ["comparison", "google", "android", "ecosystem"]
-excerpt: 'Nova Launcher changed hands twice in four years. Branch (also known as Branch Metrics) acquired it in July 2022.'
+excerpt: 'Nova Launcher was sold twice and its founder left. Here is that history and how Smart Launcher 6, Lawnchair and Niagara compare with the Pixel Launcher.'
 header:
   image: https://images.frontbuffer.net/posts/google-pixel-launcher-vs-third-party-android-launchers-featu/og.png
   overlay_filter: 0
@@ -13,42 +14,58 @@ read_time: true
 share: true
 ---
 
-Nova Launcher changed hands twice in four years. Branch (also known as Branch Metrics) acquired it in July 2022, cut most of the development team by August 2024, and saw its sole remaining developer — Nova's original creator Kevin Barry — leave in September 2025 after Branch blocked his attempt to open-source the project. In early 2026, Branch sold Nova to Instabridge, a Swedish Wi-Fi and eSIM company that has committed to keeping it functional and compatible with current Android versions, though some reports indicate ads have been introduced.
+Nova Launcher changed hands twice in four years, and many Android users have been reconsidering their home screen since. This comparison covers what happened to Nova, then three alternatives that Android Authority names, set against the Pixel Launcher that comes on Pixel phones.
 
-That chain of events pushed a lot of Android users to reconsider their launcher setup. Here's how the current options compare.
-
-## What Nova's Situation Actually Changed
-
-Nova's appeal was always its depth — icon packs, gesture controls, grid customization, animation tweaks. That hasn't gone away under Instabridge, but the pace of new development is uncertain and the ad reports have made long-time users cautious. If you've been on Nova for years and want to stay, it's still functional. If you're looking for an alternative, the options below are worth evaluating.
-
-## Third-Party Alternatives Worth Considering
-
-**Smart Launcher 6** — The closest to a Nova replacement for users who want configurability. It auto-categorizes apps, adapts system colors to your wallpaper, and supports Nova backup imports for direct migration. In development since 2012, so it has the longevity track record that's now in question with Nova.
-
-**Before Launcher** — Built around reducing screen time rather than adding features. The home screen is intentionally sparse, folders are available for app organization, and its notification filter silences non-essential alerts without hiding them. Compatible with Android 7.0 and up.
-
-**Orb Launcher** — An experimental solo project. The home screen is a "breathing orb" that reacts to battery level, notifications, and movement. App search works via scribble gesture. No ads, no tracking, no analytics — but requires Android 15 and development pace reflects that it's a one-person effort.
-
-**Minimaa Launcher** — Launched February 2026. Black text-based interface optimized for OLED displays, app hiding, and a built-in Pomodoro timer. Positioned explicitly at users who want to reduce phone usage. No data collection, all processing on-device.
-
-## Google Pixel Launcher: What It Offers and What It Doesn't
-
-The Pixel Launcher's strengths are integration and consistency. The Google Discover feed is a swipe left. Material You pulls colors from your wallpaper across the system. "At a Glance" surfaces calendar events, weather, and flight info without opening anything. Google Assistant is tightly wired in.
-
-What it doesn't offer: meaningful customization. Grid size, icon packs, gesture controls, and animation settings are either locked or absent. If you want your home screen to look or behave differently than Google intends, the Pixel Launcher won't get you there.
-
-## Which to Use
-
-**Pixel Launcher** — Right choice if you're on a Pixel, want Google integration without configuration overhead, and don't have strong opinions about home screen layout.
-
-**Smart Launcher 6** — Best Nova replacement for users who want configurability and a project with active development history.
-
-**Before or Minimaa** — If reducing screen time is the actual goal, not adding features.
-
-**Orb** — Worth trying if you're on Android 15 and want something genuinely different, with the understanding that it's experimental.
+*Checked October 20, 2026 against 9to5Google, Heise, Digitec, Android Authority and SlashGear. Launcher features and prices change often, and nothing here was tested on a phone.*
 
 ---
+
+## What happened to Nova
+
+According to [Digitec](https://www.digitec.ch/en/page/sold-forgotten-and-perhaps-revived-the-nova-launcher-41288), Kevin Barry sold Nova Launcher to Branch in 2022. In 2024 Branch withdrew every developer except founder Kevin Barry. In September 2025 Barry left; by his account, he wanted to release Nova as open source but was told to stop work on it. In early 2026 Branch sold Nova to Instabridge, a Swedish company, and [Heise](https://www.heise.de/en/news/Nova-Launcher-New-owner-comments-on-the-future-11147990.html) gives January 20, 2026 as the date Instabridge officially took over.
+
+[9to5Google reports](https://9to5google.com/2026/01/20/nova-launcher-new-owners-ads/) that Instabridge says its immediate focus is keeping Nova stable, compatible with modern Android and actively maintained. It also says Instabridge acknowledged considering ads in the free version while promising none in the paid Nova Prime, and that it is still evaluating whether to open-source the launcher.
+
+Instabridge says Nova is not shutting down, and whether to trust its future is your call.
+
+---
+
+## Alternatives Android Authority names
+
+[Android Authority's list of Nova alternatives](https://www.androidauthority.com/nova-launcher-alternatives-3597206) includes these three:
+
+- **Smart Launcher 6.** It takes a different approach from Nova, with a categorized app drawer and a horizontal layout by default.
+- **Lawnchair.** It looks and behaves like the Pixel Launcher but with more flexibility, which Android Authority calls an easy jump for Nova users. [SlashGear notes](https://www.slashgear.com/2237061/best-android-launchers-must-try-2026/) it is open source.
+- **Niagara.** A minimalist launcher that, Android Authority says, does not replicate Nova's granular customization. SlashGear says it shows no ads even in the free version.
+
+We did not verify prices, ad policies or update schedules for these apps, so check each Play Store listing before you commit.
+
+---
+
+## The Pixel Launcher
+
+The Pixel Launcher is the default on Pixel phones, which is why Lawnchair is often suggested to people who want a similar look with more control. We did not find a current Google page listing exactly which home screen options it offers, so check your own phone's home screen settings before deciding it is too limited.
+
+---
+
+## Which to try
+
+- **Stay on the Pixel Launcher** if you are on a Pixel and the defaults suit you.
+- **Try Smart Launcher 6** if you want your apps sorted for you.
+- **Try Lawnchair** if you like the Pixel look and want more options.
+- **Try Niagara** if you want a stripped-down home screen and can give up fine-grained customization.
+
+---
+
+## Takeaway
+
+Nova is still usable, but its ownership has changed and ads are on the table for the free version. If you want to move, Android Authority's three picks above cover three different styles, so decide whether you want organization, Pixel familiarity or minimalism first.
+
+---
+
 Sources:
-- [9to5Google — Nova Launcher sold to Instabridge](https://9to5google.com/2026/01/nova-launcher-instabridge/)
-- [Android Authority — Nova Launcher history](https://www.androidauthority.com/nova-launcher-branch-3272/)
-- [Google — Pixel Launcher and Material You](https://blog.google/products/android/material-you/)
+- [Nova Launcher: New owner comments on the future, Heise](https://www.heise.de/en/news/Nova-Launcher-New-owner-comments-on-the-future-11147990.html)
+- [Sold, forgotten and (perhaps) revived: the Nova Launcher, Digitec](https://www.digitec.ch/en/page/sold-forgotten-and-perhaps-revived-the-nova-launcher-41288)
+- [Nova Launcher has a new lease on life, and that probably means ads are coming, 9to5Google](https://9to5google.com/2026/01/20/nova-launcher-new-owners-ads/)
+- [7 launchers you should use instead of Nova Launcher, Android Authority](https://www.androidauthority.com/nova-launcher-alternatives-3597206)
+- [These are the best Android launchers you must try in 2026, SlashGear](https://www.slashgear.com/2237061/best-android-launchers-must-try-2026/)
