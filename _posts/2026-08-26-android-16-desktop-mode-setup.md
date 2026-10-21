@@ -91,7 +91,7 @@ If you have a supported Pixel and a USB-C video adapter, enabling desktop mode t
 ---
 
 Sources:
-- [Android devices extend seamlessly to connected displays, Android Developers Blog](https://android-developers.googleblog.com/2026/03/android-devices-extend-seamlessly-to.html)
+- [Google's announcement on Android connected displays, Android Developers Blog](https://android-developers.googleblog.com/2026/03/android-devices-extend-seamlessly-to.html)
 - [Android 16 brings desktop windowing to Pixel and Samsung phones, PPC Land](https://ppc.land/android-16-brings-desktop-windowing-to-pixel-and-samsung-phones/)
 - [How to Use Android 16 Desktop Mode with a Pixel Phone and USB-C Hub or Adapter, Plugable](https://kb.plugable.com/how-to-use-android-16-desktop-mode-with-a-pixel-phone-and-usb-c-display-or-hub)
 - [Samsung DeX, Samsung](https://www.samsung.com/us/dex/)
