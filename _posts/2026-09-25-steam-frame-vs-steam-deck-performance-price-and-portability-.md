@@ -2,10 +2,10 @@
 layout: single
 title: 'Steam Frame vs Steam Deck: Performance, Price, and Portability'
 date: 2026-09-25 14:08:00 +0000
-last_modified_at: 2026-10-15 00:00:00 +0000
+last_modified_at: 2026-10-21 00:00:00 +0000
 categories: [gaming]
-tags: ["comparison", "steam", "frame"]
-excerpt: 'Valve now has two portable devices: the Steam Deck handheld and the Steam Frame VR headset. Both run SteamOS but serve very different uses.'
+tags: ["comparison", "steam-frame", "steam-deck", "vr"]
+excerpt: 'Valve now has two portable devices: the Steam Deck handheld and the Steam Frame VR headset. Both run SteamOS, but they serve very different uses.'
 header:
   image: https://images.frontbuffer.net/posts/steam-frame-vs-steam-deck-performance-price-and-portability-/og.png
   overlay_filter: 0
@@ -30,7 +30,7 @@ Valve now sells two portable gaming devices: the Steam Deck, a handheld PC, and 
 | Weight | 440g with headstrap | About 640g |
 | Launch | September 14, 2026 (reservations) | November 16, 2023 |
 
-Frame figures come from [Valve's Steam Frame page](https://store.steampowered.com/hardware/steamframe), except weight, which comes from [VR Expert](https://vr-expert.com/en-us/steam-frame-price-release-date-specs-and-what-it-can-do/). Deck figures come from [Valve's Steam Deck tech specs](https://www.steamdeck.com/en/tech). The Deck OLED's November 16, 2023 release date is confirmed by [Yahoo Tech](https://tech.yahoo.com/general/articles/steam-deck-oled-announced-features-180632770.html) and [ETCentric](https://etcentric.org/?p=180449).
+Frame figures come from [Valve's Steam Frame page](https://store.steampowered.com/hardware/steamframe), except weight, which comes from [UploadVR's coverage of Valve's announcement](https://www.uploadvr.com/valve-steam-frame-official-announcement-features-details/). Deck figures come from [Valve's Steam Deck tech specs](https://www.steamdeck.com/en/tech). The Deck OLED's November 16, 2023 release date is confirmed by [Yahoo Tech](https://tech.yahoo.com/general/articles/steam-deck-oled-announced-features-180632770.html) and [ETCentric](https://etcentric.org/?p=180449).
 
 ## Price
 
@@ -40,13 +40,13 @@ Frame figures come from [Valve's Steam Frame page](https://store.steampowered.co
 
 ## Performance
 
-The Frame's Snapdragon 8 Gen 3 drives two 2160 x 2160 panels at up to 144Hz, which Valve lists as an experimental setting. VR.org reports that it runs [Android apps through Lepton and Windows games through Proton and FEX translation](https://vr.org/steam-frame). For PC VR, the headset streams from a PC. Valve's support guide, as reported by Mixed, says [adapter streaming has full support on Windows only for now](https://mixed-news.com/en/valve-guide-steam-frame-adapter-streaming-windows-only/).
+The Frame's Snapdragon 8 Gen 3 drives two 2160 x 2160 panels at up to 144Hz, which Valve lists as an experimental setting. Valve's developer documentation says it runs [Windows games through Proton, x86 games through FEX and Android games through Lepton](https://partner.steamgames.com/doc/steamhardware/steamframe/compatibility). For PC VR, the headset streams from a PC. Valve's support guide, as reported by Mixed, says [adapter streaming has full support on Windows only for now](https://mixed-news.com/en/valve-guide-steam-frame-adapter-streaming-windows-only/).
 
 The Deck's AMD chip runs PC games on the device itself at 1280 x 800. It is a handheld and not a VR device, so VR content is out of scope for it.
 
 ## Portability
 
-The Frame is worn. Its total weight is 440g with the headstrap, according to VR Expert. Its 21.6Wh battery is smaller than the Deck's 50Whr one. The sources checked do not give a Frame runtime, so battery capacity is the only comparison made here.
+The Frame is worn. Its total weight is 440g with the headstrap, according to UploadVR, which puts the core module alone at 185g. Its 21.6Wh battery is smaller than the Deck's 50Whr one. The sources checked do not give a Frame runtime, so battery capacity is the only comparison made here.
 
 The Deck is held. It weighs about 640g, and Valve rates its 50Whr battery at 3 to 12 hours of gameplay depending on the game.
 
@@ -62,7 +62,7 @@ Both devices use Steam. Valve rates games for the Frame on a [Great on Frame pag
 
 The two devices target different uses, so the comparison is mostly a question of which use you want.
 
-Specs and prices checked October 15, 2026. Nothing here was tested hands-on.
+Specs and prices checked October 15, 2026. The Frame's weight and software details were re-checked on October 21, 2026 against UploadVR and Valve's developer documentation. Nothing here was tested hands-on.
 
 ---
 Sources:
@@ -73,6 +73,6 @@ Sources:
 - [Valve to Launch Its Overhauled Steam Deck OLED This Week, ETCentric](https://etcentric.org/?p=180449)
 - [Valve's own guide says Steam Frame adapter streaming is Windows only for now, Mixed](https://mixed-news.com/en/valve-guide-steam-frame-adapter-streaming-windows-only/)
 - [Steam Frame Is $1059 & Comes With Standalone Half-Life: Alyx, UploadVR](https://www.uploadvr.com/steam-frame-price-revealed-reservations-opened-alyx-included/)
-- [Steam Frame: Price, Release Date, Specs and What It Can Do, VR Expert](https://vr-expert.com/en-us/steam-frame-price-release-date-specs-and-what-it-can-do/)
-- [Valve Steam Frame: Release Date, Price, Specs, VR.org](https://vr.org/steam-frame)
+- [Valve Officially Announces Steam Frame, A "Streaming-First" Standalone VR Headset, UploadVR](https://www.uploadvr.com/valve-steam-frame-official-announcement-features-details/)
+- [Steam Frame compatibility: what games can run standalone, Steamworks Documentation](https://partner.steamgames.com/doc/steamhardware/steamframe/compatibility)
 - [Three new games become Steam Frame Verified, Notebookcheck](https://www.notebookcheck.net/Three-new-games-become-Steam-Frame-Verified-as-Valve-prepares-for-its-launch.1342836.0.html)
