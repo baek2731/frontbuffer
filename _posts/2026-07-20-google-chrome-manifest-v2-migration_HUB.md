@@ -2,7 +2,7 @@
 layout: single
 title: "Chrome Manifest V2 Is Dead: What Happened and What to Use Instead"
 date: 2026-07-20 11:11:27 +0900
-last_modified_at: 2026-10-16 00:00:00 +0900
+last_modified_at: 2026-10-21 00:00:00 +0900
 categories: [tech]
 tags: ["hub", "chrome", "manifest-v2", "manifest-v3"]
 excerpt: 'Chrome removed all Manifest V2 extensions from the Web Store on August 31, 2026. Check what still works, and find MV3 replacements for uBlock Origin.'
@@ -16,7 +16,7 @@ share: true
 
 If an extension you relied on, uBlock Origin being the best-known, stopped working in Chrome, or the Chrome Web Store says it is unavailable, this is why. [Chrome's official timeline](https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline) says all remaining Manifest V2 (MV2) extensions were removed from the Web Store on August 31, 2026. This page explains what that means for extensions you already have, and points you to the right guide.
 
-*Checked October 16, 2026 against Chrome's timeline page, which was last updated on September 9, 2026.*
+*Checked October 16, 2026 against Chrome's timeline page, which was last updated on September 9, 2026. The Brave and Edge details were re-checked on October 21, 2026.*
 
 ---
 
@@ -25,7 +25,7 @@ If an extension you relied on, uBlock Origin being the best-known, stopped worki
 - **You cannot install MV2 extensions from the Web Store anymore.** Chrome says all remaining ones were removed on August 31, 2026.
 - **Installs on Chrome 138 or earlier keep running,** but they can no longer receive updates and cannot be reinstalled if removed, according to Chrome.
 - **Chrome 139 and newer do not run MV2 extensions.** Chrome says MV2 extensions cease to function for anyone upgrading to Chrome 139 and later, and Android Authority adds that Chrome 139 and newer support only Manifest V3 (MV3).
-- **Firefox still supports MV2.** Mozilla says it keeps Manifest V2 alongside Manifest V3 and [continues to support the blocking webRequest API](https://blog.mozilla.org/en/products/firefox/firefox-manifest-v3-adblockers/). Other Chromium-based browsers differ. [BetaNews reports](https://betanews.com/article/firefox-brave-ublock-origin-chrome-edge/) that Brave said it hosts uBlock Origin and other MV2 extensions on its own servers, and that Edge is phasing MV2 out.
+- **Firefox still supports MV2.** Mozilla says it keeps Manifest V2 alongside Manifest V3 and [continues to support the blocking webRequest API](https://blog.mozilla.org/en/products/firefox/firefox-manifest-v3-adblockers/). Other Chromium-based browsers differ. Brave says on its [blog](https://brave.com/blog/brave-shields-manifest-v3/) that it hosts uBlock Origin and other MV2 extensions on its own servers, and Microsoft says Edge began moving users off MV2 in August 2026, aiming to finish the consumer transition by the end of 2026, per its [Edge blog](https://blogs.windows.com/msedgedev/2026/08/07/moving-the-microsoft-edge-extensions-ecosystem-forward-with-manifest-version-3/).
 
 ---
 
@@ -76,6 +76,7 @@ If an MV2 extension still runs because you are on Chrome 138 or earlier, treat i
 - [Manifest V2 support timeline, Chrome for Developers](https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline)
 - [Google is about to delete some of your favorite Chrome extensions forever, Android Authority](https://www.androidauthority.com/google-chrome-old-manifest-v2-extensions-delete-3685207/)
 - [Mozilla's approach to Manifest V3, Mozilla Blog](https://blog.mozilla.org/en/products/firefox/firefox-manifest-v3-adblockers/)
-- [Firefox and Brave keep uBlock Origin as Chrome and Edge phase out support, BetaNews](https://betanews.com/article/firefox-brave-ublock-origin-chrome-edge/)
+- [What Manifest V3 means for Brave Shields and the use of extensions in the Brave browser, Brave](https://brave.com/blog/brave-shields-manifest-v3/)
+- [Moving the Microsoft Edge extensions ecosystem forward with Manifest Version 3, Microsoft Edge Blog](https://blogs.windows.com/msedgedev/2026/08/07/moving-the-microsoft-edge-extensions-ecosystem-forward-with-manifest-version-3/)
 - [Frequently asked questions, uBlock Origin Lite wiki](https://github.com/uBlockOrigin/uBOL-home/wiki/Frequently-asked-questions-%28FAQ%29)
 - [AdGuard publishes the world's first ad blocker built on Manifest V3, AdGuard](https://adguard.com/blog/adguard-mv3.html)

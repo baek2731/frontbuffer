@@ -3,10 +3,10 @@
 2026-07-15-steam-machine-led-error-codes-what-each-warning-light-actually-means.md,verified,Hub+Spokes,,"소규모 보강 전달(2026-10-20): 정상 패턴 표(단일 2차 출처 명시), 메모리 학습 좌우 출처 차이 병기",1079
 2026-07-16-how-to-backup-samsung-health-data-before-account-deletion.md,verified,Hub+Spokes,,소규모 보강 전달(2026-10-20): 복원 소제목,904
 2026-07-17-samsung-health-vs-google-health-connect-feature-comparison.md,verified,Hub+Spokes,,,719
-2026-07-18-how-to-check-if-chrome-extensions-use-manifest-v2.md,verified,Chrome1,,전달 완료. 푸시 전,684
-2026-07-19-best-manifest-v3-alternatives-for-older-chrome-extensions.md,verified,Chrome1,,전달 완료. 푸시 전,780
-2026-07-20-google-chrome-manifest-v2-migration_HUB.md,verified,Five,,전달 완료. 푸시·OG 대기 확인 필요,671
-2026-07-20-what-is-chrome-manifest-v3-and-why-extensions-break.md,verified,Chrome1,,금지 표현 1줄 수정본 전달(2026-10-21). 푸시·적용 확인 대기,811
+2026-07-18-how-to-check-if-chrome-extensions-use-manifest-v2.md,verified,Chrome1,,BetaNews 문장을 Brave 블로그·Microsoft Edge 블로그로 교체(2026-10-21). 푸시·적용 확인 대기,717
+2026-07-19-best-manifest-v3-alternatives-for-older-chrome-extensions.md,verified,Chrome1,,"chipp.in·BetaNews 제거(Brave 블로그·X로 교체), 루트 주소 링크 2곳을 Adblock Plus 4.1 릴리스 글로 교체(2026-10-21). 푸시·적용 확인 대기",822
+2026-07-20-google-chrome-manifest-v2-migration_HUB.md,verified,Five,,"BetaNews 문장을 Brave 블로그·Microsoft Edge 블로그로 교체, 재확인 문구 추가(2026-10-21). 푸시·적용 확인 대기",704
+2026-07-20-what-is-chrome-manifest-v3-and-why-extensions-break.md,verified,Chrome1,,금지 표현 수정에 더해 BetaNews 문장을 Brave 블로그·Edge 블로그로 교체(2026-10-21). 푸시·적용 확인 대기,844
 2026-07-21-android-ecosystem_comparison.md,verified,Five,,소규모 보강 전달(2026-10-20): Pixel에 Secure Folder가 있나 항목,762
 2026-07-21-android-ecosystem_explainer.md,verified,Batch2,,전달 완료. 푸시 전,637
 2026-07-22-android-ecosystem_guide.md,verified,Batch2,,소규모 보강 전달(2026-10-20): 복원·이전 소제목. 004→005 링크는 005 발행 후,680
@@ -65,7 +65,7 @@
 2026-10-10-gemini-in-android-auto-what-it-does-and-how-to-turn-it-on.md,verified,Five,,전달 완료. 푸시·OG 대기 확인 필요,606
 2026-10-10-steam-deck-not-charging-or-slow-charger-warning-how-to-fix.md,verified,Five,,전달 완료. 푸시·OG 대기 확인 필요,786
 2026-10-15-how-to-stop-android-auto-from-playing-music-automatically.md,verified,New,,final/ 작성 후 Step 4 발행,641
-2026-10-16-what-to-use-instead-of-umatrix-in-2026.md,verified,New,,"final/002 작성, Step 4 발행. 슬러그 확인됨",788
+2026-10-16-what-to-use-instead-of-umatrix-in-2026.md,verified,New,,"chipp.in·mezha·BetaNews 제거(Windows Central·Brave 블로그/X·Microsoft Edge 블로그로 교체), Brave가 uMatrix도 호스팅한다는 내용 반영, 태그 정리(2026-10-21). 푸시·적용 확인 대기",837
 2026-10-17-september-2026-pixel-drop-whats-new-and-who-gets-it.md,verified,New,,final/003 재작성본(공식 Google 블로그 기준) 푸시 후 발행,752
 2026-10-19-samsung-health-not-syncing-last-synced-date-and-fixes.md,verified,New,,005 링크 추가본 전달(2026-10-21). 푸시·적용 확인 대기,766
 2026-10-20-google-fit-vs-health-connect-are-they-the-same.md,verified,New,,태그·요약·링크 귀속 수정본 전달(2026-10-21). 푸시·OG 대기,665

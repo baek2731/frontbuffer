@@ -2,7 +2,7 @@
 layout: single
 title: "How to Check If a Chrome Extension Uses Manifest V2"
 date: 2026-07-18 10:00:00 +0900
-last_modified_at: 2026-10-16 00:00:00 +0900
+last_modified_at: 2026-10-21 00:00:00 +0900
 categories: [tech]
 tags: ["chrome extensions", "manifest v2", "check extension manifest version", "chrome developer mode"]
 excerpt: "Chrome 138 disabled Manifest V2 extensions in July 2025, and the Web Store dropped the rest on August 31, 2026. How to tell which of yours were affected."
@@ -16,7 +16,7 @@ share: true
 
 Whether an extension still runs depends on two things: the Manifest version it was built on and the Chrome version you use. [Chrome's official timeline](https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline) says Chrome 138 disabled Manifest V2 (MV2) extensions everywhere on July 24, 2025, and that MV2 extensions cease to function for anyone upgrading to Chrome 139 or later. It also says all remaining MV2 extensions were removed from the Chrome Web Store on August 31, 2026. This page explains how to check where your extensions stand.
 
-*Checked October 16, 2026 against Chrome's timeline page, last updated September 9, 2026. Nothing here was tested in a browser.*
+*Checked October 16, 2026 against Chrome's timeline page, last updated September 9, 2026. Nothing here was tested in a browser. The Brave and Edge details were re-checked on October 21, 2026.*
 
 ---
 
@@ -27,7 +27,7 @@ Whether an extension still runs depends on two things: the Manifest version it w
 | Chrome 139 or newer | They do not run, per Chrome's timeline |
 | Chrome 138 or earlier | Extensions installed before keep running, but they cannot update and cannot be reinstalled if removed, per Chrome |
 | Firefox | Mozilla says it keeps MV2 [alongside Manifest V3](https://blog.mozilla.org/en/products/firefox/firefox-manifest-v3-adblockers/) |
-| Brave and Edge | [BetaNews reports](https://betanews.com/article/firefox-brave-ublock-origin-chrome-edge/) that Brave said it hosts uBlock Origin and other MV2 extensions on its own servers, and that Edge is phasing MV2 out |
+| Brave and Edge | Brave says on its [blog](https://brave.com/blog/brave-shields-manifest-v3/) that it hosts uBlock Origin and other MV2 extensions on its own servers, and Microsoft says Edge began moving users off MV2 in August 2026, aiming to finish the consumer transition by the end of 2026, per its [Edge blog](https://blogs.windows.com/msedgedev/2026/08/07/moving-the-microsoft-edge-extensions-ecosystem-forward-with-manifest-version-3/) |
 
 If an extension stopped working after you updated Chrome, the likely reason is that it was an MV2 extension. That is an inference from the timeline, not something Chrome tells you in the extension list, so confirm it with the checks below.
 
@@ -82,5 +82,6 @@ Sources:
 - [Migrate to Manifest V3, Chrome for Developers](https://developer.chrome.com/docs/extensions/develop/migrate)
 - [Extension Manifest Converter, GoogleChromeLabs on GitHub](https://github.com/GoogleChromeLabs/extension-manifest-converter)
 - [Mozilla's approach to Manifest V3, Mozilla Blog](https://blog.mozilla.org/en/products/firefox/firefox-manifest-v3-adblockers/)
-- [Firefox and Brave keep uBlock Origin as Chrome and Edge phase out support, BetaNews](https://betanews.com/article/firefox-brave-ublock-origin-chrome-edge/)
+- [What Manifest V3 means for Brave Shields and the use of extensions in the Brave browser, Brave](https://brave.com/blog/brave-shields-manifest-v3/)
+- [Moving the Microsoft Edge extensions ecosystem forward with Manifest Version 3, Microsoft Edge Blog](https://blogs.windows.com/msedgedev/2026/08/07/moving-the-microsoft-edge-extensions-ecosystem-forward-with-manifest-version-3/)
 - [Google Chrome will remove older Manifest V2 extensions in August, 9to5Google](https://9to5google.com/2026/07/08/google-chrome-will-remove-older-manifest-v2-extensions-in-august/)

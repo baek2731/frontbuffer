@@ -2,7 +2,7 @@
 layout: single
 title: "Why Chrome Extensions Stopped Working: Manifest V3 Explained"
 date: 2026-07-20 10:00:00 +0900
-last_modified_at: 2026-10-16 00:00:00 +0900
+last_modified_at: 2026-10-21 00:00:00 +0900
 categories: [tech]
 tags: ["chrome extensions", "manifest v3", "mv2 deprecation", "declarative net request"]
 excerpt: 'Chrome disabled Manifest V2 extensions, including the original uBlock Origin, in 2025. What MV3 changed: service workers, no remote code and declarative rules.'
@@ -16,7 +16,7 @@ share: true
 
 Chrome extensions broke because Chrome stopped running the older Manifest V2 (MV2) format, and some extensions could not be rebuilt the way Manifest V3 (MV3) requires. [Chrome's timeline](https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline) says Chrome 138 disabled MV2 extensions for all users on July 24, 2025, MV2 extensions cease to function for anyone on Chrome 139 or later, and the Web Store removed all remaining MV2 extensions on August 31, 2026. Below is what MV3 changed and why ad blockers were hit hardest.
 
-*Checked October 16, 2026 against Chrome's own pages and press reports. Nothing here was tested in a browser.*
+*Checked October 16, 2026 against Chrome's own pages and press reports. Nothing here was tested in a browser. The Brave and Edge details were re-checked on October 21, 2026.*
 
 ---
 
@@ -65,7 +65,7 @@ If an extension works in Chrome today, it is running on MV3, because Chrome 139 
 
 ## Other browsers
 
-Mozilla says it keeps MV2 alongside MV3 and [continues to support the blocking webRequest API](https://blog.mozilla.org/en/products/firefox/firefox-manifest-v3-adblockers/), so the full uBlock Origin runs on Firefox. [BetaNews reports](https://betanews.com/article/firefox-brave-ublock-origin-chrome-edge/) that Brave said it hosts uBlock Origin and other MV2 extensions on its own servers, and that Edge is phasing MV2 out. For setting up uBlock Origin's advanced mode in Firefox, see [What to Use Instead of uMatrix in 2026](https://frontbuffer.net/tech/what-to-use-instead-of-umatrix-in-2026/).
+Mozilla says it keeps MV2 alongside MV3 and [continues to support the blocking webRequest API](https://blog.mozilla.org/en/products/firefox/firefox-manifest-v3-adblockers/), so the full uBlock Origin runs on Firefox. Brave says on its [blog](https://brave.com/blog/brave-shields-manifest-v3/) that it hosts uBlock Origin and other MV2 extensions on its own servers, and Microsoft says Edge began moving users off MV2 in August 2026, aiming to finish the consumer transition by the end of 2026, per its [Edge blog](https://blogs.windows.com/msedgedev/2026/08/07/moving-the-microsoft-edge-extensions-ecosystem-forward-with-manifest-version-3/). For setting up uBlock Origin's advanced mode in Firefox, see [What to Use Instead of uMatrix in 2026](https://frontbuffer.net/tech/what-to-use-instead-of-umatrix-in-2026/).
 
 ---
 
@@ -90,5 +90,6 @@ Sources:
 - [Google is about to delete some of your favorite Chrome extensions forever, Android Authority](https://www.androidauthority.com/google-chrome-old-manifest-v2-extensions-delete-3685207/)
 - [Google Chrome will remove older Manifest V2 extensions in August, 9to5Google](https://9to5google.com/2026/07/08/google-chrome-will-remove-older-manifest-v2-extensions-in-august/)
 - [Mozilla's approach to Manifest V3, Mozilla Blog](https://blog.mozilla.org/en/products/firefox/firefox-manifest-v3-adblockers/)
-- [Firefox and Brave keep uBlock Origin as Chrome and Edge phase out support, BetaNews](https://betanews.com/article/firefox-brave-ublock-origin-chrome-edge/)
+- [What Manifest V3 means for Brave Shields and the use of extensions in the Brave browser, Brave](https://brave.com/blog/brave-shields-manifest-v3/)
+- [Moving the Microsoft Edge extensions ecosystem forward with Manifest Version 3, Microsoft Edge Blog](https://blogs.windows.com/msedgedev/2026/08/07/moving-the-microsoft-edge-extensions-ecosystem-forward-with-manifest-version-3/)
 - [Extension Manifest Converter, GoogleChromeLabs on GitHub](https://github.com/GoogleChromeLabs/extension-manifest-converter)

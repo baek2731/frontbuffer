@@ -2,8 +2,9 @@
 layout: single
 title: 'What to Use Instead of uMatrix in 2026'
 date: 2026-10-16 14:27:00 +0000
+last_modified_at: 2026-10-21 00:00:00 +0000
 categories: [tech]
-tags: ["guide", "umatrix", "use", "instead"]
+tags: ["guide", "umatrix", "ublock-origin", "chrome-extensions"]
 excerpt: 'uMatrix is dead. In 2026, the best replacement for advanced users is uBlock Origin in advanced mode, but it only fully works on Firefox and Brave.'
 header:
   image: https://images.frontbuffer.net/posts/what-to-use-instead-of-umatrix-in-2026/og.png
@@ -26,9 +27,9 @@ Security researcher Tavis Ormandy notes that [uMatrix's features were more or le
 | Browser | Full uBO? | What the sources say |
 |---|---|---|
 | Chrome | No | Chrome's timeline says [Manifest V2 was disabled everywhere with Chrome 138 on July 24, 2025](https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline), and lists August 31, 2026 as the date all remaining Manifest V2 extensions are removed from the Chrome Web Store |
-| Firefox | Yes | Mozilla keeps Manifest V2 [alongside Manifest V3 and continues to support the blocking webRequest API](https://blog.mozilla.org/en/products/firefox/firefox-manifest-v3-adblockers/). On August 10, 2026 the Firefox account posted that [support for uBlock Origin is not going anywhere](https://betanews.com/article/firefox-brave-ublock-origin-chrome-edge/) |
-| Brave | For now | Brave said it hosts uBlock Origin and other Manifest V2 extensions on its own servers, per [BetaNews](https://betanews.com/article/firefox-brave-ublock-origin-chrome-edge/). [Chipp.in](https://chipp.in/news/firefox-will-continue-to-support-ublock-origin-says-mozilla/) adds that Brave plans to continue support for some extensions only, including uBlock Origin |
-| Edge | Ending | Microsoft announced it is ending Manifest V2 support. Mezha reports [beta versions first and stable versions by the end of the year](https://mezha.ua/en/news/firefox-keeps-full-ublock-origin-support-314083/amp/) |
+| Firefox | Yes | Mozilla keeps Manifest V2 [alongside Manifest V3 and continues to support the blocking webRequest API](https://blog.mozilla.org/en/products/firefox/firefox-manifest-v3-adblockers/). In August 2026 the Firefox account on X posted that support for uBlock Origin is not going anywhere, as [Windows Central reported](https://www.windowscentral.com/software-apps/mozilla-firefox-and-brave-keep-ublock-origin-alive-while-chrome-and-edge-block-the-adblocker) |
+| Brave | For now | Brave says on its [blog](https://brave.com/blog/brave-shields-manifest-v3/) that it hosts four Manifest V2 extensions on its own servers, uBlock Origin, uMatrix, AdGuard and NoScript, for as long as it is able and the extension authors cooperate. In August 2026 it [repeated on X](https://x.com/brave/status/2087227867646079410) that it keeps supporting uBlock Origin |
+| Edge | Ending | Microsoft's [Edge blog](https://blogs.windows.com/msedgedev/2026/08/07/moving-the-microsoft-edge-extensions-ecosystem-forward-with-manifest-version-3/) says the consumer transition away from Manifest V2 starts in August 2026 in the Canary, Dev and Beta channels, reaches Stable in the following months, and is meant to finish by the end of 2026 |
 
 ## Rebuild the matrix in uBlock Origin
 
@@ -69,7 +70,7 @@ Ormandy also published a replacement extension for Chrome and calls it [clearly 
 | Chrome | uBlock Origin Lite, with no matrix, or a second browser for matrix control |
 | Edge | Plan a move, since Manifest V2 support is ending |
 
-Checked October 15, 2026 against the sources listed below. Nothing here was tested hands-on.
+Checked October 15, 2026 against the sources listed below. The Firefox, Brave and Edge details were re-checked on October 21, 2026. Nothing here was tested hands-on.
 
 ---
 Sources:
@@ -77,9 +78,10 @@ Sources:
 - [Replacing uMatrix, Tavis Ormandy](https://lock.cmpxchg8b.com/umatrix.html)
 - [Manifest V2 support timeline, Chrome for Developers](https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline)
 - [Mozilla's approach to Manifest V3, Mozilla Blog](https://blog.mozilla.org/en/products/firefox/firefox-manifest-v3-adblockers/)
-- [Firefox and Brave keep uBlock Origin as Chrome and Edge phase out support, BetaNews](https://betanews.com/article/firefox-brave-ublock-origin-chrome-edge/)
-- [Firefox will continue to support uBlock Origin, says Mozilla, Chipp.in](https://chipp.in/news/firefox-will-continue-to-support-ublock-origin-says-mozilla/)
-- [Firefox keeps full uBlock Origin support, Mezha](https://mezha.ua/en/news/firefox-keeps-full-ublock-origin-support-314083/amp/)
+- [Mozilla Firefox and Brave keep uBlock Origin alive while Chrome and Edge block the adblocker, Windows Central](https://www.windowscentral.com/software-apps/mozilla-firefox-and-brave-keep-ublock-origin-alive-while-chrome-and-edge-block-the-adblocker)
+- [What Manifest V3 means for Brave Shields and the use of extensions in the Brave browser, Brave](https://brave.com/blog/brave-shields-manifest-v3/)
+- [Brave on X: unlike Edge, Brave will keep supporting uBlock Origin, August 11, 2026](https://x.com/brave/status/2087227867646079410)
+- [Moving the Microsoft Edge extensions ecosystem forward with Manifest Version 3, Microsoft Edge Blog](https://blogs.windows.com/msedgedev/2026/08/07/moving-the-microsoft-edge-extensions-ecosystem-forward-with-manifest-version-3/)
 - [Blocking mode: medium mode, uBlock Origin wiki](https://github.com/gorhill/uBlock/wiki/Blocking-mode:-medium-mode)
 - [Advanced user features, uBlock Origin wiki](https://github.com/gorhill/uBlock/wiki/Advanced-user-features)
 - [Dynamic filtering: quick guide, uBlock Origin wiki](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-quick-guide)
