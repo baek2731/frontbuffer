@@ -18,7 +18,7 @@
 2026-07-29-samsung-health-data-ecosystem_hub.md,verified,Hub+Spokes,,,720
 2026-07-30-steam-machine-hardware-management_hub.md,verified,Hub+Spokes,,소규모 보강 전달(2026-10-20): 07-15와 서술 일치,675
 2026-07-31-portable-gaming_guide.md,verified,Batch3,,Sunshine/Moonlight 가이드 재작성본 전달(2026-10-20). 푸시·적용 확인 대기,1207
-2026-08-03-01-galaxy-fold_guide.md,verified,v37,,날짜로 매칭(추정). 실제 대상 확인 필요,692
+2026-08-03-01-galaxy-fold_guide.md,verified,v37,,"메뉴 경로를 Samsung 지원 페이지로 대조(AOD 경로 수정, 전원 절약 항목 재작성), 확인 줄·태그·요약 정리(2026-10-21). 푸시·적용 확인 대기",788
 2026-08-04-samsung-galaxy-z-foldflip-series_comparison.md,verified,v37,,"TechRadar·SamMobile 출처 제거, 제목·요약·태그 정리, Checked 줄 추가(2026-10-21). 푸시·적용 확인 대기",695
 2026-08-05-samsung-galaxy-z-foldflip-series_explainer.md,verified,v37,,"SamMobile 출처 제거, 제목·요약 정리, Checked 줄 추가(2026-10-21). 푸시·적용 확인 대기",609
 2026-08-07-samsung-galaxy-z-foldflip-series_guide.md,verified,Six,,,698
@@ -41,7 +41,7 @@
 2026-09-05-how-to-set-up-and-expand-storage-on-nintendo-switch-2-with-m.md,verified,Batch3,,08-31 병합본 전달(2026-10-20). 08-31 파일 삭제. 푸시·적용 확인 대기,983
 2026-09-06-how-to-choose-the-best-rtx-50-series-gpu-for-1440p-gaming.md,verified,Batch6,,RTX 50 1440p 가이드 재작성본 전달(2026-10-20). 푸시·적용 확인 대기,523
 2026-09-07-android-system-features.md,verified,Six,,소규모 보강 전달(2026-10-20): 제스처 섹션(9to5Google·Android Authority 9/25),702
-2026-09-13-galaxy-z-fold-8-vs-fold-7-hinge-durability-comparison.md,verified,v37,,날짜로 매칭(추정). 실제 대상 확인 필요,560
+2026-09-13-galaxy-z-fold-8-vs-fold-7-hinge-durability-comparison.md,verified,v37,,"Flex Titanium 구성 오류 수정(알루미늄 판 → 티타늄 합금 필름+티타늄 플레이트), 커버 글래스 표기 재도입(Samsung 페이지·SammyGuru 근거), 확인 줄·제목·태그·요약 정리(2026-10-21). 푸시·적용 확인 대기",657
 2026-09-14-05-gta-6s.md,verified,Batch6,,GTA VI 30FPS 재작성본 전달(2026-10-20). 푸시·적용 확인 대기,445
 2026-09-16-pixel-11-vs-pixel-11-pro-camera-features-and-differences.md,verified,Pixel4,,,617
 2026-09-17-what-is-nvidia-dlss-5-and-how-it-improves-game-performance.md,verified,Batch6,,DLSS 5 설명 글 재작성본 전달(2026-10-20). 푸시·적용 확인 대기,570
@@ -49,7 +49,7 @@
 2026-09-19-how-to-enable-custom-chat-bubbles-in-google-messages.md,verified,Batch5,,Messages 채팅 테마 가이드 재작성본 전달(2026-10-20). 푸시·적용 확인 대기,412
 2026-09-20-steam-frame-vs-meta-quest-3-vr-headset-specification-compari.md,verified,SteamFrame,,,640
 2026-09-21-speculative-showdown-envisioning-the-google-pixel-11-pro-and.md,verified,Pixel4,,,732
-2026-09-22-galaxy-z-fold-8-vs-galaxy-z-flip-8-which-foldable-phone-shou.md,verified,Six,,,768
+2026-09-22-galaxy-z-fold-8-vs-galaxy-z-flip-8-which-foldable-phone-shou.md,verified,Six,,요약 길이 보정(2026-10-21). 푸시·적용 확인 대기,768
 2026-09-23-how-to-set-up-valve-steam-frame-for-pc-vr-gaming.md,verified,SteamFrame,,,664
 2026-09-24-how-to-transfer-android-passkeys-between-devices-securely.md,verified,Batch5,,패스키 이전 가이드 재작성본 전달(2026-10-20). 푸시·적용 확인 대기,708
 2026-09-25-steam-frame-vs-steam-deck-performance-price-and-portability-.md,verified,SteamFrame,,,603
