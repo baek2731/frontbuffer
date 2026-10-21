@@ -14,7 +14,7 @@ read_time: true
 share: true
 ---
 
-Chrome extensions broke because Chrome stopped running the older Manifest V2 (MV2) format, and some extensions could not be rebuilt the way Manifest V3 (MV3) requires. [Chrome's timeline](https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline) says Chrome 138 disabled MV2 extensions for all users on July 24, 2025, MV2 extensions cease to function for anyone on Chrome 139 or later, and the Web Store removed all remaining MV2 extensions on August 31, 2026. This article explains what MV3 changed and why ad blockers were hit hardest.
+Chrome extensions broke because Chrome stopped running the older Manifest V2 (MV2) format, and some extensions could not be rebuilt the way Manifest V3 (MV3) requires. [Chrome's timeline](https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline) says Chrome 138 disabled MV2 extensions for all users on July 24, 2025, MV2 extensions cease to function for anyone on Chrome 139 or later, and the Web Store removed all remaining MV2 extensions on August 31, 2026. Below is what MV3 changed and why ad blockers were hit hardest.
 
 *Checked October 16, 2026 against Chrome's own pages and press reports. Nothing here was tested in a browser.*
 

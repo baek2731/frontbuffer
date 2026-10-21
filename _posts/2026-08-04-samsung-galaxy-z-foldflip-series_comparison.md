@@ -1,11 +1,11 @@
 ---
 layout: single
-title: 'Galaxy Z Fold 8 vs Galaxy Z Fold 8 Ultra: Key Differences Explained'
+title: 'Galaxy Z Fold 8 vs Fold 8 Ultra: Key Differences Explained'
 date: 2026-08-04 14:17:00 +0000
-last_modified_at: 2026-10-12 00:00:00 +0000
+last_modified_at: 2026-10-21 00:00:00 +0000
 categories: [tech]
-tags: ["comparison", "samsung", "galaxy", "z", "foldflip"]
-excerpt: 'Samsung launched two Fold 8 models on July 22, 2026: a wide, lighter Fold 8 and a tall Ultra with a 200MP camera and 8-inch screen.'
+tags: ["comparison", "samsung", "galaxy-z-fold-8", "foldable"]
+excerpt: 'Samsung launched two Fold 8 models on July 22, 2026: a wide, lighter Fold 8 and a tall Ultra with a 200MP camera and 8-inch screen. How they differ.'
 header:
   image: https://images.frontbuffer.net/posts/samsung-galaxy-z-foldflip-series_comparison/og.png
   overlay_filter: 0
@@ -15,6 +15,8 @@ share: true
 ---
 
 Samsung announced the Galaxy Z Fold 8 and the Galaxy Z Fold 8 Ultra at Galaxy Unpacked in London on July 22, 2026. They are not a standard and a premium version of one design. The Fold 8 is a new, wider "passport" shape, while the Fold 8 Ultra is the tall, book-style direct successor to the Galaxy Z Fold 7. Both run One UI 9 on Android 17 and use the Snapdragon 8 Elite Gen 5 for Galaxy, so the choice comes down to shape, screen size, cameras, and price.
+
+*Specs checked October 12, 2026. Battery, charging and display-structure details were re-checked on October 21, 2026. Nothing here was tested on a phone.*
 
 ---
 
@@ -84,9 +86,9 @@ YouTube channel JerryRigEverything tested both phones. The Fold 8 survived the r
 Sources:
 - [Samsung Galaxy Z Fold 8 vs Fold 8 Ultra: Which new foldable is better for you? (Engadget)](https://engadget.com/2220985/samsung-galaxy-z-fold-8-vs-fold-8-ultra-comparison)
 - [Samsung Galaxy Z Fold 8 Ultra vs. Galaxy Z Fold 8: Wide screens or flagship features? (Android Central)](https://www.androidcentral.com/phones/samsung-galaxy/samsung-galaxy-z-fold-8-ultra-vs-galaxy-z-fold-8)
-- [Samsung Galaxy Z Fold 8 Ultra vs Galaxy Z Fold 8 (TechRadar)](https://techradar.com/phones/samsung-galaxy-phones/samsung-galaxy-z-fold-8-ultra-vs-samsung-galaxy-z-fold-8)
 - [Galaxy Z Fold8 Ultra vs Fold8 spec comparison (Three UK)](https://www.three.co.uk/mobile-phones/brands/samsung/compare/samsung-galaxy-fold8-ultra-vs-samsung-galaxy-fold8)
 - [Introducing the Galaxy Z Fold8: key specs, features, and all you need to know (Samsung Australia)](https://www.samsung.com/au/mobile/buying-guide/galaxy-z-fold8-features-specs/)
-- [Galaxy Z Fold 8 Ultra is official: bigger battery, reduced crease, and more (SamMobile)](https://www.sammobile.com/news/samsung-debuts-silicon-carbon-batteries-with-galaxy-z-fold-8-fold-8-ultra-flip-8/)
+- [Samsung starts using silicon-carbon batteries with Galaxy Z Fold 8 series, Flip 8 (9to5Google)](https://9to5google.com/2026/07/22/samsung-galaxy-z-fold-8-silicon-carbon/)
+- [Samsung says Galaxy Z Fold 8 crease is less visible thanks to Flex Titanium display (9to5Google)](https://9to5google.com/2026/07/14/samsung-galaxy-z-fold-8-flex-titanium-display/)
 - [Samsung Galaxy Z Fold 8 Ultra fails durability test (Notebookcheck)](https://www.notebookcheck.net/Samsung-Galaxy-Z-Fold-8-Ultra-fails-durability-test.1380279.0.html)
 - [Confirmed: Samsung's new foldables have major battery health downgrade (Android Authority)](https://androidauthority.com/samsung-galaxy-z8-foldables-battery-charging-cycles-3691072)

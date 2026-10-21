@@ -6,7 +6,7 @@
 2026-07-18-how-to-check-if-chrome-extensions-use-manifest-v2.md,verified,Chrome1,,전달 완료. 푸시 전,684
 2026-07-19-best-manifest-v3-alternatives-for-older-chrome-extensions.md,verified,Chrome1,,전달 완료. 푸시 전,780
 2026-07-20-google-chrome-manifest-v2-migration_HUB.md,verified,Five,,전달 완료. 푸시·OG 대기 확인 필요,671
-2026-07-20-what-is-chrome-manifest-v3-and-why-extensions-break.md,verified,Chrome1,,전달 완료. 푸시 전,812
+2026-07-20-what-is-chrome-manifest-v3-and-why-extensions-break.md,verified,Chrome1,,금지 표현 1줄 수정본 전달(2026-10-21). 푸시·적용 확인 대기,811
 2026-07-21-android-ecosystem_comparison.md,verified,Five,,소규모 보강 전달(2026-10-20): Pixel에 Secure Folder가 있나 항목,762
 2026-07-21-android-ecosystem_explainer.md,verified,Batch2,,전달 완료. 푸시 전,637
 2026-07-22-android-ecosystem_guide.md,verified,Batch2,,소규모 보강 전달(2026-10-20): 복원·이전 소제목. 004→005 링크는 005 발행 후,680
@@ -19,8 +19,8 @@
 2026-07-30-steam-machine-hardware-management_hub.md,verified,Hub+Spokes,,소규모 보강 전달(2026-10-20): 07-15와 서술 일치,675
 2026-07-31-portable-gaming_guide.md,verified,Batch3,,Sunshine/Moonlight 가이드 재작성본 전달(2026-10-20). 푸시·적용 확인 대기,1207
 2026-08-03-01-galaxy-fold_guide.md,verified,v37,,날짜로 매칭(추정). 실제 대상 확인 필요,692
-2026-08-04-samsung-galaxy-z-foldflip-series_comparison.md,verified,v37,,날짜로 매칭(추정). 실제 대상 확인 필요,670
-2026-08-05-samsung-galaxy-z-foldflip-series_explainer.md,verified,v37,,날짜로 매칭(추정). 실제 대상 확인 필요,586
+2026-08-04-samsung-galaxy-z-foldflip-series_comparison.md,verified,v37,,"TechRadar·SamMobile 출처 제거, 제목·요약·태그 정리, Checked 줄 추가(2026-10-21). 푸시·적용 확인 대기",695
+2026-08-05-samsung-galaxy-z-foldflip-series_explainer.md,verified,v37,,"SamMobile 출처 제거, 제목·요약 정리, Checked 줄 추가(2026-10-21). 푸시·적용 확인 대기",609
 2026-08-07-samsung-galaxy-z-foldflip-series_guide.md,verified,Six,,,698
 2026-08-08-06-android-auto_comparison.md,verified,Batch7,,무선 Android Auto 어댑터 비교 재작성본 전달(2026-10-20). 푸시·적용 확인 대기,522
 2026-08-12-google-pixel-launcher-vs-third-party-android-launchers-featu.md,verified,Batch5,,런처 비교 재작성본 전달(2026-10-20). 푸시·적용 확인 대기,483
@@ -29,7 +29,7 @@
 2026-08-15-how-to-manage-a-large-digital-game-library-across-platforms.md,verified,Batch6,,디지털 라이브러리 관리 재작성본 전달(2026-10-20). 푸시·적용 확인 대기,390
 2026-08-16-galaxy-z-fold-8-vs-fold-7-camera-comparison-low-light-perfor.md,verified,Fold2,,,745
 2026-08-17-galaxy-z-fold-8-first-5-things-to-do-essential-setup-guide.md,verified,Fold2,,"최종본 반영 확인(2026-10-16, last_modified_at 확인). 재전달 후 푸시 완료",681
-2026-08-19-google-assistant-vs-gemini-what-changes-when-assistant-shuts.md,verified,Six,,,630
+2026-08-19-google-assistant-vs-gemini-what-changes-when-assistant-shuts.md,verified,Six,,출처 교체(9to5Google 원문·Thurrott·How-To Geek·Android Police)·본문 재작성(2026-10-21). 푸시·적용 확인 대기,662
 2026-08-20-what-is-vram-and-how-much-do-you-need-for-pc-gaming-in-2026.md,verified,Batch6,,VRAM 설명 글 재작성본 전달(2026-10-20). 푸시·적용 확인 대기,555
 2026-08-25-how-to-customize-android-quick-settings-tiles.md,verified,Batch5,,Android 빠른 설정 타일 가이드 재작성본 전달(2026-10-20). 푸시·적용 확인 대기,511
 2026-08-26-android-16-desktop-mode-setup.md,verified,Batch4,,Android 16 데스크톱 모드 설정 가이드 재작성본 전달(2026-10-20). 푸시·적용 확인 대기,750
