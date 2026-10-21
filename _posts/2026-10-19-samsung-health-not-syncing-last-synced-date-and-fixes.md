@@ -2,6 +2,7 @@
 layout: single
 title: 'Samsung Health Not Syncing: Last Synced Date and Fixes'
 date: 2026-10-19 14:18:00 +0000
+last_modified_at: 2026-10-21 00:00:00 +0000
 categories: [tech]
 tags: ["guide", "samsung", "health", "syncing", "fixes"]
 excerpt: 'Samsung Health not syncing? Fix old "Last synced" dates, missing data, or app issues. Troubleshoot Samsung account, Health Connect, and watch sync'
@@ -41,6 +42,7 @@ Work through these in order.
 - **Open Settings, Health Connect, Data and access** in Samsung Health and confirm the data types you want are turned on.
 - **Check Sync with Samsung Cloud.** Samsung Developers lists it as part of the sync settings. One developer on Samsung's US community reported that Samsung Health [was not writing to Health Connect until Sync with Samsung Cloud was turned on](https://us.community.samsung.com/t5/Samsung-Apps-and-Services/Samsung-Health-Not-Writing-to-Health-Connect/td-p/3358964), again a single user's report.
 - **A newly connected app sees only about 30 days of history by default,** according to [Android's documentation](https://developer.android.com/health-and-fitness/guides/health-connect/develop/read-data). That is how Health Connect works, not a sync failure.
+- **Google Fit is a separate system.** If you also use Google Fit, our explainer [Google Fit vs Health Connect: Are They the Same?](https://frontbuffer.net/tech/google-fit-vs-health-connect-are-they-the-same/) covers what is ending and what is not.
 
 ## Do not reset the app to fix sync
 
