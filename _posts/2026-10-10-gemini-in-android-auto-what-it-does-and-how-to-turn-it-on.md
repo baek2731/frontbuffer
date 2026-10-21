@@ -2,7 +2,7 @@
 layout: single
 title: 'Gemini in Android Auto: What It Does and What Changed'
 date: 2026-10-10 14:57:00 +0000
-last_modified_at: 2026-10-16 00:00:00 +0000
+last_modified_at: 2026-10-21 00:00:00 +0000
 categories: [tech]
 tags: ["explainer", "android", "gemini", "android-auto"]
 excerpt: 'Gemini replaced Google Assistant in Android Auto. Rollout began November 20, 2025, and Assistant removal began September 4, 2026. How to use it, and its limits.'
@@ -14,9 +14,9 @@ read_time: true
 share: true
 ---
 
-Gemini replaced Google Assistant in Android Auto in two steps. Google began rolling it out globally on November 20, 2025, in 45 languages, starting with people who had already upgraded to Gemini on their phone, according to [TechCrunch](https://techcrunch.com/2025/11/20/gemini-starts-rolling-out-to-android-auto-globally/). Then on September 4, 2026, Google began removing Assistant from phones and phone-projected Android Auto, per [Memeburn](https://memeburn.com/google-is-replacing-assistant-with-gemini-ai-shutdown-starts-september-4/), so for most people Gemini is now the only choice. Our [Assistant versus Gemini article](https://frontbuffer.net/tech/google-assistant-vs-gemini-what-changes-when-assistant-shuts/) covers what that change means on the phone.
+Gemini replaced Google Assistant in Android Auto in two steps. Google began rolling it out globally on November 20, 2025, in 45 languages, starting with people who had already upgraded to Gemini on their phone, according to [TechCrunch](https://techcrunch.com/2025/11/20/gemini-starts-rolling-out-to-android-auto-globally/). Then on September 4, 2026, Google began removing Assistant from phones and phone-projected Android Auto, per [9to5Google](https://9to5google.com/2026/08/04/google-assistant-september-2026-shutdown/), so for most people Gemini is now the only choice. Our [Assistant versus Gemini article](https://frontbuffer.net/tech/google-assistant-vs-gemini-what-changes-when-assistant-shuts/) covers what that change means on the phone.
 
-*Checked October 16, 2026 against Google's help pages and press reports. Nothing here was tested in a car.*
+*Checked October 16, 2026 against Google's help pages and press reports. The Assistant-removal details were re-checked on October 21, 2026 against 9to5Google, How-To Geek and Android Police. Nothing here was tested in a car.*
 
 ---
 
@@ -54,13 +54,13 @@ For a free-flowing conversation, Google's Android Auto page says to say "Hey Goo
 - **Google says it can be wrong.** Its Gemini page says Gemini in Android Auto is new and evolving, can present inaccurate information as fact, and should not be relied on for critical or safety-related matters while driving.
 - **Anyone in the car can use it,** including children, according to the same page.
 - **Languages differ.** Gemini began rolling out in 45 languages. [Google's Android Auto page](https://www.android.com/auto) notes that some languages do not support "Hey Google" voice commands or some Gemini action features.
-- **Reliability is unsettled.** [Implicator reports](https://www.implicator.ai/google-sets-september-4-date-to-replace-assistant-with-gemini-on-android/) that reporters and users have documented Gemini failures on basic voice tasks. No independent test was checked for this article.
+- **Reliability is unsettled.** [How-To Geek wrote](https://www.howtogeek.com/google-assistant-shuts-down-on-android-in-september/) that Gemini has struggled with simple commands such as direct device controls, and [Android Police reported](https://www.androidpolice.com/the-google-assistant-kill-off-has-arrived/) on September 29 that many users were unhappy about losing Assistant. We did not find an independent test of Gemini in Android Auto.
 
 ---
 
 ## If it does not show up
 
-Google's Android Auto page says the transition to Gemini is a server-side update that rolls out over time, and that you should have Gemini set as your primary mobile assistant. Google's setup page also says your phone might ask you to update Android Auto before you continue. Memeburn reports the Assistant removal that began on September 4 takes several weeks to reach every device.
+Google's Android Auto page says the transition to Gemini is a server-side update that rolls out over time, and that you should have Gemini set as your primary mobile assistant. Google's setup page also says your phone might ask you to update Android Auto before you continue. 9to5Google reports that Google said the Assistant removal that began on September 4 may take a few weeks to reach every device.
 
 A practical order: confirm Gemini is your phone's assistant, update Android Auto and the Google app, reconnect to the car, and give a staged rollout a few days.
 
@@ -72,5 +72,6 @@ Sources:
 - [Send and receive messages, Android Auto Help](https://support.google.com/androidauto/answer/6348317)
 - [Chat with Gemini in your car, Gemini Apps Help](https://support.google.com/gemini/answer/16735982)
 - [Android Auto, android.com](https://www.android.com/auto)
-- [Google Is Replacing Assistant With Gemini AI: Shutdown Starts September 4, Memeburn](https://memeburn.com/google-is-replacing-assistant-with-gemini-ai-shutdown-starts-september-4/)
-- [Google Sets September 4 Date to Replace Assistant With Gemini on Android, Implicator](https://www.implicator.ai/google-sets-september-4-date-to-replace-assistant-with-gemini-on-android/)
+- [Google Assistant shutting down on Android and Wear OS in September, 9to5Google](https://9to5google.com/2026/08/04/google-assistant-september-2026-shutdown/)
+- [Google Assistant shuts down on Android in September, here's what's next, How-To Geek](https://www.howtogeek.com/google-assistant-shuts-down-on-android-in-september/)
+- [Google Assistant is officially gone, and people aren't happy about it, Android Police](https://www.androidpolice.com/the-google-assistant-kill-off-has-arrived/)

@@ -2,7 +2,7 @@
 layout: single
 title: 'Fallout New Vegas vs. Fallout 3 Remaster: What We Know So Far'
 date: 2026-07-23 14:55:00 +0000
-last_modified_at: 2026-10-16 00:00:00 +0000
+last_modified_at: 2026-10-21 00:00:00 +0000
 categories: [gaming]
 tags: ["fallout remaster", "fallout new vegas remaster", "fallout 3 remaster", "bethesda 2026"]
 excerpt: 'Bethesda confirmed on July 17, 2026 that Fallout 3 and Fallout: New Vegas remasters are in development, with no dates. What else it said, and what is unknown.'
@@ -16,7 +16,7 @@ share: true
 
 On July 17, 2026, Bethesda Game Studios confirmed in a studio letter that remasters of *Fallout 3* and *Fallout: New Vegas* are in development, but it gave no release dates. [GamesRadar quotes the post](https://www.gamesradar.com/games/fallout/fallout-3-and-fallout-new-vegas-are-both-getting-remasters-bethesda-announces/) as saying that, while it was not announcing any dates, "we have been working on remasters for both Fallout 3 and Fallout: New Vegas." The letter also covered *Fallout 5*, a new Obsidian Fallout game and *The Elder Scrolls VI*.
 
-*Checked October 16, 2026 against press reports of Bethesda's letter. Bethesda's own post was not opened for this article.*
+*Checked October 16, 2026 against press reports of Bethesda's letter and re-checked on October 21, 2026. We found no newer announcement of dates or platforms. Bethesda's own post was not opened.*
 
 ---
 

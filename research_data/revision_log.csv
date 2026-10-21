@@ -10,9 +10,9 @@
 2026-07-21-android-ecosystem_comparison.md,verified,Five,,소규모 보강 전달(2026-10-20): Pixel에 Secure Folder가 있나 항목,762
 2026-07-21-android-ecosystem_explainer.md,verified,Batch2,,전달 완료. 푸시 전,637
 2026-07-22-android-ecosystem_guide.md,verified,Batch2,,소규모 보강 전달(2026-10-20): 복원·이전 소제목. 004→005 링크는 005 발행 후,680
-2026-07-23-fallout-series_comparison.md,verified,Batch2,,"전달 완료. 푸시 전. 얇은 글(약 500단어), 정확성 우선",564
-2026-07-24-fallout-series_explainer.md,verified,Batch2,,전달 완료. 푸시 전. 출처가 Fallout Wiki 한 곳(커뮤니티 위키),845
-2026-07-26-fallout-series_guide.md,verified,Five,,전달 완료. 푸시·OG 대기 확인 필요,664
+2026-07-23-fallout-series_comparison.md,verified,Batch2,,재확인 문구 추가(7월 이후 새 발표 없음 확인)(2026-10-21). 푸시·적용 확인 대기,577
+2026-07-24-fallout-series_explainer.md,verified,Batch2,,"날짜 확인 줄 추가, 위키 원문 대조(슬라이드 15종·Securitron 분기·계속 플레이 불가), Strip endings 페이지·Game8 교차 출처 추가(2026-10-21). 푸시·적용 확인 대기",899
+2026-07-26-fallout-series_guide.md,verified,Five,,"VNV 소개·Wabbajack 페이지 재확인(Wabbajack은 Steam·GOG만 지원 명시), PC Gamer 교차 출처 추가(2026-10-21). 푸시·적용 확인 대기",752
 2026-07-27-portable-gaming_comparison.md,verified,Batch3,,AYANEO vs Steam Deck 비교 재작성본 전달(2026-10-20). 푸시·적용 확인 대기,652
 2026-07-28-portable-gaming_explainer.md,verified,Batch3,,Deck Verified 설명 글 재작성본 전달(2026-10-20). 푸시·적용 확인 대기,646
 2026-07-29-samsung-health-data-ecosystem_hub.md,verified,Hub+Spokes,,,720
@@ -62,7 +62,7 @@
 2026-10-04-what-is-googlebook-and-how-it-differs-from-chromebooks.md,verified,Batch4,,Googlebook 설명 재작성본 전달(2026-10-20). 푸시·적용 확인 대기,887
 2026-10-05-what-is-pixel-voice-typing-and-how-to-use-its-best-features.md,verified,Batch5,,Pixel 음성 입력 가이드 재작성본 전달(2026-10-20). 푸시·적용 확인 대기,571
 2026-10-08-how-to-optimize-pixel-phone-gaming-performance-and-battery.md,verified,Batch5,,Pixel 게임 성능·배터리 가이드 재작성본 전달(2026-10-20). 푸시·적용 확인 대기,591
-2026-10-10-gemini-in-android-auto-what-it-does-and-how-to-turn-it-on.md,verified,Five,,전달 완료. 푸시·OG 대기 확인 필요,606
+2026-10-10-gemini-in-android-auto-what-it-does-and-how-to-turn-it-on.md,verified,Five,,Memeburn·Implicator 제거 → 9to5Google·How-To Geek·Android Police로 교체(2026-10-21). 푸시·적용 확인 대기,651
 2026-10-10-steam-deck-not-charging-or-slow-charger-warning-how-to-fix.md,verified,Five,,전달 완료. 푸시·OG 대기 확인 필요,786
 2026-10-15-how-to-stop-android-auto-from-playing-music-automatically.md,verified,New,,final/ 작성 후 Step 4 발행,641
 2026-10-16-what-to-use-instead-of-umatrix-in-2026.md,verified,New,,"chipp.in·mezha·BetaNews 제거(Windows Central·Brave 블로그/X·Microsoft Edge 블로그로 교체), Brave가 uMatrix도 호스팅한다는 내용 반영, 태그 정리(2026-10-21). 푸시·적용 확인 대기",837

@@ -2,7 +2,7 @@
 layout: single
 title: 'Fallout New Vegas Modding Guide: Essential Quality-of-Life Mods'
 date: 2026-07-26 14:13:00 +0000
-last_modified_at: 2026-10-16 00:00:00 +0000
+last_modified_at: 2026-10-21 00:00:00 +0000
 categories: [gaming]
 tags: ["fallout new vegas mods", "viva new vegas guide", "new vegas modding 2026", "fallout mod list"]
 excerpt: 'Fallout: New Vegas shipped with significant bugs and no sprint mechanic. A decade later, the modding community has fixed both - here is where to start.'
@@ -14,9 +14,9 @@ read_time: true
 share: true
 ---
 
-*Fallout: New Vegas* shipped with significant bugs and no sprint mechanic, and a long-running modding scene has addressed both. The question is where to start. This article follows the Viva New Vegas guide, which tells you to read everything and follow it in order. Its introduction says you cannot skip paragraphs or instructions and expect the game to work as it should.
+*Fallout: New Vegas* shipped with significant bugs and no sprint mechanic, and a long-running modding scene has addressed both. The question is where to start. The answer below follows the Viva New Vegas guide, which tells you to read everything and follow it in order. Its introduction says you cannot skip paragraphs or instructions and expect the game to work as it should.
 
-*Checked October 16, 2026 against the guide's own pages. Nothing here was tested in the game.*
+*Checked October 16, 2026 against the guide's own pages. The requirements and Wabbajack notes were re-checked against the guide's introduction and Wabbajack pages on October 21, 2026. Nothing here was tested in the game.*
 
 ---
 
@@ -27,7 +27,7 @@ share: true
 - **The base guide** contains the mods the game needs in order to work and perform better. Its pages cover utilities, bug fixes and a base finish step.
 - **VNV Extended** contains the subjective mods that change or add content, and it is fully modular, so you can skip parts you do not want.
 
-The guide also has a [Wabbajack page](https://vivanewvegas.moddinglinked.com/wabbajack.html) for automated installation instead of the manual step-by-step setup.
+The guide also has a [Wabbajack page](https://vivanewvegas.moddinglinked.com/wabbajack.html) for automated installation instead of the manual step-by-step setup. That page says only Steam (Global) and GOG copies of the game are supported by the Wabbajack version, so check which storefront you bought from before you choose that route. [PC Gamer's New Vegas guide](https://www.pcgamer.com/uk/fallout-new-vegas-guide-tips-best-experience/) also names Viva New Vegas as its top recommended mod pack and notes that it is available again through Wabbajack.
 
 **What you need first, per the guide's introduction:**
 
@@ -61,7 +61,7 @@ Other well-known mods, such as open-Strip or power-armor overhauls, are not part
 
 ## The remaster
 
-On July 17, 2026, Bethesda Game Studios confirmed that it has been working on remasters for both Fallout 3 and Fallout: New Vegas, as [GamesRadar reported](https://www.gamesradar.com/games/fallout/fallout-3-and-fallout-new-vegas-are-both-getting-remasters-bethesda-announces/), without announcing dates. [VGC adds](https://www.videogameschronicle.com/news/fallout-3-and-new-vegas-remasters-now-in-development/) that no gameplay footage or screenshots were shown. The sources checked do not mention mod support, so this guide applies to the original game. For more on the announcement, see [Fallout New Vegas vs. Fallout 3 Remaster](https://frontbuffer.net/gaming/fallout-series_comparison/).
+On July 17, 2026, Bethesda Game Studios confirmed that it has been working on remasters for both Fallout 3 and Fallout: New Vegas, as [GamesRadar reported](https://www.gamesradar.com/games/fallout/fallout-3-and-fallout-new-vegas-are-both-getting-remasters-bethesda-announces/), without announcing dates. [VGC adds](https://www.videogameschronicle.com/news/fallout-3-and-new-vegas-remasters-now-in-development/) that no gameplay footage or screenshots were shown. The sources checked do not mention mod support, and we found no newer announcement of dates as of October 21, 2026, so this guide applies to the original game. For more on the announcement, see [Fallout New Vegas vs. Fallout 3 Remaster](https://frontbuffer.net/gaming/fallout-series_comparison/).
 
 ---
 
@@ -76,5 +76,6 @@ Sources:
 - [Viva New Vegas, Gameplay](https://vivanewvegas.moddinglinked.com/gameplay.html)
 - [Viva New Vegas, Content](https://vivanewvegas.moddinglinked.com/content.html)
 - [Viva New Vegas, Wabbajack](https://vivanewvegas.moddinglinked.com/wabbajack.html)
+- [Fallout: New Vegas guide, tips and the best experience today, PC Gamer](https://www.pcgamer.com/uk/fallout-new-vegas-guide-tips-best-experience/)
 - [Fallout 3 and Fallout: New Vegas are both getting remasters, GamesRadar](https://www.gamesradar.com/games/fallout/fallout-3-and-fallout-new-vegas-are-both-getting-remasters-bethesda-announces/)
 - [Fallout 3 and New Vegas remasters now in development, VGC](https://www.videogameschronicle.com/news/fallout-3-and-new-vegas-remasters-now-in-development/)

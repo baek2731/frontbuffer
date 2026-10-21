@@ -2,7 +2,7 @@
 layout: single
 title: 'Fallout New Vegas Endings Explained: How Your Choices Matter'
 date: 2026-07-24 14:40:00 +0000
-last_modified_at: 2026-10-16 00:00:00 +0000
+last_modified_at: 2026-10-21 00:00:00 +0000
 categories: [gaming]
 tags: ["fallout new vegas endings", "fallout new vegas factions", "new vegas player choice", "obsidian rpg"]
 excerpt: 'Fallout: New Vegas has four main outcomes and dozens of ending slides. Which ones you get depends on the final quest you pick and what you did before.'
@@ -16,7 +16,7 @@ share: true
 
 *Fallout: New Vegas* has four main outcomes for Hoover Dam, and the ending slideshow that follows also covers dozens of companions, towns and factions, each with its own conditions. The main outcome is set by which of four final quests you complete. The rest of the slideshow depends on choices you made earlier. This guide covers both.
 
-*The details below come from the [Fallout Wiki's page on the endings](https://fallout.fandom.com/wiki/Fallout:_New_Vegas_endings), which transcribes the in-game slides and their conditions. It is a community-maintained wiki, and nothing here was tested in the game.*
+*Checked October 21, 2026 against the [Fallout Wiki's page on the endings](https://fallout.fandom.com/wiki/Fallout:_New_Vegas_endings), which transcribes the in-game slides and their conditions, with the Independent-route details cross-checked against the wiki's [Strip endings page](https://fallout.wiki/wiki/New_Vegas_Strip/Endings) and [Game8's ending guide](https://game8.co/games/Fallout-New-Vegas/archives/454380). It is a community-maintained wiki, and nothing here was tested in the game.*
 
 ---
 
@@ -32,7 +32,7 @@ share: true
 Two of these have a built-in variation:
 
 - **Legion: Caesar alive or dead.** If Caesar survives the quest *Et Tumor, Brute?*, the Legion's slide shows Caesar entering the Strip in triumph, with much of the population enslaved. If he dies there, the slide shows his Legate crowned as the new Caesar, destroying anyone who resists and killing and enslaving a large part of the population.
-- **Independent: the Securitron army.** If you finish the Independent route without upgrading the Securitron army, the slide describes anarchy in the streets before the city settles. If you upgrade it, part of the army keeps order and the slide describes minimal loss of life.
+- **Independent: the Securitron army.** If you finish the Independent route without upgrading the Securitron army, the slide describes anarchy in the streets before the city settles. If you upgrade it, part of the army keeps order and the slide describes minimal loss of life. The Strip endings page and Game8's guide give the same split.
 
 The ending also depends on your karma. A separate slide about the Courier has fifteen versions, one for each combination of karma and outcome, such as being honored by the NCR with the Golden Branch, or by Caesar with a golden coin.
 
@@ -54,7 +54,7 @@ After the main outcome, the game plays slides for companions, towns and groups. 
 
 ## Can you keep playing after the ending?
 
-No. The wiki says the game ends after the slides and cannot be continued, so the options are to reload a recent save or start a new game. Plan for this before the second battle of Hoover Dam. The downloadable expansions have their own endings, listed on the wiki's separate pages.
+No. The wiki says the game ends after the slides and cannot be continued, so the options are to reload a recent save or start a new game. Plan for this before the second battle of Hoover Dam. The same page's trivia notes describe console-command workarounds that let you roam afterward, but we did not test them and would not rely on them. The downloadable expansions have their own endings, listed on the wiki's separate pages.
 
 One trivia point from the same page: the slideshow format came from Josh Sawyer, who thought it was easier than making videos in the engine.
 
@@ -73,3 +73,5 @@ For context on the confirmed remasters, see [Fallout New Vegas vs. Fallout 3 Rem
 
 Sources:
 - [Fallout: New Vegas endings, Fallout Wiki](https://fallout.fandom.com/wiki/Fallout:_New_Vegas_endings)
+- [New Vegas Strip endings, Fallout Wiki](https://fallout.wiki/wiki/New_Vegas_Strip/Endings)
+- [Fallout: New Vegas, how to get all endings and the best ending, Game8](https://game8.co/games/Fallout-New-Vegas/archives/454380)
