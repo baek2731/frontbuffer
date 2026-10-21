@@ -2,9 +2,10 @@
 layout: single
 title: 'Google Fit vs Health Connect: Are They the Same?'
 date: 2026-10-20 14:52:00 +0000
+last_modified_at: 2026-10-21 00:00:00 +0000
 categories: [tech]
-tags: ["explainer", "google", "fit", "health", "connect"]
-excerpt: 'Google Fit and Health Connect are NOT the same. Fit APIs end in 2026; Health Connect is Android''s future. Learn how they differ & sync with Samsung Health.'
+tags: ["explainer", "google fit", "health connect", "android"]
+excerpt: 'Google Fit and Health Connect are different systems. What ends in 2026, what the new Google Health app changes, and where Samsung Health fits in.'
 header:
   image: https://images.frontbuffer.net/posts/google-fit-vs-health-connect-are-they-the-same/og.png
   overlay_filter: 0
@@ -15,14 +16,14 @@ share: true
 
 No. Google Fit and Health Connect are different things, and they are on different paths. Google Fit was a health app plus a set of developer APIs. Google has said the APIs end in 2026 and that it is consolidating the Fit app into the Google Health app. Health Connect is a storage and permissions layer built into Android, and it is the path Google recommends for Android apps. Google says it will invite Fit app users to move their data into the Google Health app later this year, but it has not given a date.
 
-*Checked October 16, 2026 against Google's blog and Android's developer pages. Nothing here was tested on a phone.*
+*Checked October 16, 2026 and re-checked on October 21, 2026 against Google's blog, 9to5Google and Android's migration pages. Nothing here was tested on a phone.*
 
 ## What each one is
 
 | | What it is | Status |
 |---|---|---|
 | **Google Fit app** | The consumer fitness app | Google says it will [invite Fit users to migrate their data into the Google Health app later this year](https://blog.google/products-and-platforms/products/google-health/google-health-app/). No date has been announced, per [9to5Google](https://9to5google.com/2026/05/07/google-fit-shut-down-health-replacement-migration-tool-coming/) |
-| **Google Fit APIs** | The developer interface that apps used to connect to Fit | Supported until the end of 2026. Developers could not sign up for them after May 1, 2024, per [Android Developers](https://developer.android.com/health-and-fitness/health-connect/migration/fit) |
+| **Google Fit APIs** | The developer interface that apps used to connect to Fit | Supported until the end of 2026, per the [Fit migration guide](https://developer.android.com/health-and-fitness/health-connect/migration/fit). Developers could not sign up for them after May 1, 2024, per the [migration FAQ](https://developer.android.com/health-and-fitness/health-connect/migration/fit/faq) |
 | **Health Connect** | On-device storage that lets health apps share data through one set of permissions | Part of Android from version 14, and a Play Store app on Android 13 and lower, per [Android Developers](https://developer.android.com/health-and-fitness/guides/health-connect/plan/availability) |
 | **Google Health app** | The Fitbit app, renamed | Rolled out from May 19, 2026. It works with apps and devices through Health Connect, Apple Health or the Google Health APIs, per Google |
 | **Google Health API** | A cloud interface tied to your Google account | Account-centric, while Health Connect is device-centric, per Android's [migration FAQ](https://developer.android.com/health-and-fitness/health-connect/migration/fit/faq) |
