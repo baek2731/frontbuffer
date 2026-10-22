@@ -18,6 +18,10 @@ We do not test devices or apps ourselves unless an article says so. When the ste
 
 We use AI-assisted tools to help research and draft articles. The tools are not treated as a source. Factual claims are compared against the sources listed at the end of each article, and statements that cannot be matched to a source are removed. AI tools can still make mistakes, so please tell us if you find one.
 
+### Topics and data
+
+We use aggregate search query data from Google Search Console and Bing Webmaster Tools to see which questions readers search for, and we use it to choose and update topics. That data describes queries and pages, not individual visitors. Our [Privacy Policy](/privacy-policy/) explains what analytics data the site collects.
+
 ### Corrections
 
 If you spot an error, write to us through our [Contact](/contact/) page with the article's URL, the sentence in question and a source for the correct information. When we confirm a correction, we update the article and its checked date.
