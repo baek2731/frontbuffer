@@ -429,7 +429,7 @@ def write_report(auto_fixed, manual_items, stack, dry_run: bool):
     if stack < 3:
         lines += [
             "## 🚨 스택 잔량 부족",
-            f"final/ 잔량 {stack}편 — Step 2/3를 수동 실행해 보충하세요.",
+            f"final/ 잔량 {stack}편 — 검수한 새 글을 final/ 에 넣어 보충하세요(Step 1~3 자동 생성은 사용하지 않음).",
             "",
         ]
 
