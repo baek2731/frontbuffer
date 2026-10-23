@@ -5,6 +5,9 @@ date: 2026-10-23 14:43:00 +0000
 categories: [tech]
 tags: ["guide", "ublock", "origin", "lite", "filtering"]
 excerpt: 'Explore uBlock Origin Lite''s filtering modes, settings, and limitations. Understand how Raymond Hill''s MV3 blocker works and if it meets your needs.'
+header:
+  image: https://images.frontbuffer.net/posts/ublock-origin-lite-filtering-modes-settings-and-limits/og.png
+  overlay_filter: 0
 author_profile: false
 read_time: true
 share: true
