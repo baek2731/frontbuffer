@@ -2,10 +2,10 @@
 layout: single
 title: 'Galaxy Z Fold 8 vs Z Flip 8: Which Foldable Should You Buy?'
 date: 2026-09-22 14:48:00 +0000
-last_modified_at: 2026-10-16 00:00:00 +0000
+last_modified_at: 2026-10-21 00:00:00 +0000
 categories: [tech]
 tags: ["comparison", "galaxy", "fold"]
-excerpt: 'Samsung announced the Galaxy Z Fold 8 and Z Flip 8 on July 22, 2026, at Galaxy Unpacked in London. Both went on sale August 7, 2026.'
+excerpt: 'Samsung announced the Galaxy Z Fold 8 and Z Flip 8 on July 22, 2026, and both went on sale August 7. Specs, screens, cameras, battery and price compared.'
 header:
   image: https://images.frontbuffer.net/posts/galaxy-z-fold-8-vs-galaxy-z-flip-8-which-foldable-phone-shou/og.png
   overlay_filter: 0

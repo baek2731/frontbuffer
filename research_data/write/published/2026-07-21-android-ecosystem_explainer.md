@@ -2,9 +2,10 @@
 layout: single
 title: 'Google Photos Free Storage Policy: What Changed for Your Library'
 date: 2026-07-21 14:49:00 +0000
+last_modified_at: 2026-10-16 00:00:00 +0000
 categories: [tech]
 tags: ["explainer", "android", "ecosystem"]
-excerpt: 'Google ended unlimited free Google Photos storage in June 2021. Five years later, most workarounds are gone - but a few still work.'
+excerpt: 'Google ended free unlimited Google Photos backup on June 1, 2021. What still counts as free today, which Pixels keep the perk, and how to recover space.'
 header:
   image: https://images.frontbuffer.net/posts/android-ecosystem_explainer/og.png
   overlay_filter: 0
@@ -13,64 +14,57 @@ read_time: true
 share: true
 ---
 
-Google ended unlimited free photo storage on June 1, 2021. Since then, every photo and video you upload counts against your free 15 GB — shared across Gmail, Google Drive, and Google Photos. Five years later, most workarounds have been closed off. A few still hold up. Here is what actually works in 2026 and what has changed since the original policy shift.
+Google ended free unlimited photo backup on June 1, 2021, and that date is still the dividing line. [Google's help page](https://support.google.com/photos/answer/10100180?hl=en) says each Google Account comes with up to 15 GB of storage shared by Gmail, Google Drive and Google Photos, and that photos and videos backed up in High quality or Express quality before June 1, 2021 do not count against it. Everything backed up since then does count, whatever the quality setting, with one exception: older Pixel phones.
 
-## What Changed in 2021 — and Why It Still Matters
-
-Before June 1, 2021, photos uploaded in "High quality" (compressed) did not count toward your storage quota. That effectively gave every Google account unlimited photo backup, as long as you were willing to accept slight compression. Google ended that arrangement across the board.
-
-Everything uploaded before that date remains free and does not count toward your storage cap. Everything after does — regardless of quality setting. If you have been using Google Photos since before 2021, the photos from that era are safe. New uploads are not.
-
-## What Still Works in 2026
-
-**OG Pixel method (Pixel 1 and Pixel XL)**
-
-As of early 2026, the original Google Pixel (2016) and Pixel XL still upload photos at original quality without counting against your quota. This was a hardware-level promise Google made at launch and has not revoked it — yet. Google has not announced a sunset date, but given the pattern of closing other loopholes, it is not guaranteed to last.
-
-A used Pixel 1 or Pixel XL costs $30–60 on eBay. Some users set them up as dedicated backup stations — plugged in, connected to Wi-Fi, running Google Photos in the background. Any photos transferred to the device and uploaded through it inherit the unlimited benefit.
-
-If you plan to use this method, do it now rather than waiting.
-
-**Pixel 2 through Pixel 5**
-
-These devices still get unlimited uploads at "Storage Saver" (compressed) quality. Not original quality, but still free and unlimited for compressed backups. Pixel 6 and later have no special storage benefit at all.
-
-**Compress existing originals**
-
-Google Photos offers a built-in "Recover storage" option that converts any "Original quality" photos you previously uploaded to "Storage saver" quality. This can free up significant space. The tradeoff is a reduction from original resolution down to 16 MP for photos and 1080p for video. For most people, the difference is not visible in everyday use.
-
-Find it in Google Photos → Profile icon → Manage storage → Compress existing photos.
-
-**Partner sharing**
-
-Google Photos lets you share your library with one trusted partner. This does not grant either person extra storage — but if one account has an OG Pixel benefit or substantial unused quota, it allows both people to view a shared library without duplicating storage usage. Useful for families or couples managing photos across accounts.
-
-## What No Longer Works
-
-**T-Mobile unlimited Google Photos plan** — shut down in September 2025. This was the last subscription anywhere offering unlimited Google Photos backup. It's gone.
-
-**Multiple Google accounts** — Google's terms of service prohibit using multiple accounts to bypass storage limits. It also makes managing your photo library genuinely cumbersome. Not worth it.
-
-## What to Actually Do in 2026
-
-If your 15 GB is getting full:
-
-1. Run the built-in compression tool first — it is free and often recovers several gigabytes
-2. Delete blurry photos, duplicates, and screenshots you do not need
-3. If you want original-quality unlimited backup and have a Pixel 1 or XL available, set it up now before Google closes that door
-4. If you need more storage long-term, Google One starts at $2.99/month for 100 GB — cheaper than most cloud alternatives
-
-The era of truly unlimited free photo backup is over. The remaining workarounds are narrowing. The most reliable path forward is either accepting the compression trade-off or paying for storage.
+*Checked October 16, 2026 against Google's help pages and 9to5Google. Nothing here was tested in the app.*
 
 ---
+
+## Which Pixels still get free backup
+
+Google's page says that if you have a Pixel 5 or earlier, you get unlimited storage for photos and videos backed up from that device at no charge. Its [backup quality page](https://support.google.com/photos/answer/6220791?hl=en) adds the details:
+
+| Phone | What Google says |
+|---|---|
+| Pixel 3a to Pixel 5 | Photos and videos backed up in Storage saver are unlimited and free |
+| Older Pixels | Original quality was free up to cutoff dates of January 16, 2021 and January 31, 2022 on Google's page. Later backups use Storage saver at no charge |
+| Original Pixel | One entry gives unlimited Original-quality storage with no Storage saver option. [Metadata Fixer](https://metadatafixer.com/learn/pixel-unlimited-google-photos-storage) says it applies to the original Pixel and Pixel XL, and that it still worked in early 2026 |
+| Pixel 6 and later | Not covered. Google's wording stops at Pixel 5 |
+
+Two cautions. Google describes the benefit as applying to photos and videos backed up from the Pixel itself. Some third-party guides suggest buying an old Pixel and uploading other photos through it, but Google's page does not describe that, and Google can change the policy, so this article does not recommend building a workflow on it. And "free" for the Pixel 3a to Pixel 5 means Storage saver quality, not original quality.
+
+---
+
+## Recover storage: shrink what you already uploaded
+
+If you backed up photos in Original quality, you can convert them. On the Google Photos website, Google's help page says to go to Settings, then Manage storage, and under Recover storage choose **Convert existing photos & videos to Storage saver**. You can do this once a day.
+
+The trade-off is resolution. Google says Storage saver resizes photos larger than 16 MP down to 16 MP and videos above 1080p down to 1080p. Google's page recommends Original quality for photos over 16 MP and videos over 1080p. Because Storage saver uploads now count against your storage too, the conversion saves space but does not make the photos free.
+
+---
+
+## What no longer works
+
+**The T-Mobile unlimited plan.** [9to5Google reported](https://9to5google.com/2026/03/16/google-photos-unlimited-storage-subscription-ends/) that T-Mobile's "2TB + Unlimited Google Photos" Google One plan stopped taking new enrollment on September 30, 2025. T-Mobile's own notice, quoted there, says billing for existing subscribers moved to Google on March 31, 2026 and that the "Unlimited Photos & Videos" plans are no longer available after the move. A commenter on that article points out that Pixels 1 to 5 still have their device perk, which matches Google's page.
+
+---
+
+## What to do if your 15 GB is full
+
+1. **Check what is using the space.** Google's help page says you can use its storage management tool to see how much space you have left and clean up.
+2. **Convert existing originals** with Recover storage if you can accept 16 MP photos and 1080p video.
+3. **On a Pixel 3a to Pixel 5, set backups to Storage saver,** since that is the quality Google lists as free.
+4. **Delete duplicates and screenshots** you do not need.
+5. **Consider a paid Google storage plan** if none of that is enough. Prices vary by country and plan name, and were not checked for this article.
+
+---
+
 For privacy-focused file storage on Android, see [Samsung Secure Folder vs Google Files Safe Folder](https://frontbuffer.net/tech/android-ecosystem_comparison/).
 
 ---
 
 Sources:
-1. [Google Blog: An update to your Google Photos storage policy](https://blog.google/products/photos/storage-update/)
-2. [Google Photos Help: About the Google Photos storage policy](https://support.google.com/photos/answer/10100180)
-3. [Google Photos Help: Manage your storage](https://support.google.com/photos/answer/6370612)
-4. [Google Photos Help: Share Google Photos with a partner](https://support.google.com/photos/answer/7378858)
-5. [9to5Google: The last remaining subscription for unlimited Google Photos storage is dead](https://9to5google.com/2026/03/16/google-photos-unlimited-storage-subscription-ends/)
-6. [Metadata Fixer: Pixel 1 Unlimited Google Photos Storage](https://metadatafixer.com/learn/pixel-unlimited-google-photos-storage)
+1. [About your Google Photos activity & storage, Google Photos Help](https://support.google.com/photos/answer/10100180?hl=en)
+2. [Choose the backup quality of your photos & videos, Google Photos Help](https://support.google.com/photos/answer/6220791?hl=en)
+3. [The last remaining subscription for unlimited Google Photos storage is dead, 9to5Google](https://9to5google.com/2026/03/16/google-photos-unlimited-storage-subscription-ends/)
+4. [Pixel 1 Unlimited Google Photos Storage, Metadata Fixer](https://metadatafixer.com/learn/pixel-unlimited-google-photos-storage)

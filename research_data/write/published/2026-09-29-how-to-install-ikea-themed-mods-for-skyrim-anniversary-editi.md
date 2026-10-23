@@ -1,10 +1,11 @@
 ---
 layout: single
-title: 'How to install IKEA-themed mods for Skyrim Anniversary Edition'
+title: "How to install IKEA's Kallax Storageborn mod in Skyrim"
 date: 2026-09-29 14:42:00 +0000
+last_modified_at: 2026-10-20 00:00:00 +0000
 categories: [gaming]
-tags: ["guide", "skyrim", "mods", "anniversary-edition"]
-excerpt: 'Installing IKEA-style furniture mods on Skyrim Anniversary Edition takes a mod manager, a version check, and a few dependencies.'
+tags: ["guide", "skyrim", "mods", "ikea"]
+excerpt: 'IKEA''s free Kallax Storageborn Creation for Skyrim installs through Bethesda Creations on PC and Xbox. How to get it, what it adds and how to start the quest.'
 header:
   image: https://images.frontbuffer.net/posts/how-to-install-ikea-themed-mods-for-skyrim-anniversary-editi/og.png
   overlay_filter: 0
@@ -13,81 +14,54 @@ read_time: true
 share: true
 ---
 
-IKEA-style furniture mods add Scandinavian flat-pack furniture to Skyrim's houses. Most are simple plugin files, but on Anniversary Edition (AE) the game version can break anything that depends on SKSE. This guide covers the setup that avoids crashes, using Mod Organizer 2 or Vortex.
+IKEA's Skyrim mod is Kallax Storageborn, a free official Creation that adds a talking Kallax shelving unit as a companion. It installs through Bethesda Creations, not from a mod site, and it is available for Skyrim Special Edition on PC and Xbox. PlayStation support is listed as coming later.
 
-To find the mods themselves, search for "IKEA" on [Nexus Mods for Skyrim Special Edition](https://www.nexusmods.com/skyrimspecialedition), which hosts AE mods too. Pick one that lists support for your game version on its page.
-
----
-
-## Why AE needs a version check
-
-Skyrim Anniversary Edition runs on executable version 1.6.x. Many older mods were built for Special Edition 1.5.97. Plain plugin files (.esp) usually work on both, but mods that use SKSE64 or compiled plugins must match your executable version. Check the mod's Requirements section and recent comments before installing.
+*Checked October 20, 2026 against IKEA's campaign page, Video Games Chronicle, PC Gamer and TechEBlog. We have not installed it ourselves, and menu names may differ on your platform.*
 
 ---
 
-## Step 1: Back up your game
+## What you need
 
-Copy the Skyrim Special Edition folder (Steam → steamapps → common → Skyrim Special Edition) to a safe location. If an install goes wrong, you can restore this copy.
-
----
-
-## Step 2: Install a mod manager
-
-Use [Mod Organizer 2](https://modorganizer2.github.io/) or [Vortex](https://www.nexusmods.com/about/vortex/). Both keep your game's Data folder clean and make removing or reordering mods easy. Dropping files straight into the Data folder is harder to undo and not recommended once you have more than a couple of mods.
+[IKEA's page](https://www.ikea.com/gb/en/campaigns/kallax-storageborn-pub5489a320/) says players of Skyrim Special Edition on PC or Xbox can download it for free from Bethesda Creations online or in game, that PlayStation players will be able to join soon, and that it is available exclusively on Bethesda Creations and requires a Creations account. It names Special Edition and says nothing specific about the Anniversary Edition upgrade, and we found no mention of other requirements such as SKSE.
 
 ---
 
-## Step 3: Install SKSE64 and Address Library, only if the mod needs them
+## How to install it
 
-Open the IKEA mod's Requirements section on Nexus.
+[Video Games Chronicle reports](https://www.videogameschronicle.com/news/ikea-has-released-a-skyrim-mod-where-players-are-accompanied-by-a-kallax-shelving-unit-voiced-by-matt-berry/) that it can be reached through the in-game Creations menu or on the Skyrim Creations website. [TechEBlog](https://www.techeblog.com/ikea-elder-scrolls-skyrim-mod-kallax-storageborn/) gives the website as creations.bethesda.net and says it arrived on September 9, 2026. In practice:
 
-- If it lists **SKSE64**, download the build that matches your AE executable from [skse.silverlock.org](https://skse.silverlock.org/). A version mismatch causes crashes on launch.
-- If it lists **Address Library for SKSE Plugins**, install the version for your game build as well. Most SKSE-based plugins on AE depend on it.
-- If it lists neither, skip this step. Many furniture mods are plain plugins.
-
-Tip: SKSE is easy to break when Steam updates Skyrim in the background. In Steam, open Skyrim's Properties → Updates and set it to update only when you launch the game.
+1. Start Skyrim Special Edition and open **Creations** from the main menu, or visit the Creations website.
+2. Search for **KALLAX STORAGEBORN**.
+3. Sign in to your Bethesda Creations account if asked, then download it.
 
 ---
 
-## Step 4: Install the mod
+## How to start the quest
 
-1. Download the mod file from its Nexus page.
-2. In your mod manager, choose "Install from file" and select the archive.
-3. Enable the mod and let the manager deploy it.
-4. Read the mod's description for load order notes. Some furniture mods must load after specific master files.
+IKEA's page says that becoming encumbered in game begins the quest. According to the mod's description quoted by Video Games Chronicle, you are sent to a long-abandoned Dwemer emporium to unravel the origins of a mysterious master, and you build your own Kallax Storageborn. TechEBlog names that location as Storereach.
 
 ---
 
-## Step 5: Find the furniture in game
+## What it adds
 
-Furniture mods add items in different ways: a crafting workbench, a chest placed in a specific house, or items you spawn with the console. The mod's Nexus page explains which one it uses.
-
-To spawn items with the console:
-
-1. Press the tilde key (~) to open the console.
-2. Type `help "IKEA"` and press Enter to list matching items with their IDs.
-3. Type `player.additem [item ID] 1`, using the full ID from the list. The first two digits depend on your load order, so copy the ID exactly as shown.
+[PC Gamer reports](https://www.pcgamer.com/games/the-elder-scrolls/ikea-made-a-skyrim-mod-starring-matt-berry-as-a-sentient-shelf-named-kallax-storageborn/) that the mod includes a new quest, a companion voiced by Matt Berry and new loot such as the Meatball Helmet and the Allenblade. Per the mod's description, Kallax can collect loot, tidy your homestead and be summoned with a new Thu'um, even when it is not your active companion.
 
 ---
 
-## Troubleshooting
+## About other IKEA-style furniture mods
 
-**Crash on load:** Check that your SKSE64 build matches your AE executable and that Address Library is installed if required. Run [LOOT](https://loot.github.io/) to sort the load order.
-
-**No IKEA items appear:** Confirm the plugin (.esp) is ticked in your manager's plugin list.
-
-**Conflicts with other mods:** Use your manager's conflict view. Later plugins in the plugin list override earlier ones. In Mod Organizer 2's left pane, the mod with the higher priority number wins file conflicts.
+This guide covers only the official IKEA Creation. We did not find unofficial IKEA furniture mods to recommend, so we do not cover mod managers or SKSE here.
 
 ---
 
 ## Takeaway
 
-Check the Requirements section first. If the mod needs no SKSE, installation is a plain manager install and you should be done in a few minutes. If it does need SKSE, match the version to your game build and turn off automatic Steam updates for Skyrim so it stays that way.
+Search for KALLAX STORAGEBORN in the Creations menu, download it with a Bethesda account, and get encumbered to start the quest. If you are on PlayStation, wait for IKEA's promised release.
 
 ---
+
 Sources:
-- [Nexus Mods — Skyrim Special Edition](https://www.nexusmods.com/skyrimspecialedition)
-- [SKSE64 official](https://skse.silverlock.org/)
-- [Mod Organizer 2](https://modorganizer2.github.io/)
-- [Vortex mod manager](https://www.nexusmods.com/about/vortex/)
-- [LOOT](https://loot.github.io/)
+- [KALLAX STORAGEBORN, IKEA UK](https://www.ikea.com/gb/en/campaigns/kallax-storageborn-pub5489a320/)
+- [Ikea has released a Skyrim mod where players are accompanied by a Kallax shelving unit voiced by Matt Berry, Video Games Chronicle](https://www.videogameschronicle.com/news/ikea-has-released-a-skyrim-mod-where-players-are-accompanied-by-a-kallax-shelving-unit-voiced-by-matt-berry/)
+- [Ikea made a Skyrim mod starring Matt Berry as a sentient shelf named Kallax Storageborn, PC Gamer](https://www.pcgamer.com/games/the-elder-scrolls/ikea-made-a-skyrim-mod-starring-matt-berry-as-a-sentient-shelf-named-kallax-storageborn/)
+- [IKEA's Kallax Storageborn Follows You Through Skyrim While Matt Berry Complains About Clutter, TechEBlog](https://www.techeblog.com/ikea-elder-scrolls-skyrim-mod-kallax-storageborn/)

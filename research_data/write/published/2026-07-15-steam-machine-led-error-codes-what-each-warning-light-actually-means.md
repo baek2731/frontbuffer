@@ -2,7 +2,7 @@
 layout: single
 title: "Steam Machine LED Error Codes: What Each Warning Light Actually Means"
 date: 2026-07-15 10:00:00 +0900
-last_modified_at: 2026-10-15 00:00:00 +0900
+last_modified_at: 2026-10-20 00:00:00 +0900
 categories: [gaming]
 tags: ["steam machine", "led error codes", "steam machine red light", "cmos reset"]
 excerpt: "The Steam Machine's light bar shows faults by color and position. Valve's code list, its warning that the panel reads flipped, and the CMOS reset steps."
@@ -20,28 +20,44 @@ The Steam Machine's front light bar reports faults by color, position and pulse 
 
 ## The light bar codes
 
-The codes below come from Valve's support page as [reported by The FPS Review](https://www.thefpsreview.com/2026/07/07/valve-responds-to-steam-machines-red-line-of-death-reports-telling-users-to-perform-a-cmos-reset/). Valve's page itself was not opened for this article.
+The codes below come from Valve's support page as [reported by The FPS Review](https://www.thefpsreview.com/2026/07/07/valve-responds-to-steam-machines-red-line-of-death-reports-telling-users-to-perform-a-cmos-reset/). Valve's page itself was not opened.
 
 | Pattern | Meaning |
 |---|---|
 | Solid red across the whole bar | Overheating warning: CPU above 95°C or GPU above 90°C |
 | Pulsing red, right quarter | No RAM detected |
 | Pulsing red, second quarter from the left | SSD error |
-| Pulsing red, far left | Failed memory test |
+| Pulsing red, far left | Failed memory test (other reports describe the left side of the bar) |
 
 [Mezha reports](https://mezha.ua/en/news/valve-steam-machine-bios-red-indicator-313196/) that Valve's page also defines a GPU failure code: the right half of the bar pulsing red with the indicator LED solid red.
+
+## Normal light patterns
+
+Not every light means a fault. One secondary source, [allthings.how](https://allthings.how/steam-machine-light-meanings-every-led-color-pattern-explained/), lists these normal patterns for the light bar and the small indicator LED. We could not find or open Valve's own page for this update, so treat them as reported, not confirmed by Valve.
+
+| Light bar | Indicator LED | Meaning |
+|---|---|---|
+| Dark | Dark | Fully shut down |
+| Dark | Solid white | Standby |
+| Breathing white | Solid white | Booting |
+| Solid blue | Solid white | Booted and ready |
+| Blue, filling left to right | Solid white | Downloading |
+| Blue, progressing left to right | Solid blue | BIOS update in progress |
+| Blinking white | Solid white | BIOS recovery |
+
+A blue bar fits Valve's CMOS reset steps below, which say the next boot should show a blue bar.
 
 ## Read the pattern with the flip in mind
 
 The first widely shared "Red Line of Death" report came from an owner whose machine stopped booting after an update and showed a red line. It was first read as a GPU error. In Valve's reply, quoted by The FPS Review, Valve said that due to a miscommunication the front panel code is flipped horizontally out of the box. Because the problem appeared during or right after a BIOS update, Valve said it was very likely that the update had not fully completed and that this was a memory training issue.
 
-Valve's reply does not say whether every unit is affected, and no fix for the panel was found in the sources checked. So left and right in the table above may appear mirrored on your machine. Use the other clues too: whether the machine boots at all, and whether the power indicator LED breathes white.
+Valve's reply does not say whether every unit is affected, and no fix for the panel was found in the sources checked. Reports also differ on where the memory-training pattern sits. The FPS Review's list puts it at the far left, while [Club386](https://www.club386.com/steam-machine-red-line-of-death-memory-training/) describes Valve's original guidance as red on the left side for memory training and at the right end for a GPU failure, before Valve said the code was flipped. So left and right in the table above may appear mirrored on your machine. Use the other clues too: whether the machine boots at all, and whether the power indicator LED breathes white.
 
 ## Solid red across the whole bar: a warning, not a shutdown
 
 Valve's code describes this as an overheating warning. It is not a shutdown. [VideoCardz](https://videocardz.com/newz/valve-to-raise-steam-machine-red-led-warning-to-100c-with-bios-update) reports that Valve says the machine begins reducing performance at 100°C. [Tom's Hardware](https://www.tomshardware.com/pc-components/cooling/valve-confirms-steam-machine-red-light-overheating-warning-is-showing-earlier-than-it-should-bios-fix-on-the-way-will-raise-temperature-warning-threshold-to-100-degrees-celsius) adds that the chip shuts the machine down to protect itself if temperatures keep rising, at 105°C.
 
-There is also a known firmware problem. Valve's support told an owner that a BIOS issue makes the red LED appear much earlier than it should, and that an update would move the threshold to 100°C. The full diagnosis is in the overheating guide below.
+There is also a known firmware problem. Valve's support told an owner that a BIOS issue makes the red LED appear much earlier than it should, and that an update would move the threshold to 100°C. Reports we found describe that update as upcoming, and we found no confirmation on October 20 that it has shipped. The full diagnosis is in the overheating guide below.
 
 Airflow still matters. [KitGuru reports](https://www.kitguru.net/?p=741692) that Valve notes restricted placement and high room temperatures can still cause overheating. As general maintenance advice, not Valve guidance, keep the vents clear and leave space around the unit. Per [PCGamesN's specs](https://www.pcgamesn.com/steam-machine/launch), the CPU is rated 30W and the GPU 110W, in a case about 156 mm wide.
 
@@ -70,7 +86,7 @@ If a no-RAM or SSD pattern appears after you open the case, reseating the module
 3. Pulsing: run Valve's CMOS reset steps, then file a ticket if the machine still does not boot.
 4. After you opened the case: reseat the RAM or SSD first.
 
-Checked October 15, 2026 against the sources listed below. Nothing here was tested on a Steam Machine.
+Checked October 15, 2026 and updated October 20, 2026 against the sources listed below. Nothing here was tested on a Steam Machine.
 
 ---
 
@@ -85,6 +101,8 @@ Sources:
 * [Valve to raise Steam Machine red LED warning to 100°C with BIOS update, VideoCardz](https://videocardz.com/newz/valve-to-raise-steam-machine-red-led-warning-to-100c-with-bios-update)
 * [Valve confirms Steam Machine red light overheating warning is showing earlier than it should, Tom's Hardware](https://www.tomshardware.com/pc-components/cooling/valve-confirms-steam-machine-red-light-overheating-warning-is-showing-earlier-than-it-should-bios-fix-on-the-way-will-raise-temperature-warning-threshold-to-100-degrees-celsius)
 * [Valve updates Steam Machine BIOS to adjust LED thermal warning thresholds, KitGuru](https://www.kitguru.net/?p=741692)
+* [Steam Machine light meanings, allthings.how](https://allthings.how/steam-machine-light-meanings-every-led-color-pattern-explained/)
+* [Steam Machine red line of death shows memory training, not GPU failure, Club386](https://www.club386.com/steam-machine-red-line-of-death-memory-training/)
 * [Steam Machine release date, specs, and price, PCGamesN](https://www.pcgamesn.com/steam-machine/launch)
 * [Steam Machine loses up to 20% of its performance with its single 16GB DDR5 SO-DIMM, TweakTown](https://www.tweaktown.com/news/112406/steam-machine-loses-up-to-20-percent-of-its-performance-with-its-out-of-the-box-single-16gb-ddr5-so-dimm/index.html)
 * [Steam Machine Gets 18 Repair Guides for SSD, RAM, PSU and More, Digital Citizen](https://www.digitalcitizen.life/steam-machine-gets-18-repair-guides-for-ssd-ram-psu-and-more/)

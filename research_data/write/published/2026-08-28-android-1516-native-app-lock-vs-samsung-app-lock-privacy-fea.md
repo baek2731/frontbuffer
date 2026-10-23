@@ -2,7 +2,7 @@
 layout: single
 title: 'Android App Lock vs Samsung Secure Folder: What Exists Today'
 date: 2026-08-28 14:55:00 +0000
-last_modified_at: 2026-10-16 00:00:00 +0000
+last_modified_at: 2026-10-20 00:00:00 +0000
 categories: [tech]
 tags: ["comparison", "android", "privacy", "samsung"]
 excerpt: 'Android''s native App Lock is still in beta and Samsung has none yet. Private Space and Secure Folder are the options today. What each does, and what is coming.'
@@ -14,9 +14,9 @@ read_time: true
 share: true
 ---
 
-If you want to lock a single app behind your fingerprint or PIN, Android does not have a finished way to do it yet. Android 15 added Private Space, which is a different tool, and Google's native App Lock is still in beta testing. Samsung phones have Secure Folder, and a built-in App Lock has only appeared in a leak. This article explains what each option does today and what is coming.
+If you want to lock a single app behind your fingerprint or PIN, Android does not have a finished way to do it yet. Android 15 added Private Space, which is a different tool, and Google's native App Lock is still in beta testing. Samsung phones have Secure Folder, and a built-in App Lock has only appeared in a leak. Below is what each option does today and what is coming.
 
-*Checked October 16, 2026 against press reports. Nothing here was tested on a phone, and the App Lock details come from beta builds and leaks that can change.*
+*Checked October 16, 2026 and updated October 20, 2026 against press reports and Android's own guide. Nothing here was tested on a phone, and the App Lock details come from beta builds and leaks that can change.*
 
 ---
 
@@ -64,6 +64,12 @@ This is a leak, not an announcement. [Android Headlines](https://www.androidhead
 
 ---
 
+## Does a Pixel have Secure Folder?
+
+No. Secure Folder is Samsung's feature, covered above for Galaxy phones. The closest built-in tool on a Pixel is Private Space on Android 15 and later. [Android's own guide](https://www.android.com/articles/how-to-set-up-private-space/) says to open Settings, go to Security & privacy, set it up with a Google account and choose a separate lock. The space then sits at the bottom of the app drawer, and while it is locked its apps are hidden from the launcher, recent apps and settings. [9to5Google notes](https://9to5google.com/turn-on-android-private-app-space/) that apps such as Google Photos, Files and Chrome get a private copy inside it. For hiding individual files, Files by Google has a separate Safe Folder, which our [Secure Folder vs Safe Folder comparison]({% post_url 2026-07-21-android-ecosystem_comparison %}) covers.
+
+---
+
 ## Which to use today
 
 - **You have a Pixel and want to hide a few apps:** Private Space works now, but it is an isolated area, not a per-app lock.
@@ -73,6 +79,8 @@ This is a leak, not an announcement. [Android Headlines](https://www.androidhead
 
 ---
 Sources:
+- [How to set up private space, Android](https://www.android.com/articles/how-to-set-up-private-space/)
+- [How to create a private app space on your Google Pixel, 9to5Google](https://9to5google.com/turn-on-android-private-app-space/)
 - [Android 17 may finally add the native App Lock feature Pixel users have been waiting for, Android Authority](https://www.androidauthority.com/android-17-app-lock-rumor-3623814/)
 - [Android's native App Lock feature may arrive next year, Android Police](https://www.androidpolice.com/android-17-native-app-lock-private-space/)
 - [App Lock Is Finally Coming to Android: Pixel Up First, Samsung May Be Next, Yahoo Tech](https://tech.yahoo.com/phones/articles/app-lock-finally-coming-android-112804962.html)

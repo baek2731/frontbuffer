@@ -2,9 +2,10 @@
 layout: single
 title: 'Steam Deck Verified: What the Compatibility Ratings Actually Mean'
 date: 2026-07-28 14:22:00 +0000
+last_modified_at: 2026-10-20 00:00:00 +0000
 categories: [gaming]
 tags: ["explainer", "portable", "gaming"]
-excerpt: 'The Steam Deck Verified badge tells you something - but not everything. Here is what each rating actually means, where it falls short.'
+excerpt: 'Verified, Playable, Unsupported or Unknown: what Valve says each Steam Deck rating means, the four checks behind Verified, and where to look beyond the badge.'
 header:
   image: https://images.frontbuffer.net/posts/portable-gaming_explainer/og.png
   overlay_filter: 0
@@ -13,60 +14,68 @@ read_time: true
 share: true
 ---
 
-The Steam Deck's game library runs into the tens of thousands, but not all of them behave the same way on the hardware. Valve introduced a four-tier "Deck Verified" rating system to help owners quickly gauge what to expect before launching a title — but the ratings have real limitations that aren't obvious from the badge alone.
+The badge on a game's Steam page is Valve's short answer to "will this work on my Steam Deck?" It has four levels, and each one is defined by a few specific checks. Knowing what those checks cover, and what they leave out, tells you when to trust the badge and when to look further.
+
+*Checked October 20, 2026 against Valve's Deck Verified and Steam Deck OLED pages, both of which carry 2022 copyright notices, so Valve's wording may have changed since. Nothing here was tested on a Steam Deck.*
 
 ---
 
-## How SteamOS Runs Windows Games
+## The four ratings
 
-The Steam Deck runs SteamOS, a Linux-based operating system. Most PC games are built for Windows, so SteamOS uses a compatibility layer called Proton to translate Windows instructions into something Linux can execute. Proton works well enough that the majority of the Steam library is playable, but the translation isn't perfect — performance, stability, and feature support vary significantly from one title to the next. The Deck Verified program exists to communicate those differences without requiring users to dig through compatibility reports before every purchase.
+[Valve's Deck Verified page](https://www.steamdeck.com/en/verified) defines the four categories this way:
 
----
+- **Verified:** the game works great on Steam Deck, right out of the box.
+- **Playable:** the game may need some manual tweaking by the user. Valve's examples are selecting a community controller config and using the touchscreen to get through a launcher.
+- **Unsupported:** the game is currently not functional on Steam Deck.
+- **Unknown:** Valve has not checked the game for compatibility yet.
 
-## The Four Ratings, Explained
-
-Valve reviews games against a fixed set of criteria and assigns one of four ratings:
-
-- **Verified** — Works out of the box with the Steam Deck's default 1280×800 resolution, full controller support, no manual configuration required, and text that's readable at handheld viewing distance. This is the highest tier.
-- **Playable** — The game runs, but requires some user intervention: manually selecting a community controller layout, navigating touchscreen-only UI elements, or adjusting graphics settings before it feels right.
-- **Unsupported** — The game does not function on Steam Deck. Common reasons include anti-cheat software that blocks Linux, hard Windows dependencies, or fundamental runtime issues that Proton cannot bridge.
-- **Unknown** — Valve has not reviewed the game yet. A large portion of the Steam catalog sits in this category, including many older titles and smaller indie releases that haven't been prioritized for review. Unknown doesn't mean unplayable — many Unknown titles run without issues — but there's no official guidance on what to expect.
-
-When Valve launched the program, the company emphasized that the Steam Deck is an open platform: users can install anything they want, including software that bypasses the rating system entirely. The Verified badge is a convenience, not a gate.
+Unknown is not a verdict. It means the game has not been reviewed.
 
 ---
 
-## Where the Official Ratings Fall Short
+## The four checks behind a Verified badge
 
-The community's experience with Deck Verified has been more complicated than the four-tier system suggests. A recurring point of friction is that "Verified" sometimes means little more than "runs on Linux with a controller attached." A game can hold Verified status while still delivering inconsistent frame rates, missing graphical features, or requiring Proton-specific workarounds that Valve's review didn't catch.
+According to Valve, a game is Deck Verified when it passes four checks:
 
-Ratings also don't update automatically. As games receive patches and Proton matures, a title's actual performance can drift significantly from its rating in either direction — a previously Unsupported game may become stable after a Proton update, while a Verified title can regress after a developer pushes a Windows-specific patch. Valve acknowledges that the Deck Verified program is an ongoing effort and that ratings change over time, but the pace of re-review doesn't always keep up with how quickly the underlying software changes.
+1. **Input:** full controller support, controller icons that match, and the on-screen keyboard appearing automatically when text is needed.
+2. **Display:** support for the Deck's default resolution of 1280x800 or 1280x720, sensible default settings, and legible text.
+3. **Seamlessness:** no compatibility warnings, and any launcher that can be navigated with a controller.
+4. **System Support:** if the game runs through Proton, the game and all its middleware must be supported by Proton, which Valve says includes anti-cheat.
 
-The community workaround is [ProtonDB](https://www.protondb.com/), an independently maintained database where Steam Deck and Linux users submit their own compatibility reports, performance notes, and specific fixes. ProtonDB reports tend to be more granular and more current than the official ratings, making it a more reliable first stop when a game's Verified badge doesn't tell the whole story.
-
----
-
-## OLED Hardware and Compatibility
-
-The Steam Deck OLED, released November 16, 2023, introduced meaningful hardware changes: a larger OLED panel, a more efficient 6nm APU, a larger battery, and faster RAM. These changes affect how games perform at the component level, and not all of it is reflected in existing Deck Verified ratings, which were assigned against the original LCD hardware in many cases. Games that ran at the edge of acceptable performance on the LCD model may run noticeably better or worse on OLED depending on how they interact with the updated APU and memory configuration.
+Valve's page does not give a frame-rate target. A Verified game has passed this checklist, and the rest of the picture, such as how smooth it feels in a heavy scene, is up to you and other players to find out.
 
 ---
 
-## How to Use the Ratings in Practice
+## Do ratings differ on the OLED model?
 
-The Deck Verified badge is a useful starting point, but treating it as a final answer leads to surprises. A practical approach:
+According to Valve, no. The Deck Verified page says every tested title keeps its rating on both the LCD and OLED models, and adds that nothing changes for Steam Deck OLED.
 
-1. Check the official rating for a quick pass/fail signal.
-2. Cross-reference with ProtonDB for recent user reports, especially for Playable-rated titles or anything with a Verified rating older than six months.
-3. For Unknown-rated games, ProtonDB is often the only reliable source of information.
+The hardware does differ. [Valve's OLED page](https://www.steamdeck.com/en/oled) lists a 7.4-inch screen at up to 90Hz instead of 7 inches at 60Hz, a 6nm APU, memory at 6400 MT/s, and a 50Wh battery instead of 40Wh. The OLED model went on sale on November 16, 2023, [according to Game Informer's review](https://gameinformer.com/tech/2023/11/16/the-steam-deck-oled-review).
 
-Valve's rating system and the community database complement each other. Neither is complete on its own.
+---
+
+## Ratings change over time
+
+Valve describes the review as ongoing. Its page says new titles and game updates arrive on Steam every day, that improvements to the Deck itself can let previously Unsupported games run, and that Valve works to keep the ratings current. The page does not say how often a game is re-reviewed, so an old rating can lag behind the game's latest patch. If a game you care about was Unsupported or Playable a while ago, check its compatibility details again.
+
+On Steam you can open the compatibility details for any reviewed title, in the store or in your library, and Valve says these give the specifics behind the rating. For a Playable game, that is where to look for what needs tweaking.
+
+---
+
+## When the badge is not enough
+
+For games rated Unknown, or when you want player experience on top of Valve's rating, the community site ProtonDB collects reports from players. [GamingOnLinux's Proton guide](https://www.gamingonlinux.com/2019/07/steam-play-proton-guide-valves-tech-for-playing-windows-games-on-linux-steam-deck/) describes its rating scale, from Platinum down to Gold, Silver, Bronze and Borked, and says anything below Gold is likely to need manual effort. ProtonDB ratings come from player reports, not from Valve, and the two systems do not map one to one.
+
+A simple routine:
+
+1. Read Valve's rating and open the compatibility details.
+2. For Playable games, note what Valve says needs adjusting before you buy.
+3. For Unknown games, check ProtonDB reports and be ready to tweak.
 
 ---
 
 Sources:
-- [Steam Deck OLED](https://www.steamdeck.com/en/oled)
-- [Steam Community — Steam Deck OLED Launch Announcement](https://store.steampowered.com/news/app/1675200/view/3860471161726084666)
-- [Steam Support — Deck Verified](https://help.steampowered.com/en/faqs/view/6767-270B-4D11-6A81)
-- [Steam Deck Verified Program Overview](https://www.steamdeck.com/en/verified)
-- [ProtonDB](https://www.protondb.com/)
+- [Steam Deck Deck Verified, Valve](https://www.steamdeck.com/en/verified)
+- [Introducing Steam Deck OLED, Valve](https://www.steamdeck.com/en/oled)
+- [The Steam Deck OLED Review, Game Informer](https://gameinformer.com/tech/2023/11/16/the-steam-deck-oled-review)
+- [Steam Play and Proton guide, GamingOnLinux](https://www.gamingonlinux.com/2019/07/steam-play-proton-guide-valves-tech-for-playing-windows-games-on-linux-steam-deck/)

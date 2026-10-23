@@ -1,10 +1,11 @@
 ---
 layout: single
-title: "How to Identify Manifest V2 Chrome Extensions Before They Stop Working"
+title: "How to Check If a Chrome Extension Uses Manifest V2"
 date: 2026-07-18 10:00:00 +0900
+last_modified_at: 2026-10-21 00:00:00 +0900
 categories: [tech]
 tags: ["chrome extensions", "manifest v2", "check extension manifest version", "chrome developer mode"]
-excerpt: "Chrome 138 disabled Manifest V2 extensions for all standard users in July 2025. Here is how to confirm which of your extensions are affected."
+excerpt: "Chrome 138 disabled Manifest V2 extensions in July 2025, and the Web Store dropped the rest on August 31, 2026. How to tell which of yours were affected."
 header:
   image: https://images.frontbuffer.net/posts/how-to-check-if-chrome-extensions-use-manifest-v2/og.png
   overlay_filter: 0
@@ -13,87 +14,74 @@ read_time: true
 share: true
 ---
 
-Chrome 138 disabled Manifest V2 extensions for all standard users in July 2025, and the [Chrome Web Store is set to remove all remaining MV2 listings on August 31, 2026](https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline). If an extension in your browser stopped working over the past year, it was almost certainly running on the legacy framework. Here is how to confirm which extensions are affected and what the deadline means going forward.
+Whether an extension still runs depends on two things: the Manifest version it was built on and the Chrome version you use. [Chrome's official timeline](https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline) says Chrome 138 disabled Manifest V2 (MV2) extensions everywhere on July 24, 2025, and that MV2 extensions cease to function for anyone upgrading to Chrome 139 or later. It also says all remaining MV2 extensions were removed from the Chrome Web Store on August 31, 2026. This page explains how to check where your extensions stand.
+
+*Checked October 16, 2026 against Chrome's timeline page, last updated September 9, 2026. Nothing here was tested in a browser. The Brave and Edge details were re-checked on October 21, 2026.*
 
 ---
 
-## The Architectural Shift: What Changed Between Manifest V2 and V3
+## Where MV2 extensions stand today
 
-Google's transition away from Manifest V2 represents a fundamental redesign of how browser extensions interact with core web technologies. According to [Google's official migration documentation](https://developer.chrome.com/docs/extensions/develop/migrate), Manifest V3 introduces strict structural requirements designed to enhance user security, system performance, and privacy.
+| Your browser | What happens to MV2 extensions |
+|---|---|
+| Chrome 139 or newer | They do not run, per Chrome's timeline |
+| Chrome 138 or earlier | Extensions installed before keep running, but they cannot update and cannot be reinstalled if removed, per Chrome |
+| Firefox | Mozilla says it keeps MV2 [alongside Manifest V3](https://blog.mozilla.org/en/products/firefox/firefox-manifest-v3-adblockers/) |
+| Brave and Edge | Brave says on its [blog](https://brave.com/blog/brave-shields-manifest-v3/) that it hosts uBlock Origin and other MV2 extensions on its own servers, and Microsoft says Edge began moving users off MV2 in August 2026, aiming to finish the consumer transition by the end of 2026, per its [Edge blog](https://blogs.windows.com/msedgedev/2026/08/07/moving-the-microsoft-edge-extensions-ecosystem-forward-with-manifest-version-3/) |
 
-Under the older Manifest V2 framework, extensions frequently utilized persistent background pages or event pages that remained active continuously, consuming system memory even when idle. Manifest V3 replaces these with modern service workers, moving background execution off the main thread to prevent extension code from degrading overall browser responsiveness.
-
-The migration also alters how extensions manage security and data access. The newer platform completely removes support for remotely hosted code and the execution of arbitrary strings — all executable logic must now be bundled directly within the extension package. Network request handling has been overhauled as well: the legacy blocking web request API, which granted extensions broad access to sensitive user data and could slow page rendering, is replaced by the Declarative Net Request API, which shifts processing to the browser engine itself.
-
----
-
-## How to Check If an Extension Uses Manifest V2
-
-There are two methods available depending on whether you are an end user or a developer managing extension files directly.
-
-### Method 1: Check via chrome://extensions (End Users)
-
-The simplest way for regular Chrome users to identify legacy extensions is through the built-in extension management page. Since Chrome began rolling out the MV2 deprecation, the `chrome://extensions` page displays a **warning banner** for any installed extension still running on Manifest V2. To check:
-
-1. Open Chrome and navigate to `chrome://extensions` in the address bar.
-2. Look for any extensions showing a warning banner indicating they "will soon no longer be supported" or have already been disabled.
-3. Extensions showing this banner are confirmed Manifest V2 add-ons.
-
-Worth keeping in mind: as of Chrome 138, most MV2 extensions have already been automatically disabled for standard users. If an extension is still running in your browser today, it is almost certainly already Manifest V3 compliant.
-
-### Method 2: Inspect the manifest.json File (Developers)
-
-For developers managing extension source files directly, the most definitive check involves inspecting the core configuration file. Every Chrome extension includes a `manifest.json` file at its root:
-
-1. Locate the root directory containing the extension's files.
-2. Open `manifest.json` using any standard text editor.
-3. Find the `"manifest_version"` key within the JSON structure.
-   - A value of `2` confirms a **legacy Manifest V2** extension requiring migration.
-   - A value of `3` confirms the extension meets the current **Manifest V3** standard.
-
-For developers who need to assess large numbers of extensions at once, Google maintains an open-source [Extension Manifest Converter](https://github.com/GoogleChromeLabs/extension-manifest-converter) that parses legacy files and highlights structural compliance gaps. While it does not rewrite complex API calls or handle full service worker refactoring, it serves as a useful baseline diagnostic tool.
+If an extension stopped working after you updated Chrome, the likely reason is that it was an MV2 extension. That is an inference from the timeline, not something Chrome tells you in the extension list, so confirm it with the checks below.
 
 ---
 
-## The August 2026 Deadline: What It Means for Users and Developers
+## How to check as a regular user
 
-The deprecation timeline has two remaining milestones that affect different audiences:
+Open `chrome://extensions` in the address bar. Chrome's timeline describes what that page showed during the phase-out. From June 2024 some users saw a warning banner there saying that some MV2 extensions would soon no longer be supported, and from October 2024 Chrome began disabling installed MV2 extensions in the stable channel and sent users to the Web Store to see recommended MV3 alternatives. The sources checked do not say whether those banners still appear in current Chrome versions.
 
-- **July 28, 2026 (Chrome 151):** The final developer flags that allowed MV2 re-enabling in Chrome are deleted. After this date, no mechanism exists to run MV2 extensions in Chrome under any configuration.
-- **August 31, 2026:** All remaining MV2 extension listings are permanently removed from the Chrome Web Store. Extensions already installed on Chrome 138 or earlier may remain in the browser, but will receive no further updates and cannot be reinstalled if removed.
+A practical way to read the page now:
 
-For practical purposes, if an extension still functions in Chrome today, it has already been updated to Manifest V3.
-
----
-
-## Cross-Browser Implications: Chromium-Based Browsers
-
-Because the Chromium engine underpins multiple major browsers, this architectural migration extends beyond Chrome itself. Browsers built on Chromium — including Microsoft Edge, Opera, and Brave — share the same underlying extension architecture, meaning add-ons built for Chrome's ecosystem face equivalent long-term structural pressures.
-
-While some Chromium-based browsers have historically supported legacy APIs longer than Google's own timeline, the structural shift in the engine's codebase means developers must eventually align with the Manifest V3 service worker architecture. Add-ons designed for specialized use cases — video management utilities, social media modifiers, or developer workflow tools — face identical performance and security constraints if left unmigrated.
+1. Look for extensions that are turned off or flagged as unavailable.
+2. Search the extension's name in the Chrome Web Store. If the listing is gone, it may have been one of the MV2 extensions removed on August 31, which is an inference rather than a Chrome statement.
+3. Look for an MV3 version from the same developer. For ad blockers, see [our guide to MV3 alternatives](https://frontbuffer.net/tech/best-manifest-v3-alternatives-for-older-chrome-extensions/).
 
 ---
 
-## Migration Best Practices for Developers
+## How to check the manifest file
 
-When converting a legacy extension to the modern standard, Google's official guidance recommends prioritizing stability over new features during the transition:
-
-- **Isolate structural changes:** Focus exclusively on compatibility during migration. Adding capabilities that require new permissions can trigger unexpected permission warnings for existing users.
-- **Transition to service workers:** Background and event pages must be phased out entirely. DOM operations, window references, and incompatible API calls must be relocated to dedicated offscreen documents.
-- **Refactor network listeners:** Any blocking web request infrastructure must be rewritten using the Declarative Net Request API, reducing data access permissions while shifting processing to the browser.
-- **Use phased rollouts:** Publish the updated extension to a limited audience first to confirm stability before deploying globally.
-
-For users discovering that a favorite extension has been disabled, the Chrome Web Store provides recommended Manifest V3 alternatives where available for affected add-ons.
+If you have an extension's files, or you are the developer, open its `manifest.json` and find the `"manifest_version"` key. A value of 2 means a Manifest V2 extension, and a value of 3 means Manifest V3. Chrome's [migration guide](https://developer.chrome.com/docs/extensions/develop/migrate) has a step for updating the manifest.
 
 ---
 
-For working replacements that are already MV3-compliant, see [Best Manifest V3 Alternatives for Older Chrome Extensions](https://frontbuffer.net/tech/best-manifest-v3-alternatives-for-older-chrome-extensions/). For a full architectural overview of what changed, see [What is Chrome Manifest V3 and Why Extensions Break](https://frontbuffer.net/tech/what-is-chrome-manifest-v3-and-why-extensions-break/). The complete reference is available in the [Chrome Manifest V2 Deprecation Guide](https://frontbuffer.net/tech/google-chrome-manifest-v2-migration_HUB/).
+## What changed between MV2 and MV3
+
+[Chrome's own overview](https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3) lists three main changes:
+
+- **Service workers instead of long-lived background pages.** MV2 extensions had a background page that took up resources even when the extension was not running. In MV3, the background context runs only when needed.
+- **No remotely hosted code.** An extension can only execute JavaScript included in its own package, which is subject to Chrome Web Store review.
+- **A new way to modify network requests.** Chrome deprecated the blocking version of the webRequest API and offers the declarativeNetRequest API as what it calls a safer alternative for many use cases. Extension makers, especially ad blockers, say it is more limiting. Our [hub page](https://frontbuffer.net/tech/google-chrome-manifest-v2-migration_HUB/) and [MV3 explainer](https://frontbuffer.net/tech/what-is-chrome-manifest-v3-and-why-extensions-break/) cover both views.
+
+---
+
+## If you are a developer
+
+Chrome's [migration overview](https://developer.chrome.com/docs/extensions/develop/migrate) and checklist are the reference. There is also an open-source [Extension Manifest Converter](https://github.com/GoogleChromeLabs/extension-manifest-converter) in the GoogleChromeLabs GitHub organization. Its repository says it helps convert an extension to MV3 using search-and-replace changes, that it does not fully automate the conversion, and that it is not an official Google product. The repository was archived on April 19, 2026 and is now read-only, so treat it as a starting point at most.
+
+---
+
+## Which guide to read next
+
+- **Replacing an ad blocker:** [Best Manifest V3 Alternatives for Older Chrome Extensions](https://frontbuffer.net/tech/best-manifest-v3-alternatives-for-older-chrome-extensions/)
+- **Why extensions broke:** [What is Chrome Manifest V3 and Why Extensions Break](https://frontbuffer.net/tech/what-is-chrome-manifest-v3-and-why-extensions-break/)
+- **The full timeline:** [Chrome Manifest V2 Is Dead: What Happened and What to Use Instead](https://frontbuffer.net/tech/google-chrome-manifest-v2-migration_HUB/)
 
 ---
 
 Sources:
 
-- [Google Chrome: Manifest V2 Deprecation Timeline](https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline)
-- [Google Developer Migration Overview](https://developer.chrome.com/docs/extensions/develop/migrate)
-- [Extension Manifest Converter (GitHub)](https://github.com/GoogleChromeLabs/extension-manifest-converter)
-- [9to5Google: Chrome will remove older Manifest V2 extensions in August](https://9to5google.com/2026/07/08/google-chrome-will-remove-older-manifest-v2-extensions-in-august/)
+- [Manifest V2 support timeline, Chrome for Developers](https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline)
+- [What is Manifest V3, Chrome for Developers](https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3)
+- [Migrate to Manifest V3, Chrome for Developers](https://developer.chrome.com/docs/extensions/develop/migrate)
+- [Extension Manifest Converter, GoogleChromeLabs on GitHub](https://github.com/GoogleChromeLabs/extension-manifest-converter)
+- [Mozilla's approach to Manifest V3, Mozilla Blog](https://blog.mozilla.org/en/products/firefox/firefox-manifest-v3-adblockers/)
+- [What Manifest V3 means for Brave Shields and the use of extensions in the Brave browser, Brave](https://brave.com/blog/brave-shields-manifest-v3/)
+- [Moving the Microsoft Edge extensions ecosystem forward with Manifest Version 3, Microsoft Edge Blog](https://blogs.windows.com/msedgedev/2026/08/07/moving-the-microsoft-edge-extensions-ecosystem-forward-with-manifest-version-3/)
+- [Google Chrome will remove older Manifest V2 extensions in August, 9to5Google](https://9to5google.com/2026/07/08/google-chrome-will-remove-older-manifest-v2-extensions-in-august/)

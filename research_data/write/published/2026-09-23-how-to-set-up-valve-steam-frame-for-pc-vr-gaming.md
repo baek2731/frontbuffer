@@ -2,9 +2,9 @@
 layout: single
 title: 'How to set up Valve Steam Frame for PC VR gaming'
 date: 2026-09-23 14:25:00 +0000
-last_modified_at: 2026-10-15 00:00:00 +0000
+last_modified_at: 2026-10-21 00:00:00 +0000
 categories: [gaming]
-tags: ["guide", "steam", "frame"]
+tags: ["guide", "steam-frame", "vr", "setup"]
 excerpt: 'Setting up a Steam Frame for PC VR takes a Windows PC, the included 6GHz adapter and a pairing code. What Valve''s support guide says, and where setup can fail.'
 header:
   image: https://images.frontbuffer.net/posts/how-to-set-up-valve-steam-frame-for-pc-vr-gaming/og.png
@@ -22,9 +22,9 @@ The Steam Frame's PC VR link depends on a small USB adapter, and the first thing
 - **A USB port for the adapter.** Setup guides from [Steam Hardware](https://steamhardware.io/articles/steam-frame/steam-frame-streaming-setup/) and [FinalBoss](https://finalboss.io/steam-frame-how-to-set-up-steam-sign-in-ipd-and-wireless-pcvr) both recommend a USB 3 port.
 - **A USB-C charger of 45W or higher.** Valve's kit does not include a power supply, and [Valve says a Steam Deck charger works](https://store.steampowered.com/hardware/steamframe).
 - **AA batteries for the controllers.** Valve's page lists AA power for the controllers. The sources checked do not say whether batteries come in the box.
-- **A lens spacing that fits.** FinalBoss and [VR Expert](https://vr-expert.com/en-us/steam-frame-price-release-date-specs-and-what-it-can-do/) both give the headset's interpupillary distance range as 60 to 70mm.
+- **A lens spacing that fits.** FinalBoss and [Club386's review](https://www.club386.com/steam-frame-review/) both give the headset's interpupillary distance range as 60 to 70mm.
 
-The Frame is sold through a reservation queue, so it may not be in your hands yet. [VR Expert reports](https://vr-expert.com/en-us/steam-frame-price-release-date-specs-and-what-it-can-do/) that sign-ups ran September 14 to 17 and purchase emails began September 18.
+The Frame is sold through a reservation queue, so it may not be in your hands yet. [Beebom reports](https://beebom.com/valve-opens-steam-frame-reservations/) that sign-ups ran from September 14 to September 17 and that purchase emails began on September 18.
 
 ## Pair the headset with your PC
 
@@ -51,11 +51,11 @@ The adapter is optional. [UploadVR](https://www.uploadvr.com/steam-frame-price-r
 
 ## Half-Life: Alyx
 
-Valve lists Half-Life: Alyx as included with the kit. UploadVR reports [a native ARM build that runs on the headset without a PC](https://www.uploadvr.com/steam-frame-price-revealed-reservations-opened-alyx-included/). VR Expert says you redeem it in the Frame's settings, once per device, and cannot redeem it if you already own the game.
+Valve lists Half-Life: Alyx as included with the kit. UploadVR reports [a native ARM build that runs on the headset without a PC](https://www.uploadvr.com/steam-frame-price-revealed-reservations-opened-alyx-included/). [Gaming on Steam reports](https://gamingonsteam.com/2026/09/14/steam-frame-preorders-are-open-prices-specs-and-half-life-alyx) that you redeem it in the headset's settings and cannot redeem a second copy if your account already owns it.
 
 ## What this guide does not cover
 
-Steps were checked against Valve's published pages and the reporting listed below on October 15, 2026. The pairing prompts come from a pre-launch description and from secondary summaries of Valve's guide. Nothing here was tested on a Steam Frame. If a step differs on your headset, Valve's own support guide is the reference to follow.
+Steps were checked against Valve's published pages and the reporting listed below on October 15, 2026. The lens-spacing range, reservation dates and Half-Life: Alyx details were re-checked on October 21, 2026. The pairing prompts come from a pre-launch description and from secondary summaries of Valve's guide. Nothing here was tested on a Steam Frame. If a step differs on your headset, Valve's own support guide is the reference to follow.
 
 ---
 Sources:
@@ -65,7 +65,9 @@ Sources:
 - [Valve's Steam Frame dongle script says do not switch your Wi-Fi region to US, Mixed](https://mixed-news.com/en/valve-steam-frame-dongle-script-wifi-regulatory-domain-usb-tethering/)
 - [Valve made a Steam Frame Dongle troubleshooting script for Linux gamers, GamingOnLinux](https://www.gamingonlinux.com/2026/09/valve-made-a-steam-frame-dongle-troubleshooting-script-for-linux-gamers/)
 - [Steam Frame Is $1059 & Comes With Standalone Half-Life: Alyx, UploadVR](https://www.uploadvr.com/steam-frame-price-revealed-reservations-opened-alyx-included/)
-- [Steam Frame: Price, Release Date, Specs and What It Can Do, VR Expert](https://vr-expert.com/en-us/steam-frame-price-release-date-specs-and-what-it-can-do/)
+- [Steam Frame review: fantastic wireless VR gaming at a premium, Club386](https://www.club386.com/steam-frame-review/)
+- [Valve Opens Steam Frame Reservations, but You'll Have to Enter a Randomized Queue, Beebom](https://beebom.com/valve-opens-steam-frame-reservations/)
+- [Steam Frame preorders are open: prices, specs, and Half-Life: Alyx, Gaming on Steam](https://gamingonsteam.com/2026/09/14/steam-frame-preorders-are-open-prices-specs-and-half-life-alyx)
 - [Steam Frame Streaming Setup: Included Adapter vs Home Network, Steam Hardware](https://steamhardware.io/articles/steam-frame/steam-frame-streaming-setup/)
 - [Steam Frame: How to Set Up Steam Sign-In, IPD, and Wireless PCVR, FinalBoss](https://finalboss.io/steam-frame-how-to-set-up-steam-sign-in-ipd-and-wireless-pcvr)
 - [Steam Frame Wireless Adapter Not Connecting, Trunetto](https://www.trunetto.com/troubleshooting/game-consoles/steam/steam-frame-wireless-adapter-wont-connect-streaming)

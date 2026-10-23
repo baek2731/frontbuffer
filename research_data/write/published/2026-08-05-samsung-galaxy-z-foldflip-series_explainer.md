@@ -1,11 +1,11 @@
 ---
 layout: single
-title: 'Galaxy Z Fold 8 Silicon-Carbon Battery: More Capacity, Fewer Cycles'
+title: 'Galaxy Z Fold 8 Silicon-Carbon Battery: Capacity Up, Cycles Down'
 date: 2026-08-05 14:19:00 +0000
-last_modified_at: 2026-10-12 00:00:00 +0000
+last_modified_at: 2026-10-21 00:00:00 +0000
 categories: [tech]
 tags: ["explainer", "samsung", "galaxy-z-fold-8", "battery"]
-excerpt: 'Samsung''s Fold 8 line uses silicon-carbon cells for the first time. Capacity rose, but EU listings show 1,200 rated cycles, down from 2,000.'
+excerpt: 'Samsung''s Fold 8 line uses silicon-carbon cells for the first time. Capacity rose, but EU listings show 1,200 rated cycles, down from 2,000 on the Fold 7.'
 header:
   image: https://images.frontbuffer.net/posts/samsung-galaxy-z-foldflip-series_explainer/og.png
   overlay_filter: 0
@@ -15,6 +15,8 @@ share: true
 ---
 
 Samsung's Galaxy Z Fold 8, Galaxy Z Fold 8 Ultra, and Galaxy Z Flip 8 are the first Galaxy phones to use silicon-carbon batteries. Samsung confirmed the change to reporters at the July 22, 2026 launch, even though the spec sheets do not mention it. The new cells let two of the three phones carry more capacity or a thinner body. They also come with a shorter rated lifespan, and that trade-off is the part most coverage of the launch skipped.
+
+*Checked October 12, 2026. Battery capacities and thickness figures were re-checked on October 21, 2026. Nothing here was tested on a phone.*
 
 ---
 
@@ -63,4 +65,4 @@ Sources:
 - [Samsung's new silicon-carbon batteries in Galaxy Z Fold 8 won't last as long (9to5Google)](https://9to5google.com/2026/07/24/samsung-silicon-carbon-battery-galaxy-z-fold-8-longevity/)
 - [Confirmed: Samsung's new foldables have major battery health downgrade (Android Authority)](https://androidauthority.com/samsung-galaxy-z8-foldables-battery-charging-cycles-3691072)
 - [Why Samsung finally switched to silicon-carbon batteries for its new foldables (ChannelNews)](https://www.channelnews.com.au/why-samsung-finally-switched-to-silicon-carbon-batteries-for-its-new-foldables/)
-- [Samsung debuts silicon carbon batteries with Galaxy Z Fold 8, Fold 8 Ultra, and Flip 8 (SamMobile)](https://www.sammobile.com/news/samsung-debuts-silicon-carbon-batteries-with-galaxy-z-fold-8-fold-8-ultra-flip-8/)
+- [Samsung finally switched to silicon-carbon battery on Galaxy Z Fold 8, what's so special about it (Digital Trends)](https://www.digitaltrends.com/phones/samsung-finally-switched-to-silicon-carbon-battery-on-galaxy-z-fold-8-whats-so-special-about-it/)

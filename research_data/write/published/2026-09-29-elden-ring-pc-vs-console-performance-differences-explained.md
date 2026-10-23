@@ -2,9 +2,10 @@
 layout: single
 title: 'Elden Ring PC vs console performance: what actually differs'
 date: 2026-09-29 14:56:00 +0000
+last_modified_at: 2026-10-20 00:00:00 +0000
 categories: [gaming]
 tags: ["comparison", "elden-ring", "pc", "performance"]
-excerpt: 'Elden Ring launched with PC stuttering and uneven console performance. Here is what each platform got right, what patches fixed.'
+excerpt: 'Elden Ring launched with PC stutter and variable console frame rates. What launch-era analysis found, what fixes helped on PC, and the anti-cheat rule for mods.'
 header:
   image: https://images.frontbuffer.net/posts/elden-ring-pc-vs-console-performance-differences-explained/og.png
   overlay_filter: 0
@@ -13,67 +14,67 @@ read_time: true
 share: true
 ---
 
-If Elden Ring stutters on your PC, you are not imagining it, and a faster GPU alone may not fix it. The PC version has had frame pacing problems since launch in February 2022, while the PS5 and Xbox Series versions had their own rough edges. This post compares the two sides and lists the fixes worth trying on PC.
+If Elden Ring stutters on your PC, a faster graphics card may not fix it. Digital Foundry's launch analysis found PC problems that affected all hardware and all presets, while the PS5 and Xbox Series versions had variable frame rates of their own. This post compares the two and lists fixes that were reported to help on PC.
 
-We haven't benchmarked current builds ourselves. What follows relies on launch-era technical analysis and later reports.
+*Checked October 20, 2026. Most of our sources date from February and March 2022, so they describe launch-era builds. We have not benchmarked current builds, and patches since may have changed things. Check the current patch notes on Steam.*
 
 ---
 
 ## Short answer
 
-- **Console:** the simpler choice. No settings to manage, and the problems reported at launch were different in kind from the PC ones.
-- **PC:** the better choice if you have a capable machine and a variable refresh rate display, and want mods or ultrawide support. Expect occasional micro-stutter and a bit of tinkering.
+- **Console:** the simpler choice, with no settings to manage, though frame rates were variable at launch.
+- **PC:** the better choice if you want mods or already own capable hardware, with the expectation of some stutter and tinkering.
 
 ---
 
-## PC at launch: stutter on every hardware tier
+## PC at launch
 
-Digital Foundry's early analysis found that the 1.02 PC build had issues affecting [all hardware configurations on all graphical presets](https://windowscentral.com/elden-ring-faces-mixed-pc-reviews-over-widespread-performance-issues). The game was FromSoftware's first low-level API release on PC and runs on DirectX 12.
+[Windows Central quoted Digital Foundry](https://windowscentral.com/elden-ring-faces-mixed-pc-reviews-over-widespread-performance-issues) saying the 1.02 PC build had issues that affect all hardware configurations on all graphical presets, and that Elden Ring was FromSoftware's first foray into low-level APIs on PC, using DirectX 12. [Digital Foundry's first impressions](https://www.eurogamer.net/articles/digitalfoundry-2022-02-24-elden-ring-performance-first-impressions) describe a stutter tied to loading new areas: minor one-off frame drops a few times a minute, or at worst frame-time problems that dropped the rate from a steady 60 into the 40s.
 
-The most visible problem was frame-time stutter of up to a quarter of a second, which pulled the 60fps cap down to around 40fps in those moments. [Loading new areas triggered a second, more pervasive stutter](https://www.darkhorizons.com/?p=152985). Variable refresh rate monitors made the drops less noticeable, but did not remove them.
-
-Bandai Namco's own advice at launch was to update graphics drivers, which is still the first thing to check.
+Bandai Namco said its day-one patch, 1.02, would improve stability, and later told players that updating graphics drivers may significantly improve performance. [PC Gamer reported](https://www.pcgamer.com/elden-ring-stuttering-day-one-patch/) that the day-one patch fixed the worst stuttering but that some persisted in new areas.
 
 ---
 
-## Consoles at launch: variable, with their own bugs
+## Consoles at launch
 
-The console versions were not smooth either. Digital Foundry described PS5 and Xbox Series performance as highly variable at launch, and the PS5 version had a separate save-data problem for players who left the console in sleep mode.
-
-The practical difference is that console issues were about inconsistency within a fixed target, while PC issues were about frame pacing that no setting fully fixed. Consoles also have no driver, shader cache, or overlay to troubleshoot.
+Digital Foundry found that on patch 1.02, the frame-rate mode ran at 45 to 60 fps on PS5 and Series X, while the quality modes ranged between 30 and 60 fps. So console problems were about inconsistency within a fixed target, while the PC stutter came from frame pacing.
 
 ---
 
 ## What patches changed
 
-Patches 1.02.1 and 1.02.2 arrived within the first weeks, including a fix for a bug that left the graphics card underused on PC. Later updates improved stability, but PC micro-stutter did not go away: [reports around patch 1.12, released ahead of the Shadow of the Erdtree expansion in 2024](https://www.spaziogames.it/notizie/ancora-problemi-per-elden-ring-su-pc-lupdate-non-ha-risolto-granche), said the stutter was still there. Shadow of the Erdtree itself brought new frame-drop complaints in the added areas.
-
-Treat any claim that the PC version is fully fixed with caution. Check the current patch notes on Steam before assuming a given build behaves differently.
+[Digital Trends found](https://www.digitaltrends.com/computing/elden-ring-new-patch-stuttering-how-to-fix/) that patch 1.02.2 still stuttered on its test system. We did not verify later patches, so treat any claim that the PC version is fully fixed with caution.
 
 ---
 
 ## What to try on PC
 
-1. **Update your GPU driver.** This was Bandai Namco's first recommendation and is still the cheapest fix.
-2. **Use a variable refresh rate display if you have one.** Enable G-Sync or FreeSync so frame-time dips are less visible.
-3. **Keep the frame rate cap at 60.** The game is built around it, and a steady 60 feels better than a fluctuating higher number.
-4. **After a game or driver update, give shaders time.** Traversal stutter can return briefly while the GPU rebuilds its shader cache. Clearing the driver's shader cache is a common troubleshooting step if it persists.
-5. **Install on an SSD.** Open-world streaming hitches are worse on slow drives.
+1. **Update your graphics driver.** This was Bandai Namco's first recommendation.
+2. **Cap the frame rate just under 60.** Digital Trends found that setting a 59 fps cap in the driver made the biggest difference on its test system, an RTX 3090 and Core i9-10900K.
+3. **Adjust the shader cache.** For NVIDIA, Digital Trends set Shader Cache Size to Unlimited and Power Management Mode to Prefer Maximum Performance. For AMD, it set Frame Rate Target Control to 59 fps and reset the shader cache.
 
-**A warning about mods and FPS unlockers:** Elden Ring uses Easy Anti-Cheat for online play. Community tools such as FPS unlockers and ultrawide mods require launching the game with anti-cheat disabled, and using them while connected online risks a ban. Use them only in offline play.
+These are launch-era fixes from one reviewer's PC, so results will differ.
 
 ---
 
-## Which one should you pick
+## Mods and anti-cheat
 
-**Pick console** if you want to launch and play, you don't own a PC with a recent GPU, or you play mainly with friends online and don't want to think about anti-cheat rules.
-
-**Pick PC** if you already own capable hardware, want ultrawide or mods for offline runs, and can live with some micro-stutter. Plan on checking driver and patch notes after major updates.
-
-If you already own the game on both, the console version is the lower-effort way to replay it. If stutter on PC bothers you, work through the list above before blaming your hardware.
+Elden Ring uses Easy Anti-Cheat. [Den of Geek warns](https://www.denofgeek.com/games/elden-ring-best-mods-download-pc/) that it may react to even benign mods, so disable it before modding and use mods only offline. [Windows Central's guide](https://windowscentral.com/how-disable-anti-cheat-elden-ring) says disabling it starts the game in offline mode, and that going back online with modified save files could lead to a temporary ban from online play. Do not run mods while connected to online play.
 
 ---
+
+## Which one to pick
+
+**Pick console** if you want to launch and play, or you play online with friends and do not want to think about anti-cheat.
+
+**Pick PC** if you already own capable hardware, want mods for offline runs, and can live with some stutter. Check driver and patch notes after major updates.
+
+---
+
 Sources:
-- [Windows Central — Elden Ring faces mixed PC reviews over performance issues](https://windowscentral.com/elden-ring-faces-mixed-pc-reviews-over-widespread-performance-issues)
-- [Dark Horizons — Elden Ring publisher addresses PC issues](https://www.darkhorizons.com/?p=152985)
-- [SpazioGames — Elden Ring PC problems after patch 1.12](https://www.spaziogames.it/notizie/ancora-problemi-per-elden-ring-su-pc-lupdate-non-ha-risolto-granche)
+- [Elden Ring team acknowledges PC issues, new patch coming soon, Windows Central](https://windowscentral.com/elden-ring-faces-mixed-pc-reviews-over-widespread-performance-issues)
+- [Elden Ring performance first impressions, Digital Foundry](https://www.eurogamer.net/articles/digitalfoundry-2022-02-24-elden-ring-performance-first-impressions)
+- [Elden Ring's day-one patch fixed the worst stuttering issues but some persist, PC Gamer](https://www.pcgamer.com/elden-ring-stuttering-day-one-patch/)
+- [Elden Ring's new patch still stutters, Digital Trends](https://www.digitaltrends.com/computing/elden-ring-new-patch-stuttering-how-to-fix/)
+- [Elden Ring: Best Mods You Need to Download, Den of Geek](https://www.denofgeek.com/games/elden-ring-best-mods-download-pc/)
+- [How to disable Easy Anti-Cheat in Elden Ring and play offline, Windows Central](https://windowscentral.com/how-disable-anti-cheat-elden-ring)
