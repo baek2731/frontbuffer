@@ -1365,6 +1365,19 @@
       "hub_cluster": "",
       "verified_keywords": [],
       "slug": "2026-10-20-google-fit-vs-health-connect-are-they-the-same"
+    },
+    {
+      "status": "live",
+      "date": "2026-10-23",
+      "title": "uBlock Origin Lite: Filtering Modes, Settings and Limits",
+      "live_url": "https://frontbuffer.net/tech/ublock-origin-lite-filtering-modes-settings-and-limits/",
+      "categories": [
+        "tech"
+      ],
+      "content_type": "GUIDE",
+      "hub_cluster": "",
+      "verified_keywords": [],
+      "slug": "2026-10-23-ublock-origin-lite-filtering-modes-settings-and-limits"
     }
   ],
   "_last_updated": "2026-08-07T14:54:21.320932+00:00"

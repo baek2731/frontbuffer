@@ -1,4 +1,14 @@
-# uBlock Origin Lite: Filtering Modes, Settings and Limits
+---
+layout: single
+title: 'uBlock Origin Lite: Filtering Modes, Settings and Limits'
+date: 2026-10-23 14:43:00 +0000
+categories: [tech]
+tags: ["guide", "ublock", "origin", "lite", "filtering"]
+excerpt: 'Explore uBlock Origin Lite''s filtering modes, settings, and limitations. Understand how Raymond Hill''s MV3 blocker works and if it meets your needs.'
+author_profile: false
+read_time: true
+share: true
+---
 
 uBlock Origin Lite (uBOL) is the Manifest V3 content blocker that Raymond Hill, the developer of uBlock Origin, built for browsers where the full extension no longer runs. It is not a drop-in copy of the original. The project's own FAQ says Lite is too different from uBlock Origin (uBO) to count as an automatic replacement, and that whether it meets your expectations depends on the sites you visit and how you set it up.
 
