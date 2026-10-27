@@ -1,4 +1,14 @@
-# Does uBlock Origin Work on Chrome for Android?
+---
+layout: single
+title: 'Does uBlock Origin Work on Chrome for Android?'
+date: 2026-10-27 14:29:00 +0000
+categories: [tech]
+tags: ["explainer", "ublock", "origin", "chrome", "android"]
+excerpt: 'uBlock Origin doesn''t work on Chrome for Android. Find out why Chrome for Android lacks extension support and how Firefox for Android offers a solution.'
+author_profile: false
+read_time: true
+share: true
+---
 
 No. Chrome for Android does not support extensions, so neither the full uBlock Origin nor uBlock Origin Lite can be installed in it. Firefox for Android can run the full uBlock Origin: Mozilla's add-on listing shows it as Recommended and available on Firefox for Android.
 
