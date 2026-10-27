@@ -1,0 +1,5 @@
+uBlock Origin doesn't work on Chrome for Android. Find out why Chrome for Android lacks extension support and how Firefox for Android…
+
+https://frontbuffer.net/tech/does-ublock-origin-work-on-chrome-for-android/
+
+#Chrome #ChromeExtensions #Google #Browser #WebDev
