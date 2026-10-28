@@ -95,6 +95,10 @@ class BlockedPost(Exception):
     """이 파일은 발행하지 않고 건너뛴다 (다음 파일로 진행)."""
 
 
+class _SkipGemini(Exception):
+    """초안에 excerpt 가 이미 있어 Gemini 호출을 생략한다 (내부용)."""
+
+
 # 제거된 플레이스홀더 표시용 마커 (문장 단위 삭제에 사용)
 MARK = "\ue000"
 
@@ -504,6 +508,20 @@ def prepare_post(target, target_slug, target_ct, pipeline, force=False):
     """파일 1개를 발행 가능한 형태로 가공. 문제가 있으면 BlockedPost를 발생시킨다."""
     content = target.read_text(encoding="utf-8")
 
+    # ── 초안에 직접 적은 메타 정보 (선택) ───────────────────────────
+    # 파일 맨 아래에 HTML 주석으로 적으면 자동 생성보다 우선하며, 본문에서는 제거된다.
+    #   <!-- excerpt: 140~160자 요약 -->
+    #   <!-- tags: guide, ublock-origin-lite, chrome-extensions -->
+    meta_excerpt = None
+    meta_tags = None
+    _m_ex = re.search(r"^<!--\s*excerpt:\s*(.+?)\s*-->\s*$", content, re.MULTILINE)
+    if _m_ex:
+        meta_excerpt = _m_ex.group(1).strip()
+    _m_tg = re.search(r"^<!--\s*tags:\s*(.+?)\s*-->\s*$", content, re.MULTILINE)
+    if _m_tg:
+        meta_tags = [x.strip().replace('"', '').replace("'", "") for x in _m_tg.group(1).split(",") if x.strip()][:5]
+    content = re.sub(r"^<!--\s*(?:excerpt|tags):.*?-->[ \t]*\n?", "", content, flags=re.MULTILINE)
+
     # ── 발행 불가 패턴 사전 차단 (원본 기준) ───────────────────────
     # [INTERNAL LINK: ...]는 아래에서 링크로 바꾸거나 문장째 삭제하므로
     # 여기서 막지 않고, 처리 후에도 남아 있을 때만 막는다.
@@ -581,14 +599,22 @@ def prepare_post(target, target_slug, target_ct, pipeline, force=False):
         raise BlockedPost(f"발행 불가 패턴 감지 — 미처리 내부링크 잔존 ({target.name})")
 
     # ── 태그 ───────────────────────────────────────────────────────
-    tags_str = make_tags(target_ct, target_slug, title)
+    if meta_tags:
+        tags_str = ", ".join(f'"{x}"' for x in meta_tags)
+    else:
+        tags_str = make_tags(target_ct, target_slug, title)
 
     # ── excerpt (Gemini → 실패 시 문장 단위 폴백) ──────────────────
     body_lines = [l for l in content.splitlines()
                   if l.strip()
                   and not l.startswith(("#", "---", "[SOURCES", "*", "|", "-", ">", "{%", "1."))]
     excerpt = ""
+    if meta_excerpt and 100 <= len(meta_excerpt) <= 170:
+        excerpt = meta_excerpt
+        print("  📝 초안에 적힌 excerpt 사용")
     try:
+        if excerpt:
+            raise _SkipGemini()
         body_preview = " ".join(body_lines)[:1500]
         seo_prompt = f"""Write a meta description for this article.
 
@@ -598,7 +624,9 @@ Content preview: {body_preview}
 Rules:
 - 140-155 characters exactly
 - Start with the most compelling fact or hook
-- Do NOT start with "This article", "In this", "Learn", "Discover"
+- Do NOT start with "This article", "In this", "Learn", "Discover", "Explore", "Find out", "Understand"
+- Describe only what the article actually contains. Never promise an explanation, comparison or step the article does not give
+- Plain declarative sentences. No ALL-CAPS words, no ampersands, no exclamation marks
 - No AI-sounding phrases
 - Focus on what the reader will find out
 - Must be unique and specific to this article
@@ -609,6 +637,8 @@ Return ONLY the meta description text. No quotes. No explanation."""
             seo_resp = clean_excerpt(seo_resp).strip("\"' ")
         if seo_resp and 50 < len(seo_resp) < 200:
             excerpt = cut_at_word(seo_resp, 155)
+    except _SkipGemini:
+        pass
     except Exception as e:
         print(f"  ⚠️ SEO excerpt 생성 실패 (폴백 사용): {e}")
     if not excerpt:

@@ -65,3 +65,6 @@ Sources:
 - [Wabbajack, Viva New Vegas](https://vivanewvegas.moddinglinked.com/wabbajack.html)
 - [Steam Library Setup Tool releases, GitHub](https://github.com/LostDragonist/steam-library-setup-tool/releases)
 - [How to have the best Fallout New Vegas experience today, PC Gamer](https://www.pcgamer.com/fallout-new-vegas-guide-tips-best-experience/)
+
+<!-- excerpt: Steps from the Viva New Vegas guide to prepare a Steam copy of Fallout: New Vegas for mods: requirements, a safe folder, a new library and a first launch. -->
+<!-- tags: guide, fallout-new-vegas, viva-new-vegas, steam -->
