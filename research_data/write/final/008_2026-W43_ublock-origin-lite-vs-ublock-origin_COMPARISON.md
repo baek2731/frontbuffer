@@ -2,15 +2,15 @@
 
 The full uBlock Origin (uBO) and uBlock Origin Lite (uBOL) are two different extensions, not two versions of one. uBO needs Manifest V2, which Chrome has removed, so on Chrome you can only use Lite. Firefox still runs the full uBO, and Brave hosts it on its own servers. Which one you want depends mostly on the browser you use.
 
-*Checked October 22, 2026 against the uBOL project's FAQ and Troubleshooting pages, Mozilla's add-on listing, Brave's blog and X post, Microsoft's Edge blog and Windows Central. Nothing here was tested in a browser.*
+*Checked October 22, 2026 and re-checked on October 28, 2026 against the uBOL project's FAQ (still last edited August 24, 2026) and Troubleshooting pages, Mozilla's add-on listings, the Microsoft Edge Add-ons listing, Brave's blog and X post, Microsoft's Edge blog and Windows Central. Nothing here was tested in a browser.*
 
 ## By browser
 
 | Browser | Full uBlock Origin | uBlock Origin Lite |
 |---|---|---|
 | Chrome | No longer works, because Manifest V2 support was removed | Available from the Chrome Web Store |
-| Microsoft Edge | Being phased out. Microsoft says the consumer transition away from Manifest V2 starts in August 2026 and should finish by the end of 2026 | Lite works on Chromium browsers |
-| Firefox | Yes. Mozilla lists it as Recommended, including on Firefox for Android | The Troubleshooting page covers Firefox |
+| Microsoft Edge | Being phased out. Microsoft says the consumer transition away from Manifest V2 starts in August 2026 and should finish by the end of 2026 | Lite has its own [listing in the Microsoft Edge Add-ons store](https://microsoftedge.microsoft.com/addons/detail/ublock-origin-lite/cimighlppcgcoapaliogpjjdehbnofhn) |
+| Firefox | Yes. Mozilla lists it as Recommended, including on Firefox for Android | Lite also has a [Firefox add-on listing](https://addons.mozilla.org/ia/android/addon/ublock-origin-lite/), including for Firefox for Android |
 | Brave | Yes. Brave hosts it and other Manifest V2 extensions on its own servers | Chromium-based, so Lite should also work |
 
 For Chrome's removal timeline, see our [Manifest V3 explainer](https://frontbuffer.net/tech/what-is-chrome-manifest-v3-and-why-extensions-break/).
@@ -46,5 +46,7 @@ Sources:
 - [Troubleshooting, uBOL-home Wiki](https://github.com/uBlockOrigin/uBOL-home/wiki/Troubleshooting)
 - [uBlock Origin by Raymond Hill, Firefox Browser Add-ons](https://addons.mozilla.org/en-US/addon/ublock-origin/)
 - [What Manifest V3 means for Brave Shields and the use of extensions in the Brave browser, Brave](https://brave.com/blog/brave-shields-manifest-v3/)
+- [uBlock Origin Lite, Microsoft Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/ublock-origin-lite/cimighlppcgcoapaliogpjjdehbnofhn)
+- [uBlock Origin Lite by Raymond Hill, Firefox Browser Add-ons](https://addons.mozilla.org/ia/android/addon/ublock-origin-lite/)
 - [Moving the Microsoft Edge extensions ecosystem forward with Manifest Version 3, Microsoft Edge Blog](https://blogs.windows.com/msedgedev/2026/08/07/moving-the-microsoft-edge-extensions-ecosystem-forward-with-manifest-version-3/)
 - [Mozilla Firefox and Brave keep uBlock Origin alive while Chrome and Edge block the adblocker, Windows Central](https://www.windowscentral.com/software-apps/mozilla-firefox-and-brave-keep-ublock-origin-alive-while-chrome-and-edge-block-the-adblocker)
