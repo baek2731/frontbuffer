@@ -2,9 +2,10 @@
 layout: single
 title: 'uBlock Origin Lite: Filtering Modes, Settings and Limits'
 date: 2026-10-23 14:43:00 +0000
+last_modified_at: 2026-10-28 00:00:00 +0000
 categories: [tech]
-tags: ["guide", "ublock", "origin", "lite", "filtering"]
-excerpt: 'Explore uBlock Origin Lite''s filtering modes, settings, and limitations. Understand how Raymond Hill''s MV3 blocker works and if it meets your needs.'
+tags: ["guide", "ublock-origin-lite", "ublock-origin", "chrome-extensions"]
+excerpt: 'uBlock Origin Lite''s filtering modes, per-site permissions and popup tools, plus what it cannot do compared with uBlock Origin, from the project''s own pages.'
 header:
   image: https://images.frontbuffer.net/posts/ublock-origin-lite-filtering-modes-settings-and-limits/og.png
   overlay_filter: 0
@@ -15,11 +16,11 @@ share: true
 
 uBlock Origin Lite (uBOL) is the Manifest V3 content blocker that Raymond Hill, the developer of uBlock Origin, built for browsers where the full extension no longer runs. It is not a drop-in copy of the original. The project's own FAQ says Lite is too different from uBlock Origin (uBO) to count as an automatic replacement, and that whether it meets your expectations depends on the sites you visit and how you set it up.
 
-*Checked October 22, 2026 against the uBOL project's FAQ (last edited August 24, 2026), Quick guide (September 5, 2026) and Troubleshooting page (July 28, 2026). Nothing here was tested in a browser.*
+*Checked October 22, 2026 against the uBOL project's FAQ (last edited August 24, 2026), Quick guide (September 5, 2026) and Troubleshooting page (July 28, 2026). On October 28, 2026 we re-opened the FAQ, which had not changed, and the Edge and Firefox store listings. Nothing here was tested in a browser.*
 
 ## Install
 
-The project's FAQ links the [uBlock Origin Lite listing in the Chrome Web Store](https://chromewebstore.google.com/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh). The Troubleshooting page shows permission settings for Chromium browsers, Firefox and Safari on macOS and iOS, which suggests Lite is built for those browsers too.
+The project's FAQ links the [uBlock Origin Lite listing in the Chrome Web Store](https://chromewebstore.google.com/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh). Lite also has its own listings in the [Microsoft Edge Add-ons store](https://microsoftedge.microsoft.com/addons/detail/ublock-origin-lite/cimighlppcgcoapaliogpjjdehbnofhn) and on [Mozilla's add-on site](https://addons.mozilla.org/ia/android/addon/ublock-origin-lite/), including a version for Firefox for Android. The Troubleshooting page shows permission settings for Chromium browsers, Firefox and Safari on macOS and iOS.
 
 ## The filtering modes
 
@@ -75,3 +76,5 @@ Sources:
 - [Frequently asked questions (FAQ), uBOL-home Wiki](https://github.com/uBlockOrigin/uBOL-home/wiki/Frequently-asked-questions-%28FAQ%29)
 - [Quick guide, uBOL-home Wiki](https://github.com/uBlockOrigin/uBOL-home/wiki/Quick-guide)
 - [Troubleshooting, uBOL-home Wiki](https://github.com/uBlockOrigin/uBOL-home/wiki/Troubleshooting)
+- [uBlock Origin Lite, Microsoft Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/ublock-origin-lite/cimighlppcgcoapaliogpjjdehbnofhn)
+- [uBlock Origin Lite by Raymond Hill, Firefox Browser Add-ons](https://addons.mozilla.org/ia/android/addon/ublock-origin-lite/)
