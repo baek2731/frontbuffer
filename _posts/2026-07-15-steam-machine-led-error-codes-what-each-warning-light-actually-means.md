@@ -2,7 +2,7 @@
 layout: single
 title: "Steam Machine LED Error Codes: What Each Warning Light Actually Means"
 date: 2026-07-15 10:00:00 +0900
-last_modified_at: 2026-10-20 00:00:00 +0900
+last_modified_at: 2026-10-28 00:00:00 +0900
 categories: [gaming]
 tags: ["steam machine", "led error codes", "steam machine red light", "cmos reset"]
 excerpt: "The Steam Machine's light bar shows faults by color and position. Valve's code list, its warning that the panel reads flipped, and the CMOS reset steps."
@@ -20,7 +20,7 @@ The Steam Machine's front light bar reports faults by color, position and pulse 
 
 ## The light bar codes
 
-The codes below come from Valve's support page as [reported by The FPS Review](https://www.thefpsreview.com/2026/07/07/valve-responds-to-steam-machines-red-line-of-death-reports-telling-users-to-perform-a-cmos-reset/). Valve's page itself was not opened.
+The codes below come from Valve's support page as [reported by The FPS Review](https://www.thefpsreview.com/2026/07/07/valve-responds-to-steam-machines-red-line-of-death-reports-telling-users-to-perform-a-cmos-reset/). Valve's own [LED reference page](https://help.steampowered.com/en/faqs/view/6945-03B8-1EC9-0237) exists, but its text did not load when we opened it on October 28, 2026.
 
 | Pattern | Meaning |
 |---|---|
@@ -33,7 +33,7 @@ The codes below come from Valve's support page as [reported by The FPS Review](h
 
 ## Normal light patterns
 
-Not every light means a fault. One secondary source, [allthings.how](https://allthings.how/steam-machine-light-meanings-every-led-color-pattern-explained/), lists these normal patterns for the light bar and the small indicator LED. We could not find or open Valve's own page for this update, so treat them as reported, not confirmed by Valve.
+Not every light means a fault. One secondary source, [allthings.how](https://allthings.how/steam-machine-light-meanings-every-led-color-pattern-explained/), lists these normal patterns for the light bar and the small indicator LED. Valve's own page did not load its text for us, so treat them as reported, not confirmed by Valve.
 
 | Light bar | Indicator LED | Meaning |
 |---|---|---|
@@ -46,6 +46,19 @@ Not every light means a fault. One secondary source, [allthings.how](https://all
 | Blinking white | Solid white | BIOS recovery |
 
 A blue bar fits Valve's CMOS reset steps below, which say the next boot should show a blue bar.
+
+## Can you change the light bar?
+
+Yes, within limits, according to the reports we found. allthings.how says the Steam Machine's settings have a customization menu where the light bar's default color and brightness can be changed. Digital Citizen's write-up of Valve's overview and quick-start material also mentions LED controls, including showing download progress on the bar. We could not read Valve's own page, so the menu details are not confirmed by Valve.
+
+What users and developers report:
+
+- **Group or individual control.** A [bug report on Valve's SteamOS GitHub](https://github.com/ValveSoftware/SteamOS/issues/2575) from SteamOS 3.8.14 says you can control the LED strips on the front as a group or one by one, and that switching back to group control after individual changes can leave some LEDs off. It says the Rainbow and K2000 modes worked normally.
+- **Limited choices.** In a [Steam discussion thread](https://steamcommunity.com/app/4165910/discussions/0/573795560006425138/), one owner asked how to make the bar white, and a poster who says they added Steam Machine support to OpenRGB replied that the hardware can show any color but Steam's customization interface is limited. Another owner in the same thread says there is no reset-to-default option.
+- **Colors resetting.** The same thread has an owner reporting that colors set for a game had to be re-entered every time a game started. That is one user's report, and we did not find a fix.
+- **Third-party control.** The OpenRGB poster says it needs the leds-valve driver that SteamOS includes. We did not test it.
+
+Two cautions. First, allthings.how says blue is only the factory default, so on a customized machine the normal patterns in the table above will appear in whatever color you chose. Second, the sources we checked do not say whether the warning patterns stay red after customization, so do not assume a changed color hides or alters a warning.
 
 ## Read the pattern with the flip in mind
 
@@ -86,7 +99,7 @@ If a no-RAM or SSD pattern appears after you open the case, reseating the module
 3. Pulsing: run Valve's CMOS reset steps, then file a ticket if the machine still does not boot.
 4. After you opened the case: reseat the RAM or SSD first.
 
-Checked October 15, 2026 and updated October 20, 2026 against the sources listed below. Nothing here was tested on a Steam Machine.
+Checked October 15, 2026, updated October 20, 2026 and re-checked on October 28, 2026 against the sources listed below. Nothing here was tested on a Steam Machine.
 
 ---
 
@@ -102,6 +115,10 @@ Sources:
 * [Valve confirms Steam Machine red light overheating warning is showing earlier than it should, Tom's Hardware](https://www.tomshardware.com/pc-components/cooling/valve-confirms-steam-machine-red-light-overheating-warning-is-showing-earlier-than-it-should-bios-fix-on-the-way-will-raise-temperature-warning-threshold-to-100-degrees-celsius)
 * [Valve updates Steam Machine BIOS to adjust LED thermal warning thresholds, KitGuru](https://www.kitguru.net/?p=741692)
 * [Steam Machine light meanings, allthings.how](https://allthings.how/steam-machine-light-meanings-every-led-color-pattern-explained/)
+* [Reference - Steam Machine LED, Steam Support](https://help.steampowered.com/en/faqs/view/6945-03B8-1EC9-0237)
+* [Steam Machine will let Steam Controller owners skip the wireless puck, Digital Citizen](https://www.digitalcitizen.life/steam-machine-will-let-steam-controller-owners-skip-the-wireless-puck/)
+* [small bug: some LEDs in front of the device stay off, Issue 2575, ValveSoftware/SteamOS, GitHub](https://github.com/ValveSoftware/SteamOS/issues/2575)
+* [LED strip color customization, Steam Machine General Discussions, Steam Community](https://steamcommunity.com/app/4165910/discussions/0/573795560006425138/)
 * [Steam Machine red line of death shows memory training, not GPU failure, Club386](https://www.club386.com/steam-machine-red-line-of-death-memory-training/)
 * [Steam Machine release date, specs, and price, PCGamesN](https://www.pcgamesn.com/steam-machine/launch)
 * [Steam Machine loses up to 20% of its performance with its single 16GB DDR5 SO-DIMM, TweakTown](https://www.tweaktown.com/news/112406/steam-machine-loses-up-to-20-percent-of-its-performance-with-its-out-of-the-box-single-16gb-ddr5-so-dimm/index.html)
