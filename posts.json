@@ -1391,6 +1391,19 @@
       "hub_cluster": "",
       "verified_keywords": [],
       "slug": "2026-10-27-does-ublock-origin-work-on-chrome-for-android"
+    },
+    {
+      "status": "live",
+      "date": "2026-10-30",
+      "title": "uBlock Origin Lite vs uBlock Origin: Which Should You Use?",
+      "live_url": "https://frontbuffer.net/tech/ublock-origin-lite-vs-ublock-origin-which-should-you-use/",
+      "categories": [
+        "tech"
+      ],
+      "content_type": "COMPARISON",
+      "hub_cluster": "",
+      "verified_keywords": [],
+      "slug": "2026-10-30-ublock-origin-lite-vs-ublock-origin-which-should-you-use"
     }
   ],
   "_last_updated": "2026-08-07T14:54:21.320932+00:00"

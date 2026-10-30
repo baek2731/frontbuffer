@@ -1,4 +1,14 @@
-# uBlock Origin Lite vs uBlock Origin: Which Should You Use?
+---
+layout: single
+title: 'uBlock Origin Lite vs uBlock Origin: Which Should You Use?'
+date: 2026-10-30 14:49:00 +0000
+categories: [tech]
+tags: ["comparison", "ublock-origin", "ublock-origin-lite", "chrome-extensions"]
+excerpt: 'uBlock Origin and uBlock Origin Lite are different extensions. How they differ by browser and in filtering, and which fits Chrome, Edge, Firefox or Brave.'
+author_profile: false
+read_time: true
+share: true
+---
 
 The full uBlock Origin (uBO) and uBlock Origin Lite (uBOL) are two different extensions, not two versions of one. uBO needs Manifest V2, which Chrome has removed, so on Chrome you can only use Lite. Firefox still runs the full uBO, and Brave hosts it on its own servers. Which one you want depends mostly on the browser you use.
 
@@ -51,5 +61,3 @@ Sources:
 - [Moving the Microsoft Edge extensions ecosystem forward with Manifest Version 3, Microsoft Edge Blog](https://blogs.windows.com/msedgedev/2026/08/07/moving-the-microsoft-edge-extensions-ecosystem-forward-with-manifest-version-3/)
 - [Mozilla Firefox and Brave keep uBlock Origin alive while Chrome and Edge block the adblocker, Windows Central](https://www.windowscentral.com/software-apps/mozilla-firefox-and-brave-keep-ublock-origin-alive-while-chrome-and-edge-block-the-adblocker)
 
-<!-- excerpt: uBlock Origin and uBlock Origin Lite are different extensions. How they differ by browser and in filtering, and which fits Chrome, Edge, Firefox or Brave. -->
-<!-- tags: comparison, ublock-origin, ublock-origin-lite, chrome-extensions -->
