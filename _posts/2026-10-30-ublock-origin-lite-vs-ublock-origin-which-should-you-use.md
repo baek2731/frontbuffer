@@ -5,6 +5,9 @@ date: 2026-10-30 14:49:00 +0000
 categories: [tech]
 tags: ["comparison", "ublock-origin", "ublock-origin-lite", "chrome-extensions"]
 excerpt: 'uBlock Origin and uBlock Origin Lite are different extensions. How they differ by browser and in filtering, and which fits Chrome, Edge, Firefox or Brave.'
+header:
+  image: https://images.frontbuffer.net/posts/ublock-origin-lite-vs-ublock-origin-which-should-you-use/og.png
+  overlay_filter: 0
 author_profile: false
 read_time: true
 share: true
