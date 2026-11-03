@@ -2,7 +2,7 @@
 layout: single
 title: 'Pixel voice typing: how to turn it on and key voice commands'
 date: 2026-10-05 14:01:00 +0000
-last_modified_at: 2026-10-20 00:00:00 +0000
+last_modified_at: 2026-11-03 00:00:00 +0000
 categories: [tech]
 tags: ["guide", "pixel", "voice-typing", "gboard"]
 excerpt: 'Voice typing in Gboard turns speech into text on Pixel phones. How to start it, the commands Google documents, what Rambler changes on Pixel 11, and fixes.'
@@ -74,9 +74,34 @@ Google's pages we checked do not describe offline language packs, so we cannot s
 
 ---
 
-## Takeaway
+## Our reading of the troubleshooting list
 
-Tap the microphone in Gboard, learn "delete last word," "clear" and "undo," and if it stops working check the language match, the microphone permission and Android System Intelligence in that order.
+Google's list gives five causes but no order. Our reading is that the cheapest checks come first. Look at the phone model, because Google says advanced voice typing requires Pixel 6 or newer and the commands in this post may not apply on an older Pixel. Then check the microphone permission, which is a one-tap fix. Then the language match between Gboard and the device, then Android System Intelligence. If the phone is brand new, the first answer may simply be to wait a few hours on Wi-Fi.
+
+Of the commands, we would learn Undo first, since it reverses a correction, and Stop second. That is a suggestion for beginners, not something Google's page ranks.
+
+The Rambler details in this post rest on one outlet's coverage of the Pixel 11. Treat them as reported, not as documented by Google, until Google's own help pages describe the feature.
+
+---
+
+## Questions readers ask
+
+**How do I turn on voice typing on a Pixel?** Open an app where you can type, tap a text area, tap the microphone at the top of Gboard and say what you want written. The first time, Android asks for microphone access.
+
+**What voice commands work?** On Pixel 6 and later, Google lists Delete last word, Clear for the last sentence, Delete followed by a word, Undo and Stop, and you can say punctuation such as period, comma, new line and new paragraph.
+
+**Why is the microphone missing or not working?** Google's page lists a language mismatch between Gboard and the device, an outdated Android System Intelligence, microphone permission, a new phone still downloading updates, and a phone older than Pixel 6 for advanced voice typing.
+
+**What is Rambler?** 9to5Google reports it as a Pixel 11 Gboard feature that filters run-on sentences and fillers such as "umm" and "ah", with a settings option to use the previous speech-to-text system.
+
+**Does voice typing work offline?** Google's pages we checked do not describe offline language packs, so we cannot say which languages work without a connection.
+
+---
+
+## Update log
+
+- October 20, 2026: checked against Google's Gboard Help pages and 9to5Google's Pixel 11 coverage.
+- November 3, 2026: replaced the closing summary with the sections above. No instructions or facts were changed.
 
 ---
 

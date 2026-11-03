@@ -2,7 +2,7 @@
 layout: single
 title: 'Galaxy Z Fold 8 First 5 Things to Do: Essential Setup Guide'
 date: 2026-08-17 14:50:00 +0000
-last_modified_at: 2026-10-12 00:00:00 +0000
+last_modified_at: 2026-11-03 00:00:00 +0000
 categories: [tech]
 tags: ["guide", "galaxy", "fold"]
 excerpt: 'The Galaxy Z Fold 8 shipped August 7, 2026 with One UI 9. Five steps: updates, data transfer, fingerprint, split view and cover screen, battery settings.'
@@ -58,3 +58,36 @@ Sources:
 - [What are the specific differences of the battery protection options, Samsung Support (Middle East)](https://www.samsung.com/ae/support/mobile-devices/what-are-the-specific-differences-of-the-battery-protection-options/)
 - [Samsung Galaxy Z Fold 8 Review, Gizmodo](https://gizmodo.com/samsung-galaxy-z-fold-8-review-the-most-fun-phone-in-ages-2000792547)
 - [Samsung Galaxy Z Fold8 Unboxing and First Impressions, FoneArena](https://www.fonearena.com/blog/?p=488478)
+
+---
+
+## Our reading of the five steps
+
+Steps 1, 2 and 5 change settings, and steps 3 and 4 are about knowing the hardware. We would run the settings steps in the order given, update and sign in first, because Samsung's wireless transfer from an iPhone needs the Galaxy to run Android 17 and One UI 9 or later, which is what the phone ships with.
+
+On battery protection, treat Samsung's percentages as regional examples, not a promise for your phone. Samsung's UK page describes limits of 80, 85, 90 or 95%, while its Middle East page describes Maximum as an 85% cap. Check what your Fold shows. On refresh rate, Adaptive is the setting to try first, since Samsung describes Standard as a fixed 60Hz aimed at battery life.
+
+The lines about what the Fold 8 lacks are most useful if you are still deciding whether to keep it: no Flex Mode, no S Pen support and no SD card slot, according to Samsung's FAQ. This is our reading of the sources above. The menu labels were not checked on a Fold 8.
+
+---
+
+## Questions readers ask
+
+**How do I set up a Galaxy Z Fold 8?** Update the phone and sign in to your accounts, move your data with Smart Switch, set up the fingerprint reader and learn what the phone lacks, check the cover screen and split view, then set the refresh rate and battery protection.
+
+**How do I transfer from an iPhone?** Samsung describes scanning a QR code on the Fold 8, with no Smart Switch app needed on the iPhone. It requires the Galaxy to run Android 17 and One UI 9 or later, and the iPhone to run iOS 26.6 or later.
+
+**Does the Fold 8 have an S Pen or an SD card slot?** Samsung's FAQ says it has no S Pen support, no SD card slot and no Flex Mode, because the hinge is built for fully open or fully closed use.
+
+**Where is the fingerprint reader?** In the power button on the right edge, as Gizmodo's reviewer and FoneArena's unboxing both describe.
+
+**How big is the battery?** 4,800mAh. Samsung quotes up to 26 hours of video playback from its own lab test with Bluetooth earphones over LTE, so everyday use will differ.
+
+---
+
+## Update log
+
+- October 12, 2026: checked against Samsung's pages and two hands-on write-ups.
+- November 3, 2026: added the two sections above. No instructions or facts were changed.
+
+---

@@ -2,7 +2,7 @@
 layout: single
 title: 'Google Messages Long-Press Menu: What Changed and How to Use It'
 date: 2026-09-07 14:10:00 +0000
-last_modified_at: 2026-10-20 00:00:00 +0000
+last_modified_at: 2026-11-03 00:00:00 +0000
 categories: [tech]
 tags: ["explainer", "android", "google-messages", "features"]
 excerpt: 'Google Messages now opens a floating menu when you long-press a message, and lets you copy just part of the text. What it holds, how to use it, and who gets it.'
@@ -70,6 +70,35 @@ The timeline from the reports:
 - **September 30:** [9to5Google reports](https://9to5google.com/2026/10/01/google-messages-long-press-menu-wide/) that Google announced the redesign has officially launched.
 
 Because the rollout is server-side, updating Google Messages from the Play Store may not show the new menu right away. Since the feature has reached the stable app, joining the beta is not needed for it. If you do not see the menu yet, check back after updating the app.
+
+---
+
+## Our reading of the rollout
+
+The sources agree on what changed but not on every detail of where things are, and the gap looks like rollout timing. Google announced the redesign as officially launched on September 30, but the help page for editing still describes the older steps, and one outlet says the announcement lists editing in the new menu. Our reading is that the help page lags the app, so if your menu does not match a description here, the likeliest reason is that the server-side update has not reached you yet. That is an inference, and no source says it directly.
+
+The one change worth relearning is the swipe pair. Swipe left now shows timestamps for the whole thread, and swipe right on a bubble replies, so muscle memory from the old left-swipe reply will trigger the wrong action at first.
+
+---
+
+## Questions readers ask
+
+**How do I copy part of a message in Google Messages?** Long-press the message, long-press again on the text, drag the handles over the part you want, then choose Copy, Translate or Select All.
+
+**Where did the Edit option go?** Google's help page still says to touch and hold a sent message and tap Edit at the top of the screen, while The Tech Basket says the announcement lists editing in the new menu. Which you see may depend on whether the redesign has reached your app.
+
+**How long can I edit a sent message?** Google's help page says 15 minutes, in the app only, and an "Edited" label appears above the message for both people.
+
+**How do I reply to one message?** Swipe right on that bubble. Swiping left anywhere in the conversation shows timestamps and the RCS encryption status for the whole thread.
+
+**Why don't I have the new menu?** The rollout is server-side, so updating from the Play Store may not show it right away. Android Headlines cites stable build v20260903_04 for the first reports, and joining the beta is not needed now that it has reached the stable app.
+
+---
+
+## Update log
+
+- October 16, 2026: checked against press reports and Google's help page, and updated on October 20.
+- November 3, 2026: added the two sections above. No facts were changed.
 
 ---
 Sources:

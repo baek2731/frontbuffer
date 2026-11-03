@@ -2,7 +2,7 @@
 layout: single
 title: 'Steam Deck Not Charging or "Slow Charger" Warning: How to Fix It'
 date: 2026-10-10 14:56:00 +0000
-last_modified_at: 2026-10-16 00:00:00 +0000
+last_modified_at: 2026-11-03 00:00:00 +0000
 categories: [gaming]
 tags: ["guide", "steam", "deck", "charging"]
 excerpt: 'A Slow Charger warning or a Deck that won''t charge often starts with the power source. A check order based on iFixit''s guide, plus the Battery Charge Limit.'
@@ -64,6 +64,37 @@ iFixit also notes that playing while plugged in is an expected part of using the
 ## When to contact Valve
 
 If the supplied charger, plugged straight into the Deck, still fails after these steps, contact Steam Support. iFixit says board faults in the first year without accidental damage are rare and should be covered by warranty.
+
+---
+
+## Our reading of the fix order
+
+iFixit's order runs from cheap to costly, and the single most useful split in it is whether the problem follows the charger or the Deck. Trying the Deck's charger on another USB-C device, or another charger on the Deck, tells you whether to replace a charger or to keep going down the list. That is why we would do the charger and outlet check before anything that touches software or opens the system.
+
+A Deck that stops at a steady 80% is, on the evidence here, more likely a setting than a fault. Valve added a Battery Charge Limit control, and its release notes say 80% can help long-term battery health. Check Settings, then Power, before you suspect the battery. The reports of a white LED at the limit and of charging past it are user reports on Valve's issue tracker, not confirmed by Valve.
+
+Battery Storage Mode is the step we would leave for last among the self-service fixes. iFixit says it resets the charging circuitry, but the Deck stops responding to the power button in that mode until you plug in a charger, so it is easy to mistake for a new fault. This is our judgment from iFixit's guide and the sources above.
+
+---
+
+## Questions readers ask
+
+**Why does my Steam Deck say "Slow Charger"?** iFixit says the Deck idles at about 15 watts, so a charger has to exceed that to raise the battery level, and the charger in the box is 45 watts. A weaker charger may produce the warning.
+
+**What charger do I need?** Android Authority says Valve's bundled USB-C charger supplies 45W, that you do not need a charger made for the Deck, and that the cable should at least be marked as USB Power Delivery. A phone fast-charge mode is a different standard.
+
+**Why does it stop at 80%?** SteamOS has a Battery Charge Limit control under Settings, then Power. Check that setting before assuming the battery is faulty.
+
+**Is Battery Storage Mode safe to use?** iFixit says Valve recommends it before repairs and that it resets the charging circuitry. In storage mode the Deck does not respond to the power button, and you exit by plugging in the charger.
+
+**When should I contact Valve?** If the supplied charger, plugged straight into the Deck, still fails after these steps, or if you see signs iFixit lists for a swollen battery such as separation of the enclosure, screen discoloration or a bowed housing.
+
+---
+
+## Update log
+
+- October 16, 2026: checked against iFixit's guides, Android Authority and GamingOnLinux.
+- November 3, 2026: added the two sections above. No instructions or facts were changed.
 
 ---
 Sources:

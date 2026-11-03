@@ -2,7 +2,7 @@
 layout: single
 title: 'Google Photos Free Storage Policy: What Changed for Your Library'
 date: 2026-07-21 14:49:00 +0000
-last_modified_at: 2026-10-16 00:00:00 +0000
+last_modified_at: 2026-11-03 00:00:00 +0000
 categories: [tech]
 tags: ["explainer", "android", "ecosystem"]
 excerpt: 'Google ended free unlimited Google Photos backup on June 1, 2021. What still counts as free today, which Pixels keep the perk, and how to recover space.'
@@ -56,6 +56,27 @@ The trade-off is resolution. Google says Storage saver resizes photos larger tha
 3. **On a Pixel 3a to Pixel 5, set backups to Storage saver,** since that is the quality Google lists as free.
 4. **Delete duplicates and screenshots** you do not need.
 5. **Consider a paid Google storage plan** if none of that is enough. Prices vary by country and plan name, and were not checked for this article.
+
+---
+
+## Questions readers ask
+
+**Is Google Photos still free?** Up to a point. Google's page says each account comes with up to 15 GB shared by Gmail, Google Drive and Google Photos. Photos backed up in High quality or Express quality before June 1, 2021 do not count against it, and everything backed up since then does.
+
+**Which Pixels still get free backup?** Google's page says a Pixel 5 or earlier gets unlimited storage for photos and videos backed up from that device. On the Pixel 3a to Pixel 5 that means Storage saver quality. Google's wording stops at Pixel 5, so the Pixel 6 and later are not covered.
+
+**Can I shrink photos I already uploaded?** On the Google Photos website, go to Settings, then Manage storage, then Recover storage and choose the Storage saver conversion. Google says it resizes photos above 16 MP and videos above 1080p, and that you can do it once a day. The converted photos still count against your storage.
+
+**What happened to T-Mobile's unlimited Google Photos plan?** 9to5Google reported that it stopped taking new enrollment on September 30, 2025, and that T-Mobile's notice says billing moved to Google on March 31, 2026, after which the Unlimited Photos and Videos plans are no longer available.
+
+**What should I do when the 15 GB is full?** Check what is using the space, convert existing originals if you can accept 16 MP photos and 1080p video, delete duplicates and screenshots, and consider a paid plan if that is not enough. We did not check prices.
+
+---
+
+## Update log
+
+- October 16, 2026: checked against Google's help pages and 9to5Google.
+- November 3, 2026: added the readers' questions above. No facts were changed.
 
 ---
 

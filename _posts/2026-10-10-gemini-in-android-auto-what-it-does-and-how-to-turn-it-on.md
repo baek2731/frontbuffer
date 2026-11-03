@@ -2,7 +2,7 @@
 layout: single
 title: 'Gemini in Android Auto: What It Does and What Changed'
 date: 2026-10-10 14:57:00 +0000
-last_modified_at: 2026-10-21 00:00:00 +0000
+last_modified_at: 2026-11-03 00:00:00 +0000
 categories: [tech]
 tags: ["explainer", "android", "gemini", "android-auto"]
 excerpt: 'Gemini replaced Google Assistant in Android Auto. Rollout began November 20, 2025, and Assistant removal began September 4, 2026. How to use it, and its limits.'
@@ -75,3 +75,35 @@ Sources:
 - [Google Assistant shutting down on Android and Wear OS in September, 9to5Google](https://9to5google.com/2026/08/04/google-assistant-september-2026-shutdown/)
 - [Google Assistant shuts down on Android in September, here's what's next, How-To Geek](https://www.howtogeek.com/google-assistant-shuts-down-on-android-in-september/)
 - [Google Assistant is officially gone, and people aren't happy about it, Android Police](https://www.androidpolice.com/the-google-assistant-kill-off-has-arrived/)
+
+## Our reading of the sources
+
+Google's help pages describe what Gemini in Android Auto is meant to do, and the evidence about how well it does it is mostly anecdotal. How-To Geek and Android Police report problems, and we did not find an independent test. Our reading is that the capability list above is Google's intent, not a guarantee, and that Google's own warning against relying on it for safety-related matters while driving is the line to take seriously.
+
+Most "it does not show up" cases look like rollout timing, since Google calls the transition a server-side update and 9to5Google says the Assistant removal can take a few weeks to reach every device. The practical order above is the cheap path: confirm Gemini is your phone's assistant, update the apps, reconnect, and wait a few days before changing anything else. If your language is on the list that lacks "Hey Google" support, the tap and steering-wheel methods are the ones to try. This is our judgment from the sources, not a test.
+
+---
+
+## Questions readers ask
+
+**How do I start Gemini in Android Auto?** Say "Hey Google," tap the microphone on the car screen, or press and hold the voice command button on the steering wheel, then wait for the tone.
+
+**What can I ask it?** Google says it understands the same commands as Assistant and lets you speak naturally. Calls, routes, messages and summaries are among the examples in Google's help pages and the launch coverage.
+
+**How do I start a live conversation?** Google's Android Auto page says to say "Hey Google, let's talk" or "let's talk live." TechCrunch reported "let's chat," so try Google's own phrase first.
+
+**Is Google Assistant gone from Android Auto?** 9to5Google reports that Google began removing Assistant from phones and phone-projected Android Auto on September 4, 2026, and that it may take a few weeks to reach every device.
+
+**Why don't I see Gemini?** Google says the transition is a server-side update that rolls out over time and that you should have Gemini set as your primary mobile assistant. Your phone might also ask you to update Android Auto first.
+
+**Can I rely on it while driving?** Google says it can present inaccurate information as fact and should not be relied on for critical or safety-related matters while driving.
+
+---
+
+## Update log
+
+- October 16, 2026: checked against Google's help pages and press reports.
+- October 21, 2026: the Assistant-removal details were re-checked against 9to5Google, How-To Geek and Android Police.
+- November 3, 2026: added the two sections above. No facts were changed.
+
+---
