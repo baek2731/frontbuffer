@@ -2,7 +2,7 @@
 
 Before you install any Fallout: New Vegas mods on the Steam version, the Viva New Vegas modding guide wants a clean copy of the game in a safe folder, a few Windows checks and one first launch. This post walks through that preparation for a Steam copy, following the guide's own Setup page. It does not cover the mods themselves.
 
-*Checked October 22, 2026 against the Viva New Vegas guide's Introduction, Setup and Wabbajack pages, and PC Gamer's New Vegas guide. The guide says to read everything and not skip steps. Nothing here was tested in the game.*
+*Checked October 22, 2026 and re-checked on November 3, 2026 against the Viva New Vegas guide's Introduction, Setup and Wabbajack pages, which still matched this post, and PC Gamer's New Vegas guide. The guide says to read everything and not skip steps. Nothing here was tested in the game.*
 
 ## What your copy needs
 

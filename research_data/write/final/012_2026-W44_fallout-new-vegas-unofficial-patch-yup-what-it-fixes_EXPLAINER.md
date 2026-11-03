@@ -2,7 +2,7 @@
 
 The Yukichigai Unofficial Patch, or YUP, is a bug-fix compilation for Fallout: New Vegas. Its Nexus Mods page describes it as addressing bugs and exploits that the final official patch did not fix. If you follow the Viva New Vegas guide, YUP is part of its base install, so you do not choose it separately. This post explains what it does, how it relates to Unofficial Patch NVSE Plus, and one known issue between the two.
 
-*Checked October 28, 2026 against the Nexus Mods pages for YUP, Unofficial Patch NVSE Plus and a YUP fix mod, PC Gamer's New Vegas guide and the Fallout Wiki. These are mod authors' own descriptions, and we did not test anything in the game.*
+*Checked October 28, 2026 against the Nexus Mods pages for YUP, Unofficial Patch NVSE Plus and a YUP fix mod, PC Gamer's New Vegas guide and the Fallout Wiki, and on November 3, 2026 against the Viva New Vegas guide's Bug Fixes page. These are mod authors' own descriptions, and we did not test anything in the game.*
 
 ## What YUP is
 
@@ -22,12 +22,12 @@ A separate Nexus mod, [YUP Disabled Creature Spawn Fix](https://www.nexusmods.co
 
 ## If you use Viva New Vegas
 
-[PC Gamer's New Vegas guide](https://www.pcgamer.com/fallout-new-vegas-guide-tips-best-experience/) names both Yukichigai Unofficial Patch and Unofficial Patch NVSE Plus among the key mods of the most basic Viva New Vegas install. The guide manages the order for you, so follow its steps rather than adding either mod by hand. Our [modding guide](https://frontbuffer.net/gaming/fallout-series_guide/) explains what Viva New Vegas is, and it is the safer starting point if you want these fixes.
+The guide's own [Bug Fixes page](https://vivanewvegas.moddinglinked.com/bugfix.html) installs both. It lists Yukichigai Unofficial Patch, which it describes as fixing thousands of bugs in the base game and DLCs, and Unofficial Patch NVSE Plus, which it says fixes many bugs like YUP but takes advantage of NVSE and JIP LN. [PC Gamer's New Vegas guide](https://www.pcgamer.com/fallout-new-vegas-guide-tips-best-experience/) also names both among the key mods of the most basic install. The guide manages the order for you, so follow its steps rather than adding either mod by hand. Our [modding guide](https://frontbuffer.net/gaming/fallout-series_guide/) explains what Viva New Vegas is, and it is the safer starting point if you want these fixes.
 
 ## What we could not confirm
 
 - YUP's current version and whether it still has the spawn-point problem.
-- Whether Viva New Vegas has changed which of these mods it installs. We did not open the guide's Bug Fixes page for this post.
+- Whether the guide will keep installing both mods. The Bug Fixes page we read on November 3, 2026 does.
 - How either patch affects an existing save, beyond what the mod authors say.
 
 ---
@@ -37,6 +37,7 @@ Sources:
 - [YUP Disabled Creature Spawn Fix (ESPless), Nexus Mods](https://www.nexusmods.com/newvegas/mods/97600)
 - [Yukichigai Unofficial Patch, Fallout Wiki](https://fallout.wiki/wiki/Mod:Yukichigai_Unofficial_Patch)
 - [How to have the best Fallout New Vegas experience today, PC Gamer](https://www.pcgamer.com/fallout-new-vegas-guide-tips-best-experience/)
+- [Bug Fixes, Viva New Vegas](https://vivanewvegas.moddinglinked.com/bugfix.html)
 
 <!-- excerpt: YUP is a bug-fix compilation for Fallout: New Vegas. What it fixes, where it loads, how it pairs with Unofficial Patch NVSE Plus, and one known issue. -->
 <!-- tags: explainer, fallout-new-vegas, yukichigai-unofficial-patch, mods -->
