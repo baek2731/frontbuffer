@@ -2,7 +2,7 @@
 layout: single
 title: 'How to transfer Android passkeys between devices securely'
 date: 2026-09-24 14:42:00 +0000
-last_modified_at: 2026-10-20 00:00:00 +0000
+last_modified_at: 2026-11-03 00:00:00 +0000
 categories: [tech]
 tags: ["guide", "android", "passkeys", "security"]
 excerpt: 'Passkeys saved in Google Password Manager sync to a new Android phone through your Google account. Here is how to move them and what unlocks them there.'
@@ -62,11 +62,6 @@ Once the new phone works, reset the old one with its own reset option. The menu 
 
 ---
 
-## Takeaway
-
-Use the same Google account, set a screen lock, and have the old phone's screen lock or your Google Password Manager PIN ready when the new phone asks. Test a few passkeys before you wipe anything.
-
----
 
 Sources:
 - [Security of Passkeys in the Google Password Manager, Google Security Blog](https://security.googleblog.com/2022/10/SecurityofPasskeysintheGooglePasswordManager.html)

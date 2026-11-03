@@ -2,7 +2,7 @@
 layout: single
 title: 'Ubisoft Connect on Steam: offline play explained'
 date: 2026-09-30 14:59:00 +0000
-last_modified_at: 2026-10-20 00:00:00 +0000
+last_modified_at: 2026-11-03 00:00:00 +0000
 categories: [gaming]
 tags: ["explainer", "ubisoft", "steam", "offline"]
 excerpt: 'Ubisoft games bought on Steam still go through Ubisoft Connect. Why that is, what Ubisoft''s own page says about offline play, and what to do before you travel.'
@@ -66,11 +66,6 @@ Ubisoft lists cross-progression, online services and in-game stores as unavailab
 
 ---
 
-## Takeaway
-
-You cannot skip Ubisoft Connect for a Steam copy, but Ubisoft documents a way to play offline after one online launch. Prepare on both Steam and Ubisoft Connect, and test it before you depend on it.
-
----
 
 Sources:
 - [Offline play in Ubisoft games on PC, Ubisoft Support](https://www.ubisoft.com/en-ca/help/connectivity-and-performance/article/offline-play-in-ubisoft-games-on-pc/000063188)

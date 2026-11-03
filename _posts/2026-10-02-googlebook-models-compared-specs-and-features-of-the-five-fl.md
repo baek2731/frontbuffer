@@ -2,7 +2,7 @@
 layout: single
 title: 'Googlebook models compared: specs, prices, and which to buy'
 date: 2026-10-02 14:28:00 +0000
-last_modified_at: 2026-10-20 00:00:00 +0000
+last_modified_at: 2026-11-03 00:00:00 +0000
 categories: [tech]
 tags: ["comparison", "googlebooks", "laptops", "specs"]
 excerpt: 'Five Googlebooks cost $899 to $1,299. Here is how chips, screens, weight and battery claims compare, using the figures on Google''s own comparison page.'
@@ -84,9 +84,9 @@ If you have not decided between a Googlebook and a Chromebook, start with [our C
 
 ---
 
-## Takeaway
+## Our reading of the price ladder
 
-The price ladder is clear: Acer at $899, the XPS $100 higher for lower weight and a longer battery claim on a smaller LCD screen, the Lenovo $200 higher for the large OLED screen, and the ASUS and HP at $1,299. Decide what you are paying for before stepping up, and check current prices, because Acer has said its launch price may not last.
+The ladder is clear: Acer at $899, the XPS $100 higher for lower weight and a longer battery claim on a smaller LCD screen, the Lenovo $200 higher for the large OLED screen, and the ASUS and HP at $1,299. Our reading is to decide what you are paying for before stepping up, and to check current prices, because Acer has said its launch price may not last.
 
 ---
 

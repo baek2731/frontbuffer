@@ -2,7 +2,7 @@
 layout: single
 title: "How to install IKEA's Kallax Storageborn mod in Skyrim"
 date: 2026-09-29 14:42:00 +0000
-last_modified_at: 2026-10-20 00:00:00 +0000
+last_modified_at: 2026-11-03 00:00:00 +0000
 categories: [gaming]
 tags: ["guide", "skyrim", "mods", "ikea"]
 excerpt: 'IKEA''s free Kallax Storageborn Creation for Skyrim installs through Bethesda Creations on PC and Xbox. How to get it, what it adds and how to start the quest.'
@@ -54,11 +54,6 @@ This guide covers only the official IKEA Creation. We did not find unofficial IK
 
 ---
 
-## Takeaway
-
-Search for KALLAX STORAGEBORN in the Creations menu, download it with a Bethesda account, and get encumbered to start the quest. If you are on PlayStation, wait for IKEA's promised release.
-
----
 
 Sources:
 - [KALLAX STORAGEBORN, IKEA UK](https://www.ikea.com/gb/en/campaigns/kallax-storageborn-pub5489a320/)

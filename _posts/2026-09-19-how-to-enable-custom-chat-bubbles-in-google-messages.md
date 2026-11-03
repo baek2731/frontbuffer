@@ -2,7 +2,7 @@
 layout: single
 title: "How to enable custom chat bubbles in Google Messages"
 date: 2026-09-19 14:20:00 +0000
-last_modified_at: 2026-10-20 00:00:00 +0000
+last_modified_at: 2026-11-03 00:00:00 +0000
 categories: [tech]
 tags: ["guide", "google", "messages"]
 excerpt: 'Google Messages Chat themes set bubble colors and wallpapers per chat. Where to find them, the RCS requirement, and why the option may be missing.'
@@ -50,11 +50,6 @@ For other Messages features, such as the long-press menu and gestures, see [our 
 
 ---
 
-## Takeaway
-
-Chat themes are a per-chat, on-device cosmetic setting. Make sure RCS is on, update Messages, and look for Chat theme in the conversation menu. If it is missing, rollout timing is the most likely reason.
-
----
 
 Sources:
 - [Google Messages now lets you give every chat its own look, Android Authority](https://www.androidauthority.com/google-messages-custom-chat-themes-rollout-3704095/)

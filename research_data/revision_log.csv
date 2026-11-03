@@ -23,7 +23,7 @@
 2026-08-05-samsung-galaxy-z-foldflip-series_explainer.md,verified,v37,,"SamMobile 출처 제거, 제목·요약 정리, Checked 줄 추가(2026-10-21). 푸시·적용 확인 대기",602
 2026-08-07-samsung-galaxy-z-foldflip-series_guide.md,verified,Six,,닫는 요약을 커버 화면 목록 분석·독자 질문·변경 기록으로 교체(새 사실·수치 없음)(2026-11-03). 푸시·적용 확인 대기,1057
 2026-08-08-06-android-auto_comparison.md,verified,Batch7,,무선 Android Auto 어댑터 비교 재작성본 전달(2026-10-20). 푸시·적용 확인 대기,522
-2026-08-12-google-pixel-launcher-vs-third-party-android-launchers-featu.md,verified,Batch5,,런처 비교 재작성본 전달(2026-10-20). 푸시·적용 확인 대기,475
+2026-08-12-google-pixel-launcher-vs-third-party-android-launchers-featu.md,verified,Batch5,,"중복되는 획일적 요약 제거(2026-11-03, 새 사실·수치·링크 없음). 푸시·적용 확인 대기",430
 2026-08-13-physical-vs-digital-games-ownership-licenses-and-player-choi.md,verified,Batch6,,패키지 vs 디지털 재작성본 전달(2026-10-20). 푸시·적용 확인 대기,514
 2026-08-14-how-to-fix-android-auto-wireless-connection-issues.md,verified,Six,,,655
 2026-08-15-how-to-manage-a-large-digital-game-library-across-platforms.md,verified,Batch6,,디지털 라이브러리 관리 재작성본 전달(2026-10-20). 푸시·적용 확인 대기,390
@@ -31,12 +31,12 @@
 2026-08-17-galaxy-z-fold-8-first-5-things-to-do-essential-setup-guide.md,verified,Fold2,,"5단계 분석·독자 질문·변경 기록 추가(2026-11-03, 새 사실·수치·링크 없음). 푸시·적용 확인 대기",673
 2026-08-19-google-assistant-vs-gemini-what-changes-when-assistant-shuts.md,verified,Six,,출처 교체(9to5Google 원문·Thurrott·How-To Geek·Android Police)·본문 재작성(2026-10-21). 푸시·적용 확인 대기,654
 2026-08-20-what-is-vram-and-how-much-do-you-need-for-pc-gaming-in-2026.md,verified,Batch6,,VRAM 설명 글 재작성본 전달(2026-10-20). 푸시·적용 확인 대기,555
-2026-08-25-how-to-customize-android-quick-settings-tiles.md,verified,Batch5,,Android 빠른 설정 타일 가이드 재작성본 전달(2026-10-20). 푸시·적용 확인 대기,504
-2026-08-26-android-16-desktop-mode-setup.md,verified,Batch4,,Android 16 데스크톱 모드 설정 가이드 재작성본 전달(2026-10-20). 푸시·적용 확인 대기,742
+2026-08-25-how-to-customize-android-quick-settings-tiles.md,verified,Batch5,,"중복되는 획일적 요약 제거(2026-11-03, 새 사실·수치·링크 없음). 푸시·적용 확인 대기",466
+2026-08-26-android-16-desktop-mode-setup.md,verified,Batch4,,"중복되는 획일적 요약 제거(2026-11-03, 새 사실·수치·링크 없음). 푸시·적용 확인 대기",695
 2026-08-27-android-desktop-mode-vs-samsung-dex-a-comprehensive-comparis.md,verified,Batch4,,Android 데스크톱 모드 vs DeX 비교 재작성본 전달(2026-10-20). 푸시·적용 확인 대기,639
 2026-08-28-android-1516-native-app-lock-vs-samsung-app-lock-privacy-fea.md,verified,Six,,소규모 보강 전달(2026-10-20): Pixel에 Secure Folder가 있나 항목,909
 2026-08-30-samsung-galaxy-z-fold-8-ultra-vs-galaxy-s26-ultra-camera-spe.md,verified,Fold2,,"최종본 반영 확인(2026-10-16, last_modified_at 확인). 재전달 후 푸시 완료",613
-2026-09-01-how-to-customize-pixel-quick-settings-with-android-17-qpr2-f.md,verified,Batch5,,Pixel 빠른 설정 QPR2 베타 가이드 재작성본 전달(2026-10-20). 푸시·적용 확인 대기,533
+2026-09-01-how-to-customize-pixel-quick-settings-with-android-17-qpr2-f.md,verified,Batch5,,"중복되는 획일적 요약 제거(2026-11-03, 새 사실·수치·링크 없음). 푸시·적용 확인 대기",496
 2026-09-03-pixel-11-pro-fold-vs-pixel-11-pro-camera-and-display-feature.md,verified,Pixel4,,,701
 2026-09-05-how-to-set-up-and-expand-storage-on-nintendo-switch-2-with-m.md,verified,Batch3,,획일적 요약을 구매 판단 분석으로 교체(새 사실·수치·링크 없음)(2026-11-03). 푸시·적용 확인 대기,1108
 2026-09-06-how-to-choose-the-best-rtx-50-series-gpu-for-1440p-gaming.md,verified,Batch6,,RTX 50 1440p 가이드 재작성본 전달(2026-10-20). 푸시·적용 확인 대기,523
@@ -45,23 +45,23 @@
 2026-09-14-05-gta-6s.md,verified,Batch6,,GTA VI 30FPS 재작성본 전달(2026-10-20). 푸시·적용 확인 대기,445
 2026-09-16-pixel-11-vs-pixel-11-pro-camera-features-and-differences.md,verified,Pixel4,,,617
 2026-09-17-what-is-nvidia-dlss-5-and-how-it-improves-game-performance.md,verified,Batch6,,DLSS 5 설명 글 재작성본 전달(2026-10-20). 푸시·적용 확인 대기,570
-2026-09-18-04-pixel-pro.md,verified,Batch5,,Pixel 11 Pro 설정 가이드 재작성본 전달(2026-10-20). 푸시·적용 확인 대기,671
-2026-09-19-how-to-enable-custom-chat-bubbles-in-google-messages.md,verified,Batch5,,Messages 채팅 테마 가이드 재작성본 전달(2026-10-20). 푸시·적용 확인 대기,406
+2026-09-18-04-pixel-pro.md,verified,Batch5,,"중복되는 획일적 요약 제거(2026-11-03, 새 사실·수치·링크 없음). 푸시·적용 확인 대기",633
+2026-09-19-how-to-enable-custom-chat-bubbles-in-google-messages.md,verified,Batch5,,"중복되는 획일적 요약 제거(2026-11-03, 새 사실·수치·링크 없음). 푸시·적용 확인 대기",368
 2026-09-20-steam-frame-vs-meta-quest-3-vr-headset-specification-compari.md,verified,SteamFrame,,"vr-expert.com·vr.org 출처 제거 → UploadVR 발표 기사·Club386·Beebom·Gaming on Steam·Valve 개발자 문서로 교체, 확인 줄·태그 정리(2026-10-21). 푸시·적용 확인 대기",666
 2026-09-21-speculative-showdown-envisioning-the-google-pixel-11-pro-and.md,verified,Pixel4,,,732
 2026-09-22-galaxy-z-fold-8-vs-galaxy-z-flip-8-which-foldable-phone-shou.md,verified,Six,,요약 길이 보정(2026-10-21). 푸시·적용 확인 대기,762
 2026-09-23-how-to-set-up-valve-steam-frame-for-pc-vr-gaming.md,verified,SteamFrame,,"설정 분석·독자 질문·변경 기록 추가(2026-11-03, 새 사실·수치·링크 없음). 푸시·적용 확인 대기",1088
-2026-09-24-how-to-transfer-android-passkeys-between-devices-securely.md,verified,Batch5,,패스키 이전 가이드 재작성본 전달(2026-10-20). 푸시·적용 확인 대기,701
+2026-09-24-how-to-transfer-android-passkeys-between-devices-securely.md,verified,Batch5,,"중복되는 획일적 요약 제거(2026-11-03, 새 사실·수치·링크 없음). 푸시·적용 확인 대기",664
 2026-09-25-steam-frame-vs-steam-deck-performance-price-and-portability-.md,verified,SteamFrame,,"vr-expert.com·vr.org 출처 제거 → UploadVR 발표 기사·Valve 개발자 문서로 교체, 요약 140자 보정·태그 정리(2026-10-21). 푸시·적용 확인 대기",628
 2026-09-29-elden-ring-pc-vs-console-performance-differences-explained.md,verified,Batch6,,Elden Ring PC vs 콘솔 재작성본 전달(2026-10-20). 푸시·적용 확인 대기,575
-2026-09-29-how-to-install-ikea-themed-mods-for-skyrim-anniversary-editi.md,verified,Batch6,,Skyrim IKEA Kallax Storageborn 가이드(전면 재작성) 재작성본 전달(2026-10-20). 푸시·적용 확인 대기,407
-2026-09-30-ubisoft-connect-requirement-for-steam-games-offline-play-exp.md,verified,Batch6,,Ubisoft Connect 오프라인 재작성본 전달(2026-10-20). 푸시·적용 확인 대기,533
-2026-10-01-chromebook-vs-googlebook-whats-the-difference.md,verified,Batch4,,Chromebook vs Googlebook 비교 재작성본 전달(2026-10-20). 푸시·적용 확인 대기,777
-2026-10-02-googlebook-models-compared-specs-and-features-of-the-five-fl.md,verified,Batch4,,Googlebook 5개 모델 비교 재작성본 전달(2026-10-20). 푸시·적용 확인 대기,805
-2026-10-03-pixel-10-vs-pixel-11-camera-low-light-and-voice-typing-compa.md,verified,Pixel4,,,743
-2026-10-04-what-is-googlebook-and-how-it-differs-from-chromebooks.md,verified,Batch4,,Googlebook 설명 재작성본 전달(2026-10-20). 푸시·적용 확인 대기,880
+2026-09-29-how-to-install-ikea-themed-mods-for-skyrim-anniversary-editi.md,verified,Batch6,,"중복되는 획일적 요약 제거(2026-11-03, 새 사실·수치·링크 없음). 푸시·적용 확인 대기",375
+2026-09-30-ubisoft-connect-requirement-for-steam-games-offline-play-exp.md,verified,Batch6,,"중복되는 획일적 요약 제거(2026-11-03, 새 사실·수치·링크 없음). 푸시·적용 확인 대기",496
+2026-10-01-chromebook-vs-googlebook-whats-the-difference.md,verified,Batch4,,"획일적 요약을 판단 문단으로 전환(2026-11-03, 새 사실·수치·링크 없음). 푸시·적용 확인 대기",790
+2026-10-02-googlebook-models-compared-specs-and-features-of-the-five-fl.md,verified,Batch4,,"획일적 요약을 판단 문단으로 전환(2026-11-03, 새 사실·수치·링크 없음). 푸시·적용 확인 대기",814
+2026-10-03-pixel-10-vs-pixel-11-camera-low-light-and-voice-typing-compa.md,verified,Pixel4,,"중복되는 획일적 요약 제거(2026-11-03, 새 사실·수치·링크 없음). 푸시·적용 확인 대기",702
+2026-10-04-what-is-googlebook-and-how-it-differs-from-chromebooks.md,verified,Batch4,,"획일적 요약을 판단 문단으로 전환(2026-11-03, 새 사실·수치·링크 없음). 푸시·적용 확인 대기",898
 2026-10-05-what-is-pixel-voice-typing-and-how-to-use-its-best-features.md,verified,Batch5,,"획일적 요약을 문제 해결 순서 분석·독자 질문·변경 기록으로 교체(2026-11-03, 새 사실·수치·링크 없음). 푸시·적용 확인 대기",910
-2026-10-08-how-to-optimize-pixel-phone-gaming-performance-and-battery.md,verified,Batch5,,Pixel 게임 성능·배터리 가이드 재작성본 전달(2026-10-20). 푸시·적용 확인 대기,585
+2026-10-08-how-to-optimize-pixel-phone-gaming-performance-and-battery.md,verified,Batch5,,"중복되는 획일적 요약 제거(2026-11-03, 새 사실·수치·링크 없음). 푸시·적용 확인 대기",548
 2026-10-10-gemini-in-android-auto-what-it-does-and-how-to-turn-it-on.md,verified,Five,,"출처 분석·독자 질문·변경 기록 추가(2026-11-03, 새 사실·수치·링크 없음). 푸시·적용 확인 대기",644
 2026-10-10-steam-deck-not-charging-or-slow-charger-warning-how-to-fix.md,verified,Five,,"수리 순서 분석·독자 질문·변경 기록 추가(2026-11-03, 새 사실·수치·링크 없음). 푸시·적용 확인 대기",1225
 2026-10-15-how-to-stop-android-auto-from-playing-music-automatically.md,verified,New,,final/ 작성 후 Step 4 발행,641

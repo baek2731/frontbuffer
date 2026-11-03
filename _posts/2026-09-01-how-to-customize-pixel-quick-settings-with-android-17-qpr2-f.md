@@ -2,7 +2,7 @@
 layout: single
 title: 'How to Customize Pixel Quick Settings with Android 17 QPR2 Beta'
 date: 2026-09-01 14:34:00 +0000
-last_modified_at: 2026-10-20 00:00:00 +0000
+last_modified_at: 2026-11-03 00:00:00 +0000
 categories: [tech]
 tags: ["guide", "pixel", "android-17", "quick-settings"]
 excerpt: 'Android 17 QPR2 Beta 3 added a Quick Settings layout editor, native App lock and wider blur effects. Who can install it, what each does and what to expect.'
@@ -62,11 +62,6 @@ Beta 4 is more settled than earlier builds, and Android Central quotes one Pixel
 
 ---
 
-## Takeaway
-
-If you want the layout editor and App lock now, enroll a supported Pixel in the beta and expect rough edges. If you do not, the stable release should bring the same QPR2 features in December.
-
----
 
 Sources:
 - [Android 17 QPR2 Beta 3 is a surprisingly feature-packed update, Android Authority](https://www.androidauthority.com/android-17-qpr2-beta-3-new-features-3699084/)
