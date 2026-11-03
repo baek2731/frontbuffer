@@ -5,6 +5,9 @@ date: 2026-11-03 14:20:00 +0000
 categories: [tech]
 tags: ["explainer", "android-auto", "youtube", "video-apps"]
 excerpt: 'Google still lists Android Auto video apps as coming soon. What it announced for YouTube, what will be parked-only, and where the reports disagree.'
+header:
+  image: https://images.frontbuffer.net/posts/can-you-watch-youtube-or-netflix-on-android-auto-in-2026/og.png
+  overlay_filter: 0
 author_profile: false
 read_time: true
 share: true
