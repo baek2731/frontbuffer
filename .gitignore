@@ -36,3 +36,10 @@ post_status.csv
 /urls_changed.txt
 /indexnow_urls*.txt
 /색인요청*.txt
+
+# 내부 문서와 임시 목록 (사이트와 GitHub에 올리지 않음)
+/research_data/trends/
+/research_data/weekly/
+/research_data/write/rejected/
+/research_data/write/hold/
+/research_data/write/published_removed/
