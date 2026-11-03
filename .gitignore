@@ -26,3 +26,13 @@ post_status.csv
 # Local secrets and logs
 .env
 *.log
+
+# 내부 문서와 임시 목록 (사이트와 GitHub에 올리지 않음)
+/Frontbuffer_*.md
+/부동산블로그_*.md
+/적용_가이드.md
+/temp_check.md
+/*.zip
+/urls_changed.txt
+/indexnow_urls*.txt
+/색인요청*.txt

@@ -98,3 +98,10 @@ exclude:
   - adsense_audit_report.json
   - step1_research.yml
   - step4_check.yml
+  # 내부 문서와 임시 목록은 사이트에 공개하지 않음 (Git에도 올리지 않음: .gitignore)
+  - "Frontbuffer_*.md"
+  - "부동산블로그_*.md"
+  - "*.zip"
+  - urls_changed.txt
+  - "indexnow_urls*.txt"
+  - "색인요청*.txt"
