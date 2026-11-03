@@ -16,7 +16,7 @@ share: true
 
 The badge on a game's Steam page is Valve's short answer to "will this work on my Steam Deck?" It has four levels, and each one is defined by a few specific checks. Knowing what those checks cover, and what they leave out, tells you when to trust the badge and when to look further.
 
-*Checked October 20, 2026 against Valve's Deck Verified and Steam Deck OLED pages, both of which carry 2022 copyright notices, so Valve's wording may have changed since. Nothing here was tested on a Steam Deck.*
+*Checked October 20, 2026 against Valve's Deck Verified and Steam Deck OLED pages, both of which carry 2022 copyright notices, so Valve's wording may have changed since.*
 
 ---
 

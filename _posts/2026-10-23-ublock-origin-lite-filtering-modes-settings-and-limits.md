@@ -16,7 +16,7 @@ share: true
 
 uBlock Origin Lite (uBOL) is the Manifest V3 content blocker that Raymond Hill, the developer of uBlock Origin, built for browsers where the full extension no longer runs. It is not a drop-in copy of the original. The project's own FAQ says Lite is too different from uBlock Origin (uBO) to count as an automatic replacement, and that whether it meets your expectations depends on the sites you visit and how you set it up.
 
-*Checked October 22, 2026 against the uBOL project's FAQ (last edited August 24, 2026), Quick guide (September 5, 2026) and Troubleshooting page (July 28, 2026). On October 28, 2026 we re-opened the FAQ, which had not changed, and the Edge and Firefox store listings. Nothing here was tested in a browser.*
+*Checked October 22, 2026 against the uBOL project's FAQ (last edited August 24, 2026), Quick guide (September 5, 2026) and Troubleshooting page (July 28, 2026). On October 28, 2026 we re-opened the FAQ, which had not changed, and the Edge and Firefox store listings.*
 
 ## Install
 

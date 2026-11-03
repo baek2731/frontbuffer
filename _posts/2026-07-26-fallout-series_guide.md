@@ -16,7 +16,7 @@ share: true
 
 *Fallout: New Vegas* shipped with significant bugs and no sprint mechanic, and a long-running modding scene has addressed both. The question is where to start. The answer below follows the Viva New Vegas guide, which tells you to read everything and follow it in order. Its introduction says you cannot skip paragraphs or instructions and expect the game to work as it should.
 
-*Checked October 16, 2026 against the guide's own pages. The requirements and Wabbajack notes were re-checked against the guide's introduction and Wabbajack pages on October 21, 2026, and the base-install mod list against PC Gamer and Nexus Mods on October 22, 2026 and against the guide's Bug Fixes page on November 3, 2026. Nothing here was tested in the game.*
+*Checked October 16, 2026 against the guide's own pages. The requirements and Wabbajack notes were re-checked against the guide's introduction and Wabbajack pages on October 21, 2026, and the base-install mod list against PC Gamer and Nexus Mods on October 22, 2026 and against the guide's Bug Fixes page on November 3, 2026.*
 
 ---
 

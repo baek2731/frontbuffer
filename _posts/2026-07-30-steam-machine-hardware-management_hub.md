@@ -57,7 +57,7 @@ The LED code guide covers each pattern in more detail.
 - **The light is white or blue and nothing seems wrong:** those are usually normal patterns, listed in the LED code guide.
 - **You are not sure which pattern you see:** match it against the table above first.
 
-Checked October 15, 2026 and updated October 20, 2026 against the sources listed below. Nothing here was tested on a Steam Machine.
+Checked October 15, 2026 and updated October 20, 2026 against the sources listed below.
 
 ---
 Sources:

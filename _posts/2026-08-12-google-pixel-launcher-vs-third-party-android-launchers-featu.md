@@ -16,7 +16,7 @@ share: true
 
 Nova Launcher changed hands twice in four years, and many Android users have been reconsidering their home screen since. This comparison covers what happened to Nova, then three alternatives that Android Authority names, set against the Pixel Launcher that comes on Pixel phones.
 
-*Checked October 20, 2026 against 9to5Google, Heise, Digitec, Android Authority and SlashGear. Launcher features and prices change often, and nothing here was tested on a phone.*
+*Checked October 20, 2026 against 9to5Google, Heise, Digitec, Android Authority and SlashGear. Launcher features and prices change often.*
 
 ---
 

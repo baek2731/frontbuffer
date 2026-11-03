@@ -2,7 +2,7 @@
 layout: single
 title: 'How to Maximize Battery Life on the Galaxy Z Fold 8'
 date: 2026-08-03 14:45:00 +0000
-last_modified_at: 2026-10-21 00:00:00 +0000
+last_modified_at: 2026-11-03 00:00:00 +0000
 categories: [tech]
 tags: ["guide", "samsung", "galaxy-z-fold-8", "battery"]
 excerpt: 'The Galaxy Z Fold 8 has a 4,800mAh silicon-carbon battery rated for 1,200 charge cycles. These settings and charging habits help it last longer.'
@@ -26,7 +26,7 @@ The Galaxy Z Fold 8 carries a 4,800mAh silicon-carbon battery, up from the Galax
 - **Displays:** a 7.6-inch inner screen and a 5.5-inch cover screen, both with an adaptive 1-120Hz refresh rate.
 - **Software:** One UI 9 on Android 17.
 
-*Checked October 12, 2026. Menu paths were re-checked on October 21, 2026 against Samsung's support pages, which cover One UI 6.1 and later. We have not verified them on a Fold 8 running One UI 9, so if a path does not match, search for the setting name in Settings. Nothing here was tested on a phone.*
+*Checked October 12, 2026. Menu paths were re-checked on October 21, 2026 against Samsung's support pages, which cover One UI 6.1 and later. We have not verified them on a Fold 8 running One UI 9, so if a path does not match, search for the setting name in Settings.*
 
 ---
 
@@ -77,6 +77,36 @@ Given that gap between the two claims, these habits are worth adopting:
 ## Multitasking and DeX
 
 Running several windows at once, or using Samsung DeX, keeps the processor busier and drains the battery faster. On a day when the charge matters, keep to two active windows and close DeX when you are done.
+
+---
+
+## Our reading of where to start
+
+The sources give two kinds of advice: settings that stretch a single day, such as display, background limits and power saving, and habits that slow long-term wear, such as Battery protection and mid-day top-ups. The weight on the second kind comes from the numbers above. The EU label lists 1,200 cycles to 80% for the Fold 8 line against 2,000 for the Fold 7, and Samsung's claim that lifespan matches earlier generations has not been tested independently.
+
+So the order we would use is: look at what is using power under Settings, Battery first, then turn on Battery protection, then adjust the display and background limits, and use power saving only on days away from a charger. This is our judgment about order, not a measurement, and we could not confirm the menu labels on a Fold 8 running One UI 9.
+
+---
+
+## Questions readers ask
+
+**How big is the Fold 8 battery?** 4,800mAh, silicon-carbon, up from the Fold 7's 4,400mAh.
+
+**How fast does it charge?** The listed figures are 45W wired, 20W wireless, and about 63% in 30 minutes on the wired charger. Samsung's page calls these lab numbers, so real use will be slower.
+
+**Should I turn on Battery protection?** Samsung's page lists Basic, Adaptive and Maximum, and says Maximum stops charging at 80% and Adaptive uses Maximum while you sleep. Given the lower rated cycle count, our reading is that it is reasonable if you can live with an 80% ceiling.
+
+**How many charge cycles is the Fold 8 rated for?** EU energy-label data lists 1,200 cycles to 80% capacity for the Fold 8 line, against 2,000 for the Fold 7.
+
+**Will these menu paths match my phone?** We checked them against Samsung's support pages for One UI 6.1 and later and have not verified them on a Fold 8, so search for the setting name in Settings if a path differs.
+
+---
+
+## Update log
+
+- October 12, 2026: first checked.
+- October 21, 2026: menu paths re-checked against Samsung's support pages.
+- November 3, 2026: added the sections above. No instructions or facts were changed.
 
 ---
 

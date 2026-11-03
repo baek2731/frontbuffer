@@ -16,7 +16,7 @@ share: true
 
 Sunshine on your gaming PC and Moonlight on your Android tablet let you play PC games over your home network. Sunshine is the host, Moonlight is the client, and pairing works through a PIN you type into Sunshine's web page. Below are the setup steps, how to reach the PC away from home, and the fixes the Moonlight docs list when the stream stutters or stays black.
 
-*Checked October 20, 2026 against the Moonlight docs (Setup Guide edited February 2025, FAQ and Troubleshooting pages last edited in 2024), Sunshine's current documentation and NVIDIA's GameStream notice. Some Moonlight pages predate recent Sunshine releases, and nothing here was tested on a tablet or PC.*
+*Checked October 20, 2026 against the Moonlight docs (Setup Guide edited February 2025, FAQ and Troubleshooting pages last edited in 2024), Sunshine's current documentation and NVIDIA's GameStream notice. Some Moonlight pages predate recent Sunshine releases.*
 
 ---
 

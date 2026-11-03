@@ -55,7 +55,7 @@ Valve lists Half-Life: Alyx as included with the kit. UploadVR reports [a native
 
 ## What this guide does not cover
 
-Steps were checked against Valve's published pages and the reporting listed below on October 15, 2026. The lens-spacing range, reservation dates and Half-Life: Alyx details were re-checked on October 21, 2026. The pairing prompts come from a pre-launch description and from secondary summaries of Valve's guide. Nothing here was tested on a Steam Frame. If a step differs on your headset, Valve's own support guide is the reference to follow.
+Steps were checked against Valve's published pages and the reporting listed below on October 15, 2026. The lens-spacing range, reservation dates and Half-Life: Alyx details were re-checked on October 21, 2026. The pairing prompts come from a pre-launch description and from secondary summaries of Valve's guide. If a step differs on your headset, Valve's own support guide is the reference to follow.
 
 ---
 Sources:

@@ -16,7 +16,7 @@ share: true
 
 Whether an extension still runs depends on two things: the Manifest version it was built on and the Chrome version you use. [Chrome's official timeline](https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline) says Chrome 138 disabled Manifest V2 (MV2) extensions everywhere on July 24, 2025, and that MV2 extensions cease to function for anyone upgrading to Chrome 139 or later. It also says all remaining MV2 extensions were removed from the Chrome Web Store on August 31, 2026. This page explains how to check where your extensions stand.
 
-*Checked October 16, 2026 against Chrome's timeline page, last updated September 9, 2026. Nothing here was tested in a browser. The Brave and Edge details were re-checked on October 21, 2026.*
+*Checked October 16, 2026 against Chrome's timeline page, last updated September 9, 2026. The Brave and Edge details were re-checked on October 21, 2026.*
 
 ---
 

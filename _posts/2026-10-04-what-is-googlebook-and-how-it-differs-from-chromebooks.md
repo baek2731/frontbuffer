@@ -16,7 +16,7 @@ share: true
 
 Googlebook is Google's new laptop category. Per Google, it is built on the Android technology stack and paired with desktop foundations from ChromeOS, and it is designed for Gemini Intelligence and for pairing with an Android phone. Google opened pre-orders on September 21, 2026, and the first five models, from Acer, ASUS, Dell, HP and Lenovo, start at $899. This explainer covers what the platform does, how it differs from a Chromebook, and what is still unclear.
 
-*Checked October 20, 2026 against Google's launch posts and Googlebook FAQ (September 21, 2026) and TechRepublic (September 23, 2026). Nothing here was tested on a Googlebook.*
+*Checked October 20, 2026 against Google's launch posts and Googlebook FAQ (September 21, 2026) and TechRepublic (September 23, 2026).*
 
 ---
 

@@ -16,7 +16,7 @@ share: true
 
 Google began removing Google Assistant from Android phones on September 4, 2026, and by late September reports said it was gone for many users. According to Google's email, as [9to5Google reported](https://9to5google.com/2026/08/04/google-assistant-september-2026-shutdown/), once availability is removed you can no longer use Assistant or switch back to it on your phone, tablet or paired devices. Below is what changed, what is not affected, and what to re-test now that Gemini is the assistant on your phone.
 
-*Checked October 21, 2026 against 9to5Google, Thurrott, How-To Geek and Android Police. We did not open Google's own help page, and nothing here was tested on a phone.*
+*Checked October 21, 2026 against 9to5Google, Thurrott, How-To Geek and Android Police. We did not open Google's own help page.*
 
 ---
 

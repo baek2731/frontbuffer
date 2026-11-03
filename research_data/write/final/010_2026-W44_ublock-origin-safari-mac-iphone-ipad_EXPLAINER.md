@@ -2,7 +2,7 @@
 
 Not the full uBlock Origin. Reports say the full extension is no longer available for current Safari and has never run on iPhone or iPad, but uBlock Origin Lite is available from the App Store for Mac, iPhone and iPad. Lite is a different, more limited extension, and it has to be switched on in Safari's settings after you install it.
 
-*Checked October 28, 2026 against the [App Store listing](https://apps.apple.com/us/app/ublock-origin-lite/id6745342698) (we confirmed the link but did not read its requirements), gHacks, Yahoo Tech, GIGAZINE, Setapp and the uBOL project's Troubleshooting page. Version requirements come from reports. Nothing here was tested on an Apple device.*
+*Checked October 28, 2026 against the [App Store listing](https://apps.apple.com/us/app/ublock-origin-lite/id6745342698) (we confirmed the link but did not read its requirements), gHacks, Yahoo Tech, GIGAZINE, Setapp and the uBOL project's Troubleshooting page. Version requirements come from reports.*
 
 ## Why the full version is not on Safari
 

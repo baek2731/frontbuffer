@@ -16,7 +16,7 @@ share: true
 
 Samsung and Google both offer a "secure folder" on Android, but they protect different things. Samsung's Secure Folder is a protected space that can hold apps as well as files. Google's Safe Folder, inside the Files by Google app, holds files only. If you are deciding which to use, here is what each one does, and where each one falls short.
 
-*Checked October 16, 2026 and updated October 20, 2026 against Samsung and press sources. Nothing here was tested on a phone, and menu names vary by version.*
+*Checked October 16, 2026 and updated October 20, 2026 against Samsung and press sources. Menu names vary by version.*
 
 ---
 

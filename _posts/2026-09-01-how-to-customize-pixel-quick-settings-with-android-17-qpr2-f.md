@@ -16,7 +16,7 @@ share: true
 
 Android 17 QPR2 Beta 3 added a Quick Settings layout editor, a native App lock and wider blur effects to Pixel phones. Beta 4 arrived two weeks later and reached Platform Stability. 9to5Google reports that the stable QPR2 release is due in December 2026.
 
-*Checked October 20, 2026 against reports from 9to5Google, Android Authority, Android Central and TechCabal. This is beta software, so features may change, and nothing here was tested on a phone.*
+*Checked October 20, 2026 against reports from 9to5Google, Android Authority, Android Central and TechCabal. This is beta software, and so features may change.*
 
 ---
 

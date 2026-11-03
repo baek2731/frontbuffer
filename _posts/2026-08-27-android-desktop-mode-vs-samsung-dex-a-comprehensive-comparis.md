@@ -16,7 +16,7 @@ share: true
 
 Android's own desktop mode and Samsung DeX both turn a phone into a desktop-style session on an external screen. They differ in which devices they run on, how you start them, and how many apps you can keep open. This comparison uses Google's and Samsung's own pages where they exist.
 
-*Checked October 20, 2026 against Google's Android Developers Blog, PPC Land's March 2026 report, a hardware vendor's Pixel guide updated August 12, 2026, and Samsung's DeX pages. Nothing here was tested on a phone.*
+*Checked October 20, 2026 against Google's Android Developers Blog, PPC Land's March 2026 report, a hardware vendor's Pixel guide updated August 12, 2026, and Samsung's DeX pages.*
 
 ---
 

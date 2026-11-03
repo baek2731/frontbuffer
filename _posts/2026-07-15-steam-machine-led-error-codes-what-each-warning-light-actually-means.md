@@ -99,7 +99,7 @@ If a no-RAM or SSD pattern appears after you open the case, reseating the module
 3. Pulsing: run Valve's CMOS reset steps, then file a ticket if the machine still does not boot.
 4. After you opened the case: reseat the RAM or SSD first.
 
-Checked October 15, 2026, updated October 20, 2026 and re-checked on October 28, 2026 against the sources listed below. Nothing here was tested on a Steam Machine.
+Checked October 15, 2026, updated October 20, 2026 and re-checked on October 28, 2026 against the sources listed below.
 
 ---
 

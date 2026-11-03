@@ -16,7 +16,7 @@ share: true
 
 Gemini replaced Google Assistant in Android Auto in two steps. Google began rolling it out globally on November 20, 2025, in 45 languages, starting with people who had already upgraded to Gemini on their phone, according to [TechCrunch](https://techcrunch.com/2025/11/20/gemini-starts-rolling-out-to-android-auto-globally/). Then on September 4, 2026, Google began removing Assistant from phones and phone-projected Android Auto, per [9to5Google](https://9to5google.com/2026/08/04/google-assistant-september-2026-shutdown/), so for most people Gemini is now the only choice. Our [Assistant versus Gemini article](https://frontbuffer.net/tech/google-assistant-vs-gemini-what-changes-when-assistant-shuts/) covers what that change means on the phone.
 
-*Checked October 16, 2026 against Google's help pages and press reports. The Assistant-removal details were re-checked on October 21, 2026 against 9to5Google, How-To Geek and Android Police. Nothing here was tested in a car.*
+*Checked October 16, 2026 against Google's help pages and press reports. The Assistant-removal details were re-checked on October 21, 2026 against 9to5Google, How-To Geek and Android Police.*
 
 ---
 

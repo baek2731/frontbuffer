@@ -16,7 +16,7 @@ share: true
 
 To use desktop mode on a Pixel running Android 16, you turn on a desktop experience setting in Developer Options and connect the phone to a monitor over USB-C. Google announced in March 2026 that connected display support reached general availability with Android 16 QPR3, but the feature works only on supported devices and its settings sit in a developer menu.
 
-*Checked October 20, 2026 against Google's Android Developers Blog, a hardware vendor's Pixel guide updated August 12, 2026, and Samsung's DeX pages. The steps below come from the Pixel guide, and nothing here was tested on a phone. Menu labels may differ on your device.*
+*Checked October 20, 2026 against Google's Android Developers Blog, a hardware vendor's Pixel guide updated August 12, 2026, and Samsung's DeX pages. The steps below come from the Pixel guide. Menu labels may differ on your device.*
 
 ---
 

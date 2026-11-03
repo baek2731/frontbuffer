@@ -16,7 +16,7 @@ share: true
 
 If your Steam Deck shows a "Slow Charger" warning or the battery percentage will not climb, start with the power source. iFixit's troubleshooting guide lists a weak power source first among the causes, followed by software, the battery, the charge port and the motherboard. This guide follows that order and keeps general advice separate from what iFixit says.
 
-*Checked October 16, 2026. Menu names vary by SteamOS version, and nothing here was tested on a Deck.*
+*Checked October 16, 2026. Menu names vary by SteamOS version.*
 
 ---
 

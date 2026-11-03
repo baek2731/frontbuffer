@@ -66,7 +66,7 @@ In practice this means a workout app that writes to Health Connect can have its 
 - **You use other health apps on Android:** turn on the Samsung Health to Health Connect sync and choose which data types to share.
 - **You are leaving Samsung:** download your data first and read the backup guide, since sync alone does not carry your full history.
 
-Checked October 15, 2026 against Samsung and Android documentation. Nothing here was tested on a phone.
+Checked October 15, 2026 against Samsung and Android documentation.
 
 ---
 

@@ -16,7 +16,7 @@ share: true
 
 Long-pressing a message in Google Messages no longer opens a toolbar at the top of the screen. It opens a floating menu with the actions listed in a vertical list, and a second long-press on the text lets you copy only part of a message. Google says the redesign has officially launched, so it is no longer a beta-only feature.
 
-*Checked October 16, 2026 and updated October 20, 2026 against press reports and Google's help page. Nothing here was tested in the app.*
+*Checked October 16, 2026 and updated October 20, 2026 against press reports and Google's help page.*
 
 ---
 

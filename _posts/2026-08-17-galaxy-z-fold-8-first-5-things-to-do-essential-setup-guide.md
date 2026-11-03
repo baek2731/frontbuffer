@@ -46,7 +46,7 @@ Open the five apps you use most on both screens. The Samsung pages checked for t
 
 The battery is 4,800mAh. Samsung quotes up to 26 hours of video playback, measured in its own lab with Bluetooth earphones over LTE, so everyday use will differ.
 
-Checked October 12, 2026 against Samsung's pages and two hands-on write-ups. Nothing here was tested on a Fold 8.
+Checked October 12, 2026 against Samsung's pages and two hands-on write-ups.
 
 ---
 Sources:

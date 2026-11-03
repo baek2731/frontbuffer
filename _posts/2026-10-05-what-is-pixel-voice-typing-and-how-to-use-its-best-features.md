@@ -16,7 +16,7 @@ share: true
 
 If the microphone is missing from your Pixel keyboard, or dictation stops working, the fix is usually in Gboard or its language settings. Voice typing is a Gboard feature. Google says Pixel 6 and later phones, including the Fold and Tablet, get advanced voice typing, and the Pixel 11 added a newer voice input called Rambler.
 
-*Checked October 20, 2026 against Google's Gboard Help pages and 9to5Google's Pixel 11 coverage. Menu names vary by Android and Gboard version, and nothing here was tested on a phone.*
+*Checked October 20, 2026 against Google's Gboard Help pages and 9to5Google's Pixel 11 coverage. Menu names vary by Android and Gboard version.*
 
 ---
 

@@ -2,7 +2,7 @@
 
 AdGuard's browser extension now runs on Manifest V3 (MV3) in Chrome, and AdGuard has added an MV3 version for Microsoft Edge. AdGuard says most existing Chrome users need to do nothing. What does change, by AdGuard's own account, is that the browser applies a prebuilt ruleset, the number of active rules is limited, some rules cannot be converted exactly, and most filter updates now arrive with the extension itself.
 
-*Checked October 28, 2026 against AdGuard's blog and its browser extension release notes on GitHub. Nothing here was tested in a browser.*
+*Checked October 28, 2026 against AdGuard's blog and its browser extension release notes on GitHub.*
 
 ## Chrome
 

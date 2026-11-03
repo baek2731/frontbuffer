@@ -62,7 +62,7 @@ The Quest 3 has color passthrough from 4MP cameras plus a depth sensor, accordin
 
 **Choose the Meta Quest 3** if you want to buy today at $599.99, you use mixed reality, or you mainly play games from Meta's store.
 
-Specs and prices checked October 15, 2026 against Valve and Meta. Passthrough, reservation, Half-Life: Alyx and software details were re-checked on October 21, 2026 against UploadVR, Club386, Beebom, Gaming on Steam and Valve's developer documentation. Nothing here was tested hands-on.
+Specs and prices checked October 15, 2026 against Valve and Meta. Passthrough, reservation, Half-Life: Alyx and software details were re-checked on October 21, 2026 against UploadVR, Club386, Beebom, Gaming on Steam and Valve's developer documentation.
 
 ---
 Sources:

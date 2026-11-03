@@ -16,7 +16,7 @@ share: true
 
 Samsung's 2026 Fold lineup changed the display structure and the hinge, and it made the phones thinner. The Galaxy Z Fold 8 unfolds to 4.5mm and the Fold 8 Ultra to 4.1mm. Independent teardown and bend tests from JerryRigEverything now show how those changes held up, with different results for the two models. One caveat shapes the comparison: the Fold 8 is a new, wider phone, and the Fold 8 Ultra is the direct successor to the Fold 7.
 
-*Checked October 12, 2026. The Flex Titanium and cover-glass details were re-checked on October 21, 2026. Nothing here was tested by us.*
+*Checked October 12, 2026. The Flex Titanium and cover-glass details were re-checked on October 21, 2026.*
 
 ---
 

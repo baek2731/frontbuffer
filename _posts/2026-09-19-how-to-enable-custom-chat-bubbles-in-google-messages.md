@@ -16,7 +16,7 @@ share: true
 
 Google Messages began rolling out Chat themes in late August 2026. They let you change the bubble color and the wallpaper of an individual conversation. The theme appears only on your own phone, so the other person, or the other members of a group chat, see no change.
 
-*Checked October 20, 2026 against Android Authority, Android Headlines and Indian Television's report. The rollout is gradual, so menu names and availability may differ on your phone. Nothing here was tested by us.*
+*Checked October 20, 2026 against Android Authority, Android Headlines and Indian Television's report. The rollout is gradual, so menu names and availability may differ on your phone.*
 
 ---
 

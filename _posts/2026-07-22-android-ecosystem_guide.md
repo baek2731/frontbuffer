@@ -2,7 +2,7 @@
 layout: single
 title: 'How to Transfer Samsung Health Data to a New Phone Without Loss'
 date: 2026-07-22 14:03:00 +0000
-last_modified_at: 2026-10-20 00:00:00 +0000
+last_modified_at: 2026-11-03 00:00:00 +0000
 categories: [tech]
 tags: ["guide", "android", "ecosystem"]
 excerpt: 'Samsung Health data transfers automatically via Samsung Cloud, but only if sync was enabled before you switched. Here is how to move it to a new phone.'
@@ -16,7 +16,7 @@ share: true
 
 To move Samsung Health to a new phone, sync your data to your Samsung account on the old phone, then sign in with the same account on the new one. Samsung's support page says syncing backs up and restores your Samsung Health data through your Samsung account, so you can get it on another device. A [Samsung Members reply](https://r1.community.samsung.com/t5/samsung-health/restore-personal-health-data/td-p/37436826) says that this sync is the only supported way to restore health data on a new device, and that your data syncs automatically once you sign in if sync was enabled.
 
-*Checked October 16, 2026 against Samsung support pages and community replies. Menu labels differ by version and region, and nothing here was tested on a phone.*
+*Checked October 16, 2026 against Samsung support pages and community replies. Menu labels differ by version and region.*
 
 ---
 
@@ -51,6 +51,35 @@ Health Connect is separate. It shares data between apps on a phone and is not a 
 - **Check the account.** Make sure you used the same Samsung account on both phones.
 - **Check that the old phone had synced.** If it never finished, see [Samsung Health not syncing](https://frontbuffer.net/tech/samsung-health-not-syncing-last-synced-date-and-fixes/). Samsung's community thread on a [transfer between two Galaxy phones](https://eu.community.samsung.com/t5/mobile-apps-services/samsung-health-data-transfer/td-p/14124140) shows a user missing only daily step counts after syncing. A reply there suggests waiting at least three days for everything to sync. The user later restored the missing data by backing up the app with Smart Switch on the old phone and restoring it on the new one. Both are single community reports, not Samsung statements.
 - **If sync was never on,** the data was not backed up to your account. The Samsung Members reply makes enabling sync before the switch the condition for the restore.
+
+---
+
+## Our reading of the sources
+
+The sources agree on one route and differ on details, so order matters more than any single setting. Samsung's pages and the Samsung Members reply describe syncing with your Samsung account as the only supported restore route, and they use different labels for it, Sync with Samsung account and Sync with Samsung Cloud.
+
+Our reading is that the decision point is the old phone. If its Last synced date is old, nothing you do on the new phone will bring that data back, so fix the sync before you wipe or trade in the old phone. Because the Samsung pages checked do not describe importing downloaded files, we would treat a download as a keepsake rather than a backup. The two community reports about missing step counts and the Smart Switch workaround are single reports, so we would not build a plan around them. This is our judgment from the sources above.
+
+---
+
+## Questions readers ask
+
+**How do I move Samsung Health to a new phone?** Turn on sync on the old phone and tap Sync now, then sign in with the same Samsung account on the new phone.
+
+**Can I restore from an exported file?** Samsung's download option saves a copy for your records. The Samsung pages checked do not describe importing the downloaded files back.
+
+**Does Samsung Health work on a non-Samsung Android phone?** Samsung's 2015 announcement said the app supports non-Samsung Android devices, with a note that tablets and some devices may not be supported. It is old, so confirm for your phone.
+
+**Is Health Connect a way to move my Samsung Health history?** No. It shares data between apps on a phone and is not a way to move your history.
+
+**Why is data missing after I restored?** Check that you used the same Samsung account and that the old phone finished syncing. One community reply suggests waiting at least three days, which is a single report and not a Samsung statement.
+
+---
+
+## Update log
+
+- October 16, 2026: checked against Samsung support pages and community replies.
+- November 3, 2026: added the two sections above. No instructions or facts were changed.
 
 ---
 

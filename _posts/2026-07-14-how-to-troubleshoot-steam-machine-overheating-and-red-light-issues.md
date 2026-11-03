@@ -52,7 +52,7 @@ The CPU is rated at a 30W TDP and the GPU at 110W, per [PCGamesN](https://www.pc
 
 Above 95°C on the CPU or 90°C on the GPU, the light is doing what Valve designed it to do today. That is a warning, and Valve says throttling starts later, at 100°C.
 
-Checked October 15, 2026 against the sources listed below. Nothing here was tested on a Steam Machine.
+Checked October 15, 2026 against the sources listed below.
 
 ---
 

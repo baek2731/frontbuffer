@@ -70,7 +70,7 @@ Ormandy also published a replacement extension for Chrome and calls it [clearly 
 | Chrome | uBlock Origin Lite, with no matrix, or a second browser for matrix control |
 | Edge | Plan a move, since Manifest V2 support is ending |
 
-Checked October 15, 2026 against the sources listed below. The Firefox, Brave and Edge details were re-checked on October 21, 2026. Nothing here was tested hands-on.
+Checked October 15, 2026 against the sources listed below. The Firefox, Brave and Edge details were re-checked on October 21, 2026.
 
 ---
 Sources:

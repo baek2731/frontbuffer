@@ -16,7 +16,7 @@ share: true
 
 The microSD card from your original Switch will not hold games on a Switch 2. Nintendo's compatibility page says the Switch 2 works only with microSD Express cards, and that a card previously used in a Switch will not let the new console save or load digital games or save data. The old card is not useless: you can still import Switch screenshots and videos from it. Here is which card to buy, what it costs, and how to install it and move games.
 
-*Checked October 20, 2026 against Nintendo support pages, Engadget (updated December 26, 2025) and Tom's Hardware (April 3, 2025). Prices below are list prices from those articles. Current retail prices were not checked, and nothing here was tested on a Switch 2.*
+*Checked October 20, 2026 against Nintendo support pages, Engadget (updated December 26, 2025) and Tom's Hardware (April 3, 2025). Prices below are list prices from those articles. Current retail prices were not checked.*
 
 ---
 

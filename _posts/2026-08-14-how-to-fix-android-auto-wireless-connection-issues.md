@@ -16,7 +16,7 @@ share: true
 
 Wireless Android Auto depends on two links at once, Bluetooth and Wi-Fi, so a drop can come from the phone, the car or the pairing between them. Google's help pages cover the basics. Other fixes, such as battery settings and clearing the cache, come from troubleshooting guides and owner reports rather than from Google, and this guide keeps the two apart.
 
-*Checked October 16, 2026. Nothing here was tested on a phone or in a car, and menu names vary by phone.*
+*Checked October 16, 2026. Menu names vary by phone.*
 
 ---
 

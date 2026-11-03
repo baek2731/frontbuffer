@@ -2,7 +2,7 @@
 layout: single
 title: 'Best Manifest V3 Alternatives: uBlock Origin Lite and More (2026)'
 date: 2026-07-19 10:00:00 +0900
-last_modified_at: 2026-10-21 00:00:00 +0900
+last_modified_at: 2026-11-03 00:00:00 +0000
 categories: [tech]
 tags: ["chrome extensions", "manifest v3 alternatives", "ublock origin lite", "ad blocker replacement"]
 excerpt: 'Chrome disabled the original uBlock Origin in July 2025. What uBlock Origin Lite, AdGuard and Adblock Plus can do under MV3, and where the full one still runs.'
@@ -16,7 +16,7 @@ share: true
 
 If the original uBlock Origin stopped working in Chrome, the cause is the Manifest V2 shutdown, and the replacement options fall into two groups: MV3 extensions that work inside Chrome's limits, and browsers that still run the full version. [Chrome's timeline](https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline) says Chrome 138 disabled MV2 extensions everywhere in July 2025, and all remaining MV2 extensions were removed from the Web Store on August 31, 2026.
 
-*Checked October 16, 2026 against official pages and press reports. The Brave and Adblock Plus release details were re-checked on October 21, 2026. No independent blocking test was checked, so this page does not rank blockers by how much they block. Nothing here was tested in a browser.*
+*Checked October 16, 2026 against official pages and press reports. The Brave and Adblock Plus release details were re-checked on October 21, 2026. No independent blocking test was checked, so this page does not rank blockers by how much they block.*
 
 ---
 
@@ -63,6 +63,28 @@ Whichever you choose, test it on the sites you actually use, since no independen
 Chrome's overview says MV3 moves background code to service workers that run only when needed and removes remotely hosted code, so an extension can only run JavaScript included in its own package. The [migration overview](https://developer.chrome.com/docs/extensions/develop/migrate) and its checklist are the starting point.
 
 There is a GoogleChromeLabs [Extension Manifest Converter](https://github.com/GoogleChromeLabs/extension-manifest-converter) on GitHub. Its repository says it converts using search-and-replace changes, does not fully automate the work, and is not an official Google product. The repository was archived on April 19, 2026 and is read-only.
+
+---
+
+## Questions readers ask
+
+**What replaces uBlock Origin in Chrome?** uBlock Origin Lite is the MV3 version from the same project. AdGuard and Adblock Plus also publish MV3 extensions.
+
+**Will uBlock Origin Lite block as much as the old version?** The sources say Lite cannot support features such as dynamic filtering under MV3. We checked no independent blocking test, so we cannot say how much any of these extensions blocks.
+
+**Can I still use the original uBlock Origin in Chrome?** No. Chrome's timeline says Chrome 138 disabled MV2 extensions everywhere in July 2025, and all remaining MV2 extensions were removed from the Web Store on August 31, 2026.
+
+**Which browser keeps the full uBlock Origin?** Mozilla says Firefox keeps MV2 and the blocking webRequest API. Brave says it hosts uBlock Origin and other MV2 extensions, with the toggle under Settings, Extensions, Manifest v2 extensions.
+
+**Does Adblock Plus allow some ads?** eyeo, which makes it, says its extensions allow ads that meet the Acceptable Ads Standard.
+
+---
+
+## Update log
+
+- October 16, 2026: checked against official pages and press reports.
+- October 21, 2026: the Brave and Adblock Plus release details were re-checked.
+- November 3, 2026: added the readers' questions above. No facts were changed.
 
 ---
 

@@ -61,7 +61,7 @@ Samsung's [Fold 8 FAQ](https://www.samsung.com/us/smartphones/galaxy-z-fold8/) s
 
 **Choose the Fold 8 Ultra** if you want the Fold 7's camera system with the improved ultrawide. Its main and telephoto specs are unchanged from the Fold 7.
 
-Specs checked October 12, 2026 against Samsung's product, newsroom and support pages and one carrier comparison page. Nothing here was tested hands-on.
+Specs checked October 12, 2026 against Samsung's product, newsroom and support pages and one carrier comparison page.
 
 Sources:
 - [Samsung Galaxy Z Fold8, Samsung US](https://www.samsung.com/us/smartphones/galaxy-z-fold8/)

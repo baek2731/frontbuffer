@@ -16,7 +16,7 @@ share: true
 
 Google ended free unlimited photo backup on June 1, 2021, and that date is still the dividing line. [Google's help page](https://support.google.com/photos/answer/10100180?hl=en) says each Google Account comes with up to 15 GB of storage shared by Gmail, Google Drive and Google Photos, and that photos and videos backed up in High quality or Express quality before June 1, 2021 do not count against it. Everything backed up since then does count, whatever the quality setting, with one exception: older Pixel phones.
 
-*Checked October 16, 2026 against Google's help pages and 9to5Google. Nothing here was tested in the app.*
+*Checked October 16, 2026 against Google's help pages and 9to5Google.*
 
 ---
 

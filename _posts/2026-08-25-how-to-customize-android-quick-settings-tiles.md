@@ -16,7 +16,7 @@ share: true
 
 Quick Settings is the grid of toggles for Wi-Fi, Bluetooth, the flashlight and more. You can add, remove, move and resize those tiles from the panel itself. Google's help page says some of its steps work only on Android 13 and later, and Samsung phones use their own layout, so labels may differ on your phone.
 
-*Checked October 20, 2026 against Google's Android Help page and Samsung's support pages. Nothing here was tested on a phone.*
+*Checked October 20, 2026 against Google's Android Help page and Samsung's support pages.*
 
 ---
 

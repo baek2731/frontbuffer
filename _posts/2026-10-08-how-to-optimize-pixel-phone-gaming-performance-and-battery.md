@@ -16,7 +16,7 @@ share: true
 
 If a game on your Pixel stutters or the battery drops quickly, heat is one of the first things to check. Android Authority's Pankil Shah wrote in September 2026 that overheating affects how a Pixel feels, how it performs and how fast it charges, and he cut it down with a handful of setting and habit changes. The steps below combine his, Google's Pixel Help and general in-game advice. They come from one writer's experience plus Google's pages, so results vary by Pixel model and game.
 
-*Checked October 20, 2026 against Google's Pixel Help display page, Android Authority (September 12, 2026) and BGR. Nothing here was tested by us.*
+*Checked October 20, 2026 against Google's Pixel Help display page, Android Authority (September 12, 2026) and BGR.*
 
 ---
 

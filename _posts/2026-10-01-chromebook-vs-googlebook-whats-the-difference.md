@@ -16,7 +16,7 @@ share: true
 
 Googlebooks start at $899. Google calls them flagship laptops, while it describes Chromebooks as built for simplicity, speed and efficiency. So the question is what the extra money buys. In short: phone features that continue tasks and open phone apps on the laptop, Gemini tools built into the OS, premium hardware, a bundle of subscriptions, and up to 10 years of updates. If your work is mostly in a browser, a Chromebook may still cover it.
 
-*Checked October 20, 2026 against Google's Googlebook pages (September 21, 2026), Google's FAQ, TechRepublic, Engadget and PCWorld. We did not price current Chromebook models. Nothing here was tested on a Googlebook.*
+*Checked October 20, 2026 against Google's Googlebook pages (September 21, 2026), Google's FAQ, TechRepublic, Engadget and PCWorld. We did not price current Chromebook models.*
 
 ---
 

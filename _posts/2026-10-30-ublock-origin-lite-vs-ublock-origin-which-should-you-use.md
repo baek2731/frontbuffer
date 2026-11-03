@@ -15,7 +15,7 @@ share: true
 
 The full uBlock Origin (uBO) and uBlock Origin Lite (uBOL) are two different extensions, not two versions of one. uBO needs Manifest V2, which Chrome has removed, so on Chrome you can only use Lite. Firefox still runs the full uBO, and Brave hosts it on its own servers. Which one you want depends mostly on the browser you use.
 
-*Checked October 22, 2026 and re-checked on October 28, 2026 against the uBOL project's FAQ (still last edited August 24, 2026) and Troubleshooting pages, Mozilla's add-on listings, the Microsoft Edge Add-ons listing, Brave's blog and X post, Microsoft's Edge blog and Windows Central. Nothing here was tested in a browser.*
+*Checked October 22, 2026 and re-checked on October 28, 2026 against the uBOL project's FAQ (still last edited August 24, 2026) and Troubleshooting pages, Mozilla's add-on listings, the Microsoft Edge Add-ons listing, Brave's blog and X post, Microsoft's Edge blog and Windows Central.*
 
 ## By browser
 

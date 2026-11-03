@@ -16,7 +16,7 @@ share: true
 
 You do not export passkeys by hand when you switch Android phones. Passkeys saved in Google Password Manager are backed up and synced, and Google says they are always end-to-end encrypted. To use them on a new phone you sign in to your Google account and unlock them with either an existing device's screen lock or your Google Password Manager PIN.
 
-*Checked October 20, 2026 against Google's Security Blog (2022), a Google blog post on passkey sync (September 2024) and Google Account Help. Google's pages may have changed since then, menu names vary by phone, and nothing here was tested on a device.*
+*Checked October 20, 2026 against Google's Security Blog (2022), a Google blog post on passkey sync (September 2024) and Google Account Help. Google's pages may have changed since then, and menu names vary by phone.*
 
 ---
 

@@ -2,7 +2,7 @@
 
 Not yet on Android Auto itself. Google announced on May 12, 2026 that video apps such as YouTube would come to Android Auto this year, but only for watching while parked and only on select cars. At its Android Dev Summit in late October, Google still listed video apps for Android Auto as "coming soon," according to 9to5Google. Netflix has not been named by Google. While you drive, video does not play, and sound continues only in apps that support background audio.
 
-*Checked November 3, 2026 against Google's May announcement, the Android Developers Blog, 9to5Google's October 30 report, autoevolution's October 31 and November 2 reports and several other outlets. Nothing here was tested in a car.*
+*Checked November 3, 2026 against Google's May announcement, the Android Developers Blog, 9to5Google's October 30 report, autoevolution's October 31 and November 2 reports and several other outlets.*
 
 ## What Google has said
 

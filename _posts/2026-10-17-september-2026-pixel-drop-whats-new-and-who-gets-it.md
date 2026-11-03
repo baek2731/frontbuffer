@@ -51,7 +51,7 @@ Open Settings, then System, then Software updates, and check for an update. Menu
 
 If you have a Pixel 6 or newer, the VIPs widget is the one change you will notice. If you are in the US, Gboard Scam Detection adds protection. Check your region before expecting the rest.
 
-Checked October 16, 2026 against Google's post and the reports listed below. Nothing here was tested on a Pixel.
+Checked October 16, 2026 against Google's post and the reports listed below.
 
 ---
 Sources:
