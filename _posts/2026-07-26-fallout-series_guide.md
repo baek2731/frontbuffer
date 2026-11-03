@@ -80,9 +80,38 @@ On July 17, 2026, Bethesda Game Studios confirmed that it has been working on re
 
 ---
 
-## The short version
+## Which route we would pick
 
-Follow Viva New Vegas in the order it gives, and do not skip the base section. Treat sprint, quick looting and the content mods as optional layers from VNV Extended. If you want to know how your choices matter in the story before you start, see [Fallout New Vegas Endings Explained](https://frontbuffer.net/gaming/fallout-series_explainer/).
+The sources above decide part of this for you. Wabbajack supports only Steam (Global) and GOG copies, while the guide's requirements also allow an Epic Games Store copy, so an Epic owner is left with the manual route. Microsoft Store versions are not supported.
+
+If you can use both, the guide presents Wabbajack as the automated alternative to the manual setup. Our reading is that fewer manual steps leave fewer places to make an ordering mistake, and the guide warns that skipping steps will stop the game from working as it should. We found no source comparing how often each route fails, so this is a judgment, not a finding.
+
+Two choices we would make on a first run:
+
+- **Leave out Agua Fria - JSawyer Redone.** The guide's introduction calls it not recommended for first-time players, and it changes starting Health, Carry Weight, leveling and the level cap.
+- **Add Extended modules in small groups.** The guide says Extended is fully modular. Playing for a while after each group makes a problem easier to trace. This is our suggestion, and the guide does not say it.
+
+If you want to know how your choices matter in the story before you start, see [Fallout New Vegas Endings Explained](https://frontbuffer.net/gaming/fallout-series_explainer/).
+
+---
+
+## Questions readers ask
+
+**What are the essential mods for Fallout: New Vegas?** The base guide's mods: patches, bug fixes and a base finish step. The guide's Bug Fixes page confirms Yukichigai Unofficial Patch, Unofficial Patch NVSE Plus and Iron Sights Aligned. Sprint and quick looting come from optional Extended mods.
+
+**Does the guide work with a Microsoft Store copy?** No. The guide's introduction says Microsoft Store versions are not supported. It lists Steam, GOG and Epic Games Store copies with all DLCs.
+
+**How much space do I need?** The introduction says at least 19GB of free drive space with the game included, or 17GB if you delete the downloads afterward.
+
+**Will the remasters replace this guide?** Bethesda confirmed the remasters on July 17, 2026 without dates, and we found no newer announcement as of October 21, 2026, so this guide applies to the original game.
+
+---
+
+## Update log
+
+- October 16, 2026: checked against the guide's own pages.
+- October 22, 2026: added the base-install mod list from PC Gamer and Nexus Mods.
+- November 3, 2026: checked that list against the guide's Bug Fixes page and replaced the closing summary with the sections above.
 
 ---
 
