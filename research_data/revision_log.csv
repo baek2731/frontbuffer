@@ -1,5 +1,5 @@
 ﻿file,status,batch,verified_at,notes,body_words
-2026-07-14-how-to-troubleshoot-steam-machine-overheating-and-red-light-issues.md,verified,Hub+Spokes,,,567
+2026-07-14-how-to-troubleshoot-steam-machine-overheating-and-red-light-issues.md,verified,Hub+Spokes,,11/3 재검색 결과(BIOS 업데이트 출시 보도 없음) 변경 기록 추가(2026-11-03). 푸시·적용 확인 대기,617
 2026-07-15-steam-machine-led-error-codes-what-each-warning-light-actually-means.md,verified,Hub+Spokes,,"""light bar 변경 가능?"" 섹션 추가(allthings.how·Digital Citizen·SteamOS GitHub 이슈·Steam 토론), Valve LED 참조 페이지 주소 반영(본문 미로드 명시)(2026-10-28). 푸시·적용 확인 대기",1395
 2026-07-16-how-to-backup-samsung-health-data-before-account-deletion.md,verified,Hub+Spokes,,소규모 보강 전달(2026-10-20): 복원 소제목,897
 2026-07-17-samsung-health-vs-google-health-connect-feature-comparison.md,verified,Hub+Spokes,,"독자 질문 6개·변경 기록 추가(2026-11-03, 새 사실·수치·링크 없음). 푸시·적용 확인 대기",983
@@ -38,7 +38,7 @@
 2026-08-30-samsung-galaxy-z-fold-8-ultra-vs-galaxy-s26-ultra-camera-spe.md,verified,Fold2,,"최종본 반영 확인(2026-10-16, last_modified_at 확인). 재전달 후 푸시 완료",613
 2026-09-01-how-to-customize-pixel-quick-settings-with-android-17-qpr2-f.md,verified,Batch5,,Pixel 빠른 설정 QPR2 베타 가이드 재작성본 전달(2026-10-20). 푸시·적용 확인 대기,533
 2026-09-03-pixel-11-pro-fold-vs-pixel-11-pro-camera-and-display-feature.md,verified,Pixel4,,,701
-2026-09-05-how-to-set-up-and-expand-storage-on-nintendo-switch-2-with-m.md,verified,Batch3,,08-31 병합본 전달(2026-10-20). 08-31 파일 삭제. 푸시·적용 확인 대기,974
+2026-09-05-how-to-set-up-and-expand-storage-on-nintendo-switch-2-with-m.md,verified,Batch3,,획일적 요약을 구매 판단 분석으로 교체(새 사실·수치·링크 없음)(2026-11-03). 푸시·적용 확인 대기,1108
 2026-09-06-how-to-choose-the-best-rtx-50-series-gpu-for-1440p-gaming.md,verified,Batch6,,RTX 50 1440p 가이드 재작성본 전달(2026-10-20). 푸시·적용 확인 대기,523
 2026-09-07-android-system-features.md,verified,Six,,"롤아웃 분석·독자 질문·변경 기록 추가(2026-11-03, 새 사실·수치·링크 없음). 푸시·적용 확인 대기",1070
 2026-09-13-galaxy-z-fold-8-vs-fold-7-hinge-durability-comparison.md,verified,v37,,"Flex Titanium 구성 오류 수정(알루미늄 판 → 티타늄 합금 필름+티타늄 플레이트), 커버 글래스 표기 재도입(Samsung 페이지·SammyGuru 근거), 확인 줄·제목·태그·요약 정리(2026-10-21). 푸시·적용 확인 대기",651
