@@ -1,4 +1,14 @@
-# Can You Watch YouTube or Netflix on Android Auto in 2026?
+---
+layout: single
+title: 'Can You Watch YouTube or Netflix on Android Auto in 2026?'
+date: 2026-11-03 14:20:00 +0000
+categories: [tech]
+tags: ["explainer", "android-auto", "youtube", "video-apps"]
+excerpt: 'Google still lists Android Auto video apps as coming soon. What it announced for YouTube, what will be parked-only, and where the reports disagree.'
+author_profile: false
+read_time: true
+share: true
+---
 
 Not yet on Android Auto itself. Google announced on May 12, 2026 that video apps such as YouTube would come to Android Auto this year, but only for watching while parked and only on select cars. At its Android Dev Summit in late October, Google still listed video apps for Android Auto as "coming soon," according to 9to5Google. Netflix has not been named by Google. While you drive, video does not play, and sound continues only in apps that support background audio.
 
@@ -55,5 +65,3 @@ Sources:
 - [Android Auto Adds Native YouTube Support With 1080p Video Playback, Ubergizmo](https://www.ubergizmo.com/2026/08/android-auto-adds-native-youtube-support-with-1080p-video-playback/)
 - [Android Auto can finally play YouTube, but I tried it and there's a catch, MakeUseOf](https://www.makeuseof.com/android-auto-can-finally-play-youtube-but-i-tried-it-and-theres-a-catch/)
 
-<!-- excerpt: Google still lists Android Auto video apps as coming soon. What it announced for YouTube, what will be parked-only, and where the reports disagree. -->
-<!-- tags: explainer, android-auto, youtube, video-apps -->
