@@ -1,0 +1,66 @@
+# =====================================================================
+# 바뀐 글을 Bing 에 자동으로 알리기 (indexnow_on_push.yml)
+# =====================================================================
+# 사용자가 푸시해서 _posts/ 또는 _pages/ 의 글이 추가·수정되면, 사이트가 배포될 시간을 기다린 뒤
+# (기본 5분) 바뀐 글의 주소를 IndexNow 로 제출한다. 주소 계산과 제출은 indexnow_changed.py 가 한다.
+#
+# - 새 글 발행(Step 4)은 자체 IndexNow 단계가 있고, GitHub 봇(GITHUB_TOKEN)의 푸시는 이 워크플로를
+#   실행하지 않으므로 같은 주소가 두 번 제출되지 않는다.
+# - 커밋 메시지에 [skip indexnow] 를 쓰면 제출하지 않는다.
+# - 수동 실행: Actions → 이 워크플로 → Run workflow → urls 칸에 주소를 공백으로 구분해 입력.
+# =====================================================================
+
+name: "Bing 색인 알림 (푸시 시)"
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "_posts/**"
+      - "_pages/**"
+  workflow_dispatch:
+    inputs:
+      urls:
+        description: "직접 제출할 주소(공백 또는 줄바꿈으로 구분). 비워 두면 아무것도 제출하지 않음"
+        required: false
+        default: ""
+
+permissions:
+  contents: read
+
+concurrency:
+  group: indexnow-push
+  cancel-in-progress: false
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      # GitHub Pages 가 새 내용을 배포할 때까지 기다린다 (수동 제출은 바로 진행)
+      - name: Wait for the site to deploy
+        if: github.event_name == 'push'
+        run: sleep 300
+
+      - name: Submit changed URLs to IndexNow
+        env:
+          BEFORE_SHA: ${{ github.event.before }}
+          AFTER_SHA: ${{ github.sha }}
+          MANUAL_URLS: ${{ github.event.inputs.urls }}
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            if [ -z "$MANUAL_URLS" ]; then echo "urls 칸이 비어 있어 제출하지 않습니다."; exit 0; fi
+            python indexnow_changed.py --urls "$MANUAL_URLS"
+          else
+            python indexnow_changed.py --before "$BEFORE_SHA" --after "$AFTER_SHA"
+          fi
