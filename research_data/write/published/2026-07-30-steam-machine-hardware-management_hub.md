@@ -2,7 +2,7 @@
 layout: single
 title: 'Steam Machine Red Light and LED Codes: Which Guide to Read'
 date: 2026-07-30 14:53:00 +0000
-last_modified_at: 2026-10-20 00:00:00 +0000
+last_modified_at: 2026-11-03 00:00:00 +0000
 categories: [gaming]
 tags: ["hub", "steam machine", "led codes", "troubleshooting"]
 excerpt: 'A red light on the Steam Machine can be a BIOS threshold bug or a real fault. A map of the LED codes and which guide covers overheating, RAM and SSD errors.'
@@ -19,16 +19,16 @@ The Steam Machine went on sale at the end of June 2026 and is a small box: [PC G
 
 ## What the light bar says
 
-The patterns below come from Valve's support page as [reported by The FPS Review](https://www.thefpsreview.com/2026/07/07/valve-responds-to-steam-machines-red-line-of-death-reports-telling-users-to-perform-a-cmos-reset/). We could not open Valve's own page, so check it if your pattern is not listed. The normal patterns for booting, ready, downloading and BIOS updates are in the LED code guide below.
+The patterns below come from Valve's support page as [reported by The FPS Review](https://www.thefpsreview.com/2026/07/07/valve-responds-to-steam-machines-red-line-of-death-reports-telling-users-to-perform-a-cmos-reset/). The text of Valve's own page did not load when we opened it on November 3, 2026, so check it if your pattern is not listed. The normal patterns for booting, ready, downloading and BIOS updates are in the LED code guide below. They come from one secondary source, [allthings.how](https://allthings.how/steam-machine-light-meanings-every-led-color-pattern-explained/), so they are reported, not confirmed by Valve.
 
 | Pattern | Meaning |
 |---|---|
 | Solid red across the whole bar | Overheating warning: CPU above 95°C or GPU above 90°C |
 | Pulsing red, right quarter | No RAM detected |
 | Pulsing red, second quarter from the left | SSD error |
-| Pulsing red, far left | Failed memory test (other reports describe the left side of the bar) |
+| Pulsing red, left side | Failed memory test (allthings.how describes the left half of the bar) |
 
-[Mezha reports](https://mezha.ua/en/news/valve-steam-machine-bios-red-indicator-313196/) that Valve's page also defines a GPU failure code, with the right half of the bar pulsing red and the indicator LED solid red.
+The FPS Review's list does not include the GPU failure code. [allthings.how](https://allthings.how/steam-machine-light-meanings-every-led-color-pattern-explained/) gives it as the right half of the bar pulsing red with the indicator LED solid red.
 
 One caution before you match a pattern. In a reply to an owner, Valve said that due to a miscommunication the front panel code is flipped horizontally out of the box. Left and right in the table may therefore appear mirrored on your machine. Valve's reply does not say whether every unit is affected, and no fix for the panel turned up in the sources checked.
 
@@ -44,7 +44,7 @@ The overheating guide covers how to tell a false alarm from a real thermal probl
 
 ## Pulsing red: faults and the CMOS reset
 
-For owners whose machines showed a red line and would not boot, Valve's support pointed to a CMOS reset. The FPS Review quotes the steps: hold the power button for about six seconds until the power indicator LED flashes, release it, let the LED cycle through colors, and short-press the button when it turns green. Mezha adds that the machine should first be unplugged, the power button pressed a few times to discharge it, and the machine plugged back in. It also reports that Valve's support said the problem most likely occurs during or after a BIOS update, which fits the flipped-panel note above: a pattern first read as a GPU error was more likely a memory training problem.
+For owners whose machines showed a red line and would not boot, Valve's support pointed to a CMOS reset. The FPS Review quotes the steps: unplug the machine and press the power button a few times to discharge it, plug it back in, hold the power button for about six seconds until the power indicator LED flashes, release it, let the LED cycle through colors, and short-press the button when it turns green. The same reply says the problem appeared during or right after a BIOS update, so it was very likely that the update had not fully completed and that this was a memory training issue. That fits the flipped-panel note above: a pattern first read as a GPU error was more likely a memory training problem.
 
 The LED code guide covers each pattern in more detail.
 
@@ -57,7 +57,7 @@ The LED code guide covers each pattern in more detail.
 - **The light is white or blue and nothing seems wrong:** those are usually normal patterns, listed in the LED code guide.
 - **You are not sure which pattern you see:** match it against the table above first.
 
-Checked October 15, 2026 and updated October 20, 2026 against the sources listed below. Nothing here was tested on a Steam Machine.
+Checked October 15, 2026 and updated October 20, 2026 against the sources listed below. On November 3, 2026 we re-opened The FPS Review and allthings.how and rechecked the light bar codes and the CMOS reset steps against them. Valve's own LED page still did not load its text.
 
 ---
 Sources:
@@ -65,5 +65,5 @@ Sources:
 - [Valve Responds to Steam Machine's "Red Line of Death" Reports, The FPS Review](https://www.thefpsreview.com/2026/07/07/valve-responds-to-steam-machines-red-line-of-death-reports-telling-users-to-perform-a-cmos-reset/)
 - [Valve confirms Steam Machine red light overheating warning is showing earlier than it should, Tom's Hardware](https://www.tomshardware.com/pc-components/cooling/valve-confirms-steam-machine-red-light-overheating-warning-is-showing-earlier-than-it-should-bios-fix-on-the-way-will-raise-temperature-warning-threshold-to-100-degrees-celsius)
 - [Valve to raise Steam Machine red LED warning to 100°C with BIOS update, VideoCardz](https://videocardz.com/newz/valve-to-raise-steam-machine-red-led-warning-to-100c-with-bios-update)
-- [Valve is preparing a BIOS update for the Steam Machine, Mezha](https://mezha.ua/en/news/valve-steam-machine-bios-red-indicator-313196/)
+- [Steam Machine light meanings, allthings.how](https://allthings.how/steam-machine-light-meanings-every-led-color-pattern-explained/)
 - [Valve updates Steam Machine BIOS to adjust LED thermal warning thresholds, KitGuru](https://www.kitguru.net/?p=741692)

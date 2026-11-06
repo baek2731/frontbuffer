@@ -2,7 +2,7 @@
 layout: single
 title: 'Pixel 10 vs Pixel 11 Camera: Is the Bigger Sensor Worth It?'
 date: 2026-10-03 14:23:00 +0000
-last_modified_at: 2026-10-15 00:00:00 +0000
+last_modified_at: 2026-11-03 00:00:00 +0000
 categories: [tech]
 tags: ["comparison", "pixel", "camera", "tensor"]
 excerpt: 'The Pixel 11 moves its main camera to a 1/1.56-inch sensor at the same 48MP, which Google says gathers 56% more light. What changes, and who should upgrade.'
@@ -74,13 +74,10 @@ For dictation, we cover Gboard's voice typing on Pixel in [our voice typing guid
 
 **Buy the Pixel 11** if low-light photos are your main reason to upgrade, you want 256GB as the base storage, or you are buying new and the price gap is small.
 
----
-
-## Takeaway
-
-If your Pixel 10's night photos already satisfy you, the camera alone is not a strong reason to upgrade. If you often shoot in dim light and wish for cleaner results, the sensor is the one change worth paying for. Read a few side-by-side night comparisons before deciding.
+Read a few side-by-side night comparisons before deciding.
 
 ---
+
 Sources:
 - [The Google Pixel 11 series is here, Android Authority](https://www.androidauthority.com/google-pixel-11-series-3693865/)
 - [Pixel 11 camera gets new main sensors, 9to5Google](https://9to5google.com/2026/08/12/google-pixel-11-camera-whats-new/)

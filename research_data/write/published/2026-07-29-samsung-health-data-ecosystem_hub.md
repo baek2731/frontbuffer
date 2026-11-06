@@ -58,7 +58,7 @@ The Samsung Cloud backup above is the option aimed at this. It has one important
 - Running several fitness apps: set up Health Connect and read the comparison.
 - Staying put and wanting protection: use Samsung Cloud backup, and keep a downloaded copy as well.
 
-Checked October 15, 2026 against Samsung and Android documentation. Nothing here was tested on a phone.
+Checked October 15, 2026 against Samsung and Android documentation.
 
 ---
 Sources:

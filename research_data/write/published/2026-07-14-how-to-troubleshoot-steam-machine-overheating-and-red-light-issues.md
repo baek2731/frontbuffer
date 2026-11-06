@@ -2,7 +2,7 @@
 layout: single
 title: 'Steam Machine Overheating and Red Light: BIOS Bug or Real Issue?'
 date: 2026-07-14 10:00:00 +0900
-last_modified_at: 2026-10-15 00:00:00 +0900
+last_modified_at: 2026-11-03 00:00:00 +0000
 categories: [gaming]
 tags: ["steam machine", "steam machine overheating", "red light fix", "valve hardware"]
 excerpt: "Valve says a known BIOS issue makes the Steam Machine's red light appear too early. How to tell that from real overheating, and what to do until the fix ships."
@@ -52,7 +52,14 @@ The CPU is rated at a 30W TDP and the GPU at 110W, per [PCGamesN](https://www.pc
 
 Above 95°C on the CPU or 90°C on the GPU, the light is doing what Valve designed it to do today. That is a warning, and Valve says throttling starts later, at 100°C.
 
-Checked October 15, 2026 against the sources listed below. Nothing here was tested on a Steam Machine.
+Checked October 15, 2026 against the sources listed below.
+
+---
+
+## Update log
+
+- October 15, 2026: checked against the sources listed below.
+- November 3, 2026: searched again for a release of the BIOS update and found no report that it has shipped. Every report we found is from July and describes it as coming soon, so its status is still unconfirmed.
 
 ---
 

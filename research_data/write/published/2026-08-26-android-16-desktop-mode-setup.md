@@ -2,7 +2,7 @@
 layout: single
 title: 'How to Set Up Android Desktop Mode on Android 16'
 date: 2026-08-26 14:00:00 +0000
-last_modified_at: 2026-10-20 00:00:00 +0000
+last_modified_at: 2026-11-03 00:00:00 +0000
 categories: [tech]
 tags: ["guide", "android", "desktop-mode", "android-16"]
 excerpt: 'Android 16 desktop mode is turned on in Developer Options. Here is how to enable it on a Pixel, what hardware you need, and how it differs from Samsung DeX.'
@@ -16,7 +16,7 @@ share: true
 
 To use desktop mode on a Pixel running Android 16, you turn on a desktop experience setting in Developer Options and connect the phone to a monitor over USB-C. Google announced in March 2026 that connected display support reached general availability with Android 16 QPR3, but the feature works only on supported devices and its settings sit in a developer menu.
 
-*Checked October 20, 2026 against Google's Android Developers Blog, a hardware vendor's Pixel guide updated August 12, 2026, and Samsung's DeX pages. The steps below come from the Pixel guide, and nothing here was tested on a phone. Menu labels may differ on your device.*
+*Checked October 20, 2026 against Google's Android Developers Blog, a hardware vendor's Pixel guide updated August 12, 2026, and Samsung's DeX pages. The steps below come from the Pixel guide. Menu labels may differ on your device.*
 
 ---
 
@@ -84,11 +84,6 @@ If you have a Galaxy phone or tablet that supports it, DeX is Samsung's own desk
 
 ---
 
-## Takeaway
-
-If you have a supported Pixel and a USB-C video adapter, enabling desktop mode takes a few minutes. If you hit a black screen, check DisplayPort Alt Mode support, the developer setting and the cable first, which are the first three causes in Plugable's list.
-
----
 
 Sources:
 - [Google's announcement on Android connected displays, Android Developers Blog](https://android-developers.googleblog.com/2026/03/android-devices-extend-seamlessly-to.html)

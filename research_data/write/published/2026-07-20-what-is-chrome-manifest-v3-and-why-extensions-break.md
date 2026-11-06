@@ -2,7 +2,7 @@
 layout: single
 title: "Why Chrome Extensions Stopped Working: Manifest V3 Explained"
 date: 2026-07-20 10:00:00 +0900
-last_modified_at: 2026-10-21 00:00:00 +0900
+last_modified_at: 2026-11-03 00:00:00 +0000
 categories: [tech]
 tags: ["chrome extensions", "manifest v3", "mv2 deprecation", "declarative net request"]
 excerpt: 'Chrome disabled Manifest V2 extensions, including the original uBlock Origin, in 2025. What MV3 changed: service workers, no remote code and declarative rules.'
@@ -16,7 +16,7 @@ share: true
 
 Chrome extensions broke because Chrome stopped running the older Manifest V2 (MV2) format, and some extensions could not be rebuilt the way Manifest V3 (MV3) requires. [Chrome's timeline](https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline) says Chrome 138 disabled MV2 extensions for all users on July 24, 2025, MV2 extensions cease to function for anyone on Chrome 139 or later, and the Web Store removed all remaining MV2 extensions on August 31, 2026. Below is what MV3 changed and why ad blockers were hit hardest.
 
-*Checked October 16, 2026 against Chrome's own pages and press reports. Nothing here was tested in a browser. The Brave and Edge details were re-checked on October 21, 2026.*
+*Checked October 16, 2026 against Chrome's own pages and press reports. The Brave and Edge details were re-checked on October 21, 2026.*
 
 ---
 
@@ -72,6 +72,28 @@ Mozilla says it keeps MV2 alongside MV3 and [continues to support the blocking w
 ## For developers
 
 Chrome's migration overview and checklist are the reference. A GoogleChromeLabs [Extension Manifest Converter](https://github.com/GoogleChromeLabs/extension-manifest-converter) exists on GitHub, but its repository says it uses search-and-replace changes, does not fully automate the work, and is not an official Google product. It was archived on April 19, 2026 and is read-only.
+
+---
+
+## Questions readers ask
+
+**Why did my Chrome extensions stop working?** Chrome stopped running the older Manifest V2 format, and some extensions could not be rebuilt the way Manifest V3 requires. Chrome says MV2 extensions cease to function for anyone on Chrome 139 or later.
+
+**Can I still install a Manifest V2 extension from the Chrome Web Store?** No. Chrome's timeline says the Web Store removed all remaining MV2 extensions on August 31, 2026.
+
+**Can I turn MV2 extensions back on?** Chrome says users could no longer turn them back on after Chrome 138 disabled them everywhere. Android Authority and 9to5Google report that Chrome also removed a loophole in mid-2026, a step Chrome's own timeline does not list.
+
+**Why were ad blockers hit hardest?** Under the old API an extension could inspect each request. Under declarativeNetRequest the extension hands Chrome rules in advance, and the uBlock Origin Lite FAQ says features such as dynamic filtering cannot be supported that way.
+
+**Which browsers still run the full uBlock Origin?** Mozilla says Firefox keeps MV2 alongside MV3 and supports the blocking webRequest API. Brave says it hosts uBlock Origin and other MV2 extensions on its own servers. Microsoft says Edge began moving users off MV2 in August 2026.
+
+---
+
+## Update log
+
+- October 16, 2026: checked against Chrome's pages and press reports.
+- October 21, 2026: the Brave and Edge details were re-checked.
+- November 3, 2026: added the readers' questions above. No facts were changed.
 
 ---
 

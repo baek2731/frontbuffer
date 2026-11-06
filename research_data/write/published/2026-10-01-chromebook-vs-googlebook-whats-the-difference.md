@@ -2,7 +2,7 @@
 layout: single
 title: 'Chromebook vs Googlebook: which one should you buy?'
 date: 2026-10-01 14:40:00 +0000
-last_modified_at: 2026-10-20 00:00:00 +0000
+last_modified_at: 2026-11-03 00:00:00 +0000
 categories: [tech]
 tags: ["comparison", "googlebooks", "chromebook", "laptops"]
 excerpt: 'Googlebooks start at $899 and add Android phone features and Gemini tools. Here is what the extra money buys, who benefits, and who should stay on a Chromebook.'
@@ -16,7 +16,7 @@ share: true
 
 Googlebooks start at $899. Google calls them flagship laptops, while it describes Chromebooks as built for simplicity, speed and efficiency. So the question is what the extra money buys. In short: phone features that continue tasks and open phone apps on the laptop, Gemini tools built into the OS, premium hardware, a bundle of subscriptions, and up to 10 years of updates. If your work is mostly in a browser, a Chromebook may still cover it.
 
-*Checked October 20, 2026 against Google's Googlebook pages (September 21, 2026), Google's FAQ, TechRepublic, Engadget and PCWorld. We did not price current Chromebook models. Nothing here was tested on a Googlebook.*
+*Checked October 20, 2026 against Google's Googlebook pages (September 21, 2026), Google's FAQ, TechRepublic, Engadget and PCWorld. We did not price current Chromebook models.*
 
 ---
 
@@ -88,9 +88,9 @@ Chromebook prices depend on the model, and we did not survey them for this updat
 
 ---
 
-## Takeaway
+## Our reading
 
-Decide on the phone. If an Android phone is central to how you work, the $899 Acer is the cheapest way to try the Googlebook idea. If it is not, price a Chromebook that fits your work and compare it with $899 before paying for features you will not use.
+The deciding question is your phone, not the laptop. If an Android phone is central to how you work, the $899 Acer is the cheapest way to try the Googlebook idea. If it is not, price a Chromebook that fits your work and compare it with $899 before paying for features you will not use. This is our judgment, not a test.
 
 ---
 

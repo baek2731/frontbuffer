@@ -16,7 +16,7 @@ share: true
 
 *Fallout: New Vegas* has four main outcomes for Hoover Dam, and the ending slideshow that follows also covers dozens of companions, towns and factions, each with its own conditions. The main outcome is set by which of four final quests you complete. The rest of the slideshow depends on choices you made earlier. This guide covers both.
 
-*Checked October 21, 2026 against the [Fallout Wiki's page on the endings](https://fallout.fandom.com/wiki/Fallout:_New_Vegas_endings), which transcribes the in-game slides and their conditions, with the Independent-route details cross-checked against the wiki's [Strip endings page](https://fallout.wiki/wiki/New_Vegas_Strip/Endings) and [Game8's ending guide](https://game8.co/games/Fallout-New-Vegas/archives/454380). It is a community-maintained wiki, and nothing here was tested in the game.*
+*Checked October 21, 2026 against the [Fallout Wiki's page on the endings](https://fallout.fandom.com/wiki/Fallout:_New_Vegas_endings), which transcribes the in-game slides and their conditions, with the Independent-route details cross-checked against the wiki's [Strip endings page](https://fallout.wiki/wiki/New_Vegas_Strip/Endings) and [Game8's ending guide](https://game8.co/games/Fallout-New-Vegas/archives/454380). It is a community-maintained wiki.*
 
 ---
 

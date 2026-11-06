@@ -2,7 +2,7 @@
 layout: single
 title: 'Fallout New Vegas Modding Guide: Essential Quality-of-Life Mods'
 date: 2026-07-26 14:13:00 +0000
-last_modified_at: 2026-10-22 00:00:00 +0000
+last_modified_at: 2026-11-03 00:00:00 +0000
 categories: [gaming]
 tags: ["fallout new vegas mods", "viva new vegas guide", "new vegas modding 2026", "fallout mod list"]
 excerpt: 'Fallout: New Vegas shipped with significant bugs and no sprint mechanic. A decade later, the modding community has fixed both - here is where to start.'
@@ -16,7 +16,7 @@ share: true
 
 *Fallout: New Vegas* shipped with significant bugs and no sprint mechanic, and a long-running modding scene has addressed both. The question is where to start. The answer below follows the Viva New Vegas guide, which tells you to read everything and follow it in order. Its introduction says you cannot skip paragraphs or instructions and expect the game to work as it should.
 
-*Checked October 16, 2026 against the guide's own pages. The requirements and Wabbajack notes were re-checked against the guide's introduction and Wabbajack pages on October 21, 2026, and the base-install mod list against PC Gamer and Nexus Mods on October 22, 2026. Nothing here was tested in the game.*
+*Checked October 16, 2026 against the guide's own pages. The requirements and Wabbajack notes were re-checked against the guide's introduction and Wabbajack pages on October 21, 2026, and the base-install mod list against PC Gamer and Nexus Mods on October 22, 2026 and against the guide's Bug Fixes page on November 3, 2026.*
 
 ---
 
@@ -47,7 +47,9 @@ The guide also has a [Wabbajack page](https://vivanewvegas.moddinglinked.com/wab
 - **Improved AI:** it cleans up pathfinding issues that hampered combat.
 - **Iron Sights Aligned:** it makes bullets go where they should when you aim.
 
-PC Gamer describes this set as restoring the game's foundation rather than adding content, and says most of it is slotted in with Mod Organizer 2. That list comes from PC Gamer, not from the guide's own pages, so the guide may name more mods or change them over time. We did not open the guide's Bug Fixes page for this update, so follow that page for what the guide installs today.
+PC Gamer describes this set as restoring the game's foundation rather than adding content, and says most of it is slotted in with Mod Organizer 2.
+
+That list comes from PC Gamer. The guide's own [Bug Fixes page](https://vivanewvegas.moddinglinked.com/bugfix.html), which we opened on November 3, 2026, lists Yukichigai Unofficial Patch (which it describes as fixing thousands of bugs in the base game and DLCs), Unofficial Patch NVSE Plus and Iron Sights Aligned, so those three are confirmed. We did not find Improved AI on that page, so PC Gamer's list may be older than the guide, or Improved AI may sit on another page. The Bug Fixes page also lists about two dozen other fixes in its main section, including lStewieAl's Tweaks and Engine Fixes and the New Vegas Mesh Improvement Mod, plus ten optional minor fixes. Follow that page for what the guide installs today.
 
 ---
 
@@ -78,9 +80,38 @@ On July 17, 2026, Bethesda Game Studios confirmed that it has been working on re
 
 ---
 
-## The short version
+## Which route we would pick
 
-Follow Viva New Vegas in the order it gives, and do not skip the base section. Treat sprint, quick looting and the content mods as optional layers from VNV Extended. If you want to know how your choices matter in the story before you start, see [Fallout New Vegas Endings Explained](https://frontbuffer.net/gaming/fallout-series_explainer/).
+The sources above decide part of this for you. Wabbajack supports only Steam (Global) and GOG copies, while the guide's requirements also allow an Epic Games Store copy, so an Epic owner is left with the manual route. Microsoft Store versions are not supported.
+
+If you can use both, the guide presents Wabbajack as the automated alternative to the manual setup. Our reading is that fewer manual steps leave fewer places to make an ordering mistake, and the guide warns that skipping steps will stop the game from working as it should. We found no source comparing how often each route fails, so this is a judgment, not a finding.
+
+Two choices we would make on a first run:
+
+- **Leave out Agua Fria - JSawyer Redone.** The guide's introduction calls it not recommended for first-time players, and it changes starting Health, Carry Weight, leveling and the level cap.
+- **Add Extended modules in small groups.** The guide says Extended is fully modular. Playing for a while after each group makes a problem easier to trace. This is our suggestion, and the guide does not say it.
+
+If you want to know how your choices matter in the story before you start, see [Fallout New Vegas Endings Explained](https://frontbuffer.net/gaming/fallout-series_explainer/).
+
+---
+
+## Questions readers ask
+
+**What are the essential mods for Fallout: New Vegas?** The base guide's mods: patches, bug fixes and a base finish step. The guide's Bug Fixes page confirms Yukichigai Unofficial Patch, Unofficial Patch NVSE Plus and Iron Sights Aligned. Sprint and quick looting come from optional Extended mods.
+
+**Does the guide work with a Microsoft Store copy?** No. The guide's introduction says Microsoft Store versions are not supported. It lists Steam, GOG and Epic Games Store copies with all DLCs.
+
+**How much space do I need?** The introduction says at least 19GB of free drive space with the game included, or 17GB if you delete the downloads afterward.
+
+**Will the remasters replace this guide?** Bethesda confirmed the remasters on July 17, 2026 without dates, and we found no newer announcement as of October 21, 2026, so this guide applies to the original game.
+
+---
+
+## Update log
+
+- October 16, 2026: checked against the guide's own pages.
+- October 22, 2026: added the base-install mod list from PC Gamer and Nexus Mods.
+- November 3, 2026: checked that list against the guide's Bug Fixes page and replaced the closing summary with the sections above.
 
 ---
 
@@ -93,3 +124,4 @@ Sources:
 - [Fallout 3 and Fallout: New Vegas are both getting remasters, GamesRadar](https://www.gamesradar.com/games/fallout/fallout-3-and-fallout-new-vegas-are-both-getting-remasters-bethesda-announces/)
 - [Fallout 3 and New Vegas remasters now in development, VGC](https://www.videogameschronicle.com/news/fallout-3-and-new-vegas-remasters-now-in-development/)
 - [Unofficial Patch NVSE Plus, Nexus Mods](https://www.nexusmods.com/newvegas/mods/71239)
+- [Bug Fixes, Viva New Vegas](https://vivanewvegas.moddinglinked.com/bugfix.html)

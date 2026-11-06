@@ -2,7 +2,7 @@
 layout: single
 title: "Chrome Manifest V2 Is Dead: What Happened and What to Use Instead"
 date: 2026-07-20 11:11:27 +0900
-last_modified_at: 2026-10-21 00:00:00 +0900
+last_modified_at: 2026-11-03 00:00:00 +0000
 categories: [tech]
 tags: ["hub", "chrome", "manifest-v2", "manifest-v3"]
 excerpt: 'Chrome removed all Manifest V2 extensions from the Web Store on August 31, 2026. Check what still works, and find MV3 replacements for uBlock Origin.'
@@ -66,9 +66,33 @@ uBlock Origin Lite is the MV3 version of uBlock Origin, and its [official FAQ](h
 
 ---
 
-## Takeaway
+## Our reading of the dates
 
-If an MV2 extension still runs because you are on Chrome 138 or earlier, treat it as temporary. It will not update, it cannot be reinstalled from the Web Store, and a new computer or clean install will not bring it back. Check what you have, choose an MV3 replacement or a browser that still supports MV2, and test it before you change anything.
+The three situations above lead to different choices, and the dates decide which one is yours.
+
+- **You are on Chrome 139 or newer.** MV2 extensions do not run at all, so the real choice is between an MV3 replacement and a browser that still supports MV2. Keeping what you have is not an option.
+- **You are on Chrome 138 or earlier.** The extension runs but cannot update or be reinstalled, according to Chrome. We would treat it as borrowed time: the practical deadline is your next browser upgrade or a clean install.
+- **You need per-site control that MV3 blockers cannot offer.** The sources point to Firefox with the full uBlock Origin. If you stay in Chrome, the limits described in our other guides are the documented trade-off.
+
+This is our reading of Chrome's timeline and the makers' own notes, not a test of any extension.
+
+---
+
+## Questions readers ask
+
+**Why does the Web Store say my extension is unavailable?** Chrome says all remaining MV2 extensions were removed from the Web Store on August 31, 2026.
+
+**Will my MV2 extension keep working?** On Chrome 138 or earlier it keeps running without updates. On Chrome 139 and newer, MV2 extensions do not run.
+
+**Is there a way to keep the original uBlock Origin?** Mozilla says Firefox keeps supporting it. Brave says it hosts uBlock Origin on its own servers.
+
+---
+
+## Update log
+
+- October 16, 2026: checked against Chrome's timeline, last updated September 9, 2026.
+- October 21, 2026: the Brave and Edge details were re-checked.
+- November 3, 2026: replaced the closing summary with the sections above. No facts were changed.
 
 ---
 ## Sources

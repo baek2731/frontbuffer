@@ -2,7 +2,7 @@
 layout: single
 title: "How to Check If a Chrome Extension Uses Manifest V2"
 date: 2026-07-18 10:00:00 +0900
-last_modified_at: 2026-10-21 00:00:00 +0900
+last_modified_at: 2026-11-03 00:00:00 +0000
 categories: [tech]
 tags: ["chrome extensions", "manifest v2", "check extension manifest version", "chrome developer mode"]
 excerpt: "Chrome 138 disabled Manifest V2 extensions in July 2025, and the Web Store dropped the rest on August 31, 2026. How to tell which of yours were affected."
@@ -16,7 +16,7 @@ share: true
 
 Whether an extension still runs depends on two things: the Manifest version it was built on and the Chrome version you use. [Chrome's official timeline](https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline) says Chrome 138 disabled Manifest V2 (MV2) extensions everywhere on July 24, 2025, and that MV2 extensions cease to function for anyone upgrading to Chrome 139 or later. It also says all remaining MV2 extensions were removed from the Chrome Web Store on August 31, 2026. This page explains how to check where your extensions stand.
 
-*Checked October 16, 2026 against Chrome's timeline page, last updated September 9, 2026. Nothing here was tested in a browser. The Brave and Edge details were re-checked on October 21, 2026.*
+*Checked October 16, 2026 against Chrome's timeline page, last updated September 9, 2026. The Brave and Edge details were re-checked on October 21, 2026.*
 
 ---
 
@@ -64,6 +64,28 @@ If you have an extension's files, or you are the developer, open its `manifest.j
 ## If you are a developer
 
 Chrome's [migration overview](https://developer.chrome.com/docs/extensions/develop/migrate) and checklist are the reference. There is also an open-source [Extension Manifest Converter](https://github.com/GoogleChromeLabs/extension-manifest-converter) in the GoogleChromeLabs GitHub organization. Its repository says it helps convert an extension to MV3 using search-and-replace changes, that it does not fully automate the conversion, and that it is not an official Google product. The repository was archived on April 19, 2026 and is now read-only, so treat it as a starting point at most.
+
+---
+
+## Questions readers ask
+
+**How do I know if a Chrome extension uses Manifest V2?** As a regular user, open chrome://extensions and look for extensions that are turned off or flagged as unavailable, then search the name in the Chrome Web Store. If you have the files or are the developer, open manifest.json and check the manifest_version key: 2 means Manifest V2 and 3 means Manifest V3.
+
+**Why does my extension say it is no longer available?** Chrome's timeline says all remaining MV2 extensions were removed from the Web Store on August 31, 2026. If the listing is gone, the extension may have been one of them, which is our inference and not a Chrome statement.
+
+**Do MV2 extensions still run in my Chrome?** Not on Chrome 139 or newer. On Chrome 138 or earlier, extensions installed before keep running but cannot update and cannot be reinstalled if removed, according to Chrome.
+
+**Which browsers still support MV2?** Mozilla says Firefox keeps MV2 alongside MV3. Brave says it hosts uBlock Origin and other MV2 extensions on its own servers. Microsoft says Edge began moving users off MV2 in August 2026 and aims to finish the consumer transition by the end of 2026.
+
+**Is there a tool that converts an MV2 extension?** There is an open-source Extension Manifest Converter in the GoogleChromeLabs organization. Its repository says it uses search-and-replace changes, does not fully automate the conversion and is not an official Google product, and it was archived on April 19, 2026.
+
+---
+
+## Update log
+
+- October 16, 2026: checked against Chrome's timeline page, last updated September 9, 2026.
+- October 21, 2026: the Brave and Edge details were re-checked.
+- November 3, 2026: added the readers' questions above. No facts were changed.
 
 ---
 

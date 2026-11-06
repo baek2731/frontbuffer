@@ -16,7 +16,7 @@ share: true
 
 Samsung's Galaxy Z Fold 8, Galaxy Z Fold 8 Ultra, and Galaxy Z Flip 8 are the first Galaxy phones to use silicon-carbon batteries. Samsung confirmed the change to reporters at the July 22, 2026 launch, even though the spec sheets do not mention it. The new cells let two of the three phones carry more capacity or a thinner body. They also come with a shorter rated lifespan, and that trade-off is the part most coverage of the launch skipped.
 
-*Checked October 12, 2026. Battery capacities and thickness figures were re-checked on October 21, 2026. Nothing here was tested on a phone.*
+*Checked October 12, 2026. Battery capacities and thickness figures were re-checked on October 21, 2026.*
 
 ---
 

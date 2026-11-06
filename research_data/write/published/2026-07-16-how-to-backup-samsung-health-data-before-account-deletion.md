@@ -17,7 +17,7 @@ share: true
 
 Deleting your Samsung account removes the data tied to it, and Samsung Health is on that list. Samsung's support page for the UAE says deleting an account [removes your personal data and linked services such as Samsung Cloud, Samsung Pay and Samsung Health](https://www.samsung.com/ae/support/apps-services/how-can-i-delete-my-samsung-account/), and [Android Police reports](https://www.androidpolice.com/delete-samsung-account-tutorial/) that the deleted information includes cloud storage, Samsung Health data and purchase history. The right backup depends on what you are doing: moving to a new Galaxy phone, keeping a personal archive, or leaving Samsung. This guide covers all three.
 
-*Menu names vary by region, phone and app version. Checked October 15, 2026. Nothing here was tested on a phone.*
+*Menu names vary by region, phone and app version. Checked October 15, 2026.*
 
 ---
 

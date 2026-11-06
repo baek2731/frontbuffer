@@ -62,7 +62,7 @@ Both devices use Steam. Valve rates games for the Frame on a [Great on Frame pag
 
 The two devices target different uses, so the comparison is mostly a question of which use you want.
 
-Specs and prices checked October 15, 2026. The Frame's weight and software details were re-checked on October 21, 2026 against UploadVR and Valve's developer documentation. Nothing here was tested hands-on.
+Specs and prices checked October 15, 2026. The Frame's weight and software details were re-checked on October 21, 2026 against UploadVR and Valve's developer documentation.
 
 ---
 Sources:

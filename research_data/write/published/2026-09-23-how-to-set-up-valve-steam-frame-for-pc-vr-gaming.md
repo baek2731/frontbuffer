@@ -2,7 +2,7 @@
 layout: single
 title: 'How to set up Valve Steam Frame for PC VR gaming'
 date: 2026-09-23 14:25:00 +0000
-last_modified_at: 2026-10-21 00:00:00 +0000
+last_modified_at: 2026-11-03 00:00:00 +0000
 categories: [gaming]
 tags: ["guide", "steam-frame", "vr", "setup"]
 excerpt: 'Setting up a Steam Frame for PC VR takes a Windows PC, the included 6GHz adapter and a pairing code. What Valve''s support guide says, and where setup can fail.'
@@ -53,9 +53,43 @@ The adapter is optional. [UploadVR](https://www.uploadvr.com/steam-frame-price-r
 
 Valve lists Half-Life: Alyx as included with the kit. UploadVR reports [a native ARM build that runs on the headset without a PC](https://www.uploadvr.com/steam-frame-price-revealed-reservations-opened-alyx-included/). [Gaming on Steam reports](https://gamingonsteam.com/2026/09/14/steam-frame-preorders-are-open-prices-specs-and-half-life-alyx) that you redeem it in the headset's settings and cannot redeem a second copy if your account already owns it.
 
+## Our reading of the setup
+
+The first thing to check is not on the headset. It is your PC, because Valve's support guide, as reported by Mixed, lists Windows as the only fully supported host for now, and a Steam Machine cannot yet stream VR to a Frame. If you do not own the Frame yet, that is the check we would do before anything else.
+
+After that, the order is cheap to expensive: update the Frame, Steam and SteamVR, use a USB 3 port, then pair. The adapter is optional, since UploadVR reports Wi-Fi streaming works, so a stubborn adapter is not a reason to give up on the headset.
+
+On the SteamOS 0.4.3 beta, we would not switch only for the adapter fix unless you are affected. Valve did not say which countries have the connectivity problem, and the beta is opt-in for a reason. This is our judgment from the sources in this post. The pairing prompts come from pre-launch descriptions, so Valve's own guide is the reference if a step differs.
+
+---
+
+## Questions readers ask
+
+**Does the Steam Frame work with a Mac or a Linux PC?** According to Valve's support guide as reported by Mixed, full SteamVR support and adapter streaming are Windows only for now. Linux hosts need SteamOS 3.9 or newer, or Linux kernel 7.2 or newer, and Valve gave no date for expanded support.
+
+**Do I need the wireless adapter?** No. UploadVR reports the Frame can also stream over your home Wi-Fi, and describes a mode that uses both connections at once.
+
+**What charger do I need?** A USB-C charger of 45W or higher. Valve's kit does not include one, and Valve says a Steam Deck charger works.
+
+**What lens spacing range does the headset cover?** FinalBoss and Club386's review both give 60 to 70mm.
+
+**How do I pair it with my PC?** The sequence the guides describe: update everything, plug the adapter in and launch SteamVR, select Pair on the PC, enter the code in the headset, then choose your PC from the Steam menu.
+
+**Can a Steam Machine stream VR games to the Frame?** Not yet, according to the same Mixed report.
+
+---
+
+## Update log
+
+- October 15, 2026: checked against Valve's published pages and the reporting listed below.
+- October 21, 2026: lens-spacing range, reservation dates and Half-Life: Alyx details re-checked.
+- November 3, 2026: added the two sections above. No instructions or facts were changed.
+
+---
+
 ## What this guide does not cover
 
-Steps were checked against Valve's published pages and the reporting listed below on October 15, 2026. The lens-spacing range, reservation dates and Half-Life: Alyx details were re-checked on October 21, 2026. The pairing prompts come from a pre-launch description and from secondary summaries of Valve's guide. Nothing here was tested on a Steam Frame. If a step differs on your headset, Valve's own support guide is the reference to follow.
+Steps were checked against Valve's published pages and the reporting listed below on October 15, 2026. The lens-spacing range, reservation dates and Half-Life: Alyx details were re-checked on October 21, 2026. The pairing prompts come from a pre-launch description and from secondary summaries of Valve's guide. If a step differs on your headset, Valve's own support guide is the reference to follow.
 
 ---
 Sources:

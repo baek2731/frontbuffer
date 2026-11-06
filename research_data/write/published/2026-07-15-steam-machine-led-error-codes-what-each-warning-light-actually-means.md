@@ -2,7 +2,7 @@
 layout: single
 title: "Steam Machine LED Error Codes: What Each Warning Light Actually Means"
 date: 2026-07-15 10:00:00 +0900
-last_modified_at: 2026-10-28 00:00:00 +0900
+last_modified_at: 2026-11-03 00:00:00 +0900
 categories: [gaming]
 tags: ["steam machine", "led error codes", "steam machine red light", "cmos reset"]
 excerpt: "The Steam Machine's light bar shows faults by color and position. Valve's code list, its warning that the panel reads flipped, and the CMOS reset steps."
@@ -20,20 +20,20 @@ The Steam Machine's front light bar reports faults by color, position and pulse 
 
 ## The light bar codes
 
-The codes below come from Valve's support page as [reported by The FPS Review](https://www.thefpsreview.com/2026/07/07/valve-responds-to-steam-machines-red-line-of-death-reports-telling-users-to-perform-a-cmos-reset/). Valve's own [LED reference page](https://help.steampowered.com/en/faqs/view/6945-03B8-1EC9-0237) exists, but its text did not load when we opened it on October 28, 2026.
+The codes below come from Valve's support page as [reported by The FPS Review](https://www.thefpsreview.com/2026/07/07/valve-responds-to-steam-machines-red-line-of-death-reports-telling-users-to-perform-a-cmos-reset/). Valve's own [LED reference page](https://help.steampowered.com/en/faqs/view/6945-03B8-1EC9-0237) exists, but its text did not load when we opened it on October 28 and again on November 3, 2026.
 
 | Pattern | Meaning |
 |---|---|
 | Solid red across the whole bar | Overheating warning: CPU above 95°C or GPU above 90°C |
 | Pulsing red, right quarter | No RAM detected |
 | Pulsing red, second quarter from the left | SSD error |
-| Pulsing red, far left | Failed memory test (other reports describe the left side of the bar) |
+| Pulsing red, left side | Failed memory test (allthings.how describes the left half of the bar) |
 
-[Mezha reports](https://mezha.ua/en/news/valve-steam-machine-bios-red-indicator-313196/) that Valve's page also defines a GPU failure code: the right half of the bar pulsing red with the indicator LED solid red.
+The FPS Review's list does not include the GPU failure code. [allthings.how](https://allthings.how/steam-machine-light-meanings-every-led-color-pattern-explained/), a secondary source that says it follows Valve's reference animations, gives it as the right half of the bar pulsing red, and says the indicator LED is solid red in every red pattern. [Club386](https://www.club386.com/steam-machine-red-line-of-death-memory-training/) likewise describes Valve's original guidance as a light at the right end of the bar meaning a GPU failure.
 
 ## Normal light patterns
 
-Not every light means a fault. One secondary source, [allthings.how](https://allthings.how/steam-machine-light-meanings-every-led-color-pattern-explained/), lists these normal patterns for the light bar and the small indicator LED. Valve's own page did not load its text for us, so treat them as reported, not confirmed by Valve.
+Not every light means a fault. One secondary source, [allthings.how](https://allthings.how/steam-machine-light-meanings-every-led-color-pattern-explained/), lists these normal patterns for the light bar and the small indicator LED. Valve's own page did not load its text when we opened it on November 3, 2026, so treat them as reported, not confirmed by Valve.
 
 | Light bar | Indicator LED | Meaning |
 |---|---|---|
@@ -64,7 +64,7 @@ Two cautions. First, allthings.how says blue is only the factory default, so on 
 
 The first widely shared "Red Line of Death" report came from an owner whose machine stopped booting after an update and showed a red line. It was first read as a GPU error. In Valve's reply, quoted by The FPS Review, Valve said that due to a miscommunication the front panel code is flipped horizontally out of the box. Because the problem appeared during or right after a BIOS update, Valve said it was very likely that the update had not fully completed and that this was a memory training issue.
 
-Valve's reply does not say whether every unit is affected, and no fix for the panel was found in the sources checked. Reports also differ on where the memory-training pattern sits. The FPS Review's list puts it at the far left, while [Club386](https://www.club386.com/steam-machine-red-line-of-death-memory-training/) describes Valve's original guidance as red on the left side for memory training and at the right end for a GPU failure, before Valve said the code was flipped. So left and right in the table above may appear mirrored on your machine. Use the other clues too: whether the machine boots at all, and whether the power indicator LED breathes white.
+Valve's reply does not say whether every unit is affected, and no fix for the panel was found in the sources checked. The sources agree on the original layout. The FPS Review and [Club386](https://www.club386.com/steam-machine-red-line-of-death-memory-training/) place the memory failure pattern on the left side of the bar, and Club386 describes the GPU failure code as the right end, before Valve said the code was flipped. So left and right in the table above may appear mirrored on your machine. Use the other clues too: whether the machine boots at all, and whether the power indicator LED breathes white.
 
 ## Solid red across the whole bar: a warning, not a shutdown
 
@@ -99,7 +99,7 @@ If a no-RAM or SSD pattern appears after you open the case, reseating the module
 3. Pulsing: run Valve's CMOS reset steps, then file a ticket if the machine still does not boot.
 4. After you opened the case: reseat the RAM or SSD first.
 
-Checked October 15, 2026, updated October 20, 2026 and re-checked on October 28, 2026 against the sources listed below. Nothing here was tested on a Steam Machine.
+Checked October 15, 2026, updated October 20, 2026 and re-checked on October 28, 2026 against the sources listed below. On November 3, 2026 we re-opened The FPS Review, Club386 and allthings.how and rechecked the light bar codes, the normal patterns, the CMOS reset steps and the flip note against them. Valve's own LED page still did not load its text.
 
 ---
 
@@ -110,7 +110,6 @@ If the red bar appears during normal gaming rather than after a hardware change,
 Sources:
 
 * [Valve Responds to Steam Machine's "Red Line of Death" Reports, The FPS Review](https://www.thefpsreview.com/2026/07/07/valve-responds-to-steam-machines-red-line-of-death-reports-telling-users-to-perform-a-cmos-reset/)
-* [Valve is preparing a BIOS update for the Steam Machine, Mezha](https://mezha.ua/en/news/valve-steam-machine-bios-red-indicator-313196/)
 * [Valve to raise Steam Machine red LED warning to 100°C with BIOS update, VideoCardz](https://videocardz.com/newz/valve-to-raise-steam-machine-red-led-warning-to-100c-with-bios-update)
 * [Valve confirms Steam Machine red light overheating warning is showing earlier than it should, Tom's Hardware](https://www.tomshardware.com/pc-components/cooling/valve-confirms-steam-machine-red-light-overheating-warning-is-showing-earlier-than-it-should-bios-fix-on-the-way-will-raise-temperature-warning-threshold-to-100-degrees-celsius)
 * [Valve updates Steam Machine BIOS to adjust LED thermal warning thresholds, KitGuru](https://www.kitguru.net/?p=741692)

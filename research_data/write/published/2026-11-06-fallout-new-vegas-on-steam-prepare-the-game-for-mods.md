@@ -5,6 +5,9 @@ date: 2026-11-06 14:07:00 +0000
 categories: [gaming]
 tags: ["guide", "fallout-new-vegas", "viva-new-vegas", "steam"]
 excerpt: 'Steps from the Viva New Vegas guide to prepare a Steam copy of Fallout: New Vegas for mods: requirements, a safe folder, a new library and a first launch.'
+header:
+  image: https://images.frontbuffer.net/posts/fallout-new-vegas-on-steam-prepare-the-game-for-mods/og.png
+  overlay_filter: 0
 author_profile: false
 read_time: true
 share: true

@@ -16,7 +16,7 @@ share: true
 
 Samsung announced the Galaxy Z Fold 8 and the Galaxy Z Fold 8 Ultra at Galaxy Unpacked in London on July 22, 2026. They are not a standard and a premium version of one design. The Fold 8 is a new, wider "passport" shape, while the Fold 8 Ultra is the tall, book-style direct successor to the Galaxy Z Fold 7. Both run One UI 9 on Android 17 and use the Snapdragon 8 Elite Gen 5 for Galaxy, so the choice comes down to shape, screen size, cameras, and price.
 
-*Specs checked October 12, 2026. Battery, charging and display-structure details were re-checked on October 21, 2026. Nothing here was tested on a phone.*
+*Specs checked October 12, 2026. Battery, charging and display-structure details were re-checked on October 21, 2026.*
 
 ---
 

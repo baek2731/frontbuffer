@@ -2,7 +2,7 @@
 layout: single
 title: "Samsung Health vs Google Health Connect Feature Comparison"
 date: 2026-07-17 10:00:00 +0900
-last_modified_at: 2026-10-15 00:00:00 +0900
+last_modified_at: 2026-11-03 00:00:00 +0000
 categories: [tech]
 tags: ["samsung health", "google health connect", "health connect comparison", "fitness data sync"]
 excerpt: "Samsung Health is the app you look at. Health Connect is the on-device store apps share through. What each does, how they sync, and what the sync leaves out."
@@ -66,7 +66,30 @@ In practice this means a workout app that writes to Health Connect can have its 
 - **You use other health apps on Android:** turn on the Samsung Health to Health Connect sync and choose which data types to share.
 - **You are leaving Samsung:** download your data first and read the backup guide, since sync alone does not carry your full history.
 
-Checked October 15, 2026 against Samsung and Android documentation. Nothing here was tested on a phone.
+Checked October 15, 2026 against Samsung and Android documentation.
+
+---
+
+## Questions readers ask
+
+**Is Health Connect a replacement for Samsung Health?** No. Samsung Health is the app where you view and log your data, and Health Connect is a store on the phone that lets apps share health data through one set of permissions. It has a screen for permissions and an overview of recorded data, but it is not built to replace a fitness dashboard.
+
+**Where do I find Health Connect?** On Android 14 it is part of the system: open Settings, then Security and privacy, then Privacy, then Health Connect. On Android 13 and lower it is a Play Store app.
+
+**How do I sync Samsung Health with Health Connect?** Open Samsung Health, go to Settings, then Health Connect, and grant the permissions it asks for. The page describing this is from 2025, so labels may differ on your phone.
+
+**Does Health Connect back up my data?** No. Its data stays on the device, so it is not a cloud backup. If you are leaving Samsung or deleting your account, use our backup guide first.
+
+**Why can't a new app see my old data?** Android's documentation says an app can read data from up to 30 days before it was first granted permission, unless it requests a separate history permission.
+
+**What happens to Google Fit?** Google says the Google Fit APIs will be deprecated in 2026, that developers could not sign up for them after May 1, 2024, and that it recommends moving to Health Connect.
+
+---
+
+## Update log
+
+- October 15, 2026: checked against Samsung and Android documentation.
+- November 3, 2026: added the readers' questions above. No facts were changed.
 
 ---
 

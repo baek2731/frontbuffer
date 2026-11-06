@@ -2,7 +2,7 @@
 layout: single
 title: 'Galaxy Z Flip 8 cover screen apps: what works and how to add more'
 date: 2026-08-07 14:15:00 +0000
-last_modified_at: 2026-10-16 00:00:00 +0000
+last_modified_at: 2026-11-03 00:00:00 +0000
 categories: [tech]
 tags: ["guide", "samsung", "galaxy-z-flip-8", "cover-screen"]
 excerpt: 'The Galaxy Z Flip 8 cover screen runs 16 apps out of the box. See which ones, how Labs works, and how to add any app with Good Lock MultiStar.'
@@ -54,9 +54,34 @@ Apps built only for full-screen layouts may need scrolling or the aspect ratio b
 
 ---
 
-## Takeaway
+## Our reading of the cover screen list
 
-Check the native list and the Labs section first, since most daily apps are already covered. Add MultiStar only for the apps that are missing. Use the built-in aspect ratio button before you go hunting for settings in MultiStar.
+Samsung's list is mostly its own software. Twelve of the sixteen apps are Samsung system apps, and the other four are Google Maps, Google Messages, Netflix and YouTube, grouped under Labs.
+
+Our reading is that Labs is a hedge. Android Authority describes it as Samsung endorsing the app on the small screen while you may still run into issues, and Samsung's own guide says apps found through Labs and Good Lock are not officially supported and may not work as expected. On the cover screen, "supported" does not mean "flawless."
+
+Whether MultiStar is worth the setup depends on how often you would use the missing app. Our suggestion is to try the built-in aspect ratio button first, because Android Authority says it works with official apps, Labs apps and unsupported apps you have enabled through MultiStar. Add MultiStar only for an app you would open every day. We did not check these steps on a Flip 8, and Samsung changes the supported list through updates, so confirm on your phone.
+
+---
+
+## Questions readers ask
+
+**Which apps run on the Flip 8 cover screen without setup?** Sixteen. The twelve Samsung apps are Bixby, Samsung Browser, Calculator, Calendar, Camera, Clock, Contacts, Gallery, Samsung Health, Notes, Phone and Voice Recorder. The four others are Google Maps, Google Messages, Netflix and YouTube.
+
+**Do Netflix and YouTube work on the cover screen?** Both are on the list under Labs, which means Samsung endorses them there but you may still run into issues.
+
+**How do I add other apps?** Install Good Lock and then MultiStar from its Life Up tab, and enable the Launcher Widget. Samsung's app tray also has an Add apps button on One UI 9. The MultiStar steps come from Samsung's Flip 5 instructions and were not checked on a Flip 8.
+
+**Is there an aspect ratio button?** Yes. One UI 9 on the Flip 8 has a button at the bottom of the cover screen for full-screen, portrait and square layouts.
+
+**Will the Flip 7 get this?** Android Authority says it was told the experience is coming to the Flip 7, and that it is unclear whether other older Flips will get it.
+
+---
+
+## Update log
+
+- October 16, 2026: checked against Android Authority, Samsung's pages and developer documentation.
+- November 3, 2026: replaced the closing summary with the sections above. No instructions or facts were changed.
 
 ---
 Sources:

@@ -2,7 +2,7 @@
 layout: single
 title: 'How to Use Sunshine and Moonlight to Stream PC Games to Android'
 date: 2026-07-31 14:02:00 +0000
-last_modified_at: 2026-10-20 00:00:00 +0000
+last_modified_at: 2026-11-03 00:00:00 +0000
 categories: [gaming]
 tags: ["guide", "portable", "gaming"]
 excerpt: 'Sunshine runs on your gaming PC and Moonlight on your Android tablet. Install both, pair them with a PIN, and fix choppy video, black screens and remote access.'
@@ -16,7 +16,7 @@ share: true
 
 Sunshine on your gaming PC and Moonlight on your Android tablet let you play PC games over your home network. Sunshine is the host, Moonlight is the client, and pairing works through a PIN you type into Sunshine's web page. Below are the setup steps, how to reach the PC away from home, and the fixes the Moonlight docs list when the stream stutters or stays black.
 
-*Checked October 20, 2026 against the Moonlight docs (Setup Guide edited February 2025, FAQ and Troubleshooting pages last edited in 2024), Sunshine's current documentation and NVIDIA's GameStream notice. Some Moonlight pages predate recent Sunshine releases, and nothing here was tested on a tablet or PC.*
+*Checked October 20, 2026 against the Moonlight docs (Setup Guide edited February 2025, FAQ and Troubleshooting pages last edited in 2024), Sunshine's current documentation and NVIDIA's GameStream notice. Some Moonlight pages predate recent Sunshine releases.*
 
 ---
 
@@ -89,9 +89,37 @@ HDR has conditions. Sunshine officially supports HDR on Windows hosts whose GPU 
 
 ---
 
-## Takeaway
+## Our reading of the docs
 
-Pair on your home network first, with the PC on Ethernet and the tablet on 5 GHz Wi-Fi. If the picture is rough, lower the bitrate before changing anything else.
+The docs list many settings but do not rank them. Reading the setup, picture and troubleshooting sections side by side, this is the order we would work through a bad first stream, from cheapest to most effort. It is our judgment about effort, not a measurement.
+
+1. **Fix the network first.** It costs nothing and the docs name it first: 5 GHz Wi-Fi on the tablet, a wired connection for the PC, and the FAQ's note that dropped frames are common on 2.4 GHz Wi-Fi and powerline networking.
+2. **Lower the bitrate before touching anything else.** It is one of the first fixes the troubleshooting advice names. Change one setting at a time so you can tell which one helped.
+3. **Check the PC's display state.** A black screen points to a monitor or HDMI headless dongle that is off or not connected, and the docs also ask you to confirm you are logged in.
+4. **Test the firewall, antivirus and VPN last, and only temporarily.** The Troubleshooting page asks you to switch them off to test, and to create an exception rather than leave them off if that fixes it.
+
+The requirements decide most of the rest. If your PC has no GPU with a hardware encoder, or runs Windows 7 or 8, the lists above say this setup is not supported. If you plan to play away from home, treat that as a second project: the docs recommend pairing at home first, and the FAQ says cellular networks tend to add delay.
+
+---
+
+## Questions readers ask
+
+**What is the difference between Sunshine and Moonlight?** Sunshine is the host that runs on your gaming PC, and Moonlight is the client app on your tablet. You pair them with a PIN that Moonlight shows and you type into Sunshine's web interface.
+
+**What do I need on the PC?** The Moonlight Setup Guide lists any modern AMD, NVIDIA or Intel GPU and Windows 10 or 11, and Sunshine's documentation adds that the GPU needs a hardware encoder.
+
+**Why does `https://localhost:47990` show a security warning?** Sunshine's docs say the warning comes from a self-signed certificate and can be ignored. Keep the username and password you create, because anyone with access to that page can add clients.
+
+**Can I stream away from home or over mobile data?** Yes, with extra setup. Moonlight recommends pairing at home first, and the Setup Guide covers Sunshine's UPnP option and private networks such as ZeroTier, Tailscale and NordVPN Meshnet. The FAQ says cellular networks tend to add delay.
+
+**Does leaving the stream close the game?** No. Select the running app in Moonlight and choose Quit App to end the session, which closes the app on the PC, so save first.
+
+---
+
+## Update log
+
+- October 20, 2026: re-checked against the Moonlight and Sunshine docs listed below.
+- November 3, 2026: replaced the closing summary with the two sections above. No instructions or facts were changed.
 
 ---
 

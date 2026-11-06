@@ -16,7 +16,7 @@ share: true
 
 If you want to lock a single app behind your fingerprint or PIN, Android does not have a finished way to do it yet. Android 15 added Private Space, which is a different tool, and Google's native App Lock is still in beta testing. Samsung phones have Secure Folder, and a built-in App Lock has only appeared in a leak. Below is what each option does today and what is coming.
 
-*Checked October 16, 2026 and updated October 20, 2026 against press reports and Android's own guide. Nothing here was tested on a phone, and the App Lock details come from beta builds and leaks that can change.*
+*Checked October 16, 2026 and updated October 20, 2026 against press reports and Android's own guide. The App Lock details come from beta builds and leaks that can change.*
 
 ---
 

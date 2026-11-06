@@ -2,7 +2,7 @@
 layout: single
 title: 'Pixel Launcher vs Third-Party Android Launchers Compared'
 date: 2026-08-12 14:10:00 +0000
-last_modified_at: 2026-10-20 00:00:00 +0000
+last_modified_at: 2026-11-03 00:00:00 +0000
 categories: [tech]
 tags: ["comparison", "google", "android", "ecosystem"]
 excerpt: 'Nova Launcher was sold twice and its founder left. Here is that history and how Smart Launcher 6, Lawnchair and Niagara compare with the Pixel Launcher.'
@@ -16,7 +16,7 @@ share: true
 
 Nova Launcher changed hands twice in four years, and many Android users have been reconsidering their home screen since. This comparison covers what happened to Nova, then three alternatives that Android Authority names, set against the Pixel Launcher that comes on Pixel phones.
 
-*Checked October 20, 2026 against 9to5Google, Heise, Digitec, Android Authority and SlashGear. Launcher features and prices change often, and nothing here was tested on a phone.*
+*Checked October 20, 2026 against 9to5Google, Heise, Digitec, Android Authority and SlashGear. Launcher features and prices change often.*
 
 ---
 
@@ -57,11 +57,6 @@ The Pixel Launcher is the default on Pixel phones, which is why Lawnchair is oft
 
 ---
 
-## Takeaway
-
-Nova is still usable, but its ownership has changed and ads are on the table for the free version. If you want to move, Android Authority's three picks above cover three different styles, so decide whether you want organization, Pixel familiarity or minimalism first.
-
----
 
 Sources:
 - [Nova Launcher: New owner comments on the future, Heise](https://www.heise.de/en/news/Nova-Launcher-New-owner-comments-on-the-future-11147990.html)

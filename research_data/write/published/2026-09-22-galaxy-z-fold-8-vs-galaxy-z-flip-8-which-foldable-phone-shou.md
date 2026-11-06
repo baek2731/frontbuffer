@@ -73,7 +73,7 @@ The Fold 8 has a 4,800mAh battery, and Samsung's lab test rates video playback a
 
 **Galaxy Z Flip 8** if you want a flagship phone that fits in a small pocket, care about portability over screen size, and like hands-free selfies and video. It is $100 more than the Flip 7, according to Android Central.
 
-Specs and prices checked October 16, 2026 against Samsung's pages and Android Central. Nothing here was tested hands-on.
+Specs and prices checked October 16, 2026 against Samsung's pages and Android Central.
 
 ---
 Sources:

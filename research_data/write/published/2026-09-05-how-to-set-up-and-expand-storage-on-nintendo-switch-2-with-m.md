@@ -2,7 +2,7 @@
 layout: single
 title: 'How to Expand Nintendo Switch 2 Storage with microSD Express'
 date: 2026-09-05 14:00:00 +0000
-last_modified_at: 2026-10-20 00:00:00 +0000
+last_modified_at: 2026-11-03 00:00:00 +0000
 categories: [gaming]
 tags: ["guide", "nintendo", "switch-2", "microsd-express"]
 excerpt: 'Switch 2 only accepts microSD Express cards, so your old Switch card cannot hold games. Which cards work, what they cost, and how to install and move games.'
@@ -16,7 +16,7 @@ share: true
 
 The microSD card from your original Switch will not hold games on a Switch 2. Nintendo's compatibility page says the Switch 2 works only with microSD Express cards, and that a card previously used in a Switch will not let the new console save or load digital games or save data. The old card is not useless: you can still import Switch screenshots and videos from it. Here is which card to buy, what it costs, and how to install it and move games.
 
-*Checked October 20, 2026 against Nintendo support pages, Engadget (updated December 26, 2025) and Tom's Hardware (April 3, 2025). Prices below are list prices from those articles. Current retail prices were not checked, and nothing here was tested on a Switch 2.*
+*Checked October 20, 2026 against Nintendo support pages, Engadget (updated December 26, 2025) and Tom's Hardware (April 3, 2025). Prices below are list prices from those articles. Current retail prices were not checked.*
 
 ---
 
@@ -94,9 +94,11 @@ Nintendo's pages checked here list no further steps, so contact Nintendo Support
 
 ---
 
-## Takeaway
+## Our reading of the purchase
 
-Buy a card with the EX logo in the size your library needs. Engadget's advice is to take the cheapest one in stock. Keep the old card for the original Switch, which also accepts Express cards, though Nintendo says they run at regular microSD speed there.
+The sources point one way: capacity matters more than brand. Engadget found that load times differed by seconds between cards, that the console's own storage was faster than every card it tried, and it advises buying whichever card is in stock at the lowest price in the size you want. Our reading is that the price table is more useful for choosing a size than a brand. On Engadget's list the spread between brands at one size is small next to the jump between sizes, from $47 to $78 at 256GB to $190 to $220 at 1TB.
+
+We would fill the internal 256GB first, as Engadget suggests, and check whether a physical game is a Game-Key Card before counting on cartridges to save space. A card bought for the Switch 2 is not wasted if you also own an original Switch, which accepts Express cards, though Nintendo says they run at regular microSD speed there. This is our judgment from the sources above, and the prices are December 2025 list prices, so check current ones.
 
 ---
 
