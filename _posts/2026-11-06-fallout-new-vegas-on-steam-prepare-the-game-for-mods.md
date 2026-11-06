@@ -1,4 +1,14 @@
-# Fallout New Vegas on Steam: Prepare the Game for Mods
+---
+layout: single
+title: 'Fallout New Vegas on Steam: Prepare the Game for Mods'
+date: 2026-11-06 14:07:00 +0000
+categories: [gaming]
+tags: ["guide", "fallout-new-vegas", "viva-new-vegas", "steam"]
+excerpt: 'Steps from the Viva New Vegas guide to prepare a Steam copy of Fallout: New Vegas for mods: requirements, a safe folder, a new library and a first launch.'
+author_profile: false
+read_time: true
+share: true
+---
 
 Before you install any Fallout: New Vegas mods on the Steam version, the Viva New Vegas modding guide wants a clean copy of the game in a safe folder, a few Windows checks and one first launch. This post walks through that preparation for a Steam copy, following the guide's own Setup page. It does not cover the mods themselves.
 
@@ -66,5 +76,3 @@ Sources:
 - [Steam Library Setup Tool releases, GitHub](https://github.com/LostDragonist/steam-library-setup-tool/releases)
 - [How to have the best Fallout New Vegas experience today, PC Gamer](https://www.pcgamer.com/fallout-new-vegas-guide-tips-best-experience/)
 
-<!-- excerpt: Steps from the Viva New Vegas guide to prepare a Steam copy of Fallout: New Vegas for mods: requirements, a safe folder, a new library and a first launch. -->
-<!-- tags: guide, fallout-new-vegas, viva-new-vegas, steam -->
