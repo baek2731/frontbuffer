@@ -1,4 +1,14 @@
-# Does uBlock Origin Work on Safari? Mac, iPhone and iPad
+---
+layout: single
+title: 'Does uBlock Origin Work on Safari? Mac, iPhone and iPad'
+date: 2026-11-10 14:26:00 +0000
+categories: [tech]
+tags: ["explainer", "ublock-origin-lite", "safari", "ios"]
+excerpt: 'The full uBlock Origin is not available for current Safari. uBlock Origin Lite is, on Mac, iPhone and iPad. How to turn it on, and where reports disagree.'
+author_profile: false
+read_time: true
+share: true
+---
 
 Not the full uBlock Origin. Reports say the full extension is no longer available for current Safari and has never run on iPhone or iPad, but uBlock Origin Lite is available from the App Store for Mac, iPhone and iPad. Lite is a different, more limited extension, and it has to be switched on in Safari's settings after you install it.
 
@@ -44,5 +54,3 @@ Sources:
 - [Troubleshooting, uBOL-home Wiki](https://github.com/uBlockOrigin/uBOL-home/wiki/Troubleshooting)
 - [uBlock Origin for iOS: Quick setup guide, Mac Observer](https://www.macobserver.com/tips/how-to/ublock-origin-ios/)
 
-<!-- excerpt: The full uBlock Origin is not available for current Safari. uBlock Origin Lite is, on Mac, iPhone and iPad. How to turn it on, and where reports disagree. -->
-<!-- tags: explainer, ublock-origin-lite, safari, ios -->
