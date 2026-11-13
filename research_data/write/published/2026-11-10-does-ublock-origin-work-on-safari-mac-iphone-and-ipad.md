@@ -5,6 +5,9 @@ date: 2026-11-10 14:26:00 +0000
 categories: [tech]
 tags: ["explainer", "ublock-origin-lite", "safari", "ios"]
 excerpt: 'The full uBlock Origin is not available for current Safari. uBlock Origin Lite is, on Mac, iPhone and iPad. How to turn it on, and where reports disagree.'
+header:
+  image: https://images.frontbuffer.net/posts/does-ublock-origin-work-on-safari-mac-iphone-and-ipad/og.png
+  overlay_filter: 0
 author_profile: false
 read_time: true
 share: true

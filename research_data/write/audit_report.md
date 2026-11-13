@@ -1,72 +1,14 @@
 # Frontbuffer 주간 품질 감사 리포트
-생성: 2026-11-06 20:40 UTC  |  dry-run: False
+생성: 2026-11-13 21:08 UTC  |  dry-run: False
 
 ## 요약
-- 자동 수정: **60건**
+- 자동 수정: **2건**
 - 수동 확인 필요: **30건**
-- final/ 스택 잔량: **5편**
+- final/ 스택 잔량: **3편**
 
 ## ✅ 자동 수정 — published/ 동기화
-- published/2026-09-30-ubisoft-connect-requirement-for-steam-games-offline-play-exp.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-11-03-can-you-watch-youtube-or-netflix-on-android-auto-in-2026.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-07-31-portable-gaming_guide.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-10-03-pixel-10-vs-pixel-11-camera-low-light-and-voice-typing-compa.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-09-05-how-to-set-up-and-expand-storage-on-nintendo-switch-2-with-m.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-07-20-google-chrome-manifest-v2-migration_HUB.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-07-26-fallout-series_guide.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-09-07-android-system-features.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-10-10-steam-deck-not-charging-or-slow-charger-warning-how-to-fix.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-09-20-steam-frame-vs-meta-quest-3-vr-headset-specification-compari.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-07-29-samsung-health-data-ecosystem_hub.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-10-16-what-to-use-instead-of-umatrix-in-2026.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-07-18-how-to-check-if-chrome-extensions-use-manifest-v2.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-11-06-fallout-new-vegas-on-steam-prepare-the-game-for-mods.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-07-17-samsung-health-vs-google-health-connect-feature-comparison.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-08-05-samsung-galaxy-z-foldflip-series_explainer.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-09-24-how-to-transfer-android-passkeys-between-devices-securely.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-08-16-galaxy-z-fold-8-vs-fold-7-camera-comparison-low-light-perfor.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-07-21-android-ecosystem_explainer.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-08-17-galaxy-z-fold-8-first-5-things-to-do-essential-setup-guide.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-09-23-how-to-set-up-valve-steam-frame-for-pc-vr-gaming.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-08-14-how-to-fix-android-auto-wireless-connection-issues.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-10-10-gemini-in-android-auto-what-it-does-and-how-to-turn-it-on.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-07-16-how-to-backup-samsung-health-data-before-account-deletion.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-08-03-01-galaxy-fold_guide.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-09-25-steam-frame-vs-steam-deck-performance-price-and-portability-.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-08-04-samsung-galaxy-z-foldflip-series_comparison.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-10-30-ublock-origin-lite-vs-ublock-origin-which-should-you-use.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-07-30-steam-machine-hardware-management_hub.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-10-19-samsung-health-not-syncing-last-synced-date-and-fixes.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-08-26-android-16-desktop-mode-setup.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-10-02-googlebook-models-compared-specs-and-features-of-the-five-fl.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-07-19-best-manifest-v3-alternatives-for-older-chrome-extensions.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-07-20-what-is-chrome-manifest-v3-and-why-extensions-break.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-08-19-google-assistant-vs-gemini-what-changes-when-assistant-shuts.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-09-18-04-pixel-pro.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-10-04-what-is-googlebook-and-how-it-differs-from-chromebooks.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-08-07-samsung-galaxy-z-foldflip-series_guide.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-09-13-galaxy-z-fold-8-vs-fold-7-hinge-durability-comparison.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-09-29-how-to-install-ikea-themed-mods-for-skyrim-anniversary-editi.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-10-05-what-is-pixel-voice-typing-and-how-to-use-its-best-features.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-07-15-steam-machine-led-error-codes-what-each-warning-light-actually-means.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-10-08-how-to-optimize-pixel-phone-gaming-performance-and-battery.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-07-21-android-ecosystem_comparison.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-07-22-android-ecosystem_guide.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-10-17-september-2026-pixel-drop-whats-new-and-who-gets-it.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-07-14-how-to-troubleshoot-steam-machine-overheating-and-red-light-issues.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-09-01-how-to-customize-pixel-quick-settings-with-android-17-qpr2-f.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-07-28-portable-gaming_explainer.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-09-19-how-to-enable-custom-chat-bubbles-in-google-messages.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-09-22-galaxy-z-fold-8-vs-galaxy-z-flip-8-which-foldable-phone-shou.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-08-12-google-pixel-launcher-vs-third-party-android-launchers-featu.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-08-25-how-to-customize-android-quick-settings-tiles.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-08-27-android-desktop-mode-vs-samsung-dex-a-comprehensive-comparis.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-07-24-fallout-series_explainer.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-10-01-chromebook-vs-googlebook-whats-the-difference.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-10-20-google-fit-vs-health-connect-are-they-the-same.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-10-27-does-ublock-origin-work-on-chrome-for-android.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-10-23-ublock-origin-lite-filtering-modes-settings-and-limits.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-08-28-android-1516-native-app-lock-vs-samsung-app-lock-privacy-fea.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-11-13-adguard-on-chrome-and-edge-after-manifest-v3-what-changed.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-11-10-does-ublock-origin-work-on-safari-mac-iphone-and-ipad.md 내용 불일치 → _posts/ 기준으로 덮어씀
 
 ## ⚠️ 수동 확인 필요 — 단어 수 미달
 - 2026-08-08-06-android-auto_comparison.md — 593단어
