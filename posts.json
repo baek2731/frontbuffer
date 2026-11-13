@@ -1443,6 +1443,19 @@
       "hub_cluster": "",
       "verified_keywords": [],
       "slug": "2026-11-10-does-ublock-origin-work-on-safari-mac-iphone-and-ipad"
+    },
+    {
+      "status": "live",
+      "date": "2026-11-13",
+      "title": "AdGuard on Chrome and Edge After Manifest V3: What Changed",
+      "live_url": "https://frontbuffer.net/tech/adguard-on-chrome-and-edge-after-manifest-v3-what-changed/",
+      "categories": [
+        "tech"
+      ],
+      "content_type": "EXPLAINER",
+      "hub_cluster": "",
+      "verified_keywords": [],
+      "slug": "2026-11-13-adguard-on-chrome-and-edge-after-manifest-v3-what-changed"
     }
   ],
   "_last_updated": "2026-08-07T14:54:21.320932+00:00"

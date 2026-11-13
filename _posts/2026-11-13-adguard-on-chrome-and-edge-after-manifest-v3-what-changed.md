@@ -1,4 +1,14 @@
-# AdGuard on Chrome and Edge After Manifest V3: What Changed
+---
+layout: single
+title: 'AdGuard on Chrome and Edge After Manifest V3: What Changed'
+date: 2026-11-13 14:10:00 +0000
+categories: [tech]
+tags: ["explainer", "adguard", "manifest-v3", "chrome-extensions"]
+excerpt: 'AdGuard''s browser extension now runs on Manifest V3 in Chrome and Edge. What AdGuard says changes, how custom filters work in Edge, and which numbers are dated.'
+author_profile: false
+read_time: true
+share: true
+---
 
 AdGuard's browser extension now runs on Manifest V3 (MV3) in Chrome, and AdGuard has added an MV3 version for Microsoft Edge. AdGuard says most existing Chrome users need to do nothing. What does change, by AdGuard's own account, is that the browser applies a prebuilt ruleset, the number of active rules is limited, some rules cannot be converted exactly, and most filter updates now arrive with the extension itself.
 
@@ -53,5 +63,3 @@ Sources:
 - [Manifesting change: AdGuard Ad Blocker on MV3 moves from prototype to beta, AdGuard](https://adguard.com/en/blog/adguard-mv3-beta.html)
 - [Frequently asked questions (FAQ), uBOL-home Wiki](https://github.com/uBlockOrigin/uBOL-home/wiki/Frequently-asked-questions-%28FAQ%29)
 
-<!-- excerpt: AdGuard's browser extension now runs on Manifest V3 in Chrome and Edge. What AdGuard says changes, how custom filters work in Edge, and which numbers are dated. -->
-<!-- tags: explainer, adguard, manifest-v3, chrome-extensions -->
