@@ -5,6 +5,9 @@ date: 2026-11-13 14:10:00 +0000
 categories: [tech]
 tags: ["explainer", "adguard", "manifest-v3", "chrome-extensions"]
 excerpt: 'AdGuard''s browser extension now runs on Manifest V3 in Chrome and Edge. What AdGuard says changes, how custom filters work in Edge, and which numbers are dated.'
+header:
+  image: https://images.frontbuffer.net/posts/adguard-on-chrome-and-edge-after-manifest-v3-what-changed/og.png
+  overlay_filter: 0
 author_profile: false
 read_time: true
 share: true

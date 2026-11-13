@@ -1,0 +1,5 @@
+AdGuard's browser extension now runs on Manifest V3 in Chrome and Edge. What AdGuard says changes, how custom filters work in Edge, and…
+
+https://frontbuffer.net/tech/adguard-on-chrome-and-edge-after-manifest-v3-what-changed/
+
+#ChromeExtensions #ManifestV3 #Google #WebDev #Browser
