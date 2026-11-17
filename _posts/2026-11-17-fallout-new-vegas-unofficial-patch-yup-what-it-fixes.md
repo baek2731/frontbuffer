@@ -1,4 +1,14 @@
-# Fallout New Vegas Unofficial Patch (YUP): What It Fixes
+---
+layout: single
+title: 'Fallout New Vegas Unofficial Patch (YUP): What It Fixes'
+date: 2026-11-17 14:12:00 +0000
+categories: [gaming]
+tags: ["explainer", "fallout-new-vegas", "yukichigai-unofficial-patch", "mods"]
+excerpt: 'YUP is a bug-fix compilation for Fallout: New Vegas. What it fixes, where it loads, how it pairs with Unofficial Patch NVSE Plus, and one known issue.'
+author_profile: false
+read_time: true
+share: true
+---
 
 The Yukichigai Unofficial Patch, or YUP, is a bug-fix compilation for Fallout: New Vegas. Its Nexus Mods page describes it as addressing bugs and exploits that the final official patch did not fix. If you follow the Viva New Vegas guide, YUP is part of its base install, so you do not choose it separately. This post explains what it does, how it relates to Unofficial Patch NVSE Plus, and one known issue between the two.
 
@@ -39,5 +49,3 @@ Sources:
 - [How to have the best Fallout New Vegas experience today, PC Gamer](https://www.pcgamer.com/fallout-new-vegas-guide-tips-best-experience/)
 - [Bug Fixes, Viva New Vegas](https://vivanewvegas.moddinglinked.com/bugfix.html)
 
-<!-- excerpt: YUP is a bug-fix compilation for Fallout: New Vegas. What it fixes, where it loads, how it pairs with Unofficial Patch NVSE Plus, and one known issue. -->
-<!-- tags: explainer, fallout-new-vegas, yukichigai-unofficial-patch, mods -->
