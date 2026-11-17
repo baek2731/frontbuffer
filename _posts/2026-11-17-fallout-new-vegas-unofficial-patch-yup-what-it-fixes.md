@@ -5,6 +5,9 @@ date: 2026-11-17 14:12:00 +0000
 categories: [gaming]
 tags: ["explainer", "fallout-new-vegas", "yukichigai-unofficial-patch", "mods"]
 excerpt: 'YUP is a bug-fix compilation for Fallout: New Vegas. What it fixes, where it loads, how it pairs with Unofficial Patch NVSE Plus, and one known issue.'
+header:
+  image: https://images.frontbuffer.net/posts/fallout-new-vegas-unofficial-patch-yup-what-it-fixes/og.png
+  overlay_filter: 0
 author_profile: false
 read_time: true
 share: true
