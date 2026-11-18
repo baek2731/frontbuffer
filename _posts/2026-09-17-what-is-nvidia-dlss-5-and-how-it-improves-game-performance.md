@@ -2,10 +2,10 @@
 layout: single
 title: 'Nvidia DLSS 5 Explained: How 3D-Guided Neural Rendering Works'
 date: 2026-09-17 14:31:00 +0000
-last_modified_at: 2026-10-20 00:00:00 +0000
+last_modified_at: 2026-11-18 00:00:00 +0000
 categories: [gaming]
 tags: ["explainer", "nvidia", "dlss", "technology"]
-excerpt: 'DLSS 5 launched in NBA 2K27 on September 3, 2026. What 3D-Guided Neural Rendering does, the faster October model, which GPUs get it and which games are next.'
+excerpt: 'DLSS 5 is live in NBA 2K27, Hogwarts Legacy and War Thunder. What 3D-Guided Neural Rendering does, the faster October model, which GPUs get it and what is next.'
 header:
   image: https://images.frontbuffer.net/posts/what-is-nvidia-dlss-5-and-how-it-improves-game-performance/og.png
   overlay_filter: 0
@@ -14,9 +14,9 @@ read_time: true
 share: true
 ---
 
-DLSS 5 launched on September 3, 2026, in NBA 2K27, and adds 3D-Guided Neural Rendering to Nvidia's DLSS suite. [Nvidia says](https://www.nvidia.com/en-us/geforce/news/star-wars-zero-company-aliens-fireteam-elite-blood-of-dawnwalker-dlss/) it is available in that game on all GeForce RTX 50 Series GPUs and laptops and on GeForce NOW. Rather than raising resolution or adding frames, it uses AI to add lighting and material detail to the engine's finished frame.
+DLSS 5 launched on September 3, 2026, in NBA 2K27, and has since reached Hogwarts Legacy and War Thunder. It adds 3D-Guided Neural Rendering to Nvidia's DLSS suite. [Nvidia says](https://www.nvidia.com/en-us/geforce/news/star-wars-zero-company-aliens-fireteam-elite-blood-of-dawnwalker-dlss/) it is available in that game on all GeForce RTX 50 Series GPUs and laptops and on GeForce NOW. Rather than raising resolution or adding frames, it uses AI to add lighting and material detail to the engine's finished frame.
 
-*Checked October 20, 2026 against Nvidia's GeForce news posts of September 1 and October 13, 2026. Image-quality claims are Nvidia's, and we did not test DLSS 5.*
+*Checked November 18, 2026 against Nvidia's GeForce news posts of September 1, October 13, November 5 and November 12, 2026. Image-quality claims are Nvidia's, and we did not test DLSS 5.*
 
 ---
 
@@ -43,16 +43,17 @@ It reaches NBA 2K27 on October 16 on GeForce RTX 50 Series GPUs, RTX Spark lapto
 
 ## Which hardware supports it
 
-Nvidia's announcements list GeForce RTX 50 Series desktop and laptop GPUs, RTX Spark laptops (from October 16) and GeForce NOW. The pages we checked announce no support for RTX 40 Series cards. Nvidia separately released a beta Frame Generation Performance Mode, called Preset C, for RTX 40 and RTX 50 cards and RTX Spark laptops, which it says is up to 35% faster on an RTX 5060.
+Nvidia's announcements list GeForce RTX 50 Series desktop and laptop GPUs, RTX Spark laptops (from October 16) and GeForce NOW. For Hogwarts Legacy, Nvidia's November 5 post names RTX 50 Series GPUs and laptops, RTX Spark PCs and GeForce NOW Ultimate. The pages we checked announce no support for RTX 40 Series cards. Nvidia separately released a beta Frame Generation Performance Mode, called Preset C, for RTX 40 and RTX 50 cards and RTX Spark laptops, which it says is up to 35% faster on an RTX 5060.
 
 ---
 
 ## Games and tools
 
-- **NBA 2K27:** live now.
-- **RTX Remix:** DLSS 5 arrives October 23.
-- **Hogwarts Legacy:** November 5, on RTX 50 Series, GeForce NOW and RTX Spark.
-- **Where Winds Meet:** late November.
+- **NBA 2K27:** live since September 3.
+- **Hogwarts Legacy:** live since November 5. After updating the game, Nvidia says to turn on the "Neural Rendering" option in the in-game options. It also recommends DLSS Super Resolution, DLSS Multi Frame Generation and Nvidia Reflex, plus DLSS Ray Reconstruction if you use ray tracing, and a Game Ready driver released November 4.
+- **War Thunder:** Nvidia's November 12 post says the Eagle's Shadow update has gone live with DLSS 5, for RTX 50 Series and RTX Spark systems. That post gives no enabling steps for this game.
+- **Where Winds Meet:** November 23, according to Nvidia's November 5 and November 12 posts. We updated this from "late November" in our earlier version.
+- **RTX Remix:** Nvidia's October 13 post said DLSS 5 would arrive October 23. We did not check whether it shipped.
 
 Nvidia says DLSS as a whole accelerates more than 1,000 games and apps, but that figure covers the DLSS suite, not DLSS 5.
 
@@ -66,16 +67,18 @@ Nvidia says modders using RTX Remix get the same controls as developers: they ca
 
 ## What we could not verify
 
-We did not verify community reactions to DLSS 5's look, which Nvidia's own material does not cover. Earlier claims we saw about frame rates in specific benchmarks, or about running DLSS 5 on older cards, came from sources we could not confirm, so we left them out.
+We did not verify community reactions to DLSS 5's look, which Nvidia's own material does not cover. We also have not confirmed that the Where Winds Meet update ships on November 23 as scheduled. Earlier claims we saw about frame rates in specific benchmarks, or about running DLSS 5 on older cards, came from sources we could not confirm, so we left them out.
 
 ---
 
 ## Takeaway
 
-DLSS 5 is real, live in one game and expanding in the coming weeks, and limited to RTX 50 Series GPUs, RTX Spark laptops and GeForce NOW. If you own a different card, there is nothing to turn on yet.
+DLSS 5 is live in NBA 2K27, Hogwarts Legacy and War Thunder, with Where Winds Meet due November 23. It is limited to RTX 50 Series GPUs, RTX Spark systems and GeForce NOW. The Nvidia pages we checked list no RTX 40 Series support, so if you own that card there is nothing to turn on yet.
 
 ---
 
 Sources:
 - [DLSS 5 Comes To Hogwarts Legacy & RTX Spark, Powered By 2X Faster Model, Nvidia](https://www.nvidia.com/en-us/geforce/news/dlss-5-faster-ai-model-hogwarts-legacy-rtx-spark-laptops/)
+- [DLSS 5 With 3D-Guided Neural Rendering Available Now In Hogwarts Legacy, Comes To War Thunder & Where Winds Meet Later This Month, Nvidia](https://www.nvidia.com/en-us/geforce/news/hogwarts-legacy-war-thunder-dlss-5-3d-guided-neural-rendering/)
+- [DLSS 5 With 3D-Guided Neural Rendering Available Now In War Thunder, Nvidia](https://www.nvidia.com/en-us/geforce/news/war-thunder-dlss-5-3d-guided-neural-rendering-out-now/)
 - [DLSS 5 Launches In NBA 2K27, Plus DLSS Comes To STAR WARS Zero Company and more, Nvidia](https://www.nvidia.com/en-us/geforce/news/star-wars-zero-company-aliens-fireteam-elite-blood-of-dawnwalker-dlss/)
