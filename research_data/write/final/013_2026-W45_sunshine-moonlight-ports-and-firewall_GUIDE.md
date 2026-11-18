@@ -2,7 +2,7 @@
 
 Sunshine builds all of its ports from one starting number, 47989 by default. For manual forwarding, Moonlight's own guide lists TCP 47984, 47989 and 48010, plus UDP 47998, 47999, 48000, 48002 and 48010. On a home network, Sunshine should create the Windows Firewall rules itself, and the web UI port, TCP 47990, is not on the forwarding list. This post covers what each port does, how to add the rules by hand and which settings matter when a stream will not connect.
 
-*Checked November 3, 2026 against Sunshine's current Configuration page, an older Sunshine Advanced Usage page (v0.22.1) for the port table, and Moonlight's Setup Guide (last edited February 27, 2025).*
+*Checked November 3, 2026 against Sunshine's current Configuration page, an older Sunshine Advanced Usage page (v0.22.1) for the port table, and Moonlight's Setup Guide (last edited February 27, 2025). On November 18, 2026 we re-opened Sunshine's Configuration page, the v0.21.0 version of the Advanced Usage page, the Setup Guide and Sunshine's release list, and rechecked the ports, firewall commands and settings below against them.*
 
 ## The ports
 
@@ -18,7 +18,7 @@ Sunshine's [Configuration page](https://docs.lizardbyte.dev/projects/sunshine/la
 | Control | 47999 UDP | +10 |
 | Audio | 48000 UDP | +11 |
 
-That older page also warns that custom ports may not be supported by all Moonlight clients. Moonlight's guide additionally lists UDP 48002 and UDP 48010, which are not in the older Sunshine table, so check your Sunshine web UI for the ports your version uses.
+That older page also warns that custom ports may not be supported by all Moonlight clients. Moonlight's guide additionally lists UDP 48002 and UDP 48010, which are not in that table. The [v0.21.0 version of the page](https://docs.lizardbyte.dev/projects/sunshine/v0.21.0/about/advanced_usage.html) does list UDP 48002, as an unused microphone port at offset +13. Check your Sunshine web UI for the ports your version uses.
 
 ## The web UI port stays local
 
@@ -26,9 +26,11 @@ Sunshine's web UI opens at `https://localhost:47990`. Moonlight's [Setup Guide](
 
 The `origin_web_ui_allowed` setting controls who can open it. Its default is `lan`. The choices are `pc` (only localhost), `lan` (only devices on your local network) and `wan` (anyone). The forwarding lists in Moonlight's guide do not include 47990. Our reading of those two pages is that there is no reason to forward it to the internet.
 
+Two recent Sunshine changes affect how you reach it. The [Sunshine release list](https://github.com/LizardByte/Sunshine/releases) says release v2026.516.143833 (May 2026) added CSRF protection to the web UI, and that if you open it through an address other than localhost you must add that address to `sunshine.conf` yourself. The Configuration page names the setting `csrf_allowed_origins`: it takes a comma-separated list of full origins, and the empty default allows only localhost on the configured UI port. Release v2026.906.222525 also stopped Sunshine from opening the web UI automatically at startup, so use the address above or the tray menu's Open Sunshine option, which the Setup Guide mentions.
+
 ## Add the Windows Firewall rules by hand
 
-The Setup Guide says Sunshine should create Windows Firewall rules automatically. If streaming fails even on the same network as your PC, it suggests first turning your firewall off briefly to confirm it is the cause, then turning it back on. If a firewall is the cause, the guide gives these two commands, which you run in an administrator Command Prompt or PowerShell window:
+The Setup Guide says Sunshine should create Windows Firewall rules automatically. If streaming fails even on the same network as your PC, it suggests first disabling the firewall software on your gaming PC to confirm it is the cause. Turn it back on afterward. If a firewall is the cause, the guide gives these two commands, which you run in an administrator Command Prompt or PowerShell window:
 
 ```
 netsh advfirewall firewall add rule name="GameStream UDP" dir=in protocol=udp localport=5353,47998-48010 action=allow
@@ -55,13 +57,15 @@ For the basic setup, see our guide to [using Sunshine and Moonlight to stream PC
 ## What we could not confirm
 
 - The exact port offsets in the latest Sunshine build, since the current page points to the web UI instead of a table.
-- Why Moonlight lists UDP 48002 and 48010 while the older Sunshine table does not.
+- Why Moonlight lists UDP 48010 when Sunshine's tables give 48010 only as TCP, and whether the microphone port 48002 still exists in the latest build.
 - Whether your Sunshine install created its own firewall rules, or how a third-party security suite treats them.
 
 ---
 Sources:
 - [Configuration, Sunshine documentation, LizardByte](https://docs.lizardbyte.dev/projects/sunshine/latest/md_docs_2configuration.html)
 - [Advanced Usage (v0.22.1), Sunshine documentation, LizardByte](https://docs.lizardbyte.dev/projects/sunshine/v0.22.1/about/advanced_usage.html)
+- [Advanced Usage (v0.21.0), Sunshine documentation, LizardByte](https://docs.lizardbyte.dev/projects/sunshine/v0.21.0/about/advanced_usage.html)
+- [Releases, LizardByte/Sunshine, GitHub](https://github.com/LizardByte/Sunshine/releases)
 - [Setup Guide, Moonlight Docs](https://github.com/moonlight-stream/moonlight-docs/wiki/Setup-Guide)
 
 <!-- excerpt: Which ports Sunshine and Moonlight use, what to open in Windows Firewall or on a router, and why the web UI port stays off the forwarding list. -->
