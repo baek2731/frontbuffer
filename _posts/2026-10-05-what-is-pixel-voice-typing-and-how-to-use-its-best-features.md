@@ -2,10 +2,10 @@
 layout: single
 title: 'Pixel voice typing: how to turn it on and key voice commands'
 date: 2026-10-05 14:01:00 +0000
-last_modified_at: 2026-11-03 00:00:00 +0000
+last_modified_at: 2026-11-18 00:00:00 +0000
 categories: [tech]
 tags: ["guide", "pixel", "voice-typing", "gboard"]
-excerpt: 'Voice typing in Gboard turns speech into text on Pixel phones. How to start it, the commands Google documents, what Rambler changes on Pixel 11, and fixes.'
+excerpt: 'Voice typing in Gboard turns speech into text on Pixel phones. How to start it, the commands Google documents, what Rambler is on Pixel 10 and 11, and fixes.'
 header:
   image: https://images.frontbuffer.net/posts/what-is-pixel-voice-typing-and-how-to-use-its-best-features/og.png
   overlay_filter: 0
@@ -14,9 +14,9 @@ read_time: true
 share: true
 ---
 
-If the microphone is missing from your Pixel keyboard, or dictation stops working, the fix is usually in Gboard or its language settings. Voice typing is a Gboard feature. Google says Pixel 6 and later phones, including the Fold and Tablet, get advanced voice typing, and the Pixel 11 added a newer voice input called Rambler.
+If the microphone is missing from your Pixel keyboard, or dictation stops working, the fix is usually in Gboard or its language settings. Voice typing is a Gboard feature. Google says Pixel 6 and later phones, including the Fold and Tablet, get advanced voice typing, and a newer voice input called Rambler arrived with the Pixel 11. Google's November 10 posts say it is also available on Pixel 10 models.
 
-*Checked October 20, 2026 against Google's Gboard Help pages and 9to5Google's Pixel 11 coverage. Menu names vary by Android and Gboard version.*
+*Checked October 20, 2026 against Google's Gboard Help pages and 9to5Google's Pixel 11 coverage. On November 18, 2026 we added Google's November 10 Pixel Drop post and its Android blog post for the Rambler section. Menu names vary by Android and Gboard version.*
 
 ---
 
@@ -54,7 +54,9 @@ If you use several languages, Google says voice typing can detect your spoken la
 
 ---
 
-## Rambler on Pixel 11
+## Rambler on Pixel 10 and Pixel 11
+
+Google's [November Pixel Drop post](https://blog.google/products-and-platforms/devices/pixel/november-2026-pixel-drop/) says Rambler can automatically remove filler words like "um" and format your thoughts into clear, polished text, and that you speak naturally, review and send. Its [Android blog post](https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/) says Rambler is available on Pixel 10 models in Gboard, in select countries and languages, and is subject to usage limits. The Pixel 10a is not named in either post, so we cannot say whether it gets Rambler.
 
 [9to5Google reports](https://9to5google.com/2026/08/12/pixel-11-gemini-intelligence/) that Rambler, a Gboard feature launched with the Pixel 11, filters run-on sentences and filler words such as "umm" and "ah" to produce a cleaner transcription. When it is active it takes over the keyboard's suggestion strip with a waveform animation, and Gboard settings include an option to use the previous speech-to-text system instead. For the other Pixel 11 differences, see [our Pixel 10 vs Pixel 11 comparison]({% post_url 2026-10-03-pixel-10-vs-pixel-11-camera-low-light-and-voice-typing-compa %}).
 
@@ -80,7 +82,7 @@ Google's list gives five causes but no order. Our reading is that the cheapest c
 
 Of the commands, we would learn Undo first, since it reverses a correction, and Stop second. That is a suggestion for beginners, not something Google's page ranks.
 
-The Rambler details in this post rest on one outlet's coverage of the Pixel 11. Treat them as reported, not as documented by Google, until Google's own help pages describe the feature.
+Google's November 10 posts now describe Rambler and say it is on Pixel 10 models. The waveform animation and the setting that switches back to the previous speech-to-text system come only from 9to5Google's Pixel 11 coverage, so treat them as reported. We did not re-check Gboard Help for Rambler on November 18.
 
 ---
 
@@ -92,7 +94,7 @@ The Rambler details in this post rest on one outlet's coverage of the Pixel 11. 
 
 **Why is the microphone missing or not working?** Google's page lists a language mismatch between Gboard and the device, an outdated Android System Intelligence, microphone permission, a new phone still downloading updates, and a phone older than Pixel 6 for advanced voice typing.
 
-**What is Rambler?** 9to5Google reports it as a Pixel 11 Gboard feature that filters run-on sentences and fillers such as "umm" and "ah", with a settings option to use the previous speech-to-text system.
+**What is Rambler?** Google describes it as voice typing that removes filler words like "um" and formats your speech into clear text, available on Pixel 10 models. 9to5Google reports that it launched with the Pixel 11 and that a settings option can switch back to the previous speech-to-text system.
 
 **Does voice typing work offline?** Google's pages we checked do not describe offline language packs, so we cannot say which languages work without a connection.
 
@@ -102,6 +104,7 @@ The Rambler details in this post rest on one outlet's coverage of the Pixel 11. 
 
 - October 20, 2026: checked against Google's Gboard Help pages and 9to5Google's Pixel 11 coverage.
 - November 3, 2026: replaced the closing summary with the sections above. No instructions or facts were changed.
+- November 18, 2026: updated the Rambler section with Google's November 10 posts, which say it is available on Pixel 10 models.
 
 ---
 
@@ -109,3 +112,5 @@ Sources:
 - [Type with your voice, Gboard Help](https://support.google.com/gboard/answer/2781851)
 - [Use advanced voice typing features, Gboard Help](https://support.google.com/gboard/answer/11197787)
 - [Pixel 11 Gemini Intelligence, 9to5Google](https://9to5google.com/2026/08/12/pixel-11-gemini-intelligence/)
+- [Pixel 10 with Gemini Intelligence, custom widgets, and more in our November Pixel Drop, Google](https://blog.google/products-and-platforms/devices/pixel/november-2026-pixel-drop/)
+- [Gemini Intelligence features and new device support, Google](https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/)

@@ -2,7 +2,7 @@
 layout: single
 title: 'Pixel 10 vs Pixel 11 Camera: Is the Bigger Sensor Worth It?'
 date: 2026-10-03 14:23:00 +0000
-last_modified_at: 2026-11-03 00:00:00 +0000
+last_modified_at: 2026-11-18 00:00:00 +0000
 categories: [tech]
 tags: ["comparison", "pixel", "camera", "tensor"]
 excerpt: 'The Pixel 11 moves its main camera to a 1/1.56-inch sensor at the same 48MP, which Google says gathers 56% more light. What changes, and who should upgrade.'
@@ -64,7 +64,7 @@ Google says Tensor G6's CPU is up to 20% more efficient, 25% faster for web brow
 
 The Pixel 11's battery is 4,985mAh against 4,970mAh on the Pixel 10, a small increase, per the same article.
 
-For dictation, we cover Gboard's voice typing on Pixel in [our voice typing guide]({% post_url 2026-10-05-what-is-pixel-voice-typing-and-how-to-use-its-best-features %}). Android Authority says Pixel 11 phones will be among the first to get a Gboard mode called Rambler, which makes sense of rambling speech. Whether it comes to the Pixel 10 was not confirmed in the sources checked.
+For dictation, we cover Gboard's voice typing on Pixel in [our voice typing guide]({% post_url 2026-10-05-what-is-pixel-voice-typing-and-how-to-use-its-best-features %}). Android Authority says Pixel 11 phones will be among the first to get a Gboard mode called Rambler, which makes sense of rambling speech. Google's [November 10, 2026 Pixel Drop post](https://blog.google/products-and-platforms/devices/pixel/november-2026-pixel-drop/) later said Rambler is available on Pixel 10 models, so it is not limited to the Pixel 11.
 
 ---
 
@@ -83,3 +83,4 @@ Sources:
 - [Pixel 11 camera gets new main sensors, 9to5Google](https://9to5google.com/2026/08/12/google-pixel-11-camera-whats-new/)
 - [Google Pixel 11 launches with revamped camera and higher base storage, Notebookcheck](https://notebookcheck.net/Google-Pixel-11-launches-with-revamped-camera-and-higher-base-storage.1366481.0.html)
 - [Google launches the Pixel 11 Pro Fold, Android Authority](https://www.androidauthority.com/pixel-11-pro-fold-launch-3697229/)
+- [Pixel 10 with Gemini Intelligence, custom widgets, and more in our November Pixel Drop, Google](https://blog.google/products-and-platforms/devices/pixel/november-2026-pixel-drop/)
