@@ -1,4 +1,14 @@
-# Sunshine and Moonlight Ports and Firewall: What to Open
+---
+layout: single
+title: 'Sunshine and Moonlight Ports and Firewall: What to Open'
+date: 2026-11-20 14:39:00 +0000
+categories: [tech]
+tags: ["guide", "sunshine", "moonlight", "firewall"]
+excerpt: 'Which ports Sunshine and Moonlight use, what to open in Windows Firewall or on a router, and why the web UI port stays off the forwarding list.'
+author_profile: false
+read_time: true
+share: true
+---
 
 Sunshine builds all of its ports from one starting number, 47989 by default. For manual forwarding, Moonlight's own guide lists TCP 47984, 47989 and 48010, plus UDP 47998, 47999, 48000, 48002 and 48010. On a home network, Sunshine should create the Windows Firewall rules itself, and the web UI port, TCP 47990, is not on the forwarding list. This post covers what each port does, how to add the rules by hand and which settings matter when a stream will not connect.
 
@@ -68,5 +78,3 @@ Sources:
 - [Releases, LizardByte/Sunshine, GitHub](https://github.com/LizardByte/Sunshine/releases)
 - [Setup Guide, Moonlight Docs](https://github.com/moonlight-stream/moonlight-docs/wiki/Setup-Guide)
 
-<!-- excerpt: Which ports Sunshine and Moonlight use, what to open in Windows Firewall or on a router, and why the web UI port stays off the forwarding list. -->
-<!-- tags: guide, sunshine, moonlight, firewall -->
