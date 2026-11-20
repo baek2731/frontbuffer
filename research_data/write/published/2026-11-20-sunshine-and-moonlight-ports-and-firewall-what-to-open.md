@@ -5,6 +5,9 @@ date: 2026-11-20 14:39:00 +0000
 categories: [tech]
 tags: ["guide", "sunshine", "moonlight", "firewall"]
 excerpt: 'Which ports Sunshine and Moonlight use, what to open in Windows Firewall or on a router, and why the web UI port stays off the forwarding list.'
+header:
+  image: https://images.frontbuffer.net/posts/sunshine-and-moonlight-ports-and-firewall-what-to-open/og.png
+  overlay_filter: 0
 author_profile: false
 read_time: true
 share: true
