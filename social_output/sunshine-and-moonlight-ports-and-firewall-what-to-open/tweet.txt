@@ -1,0 +1,5 @@
+Which ports Sunshine and Moonlight use, what to open in Windows Firewall or on a router, and why the web UI port stays off the forwarding…
+
+https://frontbuffer.net/tech/sunshine-and-moonlight-ports-and-firewall-what-to-open/
+
+#Tech #Digital #Productivity #Software #Innovation
