@@ -1,4 +1,14 @@
-# Can Moonlight Stream Over the Internet? UPnP, VPN and Ports
+---
+layout: single
+title: 'Can Moonlight Stream Over the Internet? UPnP, VPN and Ports'
+date: 2026-11-24 14:03:00 +0000
+categories: [tech]
+tags: ["guide", "moonlight", "sunshine", "remote-streaming"]
+excerpt: 'Moonlight can stream away from home with Sunshine''s UPnP, a VPN-style tool or manual port forwarding. How each works and why CGNAT blocks some setups.'
+author_profile: false
+read_time: true
+share: true
+---
 
 Yes. Moonlight's own guide describes several ways to stream away from home with Sunshine. The simplest is Sunshine's built-in UPnP option, which is turned off by default and which asks your router to open the needed ports. The others are manual port forwarding and private-network tools such as Tailscale, ZeroTier and NordVPN Meshnet. Which one works depends mostly on your router and your internet provider.
 
@@ -54,5 +64,3 @@ Sources:
 - [Changelog (v0.21.0), Sunshine documentation, LizardByte](https://docs.lizardbyte.dev/projects/sunshine/v0.21.0/about/changelog.html)
 - [Releases, LizardByte/Sunshine, GitHub](https://github.com/LizardByte/Sunshine/releases)
 
-<!-- excerpt: Moonlight can stream away from home with Sunshine's UPnP, a VPN-style tool or manual port forwarding. How each works and why CGNAT blocks some setups. -->
-<!-- tags: guide, moonlight, sunshine, remote-streaming -->

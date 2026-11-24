@@ -1482,6 +1482,19 @@
       "hub_cluster": "",
       "verified_keywords": [],
       "slug": "2026-11-20-sunshine-and-moonlight-ports-and-firewall-what-to-open"
+    },
+    {
+      "status": "live",
+      "date": "2026-11-24",
+      "title": "Can Moonlight Stream Over the Internet? UPnP, VPN and Ports",
+      "live_url": "https://frontbuffer.net/tech/can-moonlight-stream-over-the-internet-upnp-vpn-and-ports/",
+      "categories": [
+        "tech"
+      ],
+      "content_type": "GUIDE",
+      "hub_cluster": "",
+      "verified_keywords": [],
+      "slug": "2026-11-24-can-moonlight-stream-over-the-internet-upnp-vpn-and-ports"
     }
   ],
   "_last_updated": "2026-08-07T14:54:21.320932+00:00"
