@@ -5,6 +5,9 @@ date: 2026-11-24 14:03:00 +0000
 categories: [tech]
 tags: ["guide", "moonlight", "sunshine", "remote-streaming"]
 excerpt: 'Moonlight can stream away from home with Sunshine''s UPnP, a VPN-style tool or manual port forwarding. How each works and why CGNAT blocks some setups.'
+header:
+  image: https://images.frontbuffer.net/posts/can-moonlight-stream-over-the-internet-upnp-vpn-and-ports/og.png
+  overlay_filter: 0
 author_profile: false
 read_time: true
 share: true

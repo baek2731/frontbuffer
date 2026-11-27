@@ -1,17 +1,14 @@
 # Frontbuffer 주간 품질 감사 리포트
-생성: 2026-11-20 22:04 UTC  |  dry-run: False
+생성: 2026-11-27 23:07 UTC  |  dry-run: False
 
 ## 요약
-- 자동 수정: **5건**
+- 자동 수정: **2건**
 - 수동 확인 필요: **30건**
-- final/ 스택 잔량: **2편**
+- final/ 스택 잔량: **0편**
 
 ## ✅ 자동 수정 — published/ 동기화
-- published/2026-11-17-fallout-new-vegas-unofficial-patch-yup-what-it-fixes.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-10-05-what-is-pixel-voice-typing-and-how-to-use-its-best-features.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-09-17-what-is-nvidia-dlss-5-and-how-it-improves-game-performance.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-11-20-sunshine-and-moonlight-ports-and-firewall-what-to-open.md 내용 불일치 → _posts/ 기준으로 덮어씀
-- published/2026-10-03-pixel-10-vs-pixel-11-camera-low-light-and-voice-typing-compa.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-11-24-can-moonlight-stream-over-the-internet-upnp-vpn-and-ports.md 내용 불일치 → _posts/ 기준으로 덮어씀
+- published/2026-11-27-november-2026-pixel-drop-whats-new-and-who-gets-it.md 내용 불일치 → _posts/ 기준으로 덮어씀
 
 ## ⚠️ 수동 확인 필요 — 단어 수 미달
 - 2026-08-08-06-android-auto_comparison.md — 593단어
@@ -50,4 +47,4 @@
 - **Gaming Technology & Software** — 스포크 2개 발행됐으나 HUB 없음 (hub_status: READY)
 
 ## 🚨 스택 잔량 부족
-final/ 잔량 2편 — 검수한 새 글을 final/ 에 넣어 보충하세요(Step 1~3 자동 생성은 사용하지 않음).
+final/ 잔량 0편 — 검수한 새 글을 final/ 에 넣어 보충하세요(Step 1~3 자동 생성은 사용하지 않음).
