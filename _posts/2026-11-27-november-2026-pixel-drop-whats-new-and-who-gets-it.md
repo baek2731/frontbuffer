@@ -1,4 +1,14 @@
-# November 2026 Pixel Drop: What's New and Who Gets It
+---
+layout: single
+title: 'November 2026 Pixel Drop: What''s New and Who Gets It'
+date: 2026-11-27 14:55:00 +0000
+categories: [tech]
+tags: ["explainer", "pixel", "drop", "november"]
+excerpt: 'November 2026 Pixel Drop brings Rambler and Gemini Intelligence to Pixel 10. What is in it, which Pixels get each feature, and where Google''s own pages differ.'
+author_profile: false
+read_time: true
+share: true
+---
 
 Google's November 2026 Pixel Drop brings Gemini Intelligence to the Pixel 10, including Rambler voice typing, and adds a Call Screen upgrade for the Pixel 11 series. Smaller items such as custom icon styles and Pixel search reach older phones. Google says the updates started rolling out on November 10 and will continue over the next several weeks, and most features depend on your model, country or language.
 
@@ -57,5 +67,3 @@ Sources:
 - [Pixel 10 with Gemini Intelligence, custom widgets, and more in our November Pixel Drop, Google](https://blog.google/products-and-platforms/devices/pixel/november-2026-pixel-drop/)
 - [Gemini Intelligence features and new device support, Google](https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/)
 
-<!-- excerpt: November 2026 Pixel Drop brings Rambler and Gemini Intelligence to Pixel 10. What is in it, which Pixels get each feature, and where Google's own pages differ. -->
-<!-- tags: explainer, pixel, drop, november -->
