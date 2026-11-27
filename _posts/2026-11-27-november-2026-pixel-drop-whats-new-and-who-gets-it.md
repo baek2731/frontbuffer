@@ -5,6 +5,9 @@ date: 2026-11-27 14:55:00 +0000
 categories: [tech]
 tags: ["explainer", "pixel", "drop", "november"]
 excerpt: 'November 2026 Pixel Drop brings Rambler and Gemini Intelligence to Pixel 10. What is in it, which Pixels get each feature, and where Google''s own pages differ.'
+header:
+  image: https://images.frontbuffer.net/posts/november-2026-pixel-drop-whats-new-and-who-gets-it/og.png
+  overlay_filter: 0
 author_profile: false
 read_time: true
 share: true
